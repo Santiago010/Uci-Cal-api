@@ -1,0 +1,3 @@
+
+
+g++ -o my_example main.cpp example.cpp -I/opt/homebrew/include -L/opt/homebrew/lib -llog4cpp -I/opt/homebrew/Cellar/activemq-cpp/3.9.5_2/include/activemq-cpp-3.9.5 -L/opt/homebrew/Cellar/activemq-cpp/3.9.5_2/lib -lactivemq-cpp

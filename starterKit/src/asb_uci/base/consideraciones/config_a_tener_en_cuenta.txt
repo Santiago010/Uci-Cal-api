@@ -1,0 +1,5 @@
+        "includePath": [
+            "${workspaceFolder}/**",
+            "/usr/local/include"  // Agrega el directorio de las bibliotecas instaladas por brew en C/C++: Edit Configurations (JSON)
+        ],
+
