@@ -33,13 +33,13 @@
  *
  */
 
-#include "asb_uci/base/ConnectionMonitor.h"
+#include "../../../include/asb_uci/base/ConnectionMonitor.h"
 
 #include <memory>
 #include <utility>
 
-#include "asb_uci/base/ConnectionStatus.h"
-#include "uci/base/AbstractServiceBusConnection.h"
+#include "../../../include/asb_uci/base/ConnectionStatus.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/AbstractServiceBusConnection.h"
 
 /**  */
 namespace asb_uci {

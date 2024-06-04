@@ -38,8 +38,8 @@
 
 #include <string>
 
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
+#include "UCIException.h"
+#include "accessorType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -41,8 +41,8 @@
 #include <string>
 #include <thread>
 
-#include "asb_uci/base/WaitQueue.h"
-#include "uci/base/AbstractServiceBusConnection.h"
+#include "WaitQueue.h"
+#include "AbstractServiceBusConnection.h"
 
 /**  */
 namespace asb_uci {

@@ -1,0 +1,2 @@
+entrar a Uci-Cal-api/starterKit/src/asb_uci/base/build y hacer 
+cmake .. y luego make

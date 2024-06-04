@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/base/ConnectionStatus.h"
+#include "../../../include/asb_uci/base/ConnectionStatus.h"
 
 #include <memory>
 #include <mutex>
@@ -43,10 +43,10 @@
 
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/base/Reader.h"
-#include "asb_uci/base/Writer.h"
-#include "uci/base/AbstractServiceBusConnection.h"
-#include "uci/base/AbstractServiceBusConnectionStatusListener.h"
+#include "../../../include/asb_uci/base/Reader.h"
+#include "../../../include/asb_uci/base/Writer.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/AbstractServiceBusConnection.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/AbstractServiceBusConnectionStatusListener.h"
 
 /**  */
 namespace asb_uci {

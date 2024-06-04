@@ -53,14 +53,14 @@
 #include <cms/Connection.h>
 
 #include "../../../include/asb_uci/base/ConfigReader.h"
-#include "asb_uci/base/ConnectionMonitor.h"
-#include "asb_uci/base/ConnectionStatus.h"
-#include "asb_uci/base/Reader.h"
-#include "asb_uci/base/Writer.h"
-#include "uci/base/AbstractServiceBusConnection.h"
-#include "uci/base/AbstractServiceBusConnectionStatusListener.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/UUID.h"
+#include "../../../include/asb_uci/base/ConnectionMonitor.h"
+#include "../../../include/asb_uci/base/ConnectionStatus.h"
+#include "../../../include/asb_uci/base/Reader.h"
+#include "../../../include/asb_uci/base/Writer.h"
+#include "../../../include/asb_uci/base/AbstractServiceBusConnection.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/AbstractServiceBusConnectionStatusListener.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UUID.h"
 
 /**  */
 namespace asb_uci {
@@ -214,7 +214,8 @@ void AbstractServiceBusConnection::addStatusListener(uci::base::AbstractServiceB
   connectionStatus->addStatusListener(listener);
 }
 
-void AbstractServiceBusConnection::removeStatusListener(asb_uci::base::AbstractServiceBusConnectionStatusListener& listener) {
+
+void AbstractServiceBusConnection::removeStatusListener(uci::base::AbstractServiceBusConnectionStatusListener& listener) {
   connectionStatus->removeStatusListener(listener);
 }
 

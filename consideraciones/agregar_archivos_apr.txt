@@ -1,0 +1,2 @@
+cuando instales la libreria apr y activemq-cpp, incluir los archivsos que se encuentran en apr en la siguiente ruta si estas en mac : 
+/usr/local/Cellar/activemq-cpp/3.9.5_2/include/activemq-cpp-3.9.5/decaf/internal

@@ -45,6 +45,7 @@
 
 #include "ConnectionMonitor.h"
 #include "AbstractServiceBusConnection.h"
+#include "ConfigReader.h"
 #include "../../../../cppInterface/2.3.2/include/uci/base/AbstractServiceBusConnectionStatusListener.h"
 #include "../../../../cppInterface/2.3.2/include/uci/base/UUID.h"
 

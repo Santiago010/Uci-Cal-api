@@ -36,7 +36,7 @@
 #ifndef XS_TYPE_BINARYXMLSCHEMAPRIMITIVES_H
 #define XS_TYPE_BINARYXMLSCHEMAPRIMITIVES_H
 
-#include "uci/base/SimpleList.h"
+#include "../../uci/base/SimpleList.h"
 
 /** The namespace in which all XML Schema Definition data types are declared */
 namespace xs {

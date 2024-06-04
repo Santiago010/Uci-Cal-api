@@ -36,7 +36,7 @@
 #ifndef XS_TYPE_STRINGXMLSCHEMAPRIMITIVES_H
 #define XS_TYPE_STRINGXMLSCHEMAPRIMITIVES_H
 
-#include "uci/base/StringAccessor.h"
+#include "../../uci/base/StringAccessor.h"
 
 /** The namespace in which all XML Schema Definition data types are declared */
 namespace xs {

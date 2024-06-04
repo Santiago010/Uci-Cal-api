@@ -45,8 +45,8 @@
 #include <boost/lexical_cast.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "uci/base/UUID.h"
-#include "xs/type/xmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UUID.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/xmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

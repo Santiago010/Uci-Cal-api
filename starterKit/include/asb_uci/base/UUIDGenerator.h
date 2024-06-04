@@ -44,7 +44,7 @@
 #include <boost/random/random_device.hpp>
 #include <boost/uuid/random_generator.hpp>
 
-#include "uci/base/UUID.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UUID.h"
 
 /**  */
 namespace asb_uci {

@@ -36,9 +36,9 @@
 #ifndef XS_TYPE_XMLSCHEMAPRIMITIVES_H
 #define XS_TYPE_XMLSCHEMAPRIMITIVES_H
 
-#include "xs/type/binaryXmlSchemaPrimitives.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
-#include "xs/type/stringXmlSchemaPrimitives.h"
+#include "binaryXmlSchemaPrimitives.h"
+#include "simpleXmlSchemaPrimitives.h"
+#include "stringXmlSchemaPrimitives.h"
 
 
 #endif // XS_TYPE_XMLSCHEMAPRIMITIVES_H

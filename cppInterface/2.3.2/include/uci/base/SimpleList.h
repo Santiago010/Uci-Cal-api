@@ -41,7 +41,7 @@
 #include <climits>
 #include <cstddef>
 
-#include "uci/base/Accessor.h"
+#include "Accessor.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {
