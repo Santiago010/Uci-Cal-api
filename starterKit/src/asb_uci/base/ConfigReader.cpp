@@ -59,7 +59,10 @@ void ConfigReader::parseConfig(const std::string& serviceIdentifier) {
   if (serviceIdentifier.empty()) {
     parseUUIDs = false;
   }
+
   const char* xmlFileNameFromEnv{std::getenv("OMS_CAL_CONFIG")};
+
+  //TODO:verifica si hay en las variable de entorno un parametro con el valor StarterKitCALConfig.xml
   std::string xmlFileName;
   if (xmlFileNameFromEnv != nullptr) {
     xmlFileName.append(xmlFileNameFromEnv);

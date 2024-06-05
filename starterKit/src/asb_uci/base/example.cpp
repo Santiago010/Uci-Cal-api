@@ -7,6 +7,7 @@
 #include <log4cpp/Category.hh>//Libreria para los Logs 
 #include <log4cpp/PropertyConfigurator.hh> //libreria para los Logs
 #include "../../../include/asb_uci/base/AbstractServiceBusConnection.h"
+#include "../../../include/asb_uci/base/Externalizer.h"
 #include <cstdlib> // Para la función exit()
 
 
@@ -68,6 +69,12 @@ void Example::runExample(int argc, char* argv[]) {
 
     asb_uci::base::AbstractServiceBusConnection connection("Identifi");
     connection.init("exampleServiceIdentifier",true);
+
+    /** La clase Externalizer permite exportar e importar mensajes desde y hacia un formato externo. El
+  * puede ser independiente de cualquier implementación interna de serialización CAL y transporte.
+  */
+    asb_uci::base::Externalizer ownExternalizer(asb_uci::base::Externalizer::getEncoding(),asb_uci::base::Externalizer::getSchemaVersion(),asb_uci::base::Externalizer::getCalApiVersion());
+    
     
 
 

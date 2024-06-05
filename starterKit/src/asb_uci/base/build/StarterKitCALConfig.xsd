@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  CUI//SP-CTI/SP-EXPT
+
+DISTRIBUTION STATEMENTS:
+  DISTRIBUTION STATEMENT D: 
+  Distribution authorized to Department of Defense and U.S. DoD 
+  contractors only, Critical Technology, Export Controlled, 
+  26 January 2023. Other requests for this document shall be 
+  referred to AFLCMC/XA (OAMO), Wright-Patterson AFB OH 45433.
+  
+  DESTRUCTION NOTICE: Destroy by any method that will prevent 
+  disclosure of contents or reconstruction of the document.
+  
+  WARNING - This document contains technical data whose export is 
+  restricted by the Arms Export Control Act (Section 2751 of Title 22, 
+  United States Code) or the Export Control Reform Act of 2018 
+  (Chapter 58 Sections 4801-4852 of Title 50, United States Code). 
+  Violations of these export laws are subject to severe criminal 
+  penalties. Disseminate in accordance with provisions of DoD 
+  Directive 5230.25 and DoD Instruction 2040.02.
+  
+  Controlled by: USAF
+  Controlled by: AFLCMC/XA (OAMO)
+  CUI Category(ies): CTI, EXPT
+  Distribution Statement D
+  POC: Wayne Artuso, 937-713-5124
+-->
+
+<xs:schema version="1" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+
+<xs:element name="CALConfig">
+
+
+<xs:complexType>
+
+
+<xs:sequence>
+
+<xs:element type="UUIDGeneratorType" name="UUIDGeneratorType"/>
+
+<xs:element type="UUIDGenerationNamespace" name="UUIDGenerationNamespace"/>
+
+<xs:element type="xs:string" name="SystemLabel"/>
+
+<xs:element type="UUIDGenerationData" name="SystemUUID"/>
+
+<xs:element type="QoS" name="DefaultQoS"/>
+
+<xs:element type="Connections" name="Connections"/>
+
+<!-- The Externalizers config param is not used by the Java Starter Kit CAL -->
+<xs:element type="Externalizers" name="Externalizers" minOccurs="0"/>
+
+<xs:element type="Services" name="Services"/>
+
+</xs:sequence>
+
+</xs:complexType>
+
+</xs:element>
+
+
+<xs:complexType name="UUIDGeneratorType">
+
+
+<xs:choice>
+
+<xs:element type="RandomUUIDGenerator" name="RandomUUIDGenerator"/>
+
+<xs:element type="TimeBasedUUIDGenerator" name="TimeBasedUUIDGenerator"/>
+
+</xs:choice>
+
+</xs:complexType>
+
+<xs:complexType name="RandomUUIDGenerator"/>
+
+
+<xs:complexType name="TimeBasedUUIDGenerator">
+
+<xs:attribute type="xs:string" name="clock" use="required"/>
+
+</xs:complexType>
+
+
+<xs:complexType name="UUIDGenerationNamespace">
+
+
+<xs:sequence>
+
+<xs:element type="xs:string" name="Name"/>
+
+<xs:element type="UUID" name="ID"/>
+
+</xs:sequence>
+
+</xs:complexType>
+
+
+<xs:complexType name="UUIDGenerationData">
+
+
+<xs:choice>
+
+<xs:element name="UUIDRandom"/>
+
+<xs:element type="xs:string" name="UUIDName"/>
+
+</xs:choice>
+
+</xs:complexType>
+
+
+<xs:complexType name="QoS">
+
+
+<xs:sequence>
+
+<xs:element type="xs:integer" name="ActiveMQNoEchoMode" minOccurs="0"/>
+
+<xs:element type="xs:integer" name="ReaderQueueMax" minOccurs="0"/>
+
+</xs:sequence>
+
+</xs:complexType>
+
+
+<xs:complexType name="Services">
+
+
+<xs:sequence>
+
+<xs:element type="Service" name="Service" maxOccurs="unbounded"/>
+
+</xs:sequence>
+
+</xs:complexType>
+
+
+<xs:complexType name="Service">
+
+
+<xs:sequence>
+
+<xs:element type="UUIDGenerationData" name="ServiceUUID"/>
+
+<xs:element type="UUIDGenerationData" name="SubSystemUUID" minOccurs="0"/>
+
+<xs:element type="Components" name="Components" minOccurs="0"/>
+
+<xs:element type="Capabilities" name="Capabilities" minOccurs="0"/>
+
+<xs:element type="Topics" name="Topics"/>
+
+</xs:sequence>
+
+<xs:attribute type="xs:string" name="id"/>
+
+</xs:complexType>
+
+
+<xs:complexType name="Connections">
+
+
+<xs:sequence>
+
+<xs:element type="Connection" name="Connection" maxOccurs="unbounded"/>
+
+</xs:sequence>
+
+</xs:complexType>
+
+
+<xs:complexType name="Connection">
+
+
+<xs:sequence>
+
+<xs:element type="xs:string" name="Name"/>
+
+<xs:element type="xs:string" name="Type"/>
+
+<xs:element type="xs:anyURI" name="URL"/>
+
+<xs:element type="QoS" name="QoS" minOccurs="0"/>
+
+</xs:sequence>
+
+</xs:complexType>
+
+
+<xs:complexType name="Components">
+
+
+<xs:sequence>
+
+<xs:element type="Component" name="Component" maxOccurs="unbounded"/>
+
+</xs:sequence>
+
+</xs:complexType>
+
+
+<xs:complexType name="Component">
+
+
+<xs:sequence>
+
+<xs:element type="xs:string" name="Name"/>
+
+<xs:element type="UUIDGenerationData" name="ComponentUUID"/>
+
+</xs:sequence>
+
+</xs:complexType>
+
+
+<xs:complexType name="Capabilities">
+
+
+<xs:sequence>
+
+<xs:element type="Capability" name="Capability" maxOccurs="unbounded"/>
+
+</xs:sequence>
+
+</xs:complexType>
+
+
+<xs:complexType name="Capability">
+
+
+<xs:sequence>
+
+<xs:element type="xs:string" name="Name"/>
+
+<xs:element type="UUIDGenerationData" name="CapabilityUUID"/>
+
+</xs:sequence>
+
+</xs:complexType>
+
+
+<xs:complexType name="Topics">
+
+
+<xs:sequence>
+
+<xs:element type="xs:string" name="DefaultConnection" minOccurs="0"/>
+
+<xs:element type="Topic" name="Topic" minOccurs="0" maxOccurs="unbounded"/>
+
+</xs:sequence>
+
+</xs:complexType>
+
+
+<xs:complexType name="Topic">
+
+
+<xs:sequence>
+
+<xs:element type="xs:string" name="Name"/>
+
+<xs:element type="xs:string" name="Connection"/>
+
+</xs:sequence>
+
+</xs:complexType>
+
+
+<xs:simpleType name="UUID">
+
+
+<xs:restriction base="xs:string">
+
+<xs:pattern value="[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}"/>
+
+</xs:restriction>
+
+</xs:simpleType>
+
+
+<xs:complexType name="Externalizers">
+
+
+<xs:sequence>
+
+<xs:element type="Externalizer" name="Externalizer" maxOccurs="unbounded"/>
+
+</xs:sequence>
+
+</xs:complexType>
+
+
+<xs:complexType name="Externalizer">
+
+
+<xs:sequence>
+
+<xs:element type="xs:string" name="Encoding"/>
+
+<xs:element type="xs:string" name="Library"/>
+
+</xs:sequence>
+
+</xs:complexType>
+
+</xs:schema>
