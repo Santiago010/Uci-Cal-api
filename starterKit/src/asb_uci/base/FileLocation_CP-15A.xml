@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  CUI//SP-CTI/SP-EXPT
+
+DISTRIBUTION STATEMENTS:
+  DISTRIBUTION STATEMENT D: 
+  Distribution authorized to Department of Defense and U.S. DoD 
+  contractors only, Critical Technology, Export Controlled, 
+  26 January 2023. Other requests for this document shall be 
+  referred to AFLCMC/XA (OAMO), Wright-Patterson AFB OH 45433.
+  
+  DESTRUCTION NOTICE: Destroy by any method that will prevent 
+  disclosure of contents or reconstruction of the document.
+  
+  WARNING - This document contains technical data whose export is 
+  restricted by the Arms Export Control Act (Section 2751 of Title 22, 
+  United States Code) or the Export Control Reform Act of 2018 
+  (Chapter 58 Sections 4801-4852 of Title 50, United States Code). 
+  Violations of these export laws are subject to severe criminal 
+  penalties. Disseminate in accordance with provisions of DoD 
+  Directive 5230.25 and DoD Instruction 2040.02.
+  
+  Controlled by: USAF
+  Controlled by: AFLCMC/XA (OAMO)
+  CUI Category(ies): CTI, EXPT
+  Distribution Statement D
+  POC: Wayne Artuso, 937-713-5124
+-->
+
+<FileLocation xmlns="https://www.vdl.afrl.af.mil/programs/oam">
+    <SecurityInformation>
+        <Classification>U</Classification>
+        <OwnerProducer>
+            <GovernmentIdentifier>USA</GovernmentIdentifier>
+        </OwnerProducer>
+    </SecurityInformation>
+	<MessageHeader>
+        <SystemID>
+            <UUID>8814810114534C598095475E83A9ADEF</UUID>
+            <DescriptiveLabel>76 SWEG Hot Air Balloon</DescriptiveLabel>
+        </SystemID>
+        <Timestamp>1970-01-01T00:00:00Z</Timestamp>
+        <SchemaVersion>001.9c</SchemaVersion>
+        <Mode>LIVE</Mode>
+        <ServiceID>
+            <UUID>BA11BA6ED56F46A4B0F5D6A7AC9AE9D8</UUID>
+            <DescriptiveLabel>CP 15A</DescriptiveLabel>
+        </ServiceID>
+    </MessageHeader>
+    <MessageData>
+        <FileLocationID>
+            <UUID>19181B65FBA44674BAC4E6C71DCA089C</UUID>
+        </FileLocationID>
+        <FileMetadataID>
+            <UUID>981EB44002C54BAAAA63733A7C54C6A6</UUID>
+        </FileMetadataID>
+        <LocationAndStatus>
+            <Status>FINAL</Status>
+            <Location>
+                <Network>
+                    <Address>http://example.com</Address>
+                </Network>
+            </Location>
+        </LocationAndStatus>
+    </MessageData>
+</FileLocation>

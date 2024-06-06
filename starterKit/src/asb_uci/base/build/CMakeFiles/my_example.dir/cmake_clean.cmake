@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/my_example.dir/ConnectionMonitor.cpp.o.d"
   "CMakeFiles/my_example.dir/ConnectionStatus.cpp.o"
   "CMakeFiles/my_example.dir/ConnectionStatus.cpp.o.d"
+  "CMakeFiles/my_example.dir/Externalizer.cpp.o"
+  "CMakeFiles/my_example.dir/Externalizer.cpp.o.d"
   "CMakeFiles/my_example.dir/UUIDGenerator.cpp.o"
   "CMakeFiles/my_example.dir/UUIDGenerator.cpp.o.d"
   "CMakeFiles/my_example.dir/example.cpp.o"

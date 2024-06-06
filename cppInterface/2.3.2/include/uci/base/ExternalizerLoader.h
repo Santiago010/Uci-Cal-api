@@ -36,8 +36,8 @@
 #ifndef UCI_BASE_EXTERNALIZERLOADER_H
 #define UCI_BASE_EXTERNALIZERLOADER_H
 
-#include "uci/base/Externalizer.h"
-#include "uci/base/export.h"
+#include "Externalizer.h"
+#include "export.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

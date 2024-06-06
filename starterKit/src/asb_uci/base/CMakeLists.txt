@@ -12,6 +12,7 @@ project(Uci-Cal-api)
 include_directories(
     /usr/local/include
     /usr/local/opt/apr/include
+    /usr/local/Cellar/boost/1.85.0/include/boost
     /usr/local/Cellar/activemq-cpp/3.9.5_2/include/activemq-cpp-3.9.5
 )
 
@@ -23,7 +24,7 @@ link_directories(
 )
 
 # Agrega tus archivos fuente
-add_executable(my_example main.cpp example.cpp AbstractServiceBusConnection.cpp ConfigReader.cpp ConnectionStatus.cpp ConnectionMonitor.cpp UUIDGenerator.cpp)
+add_executable(my_example main.cpp example.cpp AbstractServiceBusConnection.cpp ConfigReader.cpp ConnectionStatus.cpp ConnectionMonitor.cpp UUIDGenerator.cpp Externalizer.cpp)
 
 # Especifica las bibliotecas que necesitas enlazar
 target_link_libraries(my_example
@@ -31,5 +32,6 @@ target_link_libraries(my_example
     activemq-cpp
     boost_system
     boost_random
+    boost_filesystem
     apr-1
 )

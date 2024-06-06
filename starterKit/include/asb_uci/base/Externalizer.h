@@ -38,13 +38,17 @@
 
 #include <boost/shared_ptr.hpp>
 
-#include "uci/base/Externalizer.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/Externalizer.h"
 
 /**  */
 namespace asb_uci {
 
 /** The namespace in which all base data types are declared */
 namespace base {
+
+/** La clase Externalizer permite exportar e importar mensajes desde y hacia un formato externo. El
+  * puede ser independiente de cualquier implementación interna de serialización CAL y transporte.
+  */
 
 /** The Externalizer class provides support to export and import messages to and from an external format. The external
   * format can be independent of any internal CAL serialization and transport implementations.

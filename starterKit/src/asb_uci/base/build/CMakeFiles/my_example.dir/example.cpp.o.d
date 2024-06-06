@@ -1438,4 +1438,35 @@ CMakeFiles/my_example.dir/example.cpp.o: \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/../../../../cppInterface/2.3.2/include/uci/base/export.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/../../../../cppInterface/2.3.2/include/uci/base/AbstractServiceBusConnectionStatusListener.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/../../../../cppInterface/2.3.2/include/uci/base/AbstractServiceBusConnection.h \
+  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/Externalizer.h \
+  /usr/local/include/boost/shared_ptr.hpp \
+  /usr/local/include/boost/smart_ptr/shared_ptr.hpp \
+  /usr/local/include/boost/smart_ptr/detail/requires_cxx11.hpp \
+  /usr/local/include/boost/smart_ptr/detail/shared_count.hpp \
+  /usr/local/include/boost/smart_ptr/bad_weak_ptr.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_counted_base.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_has_gcc_intrinsics.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_has_sync_intrinsics.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_counted_base_gcc_atomic.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_typeinfo_.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_counted_impl.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_noexcept.hpp \
+  /usr/local/include/boost/core/checked_delete.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_disable_deprecated.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_convertible.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_nullptr_t.hpp \
+  /usr/local/include/boost/smart_ptr/detail/spinlock_pool.hpp \
+  /usr/local/include/boost/smart_ptr/detail/spinlock.hpp \
+  /usr/local/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp \
+  /usr/local/include/boost/smart_ptr/detail/yield_k.hpp \
+  /usr/local/include/boost/core/yield_primitives.hpp \
+  /usr/local/include/boost/core/detail/sp_thread_pause.hpp \
+  /usr/local/include/boost/core/detail/sp_thread_yield.hpp \
+  /usr/local/include/boost/core/detail/sp_thread_sleep.hpp \
+  /usr/local/include/boost/smart_ptr/detail/operator_bool.hpp \
+  /usr/local/include/boost/smart_ptr/detail/local_sp_deleter.hpp \
+  /usr/local/include/boost/smart_ptr/detail/local_counted_base.hpp \
+  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/../../../../cppInterface/2.3.2/include/uci/base/Externalizer.h \
+  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/ExternalizerLoader.h \
+  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/../../../../cppInterface/2.3.2/include/uci/base/ExternalizerLoader.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/example.h

@@ -27,7 +27,7 @@ DISTRIBUTION STATEMENTS:
   POC: Wayne Artuso, 937-713-5124
 -->
 
-<CALConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation=",DanaInfo=collab2.web.boeing.com,SSL+StarterKitCALConfig.xsd">
+<CALConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="StarterKitCALConfig.xsd">
 
 
 <UUIDGeneratorType>

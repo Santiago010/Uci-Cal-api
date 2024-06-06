@@ -1,6 +1,10 @@
 // Example.cpp
 
 #include <iostream>
+#include <fstream>
+#include <sstream>
+#include <stdexcept>
+
 #include <string.h>
 #include <chrono>
 #include <thread>  // Solo para la función de dormir en el ejemplo
@@ -8,13 +12,45 @@
 #include <log4cpp/PropertyConfigurator.hh> //libreria para los Logs
 #include "../../../include/asb_uci/base/AbstractServiceBusConnection.h"
 #include "../../../include/asb_uci/base/Externalizer.h"
+#include "../../../include/asb_uci/base/ExternalizerLoader.h"
 #include <cstdlib> // Para la función exit()
+#include "../../../../cppInterface/2.3.2/include/uci/type/FileLocationMT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
 
 
 
 #include "example.h"
 
 using namespace std;
+
+std::vector<uint8_t> readFile(const std::string& filename){
+    std::ifstream file(filename, std::ios::binary);
+    if (!file.is_open()) {
+        std::cerr << "Error al abrir el archivo." << std::endl; 
+    }
+
+    // Lee el contenido del archivo en un vector de bytes
+    std::vector<uint8_t> data((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>());
+    return data;
+}
+
+void Example::testExternalizerRead(asb_uci::base::Externalizer& externalizer){
+    cout << "Test Externalizer read" << endl;
+
+    try
+    {
+        //TODO:recuerda implementar a readFile
+       externalizer.read(readFile("/FileLocation_CP-15A.xml"))
+
+    }
+    catch(const std::exception& e)
+    {
+        std::cerr << e.what() << '\n';
+    }
+    
+
+
+}
 
 void Example::runExample(int argc, char* argv[]) {
 
@@ -73,8 +109,10 @@ void Example::runExample(int argc, char* argv[]) {
     /** La clase Externalizer permite exportar e importar mensajes desde y hacia un formato externo. El
   * puede ser independiente de cualquier implementación interna de serialización CAL y transporte.
   */
-    asb_uci::base::Externalizer ownExternalizer(asb_uci::base::Externalizer::getEncoding(),asb_uci::base::Externalizer::getSchemaVersion(),asb_uci::base::Externalizer::getCalApiVersion());
-    
+    asb_uci::base::Externalizer externalizer("XML","3.0","2.3.3");
+
+
+    testExternalizerRead(externalizer);
     
 
 

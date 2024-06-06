@@ -225,6 +225,30 @@ ConnectionStatus.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/ConnectionStatus.cpp.s
 .PHONY : ConnectionStatus.cpp.s
 
+Externalizer.o: Externalizer.cpp.o
+.PHONY : Externalizer.o
+
+# target to build an object file
+Externalizer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/Externalizer.cpp.o
+.PHONY : Externalizer.cpp.o
+
+Externalizer.i: Externalizer.cpp.i
+.PHONY : Externalizer.i
+
+# target to preprocess a source file
+Externalizer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/Externalizer.cpp.i
+.PHONY : Externalizer.cpp.i
+
+Externalizer.s: Externalizer.cpp.s
+.PHONY : Externalizer.s
+
+# target to generate assembly for a file
+Externalizer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/Externalizer.cpp.s
+.PHONY : Externalizer.cpp.s
+
 UUIDGenerator.o: UUIDGenerator.cpp.o
 .PHONY : UUIDGenerator.o
 
@@ -318,6 +342,9 @@ help:
 	@echo "... ConnectionStatus.o"
 	@echo "... ConnectionStatus.i"
 	@echo "... ConnectionStatus.s"
+	@echo "... Externalizer.o"
+	@echo "... Externalizer.i"
+	@echo "... Externalizer.s"
 	@echo "... UUIDGenerator.o"
 	@echo "... UUIDGenerator.i"
 	@echo "... UUIDGenerator.s"

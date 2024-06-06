@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/base/Externalizer.h"
+#include "../../../../starterKit/include/asb_uci/base/Externalizer.h"
 
 #include <cstdint>
 #include <exception>
@@ -44,9 +44,9 @@
 
 #include <boost/dll/import.hpp>
 
-#include "uci/base/Accessor.h"
-#include "uci/base/Externalizer.h"
-#include "uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/Externalizer.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
 
 /**  */
 namespace asb_uci {
