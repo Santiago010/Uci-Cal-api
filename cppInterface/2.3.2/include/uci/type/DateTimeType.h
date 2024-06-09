@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_DATETIMETYPE_H
 #define UCI_TYPE_DATETIMETYPE_H
 
-#include "uci/base/DateTimeAccessor.h"
+#include "../base/DateTimeAccessor.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

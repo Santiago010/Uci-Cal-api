@@ -3,3 +3,5 @@
     boost_system
     boost_random
     apr-1
+	libxml2
+

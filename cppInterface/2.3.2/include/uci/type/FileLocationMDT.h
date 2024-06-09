@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_FILELOCATIONMDT_H
 #define UCI_TYPE_FILELOCATIONMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ArchiveRequestType.h"
-#include "uci/type/DataRecordBaseType.h"
-#include "uci/type/FileLocationID_Type.h"
-#include "uci/type/FileMetadataID_Type.h"
-#include "uci/type/LocationAndStatusBaseType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ArchiveRequestType.h"
+#include "DataRecordBaseType.h"
+#include "FileLocationID_Type.h"
+#include "FileMetadataID_Type.h"
+#include "LocationAndStatusBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

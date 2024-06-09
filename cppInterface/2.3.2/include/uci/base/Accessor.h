@@ -48,6 +48,7 @@ namespace uci {
 namespace base {
 
 /** The Accessor is the base class of all accessors. */
+// El Accessor es la clase base de todos los accesorios
 class Accessor {
 public:
 

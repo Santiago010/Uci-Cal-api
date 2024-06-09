@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_FILELOCATIONMT_H
 #define UCI_TYPE_FILELOCATIONMT_H
 
-#include "uci/base/Listener.h"
-#include "uci/base/Reader.h"
-#include "uci/base/Writer.h"
-#include "uci/base/export.h"
-#include "uci/type/FileLocationMDT.h"
-#include "uci/type/MessageType.h"
-#include "uci/type/ObjectStateEnum.h"
+#include "../base/Listener.h"
+#include "../base/Reader.h"
+#include "../base/Writer.h"
+#include "../base/export.h"
+#include "FileLocationMDT.h"
+#include "MessageType.h"
+#include "ObjectStateEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {
@@ -62,6 +62,7 @@ namespace uci {
 namespace type {
 
 /** See the annotation in the associated message for an overall description of the message and this type. */
+/** Ver la anotación en el mensaje asociado para una descripción general del mensaje y de este tipo. */
 class FileLocationMT : public virtual MessageType {
 public:
 

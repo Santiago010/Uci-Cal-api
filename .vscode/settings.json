@@ -74,7 +74,8 @@
     "type_traits": "cpp",
     "utility": "cpp",
     "format": "cpp",
-    "text_encoding": "cpp"
+    "text_encoding": "cpp",
+    "map": "cpp"
   },
   "workbench.colorCustomizations": {
     "activityBar.activeBackground": "#ab307e",

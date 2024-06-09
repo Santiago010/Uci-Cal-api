@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_PRODUCTLOCATIONTYPE_H
 #define UCI_TYPE_PRODUCTLOCATIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EndpointReferenceType.h"
-#include "uci/type/ProductSystemLocationType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "EndpointReferenceType.h"
+#include "ProductSystemLocationType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

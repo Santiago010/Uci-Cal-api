@@ -14,6 +14,7 @@ include_directories(
     /usr/local/opt/apr/include
     /usr/local/Cellar/boost/1.85.0/include/boost
     /usr/local/Cellar/activemq-cpp/3.9.5_2/include/activemq-cpp-3.9.5
+    /usr/local/opt/libxml2/include/libxml2
 )
 
 # Especifica las rutas de las bibliotecas de log4cpp, activemq-cpp y apr
@@ -21,6 +22,7 @@ link_directories(
     /usr/local/lib
     /usr/local/opt/apr/lib
     /usr/local/Cellar/activemq-cpp/3.9.5_2/lib
+    /usr/local/opt/libxml2/lib
 )
 
 # Agrega tus archivos fuente
@@ -34,4 +36,5 @@ target_link_libraries(my_example
     boost_random
     boost_filesystem
     apr-1
+    xml2
 )

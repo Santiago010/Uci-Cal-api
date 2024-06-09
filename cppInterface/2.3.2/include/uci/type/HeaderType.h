@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_HEADERTYPE_H
 #define UCI_TYPE_HEADERTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/MessageModeEnum.h"
-#include "uci/type/MissionID_Type.h"
-#include "uci/type/ServiceID_Type.h"
-#include "uci/type/SystemID_Type.h"
-#include "uci/type/UCI_SchemaVersionStringType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DateTimeType.h"
+#include "MessageModeEnum.h"
+#include "MissionID_Type.h"
+#include "ServiceID_Type.h"
+#include "SystemID_Type.h"
+#include "UCI_SchemaVersionStringType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

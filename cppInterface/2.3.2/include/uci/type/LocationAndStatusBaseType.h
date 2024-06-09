@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_LOCATIONANDSTATUSBASETYPE_H
 #define UCI_TYPE_LOCATIONANDSTATUSBASETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/MediaLocationStatusEnum.h"
-#include "uci/type/ProductLocationType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "MediaLocationStatusEnum.h"
+#include "ProductLocationType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {
