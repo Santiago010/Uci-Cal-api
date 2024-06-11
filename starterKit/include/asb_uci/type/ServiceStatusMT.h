@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/MessageType.h"
-#include "uci/type/ServiceStatusMT.h"
+#include "MessageType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ServiceStatusMT.h"
 
 /**  */
 namespace asb_uci {
@@ -56,6 +56,8 @@ class ServiceStatusMDT;
 /** Ver la anotación en el mensaje asociado para una descripción general del mensaje y de este tipo. */
 class ServiceStatusMT : public virtual uci::type::ServiceStatusMT, public virtual MessageType {
 public:
+
+  
   /** The constructor */
   ServiceStatusMT();
 
@@ -161,6 +163,7 @@ public:
 
 private:
   std::unique_ptr<ServiceStatusMDT> messageData_Accessor;
+  uci::type::SecurityInformationType securityInformation;
 
 };
 

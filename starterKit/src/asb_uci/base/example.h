@@ -28,6 +28,7 @@ class Example {
         static std::string getVersion();
         static asb_uci::type::SystemID_Type getSystemId();
         static uci::type::DateTimeTypeValue getCurrentTimeMillis();
+        static long long getNanosDuration();
 
 };
 

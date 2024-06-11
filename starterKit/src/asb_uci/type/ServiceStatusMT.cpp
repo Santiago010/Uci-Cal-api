@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ServiceStatusMT.h"
+#include "../../../../starterKit/include/asb_uci/type/ServiceStatusMT.h"
 
 #include <memory>
 #include <string>
@@ -41,15 +41,15 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/base/Reader.h"
-#include "asb_uci/base/Writer.h"
-#include "asb_uci/type/MessageType.h"
-#include "asb_uci/type/ServiceStatusMDT.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ServiceStatusMDT.h"
-#include "uci/type/ServiceStatusMT.h"
+#include "../base/Reader.h"
+#include "../base/Writer.h"
+#include "../type/MessageType.h"
+#include "../type/ServiceStatusMDT.h"
+#include "../util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ServiceStatusMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ServiceStatusMT.h"
 
 /**  */
 namespace asb_uci {
@@ -136,6 +136,7 @@ std::string ServiceStatusMT::serialize(const uci::type::ServiceStatusMT& accesso
   }
   return generatedNodeName;
 }
+
 
 } // namespace type
 

@@ -120,6 +120,20 @@ public:
     return list_maximumSize;
   }
 
+
+  void add(const T& item) {
+      if (list_accessorData.size() >= list_maximumSize) {
+            throw std::out_of_range("List has reached its maximum size");
+        }
+        list_accessorData.push_back(item);
+  }
+
+   // Método para obtener los elementos de la lista (opcional)
+    const std::vector<std::shared_ptr<T>>& getList() const {
+        return *list_accessorData;
+    }
+
+
   /** Returns the minimum number of elements the container should hold in order to be considered valid with respect to the
     * XSD specification used to generate this containers specification. The value returned is the same that is returned by
     * the getMinOccurs() method.

@@ -31,7 +31,12 @@
 #include "../../../../cppInterface/2.3.2/include/uci/type/MessageModeEnum.h"
 #include "../../../include/asb_uci/type/ServiceStatusMDT.h"
 #include "../../../../cppInterface/2.3.2/include/uci/type/ServiceStateEnum.h"
-
+#include "../../../../cppInterface/2.3.2/include/uci/type/ClassificationEnum.h"
+#include "../../../include/asb_uci/type/SecurityInformationType.h"
+#include "../../../include/asb_uci/type/OwnProducerChoiceType.h"
+#include "../../../include/asb_uci/type/OwnerProducerEnum.h"
+#include "../../../include/asb_uci/base/Writer.h"
+#include "../../../include/asb_uci/base/Reader.h"
 
 
 #include "example.h"
@@ -218,15 +223,43 @@ void Example::runExample(int argc, char* argv[]) {
 
     // TODO:recuerda implementar las verificaciones para IsReader
     if(isReader){
+        asb_uci::type::ServiceStatusMT serviceStatus = createServiceStatusMT(connection);
+        asb_uci::base::Reader reader =  serviceStatus.createReader("ServiceStatus",connection);
+        root.info("Created ServiceStatus reader");
+        reader.addListener(listener); 
 
+        uci::base::AbstractServiceBusConnection::AbstractServiceBusConnectionStatusData status = connection.getStatus();
+        
+        root.info("CAL status is '" + status.abstractServiceBusConnectionStateToString(status.state) + "', detail: " + status.stateDetail);
     }
 
     if(isWrite){
-        asb_uci::type::ServiceStatusMT serviceStatus;
+        asb_uci::type::ServiceStatusMT serviceStatus = createServiceStatusMT(connection);
+        root.info("Created ServiceStatus message");
+        asb_uci::base::Writer writer = serviceStatus.createWriter("ServiceStatus",connection);
+        root.info("Created ServiceStatus writer");
+        uci::base::AbstractServiceBusConnection::AbstractServiceBusConnectionStatusData status = connection.getStatus();
+        root.info("CAL status is '" + status.abstractServiceBusConnectionStateToString(status.state) + "', detail: " + status.stateDetail);
+
 
         auto task = []() -> void {
         while (true) {
-            std::cout << "hola" << std::endl;
+            serviceStatus.getMessageHeader().setTimestamp(getCurrentTimeMillis());
+            serviceStatus.getMessageData().setTimeUp(getNanosDuration());
+
+            cout << "Writing ServiceStatus" << endl;
+            writer.write(serviceStatus);
+
+            std::ostringstream oss;
+            externalizer.write(serviceStatus,oss);
+
+            oss << "This is an example of text written in std::ostringstream.";
+
+            // Obtén la cadena resultante
+            std::string xml = oss.str();
+
+            cout << "Wrote ServiceStatus: " << xml << endl;
+            root.info("Wrote ServiceStatus:{}{}", xml);
             std::this_thread::sleep_for(std::chrono::seconds(1));
             }
         };
@@ -271,6 +304,16 @@ void Example::runExample(int argc, char* argv[]) {
 
     // TODO:recuerda retornar el valor correcto
     asb_uci::type::ServiceStatusMT serviceStatus;
+    asb_uci::type::SecurityInformationType secInfo;
+    serviceStatus.setSecurityInformation(secInfo);
+    serviceStatus.getSecurityInformation().setClassification(uci::type::ClassificationEnum::UCI_U);
+
+    asb_uci::type::OwnerProducerChoiceType usaChoiceType;
+    usaChoiceType.chooseGovernmentIdentifier(asb_uci::type::OwnerProducerEnum::UCI_USA);
+    auto& ownerProducer = serviceStatus.getSecurityInformation().getOwnerProducer().add(usaChoiceType);
+    serviceStatus.setMessageHeader(header);
+    serviceStatus.setMessageData(messageData);
+    
     return serviceStatus;
 }
 
@@ -278,6 +321,21 @@ void Example::runExample(int argc, char* argv[]) {
 Example::getCurrentTimeMillis(){
 return std::chrono::duration_cast<std::chrono::milliseconds>(
         std::chrono::system_clock::now().time_since_epoch()).count();
+}
+
+Example::getNanosDuration(){
+    // Obtiene el tiempo actual en nanosegundos
+    auto start = std::chrono::high_resolution_clock::now();
+
+    // Realiza alguna tarea
+
+    // Obtiene el tiempo actual después de realizar la tarea
+    auto end = std::chrono::high_resolution_clock::now();
+
+    // Calcula la duración entre los dos tiempos en nanosegundos
+    auto duration = std::chrono::duration_cast<std::chrono::nanoseconds>(end - start).count();
+
+    return duration;
 }
 
 Example::getSystemId(){

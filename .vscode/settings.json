@@ -75,7 +75,20 @@
     "utility": "cpp",
     "format": "cpp",
     "text_encoding": "cpp",
-    "map": "cpp"
+    "map": "cpp",
+    "__tree": "cpp",
+    "source_location": "cpp",
+    "strstream": "cpp",
+    "typeindex": "cpp",
+    "stdfloat": "cpp",
+    "list": "cpp",
+    "future": "cpp",
+    "set": "cpp",
+    "semaphore": "cpp",
+    "shared_mutex": "cpp",
+    "stop_token": "cpp",
+    "fstream": "cpp",
+    "iostream": "cpp"
   },
   "workbench.colorCustomizations": {
     "activityBar.activeBackground": "#ab307e",

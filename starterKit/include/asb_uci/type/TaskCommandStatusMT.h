@@ -53,6 +53,7 @@ namespace type {
 class TaskCommandStatusMDT;
 
 /** See annotations in child elements and messages/elements that use this type for details. */
+/** Ver anotaciones en elementos secundarios y mensajes/elementos que usan este tipo para más detalles. */
 class TaskCommandStatusMT : public virtual uci::type::TaskCommandStatusMT, public virtual MessageType {
 public:
   /** The constructor */
