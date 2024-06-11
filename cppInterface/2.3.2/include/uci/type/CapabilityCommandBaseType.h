@@ -36,13 +36,16 @@
 #ifndef UCI_TYPE_CAPABILITYCOMMANDBASETYPE_H
 #define UCI_TYPE_CAPABILITYCOMMANDBASETYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/type/CapabilityCommandRankingType.h"
-#include "uci/type/CapabilityCommandTemporalConstraintsType.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/CommandBaseType.h"
-#include "uci/type/SecurityInformationType.h"
-#include "uci/type/TraceabilityType.h"
+
+
+#include "../base/BooleanAccessor.h"
+#include "CapabilityCommandRankingType.h"
+#include "CapabilityCommandTemporalConstraintsType.h"
+#include "CapabilityID_Type.h"
+#include "CommandBaseType.h"
+#include "SecurityInformationType.h"
+#include "TraceabilityType.h"
+#include "DistanceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {
@@ -171,12 +174,15 @@ public:
     * @param value The value to set the SimplePrimitve data type to.
     * @return A reference to the object on which this method was called.
     */
+  //  TODO:AtencionSetOverrideRejection
+  // TODO:de aca viene la clase SetOverrideRejection Origen
   virtual uci::type::CapabilityCommandBaseType& setOverrideRejection(xs::Boolean value) = 0;
 
   /** Returns whether the Element identified by OverrideRejection exists (is enabled) or not.
     *
     * @return A boolean indicating whether the Element identified by OverrideRejection is enabled or not.
     */
+
   virtual bool hasOverrideRejection() const = 0;
 
   /** Clears (disabled) the Element identified by OverrideRejection.
@@ -264,6 +270,22 @@ public:
     * @return A reference to the object on which this method was called.
     */
   virtual uci::type::CapabilityCommandBaseType& clearClassification() = 0;
+
+    /** Sets the value of the SimplePrimitive data type identified by TrackingRange.
+    *
+    * @param value The value to set the SimplePrimitve data type to.
+    * @return A reference to the object on which this method was called.
+    */
+  //  TODO:de aca viene el metodo SetTrackingRange de CapabilityCommandBaseType
+  virtual uci::type::CapabilityCommandBaseType& setTrackingRange(uci::type::DistanceTypeValue value) = 0;
+
+    /** Returns the value of the SimplePrimitive data type identified by TrackingRange.
+    *
+    * @return The value of the simple primitive data type identified by TrackingRange.
+    */
+  virtual uci::type::DistanceTypeValue getTrackingRange() const = 0;
+
+
 
 protected:
 

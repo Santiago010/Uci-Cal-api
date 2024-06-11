@@ -107,6 +107,7 @@ void SAR_ActivityCommandType::copyImpl(const uci::type::SAR_ActivityCommandType&
       temporalConstraints_Accessor.reset();
     }
     if (accessorImpl.hasOverrideRejection()) {
+       //  TODO:AtencionSetOverrideRejection
       setOverrideRejection(accessorImpl.getOverrideRejection());
     } else {
       clearOverrideRejection();

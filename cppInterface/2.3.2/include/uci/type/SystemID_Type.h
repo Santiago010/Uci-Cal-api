@@ -57,6 +57,7 @@ namespace uci {
 namespace type {
 
 /** The ID type that refers to an aggregation of Subsystems. */
+/** Tipo de ID que se refiere a una agregación de subsistemas. */
 class SystemID_Type : public virtual ID_Type {
 public:
 

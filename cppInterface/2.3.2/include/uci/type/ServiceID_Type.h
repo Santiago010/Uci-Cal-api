@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_SERVICEID_TYPE_H
 #define UCI_TYPE_SERVICEID_TYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/ID_Type.h"
-#include "uci/type/VisibleString256Type.h"
+#include "../base/export.h"
+#include "../type/ID_Type.h"
+#include "../type/VisibleString256Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

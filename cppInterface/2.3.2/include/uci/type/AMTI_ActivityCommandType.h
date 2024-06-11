@@ -68,7 +68,8 @@ namespace uci {
 /** The namespace in which all generated data types are declared */
 namespace type {
 
-/** See annotations in child elements and messages/elements that use this type for details. */
+/** Ver anotaciones en elementos secundarios y mensajes/elementos que usan este tipo para más detalles. */
+// /** See annotations in child elements and messages/elements that use this type for details. */
 class AMTI_ActivityCommandType : public virtual SharedRF_ApertureActivityCommandBaseType {
 public:
 
@@ -412,6 +413,7 @@ public:
     * @param value The value to set the SimplePrimitve data type to.
     * @return A reference to the object on which this method was called.
     */
+  //  TODO:de aca viene el metodo SetTrackingRange de ActivityCommandType
   virtual uci::type::AMTI_ActivityCommandType& setTrackingRange(uci::type::DistanceTypeValue value) = 0;
 
   /** Returns whether the Element identified by TrackingRange exists (is enabled) or not.

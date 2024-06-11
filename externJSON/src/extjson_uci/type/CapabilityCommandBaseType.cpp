@@ -83,6 +83,7 @@ bool CapabilityCommandBaseType::deserialize(const boost::property_tree::ptree& p
       CapabilityCommandTemporalConstraintsType::deserialize(valueType.second, accessor.enableTemporalConstraints(), nodeName, nsPrefix);
     } else if (valueType.first == nsPrefix + CapabilityCommandBaseType_Names::OverrideRejection_Name) {
       if (const boost::optional<std::string> value = valueType.second.get_value_optional<std::string>()) {
+         //  TODO:AtencionSetOverrideRejection
         accessor.setOverrideRejection(extjson_uci::util::SerializationHelpers::deserializeBoolean(*value));
       }
     } else if (valueType.first == nsPrefix + CapabilityCommandBaseType_Names::Traceability_Name) {

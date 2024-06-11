@@ -202,6 +202,7 @@ xs::Boolean CapabilityCommandBaseType::getOverrideRejection() const {
   throw uci::base::UCIException("Error in getOverrideRejection(): An attempt was made to get an optional field that was not enabled, call hasOverrideRejection() to determine if it is safe to call getOverrideRejection()");
 }
 
+// TODO:aca se define el metodo setOverrideRejection
 uci::type::CapabilityCommandBaseType& CapabilityCommandBaseType::setOverrideRejection(xs::Boolean value) {
   overrideRejection_Accessor = value;
   return *this;
@@ -306,6 +307,11 @@ std::unique_ptr<CapabilityCommandBaseType> CapabilityCommandBaseType::create(con
   const uci::base::accessorType::AccessorType requestedType{(type == uci::base::accessorType::null) ? uci::type::accessorType::capabilityCommandBaseType : type};
   return std::unique_ptr<CapabilityCommandBaseType>(dynamic_cast<CapabilityCommandBaseType*>(asb_uci::util::DerivedTypesCreator::create(requestedType)));
 }
+
+uci::type::CapabilityCommandBaseType& setTrackingRange(uci::type::DistanceTypeValue value){
+  trackingRange_Accessor = value;
+  return *this;
+} 
 
 /**  */
 namespace CapabilityCommandBaseType_Names {

@@ -64,6 +64,7 @@ class RepetitionType;
 class ResourceSelectionType;
 
 /** See annotations in child elements and messages/elements that use this type for details. */
+/** Ver anotaciones en elementos secundarios y mensajes/elementos que usan este tipo para más detalles. */
 class AMTI_ActivityCommandType : public virtual uci::type::AMTI_ActivityCommandType, public virtual SharedRF_ApertureActivityCommandBaseType {
 public:
   /** Indicates the unique ID of a Shared Antenna and/or AntennaResources to be used for the resulting Activity. This
@@ -432,6 +433,7 @@ public:
     * @param value The value to set the optional field to
     * @return A reference to the object on which this method was called.
     */
+  //  TODO:aca se sobre escribe el metodo setTrackingRange
   uci::type::AMTI_ActivityCommandType& setTrackingRange(uci::type::DistanceTypeValue value) override;
 
   /** Returns whether this optional field TrackingRangeis available

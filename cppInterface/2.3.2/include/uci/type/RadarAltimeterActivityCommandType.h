@@ -205,6 +205,7 @@ public:
     * @param value The value to set the SimplePrimitve data type to.
     * @return A reference to the object on which this method was called.
     */
+    //  TODO:AtencionSetOverrideRejection
   virtual uci::type::RadarAltimeterActivityCommandType& setOverrideRejection(xs::Boolean value) = 0;
 
   /** Returns whether the Element identified by OverrideRejection exists (is enabled) or not.

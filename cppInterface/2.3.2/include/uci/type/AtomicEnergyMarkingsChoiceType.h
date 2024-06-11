@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_ATOMICENERGYMARKINGSCHOICETYPE_H
 #define UCI_TYPE_ATOMICENERGYMARKINGSCHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AtomicEnergyMarkingsEnum.h"
-#include "uci/type/AtomicEnergySigmaMarkingsEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AtomicEnergyMarkingsEnum.h"
+#include "AtomicEnergySigmaMarkingsEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

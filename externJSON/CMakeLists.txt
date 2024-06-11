@@ -4,6 +4,7 @@ project(ExternJSON)
 
 cmake_policy(SET CMP0074 NEW)
 
+//TODO:TENER EN CUENTA ESTE ARCHIVO, PUEDE SER UNA GRAN AYUDA A LA HORA DE COMPILAR EL CODIGO
 set(SOURCE_LIST
   "include/extjson_uci/base/BooleanAccessor.h"
   "include/extjson_uci/base/ByteAccessor.h"

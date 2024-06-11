@@ -6,6 +6,7 @@
 #include <stdexcept>
 
 #include <string.h>
+#include <future>
 #include <chrono>
 #include <thread>  // Solo para la función de dormir en el ejemplo
 #include <log4cpp/Category.hh>//Libreria para los Logs 
@@ -22,12 +23,21 @@
 #include "../../../include/asb_uci/base/UUIDGenerator.h"
 #include "../../../include/asb_uci/type/CapabilityCommandBaseType.h"
 #include <boost/lexical_cast.hpp>
+#include "../../../include/asb_uci/type/ServiceStatusMT.h"
+#include "../../../include/asb_uci/type/ID_Type.h"
+#include "../../../include/asb_uci/type/ServiceID_Type.h"
+#include "../../../include/asb_uci/type/HeaderType.h"
+#include "../../../include/asb_uci/type/SystemID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MessageModeEnum.h"
+#include "../../../include/asb_uci/type/ServiceStatusMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ServiceStateEnum.h"
 
 
 
 #include "example.h"
 
 using namespace std;
+
 
 
  std::istream& readFile(const std::string& filename) {
@@ -64,7 +74,6 @@ void Example::testExternalizerRead(asb_uci::base::Externalizer& externalizer){
     cout << "Test Externalizer read" << endl;
 
     try{
-        std::string filename = "datos.txt"; // Nombre del archivo que deseas leer
         std::istream& fileLocationCp = readFile("FileLocation_CP-15A.xml");
 
         uci::base::AcccessorFileLocationMT accessorFileLicationMT;
@@ -80,6 +89,22 @@ void Example::testExternalizerRead(asb_uci::base::Externalizer& externalizer){
     }
     
 
+
+}
+
+std::string Example::getVersion(){
+    std::ifstream file("version.properties"); // Abre el archivo
+    std::string line;
+    while (std::getline(file, line)) { // Lee cada línea del archivo
+        size_t found = line.find("version"); // Busca la cadena "version"
+        if (found != std::string::npos) { // Si se encuentra
+            size_t equalsPos = line.find("="); // Busca el símbolo de igualdad
+            if (equalsPos != std::string::npos) { // Si se encuentra
+                return line.substr(equalsPos + 1); // Devuelve la parte después del igual
+            }
+        }
+    }
+    return "";
 
 }
 
@@ -189,6 +214,73 @@ void Example::runExample(int argc, char* argv[]) {
         // el conjunto está en la superclase, pero luego se anulan en la clase y devuelven la clase correcta. 
         // Si no funcionaba no compilaría.
     asb_uci::type::CapabilityCommandBaseType capa;
-    capa.setOverrideRejection(true);
+    capa.setOverrideRejection(true).setTrackingRange(1.0);
 
+    // TODO:recuerda implementar las verificaciones para IsReader
+    if(isReader){
+
+    }
+
+    if(isWrite){
+        asb_uci::type::ServiceStatusMT serviceStatus;
+
+        auto task = []() -> void {
+        while (true) {
+            std::cout << "hola" << std::endl;
+            std::this_thread::sleep_for(std::chrono::seconds(1));
+            }
+        };
+
+        //TODO: Usar std::async para ejecutar la tarea en un hilo separado
+
+        std::future<void> future = std::async(std::launch::async, task);
+
+        //TODO: Esperar a que la tarea termine
+        //TODO: Note: En este caso, future.get() nunca se completará ya que el bucle es infinito.
+        try {
+            future.get();
+        } catch (const std::exception &e) {
+            std::cerr << "Exception: " << e.what() << std::endl;
+        }
+
+
+
+    }
+}
+
+ asb_uci::type::ServiceStatusMT createServiceStatusMT(asb_uci::base::AbstractServiceBusConnection asbs){
+
+    asb_uci::type::ID_Type sysUUID;
+    sysUUID.setUUID(asbs.getMySystemUUID());
+    sysUUID.setDescriptiveLabel(asbs.getMySystemLabel());
+
+
+    asb_uci::type::ServiceID_Type ser;
+    ser.setServiceVersion(getVersion());
+    
+    // Establecer encabezado usando métodos de encadenamiento
+    asb_uci::type::HeaderType header;
+    header.setSystemID(getSystemId()).setTimestamp(getCurrentTimeMillis()).setSchemaVersion("XML").setMode(uci::type::MessageModeEnum::UCI_SIMULATION).setServiceID(ser);
+
+    uci::type::ServiceStatusMDT messageData;
+    messageData.setServiceID(ser);
+    messageData.setServiceState(uci::type::ServiceStateEnum::UCI_NORMAL);
+    messageData.setStatusDetail("All is good in this example!");
+
+        
+
+    // TODO:recuerda retornar el valor correcto
+    asb_uci::type::ServiceStatusMT serviceStatus;
+    return serviceStatus;
+}
+
+
+Example::getCurrentTimeMillis(){
+return std::chrono::duration_cast<std::chrono::milliseconds>(
+        std::chrono::system_clock::now().time_since_epoch()).count();
+}
+
+Example::getSystemId(){
+
+    return systemId;
 }

@@ -41,7 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/CommandBaseType.h"
+#include "DistanceType.h"
+#include "CommandBaseType.h"
 #include "asb_xs/type/simpleXmlSchemaPrimitives.h"
 #include "uci/type/CapabilityCommandBaseType.h"
 
@@ -350,13 +351,31 @@ public:
     */
   static std::string serialize(const uci::type::CapabilityCommandBaseType& accessor, boost::property_tree::ptree& propTree, const std::string& nodeName, bool createNode = true, bool addTypeAttribute = false, bool checkIfDerivation = true, bool topLevel = false);
 
+  /** Sets the value of the optional field accessed by this accesor
+    *
+    * @param value The value to set the optional field to
+    * @return A reference to the object on which this method was called.
+    */
+  //  TODO:aca se sobre escribe el metodo setTrackingRange
+  uci::type::CapabilityCommandBaseType& setTrackingRange(uci::type::DistanceTypeValue value) override;
+
+  /** Returns the value of the optional field accessed by this accesor
+    *
+    * @return The value of the optional field
+    */
+  uci::type::DistanceTypeValue getTrackingRange() const override;
+
+
+
 private:
   std::unique_ptr<CapabilityID_Type> capabilityID_Accessor;
   std::unique_ptr<CapabilityCommandRankingType> ranking_Accessor;
   std::unique_ptr<CapabilityCommandTemporalConstraintsType> temporalConstraints_Accessor;
   boost::optional<asb_xs::Boolean> overrideRejection_Accessor;
+  boost::optional<DistanceTypeValue> trackingRange_Accessor;
   std::unique_ptr<TraceabilityType> traceability_Accessor;
   std::unique_ptr<SecurityInformationType> classification_Accessor;
+
 
 };
 
