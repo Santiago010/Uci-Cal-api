@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_FGI_SOURCEOPENCHOICETYPE_H
 #define UCI_TYPE_FGI_SOURCEOPENCHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/FGI_SourceOpenEnum.h"
-#include "uci/type/NATO_SpecialWordsType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "../type/FGI_SourceOpenEnum.h"
+#include "../type/NATO_SpecialWordsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

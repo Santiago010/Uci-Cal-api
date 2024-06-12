@@ -36,8 +36,8 @@
 #ifndef UCI_BASE_DURATIONACCESSOR_H
 #define UCI_BASE_DURATIONACCESSOR_H
 
-#include "uci/base/Accessor.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../base/Accessor.h"
+#include "../../xs/type/simpleXmlSchemaPrimitives.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

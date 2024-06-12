@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SCI_CONTROLSCHOICETYPE_H
 #define UCI_TYPE_SCI_CONTROLSCHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/SCI_ControlsEnum.h"
-#include "uci/type/SCI_ControlsType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "SCI_ControlsEnum.h"
+#include "SCI_ControlsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

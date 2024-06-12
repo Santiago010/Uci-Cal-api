@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_TIMETYPE_H
 #define UCI_TYPE_TIMETYPE_H
 
-#include "uci/base/TimeAccessor.h"
+#include "../base/TimeAccessor.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

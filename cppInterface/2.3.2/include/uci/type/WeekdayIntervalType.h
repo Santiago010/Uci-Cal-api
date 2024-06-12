@@ -92,6 +92,8 @@ public:
     */
   static UCI_EXPORT void destroy(WeekdayIntervalType& accessor);
 
+  /** Devuelve la constante de tipo de este accesorio, p.e. weekdayIntervalType.
+    *
   /** Returns this accessor's type constant, i.e. weekdayIntervalType.
     *
     * @return This accessor's type constant, i.e. weekdayIntervalType.

@@ -38,7 +38,7 @@
 
 #include <cstdint>
 
-#include "asb_uci/base/PrimitiveList.h"
+#include "../../asb_uci/base/PrimitiveList.h"
 
 /**  */
 namespace asb_xs {

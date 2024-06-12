@@ -163,7 +163,7 @@ public:
 
 private:
   std::unique_ptr<ServiceStatusMDT> messageData_Accessor;
-  uci::type::SecurityInformationType securityInformation;
+  std::unique_ptr<uci::type::SecurityInformationType> securityInformation;
 
 };
 

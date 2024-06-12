@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_DURATIONTYPE_H
 #define UCI_TYPE_DURATIONTYPE_H
 
-#include "uci/base/DurationAccessor.h"
+#include "../base/DurationAccessor.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

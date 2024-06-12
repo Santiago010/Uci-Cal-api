@@ -105,22 +105,7 @@ public:
             return "UNKNOWN";
     }
 }
-Luego, puedes usar esta función para obtener el nombre del estado del enum en tus registros de la siguiente manera:
-
-cpp
-Copiar código
-AbstractServiceBusConnectionStatusData status = asbc.getStatus();
-log.info("CAL status is '" + abstractServiceBusConnectionStateToString(status.state) + "', detail: " + status.stateDetail);
-Esta función abstractServiceBusConnectionStateToString tomará un valor del enumerador y devolverá su representación como cadena de texto. Recuerda ajustar el nombre de la función y del enum según tu código real.
-
-
-
-
-
-
-
-
-
+//Luego, puedes usar esta función para obtener el nombre del estado del enum en tus registros de la siguiente manera:
 
   };
 

@@ -33,10 +33,14 @@
 #include "../../../../cppInterface/2.3.2/include/uci/type/ServiceStateEnum.h"
 #include "../../../../cppInterface/2.3.2/include/uci/type/ClassificationEnum.h"
 #include "../../../include/asb_uci/type/SecurityInformationType.h"
-#include "../../../include/asb_uci/type/OwnProducerChoiceType.h"
+#include "../../../include/asb_uci/type/OwnerProducerChoiceType.h"
 #include "../../../include/asb_uci/type/OwnerProducerEnum.h"
 #include "../../../include/asb_uci/base/Writer.h"
 #include "../../../include/asb_uci/base/Reader.h"
+#include "../../../include/asb_uci/type/WeekdayIntervalType.h"
+#include "../../../include/asb_uci/type/DateTimeRangeType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TimeType.h"
 
 
 #include "example.h"
@@ -79,22 +83,100 @@ void Example::testExternalizerRead(asb_uci::base::Externalizer& externalizer){
     cout << "Test Externalizer read" << endl;
 
     try{
-        std::istream& fileLocationCp = readFile("FileLocation_CP-15A.xml");
+        std::istream& fileLocationMTstream = readFile("FileLocation_CP-15A.xml");
 
         uci::base::AcccessorFileLocationMT accessorFileLicationMT;
         accessorFileLicationMT.setData("accessorFileLicationMT");
 
-        externalizer.read(fileLocationCp,accessorFileLicationMT);
+        externalizer.read(fileLocationMTstream,accessorFileLicationMT);
+
+        std::ostringstream oss;
+        externalizer.write(fileLocationMTstream,oss);
+        std::string fileLocationMTstreamXml = oss.str();
+
+
+        cout << "read in stream : \n" << fileLocationMTstreamXml << endl;
+        cout << "Test Externalizer read : Reader \n" << endl;
+        std::istream& fileLocationMTstreamXml = readFile("FileLocation_CP-15A.xml");
+        externalizer.read(fileLocationMTstreamXml,accessorFileLicationMT);
+        std::ostringstream ossReader;
+         externalizer.write(fileLocationMTstreamXml,ossReader);
+
+
+        cout << "read in using reader : \n" << fileLocationMTstreamXml;
+
+        cout << "Test Externalizer write fragment%n%n" << endl;
+
+        xs::DateTime begin = getCurrentTimeMillis();
+        xs::DateTime end = addTime(100,222);
+        uci::type::TimeTypeValue  beginLocal = secondsSinceMidnight(3600);
+
+        asb_uci::type::DateTimeRangeType dateTimeRangeType;
+        asb_uci::type::WeekdayIntervalType weekdayIntervalType;
+        
+        weekdayIntervalType.setTimeSpan(dateTimeRangeType.setBegin(begin).setEnd(end)).setStartTime(beginLocal);
+
+
+        std::ostringstream out;
+        externalizer.writer(weekdayIntervalType,out);
+        
+        std::string outStr = out.str();
+        std::vector<uint8_t> bytes;
+        for (char c : outStr) {
+            bytes.push_back(static_cast<uint8_t>(c));
+        }
+
+        // Convertir los bytes a una cadena
+        std::string witXML;
+        for (uint8_t b : bytes) {
+            witXML += static_cast<char>(b);
+        }
+
+
+        std::cout << "Externalized wrote xml fragment: \n" << witXML << "\n\n";
+
+        std::cout << "Test Externalizer read fragment%n%n" << endl;
+
+        std::istringstream in(std::string(bytes.begin(), bytes.end()));
+
+        externalizer.read(in,weekdayIntervalType);
+
+        externalizer.write(weekdayIntervalType,out);
+
+        std::string outStr = out.str();
+    
+        // Convertir std::string a std::vector<uint8_t> (bytes)
+        std::vector<uint8_t> bytes2(outStr.begin(), outStr.end());
+        
+        // Crear un std::string a partir de std::vector<uint8_t>
+        std::string witXML(bytes2.begin(), bytes2.end());
+        
+        // Mostrar el resultado
+        std::cout << "Externalized read xml fragment : " << witXML << std::endl;
+
+        if(beginLocal != weekdayIntervalType.getStartTime()){
+            root.error("Failed to read and write XML fragment");
+        }
+        
+
+
 
  
     }
     catch(const std::exception& e)
     {
+        cout << "ERROR: see UCIException : \n"<< endl;
         std::cerr << e.what() << '\n';
     }
     
 
 
+}
+
+Example::secondsSinceMidnight(int64_t seconds){
+    // Asegúrate de que los segundos no excedan 86400 (segundos en un día)
+    seconds = seconds % 86400;
+    return seconds;
 }
 
 std::string Example::getVersion(){
@@ -318,6 +400,8 @@ void Example::runExample(int argc, char* argv[]) {
 }
 
 
+
+
 Example::getCurrentTimeMillis(){
 return std::chrono::duration_cast<std::chrono::milliseconds>(
         std::chrono::system_clock::now().time_since_epoch()).count();
@@ -336,6 +420,19 @@ Example::getNanosDuration(){
     auto duration = std::chrono::duration_cast<std::chrono::nanoseconds>(end - start).count();
 
     return duration;
+}
+
+Example::addTime(DateTime baseTime, int64_t seconds, int64_t nanoseconds){
+    int64_t baseTimeNs = baseTime * 1000000;
+    
+    // Agregar los segundos y nanosegundos adicionales
+    int64_t addedTimeNs = seconds * 1000000000 + nanoseconds;
+    
+    // Calcular el nuevo tiempo en nanosegundos
+    int64_t newTimeNs = baseTimeNs + addedTimeNs;
+    
+    // Convertir de nuevo a milisegundos
+    return newTimeNs / 1000000;
 }
 
 Example::getSystemId(){

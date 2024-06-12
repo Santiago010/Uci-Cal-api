@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_ACTDF_TRACEABILITYTYPE_H
 #define UCI_TYPE_ACTDF_TRACEABILITYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ACTDF_CollectionPlanType.h"
-#include "uci/type/ACTDF_TaskID_Type.h"
-#include "uci/type/AlphanumericString54Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ACTDF_CollectionPlanType.h"
+#include "ACTDF_TaskID_Type.h"
+#include "AlphanumericString54Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

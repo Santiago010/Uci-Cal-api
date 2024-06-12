@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_SERVICESTATUSMDT_H
 #define UCI_TYPE_SERVICESTATUSMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/ServiceID_Type.h"
-#include "uci/type/ServiceSettingType.h"
-#include "uci/type/ServiceStateEnum.h"
-#include "uci/type/VisibleString256Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DurationType.h"
+#include "ServiceID_Type.h"
+#include "ServiceSettingType.h"
+#include "ServiceStateEnum.h"
+#include "VisibleString256Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

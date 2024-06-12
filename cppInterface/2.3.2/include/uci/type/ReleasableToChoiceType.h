@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_RELEASABLETOCHOICETYPE_H
 #define UCI_TYPE_RELEASABLETOCHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/NATO_SpecialWordsType.h"
-#include "uci/type/ReleasableToEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "NATO_SpecialWordsType.h"
+#include "ReleasableToEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

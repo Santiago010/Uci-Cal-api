@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_COMMANDBASETYPE_H
 #define UCI_TYPE_COMMANDBASETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/type/CommandID_Type.h"
-#include "uci/type/CommandStateEnum.h"
+#include "../base/Accessor.h"
+#include "CommandID_Type.h"
+#include "CommandStateEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

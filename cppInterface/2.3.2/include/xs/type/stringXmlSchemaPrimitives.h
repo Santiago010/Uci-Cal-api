@@ -44,6 +44,7 @@ namespace xs {
 //  The following are the mappings of the XSD string primitives to the C++ types
 
 /** The type definition of the simple primitive String */
+/** La definición de tipo de la cadena primitiva simple */
 typedef uci::base::StringAccessor String;
 
 

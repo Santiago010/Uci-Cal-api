@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_NONIC_MARKINGSCHOICETYPE_H
 #define UCI_TYPE_NONIC_MARKINGSCHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/NonIC_MarkingsEnum.h"
-#include "uci/type/NonIC_MarkingsType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "../type/NonIC_MarkingsEnum.h"
+#include "../type/NonIC_MarkingsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

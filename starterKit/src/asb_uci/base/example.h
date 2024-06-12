@@ -5,6 +5,7 @@
 #include "../../../include/asb_uci/type/ServiceStatusMT.h"
 #include "../../../include/asb_uci/type/SystemID_Type.h"
 #include "../../../../cppInterface/2.3.2/include/uci/type/DateTimeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TimeType.h"
 
 
 #ifndef EXAMPLE_H
@@ -29,6 +30,8 @@ class Example {
         static asb_uci::type::SystemID_Type getSystemId();
         static uci::type::DateTimeTypeValue getCurrentTimeMillis();
         static long long getNanosDuration();
+        static uci::type::DateTimeTypeValue addTime(DateTime baseTime, int64_t seconds, int64_t nanoseconds);
+        static uci::type::TimeTypeValue secondsSinceMidnight(int64_t seconds);
 
 };
 
