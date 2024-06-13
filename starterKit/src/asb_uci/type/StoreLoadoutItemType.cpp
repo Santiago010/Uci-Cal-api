@@ -56,6 +56,12 @@ namespace asb_uci {
 /** The namespace in which all generated data types are declared */
 namespace type {
 
+StoreLoadoutItemType& StoreLoadoutItemType::setLocation(int value){
+  this->location_Accessor = value;
+
+  return *this;
+}
+
 StoreLoadoutItemType::StoreLoadoutItemType()
   : possibleStore_Accessor{boost::make_unique<PossibleStore>(0, SIZE_MAX)} {
 }

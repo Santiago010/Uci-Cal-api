@@ -41,10 +41,12 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/EmptyType.h"
+#include "../base/BoundedList.h"
+#include "EmptyType.h"
 #include "uci/base/Accessor.h"
 #include "uci/type/StoreLoadoutChoiceType.h"
+#include "StoreLoadoutItemType.h"
+
 
 /**  */
 namespace asb_uci {
@@ -173,6 +175,9 @@ public:
     */
   uci::type::StoreLoadoutChoiceType::StoreList& chooseStoreList() override;
 
+  StoreLoadoutChoiceType& chooseStoreList(std::initializer_list<asb_uci::type::StoreLoadoutItemType>);
+
+
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
@@ -275,9 +280,17 @@ public:
     */
   static std::string serialize(const uci::type::StoreLoadoutChoiceType& accessor, boost::property_tree::ptree& propTree, const std::string& nodeName, bool createNode = true, bool addTypeAttribute = false, bool checkIfDerivation = true, bool topLevel = false);
 
+  enum ChoiseTypeEnum{
+    STORE_LIST,
+    TERMINATOR;
+  }
+
 private:
   std::unique_ptr<StoreList> storeList_Accessor;
   std::unique_ptr<EmptyType> terminator_Accessor;
+  StoreLoadoutChoiceType::ChoiseTypeEnum choiceType;
+  asb_uci::base::BoundedList<asb_uci::type::StoreLoadoutItemType> choiseValue;
+
 
 };
 

@@ -166,7 +166,7 @@ public:
     *
     * @param name The name of the capability whose UUID is to be returned. The name must uniquely identify the capability
     *      to avoid collision with other capabilities and to retrieve the appropriate UUID.
-    * @return The UUID of the capability associated with the specified name.
+    * @return El UUID de la capacidad asociada con el nombre especificado.
     */
   uci::base::UUID getMyCapabilityUUID(const std::string& name) const override;
 

@@ -180,6 +180,7 @@ public:
     */
   static std::string serialize(const uci::type::StoreLoadoutItemType& accessor, boost::property_tree::ptree& propTree, const std::string& nodeName, bool createNode = true, bool addTypeAttribute = false, bool checkIfDerivation = true, bool topLevel = false);
 
+  StoreLoadoutItemType& setLocation(int value);
 private:
   asb_xs::Int location_Accessor{0};
   std::unique_ptr<PossibleStore> possibleStore_Accessor;

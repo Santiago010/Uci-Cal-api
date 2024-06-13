@@ -23,6 +23,9 @@
 #include "../../../include/asb_uci/base/UUIDGenerator.h"
 #include "../../../include/asb_uci/type/CapabilityCommandBaseType.h"
 #include <boost/lexical_cast.hpp>
+#include <boost/uuid/uuid.hpp>
+#include <boost/uuid/uuid_generators.hpp>
+#include <boost/uuid/uuid_io.hpp>
 #include "../../../include/asb_uci/type/ServiceStatusMT.h"
 #include "../../../include/asb_uci/type/ID_Type.h"
 #include "../../../include/asb_uci/type/ServiceID_Type.h"
@@ -41,7 +44,14 @@
 #include "../../../include/asb_uci/type/DateTimeRangeType.h"
 #include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 #include "../../../../cppInterface/2.3.2/include/uci/type/TimeType.h"
-
+#include "../../../include/asb_uci/type/SAR_ActivityType.h"
+#include "../../../include/asb_uci/type/CapabilityID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UUID.h"
+#include "../../../include/asb_uci/type/VariableSubsystemsType.h"
+#include "../../../include/asb_uci/type/CapabilityConfigurationType.h"
+#include "../../../include/asb_uci/type/StoreLoadoutChoiceType.h"
+#include "../../../include/asb_uci/type/StoreLoadoutItemType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
 
 #include "example.h"
 
@@ -67,18 +77,85 @@ using namespace std;
     return input_stream;
 }
 
-// TODO:implementar esta funcion en un futuro
 void Example::testVersion3UUIDGeneration(asb_uci::base::AbstractServiceBusConnection asbc){
+    asb_uci::base::UUIDGenerator uuid;
+    uuid.generateUUID();
+    bool haveUUIDFails = false;
+
+    uci::base::UUID defaultNameSpaceUUID = uuid.getNamespaceUUID();
+    string defaultNameSpaceString = boost::uuids::to_string(defaultNameSpaceUUID);
+    string expectedDefaultNameSpaceString = "f26ec6d2-467b-30fd-82c4-a882471d36ad";
+
+    if(defaultNameSpaceString == expectedDefaultNameSpaceString){
+        cout << "UUIDFactory: Version 3 namespace Test passed" << endl;
+    }else{
+        cout << "UUIDFactory: Version 3 namespace Test failed : Expected : " << expectedDefaultNameSpaceString << " but got : " << defaultNameSpaceString;
+        haveUUIDFails = true;
+    }
+
+
+    // Now test through ASB
+    defaultNameSpaceUUID = asbc.getNamespaceUUID();
+    defaultNameSpaceString = boost::uuids::to_string(defaultNameSpaceUUID);
+    if(defaultNameSpaceString == expectedDefaultNameSpaceString){
+        cout << "Version 3 namespace Test passed" << endl;
+    }else{
+        cout << "Version 3 namespace Test failed : Expected : "<< expectedDefaultNameSpaceString << " but got: "<< defaultNameSpaceString;
+        haveUUIDFails = true;
+    }
+
+    string expectedNilUUIDString = "00000000-0000-0000-0000-000000000000";
+    uci::base::UUID nilUUID = asbc.getNilUUID();
+    string defaultNameSpaceStringnilUUID = boost::uuids::to_string(nilUUID);
+
+    if(defaultNameSpaceStringnilUUID == expectedNilUUIDString){
+        cout << "Version 3 nilUUID Test passed" << endl;
+    }else{
+        cout << "Version 3 nilUUID Test failed : Expected : "<< expectedNilUUIDString<< " but got : " << nilUUID << endl;
+        haveUUIDFails = true;
+    }
+
+    // Test 1 param generateVersion3UUID
+
+    uci::base::UUID defaultNameSpacePlusPatriotsUUID =asbc.createVersion3UUID("Patriots");
+    string defaultNameSpacePlusPatriotsUUIDString = boost::uuids::to_string(defaultNameSpacePlusPatriotsUUID);
+    string expectedUuid = "f6fd1ae8-a050-361a-ae55-8638b0c2eb9f";
+
+    if(defaultNameSpacePlusPatriotsUUIDString == expectedUuid){
+        cout << "Version 3 UUID 1 param PASSED" << endl;
+    }else{
+        cout << "Version 3 UUID 1 param FAILED = " << defaultNameSpacePlusPatriotsUUIDString + " should be : " << expectedUuid;
+        haveUUIDFails = true;
+    }
+
+    // Test 2 param generateVersion3UUID
+    uci::base::UUID namespaceUUID = uci::base::UUID::fromString("00000000-0000-0000-0000-000000000001");
+    expectedUuid = "1a4338f0-a034-35c3-92e3-1c154799cee5";
+    uci::base::UUID nameSpacePlusCelticsUUID = asbc.createVersion3UUID(namespaceUUID,"Celtics");
+    string dnameSpacePlusCelticsUUIDString = boost::uuids::to_string(nameSpacePlusCelticsUUID);
+
+    if(dnameSpacePlusCelticsUUIDString == expectedUuid){
+        cout << "PASSED : Version 3 UUID 2 param" << endl;
+    }else{
+        cout << "Version 3 UUID 2 param FAILED = " << dnameSpacePlusCelticsUUIDString <<" should be : " << expectedUuid;
+        haveUUIDFails = true;
+    }
+
+    if(haveUUIDFails){
+        root.error("One or more UUID tests failed");
+    }
 }
 
-// TODO:implementar esta funcione en un futuro
 void Example::testOMS93testForeachAndAddmethods(){
+    asb::type::SAR_ActivityType sarActType;
+    asb::type::CapabilityID_Type capIdType;
+
+    asb::type::SAR_ActivityType sarActType2 = sarActType.addCapbilityID(capIdType);
 
 }
 
 
 
-// TODO:implementar esta funcion en un futuro
 void Example::testExternalizerRead(asb_uci::base::Externalizer& externalizer){
     cout << "Test Externalizer read" << endl;
 
@@ -195,6 +272,64 @@ std::string Example::getVersion(){
 
 }
 
+void Example::testOMS83AddAndChoiceMethods(){
+    asb_uci::type::VariableSubsystemsType vst;
+    asb_uci::type::CapabilityCommandBaseType cct1;
+    asb_uci::type::CapabilityCommandBaseType cct2;
+    asb_uci::type::CapabilityCommandBaseType cct3;
+    asb_uci::type::CapabilityCommandBaseType cct4;
+
+    vst.addConfiguration({cct1},{cct2},{cct3},{cct4});
+
+    int vstSize = vst.getConfiguration().size();
+
+    if(vstSize == 4){
+        root.info("PASSED: add vargs test");
+    }else{
+        root.error("FAILED: add vargs test");
+    }
+
+    asb_uci::type::CapabilityCommandBaseType iter[2] = {cct1,cct2};
+
+    asb_uci::type::VariableSubsystemsType vst2;
+    vst2.addConfiguration(iter);
+
+    vstSize = vst2.getConfiguration().size();
+    if (vstSize == 2){
+            root.info("PASSED: add iter test");
+        }else{
+            root.error("FAILED: add iter test");
+        }
+
+    asb_uci::type::StoreLoadoutChoiceType slct;
+
+    asb_uci::type::StoreLoadoutItemType pet1;
+    pet1.setLocation(1);
+    asb_uci::type::StoreLoadoutItemType pet2;
+    pet2.setLocation(2);
+    asb_uci::type::StoreLoadoutItemType pet3;
+    pet3.setLocation(3);
+
+    asb_uci::type::StoreLoadoutItemType iter2[3] = {pet1,pet2,pet3};
+
+    slct.chooseStoreList(iter2);
+
+    asb_uci::base::BoundedList<asb_uci::type::StoreLoadoutChoiceType::StoreList> = slct.getStoreList();
+
+    if (storeList.size() == 3){
+            root.info("PASSED: choice StoreLoadoutChoiceType test");
+        }
+        else
+        {
+           root.error("FAILED: choice StoreLoadoutChoiceType test");
+        }
+
+
+
+
+    
+}
+
 void Example::runExample(int argc, char* argv[]) {
 
     auto startTime = chrono::high_resolution_clock::now();
@@ -257,9 +392,11 @@ void Example::runExample(int argc, char* argv[]) {
 
     testExternalizerRead(externalizer);
 
+    testOMS93testForeachAndAddmethods();
+
     cout << "Externalizer API number version : " + externalizer.getCalApiVersion() << endl;
 
-   int externalizerIsXML = externalizer.getEncoding().compare("XML");
+    int externalizerIsXML = externalizer.getEncoding().compare("XML");
 
    if(externalizerIsXML < 0 || externalizerIsXML  > 0){
 
@@ -288,6 +425,7 @@ void Example::runExample(int argc, char* argv[]) {
 
     cout << "Externalizer vendor version : " + externalizer.getVendorVersion() << endl;
 
+
     ExampleListener listener;
     connection.addStatusListener(listener);
 
@@ -296,6 +434,10 @@ void Example::runExample(int argc, char* argv[]) {
     std::string str_uuid = boost::lexical_cast<std::string>(uuid.generateUUID());
     cout << "UUID generated by UUIDGenerator.generateUUID = " << str_uuid << endl;
 
+    testVersion3UUIDGeneration(connection);
+
+    testOMS83AddAndChoiceMethods();
+
 
     // Prueba rápida para probar que el encadenamiento de métodos puede manejar métodos de conjunto de llamadas en una clase donde
         // el conjunto está en la superclase, pero luego se anulan en la clase y devuelven la clase correcta. 
@@ -303,7 +445,6 @@ void Example::runExample(int argc, char* argv[]) {
     asb_uci::type::CapabilityCommandBaseType capa;
     capa.setOverrideRejection(true).setTrackingRange(1.0);
 
-    // TODO:recuerda implementar las verificaciones para IsReader
     if(isReader){
         asb_uci::type::ServiceStatusMT serviceStatus = createServiceStatusMT(connection);
         asb_uci::base::Reader reader =  serviceStatus.createReader("ServiceStatus",connection);

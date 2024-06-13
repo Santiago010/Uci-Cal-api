@@ -41,8 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "uci/type/VariableSubsystemsType.h"
+#include "../base/BoundedList.h"
+#include "CapabilityConfigurationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VariableSubsystemsType.h"
 
 /**  */
 namespace asb_uci {
@@ -163,8 +164,12 @@ public:
     */
   static std::string serialize(const uci::type::VariableSubsystemsType& accessor, boost::property_tree::ptree& propTree, const std::string& nodeName, bool createNode = true, bool addTypeAttribute = false, bool checkIfDerivation = true, bool topLevel = false);
 
+  VariableSubsystemsType& addConfiguration(std::initializer_list<asb_uci::type::CapabilityConfigurationType> vargs);
+
 private:
   std::unique_ptr<Configuration> configuration_Accessor;
+  Configuration configuration;
+  
 
 };
 

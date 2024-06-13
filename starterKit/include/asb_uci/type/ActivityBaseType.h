@@ -41,13 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/ActivityBasisEnum.h"
-#include "asb_uci/type/ActivityStateEnum.h"
-#include "asb_uci/type/DateTimeType.h"
-#include "asb_uci/type/PercentType.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/ActivityBaseType.h"
+#include "../../asb_uci/base/BoundedList.h"
+#include "ActivityBasisEnum.h"
+#include "ActivityStateEnum.h"
+#include "DateTimeType.h"
+#include "PercentType.h"
+#include "../../asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ActivityBaseType.h"
+#include "CapabilityID_Type.h"
 
 /**  */
 namespace asb_uci {
@@ -64,6 +65,10 @@ class ComparableRankingType;
 /** See annotations in child elements and messages/elements that use this type for details. */
 class ActivityBaseType : public virtual uci::type::ActivityBaseType {
 public:
+
+
+  ActivityBaseType& addCapabilityID(std::initializer_list<asb_uci::type::CapabilityID_Type> vargs);
+
   /** Indicates a Capability which the Activity is an instance of. Generally an Activity is an instance of a single
     * Capability. An Activity can be associated with multiple Capabilities when, for example, a Subsystem has distinct
     * Capabilities for automated and manual. In this case, if a manual command is issued while an automated Activity that
@@ -488,6 +493,7 @@ public:
 private:
   std::unique_ptr<ActivityID_Type> activityID_Accessor;
   std::unique_ptr<CapabilityID> capabilityID_Accessor;
+  CapabilityID capabilityID;
   asb_xs::Boolean interactive_Accessor{false};
   std::unique_ptr<ActivityStateEnum> activityState_Accessor;
   std::unique_ptr<ActivityBasisEnum> basis_Accessor;

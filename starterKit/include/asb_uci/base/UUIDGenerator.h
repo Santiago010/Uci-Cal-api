@@ -87,6 +87,8 @@ public:
     */
   uci::base::UUID generateUUID();
 
+  uci::base::UUID getNamespaceUUID();
+
   /** .
     *
     * @return .

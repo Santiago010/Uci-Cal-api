@@ -43,6 +43,8 @@
 
 #include "UCIException.h"
 #include "export.h"
+#include <boost/uuid/uuid.hpp>
+#include <boost/uuid/uuid_generators.hpp>
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {
@@ -571,6 +573,10 @@ public:
     * @return The generated RFC 4122 version 1 or version 4 UUID.
     */
   static UCI_EXPORT UUID generateUUID();
+
+  static UCI_EXPORT UUID getNilUUID(){
+    return boost::uuids::nil_uuid();
+  }
 
   /** Returns the UUID that is used in creating a Version 3 UUID for the method that does not provide the namespace
     * parameter.

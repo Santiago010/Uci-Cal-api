@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CapabilityConfigurationType.h"
-#include "asb_uci/util/SerializationHelpers.h"
+#include "../type/CapabilityConfigurationType.h"
+#include "../util/SerializationHelpers.h"
 #include "uci/base/UCIException.h"
 #include "uci/base/accessorType.h"
 #include "uci/type/CapabilityConfigurationType.h"
@@ -53,6 +53,14 @@ namespace asb_uci {
 
 /** The namespace in which all generated data types are declared */
 namespace type {
+
+VariableSubsystemsType& VariableSubsystemsType::addConfiguration(std::initializer_list<asb_uci::type::CapabilityConfigurationType> vargs){
+  for(const auto& confs: vargs){
+    this->configuration.push_back(confs);
+  }
+
+  return *this;
+}
 
 VariableSubsystemsType::VariableSubsystemsType()
   : configuration_Accessor{boost::make_unique<Configuration>(0, SIZE_MAX)} {
@@ -80,7 +88,7 @@ const uci::type::VariableSubsystemsType::Configuration& VariableSubsystemsType::
 }
 
 uci::type::VariableSubsystemsType::Configuration& VariableSubsystemsType::getConfiguration() {
-  return *configuration_Accessor;
+  return *configuration;
 }
 
 uci::type::VariableSubsystemsType& VariableSubsystemsType::setConfiguration(const uci::type::VariableSubsystemsType::Configuration& accessor) {

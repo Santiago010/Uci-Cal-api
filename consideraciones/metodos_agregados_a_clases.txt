@@ -1,1 +1,9 @@
 setTrackingRange : CapabilityCommandBaseType : starterKit/src/asb_uci/type
+
+addCapabilityID : ActivityBaseType: starterKit/src/asb_uci/type
+
+addConfiguration : VariableSubsystemsType: starterKit/src/asb_uci/type
+
+setLocation : StoreLoadoutItemType : starterKit/include/asb_uci/type
+
+chooseStoreList: StoreLoadoutChoiceType : starterKit/include/asb_uci/type

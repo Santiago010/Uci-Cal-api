@@ -14,6 +14,7 @@
 class Example {
     private :
         static asb_uci::type::ServiceStatusMDT createServiceStatusMT(asb_uci::base::AbstractServiceBusConnection asbs);
+        static void testOMS83AddAndChoiceMethods();
     public:
 
         asb_uci::type::SystemID_Type systemId();

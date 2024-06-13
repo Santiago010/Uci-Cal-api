@@ -41,18 +41,18 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ActivityBasisEnum.h"
-#include "asb_uci/type/ActivityID_Type.h"
-#include "asb_uci/type/ActivitySourceType.h"
-#include "asb_uci/type/ActivityStateEnum.h"
-#include "asb_uci/type/CannotComplyType.h"
-#include "asb_uci/type/CapabilityID_Type.h"
-#include "asb_uci/type/ComparableRankingType.h"
-#include "asb_uci/util/DerivedTypesCopier.h"
-#include "asb_uci/util/DerivedTypesCreator.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/DerivedTypesSerializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
+#include "../type/ActivityBasisEnum.h"
+#include "../type/ActivityID_Type.h"
+#include "../type/ActivitySourceType.h"
+#include "../type/ActivityStateEnum.h"
+#include "../type/CannotComplyType.h"
+#include "../type/CapabilityID_Type.h"
+#include "../type/ComparableRankingType.h"
+#include "../util/DerivedTypesCopier.h"
+#include "../util/DerivedTypesCreator.h"
+#include "../util/DerivedTypesDeserializer.h"
+#include "../util/DerivedTypesSerializer.h"
+#include "../util/SerializationHelpers.h"
 #include "uci/base/UCIException.h"
 #include "uci/base/accessorType.h"
 #include "uci/type/ActivityBaseType.h"
@@ -72,6 +72,14 @@ namespace asb_uci {
 
 /** The namespace in which all generated data types are declared */
 namespace type {
+
+ActivityBaseType& ActivityBaseType::addCapabilityID(std::initializer_list<asb_uci::type::CapabilityID_Type> vargs) {
+  for (const auto& capabilityID : vargs){
+    this->capabilityID.push_back(capabilityID);
+  }
+
+  return *this;  
+}
 
 ActivityBaseType::ActivityBaseType()
   : activityID_Accessor{boost::make_unique<ActivityID_Type>()},
@@ -170,7 +178,8 @@ uci::type::ActivityBaseType::CapabilityID& ActivityBaseType::getCapabilityID() {
 
 uci::type::ActivityBaseType& ActivityBaseType::setCapabilityID(const uci::type::ActivityBaseType::CapabilityID& accessor) {
   if (&accessor != capabilityID_Accessor.get()) {
-    capabilityID_Accessor->copyImpl(accessor, false);
+    
+    ->copyImpl(accessor, false);
   }
   return *this;
 }

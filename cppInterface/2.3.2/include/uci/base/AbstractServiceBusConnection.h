@@ -55,7 +55,7 @@ namespace base {
 class AbstractServiceBusConnectionStatusListener;
 
 /** The AbstractServiceBusConnection provides the fundamental support for sending and receiving messages. */
-class AbstractServiceBusConnection {
+class AbstractServiceBusConnection : public uci::base::UUID {
 public:
 
   /** The AbstractServiceBusConnectionStateEnum is an enumeration of the Abstract Service Bus Connection state. */
