@@ -1,0 +1,30 @@
+1.escribir la clase XMLExternalizerImpl, ya que de aqui
+se desprende codigo que se va terminar usando en otras clases
+
+2.escribir la clase MessageReaderImpl con su interfaz:
+MessageReader, que en el caso de c++ se trataria de un archivo .h
+
+3.escribir la clase MessageWriterImpl con su interfaz MessageWriter,
+que en el caso de c++ se trataria dse un archivo .h
+
+4.Escribir la interfaz UUIDGenerator, que en el caso de c++
+se trataria de un archivo .h
+
+5.Escribir la clase Version3UUIDHelper
+
+6.escribir la clase UUIDFactoryImpl con su interfaz:
+UUIDFactory, que en el caso de c++ se trataria de un archivo
+.h
+
+7.escribir la clase AbstractServiceBusConnectionFactoryImpl
+con su interfaz : AbstractServiceBusConnectionFactory,
+que el caso de c++ se trataria de un archivo .h
+
+8.escribir la clase TimeBasedUUIDGenerator
+
+9.escribir la clase UUIDclock
+
+10.escribir la clase RandomUUIDGenerator
+
+TODO: se deben escribir en este orden ya que una depende de la otra
+para poder funcionar

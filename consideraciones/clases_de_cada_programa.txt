@@ -1,0 +1,77 @@
+uci_cal_api_example - segun JAVASTARTERKITCALDIR
+
+Main
+
+Example
+
+ServiceStatusListener
+
+ASBConnectionStatusListener
+
+pila de ejecución :
+
+Main llama a metodo runExample de la clase Example, este metodo es el principal
+asi que se encarga de ejecutar cada uno de los metodos que componen a Example.
+
+Example instancia a ServiceStatusListener pasandole como paramentro a externalizer,
+esto se encuentra en :
+
+if(isReader){}
+
+Example instacia a ASBConnectionStatusListener y esta instancia se la pasa como parametro
+a metodo addStatusListener de la clase AbstractServiceBusConnection
+
+-----------------------------------------------------------------------------------------------
+uci_cal_api_jms
+
+AbstractServiceBusConnectionFactoryImpl
+AbstractServiceBusConnectionImpl
+MessageReaderImpl
+MessageWriterImpl
+RandomUUIDGenerator
+TimeBasedUUIDGenerator
+UUIDClock
+UUIDFactoryImpl
+UUIDGenerator
+Version3UUIDHelper
+CALConfig
+
+pila de ejecución :
+
+Example hace uso de estas clases para generar verficaciones y hacer test,
+por lo cual hay que mirar como escribi la logica en Example para remplazarlas por estas nuevas classes.
+
+MessageReaderImpl es instanciada en AbstractServiceBusConnectionImpl linea 316
+
+MessageWriterImpl es instanciada en AbstractServiceBusConnectionImpl linea 328
+
+UUIDGenerator es intanciada en UUIDFactoryImpl linea 64
+
+UUIDGenerator es intanciada en CALConfig linea 70
+
+Version3UUIDHelper es llamada con uno de sus metodos en UUIDFactoryImpl linea 177
+
+Version3UUIDHelper es llamada con uno de sus metodos en CALConfig linea 91
+
+UUIDFactoryImpl es instanciada en AbstractServiceBusConnectionFactoryImpl en la linea 90
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------
+uci_cal_api_externalizer
+
+XMLExternalizerImpl
+
+pila de ejecución :
+
+
+
+XMLExternalizerImpl  es usado en Example para hacer una verificacion linea 571
+
+
+XMLExternalizerImpl es usado en MessageReaderImpl linea 267
+XMLExternalizerImpl es usado por MessageWriterImpl linea 106
+
