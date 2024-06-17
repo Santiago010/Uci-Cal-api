@@ -15,6 +15,8 @@ include_directories(
     /usr/local/Cellar/boost/1.85.0/include/boost
     /usr/local/Cellar/activemq-cpp/3.9.5_2/include/activemq-cpp-3.9.5
     /usr/local/opt/libxml2/include/libxml2
+    /usr/local/include/activemq-cpp-3.9.5
+
 )
 
 # Especifica las rutas de las bibliotecas de log4cpp, activemq-cpp y apr

@@ -49,6 +49,7 @@ namespace base {
 class ConfigReader;
 
 /** The ExternalizerLoader is responsible to obtaining and removing access to implementations of the Externalizer class. */
+/** El ExternalizerLoader es responsable de obtener y eliminar el acceso a las implementaciones de la clase Externalizer. */
 class ExternalizerLoader : public uci::base::ExternalizerLoader {
 public:
   /** The constructor */
