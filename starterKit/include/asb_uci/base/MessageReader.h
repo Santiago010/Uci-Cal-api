@@ -13,6 +13,8 @@
 #include "Externalizer.h"
 #include <log4cpp/Category.hh>//Libreria para los Logs 
 #include <log4cpp/PropertyConfigurator.hh> //libreria para los Logs
+#include <cms/Message.h>
+#include <cms/TextMessage.h>
 
 
 namespace asb_uci {
@@ -26,6 +28,7 @@ namespace asb_uci {
             std::unique_ptr<cms::MessageConsumer> consumer;
             asb_uci::base::Externalizer* externalizer;
             std::string topicName;
+            std::shared_ptr<T> typeSP;
             std::vector<asb_uci::base::MessageListener> listeners;
             log4cpp::Category& root = log4cpp::Category::getRoot();
         public:
@@ -60,6 +63,8 @@ namespace asb_uci {
              */
             virtual std::shared_ptr<T> read(long timeoutSeconds) = 0;
 
+            virtual T parseMessage(cms::Message message) = 0;
+
              /**
              * Reads arriving messages. If no messages have arrived previous to the invocation of this method, then this method
              * will immediately return nullptr. If messages are available for processing, the messages will be returned
@@ -69,9 +74,11 @@ namespace asb_uci {
              */
             virtual std::shared_ptr<T> readNoWait() = 0;
 
-            MessageReader(cms::Connection* conn, const std::string& topicName, asb_uci::base::Externalizer* ext);
+            MessageReader(cms::Connection* conn, const std::string& tn,const std::shared_ptr<T>& t, asb_uci::base::Externalizer* ext);
 
             virtual bool listenerEmpty() = 0;
+
+            virtual void onMessage(cms::Message message) = 0;
         };
 
     } // namespace base

@@ -4,7 +4,7 @@
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/local/include -I/usr/local/opt/apr/include -I/usr/local/Cellar/boost/1.85.0/include/boost -I/usr/local/Cellar/activemq-cpp/3.9.5_2/include/activemq-cpp-3.9.5 -I/usr/local/opt/libxml2/include/libxml2
+CXX_INCLUDES = -I/usr/local/include -I/usr/local/opt/apr/include -I/usr/local/Cellar/boost/1.85.0/include/boost -I/usr/local/Cellar/activemq-cpp/3.9.5_2/include/activemq-cpp-3.9.5 -I/usr/local/opt/libxml2/include/libxml2 -I/usr/local/include/activemq-cpp-3.9.5
 
 CXX_FLAGS = -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6
 

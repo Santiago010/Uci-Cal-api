@@ -1,14 +1,14 @@
 1.escribir la clase XMLExternalizerImpl, ya que de aqui
-se desprende codigo que se va terminar usando en otras clases
+se desprende codigo que se va terminar usando en otras clases : hecho Externalizer.cpp
 
 2.escribir la clase MessageReaderImpl con su interfaz:
-MessageReader, que en el caso de c++ se trataria de un archivo .h
+MessageReader, que en el caso de c++ se trataria de un archivo .h : MessageReader.cpp
 
 3.escribir la clase MessageWriterImpl con su interfaz MessageWriter,
-que en el caso de c++ se trataria dse un archivo .h
+que en el caso de c++ se trataria dse un archivo .h : MessageWriter.cpp
 
 4.Escribir la interfaz UUIDGenerator, que en el caso de c++
-se trataria de un archivo .h
+se trataria de un archivo .h : UUIDGenerator.cpp
 
 5.Escribir la clase Version3UUIDHelper
 
