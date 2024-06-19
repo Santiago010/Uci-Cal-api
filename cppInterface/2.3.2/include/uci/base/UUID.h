@@ -86,7 +86,7 @@ namespace base {
   *                            "A" / "B" / "C" / "D" / "E" / "F"
   *
   */
-class UUID {
+class UUID : public boost::uuids::uuid {
 public:
 
   // === Common Typedefs, Constants, Enumerations, etc. ==================================================================
