@@ -20,7 +20,7 @@ UUIDFactory, que en el caso de c++ se trataria de un archivo .h:UUIDFactory.cpp
 con su interfaz : AbstractServiceBusConnectionFactory,
 que el caso de c++ se trataria de un archivo .h : AbstractServiceBusConnectionFactory.cpp
 
-8.escribir la clase TimeBasedUUIDGenerator
+8.escribir la clase TimeBasedUUIDGenerator: TimeBasedUUIDGenerator.cpp
 
 9.escribir la clase UUIDclock
 
