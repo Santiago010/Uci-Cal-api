@@ -22,9 +22,9 @@ que el caso de c++ se trataria de un archivo .h : AbstractServiceBusConnectionFa
 
 8.escribir la clase TimeBasedUUIDGenerator: TimeBasedUUIDGenerator.cpp
 
-9.escribir la clase UUIDclock
+9.escribir la clase UUIDclock: UUIDclock.cpp
 
-10.escribir la clase RandomUUIDGenerator
+10.escribir la clase RandomUUIDGenerator :RandomUUIDGenerator.cpp
 
 TODO: se deben escribir en este orden ya que una depende de la otra
 para poder funcionar

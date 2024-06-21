@@ -147,8 +147,6 @@ namespace asb_uci
          }
 
          uci::base::UUID TimeBasedUUIDGenerator::generateUUID(){
-
-            // TODO:ESTO FUNCIONARA CUANDO SE IMPLEMENTEN DICHOS METODOS
             clock.tick();
             long time = clock.getTime();
 
