@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_ZONETYPE_H
 #define UCI_TYPE_ZONETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AltitudeReferenceEnum.h"
-#include "uci/type/AltitudeType.h"
-#include "uci/type/AreaChoiceType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AltitudeReferenceEnum.h"
+#include "AltitudeType.h"
+#include "AreaChoiceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

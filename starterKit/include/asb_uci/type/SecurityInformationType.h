@@ -41,16 +41,16 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/ClassificationEnum.h"
-#include "asb_uci/type/DeclassExceptionEnum.h"
-#include "asb_uci/type/DisseminationControlsEnum.h"
-#include "asb_uci/type/NonUS_ControlsEnum.h"
-#include "asb_uci/type/SAR_IdentifierType.h"
-#include "asb_uci/type/WhitespaceVisibleString1024Type.h"
-#include "asb_uci/type/WhitespaceVisibleString4096Type.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/SecurityInformationType.h"
+#include "../base/BoundedList.h"
+#include "ClassificationEnum.h"
+#include "DeclassExceptionEnum.h"
+#include "DisseminationControlsEnum.h"
+#include "NonUS_ControlsEnum.h"
+#include "SAR_IdentifierType.h"
+#include "WhitespaceVisibleString1024Type.h"
+#include "WhitespaceVisibleString4096Type.h"
+#include "../../asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SecurityInformationType.h"
 
 /**  */
 namespace asb_uci {

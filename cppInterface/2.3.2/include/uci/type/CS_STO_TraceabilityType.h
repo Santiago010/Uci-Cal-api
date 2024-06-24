@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_CS_STO_TRACEABILITYTYPE_H
 #define UCI_TYPE_CS_STO_TRACEABILITYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/BytePositiveType.h"
-#include "uci/type/CS_CycleNumberType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "BytePositiveType.h"
+#include "CS_CycleNumberType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

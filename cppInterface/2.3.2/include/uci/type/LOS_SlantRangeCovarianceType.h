@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_LOS_SLANTRANGECOVARIANCETYPE_H
 #define UCI_TYPE_LOS_SLANTRANGECOVARIANCETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/DoubleAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/LOS_SlantRangeCovarianceRatesType.h"
+#include "../base/Accessor.h"
+#include "../base/DoubleAccessor.h"
+#include "../base/export.h"
+#include "LOS_SlantRangeCovarianceRatesType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,17 +36,17 @@
 #ifndef UCI_TYPE_SAR_ACTIVITYTYPE_H
 #define UCI_TYPE_SAR_ACTIVITYTYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/MultistaticModeOptionsEmployedType.h"
-#include "uci/type/RadarPointingTargetType.h"
-#include "uci/type/SAR_ActivityStatusDetailType.h"
-#include "uci/type/SAR_PredictedCollectionsType.h"
-#include "uci/type/SAR_SubCapabilityEnum.h"
-#include "uci/type/SharedRF_ApertureActivityBaseType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "ForeignKeyType.h"
+#include "MultistaticModeOptionsEmployedType.h"
+#include "RadarPointingTargetType.h"
+#include "SAR_ActivityStatusDetailType.h"
+#include "SAR_PredictedCollectionsType.h"
+#include "SAR_SubCapabilityEnum.h"
+#include "SharedRF_ApertureActivityBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

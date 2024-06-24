@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_SENSORREFERENCEDCOVERAGEAREATYPE_H
 #define UCI_TYPE_SENSORREFERENCEDCOVERAGEAREATYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AnglePairType.h"
-#include "uci/type/RangeElevationExtentChoiceType.h"
-#include "uci/type/SensorReferencedCoverageAreaReferenceEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AnglePairType.h"
+#include "RangeElevationExtentChoiceType.h"
+#include "SensorReferencedCoverageAreaReferenceEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

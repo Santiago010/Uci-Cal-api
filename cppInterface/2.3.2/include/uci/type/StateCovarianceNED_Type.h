@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_STATECOVARIANCENED_TYPE_H
 #define UCI_TYPE_STATECOVARIANCENED_TYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/AccelerationAccelerationCovarianceType.h"
-#include "uci/type/PositionAccelerationCovarianceType.h"
-#include "uci/type/PositionAndVelocityCovarianceType.h"
-#include "uci/type/VelocityAccelerationCovarianceType.h"
+#include "../base/export.h"
+#include "AccelerationAccelerationCovarianceType.h"
+#include "PositionAccelerationCovarianceType.h"
+#include "PositionAndVelocityCovarianceType.h"
+#include "VelocityAccelerationCovarianceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

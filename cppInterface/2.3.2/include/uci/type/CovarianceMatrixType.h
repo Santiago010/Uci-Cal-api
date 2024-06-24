@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_COVARIANCEMATRIXTYPE_H
 #define UCI_TYPE_COVARIANCEMATRIXTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/DoubleAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CovarianceMatrixCategoryEnum.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/DoubleAccessor.h"
+#include "../base/export.h"
+#include "CovarianceMatrixCategoryEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

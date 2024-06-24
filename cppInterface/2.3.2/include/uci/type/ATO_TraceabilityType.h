@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_ATO_TRACEABILITYTYPE_H
 #define UCI_TYPE_ATO_TRACEABILITYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AlphanumericDashSpaceUnderscoreString10OnlyType.h"
-#include "uci/type/AlphanumericDashSpaceUnderscoreString56OnlyType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AlphanumericDashSpaceUnderscoreString10OnlyType.h"
+#include "AlphanumericDashSpaceUnderscoreString56OnlyType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

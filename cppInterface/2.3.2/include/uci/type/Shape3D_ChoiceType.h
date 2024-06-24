@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_SHAPE3D_CHOICETYPE_H
 #define UCI_TYPE_SHAPE3D_CHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ArcVolumeType.h"
-#include "uci/type/ConeType.h"
-#include "uci/type/CylinderType.h"
-#include "uci/type/DomeType.h"
-#include "uci/type/EllipsoidType.h"
-#include "uci/type/IncRaPeriodVolumeType.h"
-#include "uci/type/RectangularConeType.h"
-#include "uci/type/SphereType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ArcVolumeType.h"
+#include "ConeType.h"
+#include "CylinderType.h"
+#include "DomeType.h"
+#include "EllipsoidType.h"
+#include "IncRaPeriodVolumeType.h"
+#include "RectangularConeType.h"
+#include "SphereType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

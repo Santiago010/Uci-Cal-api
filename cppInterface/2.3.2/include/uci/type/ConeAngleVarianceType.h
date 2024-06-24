@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_CONEANGLEVARIANCETYPE_H
 #define UCI_TYPE_CONEANGLEVARIANCETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/DoubleAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ConeAngleVarianceRatesType.h"
+#include "../base/Accessor.h"
+#include "../base/DoubleAccessor.h"
+#include "../base/export.h"
+#include "ConeAngleVarianceRatesType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

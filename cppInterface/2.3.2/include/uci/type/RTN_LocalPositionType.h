@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_RTN_LOCALPOSITIONTYPE_H
 #define UCI_TYPE_RTN_LOCALPOSITIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/KinematicsOptionsType.h"
-#include "uci/type/QuaternionType.h"
-#include "uci/type/RTN_PositionType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "KinematicsOptionsType.h"
+#include "QuaternionType.h"
+#include "RTN_PositionType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

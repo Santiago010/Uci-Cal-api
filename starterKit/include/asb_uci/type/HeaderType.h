@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/DateTimeType.h"
-#include "asb_uci/type/MessageModeEnum.h"
-#include "asb_uci/type/UCI_SchemaVersionStringType.h"
-#include "uci/type/HeaderType.h"
+#include "DateTimeType.h"
+#include "MessageModeEnum.h"
+#include "UCI_SchemaVersionStringType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/HeaderType.h"
 
 /**  */
 namespace asb_uci {

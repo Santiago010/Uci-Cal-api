@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_FIXEDPOSITIONTYPE_H
 #define UCI_TYPE_FIXEDPOSITIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/DoubleAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/Point2D_ReportedType.h"
-#include "uci/type/UncertaintyType.h"
+#include "../base/Accessor.h"
+#include "../base/DoubleAccessor.h"
+#include "../base/export.h"
+#include "Point2D_ReportedType.h"
+#include "UncertaintyType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

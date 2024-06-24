@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_RESPONSEID_TYPE_H
 #define UCI_TYPE_RESPONSEID_TYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/VersionedID_Type.h"
+#include "../base/BoundedList.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "../type/VersionedID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

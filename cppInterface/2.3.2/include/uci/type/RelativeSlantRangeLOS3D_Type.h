@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_RELATIVESLANTRANGELOS3D_TYPE_H
 #define UCI_TYPE_RELATIVESLANTRANGELOS3D_TYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DistanceType.h"
-#include "uci/type/DoubleNonNegativeType.h"
-#include "uci/type/SpeedType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DistanceType.h"
+#include "DoubleNonNegativeType.h"
+#include "SpeedType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

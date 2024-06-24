@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_GCRS_KINEMATICSTYPE_H
 #define UCI_TYPE_GCRS_KINEMATICSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CovarianceMatrixType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/GCRS_PositionType.h"
-#include "uci/type/OrbitalKinematicsAccelerationType.h"
-#include "uci/type/OrbitalKinematicsVelocityType.h"
-#include "uci/type/QuaternionType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CovarianceMatrixType.h"
+#include "DateTimeType.h"
+#include "GCRS_PositionType.h"
+#include "OrbitalKinematicsAccelerationType.h"
+#include "OrbitalKinematicsVelocityType.h"
+#include "QuaternionType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

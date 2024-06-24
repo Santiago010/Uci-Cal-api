@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/NATO_SpecialWordsType.h"
-#include "asb_uci/type/OwnerProducerEnum.h"
-#include "uci/base/Accessor.h"
-#include "uci/type/OwnerProducerChoiceType.h"
+#include "NATO_SpecialWordsType.h"
+#include "OwnerProducerEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OwnerProducerChoiceType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_KINEMATICSOPTIONSTYPE_H
 #define UCI_TYPE_KINEMATICSOPTIONSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AssetType.h"
-#include "uci/type/KinematicsMultiStandardType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AssetType.h"
+#include "KinematicsMultiStandardType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

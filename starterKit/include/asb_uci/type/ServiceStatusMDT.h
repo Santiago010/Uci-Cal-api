@@ -41,11 +41,11 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/DurationType.h"
-#include "asb_uci/type/ServiceStateEnum.h"
-#include "asb_uci/type/VisibleString256Type.h"
-#include "uci/type/ServiceStatusMDT.h"
+#include "../base/BoundedList.h"
+#include "DurationType.h"
+#include "ServiceStateEnum.h"
+#include "VisibleString256Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ServiceStatusMDT.h"
 
 /**  */
 namespace asb_uci {

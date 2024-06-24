@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SAR_PREDICTEDCOLLECTIONSTYPE_H
 #define UCI_TYPE_SAR_PREDICTEDCOLLECTIONSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/Point3D_Type.h"
-#include "uci/type/SAR_PredictedActivityDetailType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "Point3D_Type.h"
+#include "SAR_PredictedActivityDetailType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

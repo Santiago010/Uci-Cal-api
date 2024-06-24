@@ -1,7 +1,7 @@
 #ifndef MY_ACCESSOR_H
 #define MY_ACCESSOR_H
 
-#include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
+#include "../../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
 #include <string>
 
 namespace uci {

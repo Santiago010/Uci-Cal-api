@@ -36,19 +36,19 @@
 #ifndef UCI_TYPE_ACTIVITYBASETYPE_H
 #define UCI_TYPE_ACTIVITYBASETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ActivityBasisEnum.h"
-#include "uci/type/ActivityID_Type.h"
-#include "uci/type/ActivitySourceType.h"
-#include "uci/type/ActivityStateEnum.h"
-#include "uci/type/CannotComplyType.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/ComparableRankingType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/PercentType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ActivityBasisEnum.h"
+#include "ActivityID_Type.h"
+#include "ActivitySourceType.h"
+#include "ActivityStateEnum.h"
+#include "CannotComplyType.h"
+#include "CapabilityID_Type.h"
+#include "ComparableRankingType.h"
+#include "DateTimeType.h"
+#include "PercentType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

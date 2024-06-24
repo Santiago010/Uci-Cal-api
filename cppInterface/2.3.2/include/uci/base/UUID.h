@@ -199,11 +199,18 @@ public:
     /** The most significant 64 bits, i.e., the most significant 16 hexadecimal digits, of the UUID. The hexadecimal digits
       * are stored in network ordering, i.e., big endian ordering.
       */
+     /** Los 64 bits más significativos, es decir, los 16 dígitos hexadecimales más significativos del UUID. Los dígitos hexadecimales
+      * se almacenan en pedidos en red, es decir, en pedidos big endian.
+      */
     uint64_t mostSignificantBits;
 
     /** The least significant 64 bits, i.e., the least significant 16 hexadecimal digits, of the UUID. The hexadecimal digits
       * are stored in network ordering, i.e., big endian ordering.
       */
+     /** Los 64 bits menos significativos, es decir, los 16 dígitos hexadecimales menos significativos del UUID. Los dígitos hexadecimales
+      * se almacenan en pedidos en red, es decir, en pedidos big endian.
+      */
+
     uint64_t leastSignificantBits;
 
   };
@@ -575,7 +582,7 @@ public:
   static UCI_EXPORT UUID generateUUID();
 
   static UCI_EXPORT UUID getNilUUID(){
-    return boost::uuids::nil_uuid();
+    return UUID(0,0);
   }
 
   /** Returns the UUID that is used in creating a Version 3 UUID for the method that does not provide the namespace

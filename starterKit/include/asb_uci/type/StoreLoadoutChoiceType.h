@@ -43,8 +43,8 @@
 
 #include "../base/BoundedList.h"
 #include "EmptyType.h"
-#include "uci/base/Accessor.h"
-#include "uci/type/StoreLoadoutChoiceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StoreLoadoutChoiceType.h"
 #include "StoreLoadoutItemType.h"
 
 
@@ -282,14 +282,15 @@ public:
 
   enum ChoiseTypeEnum{
     STORE_LIST,
-    TERMINATOR;
-  }
+    TERMINATOR
+  };
 
 private:
   std::unique_ptr<StoreList> storeList_Accessor;
   std::unique_ptr<EmptyType> terminator_Accessor;
   StoreLoadoutChoiceType::ChoiseTypeEnum choiceType;
-  asb_uci::base::BoundedList<asb_uci::type::StoreLoadoutItemType> choiseValue;
+  //asb_uci::base::BoundedList<asb_uci::type::StoreLoadoutItemType> choiseValue;
+ 
 
 
 };

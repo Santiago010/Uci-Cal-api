@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_RELATIVEOFFSET2D_TYPE_H
 #define UCI_TYPE_RELATIVEOFFSET2D_TYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DistanceOffsetType.h"
-#include "uci/type/OffsetXY_Enum.h"
-#include "uci/type/RotationEnum.h"
-#include "uci/type/Z_ChoiceType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DistanceOffsetType.h"
+#include "OffsetXY_Enum.h"
+#include "RotationEnum.h"
+#include "Z_ChoiceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_STORETYPE_H
 #define UCI_TYPE_STORETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/StoreCategoryEnum.h"
+#include "../base/Accessor.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "ForeignKeyType.h"
+#include "StoreCategoryEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

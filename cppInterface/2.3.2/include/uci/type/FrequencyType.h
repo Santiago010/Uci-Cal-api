@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_FREQUENCYTYPE_H
 #define UCI_TYPE_FREQUENCYTYPE_H
 
-#include "uci/type/DoublePositiveType.h"
+#include "DoublePositiveType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_QUATERNIONTYPE_H
 #define UCI_TYPE_QUATERNIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/UnitBallDoubleType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "UnitBallDoubleType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_UNITINTERVALFLOATTYPE_H
 #define UCI_TYPE_UNITINTERVALFLOATTYPE_H
 
-#include "uci/base/FloatAccessor.h"
+#include "../base/FloatAccessor.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

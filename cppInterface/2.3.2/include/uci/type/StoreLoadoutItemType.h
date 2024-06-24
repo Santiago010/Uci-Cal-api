@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_STORELOADOUTITEMTYPE_H
 #define UCI_TYPE_STORELOADOUTITEMTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/IntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/StoreItemType.h"
-#include "uci/type/StoreLoadoutItemPET.h"
+#include "../base/BoundedList.h"
+#include "../base/IntAccessor.h"
+#include "../base/export.h"
+#include "StoreItemType.h"
+#include "StoreLoadoutItemPET.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

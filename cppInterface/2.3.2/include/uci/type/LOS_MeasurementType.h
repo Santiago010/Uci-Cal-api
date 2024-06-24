@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_LOS_MEASUREMENTTYPE_H
 #define UCI_TYPE_LOS_MEASUREMENTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ArrivalDataType.h"
-#include "uci/type/ConeAngleType.h"
-#include "uci/type/LOS_AzElType.h"
-#include "uci/type/SlantRangeType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ArrivalDataType.h"
+#include "ConeAngleType.h"
+#include "LOS_AzElType.h"
+#include "SlantRangeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

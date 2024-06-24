@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/StoreLoadoutItemPET.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/StoreLoadoutItemType.h"
+#include "../base/BoundedList.h"
+#include "StoreLoadoutItemPET.h"
+#include "../../asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StoreLoadoutItemType.h"
 
 /**  */
 namespace asb_uci {
@@ -127,7 +127,7 @@ public:
     * @param value The new value to set the Location field to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::StoreLoadoutItemType& setLocation(xs::Int value) override;
+  StoreLoadoutItemType& setLocation(xs::Int value) override;
 
   /** Returns the accessor to the PossibleStore field contained in this message fragment
     *
@@ -180,7 +180,6 @@ public:
     */
   static std::string serialize(const uci::type::StoreLoadoutItemType& accessor, boost::property_tree::ptree& propTree, const std::string& nodeName, bool createNode = true, bool addTypeAttribute = false, bool checkIfDerivation = true, bool topLevel = false);
 
-  StoreLoadoutItemType& setLocation(int value);
 private:
   asb_xs::Int location_Accessor{0};
   std::unique_ptr<PossibleStore> possibleStore_Accessor;

@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_RELATIVEPOSITIONTYPE_H
 #define UCI_TYPE_RELATIVEPOSITIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/LineOfSightChoiceType.h"
-#include "uci/type/Point2D_ReferenceType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "LineOfSightChoiceType.h"
+#include "Point2D_ReferenceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

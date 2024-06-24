@@ -38,7 +38,7 @@
 
 #include <boost/property_tree/ptree.hpp>
 
-#include "uci/type/StoreLoadoutItemPET.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StoreLoadoutItemPET.h"
 
 /**  */
 namespace asb_uci {
@@ -96,10 +96,10 @@ public:
     *      uci::type::StoreLoadoutItemPET's contents.
     * @param checkIfDerivation Check if accessor to copy is a derived type.
     */
-  void copyImpl(const uci::type::StoreLoadoutItemPET& accessor, bool checkIfDerivation);
+  void copyImpl(const StoreLoadoutItemPET& accessor, bool checkIfDerivation);
 
   /** Resets the contents of this object returning these contents to their original state. */
-  void reset() noexcept override;
+  void reset() noexcept;
 
   /** 
     *
@@ -116,7 +116,7 @@ public:
     * @param nsPrefix .
     * @param topLevel .
     */
-  static void deserialize(const boost::property_tree::ptree& propTree, uci::type::StoreLoadoutItemPET& accessor, std::string& nodeName, std::string& nsPrefix, bool topLevel = false);
+  static void deserialize(const boost::property_tree::ptree& propTree,StoreLoadoutItemPET& accessor, std::string& nodeName, std::string& nsPrefix, bool topLevel = false);
 
   /** 
     *
@@ -129,7 +129,7 @@ public:
     * @param topLevel .
     * @return .
     */
-  static std::string serialize(const uci::type::StoreLoadoutItemPET& accessor, boost::property_tree::ptree& propTree, const std::string& nodeName, bool createNode = true, bool addTypeAttribute = false, bool checkIfDerivation = true, bool topLevel = false);
+  static std::string serialize(const StoreLoadoutItemPET& accessor, boost::property_tree::ptree& propTree, const std::string& nodeName, bool createNode = true, bool addTypeAttribute = false, bool checkIfDerivation = true, bool topLevel = false);
 
 };
 

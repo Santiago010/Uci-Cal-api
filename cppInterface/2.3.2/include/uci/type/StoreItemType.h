@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_STOREITEMTYPE_H
 #define UCI_TYPE_STOREITEMTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/StoreLoadoutCarriageType.h"
-#include "uci/type/StoreLoadoutMissionType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "StoreLoadoutCarriageType.h"
+#include "StoreLoadoutMissionType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

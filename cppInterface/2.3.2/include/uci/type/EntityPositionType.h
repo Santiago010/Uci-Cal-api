@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_ENTITYPOSITIONTYPE_H
 #define UCI_TYPE_ENTITYPOSITIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/FixedPositionType.h"
-#include "uci/type/RelativePositionType.h"
-#include "uci/type/ZoneType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "FixedPositionType.h"
+#include "RelativePositionType.h"
+#include "ZoneType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

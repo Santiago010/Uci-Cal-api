@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SLANTRANGERATESANDACCELERATIONTYPE_H
 #define UCI_TYPE_SLANTRANGERATESANDACCELERATIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AccelerationType.h"
-#include "uci/type/SpeedType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AccelerationType.h"
+#include "SpeedType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

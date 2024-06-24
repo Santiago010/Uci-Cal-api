@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_METRICVALUETYPE_H
 #define UCI_TYPE_METRICVALUETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/FloatAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/NegotiableOptionsEnum.h"
-#include "uci/type/UnitIntervalFloatType.h"
-#include "uci/type/VisibleString256Type.h"
+#include "../base/Accessor.h"
+#include "../base/FloatAccessor.h"
+#include "../base/export.h"
+#include "ForeignKeyType.h"
+#include "NegotiableOptionsEnum.h"
+#include "UnitIntervalFloatType.h"
+#include "VisibleString256Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_AREACHOICETYPE_H
 #define UCI_TYPE_AREACHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/LocatedEllipseType.h"
-#include "uci/type/LocatedRectangleType.h"
-#include "uci/type/PolygonType.h"
-#include "uci/type/SlantRangeAreaType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "LocatedEllipseType.h"
+#include "LocatedRectangleType.h"
+#include "PolygonType.h"
+#include "SlantRangeAreaType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,8 +36,8 @@
 #ifndef ASB_UCI_TYPE_DATETIMETYPE_H
 #define ASB_UCI_TYPE_DATETIMETYPE_H
 
-#include "asb_uci/base/DateTimeAccessor.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../base/DateTimeAccessor.h"
+#include "../../asb_xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

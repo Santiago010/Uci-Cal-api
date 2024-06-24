@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SLANTRANGEUNCERTAINTYTYPE_H
 #define UCI_TYPE_SLANTRANGEUNCERTAINTYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/SlantRangeCovarianceType.h"
-#include "uci/type/SlantRangeVarianceType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "SlantRangeCovarianceType.h"
+#include "SlantRangeVarianceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

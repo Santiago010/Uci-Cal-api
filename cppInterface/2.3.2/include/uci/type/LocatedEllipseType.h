@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_LOCATEDELLIPSETYPE_H
 #define UCI_TYPE_LOCATEDELLIPSETYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/EllipseType.h"
-#include "uci/type/PointChoiceType.h"
+#include "../base/export.h"
+#include "EllipseType.h"
+#include "PointChoiceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

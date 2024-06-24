@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_POSITIONANDVELOCITYCOVARIANCETYPE_H
 #define UCI_TYPE_POSITIONANDVELOCITYCOVARIANCETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/PositionPositionCovarianceType.h"
-#include "uci/type/PositionVelocityCovarianceType.h"
-#include "uci/type/VelocityVelocityCovarianceType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "PositionPositionCovarianceType.h"
+#include "PositionVelocityCovarianceType.h"
+#include "VelocityVelocityCovarianceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

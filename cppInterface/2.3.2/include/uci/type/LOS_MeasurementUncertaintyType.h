@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_LOS_MEASUREMENTUNCERTAINTYTYPE_H
 #define UCI_TYPE_LOS_MEASUREMENTUNCERTAINTYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ArrivalDataUncertaintyType.h"
-#include "uci/type/ConeAngleSlantRangeUncertaintyType.h"
-#include "uci/type/ConeAngleUncertaintyType.h"
-#include "uci/type/LOS_SlantRangeUncertaintyType.h"
-#include "uci/type/LOS_VarianceAndCovarianceType.h"
-#include "uci/type/SlantRangeUncertaintyType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ArrivalDataUncertaintyType.h"
+#include "ConeAngleSlantRangeUncertaintyType.h"
+#include "ConeAngleUncertaintyType.h"
+#include "LOS_SlantRangeUncertaintyType.h"
+#include "LOS_VarianceAndCovarianceType.h"
+#include "SlantRangeUncertaintyType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

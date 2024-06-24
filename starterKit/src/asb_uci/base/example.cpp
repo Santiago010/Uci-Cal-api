@@ -11,6 +11,14 @@
 #include <thread>  // Solo para la función de dormir en el ejemplo
 #include <log4cpp/Category.hh>//Libreria para los Logs 
 #include <log4cpp/PropertyConfigurator.hh> //libreria para los Logs
+// TODO:librerias verificadas 
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
+#include "headers/AccessorFileLocationMT.h"
+
+
+
+
+
 #include "../../../include/asb_uci/base/AbstractServiceBusConnection.h"
 #include "../../../include/asb_uci/base/Externalizer.h"
 #include "../../../include/asb_uci/base/ExternalizerLoader.h"
@@ -18,8 +26,8 @@
 #include "../../../../cppInterface/2.3.2/include/uci/type/FileLocationMT.h"
 #include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
 #include "../../../../cppInterface/2.3.2/include/uci/base/AbstractServiceBusConnectionStatusListener.h"
-#include "ExampleListener.h"
-#include "AccessorFileLocationMT.h"
+#include "headers/ExampleListener.h"
+#include "headers/AccessorFileLocationMT.h"
 #include "../../../include/asb_uci/base/UUIDGenerator.h"
 #include "../../../include/asb_uci/type/CapabilityCommandBaseType.h"
 #include <boost/lexical_cast.hpp>
@@ -53,9 +61,12 @@
 #include "../../../include/asb_uci/type/StoreLoadoutItemType.h"
 #include "../../../include/asb_uci/base/BoundedList.h"
 
+
 #include "headers/example.h"
 
 using namespace std;
+
+log4cpp::Category& Example::root = log4cpp::Category::getRoot();
 
 
 
@@ -147,10 +158,10 @@ void Example::testVersion3UUIDGeneration(asb_uci::base::AbstractServiceBusConnec
 }
 
 void Example::testOMS93testForeachAndAddmethods(){
-    asb::type::SAR_ActivityType sarActType;
-    asb::type::CapabilityID_Type capIdType;
+    asb_uci::type::SAR_ActivityType sarActType;
+    asb_uci::type::CapabilityID_Type capIdType;
 
-    asb::type::SAR_ActivityType sarActType2 = sarActType.addCapbilityID(capIdType);
+    asb_uci::type::SAR_ActivityType sarActType2 = sarActType.addCapbilityID(capIdType);
 
 }
 
@@ -169,23 +180,23 @@ void Example::testExternalizerRead(asb_uci::base::Externalizer& externalizer){
 
         std::ostringstream oss;
         externalizer.write(fileLocationMTstream,oss);
-        std::string fileLocationMTstreamXml = oss.str();
+        std::string fileLocationMTstreamXmll = oss.str();
 
 
-        cout << "read in stream : \n" << fileLocationMTstreamXml << endl;
+        cout << "read in stream : \n" << fileLocationMTstreamXmll << endl;
         cout << "Test Externalizer read : Reader \n" << endl;
-        std::istream& fileLocationMTstreamXml = readFile("FileLocation_CP-15A.xml");
-        externalizer.read(fileLocationMTstreamXml,accessorFileLicationMT);
+        std::istream& fileLocationMTstreamXmll = readFile("FileLocation_CP-15A.xml");
+        externalizer.read(fileLocationMTstreamXmll,accessorFileLicationMT);
         std::ostringstream ossReader;
-         externalizer.write(fileLocationMTstreamXml,ossReader);
+         externalizer.write(fileLocationMTstreamXmll,ossReader);
 
 
-        cout << "read in using reader : \n" << fileLocationMTstreamXml;
+        cout << "read in using reader : \n" << fileLocationMTstreamXmll;
 
         cout << "Test Externalizer write fragment%n%n" << endl;
 
         xs::DateTime begin = getCurrentTimeMillis();
-        xs::DateTime end = addTime(100,222);
+        xs::DateTime end = addTime(0,100,222);
         uci::type::TimeTypeValue  beginLocal = secondsSinceMidnight(3600);
 
         asb_uci::type::DateTimeRangeType dateTimeRangeType;
@@ -195,7 +206,7 @@ void Example::testExternalizerRead(asb_uci::base::Externalizer& externalizer){
 
 
         std::ostringstream out;
-        externalizer.writer(weekdayIntervalType,out);
+        externalizer.write(weekdayIntervalType,out);
         
         std::string outStr = out.str();
         std::vector<uint8_t> bytes;
@@ -351,7 +362,6 @@ void Example::runExample(int argc, char* argv[]) {
     log4cpp::PropertyConfigurator::configure("log4cpp.properties");
 
     // Crear un objeto Logger
-    log4cpp::Category& root = log4cpp::Category::getRoot();
 
     // Verificar si el nivel de registro actual permite mensajes de nivel de información
     if (root.isInfoEnabled()) {
@@ -563,7 +573,7 @@ Example::getNanosDuration(){
     return duration;
 }
 
-Example::addTime(DateTime baseTime, int64_t seconds, int64_t nanoseconds){
+Example::addTime(xs::DateTime baseTime, int64_t seconds, int64_t nanoseconds){
     int64_t baseTimeNs = baseTime * 1000000;
     
     // Agregar los segundos y nanosegundos adicionales

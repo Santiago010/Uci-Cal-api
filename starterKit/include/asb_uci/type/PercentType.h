@@ -36,8 +36,8 @@
 #ifndef ASB_UCI_TYPE_PERCENTTYPE_H
 #define ASB_UCI_TYPE_PERCENTTYPE_H
 
-#include "asb_uci/base/DoubleAccessor.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../base/DoubleAccessor.h"
+#include "../../asb_xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

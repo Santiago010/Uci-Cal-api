@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_ARRIVALDATATYPE_H
 #define UCI_TYPE_ARRIVALDATATYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/FrequencyOffsetType.h"
-#include "uci/type/FrequencyType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DurationType.h"
+#include "FrequencyOffsetType.h"
+#include "FrequencyType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

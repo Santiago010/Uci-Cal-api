@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_ORBITALKINEMATICSCHOICETYPE_H
 #define UCI_TYPE_ORBITALKINEMATICSCHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/OrbitalKinematicsObjectRelativeType.h"
-#include "uci/type/OrbitalKinematicsStandardFrameChoiceType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "OrbitalKinematicsObjectRelativeType.h"
+#include "OrbitalKinematicsStandardFrameChoiceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

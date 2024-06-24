@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_LOS_MEASUREMENTANDUNCERTAINTYTYPE_H
 #define UCI_TYPE_LOS_MEASUREMENTANDUNCERTAINTYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/LOS_MeasurementType.h"
-#include "uci/type/LOS_MeasurementUncertaintyErrorSourcesType.h"
-#include "uci/type/LOS_UncertaintyType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "LOS_MeasurementType.h"
+#include "LOS_MeasurementUncertaintyErrorSourcesType.h"
+#include "LOS_UncertaintyType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

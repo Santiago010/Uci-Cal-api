@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_KINEMATICSCHOICETYPE_H
 #define UCI_TYPE_KINEMATICSCHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/OpVolumeKinematicsType.h"
-#include "uci/type/OrbitalKinematicsChoiceType.h"
-#include "uci/type/RTN_LocalPositionType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "OpVolumeKinematicsType.h"
+#include "OrbitalKinematicsChoiceType.h"
+#include "RTN_LocalPositionType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

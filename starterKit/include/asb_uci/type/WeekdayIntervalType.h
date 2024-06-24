@@ -41,12 +41,12 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/DurationType.h"
-#include "asb_uci/type/TimeType.h"
-#include "asb_uci/type/WeekdayEnum.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/WeekdayIntervalType.h"
+#include "../base/BoundedList.h"
+#include "DurationType.h"
+#include "TimeType.h"
+#include "WeekdayEnum.h"
+#include "../../asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/WeekdayIntervalType.h"
 
 /**  */
 namespace asb_uci {

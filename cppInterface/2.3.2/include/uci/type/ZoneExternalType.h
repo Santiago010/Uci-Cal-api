@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_ZONEEXTERNALTYPE_H
 #define UCI_TYPE_ZONEEXTERNALTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/AlphanumericDashSpaceUnderscoreString15OnlyType.h"
-#include "uci/type/ZoneType.h"
+#include "../base/export.h"
+#include "AlphanumericDashSpaceUnderscoreString15OnlyType.h"
+#include "ZoneType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_CAPABILITYCONFIGURATIONTYPE_H
 #define UCI_TYPE_CAPABILITYCONFIGURATIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityConfigurationID_Type.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/SubsystemID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilityConfigurationID_Type.h"
+#include "CapabilityID_Type.h"
+#include "SubsystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

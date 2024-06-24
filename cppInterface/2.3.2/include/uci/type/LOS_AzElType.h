@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_LOS_AZELTYPE_H
 #define UCI_TYPE_LOS_AZELTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AnglePositiveType.h"
-#include "uci/type/AngleType.h"
-#include "uci/type/LOS_AzElRatesType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AnglePositiveType.h"
+#include "AngleType.h"
+#include "LOS_AzElRatesType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_RTN_KINEMATICSTYPE_H
 #define UCI_TYPE_RTN_KINEMATICSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CovarianceMatrixType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/QuaternionType.h"
-#include "uci/type/RTN_AccelerationType.h"
-#include "uci/type/RTN_PositionType.h"
-#include "uci/type/RTN_VelocityType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CovarianceMatrixType.h"
+#include "DateTimeType.h"
+#include "QuaternionType.h"
+#include "RTN_AccelerationType.h"
+#include "RTN_PositionType.h"
+#include "RTN_VelocityType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

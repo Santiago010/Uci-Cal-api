@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_ACTIVITYPLANSID_CHOICETYPE_H
 #define UCI_TYPE_ACTIVITYPLANSID_CHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ActivityPlanID_Type.h"
-#include "uci/type/OrbitActivityPlanID_Type.h"
-#include "uci/type/RouteActivityPlanID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ActivityPlanID_Type.h"
+#include "OrbitActivityPlanID_Type.h"
+#include "RouteActivityPlanID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

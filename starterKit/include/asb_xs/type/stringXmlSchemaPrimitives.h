@@ -36,7 +36,7 @@
 #ifndef ASB_XS_TYPE_STRINGXMLSCHEMAPRIMITIVES_H
 #define ASB_XS_TYPE_STRINGXMLSCHEMAPRIMITIVES_H
 
-#include "asb_uci/base/StringAccessor.h"
+#include "../../asb_uci/base/StringAccessor.h"
 
 /**  */
 namespace asb_xs {

@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_ASSOCIATEDMESSAGESOURCETYPE_H
 #define UCI_TYPE_ASSOCIATEDMESSAGESOURCETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CommandID_Type.h"
-#include "uci/type/ResourceRequestID_AndOptionType.h"
-#include "uci/type/SharedSourceEmitterPriorityBinDetailType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "CommandID_Type.h"
+#include "ResourceRequestID_AndOptionType.h"
+#include "SharedSourceEmitterPriorityBinDetailType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

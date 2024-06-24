@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_KINEMATICSTYPE_H
 #define UCI_TYPE_KINEMATICSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/Acceleration3D_Type.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/EntityPositionType.h"
-#include "uci/type/OrientationCovarianceType.h"
-#include "uci/type/OrientationType.h"
-#include "uci/type/StateCovarianceNED_Type.h"
-#include "uci/type/Velocity2D_UncertaintyType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "Acceleration3D_Type.h"
+#include "DateTimeType.h"
+#include "EntityPositionType.h"
+#include "OrientationCovarianceType.h"
+#include "OrientationType.h"
+#include "StateCovarianceNED_Type.h"
+#include "Velocity2D_UncertaintyType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_LOS_VARIANCETYPE_H
 #define UCI_TYPE_LOS_VARIANCETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/DoubleAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/LOS_VarianceRatesType.h"
+#include "../base/Accessor.h"
+#include "../base/DoubleAccessor.h"
+#include "../base/export.h"
+#include "LOS_VarianceRatesType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

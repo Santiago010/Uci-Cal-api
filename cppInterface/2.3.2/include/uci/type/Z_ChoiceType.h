@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_Z_CHOICETYPE_H
 #define UCI_TYPE_Z_CHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AltitudeOffsetReferenceType.h"
-#include "uci/type/AltitudeReferenceType.h"
-#include "uci/type/DistanceOffsetType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AltitudeOffsetReferenceType.h"
+#include "AltitudeReferenceType.h"
+#include "DistanceOffsetType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

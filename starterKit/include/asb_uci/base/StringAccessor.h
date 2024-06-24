@@ -41,7 +41,7 @@
 
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "uci/base/StringAccessor.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/StringAccessor.h"
 
 /**  */
 namespace asb_uci {

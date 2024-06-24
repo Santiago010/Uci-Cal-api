@@ -36,8 +36,8 @@
 #ifndef ASB_UCI_TYPE_TIMETYPE_H
 #define ASB_UCI_TYPE_TIMETYPE_H
 
-#include "asb_uci/base/TimeAccessor.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../base/TimeAccessor.h"
+#include "../../asb_xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

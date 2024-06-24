@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_LINETARGETTYPE_H
 #define UCI_TYPE_LINETARGETTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/AlphanumericSpaceString15OnlyType.h"
-#include "uci/type/LineType.h"
+#include "../base/export.h"
+#include "AlphanumericSpaceString15OnlyType.h"
+#include "LineType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

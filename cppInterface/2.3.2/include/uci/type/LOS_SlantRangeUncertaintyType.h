@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_LOS_SLANTRANGEUNCERTAINTYTYPE_H
 #define UCI_TYPE_LOS_SLANTRANGEUNCERTAINTYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/LOS_SlantRangeCovarianceType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "LOS_SlantRangeCovarianceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

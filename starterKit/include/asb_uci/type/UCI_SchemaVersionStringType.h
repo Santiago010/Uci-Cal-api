@@ -36,7 +36,7 @@
 #ifndef ASB_UCI_TYPE_UCI_SCHEMAVERSIONSTRINGTYPE_H
 #define ASB_UCI_TYPE_UCI_SCHEMAVERSIONSTRINGTYPE_H
 
-#include "asb_xs/type/stringXmlSchemaPrimitives.h"
+#include "../../asb_xs/type/stringXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

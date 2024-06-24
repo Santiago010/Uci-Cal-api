@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_POINT2D_REFERENCETYPE_H
 #define UCI_TYPE_POINT2D_REFERENCETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/PointChoiceType.h"
-#include "uci/type/ReferenceObjectType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "PointChoiceType.h"
+#include "ReferenceObjectType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

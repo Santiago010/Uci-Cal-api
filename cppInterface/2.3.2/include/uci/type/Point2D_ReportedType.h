@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_POINT2D_REPORTEDTYPE_H
 #define UCI_TYPE_POINT2D_REPORTEDTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/AltitudeSourceEnum.h"
-#include "uci/type/DepthContactEnum.h"
-#include "uci/type/DistanceOffsetType.h"
-#include "uci/type/Point2D_Type.h"
+#include "../base/export.h"
+#include "AltitudeSourceEnum.h"
+#include "DepthContactEnum.h"
+#include "DistanceOffsetType.h"
+#include "Point2D_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {
