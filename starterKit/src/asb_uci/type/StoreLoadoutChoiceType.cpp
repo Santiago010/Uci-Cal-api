@@ -57,6 +57,10 @@ namespace asb_uci {
 /** The namespace in which all generated data types are declared */
 namespace type {
 
+asb_uci::base::BoundedList<uci::type::StoreLoadoutChoiceType,uci::type::accessorType::storeLoadoutChoiceType,asb_uci::type::StoreLoadoutItemType> StoreLoadoutChoiceType::asStoreList(){
+    return this->choiceValue;
+  }
+
 StoreLoadoutChoiceType& StoreLoadoutChoiceType::chooseStoreList(std::initializer_list<asb_uci::type::StoreLoadoutItemType> StoreList){
   if(StoreList == nullptr){
     this->choiceType = nullptr;

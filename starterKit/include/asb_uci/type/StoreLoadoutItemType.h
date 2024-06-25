@@ -71,7 +71,7 @@ public:
     *
     * @param rhs The StoreLoadoutItemType to copy from
     */
-  StoreLoadoutItemType(const StoreLoadoutItemType& rhs) = delete;
+  StoreLoadoutItemType(const StoreLoadoutItemType& rhs) ;
 
   /** The move constructor
     *

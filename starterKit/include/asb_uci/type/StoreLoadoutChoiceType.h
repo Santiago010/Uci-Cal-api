@@ -43,6 +43,7 @@
 
 #include "../base/BoundedList.h"
 #include "EmptyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
 #include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
 #include "../../../../cppInterface/2.3.2/include/uci/type/StoreLoadoutChoiceType.h"
 #include "StoreLoadoutItemType.h"
@@ -58,7 +59,10 @@ class StoreLoadoutItemPET;
 
 /** See annotations in child elements and messages/elements that use this type for details. */
 class StoreLoadoutChoiceType : public virtual uci::type::StoreLoadoutChoiceType {
+  
 public:
+
+  
   /** The list of all StoreType held at this location and by any child StoreType carriage items in the order they appear in
     * StoreType list. [Occurrences: Minimum: 1; Maximum: MAX_LENGTH]
     */
@@ -285,11 +289,13 @@ public:
     TERMINATOR
   };
 
+  asb_uci::base::BoundedList<uci::type::StoreLoadoutChoiceType,uci::type::accessorType::storeLoadoutChoiceType,asb_uci::type::StoreLoadoutItemType> asStoreList();
+
 private:
   std::unique_ptr<StoreList> storeList_Accessor;
   std::unique_ptr<EmptyType> terminator_Accessor;
   StoreLoadoutChoiceType::ChoiseTypeEnum choiceType;
-  //asb_uci::base::BoundedList<asb_uci::type::StoreLoadoutItemType> choiseValue;
+  asb_uci::base::BoundedList<uci::type::StoreLoadoutChoiceType,uci::type::accessorType::storeLoadoutChoiceType,asb_uci::type::StoreLoadoutItemType> choiceValue;
  
 
 

@@ -73,7 +73,7 @@ namespace asb_uci {
 /** The namespace in which all generated data types are declared */
 namespace type {
 
-ActivityBaseType& ActivityBaseType::addCapabilityID(std::initializer_list<asb_uci::type::CapabilityID_Type> vargs) {
+ActivityBaseType& ActivityBaseType::addCapabilityID(std::vector<asb_uci::type::CapabilityID_Type> vargs) {
   for (const auto& capabilityID : vargs){
     this->capabilityID.push_back(capabilityID);
   }

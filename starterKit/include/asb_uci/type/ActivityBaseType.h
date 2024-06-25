@@ -67,7 +67,7 @@ class ActivityBaseType : public virtual uci::type::ActivityBaseType {
 public:
 
 
-  ActivityBaseType& addCapabilityID(std::initializer_list<asb_uci::type::CapabilityID_Type> vargs);
+  virtual ActivityBaseType& addCapabilityID(std::vector<asb_uci::type::CapabilityID_Type> vargs);
 
   /** Indicates a Capability which the Activity is an instance of. Generally an Activity is an instance of a single
     * Capability. An Activity can be associated with multiple Capabilities when, for example, a Subsystem has distinct

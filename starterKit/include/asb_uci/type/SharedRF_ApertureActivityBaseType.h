@@ -43,6 +43,7 @@
 
 #include "../base/BoundedList.h"
 #include "ActivityBaseType.h"
+#include "CapabilityID_Type.h"
 #include "../../../../cppInterface/2.3.2/include/uci/type/SharedRF_ApertureActivityBaseType.h"
 
 /**  */
@@ -63,6 +64,9 @@ public:
     * Minimum: 0; Maximum: MAX_LENGTH]
     */
   using DependentActivity = asb_uci::base::BoundedList<uci::type::DependentActivityType, uci::type::accessorType::dependentActivityType, asb_uci::type::DependentActivityType>;
+
+  SharedRF_ApertureActivityBaseType& addCapabilityID(std::vector<asb_uci::type::CapabilityID_Type> vargs) override;
+
 
   /** Provides feedback on the percent access of the aperture resources being used by this activity. Required for
     * subsystems once resources are allocated. [Occurrences: Minimum: 0; Maximum: MAX_LENGTH]

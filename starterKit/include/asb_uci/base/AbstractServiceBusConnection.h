@@ -89,7 +89,7 @@ public:
     *
     * @param rhs The AbstractServiceBusConnection to copy from
     */
-  AbstractServiceBusConnection(const AbstractServiceBusConnection& rhs) = delete;
+  AbstractServiceBusConnection(const AbstractServiceBusConnection& rhs) ;
 
   /** The move constructor
     *

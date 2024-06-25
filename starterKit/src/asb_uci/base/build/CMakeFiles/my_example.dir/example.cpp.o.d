@@ -1766,6 +1766,13 @@ CMakeFiles/my_example.dir/example.cpp.o: \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../../cppInterface/2.3.2/include/uci/type/TaskID_Type.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../../cppInterface/2.3.2/include/uci/type/DistanceType.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../../cppInterface/2.3.2/include/uci/type/DoubleNonNegativeType.h \
+  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/type/CapabilityConfigurationType.h \
+  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/type/../base/BoundedList.h \
+  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/../../../../cppInterface/2.3.2/include/uci/base/Accessor.h \
+  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/../../../../cppInterface/2.3.2/include/uci/base/BoundedList.h \
+  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/type/../../../../cppInterface/2.3.2/include/uci/type/CapabilityConfigurationType.h \
+  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../../cppInterface/2.3.2/include/uci/type/CapabilityConfigurationID_Type.h \
+  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../../cppInterface/2.3.2/include/uci/type/SubsystemID_Type.h \
   /usr/local/include/boost/lexical_cast.hpp \
   /usr/local/include/boost/lexical_cast/detail/buffer_view.hpp \
   /usr/local/include/boost/lexical_cast/bad_lexical_cast.hpp \
@@ -1810,7 +1817,6 @@ CMakeFiles/my_example.dir/example.cpp.o: \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/type/../../../../cppInterface/2.3.2/include/xs/type/stringXmlSchemaPrimitives.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/type/../../asb_xs/type/binaryXmlSchemaPrimitives.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/../../asb_xs/type/../../asb_uci/base/PrimitiveList.h \
-  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/../../../../cppInterface/2.3.2/include/uci/base/Accessor.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/../../../../cppInterface/2.3.2/include/uci/base/SimpleList.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/type/../../../../cppInterface/2.3.2/include/uci/type/ID_Type.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/type/ServiceID_Type.h \
@@ -1829,8 +1835,6 @@ CMakeFiles/my_example.dir/example.cpp.o: \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/type/SystemID_Type.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/type/../../../../cppInterface/2.3.2/include/uci/type/SystemID_Type.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/type/ServiceStatusMDT.h \
-  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/type/../base/BoundedList.h \
-  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/../../../../cppInterface/2.3.2/include/uci/base/BoundedList.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/type/DurationType.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/type/../base/DurationAccessor.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/../../../../cppInterface/2.3.2/include/uci/base/DurationAccessor.h \
@@ -2397,10 +2401,6 @@ CMakeFiles/my_example.dir/example.cpp.o: \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../../cppInterface/2.3.2/include/uci/type/SharedRF_ApertureActivityBaseType.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../../cppInterface/2.3.2/include/uci/base/UUID.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/type/VariableSubsystemsType.h \
-  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/type/CapabilityConfigurationType.h \
-  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/type/../../../../cppInterface/2.3.2/include/uci/type/CapabilityConfigurationType.h \
-  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../../cppInterface/2.3.2/include/uci/type/CapabilityConfigurationID_Type.h \
-  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../../cppInterface/2.3.2/include/uci/type/SubsystemID_Type.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/type/../../../../cppInterface/2.3.2/include/uci/type/VariableSubsystemsType.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../../cppInterface/2.3.2/include/uci/type/CapabilityConfigurationType.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/type/StoreLoadoutChoiceType.h \
@@ -2418,6 +2418,7 @@ CMakeFiles/my_example.dir/example.cpp.o: \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../../cppInterface/2.3.2/include/uci/type/StoreLoadoutMissionType.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../../cppInterface/2.3.2/include/uci/type/StoreType.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../../cppInterface/2.3.2/include/uci/type/StoreCategoryEnum.h \
+  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../../cppInterface/2.3.2/include/uci/base/accessorType.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/BoundedList.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/headers/example.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/headers/../../../../include/asb_uci/base/Externalizer.h \
@@ -2426,4 +2427,8 @@ CMakeFiles/my_example.dir/example.cpp.o: \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/headers/../../../../include/asb_uci/type/SystemID_Type.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/headers/../../../../../cppInterface/2.3.2/include/uci/type/DateTimeType.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/headers/../../../../../cppInterface/2.3.2/include/uci/type/TimeType.h \
-  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/headers/../../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h
+  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/headers/../../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h \
+  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/headers/../../../../include/asb_uci/type/CapabilityConfigurationType.h \
+  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/headers/../../../../include/asb_uci/type/VariableSubsystemsType.h \
+  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/headers/../../../../include/asb_uci/type/StoreLoadoutChoiceType.h \
+  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/headers/../../../../include/asb_uci/type/StoreLoadoutItemType.h

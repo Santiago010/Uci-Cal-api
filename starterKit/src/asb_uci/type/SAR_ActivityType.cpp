@@ -75,6 +75,18 @@ SAR_ActivityType::SAR_ActivityType()
     electronicProtectionOptionsEmployed_Accessor{boost::make_unique<ElectronicProtectionOptionsEmployed>(0, SIZE_MAX)} {
 }
 
+SAR_ActivityType SAR_ActivityType::createFromCapabilities(const std::vector<asb_uci::type::CapabilityID_Type>& capabilities){
+  SAR_ActivityType sarAct;
+
+  sarAct.addCapabilityID(capabilities);
+  return sarAct;
+}
+
+SAR_ActivityType& SAR_ActivityType::addCapabilityID(std::vector<asb_uci::type::CapabilityID_Type> vargs){
+  SharedRF_ApertureActivityBaseType::addCapabilityID(vargs);
+  return *this;
+}
+
 SAR_ActivityType::~SAR_ActivityType() = default;
 
 void SAR_ActivityType::copy(const uci::type::SAR_ActivityType& accessor) {

@@ -9,20 +9,25 @@
 #include "../../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 #include <log4cpp/Category.hh>//Libreria para los Logs 
 #include <log4cpp/PropertyConfigurator.hh> //libreria para los Logs
-
-
+#include "../../../../include/asb_uci/type/CapabilityConfigurationType.h"
+#include "../../../../include/asb_uci/type/VariableSubsystemsType.h"
+#include "../../../../include/asb_uci/type/StoreLoadoutChoiceType.h"
+#include "../../../../include/asb_uci/type/StoreLoadoutItemType.h"
 #ifndef EXAMPLE_H
 #define EXAMPLE_H
 
 class Example {
     private :
-        static asb_uci::type::ServiceStatusMDT createServiceStatusMT(asb_uci::base::AbstractServiceBusConnection asbs);
+        static asb_uci::type::ServiceStatusMT createServiceStatusMT(asb_uci::base::AbstractServiceBusConnection asbs);
         static void testOMS83AddAndChoiceMethods();
         
     public:
         static log4cpp::Category& root;
         asb_uci::type::SystemID_Type systemId();
-        
+        template <size_t N>
+        static void addConfigurationFromArray(asb_uci::type::VariableSubsystemsType& vst, const asb_uci::type::CapabilityConfigurationType (&arr)[N]);
+        template <size_t N>
+        static void addConfigurationFromArray2(asb_uci::type::StoreLoadoutChoiceType& slct,const asb_uci::type::StoreLoadoutItemType (&arr)[N]);
         static void runExample(int argc, char* argv[]);
         // TODO:metodo por implementarº
         static void testExternalizerRead(asb_uci::base::Externalizer& externalizer);

@@ -71,6 +71,11 @@ SharedRF_ApertureActivityBaseType::SharedRF_ApertureActivityBaseType()
 
 SharedRF_ApertureActivityBaseType::~SharedRF_ApertureActivityBaseType() = default;
 
+SharedRF_ApertureActivityBaseType& SharedRF_ApertureActivityBaseType::addCapabilityID(std::vector<asb_uci::type::CapabilityID_Type> vargs) {
+    ActivityBaseType::addCapabilityID(vargs); // Llama al método de la clase base
+    return *this;
+}
+
 void SharedRF_ApertureActivityBaseType::copy(const uci::type::SharedRF_ApertureActivityBaseType& accessor) {
   copyImpl(accessor, false);
 }

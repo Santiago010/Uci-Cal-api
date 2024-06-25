@@ -70,13 +70,13 @@ public:
     *
     * @param rhs The CapabilityConfigurationType to copy from
     */
-  CapabilityConfigurationType(const CapabilityConfigurationType& rhs) = delete;
+  CapabilityConfigurationType(const CapabilityConfigurationType& rhs) ;
 
   /** The move constructor
     *
     * @param rhs The CapabilityConfigurationType to move from
     */
-  CapabilityConfigurationType(CapabilityConfigurationType&& rhs) = delete;
+  CapabilityConfigurationType(CapabilityConfigurationType&& rhs);
 
   /** The assignment operator
     *

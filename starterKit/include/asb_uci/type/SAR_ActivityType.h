@@ -46,6 +46,7 @@
 #include "SharedRF_ApertureActivityBaseType.h"
 #include "../../asb_xs/type/simpleXmlSchemaPrimitives.h"
 #include "../../../../cppInterface/2.3.2/include/uci/type/SAR_ActivityType.h"
+#include "CapabilityID_Type.h"
 
 /**  */
 namespace asb_uci {
@@ -61,7 +62,13 @@ class SAR_PredictedCollectionsType;
 
 /** See annotations in child elements and messages/elements that use this type for details. */
 class SAR_ActivityType : public virtual uci::type::SAR_ActivityType, public virtual SharedRF_ApertureActivityBaseType {
+
+
 public:
+
+  static SAR_ActivityType createFromCapabilities(const std::vector<asb_uci::type::CapabilityID_Type>& capabilities);
+
+  SAR_ActivityType& addCapabilityID(std::vector<asb_uci::type::CapabilityID_Type> vargs) override;
   /** Indicates a specific SubCapability associated with the Activity. If omitted, all SubCapabilities of the associated
     * Capability are applicable for the Activity. This element is required whenever a subset of SubCapabilities of a
     * Capability are used by the Activity. List size for this element is based on "Select All That Apply" condition.
@@ -98,7 +105,7 @@ public:
     *
     * @param rhs The SAR_ActivityType to move from
     */
-  SAR_ActivityType(SAR_ActivityType&& rhs) = delete;
+  SAR_ActivityType(SAR_ActivityType&& rhs);
 
   /** The assignment operator
     *

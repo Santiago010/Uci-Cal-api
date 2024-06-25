@@ -80,7 +80,7 @@ public:
     *
     * @param rhs The BoundedList to move from
     */
-  BoundedList(BoundedList&& rhs) = delete;
+  BoundedList(BoundedList&& rhs);
 
   /** The assignment operator
     *

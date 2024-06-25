@@ -88,7 +88,9 @@
     "shared_mutex": "cpp",
     "stop_token": "cpp",
     "fstream": "cpp",
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "regex": "cpp",
+    "*.ipp": "cpp"
   },
   "workbench.colorCustomizations": {
     "activityBar.activeBackground": "#ab307e",

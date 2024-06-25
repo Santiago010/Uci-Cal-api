@@ -71,7 +71,7 @@ public:
     *
     * @param rhs The ServiceStatusMT to move from
     */
-  ServiceStatusMT(ServiceStatusMT&& rhs) = delete;
+  ServiceStatusMT(ServiceStatusMT&& rhs) ;
 
   /** The assignment operator
     *

@@ -30,6 +30,7 @@
 #include "headers/AccessorFileLocationMT.h"
 #include "../../../include/asb_uci/base/UUIDGenerator.h"
 #include "../../../include/asb_uci/type/CapabilityCommandBaseType.h"
+#include "../../../include/asb_uci/type/CapabilityConfigurationType.h"
 #include <boost/lexical_cast.hpp>
 #include <boost/uuid/uuid.hpp>
 #include <boost/uuid/uuid_generators.hpp>
@@ -58,6 +59,7 @@
 #include "../../../include/asb_uci/type/VariableSubsystemsType.h"
 #include "../../../include/asb_uci/type/CapabilityConfigurationType.h"
 #include "../../../include/asb_uci/type/StoreLoadoutChoiceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
 #include "../../../include/asb_uci/type/StoreLoadoutItemType.h"
 #include "../../../include/asb_uci/base/BoundedList.h"
 
@@ -160,8 +162,11 @@ void Example::testVersion3UUIDGeneration(asb_uci::base::AbstractServiceBusConnec
 void Example::testOMS93testForeachAndAddmethods(){
     asb_uci::type::SAR_ActivityType sarActType;
     asb_uci::type::CapabilityID_Type capIdType;
+    std::vector<asb_uci::type::CapabilityID_Type> capabilities;
+    capabilities.emplace_back(capIdType);
 
-    asb_uci::type::SAR_ActivityType sarActType2 = sarActType.addCapbilityID(capIdType);
+
+    asb_uci::type::SAR_ActivityType sarActType2 = asb_uci::type::SAR_ActivityType::createFromCapabilities(capabilities);
 
 }
 
@@ -173,22 +178,24 @@ void Example::testExternalizerRead(asb_uci::base::Externalizer& externalizer){
     try{
         std::istream& fileLocationMTstream = readFile("FileLocation_CP-15A.xml");
 
-        uci::base::AcccessorFileLocationMT accessorFileLicationMT;
-        accessorFileLicationMT.setData("accessorFileLicationMT");
+        uci::base::AcccessorFileLocationMT accessorFileLocationMT;
+        accessorFileLocationMT.setData("accessorFileLocationMT");
 
-        externalizer.read(fileLocationMTstream,accessorFileLicationMT);
+        externalizer.read(fileLocationMTstream,accessorFileLocationMT);
 
         std::ostringstream oss;
-        externalizer.write(fileLocationMTstream,oss);
+        externalizer.write(accessorFileLocationMT,oss);
         std::string fileLocationMTstreamXmll = oss.str();
 
 
         cout << "read in stream : \n" << fileLocationMTstreamXmll << endl;
         cout << "Test Externalizer read : Reader \n" << endl;
-        std::istream& fileLocationMTstreamXmll = readFile("FileLocation_CP-15A.xml");
-        externalizer.read(fileLocationMTstreamXmll,accessorFileLicationMT);
-        std::ostringstream ossReader;
-         externalizer.write(fileLocationMTstreamXmll,ossReader);
+        std::istream& reader = readFile("FileLocation_CP-15A.xml");
+        externalizer.read(reader,accessorFileLocationMT);
+
+        uci::base::AcccessorFileLocationMT baosReader;
+        baosReader.setData("");
+         externalizer.write(baosReader,fileLocationMTstreamXmll);
 
 
         cout << "read in using reader : \n" << fileLocationMTstreamXmll;
@@ -231,16 +238,16 @@ void Example::testExternalizerRead(asb_uci::base::Externalizer& externalizer){
 
         externalizer.write(weekdayIntervalType,out);
 
-        std::string outStr = out.str();
+        std::string outStr2 = out.str();
     
         // Convertir std::string a std::vector<uint8_t> (bytes)
-        std::vector<uint8_t> bytes2(outStr.begin(), outStr.end());
+        std::vector<uint8_t> bytes2(outStr2.begin(), outStr2.end());
         
         // Crear un std::string a partir de std::vector<uint8_t>
-        std::string witXML(bytes2.begin(), bytes2.end());
+        std::string witXML2(bytes2.begin(), bytes2.end());
         
         // Mostrar el resultado
-        std::cout << "Externalized read xml fragment : " << witXML << std::endl;
+        std::cout << "Externalized read xml fragment : " << witXML2 << std::endl;
 
         if(beginLocal != weekdayIntervalType.getStartTime()){
             root.error("Failed to read and write XML fragment");
@@ -261,7 +268,7 @@ void Example::testExternalizerRead(asb_uci::base::Externalizer& externalizer){
 
 }
 
-Example::secondsSinceMidnight(int64_t seconds){
+int64_t Example::secondsSinceMidnight(int64_t seconds){
     // Asegúrate de que los segundos no excedan 86400 (segundos en un día)
     seconds = seconds % 86400;
     return seconds;
@@ -283,14 +290,24 @@ std::string Example::getVersion(){
 
 }
 
+template <size_t N>
+void Example::addConfigurationFromArray(asb_uci::type::VariableSubsystemsType& vst, const asb_uci::type::CapabilityConfigurationType (&arr)[N]) {
+    vst.addConfiguration({arr, arr + N});
+}
+
+template <size_t N>
+void Example::addConfigurationFromArray2( asb_uci::type::StoreLoadoutChoiceType& slct,const asb_uci::type::StoreLoadoutItemType (&arr)[N]){
+    slct.chooseStoreList({arr, arr + N});
+}
+
 void Example::testOMS83AddAndChoiceMethods(){
     asb_uci::type::VariableSubsystemsType vst;
-    asb_uci::type::CapabilityCommandBaseType cct1;
-    asb_uci::type::CapabilityCommandBaseType cct2;
-    asb_uci::type::CapabilityCommandBaseType cct3;
-    asb_uci::type::CapabilityCommandBaseType cct4;
+    asb_uci::type::CapabilityConfigurationType cct1;
+    asb_uci::type::CapabilityConfigurationType cct2;
+    asb_uci::type::CapabilityConfigurationType cct3;
+    asb_uci::type::CapabilityConfigurationType cct4;
 
-    vst.addConfiguration({cct1},{cct2},{cct3},{cct4});
+    vst.addConfiguration({cct1,cct2,cct3,cct4});
 
     int vstSize = vst.getConfiguration().size();
 
@@ -300,10 +317,10 @@ void Example::testOMS83AddAndChoiceMethods(){
         root.error("FAILED: add vargs test");
     }
 
-    asb_uci::type::CapabilityCommandBaseType iter[2] = {cct1,cct2};
+    asb_uci::type::CapabilityConfigurationType iter[2] = {cct1,cct2};
 
     asb_uci::type::VariableSubsystemsType vst2;
-    vst2.addConfiguration(iter);
+    addConfigurationFromArray(vst,iter);
 
     vstSize = vst2.getConfiguration().size();
     if (vstSize == 2){
@@ -323,9 +340,10 @@ void Example::testOMS83AddAndChoiceMethods(){
 
     asb_uci::type::StoreLoadoutItemType iter2[3] = {pet1,pet2,pet3};
 
-    slct.chooseStoreList(iter2);
+    addConfigurationFromArray2(slct,iter2);
 
-    asb_uci::base::BoundedList<asb_uci::type::StoreLoadoutChoiceType::StoreList> = slct.getStoreList();
+
+      asb_uci::base::BoundedList<uci::type::StoreLoadoutChoiceType,uci::type::accessorType::storeLoadoutChoiceType,asb_uci::type::StoreLoadoutItemType> storeList = slct.asStoreList();
 
     if (storeList.size() == 3){
             root.info("PASSED: choice StoreLoadoutChoiceType test");
@@ -457,7 +475,7 @@ void Example::runExample(int argc, char* argv[]) {
 
     if(isReader){
         asb_uci::type::ServiceStatusMT serviceStatus = createServiceStatusMT(connection);
-        asb_uci::base::Reader reader =  serviceStatus.createReader("ServiceStatus",connection);
+        asb_uci::type::ServiceStatusMT::Reader reader =  serviceStatus.createReader("ServiceStatus",connection);
         root.info("Created ServiceStatus reader");
         reader.addListener(listener); 
 
