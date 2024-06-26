@@ -14,12 +14,12 @@ namespace asb_uci
         {
         private:
             asb_uci::base::config::CalConfig config;
-            std::mutex AbstractServiceBusConnectionFactory<T>::sendLock;
+            std::mutex sendLock;
             log4cpp::Category& root = log4cpp::Category::getRoot();
             bool warningAlreadyPrinted = false;
             std::string NAME = "AbstractServiceBusConnectionFactory";
         public:
-            asb_uci::base::AbstractServiceBusConnection createAbstractServiceBusConnection(std::string serviceInitId);
+            static asb_uci::base::AbstractServiceBusConnection createAbstractServiceBusConnection(std::string serviceInitId);
 
             asb_uci::base::config::CalConfig loadConfigFile();
             std::string getName(); 

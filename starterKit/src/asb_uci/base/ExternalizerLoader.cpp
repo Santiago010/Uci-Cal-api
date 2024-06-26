@@ -33,17 +33,17 @@
  *
  */
 
-#include "asb_uci/base/ExternalizerLoader.h"
+#include "../../../asb_uci/base/ExternalizerLoader.h"
 
 #include <string>
 
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/base/ConfigReader.h"
-#include "asb_uci/base/Externalizer.h"
-#include "uci/base/Externalizer.h"
-#include "uci/base/ExternalizerLoader.h"
-#include "uci/base/UCIException.h"
+#include "../../../asb_uci/base/ConfigReader.h"
+#include "../../../asb_uci/base/Externalizer.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/Externalizer.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/ExternalizerLoader.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
 
 /**  */
 namespace asb_uci {

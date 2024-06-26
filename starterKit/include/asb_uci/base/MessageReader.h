@@ -29,7 +29,7 @@ namespace asb_uci {
             asb_uci::base::Externalizer* externalizer;
             std::string topicName;
             std::shared_ptr<T> typeSP;
-            std::vector<asb_uci::base::MessageListener> listeners;
+            std::vector<asb_uci::base::MessageListener<T>> listeners;
             log4cpp::Category& root = log4cpp::Category::getRoot();
         public:
             virtual ~MessageReader() = default;
@@ -42,14 +42,14 @@ namespace asb_uci {
              * @param listener The listener that handles the message.
              * @return The instance of the added listener.
              */
-            virtual asb_uci::base::MessageListener addListener(asb_uci::base::MessageListener listener) = 0;
+            virtual asb_uci::base::MessageListener<T> addListener(asb_uci::base::MessageListener<T> listener) = 0;
 
             /**
              * Removes the specified listener that was previously added to listen to the arrival of new messages.
              * 
              * @param listener The listener that is to be removed.
              */
-            virtual void removeListener(asb_uci::base::MessageListener listener) = 0;
+            virtual void removeListener(asb_uci::base::MessageListener<T> listener) = 0;
 
             /**
              * Reads arriving messages. If no messages have arrived previous to the invocation of this method, then this method

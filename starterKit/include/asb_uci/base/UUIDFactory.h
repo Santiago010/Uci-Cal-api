@@ -6,6 +6,8 @@
 #include <log4cpp/Category.hh>//Libreria para los Logs 
 #include <log4cpp/PropertyConfigurator.hh> //libreria para
 
+#ifndef UUIDFACTORY_H
+#define UUIDFACTORY_H
 
 namespace asb_uci{
     namespace base{
@@ -38,7 +40,9 @@ namespace asb_uci{
                 uci::base::UUID uuid;
                 uci::base::UUID defaultNamespace;
                 asb_uci::base::config::CalConfig config;
-                std::mutex UUIDFactory<T>::sendLock;
-        }
+                static std::mutex sendLock;
+        };
     }
 }
+
+#endif // UUIDFACTORY_H

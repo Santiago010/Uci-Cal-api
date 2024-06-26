@@ -53,6 +53,7 @@
 #include <cms/Connection.h>
 
 #include "../../../include/asb_uci/base/ConfigReader.h"
+#include "../../../include/asb_uci/base/ExternalizerLoader.h"
 #include "../../../include/asb_uci/base/ConnectionMonitor.h"
 #include "../../../include/asb_uci/base/ConnectionStatus.h"
 #include "../../../include/asb_uci/base/Reader.h"
@@ -61,12 +62,77 @@
 #include "../../../../cppInterface/2.3.2/include/uci/base/AbstractServiceBusConnectionStatusListener.h"
 #include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
 #include "../../../../cppInterface/2.3.2/include/uci/base/UUID.h"
+#include <log4cpp/Category.hh>//Libreria para los Logs 
+#include <log4cpp/PropertyConfigurator.hh> //libreria para los Logs
 
 /**  */
 namespace asb_uci {
 
 /** The namespace in which all base data types are declared */
 namespace base {
+
+log4cpp::Category& AbstractServiceBusConnection::root = log4cpp::Category::getRoot();
+
+  std::string AbstractServiceBusConnection::findConnectionNameForTopic(std::string target){
+
+  }
+
+  template <typename T>
+  asb_uci::base::MessageReader<T> AbstractServiceBusConnection::createReader(std::string target,const std::shared_ptr<T>& type){
+    activemq::library::ActiveMQCPP::initializeLibrary();
+    std::unique_ptr<cms::Connection> connection(nullptr);
+
+    std::unique_ptr<ActiveMQConnectionFactory> connectionFactory(
+    new ActiveMQConnectionFactory("tcp://localhost:61616"));
+
+    connection.reset(connectionFactory->createConnection());
+
+    asb_uci::base::MessageReader<T> mr(connection.get(),"Example",type,externalizer);
+    root.info("Created message reader for target {} with type {}",target);
+
+    connection->close();
+
+    activemq::library::ActiveMQCPP::shutdownLibrary();
+
+    return mr;
+
+  }
+
+AbstractServiceBusConnection::getExternalizer(std::string externalizerType){
+  if(externalizer == nullptr){
+    asb_uci::base::ExternalizerLoader el;
+    externalizer = el("XML","3.0","2.3.3");
+
+    if(externalizer == nullptr){
+      root.error("Unable to get Externalizer for externalizerType : ",externalizerType);
+    }
+  }
+
+  return externalizer;
+}
+
+uci::base::UUID AbstractServiceBusConnection::generateUUID(){
+  uci::base::UUID uuid = uuidFactory.generateUUID();
+  root.debug("Created {} uuid '{}'",uuid);
+  return uuid;
+}
+
+uci::base::UUID AbstractServiceBusConnection::getNilUUID(){
+  return uuidFactory.getNilUUID();
+}
+
+uci::base::UUID AbstractServiceBusConnection::createVersion3UUID(std::string name){
+  uci::base::UUID uuid = uuidFactory.createVersion3UUID(name);
+  root.debug("Created version 3 (name-based) uuid '{}'",uuid);
+  return uuid;
+}
+
+uci::base::UUID AbstractServiceBusConnection::createVersion3UUID(uci::base::UUID namesp,std::string name){
+  uci::base::UUID uuid = uuidFactory.createVersion3UUID(namespace,name);
+  root.debug("Created version 3 (name-based) uuid '{}'",uuid);
+
+  return uuid;
+}
 
 struct AbstractServiceBusConnection::ConnectionComponents {
   bool connected{false};

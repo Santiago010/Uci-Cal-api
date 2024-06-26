@@ -48,6 +48,12 @@
 #include "ConfigReader.h"
 #include "../../../../cppInterface/2.3.2/include/uci/base/AbstractServiceBusConnectionStatusListener.h"
 #include "../../../../cppInterface/2.3.2/include/uci/base/UUID.h"
+#include "Externalizer.h"
+#include "MessageReader.h"
+#include "UUIDFactory.h"
+#include <typeinfo> 
+#include <log4cpp/Category.hh>//Libreria para los Logs 
+#include <log4cpp/PropertyConfigurator.hh> //libreria para los Logs
 
 /**  */
 namespace cms {
@@ -85,6 +91,8 @@ public:
     */
   AbstractServiceBusConnection(std::string asbId);
 
+  asb_uci::base::Externalizer getExternalizer(std::string externalizerType);
+
   /** The copy constructor
     *
     * @param rhs The AbstractServiceBusConnection to copy from
@@ -95,7 +103,7 @@ public:
     *
     * @param rhs The AbstractServiceBusConnection to move from
     */
-  AbstractServiceBusConnection(AbstractServiceBusConnection&& rhs) = delete;
+  AbstractServiceBusConnection(AbstractServiceBusConnection&& rhs) ;
 
   /** The assignment operator
     *
@@ -248,7 +256,22 @@ public:
     */
   void unRegisterWriter(asb_uci::base::WriterBase* writer);
 
+  uci::base::UUID getNilUUID();
+
+  uci::base::UUID createVersion3UUID(std::string name);
+
+  uci::base::UUID createVersion3UUID(uci::base::UUID namesp,std::string name);
+  uci::base::UUID generateUUID();
+
+  template <typename T>
+  asb_uci::base::MessageReader<T> createReader(std::string target,const std::shared_ptr<T>& type);
+
+
 private:
+  std::string findConnectionNameForTopic(std::string target);
+  static log4cpp::Category& root;
+  asb_uci::base::UUIDFactory uuidFactory;
+  asb_uci::base::Externalizer externalizer;
   std::string asbId;
   std::unique_ptr<ConfigReader> configReader;
   std::shared_ptr<ConnectionStatus> connectionStatus;

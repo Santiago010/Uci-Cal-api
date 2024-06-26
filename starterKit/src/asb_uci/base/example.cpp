@@ -11,17 +11,7 @@
 #include <thread>  // Solo para la función de dormir en el ejemplo
 #include <log4cpp/Category.hh>//Libreria para los Logs 
 #include <log4cpp/PropertyConfigurator.hh> //libreria para los Logs
-// TODO:librerias verificadas 
-#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
-#include "headers/AccessorFileLocationMT.h"
-
-
-
-
-
-#include "../../../include/asb_uci/base/AbstractServiceBusConnection.h"
 #include "../../../include/asb_uci/base/Externalizer.h"
-#include "../../../include/asb_uci/base/ExternalizerLoader.h"
 #include <cstdlib> // Para la función exit()
 #include "../../../../cppInterface/2.3.2/include/uci/type/FileLocationMT.h"
 #include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
@@ -64,7 +54,16 @@
 #include "../../../include/asb_uci/base/BoundedList.h"
 
 
+// TODO:librerias verificadas 
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
+#include "headers/AccessorFileLocationMT.h"
+#include "../../../include/asb_uci/base/AbstractServiceBusConnection.h"
 #include "headers/example.h"
+#include "../../../include/asb_uci/base/AbstractServiceBusConnectionFactory.h"
+#include "../../../include/asb_uci/base/ExternalizerLoader.h"
+#include "../../../include/asb_uci/base/UUIDFactory.h"
+#include "../../../include/asb_uci/base/MessageReader.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
 
 using namespace std;
 
@@ -91,11 +90,11 @@ log4cpp::Category& Example::root = log4cpp::Category::getRoot();
 }
 
 void Example::testVersion3UUIDGeneration(asb_uci::base::AbstractServiceBusConnection asbc){
-    asb_uci::base::UUIDGenerator uuid;
-    uuid.generateUUID();
+
+    asb_uci::base::UUIDFactory uuidFactory;
     bool haveUUIDFails = false;
 
-    uci::base::UUID defaultNameSpaceUUID = uuid.getNamespaceUUID();
+    uci::base::UUID defaultNameSpaceUUID = uuidFactory.getNamespaceUUID();
     string defaultNameSpaceString = boost::uuids::to_string(defaultNameSpaceUUID);
     string expectedDefaultNameSpaceString = "f26ec6d2-467b-30fd-82c4-a882471d36ad";
 
@@ -379,8 +378,6 @@ void Example::runExample(int argc, char* argv[]) {
     // Configuración básica de Log4cpp
     log4cpp::PropertyConfigurator::configure("log4cpp.properties");
 
-    // Crear un objeto Logger
-
     // Verificar si el nivel de registro actual permite mensajes de nivel de información
     if (root.isInfoEnabled()) {
         stringstream commandLine;
@@ -409,20 +406,19 @@ void Example::runExample(int argc, char* argv[]) {
             exit(1);
         }
 
-    asb_uci::base::AbstractServiceBusConnection connection("ExampleService");
-    connection.init("Example Service Version 3 UUID Name",true);
 
-    /** La clase Externalizer permite exportar e importar mensajes desde y hacia un formato externo. El
-  * puede ser independiente de cualquier implementación interna de serialización CAL y transporte.
-  */
-    asb_uci::base::Externalizer externalizer("XML","3.0","2.3.3");
+    //TODO: nueva implementacion de abstractServiceBusConnection y externalizer
+    asb_uci::base::AbstractServiceBusConnection asbc = asb_uci::base::AbstractServiceBusConnectionFactory::createAbstractServiceBusConnection("ExampleService");
 
+    asb_uci::base::ExternalizerLoader el;
+    uci::base::Externalizer* externalizerPtr = el.getExternalizer("XML", "3.0", "2.3.3");
 
-    testExternalizerRead(externalizer);
+    if(externalizerPtr){
+        asb_uci::base::Externalizer& externalizer = *dynamic_cast<asb_uci::base::Externalizer*>(externalizerPtr);
+        testExternalizerRead(externalizer);
+        testOMS93testForeachAndAddmethods();
 
-    testOMS93testForeachAndAddmethods();
-
-    cout << "Externalizer API number version : " + externalizer.getCalApiVersion() << endl;
+            cout << "Externalizer API number version : " + externalizer.getCalApiVersion() << endl;
 
     int externalizerIsXML = externalizer.getEncoding().compare("XML");
 
@@ -433,36 +429,49 @@ void Example::runExample(int argc, char* argv[]) {
         cout << "Externalizer Type : " + externalizer.getEncoding() << endl;
    }
 
-   cout <<"Externalizer schema version : " + externalizer.getSchemaVersion();
+    cout <<"Externalizer schema version : " + externalizer.getSchemaVersion();
 
-   // Para probar el otro método getExternalizer en ExternalizerLoader crear otro Externalizer y comprobar si no es nulo
-    asb_uci::base::ExternalizerLoader eL;
-    uci::base::Externalizer* externalizer2 = eL.getExternalizer(externalizer.getSchemaVersion(), externalizer.getCalApiVersion(), externalizer.getEncoding());
+    // Para probar el otro método getExternalizer en ExternalizerLoader crear otro Externalizer y comprobar si no es nulo
+        asb_uci::base::ExternalizerLoader el2;
+        uci::base::Externalizer* externalizer2 = el2.getExternalizer(externalizer.getSchemaVersion(), externalizer.getCalApiVersion(), externalizer.getEncoding());
 
-    // Verifica si el puntero externalizerPtr no es nulo
-    if (externalizer2 == nullptr) {
-        // El puntero externalizerPtr no es nulo, puedes continuar utilizando sus métodos
-        std::cerr << "FAILED : test using ExternalizerLoader.getExternalizer using 3 params";
-        
-        // Ahora puedes usar externalizer2 como lo hiciste originalmente con el objeto
-    } else {
-        cout << "PASSED : test using ExternalizerLoader.getExternalizer using 3 params" << endl;
-        // El puntero externalizerPtr es nulo, esto podría indicar un problema al obtener el externalizer
-        // Es posible que desees manejar este caso de alguna manera, como imprimir un mensaje de error 
+        // Verifica si el puntero externalizerPtr no es nulo
+        if (externalizer2 == nullptr) {
+            // El puntero externalizerPtr no es nulo, puedes continuar utilizando sus métodos
+            std::cerr << "FAILED : test using ExternalizerLoader.getExternalizer using 3 params";
+            
+            // Ahora puedes usar externalizer2 como lo hiciste originalmente con el objeto
+        } else {
+            cout << "PASSED : test using ExternalizerLoader.getExternalizer using 3 params" << endl;
+            // El puntero externalizerPtr es nulo, esto podría indicar un problema al obtener el externalizer
+            // Es posible que desees manejar este caso de alguna manera, como imprimir un mensaje de error 
+        }
+
+        cout << "Externalizer vendor version : " + externalizer.getVendorVersion() << endl;
+
+        asb_uci::base::Externalizer externalizer3 = asbc.getExternalizer("XML");
+        asb_uci::base::Externalizer* externalizerPtr3 = &externalizer3; 
+
+        if(externalizerPtr3 == nullptr){
+            std::cerr << "FAILED : test using AbstractServiceBusConnection.getExternalizer method";
+        }else{
+            std::cerr << "PASSED : test using AbstractServiceBusConnection.getExternalizer method";
+        }
+
+    }else{
+        root.error("Error could not find externalizer pointer");
     }
 
-    cout << "Externalizer vendor version : " + externalizer.getVendorVersion() << endl;
-
-
     ExampleListener listener;
-    connection.addStatusListener(listener);
+    asbc.addStatusListener(listener);
+    
 
-    asb_uci::base::UUIDGenerator uuid;
+    uci::base::UUID uuid = asbc.generateUUID();
 
-    std::string str_uuid = boost::lexical_cast<std::string>(uuid.generateUUID());
+    std::string str_uuid = boost::lexical_cast<std::string>(uuid);
     cout << "UUID generated by UUIDGenerator.generateUUID = " << str_uuid << endl;
 
-    testVersion3UUIDGeneration(connection);
+    testVersion3UUIDGeneration(asbc);
 
     testOMS83AddAndChoiceMethods();
 
@@ -474,22 +483,27 @@ void Example::runExample(int argc, char* argv[]) {
     capa.setOverrideRejection(true).setTrackingRange(1.0);
 
     if(isReader){
-        asb_uci::type::ServiceStatusMT serviceStatus = createServiceStatusMT(connection);
-        asb_uci::type::ServiceStatusMT::Reader reader =  serviceStatus.createReader("ServiceStatus",connection);
-        root.info("Created ServiceStatus reader");
-        reader.addListener(listener); 
+        asb_uci::type::ServiceStatusMT serviceStatus = createServiceStatusMT(asbc);
+        auto serviceStatusPtr = std::make_shared<asb_uci::type::ServiceStatusMT>(serviceStatus);
 
-        uci::base::AbstractServiceBusConnection::AbstractServiceBusConnectionStatusData status = connection.getStatus();
+
+        // TODO:vamos aca tenemos que escribir a createReader
+        asb_uci::base::MessageReader<asb_uci::type::ServiceStatusMT> reader = asbc.createReader("Example",serviceStatusPtr);
+        root.info("Created ServiceStatus reader");
+        reader.addListener(listener);
+        root.info("Added listener ServiceStatus reader");
+
+        uci::base::AbstractServiceBusConnection::AbstractServiceBusConnectionStatusData status = asbc.getStatus();
         
         root.info("CAL status is '" + status.abstractServiceBusConnectionStateToString(status.state) + "', detail: " + status.stateDetail);
     }
 
     if(isWrite){
-        asb_uci::type::ServiceStatusMT serviceStatus = createServiceStatusMT(connection);
+        asb_uci::type::ServiceStatusMT serviceStatus = createServiceStatusMT(asbc);
         root.info("Created ServiceStatus message");
-        asb_uci::base::Writer writer = serviceStatus.createWriter("ServiceStatus",connection);
+        asb_uci::base::Writer writer = serviceStatus.createWriter("ServiceStatus",asbc);
         root.info("Created ServiceStatus writer");
-        uci::base::AbstractServiceBusConnection::AbstractServiceBusConnectionStatusData status = connection.getStatus();
+        uci::base::AbstractServiceBusConnection::AbstractServiceBusConnectionStatusData status = asbc.getStatus();
         root.info("CAL status is '" + status.abstractServiceBusConnectionStateToString(status.state) + "', detail: " + status.stateDetail);
 
 
