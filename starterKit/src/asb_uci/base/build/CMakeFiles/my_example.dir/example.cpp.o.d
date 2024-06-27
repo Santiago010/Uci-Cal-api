@@ -1898,6 +1898,7 @@ CMakeFiles/my_example.dir/example.cpp.o: \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/MessageListener.h \
   /usr/local/Cellar/activemq-cpp/3.9.5_2/include/activemq-cpp-3.9.5/cms/Connection.h \
   /usr/local/Cellar/activemq-cpp/3.9.5_2/include/activemq-cpp-3.9.5/cms/ConnectionMetaData.h \
+  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/MessageWriter.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/UUIDFactory.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/../../../src/asb_uci/base/config/CalConfig.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/../../../src/asb_uci/base/config/../../../../../cppInterface/2.3.2/include/uci/base/UUID.h \
@@ -2436,4 +2437,7 @@ CMakeFiles/my_example.dir/example.cpp.o: \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/headers/../../../../include/asb_uci/type/StoreLoadoutItemType.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/AbstractServiceBusConnectionFactory.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/ExternalizerLoader.h \
-  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/../../../../cppInterface/2.3.2/include/uci/base/ExternalizerLoader.h
+  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/../../../../cppInterface/2.3.2/include/uci/base/ExternalizerLoader.h \
+  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/ServiceStatusListener.h \
+  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/../type/ServiceStatusMT.h \
+  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../asb_uci/base/headers/AccessorFileLocationMT.h

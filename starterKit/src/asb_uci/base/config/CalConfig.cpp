@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string.h>
 
+      // TODO:falta VERFICAR SI CONFIGREADER ES ESTE MISMO CALCONFIG
 namespace asb_uci
 {
     namespace base
@@ -17,7 +18,7 @@ namespace asb_uci
                 return systemLabel;
             }
 
-            // TODO:falta definir este metodo
+
             CalConfig CalConfig::load(){
 
             }

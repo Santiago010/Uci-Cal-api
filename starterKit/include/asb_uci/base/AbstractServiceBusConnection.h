@@ -50,6 +50,7 @@
 #include "../../../../cppInterface/2.3.2/include/uci/base/UUID.h"
 #include "Externalizer.h"
 #include "MessageReader.h"
+#include "MessageWriter.h"
 #include "UUIDFactory.h"
 #include <typeinfo> 
 #include <log4cpp/Category.hh>//Libreria para los Logs 
@@ -264,10 +265,14 @@ public:
   uci::base::UUID generateUUID();
 
   template <typename T>
-  asb_uci::base::MessageReader<T> createReader(std::string target,const std::shared_ptr<T>& type);
+    std::unique_ptr<asb_uci::base::MessageWriter<T>> createWriter(std::string target,const std::shared_ptr<T>& type);
+
+  template <typename T>
+  std::unique_ptr<asb_uci::base::MessageReader<T>>  createReader(std::string target,const std::shared_ptr<T>& type);
 
 
 private:
+// TODO:falta implementar completa esta funcion
   std::string findConnectionNameForTopic(std::string target);
   static log4cpp::Category& root;
   asb_uci::base::UUIDFactory uuidFactory;

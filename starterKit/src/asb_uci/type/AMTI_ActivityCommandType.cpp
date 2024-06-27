@@ -74,7 +74,6 @@ namespace asb_uci {
 /** The namespace in which all generated data types are declared */
 namespace type {
 
-// TODO:este es el contructor de la clase
 AMTI_ActivityCommandType::AMTI_ActivityCommandType()
   : resourceSelection_Accessor{boost::make_unique<ResourceSelection>(0, SIZE_MAX)},
     targetVolume_Accessor{boost::make_unique<TargetVolume>(0, 2)},
@@ -82,7 +81,7 @@ AMTI_ActivityCommandType::AMTI_ActivityCommandType()
     productOutput_Accessor{boost::make_unique<ProductOutput>(0, SIZE_MAX)} {
 }
 
-// TODO:deconstructor
+
 AMTI_ActivityCommandType::~AMTI_ActivityCommandType() = default;
 
 // Este es un método copy que toma una referencia constante a un objeto de tipo uci::type::AMTI_ActivityCommandType.
@@ -398,7 +397,6 @@ uci::type::DistanceTypeValue AMTI_ActivityCommandType::getTrackingRange() const 
 }
 
 
-// TODO:aqui si existe *this; asi que puede estar el otro metodo
 uci::type::AMTI_ActivityCommandType& AMTI_ActivityCommandType::setTrackingRange(uci::type::DistanceTypeValue value) {
   trackingRange_Accessor = value;
   return *this;

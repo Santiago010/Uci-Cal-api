@@ -58,7 +58,6 @@ public:
     /** Enumerated item that indicates that the enumeration has not been set */
     enumNotSet,
 
-    /** TODO; take out?. */
     UCI_NO_STATEMENT,
 
     /** Heat-seeking air-to-air missile. */

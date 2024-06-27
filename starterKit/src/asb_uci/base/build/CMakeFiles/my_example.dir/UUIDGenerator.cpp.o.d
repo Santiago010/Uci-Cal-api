@@ -1302,6 +1302,13 @@ CMakeFiles/my_example.dir/UUIDGenerator.cpp.o: \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/../../../../cppInterface/2.3.2/include/uci/base/UCIException.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/sstream \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/../../../../cppInterface/2.3.2/include/uci/base/export.h \
+  /usr/local/include/boost/uuid/uuid_generators.hpp \
+  /usr/local/include/boost/uuid/nil_generator.hpp \
+  /usr/local/include/boost/uuid/string_generator.hpp \
+  /usr/local/include/boost/uuid/name_generator.hpp \
+  /usr/local/include/boost/uuid/name_generator_sha1.hpp \
+  /usr/local/include/boost/uuid/basic_name_generator.hpp \
+  /usr/local/include/boost/uuid/detail/sha1.hpp \
   /usr/local/include/boost/smart_ptr/make_unique.hpp \
   /usr/local/include/boost/smart_ptr/detail/requires_cxx11.hpp \
   /usr/local/include/boost/config/pragma_message.hpp \
@@ -1309,7 +1316,6 @@ CMakeFiles/my_example.dir/UUIDGenerator.cpp.o: \
   /usr/local/include/boost/type_traits/is_unbounded_array.hpp \
   /usr/local/include/boost/type_traits/remove_extent.hpp \
   /usr/local/include/boost/uuid/name_generator_md5.hpp \
-  /usr/local/include/boost/uuid/basic_name_generator.hpp \
   /usr/local/include/boost/uuid/detail/md5.hpp \
   /usr/local/include/boost/cast.hpp \
   /usr/local/include/boost/polymorphic_cast.hpp \

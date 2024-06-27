@@ -236,7 +236,6 @@ xs::Boolean SMTI_ActivityCommandType::getOverrideRejection() const {
   }
   throw uci::base::UCIException("Error in getOverrideRejection(): An attempt was made to get an optional field that was not enabled, call hasOverrideRejection() to determine if it is safe to call getOverrideRejection()");
 }
- //  TODO:AtencionSetOverrideRejection
 uci::type::SMTI_ActivityCommandType& SMTI_ActivityCommandType::setOverrideRejection(xs::Boolean value) {
   overrideRejection_Accessor = value;
   return *this;
@@ -652,7 +651,6 @@ void SMTI_ActivityCommandType::deserialize(const boost::property_tree::ptree& pr
       CapabilityCommandTemporalConstraintsType::deserialize(valueType.second, accessor.enableTemporalConstraints(), nodeName, nsPrefix);
     } else if (valueType.first == nsPrefix + SMTI_ActivityCommandType_Names::OverrideRejection_Name) {
       if (const boost::optional<std::string> value = valueType.second.get_value_optional<std::string>()) {
-         //  TODO:AtencionSetOverrideRejection
         accessor.setOverrideRejection(asb_uci::util::SerializationHelpers::deserializeBoolean(*value));
       }
     } else if (valueType.first == nsPrefix + SMTI_ActivityCommandType_Names::RadarPointingTarget_Name) {

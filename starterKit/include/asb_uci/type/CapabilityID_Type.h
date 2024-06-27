@@ -57,13 +57,13 @@ public:
     *
     * @param rhs The CapabilityID_Type to copy from
     */
-  CapabilityID_Type(const CapabilityID_Type& rhs) = delete;
+  CapabilityID_Type(const CapabilityID_Type& rhs);
 
   /** The move constructor
     *
     * @param rhs The CapabilityID_Type to move from
     */
-  CapabilityID_Type(CapabilityID_Type&& rhs) = delete;
+  CapabilityID_Type(CapabilityID_Type&& rhs);
 
   /** The assignment operator
     *

@@ -202,7 +202,6 @@ xs::Boolean CapabilityCommandBaseType::getOverrideRejection() const {
   throw uci::base::UCIException("Error in getOverrideRejection(): An attempt was made to get an optional field that was not enabled, call hasOverrideRejection() to determine if it is safe to call getOverrideRejection()");
 }
 
-// TODO:aca se define el metodo setOverrideRejection
 uci::type::CapabilityCommandBaseType& CapabilityCommandBaseType::setOverrideRejection(xs::Boolean value) {
   overrideRejection_Accessor = value;
   return *this;

@@ -57,21 +57,17 @@ namespace asb_uci
         void UUIDClock::parseAndUpdateClockFile(std::fstream clockRAF,bool isForceClockSeqIncr){
             std::string clockFileName = clockFile;
 
-            // TODO:Esto asegura que el código dentro del bloque try se ejecute exclusivamente por un solo hilo a la vez. Si otro hilo intenta ejecutar el mismo bloque de código, se bloqueará (esperará) hasta que el primer hilo termine y libere el bloqueo.
             clockGuard.lock();
             try
             {
-                // TODO:Esta linea intenta abrir el archivo como lectura y escritura y lo guarda en fd
                 int fd = open(clockFileName.c_str(),O_RDWR);
 
-                // TODO:si falla muestra un __error
                 if(fd == -1){
                     root.error("Unable to open clock file: ",clockFile);
                 }
 
                 root.info("Acquiring lock on ",clockFileName);
 
-                // TODO: Intenta adquirir un bloqueo exclusivo en el archivo. LOCK_EX significa bloqueo exclusivo, lo que evita que otros procesos adquieran un bloqueo en el archivo mientras este bloqueo esté activo
                 if(flock(fd,LOCK_EX) == -1){
                     close(fd);
 
@@ -81,12 +77,10 @@ namespace asb_uci
 
                 root.info("Acquired lock on ",clockFileName);
 
-                //TODO: Los datos de reloj no existen, crear nuevos datos.
                 if(clockRAF.peek() == std::ifstream::traits_type::eof()){
 
                     createClockData();
                 }else{
-                    //TODO: Datos de reloj existe así que ir al inicio del archivo, reloj de lectura, a continuación, marque el reloj
                     clockRAF.seekg(0);
                     std::string clockData;
                     std::getline(clockRAF,clockData);
@@ -94,29 +88,23 @@ namespace asb_uci
                     parseClockData(clockData,clockFileName,isForceClockSeqIncr);    
                 }
 
-                // TODO:clockData;: Se crea un ostringstream para construir la cadena de datos del reloj.
                 std::ostringstream clockData;
                 clockData << std::hex << ((clockSeq + 1) & 0x3FFF) << "-" << sec << "-" << usec << "-" << adjustment;
                 clockRAF.seekp(0);
                 clockRAF << clockData.str() << "\n";
 
-                // TODO:forzar la escritura
                 clockRAF.flush();
-                // TODO:Obtener la posición actual del puntero del archivo
                 off_t offset = lseek(fd,0,SEEK_CUR);
-                // TODO:si falla muestra un error;
                 if(offset == -1){
                     close(fd);
                     root.error("Unable to get file pointer for clock file: ",clockFileName);
                 }
-                // TODO: Trunca el archivo a la longitud especificada por offset. Si ftruncate falla, se cierra el archivo y se registra un mensaje de error.
                 if(ftruncate(fd,offset) == -1){
                     close(fd);
                     root.error("Unable to truncate clock file: ",clockFileName);
                 }
                 root.info("Wrote clock data ", clockData.str(), "to ",clockFileName);
 
-                // TODO: Libera el bloqueo exclusivo en el archivo. Si flock falla, se cierra el archivo y se registra un mensaje de error.
                 if(flock(fd,LOCK_UN) == -1){
                     close(fd);
                     root.error("Unable to release lock on clock file: ",clockFileName);
@@ -181,7 +169,6 @@ namespace asb_uci
                              "' against '", clockData, "' from file " ,clockFileName);
             }
 
-               //TODO: Simulación de la lógica de actualización del tiempo actual y secuencia de reloj
 
                long curTimeMillis = std::chrono::system_clock::now().time_since_epoch() / std::chrono::milliseconds(1);
                long curSec = curTimeMillis / 1000;
@@ -225,7 +212,6 @@ namespace asb_uci
             bool isTryAgain = true;
 
             while(isTryAgain){
-                //TODO: Obtener tiempo actual en milisegundos desde el epoch
                 auto now = std::chrono::system_clock::now();
                 auto duration = now.time_since_epoch();
                 auto curTimeMillis = std::chrono::duration_cast<std::chrono::milliseconds>(duration).count();

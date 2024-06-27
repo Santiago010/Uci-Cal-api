@@ -21,7 +21,7 @@ namespace asb_uci{
                 std::string topicName;
                 std::unique_ptr<cms::Session> session;
                 std::unique_ptr<cms::MessageProducer> producer;
-                std::mutex MessageWriter<T>::sendLock;
+                std::mutex sendLock;
             public:
                 virtual ~MessageWriter() = default;
                 static_assert(std::is_base_of<asb_uci::type::MessageType, T>::value, "T must derive from MessageType");
@@ -29,7 +29,7 @@ namespace asb_uci{
                 MessageWriter(cms::Connection* conn, const std::string& tn,const std::shared_ptr<T>& t, asb_uci::base::Externalizer* ext);
 
                 virtual void write(T message) = 0;
-        }
+        };
     }
 }
 

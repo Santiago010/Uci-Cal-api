@@ -96,7 +96,6 @@ bool SAR_ActivityCommandType::deserialize(const boost::property_tree::ptree& pro
       CapabilityCommandTemporalConstraintsType::deserialize(valueType.second, accessor.enableTemporalConstraints(), nodeName, nsPrefix);
     } else if (valueType.first == nsPrefix + SAR_ActivityCommandType_Names::OverrideRejection_Name) {
       if (const boost::optional<std::string> value = valueType.second.get_value_optional<std::string>()) {
-         //  TODO:AtencionSetOverrideRejection
         accessor.setOverrideRejection(extjson_uci::util::SerializationHelpers::deserializeBoolean(*value));
       }
     } else if (valueType.first == nsPrefix + SAR_ActivityCommandType_Names::Frequency_Name) {

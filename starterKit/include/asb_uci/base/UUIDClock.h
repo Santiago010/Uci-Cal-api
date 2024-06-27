@@ -6,7 +6,6 @@
 #include <log4cpp/PropertyConfigurator.hh> //libreria para
 
 
-// TODO:definir ahorita
 namespace asb_uci
 {
     namespace base

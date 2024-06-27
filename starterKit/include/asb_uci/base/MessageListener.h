@@ -18,16 +18,14 @@ public:
      * 
      * @param message The newly arrived message that is to be processed by this method.
      */
-    virtual void handleMessage(std::shared_ptr<T> message) = 0;
+    void handleMessage(std::shared_ptr<T> message);
 
     /**
      * Optional method to handle any exceptions thrown by handleMessage.
      * 
      * @param exception The exception thrown by handleMessage.
      */
-    virtual void handleException(const std::runtime_error& exception) {
-        // Default implementation does nothing
-    }
+    void handleException(const std::runtime_error& exception);
 };
 
 } // namespace base

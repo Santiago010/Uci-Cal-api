@@ -46,7 +46,6 @@ namespace type {
 
 /** Indicates a (non-negative) distance in meters (m). */
 typedef uci::type::DoubleNonNegativeType DistanceType;
-// TODO:es decir esto guarda un double que no puede negativo
 typedef uci::type::DoubleNonNegativeTypeValue DistanceTypeValue;
 
 } // namespace type

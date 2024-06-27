@@ -1690,6 +1690,7 @@ CMakeFiles/my_example.dir/main.cpp.o: \
   /usr/local/include/log4cpp/convenience.h \
   /usr/local/include/log4cpp/PropertyConfigurator.hh \
   /usr/local/include/log4cpp/Configurator.hh \
+  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/headers/../../../../include/asb_uci/base/MessageWriter.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/headers/../../../../include/asb_uci/base/UUIDFactory.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/headers/../../../../include/asb_uci/base/UUIDGenerator.h \
   /usr/local/include/boost/random/random_device.hpp \

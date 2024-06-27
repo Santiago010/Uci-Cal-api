@@ -42,14 +42,14 @@ namespace asb_uci {
              * @param listener The listener that handles the message.
              * @return The instance of the added listener.
              */
-            virtual asb_uci::base::MessageListener<T> addListener(asb_uci::base::MessageListener<T> listener) = 0;
+            asb_uci::base::MessageListener<T> addListener(asb_uci::base::MessageListener<T> listener);
 
             /**
              * Removes the specified listener that was previously added to listen to the arrival of new messages.
              * 
              * @param listener The listener that is to be removed.
              */
-            virtual void removeListener(asb_uci::base::MessageListener<T> listener) = 0;
+            void removeListener(asb_uci::base::MessageListener<T> listener);
 
             /**
              * Reads arriving messages. If no messages have arrived previous to the invocation of this method, then this method
@@ -61,9 +61,9 @@ namespace asb_uci {
              *                       The timeout is ignored if one or more messages are already queued.
              * @return The next message on the receive queue, or nullptr if timeout occurs.
              */
-            virtual std::shared_ptr<T> read(long timeoutSeconds) = 0;
+            std::shared_ptr<T> read(long timeoutSeconds);
 
-            virtual T parseMessage(cms::Message message) = 0;
+            T parseMessage(cms::Message message);
 
              /**
              * Reads arriving messages. If no messages have arrived previous to the invocation of this method, then this method
@@ -72,13 +72,13 @@ namespace asb_uci {
              * 
              * @return The next message on the receive queue, or nullptr if the queue is empty.
              */
-            virtual std::shared_ptr<T> readNoWait() = 0;
+            std::shared_ptr<T> readNoWait();
 
             MessageReader(cms::Connection* conn, const std::string& tn,const std::shared_ptr<T>& t, asb_uci::base::Externalizer* ext);
 
-            virtual bool listenerEmpty() = 0;
+            bool listenerEmpty();
 
-            virtual void onMessage(cms::Message message) = 0;
+            void onMessage(cms::Message message);
         };
 
     } // namespace base

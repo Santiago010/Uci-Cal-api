@@ -29,11 +29,8 @@ class Example {
         template <size_t N>
         static void addConfigurationFromArray2(asb_uci::type::StoreLoadoutChoiceType& slct,const asb_uci::type::StoreLoadoutItemType (&arr)[N]);
         static void runExample(int argc, char* argv[]);
-        // TODO:metodo por implementarº
         static void testExternalizerRead(asb_uci::base::Externalizer& externalizer);
-        // TODO:metodo por implementarº
         static std::istream& readFile(const std::string& filename);
-        // TODO:metodo por implementar
         static void testOMS93testForeachAndAddmethods();
         static void testVersion3UUIDGeneration(asb_uci::base::AbstractServiceBusConnection asbs);
         static std::string getVersion();

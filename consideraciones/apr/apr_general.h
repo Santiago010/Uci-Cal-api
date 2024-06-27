@@ -216,7 +216,6 @@
    
    #if APR_HAS_RANDOM || defined(DOXYGEN)
    
-   /* TODO: I'm not sure this is the best place to put this prototype...*/
    /**
     * Generate random bytes.
     * @param buf Buffer to fill with random bytes

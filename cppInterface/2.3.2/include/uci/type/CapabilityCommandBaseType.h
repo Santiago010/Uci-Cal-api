@@ -174,8 +174,7 @@ public:
     * @param value The value to set the SimplePrimitve data type to.
     * @return A reference to the object on which this method was called.
     */
-  //  TODO:AtencionSetOverrideRejection
-  // TODO:de aca viene la clase SetOverrideRejection Origen
+
   virtual uci::type::CapabilityCommandBaseType& setOverrideRejection(xs::Boolean value) = 0;
 
   /** Returns whether the Element identified by OverrideRejection exists (is enabled) or not.
@@ -276,7 +275,6 @@ public:
     * @param value The value to set the SimplePrimitve data type to.
     * @return A reference to the object on which this method was called.
     */
-  //  TODO:de aca viene el metodo SetTrackingRange de CapabilityCommandBaseType
   virtual uci::type::CapabilityCommandBaseType& setTrackingRange(uci::type::DistanceTypeValue value) = 0;
 
     /** Returns the value of the SimplePrimitive data type identified by TrackingRange.

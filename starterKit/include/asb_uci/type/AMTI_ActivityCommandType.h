@@ -433,7 +433,6 @@ public:
     * @param value The value to set the optional field to
     * @return A reference to the object on which this method was called.
     */
-  //  TODO:aca se sobre escribe el metodo setTrackingRange
   uci::type::AMTI_ActivityCommandType& setTrackingRange(uci::type::DistanceTypeValue value) override;
 
   /** Returns whether this optional field TrackingRangeis available

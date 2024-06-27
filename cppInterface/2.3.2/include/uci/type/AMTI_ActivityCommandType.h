@@ -413,7 +413,6 @@ public:
     * @param value The value to set the SimplePrimitve data type to.
     * @return A reference to the object on which this method was called.
     */
-  //  TODO:de aca viene el metodo SetTrackingRange de ActivityCommandType
   virtual uci::type::AMTI_ActivityCommandType& setTrackingRange(uci::type::DistanceTypeValue value) = 0;
 
   /** Returns whether the Element identified by TrackingRange exists (is enabled) or not.
