@@ -2,7 +2,6 @@
 #include <string>
 #include "../../../../cppInterface/2.3.2/include/uci/base/UUID.h"
 #include "UUIDGenerator.h"
-#include "../../../src/asb_uci/base/config/CalConfig.h"
 #include <log4cpp/Category.hh>//Libreria para los Logs 
 #include <log4cpp/PropertyConfigurator.hh> //libreria para
 
@@ -30,7 +29,6 @@ namespace asb_uci{
 
                 uci::base::UUID createVersion3UUID(std::string& name);
 
-                asb_uci::base::config::CalConfig loadConfigFile();
 
             private :
                 log4cpp::Category& root = log4cpp::Category::getRoot();
@@ -39,7 +37,7 @@ namespace asb_uci{
                 asb_uci::base::UUIDGenerator uuidGen;
                 uci::base::UUID uuid;
                 uci::base::UUID defaultNamespace;
-                asb_uci::base::config::CalConfig config;
+    
                 static std::mutex sendLock;
         };
     }

@@ -30,16 +30,25 @@ DISTRIBUTION STATEMENTS:
 <CALConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="StarterKitCALConfig.xsd">
 
 
+  <!--TODO: UUIDGeneratorType:
+
+El archivo XML tiene una sección UUIDGeneratorType que especifica <RandomUUIDGenerator/>.
+El método soporta RandomUUIDGenerator y TimeBasedUUIDGenerator, así que esto es correcto. -->
 <UUIDGeneratorType>
 <!--<TimeBasedUUIDGenerator clock="/var/lib/libuuid/clock.txt"/> -->
   <RandomUUIDGenerator/>
 </UUIDGeneratorType>
 
 
+<!-- TODO:El archivo XML tiene una sección UUIDGenerationNamespace con Name y ID,
+El método busca estas dos etiquetas y las almacena en uuidGenerationNamespaceID y uuidGenerationNamespaceName, generando un UUID de versión 3 si ambos están presentes. -->
 <UUIDGenerationNamespace>
   <Name>OAMO Starter Kit CAL Version 3 UUID Name</Name>
   <ID>00000000-0000-0000-0000-000000000000</ID>
 </UUIDGenerationNamespace>
+
+<!-- TODO:El archivo XML tiene una sección SystemLabel:
+El método busca y almacena esta etiqueta en systemLabel. -->
 
 <SystemLabel>OMS System</SystemLabel>
 
@@ -47,12 +56,13 @@ DISTRIBUTION STATEMENTS:
 <SystemUUID>
   <UUIDName>System Version 3 UUID Name</UUIDName>
 </SystemUUID>
-
+<!-- TODO:El método busca SystemUUID y utiliza parseConfigUUID para extraer el UUID, que se almacena en systemId. -->
 
 <DefaultQoS>
   <ActiveMQNoEchoMode>0</ActiveMQNoEchoMode>
   <ReaderQueueMax>1000</ReaderQueueMax>
 </DefaultQoS>
+<!--TODO: El método procesa DefaultQoS y almacena estos parámetros en qosParams -->
 
 <Connections>
   <Connection>
@@ -61,6 +71,7 @@ DISTRIBUTION STATEMENTS:
     <URL>failover://tcp://localhost:61616</URL>
   </Connection>
 </Connections>
+<!--TODO: El método busca Connections y extrae Name, Type, y URL, almacenando estos en el mapa connections. -->
 
 <!-- The Externalizers config param is not used by the Java Starter Kit CAL -->
 <Externalizers>
@@ -69,8 +80,10 @@ DISTRIBUTION STATEMENTS:
     <Library>ExternXML</Library>
   </Externalizer>
 </Externalizers>
+<!-- TODO:El método procesa Externalizers y almacena estos datos en el mapa externalizers. -->
 
 
+<!-- TODO:El método busca Services y extrae id, ServiceUUID, Capabilities, Components, y Topics, almacenando estos datos en los mapas correspondientes. -->
 <Services>
   <Service id="ExampleService">
     <ServiceUUID>

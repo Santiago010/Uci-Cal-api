@@ -1,7 +1,7 @@
 #include "../../../include/asb_uci/base/UUIDFactory.h"
 #include "../../../include/asb_uci/base/Version3UUIDHelper.h"
 #include "../../../../cppInterface/2.3.2/include/uci/base/UUID.h"
-#include "config/CalConfig.h"
+
 #include <iostream>
 #include <string>
 
@@ -54,23 +54,6 @@ namespace asb_uci{
             return uuidGenType;
         }
 
-        asb_uci::base::config::CalConfig UUIDFactory::loadConfigFile(){
-            asb_uci::base::config::CalConfig calConfig = nullptr;
-            try
-            {
-                calConfig.load();
-
-                if(calConfig == nullptr){
-                    root.error("Failed to load CAL configuration, check this CAL's config file");
-                }
-            }
-            catch(const std::exception& e)
-            {
-                throw std::runtime_error("Failed to load CAL configuration, check this CAL's config file from loadConfigFile" + std::string(e.what()));
-            }
-
-           return calConfig;            
-        }
 
 
     }

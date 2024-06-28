@@ -292,16 +292,7 @@ std::string Example::getVersion(){
 
 }
 
-template <size_t N>
-void Example::addConfigurationFromArray(asb_uci::type::VariableSubsystemsType& vst, const asb_uci::type::CapabilityConfigurationType (&arr)[N]) {
-    vst.addConfiguration({arr, arr + N});
-}
 
-
-template <size_t N>
-void Example::addConfigurationFromArray2( asb_uci::type::StoreLoadoutChoiceType& slct,const asb_uci::type::StoreLoadoutItemType (&arr)[N]){
-    slct.chooseStoreList({arr, arr + N});
-}
 
 void Example::testOMS83AddAndChoiceMethods(){
     asb_uci::type::VariableSubsystemsType vst;
@@ -420,7 +411,7 @@ void Example::runExample(int argc, char* argv[]) {
         testExternalizerRead(externalizer);
         testOMS93testForeachAndAddmethods();
 
-            cout << "Externalizer API number version : " + externalizer.getCalApiVersion() << endl;
+    cout << "Externalizer API number version : " + externalizer.getCalApiVersion() << endl;
 
     int externalizerIsXML = externalizer.getEncoding().compare("XML");
 

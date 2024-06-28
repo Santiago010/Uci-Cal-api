@@ -78,53 +78,30 @@ namespace base {
 
 log4cpp::Category& AbstractServiceBusConnection::root = log4cpp::Category::getRoot();
 
-  std::string AbstractServiceBusConnection::findConnectionNameForTopic(std::string target){
 
-  }
+template <typename T>
+std::unique_ptr<asb_uci::base::MessageWriter<T>> AbstractServiceBusConnection::createWriter(const std::string& target, const std::shared_ptr<T>& type) {
+    // Llamar a init si no se ha llamado antes (por ejemplo, si se llama desde fuera del constructor)
+    if (!connection) {
+        init("service_identifier", true);
+    }
 
-  template <typename T>
-  std::unique_ptr<asb_uci::base::MessageWriter<T>> AbstractServiceBusConnection::createWriter(std::string target, const std::shared_ptr<T>& type) {
-      activemq::library::ActiveMQCPP::initializeLibrary();
-      std::unique_ptr<cms::Connection> connection(nullptr);
+    auto writer = boost::make_unique<asb_uci::base::MessageWriter<T>>(connection.get(), target, type, externalizer);
+    root.info("Created message writer for target {} with type {}", target);
 
-      std::unique_ptr<activemq::core::ActiveMQConnectionFactory> connectionFactory(
-          new activemq::core::ActiveMQConnectionFactory("tcp://localhost:61616"));
-      
-      connection.reset(connectionFactory->createConnection());
-
-      // Cambio a boost::make_unique
-      auto mw = boost::make_unique<asb_uci::base::MessageWriter<T>>(connection.get(), "Example", type, externalizer);
-
-      root.info("Created message reader for target {} with type {}", target);
-
-      root.info("Created message writer for target {} with type {}", target);
-
-      connection->close();
-
-      activemq::library::ActiveMQCPP::shutdownLibrary();
-
-      return mw;
-  }
+    return writer;
+}
 
   template <typename T>
   std::unique_ptr<asb_uci::base::MessageReader<T>> AbstractServiceBusConnection::createReader(std::string target,const std::shared_ptr<T>& type){
-    activemq::library::ActiveMQCPP::initializeLibrary();
-    std::unique_ptr<cms::Connection> connection(nullptr);
+    if (!connection) {
+        init("service_identifier", true);
+    }
 
-    std::unique_ptr<activemq::core::ActiveMQConnectionFactory> connectionFactory(
-        new activemq::core::ActiveMQConnectionFactory("tcp://localhost:61616"));
-
-    connection.reset(connectionFactory->createConnection());
-
-    auto mr = boost::make_unique<asb_uci::base::MessageReader<T>>(connection.get(), "Example", type, externalizer);
+    auto reader = boost::make_unique<asb_uci::base::MessageReader<T>>(connection.get(), target, type, externalizer);
     root.info("Created message reader for target {} with type {}", target);
 
-    connection->close();
-
-    activemq::library::ActiveMQCPP::shutdownLibrary();
-
-    return mr;
-
+    return reader;
   }
 
 asb_uci::base::Externalizer AbstractServiceBusConnection::getExternalizer(std::string externalizerType){
@@ -177,66 +154,71 @@ AbstractServiceBusConnection::AbstractServiceBusConnection(std::string asbId)
 }
 
 void AbstractServiceBusConnection::init(const std::string& serviceIdentifier, const bool firstConnection) {
-  configReader = boost::make_unique<ConfigReader>(serviceIdentifier);
-  connectionStatus = std::make_shared<ConnectionStatus>();
+    configReader = boost::make_unique<ConfigReader>(serviceIdentifier);
+    connectionStatus = std::make_shared<ConnectionStatus>();
 
-  const ConfigReader::ConnectionMap& connections{configReader->getConnections()};
-  const std::string& defaultConnection{configReader->getDefaultConnection()};
-  if (!configReader->getDefaultConnection().empty()) {
-    const auto connection = connections.find(defaultConnection);
-    if ((connection != connections.end()) && (connectionComponentsMap.find(defaultConnection) == connectionComponentsMap.end())) {
-      connectionComponentsMap.insert({defaultConnection, std::make_shared<ConnectionComponents>()});
-    } else {
-      throw uci::base::UCIException("Failed to find DefaultConnection " + defaultConnection + " in Connections");
-    }
-  }
-  for (const auto& topic : configReader->getTopics()) {
-    const auto connection = connections.find(topic.second);
-    if (connection != connections.end()) {
-      if (connectionComponentsMap.find(topic.second) == connectionComponentsMap.end()) {
-        connectionComponentsMap.insert({topic.second, std::make_shared<ConnectionComponents>()});
-      }
-    } else {
-      throw uci::base::UCIException("Failed to find Connection " + topic.second + " for Topic " + topic.first);
-    }
-  }
-
-  if (firstConnection) {
-    activemq::library::ActiveMQCPP::initializeLibrary();
-  }
-
-  for (const auto& component : connectionComponentsMap) {
-    const auto connection = connections.find(component.first);
-    component.second->connectionFactory = boost::make_unique<activemq::core::ActiveMQConnectionFactory>(connection->second);
-    component.second->connected = false;
-    component.second->connectionMonitor = boost::make_unique<ConnectionMonitor>(connectionStatus);
-    while (!component.second->connected) {
-      try {
-        component.second->connection = std::unique_ptr<cms::Connection>(component.second->connectionFactory->createConnection());
-        component.second->connection->start();
-        component.second->connected = true;
-        component.second->readerSession = std::unique_ptr<cms::Session>(component.second->connection->createSession(cms::Session::AUTO_ACKNOWLEDGE));
-        component.second->writerSession = std::unique_ptr<cms::Session>(component.second->connection->createSession(cms::Session::AUTO_ACKNOWLEDGE));
-        component.second->connection->setExceptionListener(component.second->connectionMonitor.get());
-        dynamic_cast<activemq::core::ActiveMQConnection*>(component.second->connection.get())->addTransportListener(component.second->connectionMonitor.get());
-      } catch (...) {
-        if (connection->second.find("failover:") != std::string::npos) {
-          throw uci::base::UCIException("Failed to establish ActiveMQ connection using URI " + connection->second);
+    const ConfigReader::ConnectionMap& connections{ configReader->getConnections() };
+    const std::string& defaultConnection{ configReader->getDefaultConnection() };
+    if (!configReader->getDefaultConnection().empty()) {
+        const auto defaultConn = connections.find(defaultConnection);
+        if ((defaultConn != connections.end()) && (connectionComponentsMap.find(defaultConnection) == connectionComponentsMap.end())) {
+            connectionComponentsMap.insert({ defaultConnection, std::make_shared<ConnectionComponents>() });
         }
-        component.second->connection.reset();
-        std::cout << "Failed to establish ActiveMQ connection using URI " << connection->second << "\n";
-        std::cout << "Will try again in 3 seconds ....\n";
-        std::this_thread::sleep_for(std::chrono::seconds(3));
-      }
+        else {
+            throw uci::base::UCIException("Failed to find DefaultConnection " + defaultConnection + " in Connections");
+        }
     }
-    connectionStatus->updateStatus(uci::base::AbstractServiceBusConnection::NORMAL, "");
-  }
-  if (firstConnection) {
-    std::cout << "ATTENTION: The StarterKit CAL is not to be fielded in an operational capacity. This software is "
-                 "intended for research, training, and development use and has undergone neither safety nor software "
-                 "assurance testing. Use at your own risk.\n";
-  }
+    for (const auto& topic : configReader->getTopics()) {
+        const auto topicConn = connections.find(topic.second);
+        if (topicConn != connections.end()) {
+            if (connectionComponentsMap.find(topic.second) == connectionComponentsMap.end()) {
+                connectionComponentsMap.insert({ topic.second, std::make_shared<ConnectionComponents>() });
+            }
+        }
+        else {
+            throw uci::base::UCIException("Failed to find Connection " + topic.second + " for Topic " + topic.first);
+        }
+    }
+
+    if (firstConnection) {
+        activemq::library::ActiveMQCPP::initializeLibrary();
+    }
+
+    for (auto& component : connectionComponentsMap) {
+        const auto& connection = connections.find(component.first)->second; // Obtener la conexión correcta
+        component.second->connectionFactory = boost::make_unique<activemq::core::ActiveMQConnectionFactory>(connection);
+        component.second->connected = false;
+        component.second->connectionMonitor = boost::make_unique<ConnectionMonitor>(connectionStatus);
+        while (!component.second->connected) {
+            try {
+                component.second->connection = std::unique_ptr<cms::Connection>(component.second->connectionFactory->createConnection());
+                component.second->connection->start();
+                component.second->connected = true;
+                component.second->readerSession = std::unique_ptr<cms::Session>(component.second->connection->createSession(cms::Session::AUTO_ACKNOWLEDGE));
+                component.second->writerSession = std::unique_ptr<cms::Session>(component.second->connection->createSession(cms::Session::AUTO_ACKNOWLEDGE));
+                component.second->connection->setExceptionListener(component.second->connectionMonitor.get());
+                dynamic_cast<activemq::core::ActiveMQConnection*>(component.second->connection.get())->addTransportListener(component.second->connectionMonitor.get());
+            }
+            catch (...) {
+                if (connection.find("failover:") != std::string::npos) {
+                    throw uci::base::UCIException("Failed to establish ActiveMQ connection using URI " + connection);
+                }
+                component.second->connection.reset();
+                std::cout << "Failed to establish ActiveMQ connection using URI " << connection << "\n";
+                std::cout << "Will try again in 3 seconds ....\n";
+                std::this_thread::sleep_for(std::chrono::seconds(3));
+            }
+        }
+        connectionStatus->updateStatus(uci::base::AbstractServiceBusConnection::NORMAL, "");
+    }
+
+    if (firstConnection) {
+        std::cout << "ATTENTION: The StarterKit CAL is not to be fielded in an operational capacity. This software is "
+                     "intended for research, training, and development use and has undergone neither safety nor software "
+                     "assurance testing. Use at your own risk.\n";
+    }
 }
+
 
 void AbstractServiceBusConnection::shutdown() {
   for (const auto& component : connectionComponentsMap) {

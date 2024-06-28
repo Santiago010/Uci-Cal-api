@@ -24,10 +24,6 @@ class Example {
     public:
         static log4cpp::Category& root;
         asb_uci::type::SystemID_Type systemId();
-        template <size_t N>
-        static void addConfigurationFromArray(asb_uci::type::VariableSubsystemsType& vst, const asb_uci::type::CapabilityConfigurationType (&arr)[N]);
-        template <size_t N>
-        static void addConfigurationFromArray2(asb_uci::type::StoreLoadoutChoiceType& slct,const asb_uci::type::StoreLoadoutItemType (&arr)[N]);
         static void runExample(int argc, char* argv[]);
         static void testExternalizerRead(asb_uci::base::Externalizer& externalizer);
         static std::istream& readFile(const std::string& filename);

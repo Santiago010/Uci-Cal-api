@@ -265,15 +265,14 @@ public:
   uci::base::UUID generateUUID();
 
   template <typename T>
-    std::unique_ptr<asb_uci::base::MessageWriter<T>> createWriter(std::string target,const std::shared_ptr<T>& type);
+  std::unique_ptr<asb_uci::base::MessageWriter<T>> createWriter(const std::string& target, const std::shared_ptr<T>& type);
 
   template <typename T>
   std::unique_ptr<asb_uci::base::MessageReader<T>>  createReader(std::string target,const std::shared_ptr<T>& type);
 
 
 private:
-// TODO:falta implementar completa esta funcion
-  std::string findConnectionNameForTopic(std::string target);
+  std::unique_ptr<cms::Connection> connection;
   static log4cpp::Category& root;
   asb_uci::base::UUIDFactory uuidFactory;
   asb_uci::base::Externalizer externalizer;

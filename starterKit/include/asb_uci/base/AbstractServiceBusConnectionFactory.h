@@ -1,5 +1,4 @@
 #include "AbstractServiceBusConnection.h"
-#include "../../../src/asb_uci/base/config/CalConfig.h"
 #include <iostream>
 #include <string>
 #include <log4cpp/Category.hh>//Libreria para los Logs 
@@ -13,7 +12,6 @@ namespace asb_uci
         class AbstractServiceBusConnectionFactory
         {
         private:
-            asb_uci::base::config::CalConfig config;
             std::mutex sendLock;
             log4cpp::Category& root = log4cpp::Category::getRoot();
             bool warningAlreadyPrinted = false;
@@ -21,7 +19,6 @@ namespace asb_uci
         public:
             static asb_uci::base::AbstractServiceBusConnection createAbstractServiceBusConnection(std::string serviceInitId);
 
-            asb_uci::base::config::CalConfig loadConfigFile();
             std::string getName(); 
         };
         

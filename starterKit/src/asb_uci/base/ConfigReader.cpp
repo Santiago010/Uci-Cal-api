@@ -74,6 +74,7 @@ void ConfigReader::parseConfig(const std::string& serviceIdentifier) {
     boost::property_tree::ptree propTree;
     boost::property_tree::xml_parser::read_xml(xmlFileName, propTree, boost::property_tree::xml_parser::no_comments);
     for (const boost::property_tree::ptree::value_type& calConfig : propTree.get_child("CALConfig")) {
+      // TODO:Extrae conexiones, leyendo los valores de Name y URL y almacenándolos en el mapa connections.
       if (calConfig.first == "Connections") {
         for (const boost::property_tree::ptree::value_type& connection : calConfig.second) {
           if (connection.first == "Connection") {
@@ -91,12 +92,14 @@ void ConfigReader::parseConfig(const std::string& serviceIdentifier) {
             }
           }
         }
+        // TODO:Extrae parámetros de calidad de servicio (QoS) y los almacena en el mapa qosParams.
       } else if (calConfig.first == "DefaultQoS") {
         for (const boost::property_tree::ptree::value_type& defaultQoS : calConfig.second) {
           if (const boost::optional<std::string> value = defaultQoS.second.get_value_optional<std::string>()) {
             qosParams.insert({defaultQoS.first, *value});
           }
         }
+        //TODO: Extrae parámetros de calidad de servicio (QoS) y los almacena en el mapa qosParams.
       } else if (calConfig.first == "Externalizers") {
         for (const boost::property_tree::ptree::value_type& externalizer : calConfig.second) {
           if (externalizer.first == "Externalizer") {
@@ -114,6 +117,7 @@ void ConfigReader::parseConfig(const std::string& serviceIdentifier) {
             }
           }
         }
+        // TODO:Extrae información de los servicios, incluyendo capacidades, componentes, UUIDs de servicio y subsistema, y temas (topics). Almacena estos datos en los mapas y variables correspondientes.
       } else if (calConfig.first == "Services") {
         for (const boost::property_tree::ptree::value_type& service : calConfig.second) {
           if (service.first == "Service") {
@@ -203,14 +207,19 @@ void ConfigReader::parseConfig(const std::string& serviceIdentifier) {
             }
           }
         }
+        // TODO:Extrae la etiqueta del sistema y la almacena en systemLabel.
+
       } else if (calConfig.first == "SystemLabel") {
         if (const boost::optional<std::string> value = calConfig.second.get_value_optional<std::string>()) {
           systemLabel = *value;
         }
+        // TODO:Extrae el UUID del sistema y lo almacena en systemId.
+
       } else if (calConfig.first == "SystemUUID") {
         if (boost::optional<uci::base::UUID> value = parseConfigUUID(calConfig.second)) {
           systemId = *value;
         }
+        // TODO:Extrae la ID y el nombre del espacio de nombres de generación de UUIDs y los almacena en uuidGenerationNamespaceID y uuidGenerationNamespaceName.
       } else if (calConfig.first == "UUIDGenerationNamespace") {
         for (const boost::property_tree::ptree::value_type& uuidGenerationNamespace : calConfig.second) {
           if (uuidGenerationNamespace.first == "ID") {
@@ -223,6 +232,7 @@ void ConfigReader::parseConfig(const std::string& serviceIdentifier) {
             }
           }
         }
+        // TODO:Determina el tipo de generador de UUIDs (aleatorio o basado en tiempo) y configura el generador de UUIDs en consecuencia.
       } else if (calConfig.first == "UUIDGeneratorType") {
         for (const boost::property_tree::ptree::value_type& uuidGeneratorType : calConfig.second) {
           if (uuidGeneratorType.first == "RandomUUIDGenerator") {
@@ -245,6 +255,7 @@ void ConfigReader::parseConfig(const std::string& serviceIdentifier) {
       }
     }
 
+    // TODO:Si se han especificado tanto la ID como el nombre del espacio de nombres de generación de UUIDs, se genera un UUID de versión 3 a partir de ellos. Si la ID no es válida, se lanza una excepción.
     if (!uuidGenerationNamespaceID.empty() && !uuidGenerationNamespaceName.empty()) {
       const uci::base::UUID uuidFromString{uci::base::UUID::fromString(uuidGenerationNamespaceID)};
       if (uuidFromString.isValid()) {
@@ -254,6 +265,7 @@ void ConfigReader::parseConfig(const std::string& serviceIdentifier) {
                           + uuidGenerationNamespaceID + "\")");
       }
     }
+    // TODO:Si ocurre cualquier excepción durante el proceso, se captura y se lanza una UCIException con un mensaje de error descriptivo.
   } catch (const std::exception& e) {
     std::ostringstream errMsg;
     errMsg << "An error occurred when processing the configuration file \"" << xmlFileName << "\" (" << e.what() << ")";

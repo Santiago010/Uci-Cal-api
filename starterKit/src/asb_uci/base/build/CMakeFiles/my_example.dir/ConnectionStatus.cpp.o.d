@@ -1703,8 +1703,6 @@ CMakeFiles/my_example.dir/ConnectionStatus.cpp.o: \
   /usr/local/include/boost/config/auto_link.hpp \
   /usr/local/include/boost/system/config.hpp \
   /usr/local/include/boost/system/api_config.hpp \
-  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/../../../src/asb_uci/base/config/CalConfig.h \
-  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/../../../src/asb_uci/base/config/../../../../../cppInterface/2.3.2/include/uci/base/UUID.h \
   /usr/local/include/boost/smart_ptr/make_unique.hpp \
   /usr/local/include/boost/type_traits/is_unbounded_array.hpp \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/Reader.h \

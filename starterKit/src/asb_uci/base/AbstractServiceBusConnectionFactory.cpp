@@ -1,6 +1,5 @@
 #include "../../../include/asb_uci/base/AbstractServiceBusConnectionFactory.h"
 #include "../../../include/asb_uci/base/AbstractServiceBusConnection.h"
-#include "config/CalConfig.h"
 #include <iostream>
 #include <string>
 #include <log4cpp/Category.hh>//Libreria para los Logs 
@@ -39,23 +38,7 @@ namespace asb_uci{
             return absc;
         }
 
-                asb_uci::base::config::CalConfig AbstractServiceBusConnectionFactory::loadConfigFile(){
-            asb_uci::base::config::CalConfig calConfig = nullptr;
-            try
-            {
-                calConfig.load();
 
-                if(calConfig == nullptr){
-                    root.error("Failed to load CAL configuration, check this CAL's config file");
-                }
-            }
-            catch(const std::exception& e)
-            {
-                throw std::runtime_error("Failed to load CAL configuration, check this CAL's config file from loadConfigFile" + std::string(e.what()));
-            }
-
-           return calConfig;            
-        }
 
         std::string AbstractServiceBusConnectionFactory::getName(){
             return NAME;
