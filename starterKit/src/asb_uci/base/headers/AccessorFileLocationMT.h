@@ -11,7 +11,7 @@ class AcccessorFileLocationMT : public Accessor {
 public:
     AcccessorFileLocationMT();
     
-    uci::base::accessorType::AccessorType getAccessorType() const noexcept override;
+    uci::base::accessorType::AccessorType getAccessorType() const noexception override;
     
     void reset() override;
     

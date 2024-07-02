@@ -74,7 +74,7 @@ log4cpp::Category& Example::root = log4cpp::Category::getRoot();
 
 
 
- std::istream& readFile(const std::string& filename) {
+ std::istream& Example::readFile(const std::string& filename) {
     static std::stringstream null_stream; // Establece un flujo de entrada vacío como valor predeterminado
 
     std::ifstream file(filename, std::ios::binary);
@@ -540,7 +540,7 @@ void Example::runExample(int argc, char* argv[]) {
 
 }
 
- asb_uci::type::ServiceStatusMT createServiceStatusMT(asb_uci::base::AbstractServiceBusConnection asbs){
+ asb_uci::type::ServiceStatusMT Example::createServiceStatusMT(asb_uci::base::AbstractServiceBusConnection asbs){
 
     asb_uci::type::SystemID_Type systemID;
     systemID.setUUID(asbs.getMySystemUUID());

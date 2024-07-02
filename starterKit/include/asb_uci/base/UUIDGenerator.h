@@ -41,6 +41,7 @@
 #include <mutex>
 #include <string>
 
+#include "ConfigReader.h"
 #include <boost/random/random_device.hpp>
 #include <boost/uuid/random_generator.hpp>
 
@@ -103,13 +104,13 @@ private:
   uci::base::UUID generateType1UUID();
 
   std::unique_ptr<ConfigReader> configReader;
-  std::uint16_t uuidClockSequence{0};
-  std::uint64_t uuidNodeID{0};
+  std::uint16_t uuidClockSequence;
+  std::uint64_t uuidNodeID;
   std::mutex uuidGeneratorLock;
   boost::random::random_device uuidRandomDevice;
   boost::uuids::random_generator uuidRandomGenerator;
-  std::uint64_t uuidTimestampCount{0};
-  std::uint64_t uuidTimestampPrevious{0};
+  std::uint64_t uuidTimestampCount;
+  std::uint64_t uuidTimestampPrevious;
 };
 
 /** .

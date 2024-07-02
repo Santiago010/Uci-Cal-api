@@ -9,27 +9,14 @@ namespace asb_uci{
     namespace base{
 
         UUIDFactory::UUIDFactory(){
-            if(config == nullptr){
-                std::lock_guard<std::mutex> lock(sendLock);
-                try
-                {
-                    if(config == 0){
-                        config = loadConfigFile();
-                    }
-                }
-                catch(const std::exception& e)
-                {
-                    throw std::runtime_error("Failed to load CAL configuration, check this CAL's config file from constructor" + std::string(e.what()));
-                }
-                
-            }
+
         }
         std::string UUIDFactory::getName(){
             return UUID_FACTORY_NAME;
         }
 
         uci::base::UUID UUIDFactory::getNilUUID(){
-            return uuid.getNilUUID;
+            return uuid.getNilUUID();
         }
 
         uci::base::UUID UUIDFactory::generateUUID(){

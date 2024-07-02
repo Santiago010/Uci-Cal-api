@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.0)
 set(CMAKE_CXX_STANDARD 11)
 
 # Especifica el compilador que deseas usar
-set(CMAKE_CXX_COMPILER "/usr/local/Cellar/gcc")
+set(CMAKE_CXX_COMPILER "/usr/bin/gcc")
 
 project(Uci-Cal-api)
 
@@ -28,7 +28,7 @@ link_directories(
 )
 
 # Agrega tus archivos fuente
-add_executable(my_example main.cpp example.cpp AbstractServiceBusConnection.cpp ConfigReader.cpp ConnectionStatus.cpp ConnectionMonitor.cpp UUIDGenerator.cpp Externalizer.cpp)
+add_executable(my_example main.cpp example.cpp AbstractServiceBusConnection.cpp ConfigReader.cpp ConnectionStatus.cpp ConnectionMonitor.cpp UUIDGenerator.cpp Externalizer.cpp AccessorFileLocationMT.cpp UUIDFactory.cpp MessageReader.cpp)
 
 # Especifica las bibliotecas que necesitas enlazar
 target_link_libraries(my_example

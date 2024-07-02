@@ -48,10 +48,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/Cellar/cmake/3.29.4/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.29.6/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/Cellar/cmake/3.29.4/bin/cmake -E rm -f
+RM = /usr/local/Cellar/cmake/3.29.6/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	/usr/local/Cellar/cmake/3.29.4/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.29.6/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -152,6 +152,30 @@ AbstractServiceBusConnection.s: AbstractServiceBusConnection.cpp.s
 AbstractServiceBusConnection.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/AbstractServiceBusConnection.cpp.s
 .PHONY : AbstractServiceBusConnection.cpp.s
+
+AccessorFileLocationMT.o: AccessorFileLocationMT.cpp.o
+.PHONY : AccessorFileLocationMT.o
+
+# target to build an object file
+AccessorFileLocationMT.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/AccessorFileLocationMT.cpp.o
+.PHONY : AccessorFileLocationMT.cpp.o
+
+AccessorFileLocationMT.i: AccessorFileLocationMT.cpp.i
+.PHONY : AccessorFileLocationMT.i
+
+# target to preprocess a source file
+AccessorFileLocationMT.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/AccessorFileLocationMT.cpp.i
+.PHONY : AccessorFileLocationMT.cpp.i
+
+AccessorFileLocationMT.s: AccessorFileLocationMT.cpp.s
+.PHONY : AccessorFileLocationMT.s
+
+# target to generate assembly for a file
+AccessorFileLocationMT.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/AccessorFileLocationMT.cpp.s
+.PHONY : AccessorFileLocationMT.cpp.s
 
 ConfigReader.o: ConfigReader.cpp.o
 .PHONY : ConfigReader.o
@@ -249,6 +273,54 @@ Externalizer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/Externalizer.cpp.s
 .PHONY : Externalizer.cpp.s
 
+MessageReader.o: MessageReader.cpp.o
+.PHONY : MessageReader.o
+
+# target to build an object file
+MessageReader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/MessageReader.cpp.o
+.PHONY : MessageReader.cpp.o
+
+MessageReader.i: MessageReader.cpp.i
+.PHONY : MessageReader.i
+
+# target to preprocess a source file
+MessageReader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/MessageReader.cpp.i
+.PHONY : MessageReader.cpp.i
+
+MessageReader.s: MessageReader.cpp.s
+.PHONY : MessageReader.s
+
+# target to generate assembly for a file
+MessageReader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/MessageReader.cpp.s
+.PHONY : MessageReader.cpp.s
+
+UUIDFactory.o: UUIDFactory.cpp.o
+.PHONY : UUIDFactory.o
+
+# target to build an object file
+UUIDFactory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/UUIDFactory.cpp.o
+.PHONY : UUIDFactory.cpp.o
+
+UUIDFactory.i: UUIDFactory.cpp.i
+.PHONY : UUIDFactory.i
+
+# target to preprocess a source file
+UUIDFactory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/UUIDFactory.cpp.i
+.PHONY : UUIDFactory.cpp.i
+
+UUIDFactory.s: UUIDFactory.cpp.s
+.PHONY : UUIDFactory.s
+
+# target to generate assembly for a file
+UUIDFactory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/UUIDFactory.cpp.s
+.PHONY : UUIDFactory.cpp.s
+
 UUIDGenerator.o: UUIDGenerator.cpp.o
 .PHONY : UUIDGenerator.o
 
@@ -333,6 +405,9 @@ help:
 	@echo "... AbstractServiceBusConnection.o"
 	@echo "... AbstractServiceBusConnection.i"
 	@echo "... AbstractServiceBusConnection.s"
+	@echo "... AccessorFileLocationMT.o"
+	@echo "... AccessorFileLocationMT.i"
+	@echo "... AccessorFileLocationMT.s"
 	@echo "... ConfigReader.o"
 	@echo "... ConfigReader.i"
 	@echo "... ConfigReader.s"
@@ -345,6 +420,12 @@ help:
 	@echo "... Externalizer.o"
 	@echo "... Externalizer.i"
 	@echo "... Externalizer.s"
+	@echo "... MessageReader.o"
+	@echo "... MessageReader.i"
+	@echo "... MessageReader.s"
+	@echo "... UUIDFactory.o"
+	@echo "... UUIDFactory.i"
+	@echo "... UUIDFactory.s"
 	@echo "... UUIDGenerator.o"
 	@echo "... UUIDGenerator.i"
 	@echo "... UUIDGenerator.s"

@@ -69,6 +69,7 @@
 #include "../../../../cppInterface/2.3.2/include/uci/base/UUID.h"
 #include <log4cpp/Category.hh>//Libreria para los Logs 
 #include <log4cpp/PropertyConfigurator.hh> //libreria para los Logs
+#include "../../../include/asb_uci/base/UUIDFactory.h"
 
 /**  */
 namespace asb_uci {

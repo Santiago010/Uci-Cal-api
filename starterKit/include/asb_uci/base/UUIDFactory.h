@@ -27,7 +27,7 @@ namespace asb_uci{
 
                 uci::base::UUID createVersion3UUID(const uci::base::UUID& namespaceUUID, const std::string& name);
 
-                uci::base::UUID createVersion3UUID(std::string& name);
+                uci::base::UUID createVersion3UUID(const std::string& name);
 
 
             private :

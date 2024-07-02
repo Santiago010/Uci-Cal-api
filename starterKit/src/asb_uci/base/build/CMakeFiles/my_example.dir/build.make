@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/Cellar/cmake/3.29.4/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.29.6/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/Cellar/cmake/3.29.4/bin/cmake -E rm -f
+RM = /usr/local/Cellar/cmake/3.29.6/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -73,113 +73,155 @@ CMakeFiles/my_example.dir/main.cpp.o: CMakeFiles/my_example.dir/flags.make
 CMakeFiles/my_example.dir/main.cpp.o: /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/main.cpp
 CMakeFiles/my_example.dir/main.cpp.o: CMakeFiles/my_example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/my_example.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_example.dir/main.cpp.o -MF CMakeFiles/my_example.dir/main.cpp.o.d -o CMakeFiles/my_example.dir/main.cpp.o -c /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/main.cpp
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_example.dir/main.cpp.o -MF CMakeFiles/my_example.dir/main.cpp.o.d -o CMakeFiles/my_example.dir/main.cpp.o -c /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/main.cpp
 
 CMakeFiles/my_example.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_example.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/main.cpp > CMakeFiles/my_example.dir/main.cpp.i
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/main.cpp > CMakeFiles/my_example.dir/main.cpp.i
 
 CMakeFiles/my_example.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_example.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/main.cpp -o CMakeFiles/my_example.dir/main.cpp.s
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/main.cpp -o CMakeFiles/my_example.dir/main.cpp.s
 
 CMakeFiles/my_example.dir/example.cpp.o: CMakeFiles/my_example.dir/flags.make
 CMakeFiles/my_example.dir/example.cpp.o: /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/example.cpp
 CMakeFiles/my_example.dir/example.cpp.o: CMakeFiles/my_example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/my_example.dir/example.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_example.dir/example.cpp.o -MF CMakeFiles/my_example.dir/example.cpp.o.d -o CMakeFiles/my_example.dir/example.cpp.o -c /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/example.cpp
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_example.dir/example.cpp.o -MF CMakeFiles/my_example.dir/example.cpp.o.d -o CMakeFiles/my_example.dir/example.cpp.o -c /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/example.cpp
 
 CMakeFiles/my_example.dir/example.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_example.dir/example.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/example.cpp > CMakeFiles/my_example.dir/example.cpp.i
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/example.cpp > CMakeFiles/my_example.dir/example.cpp.i
 
 CMakeFiles/my_example.dir/example.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_example.dir/example.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/example.cpp -o CMakeFiles/my_example.dir/example.cpp.s
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/example.cpp -o CMakeFiles/my_example.dir/example.cpp.s
 
 CMakeFiles/my_example.dir/AbstractServiceBusConnection.cpp.o: CMakeFiles/my_example.dir/flags.make
 CMakeFiles/my_example.dir/AbstractServiceBusConnection.cpp.o: /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/AbstractServiceBusConnection.cpp
 CMakeFiles/my_example.dir/AbstractServiceBusConnection.cpp.o: CMakeFiles/my_example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/my_example.dir/AbstractServiceBusConnection.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_example.dir/AbstractServiceBusConnection.cpp.o -MF CMakeFiles/my_example.dir/AbstractServiceBusConnection.cpp.o.d -o CMakeFiles/my_example.dir/AbstractServiceBusConnection.cpp.o -c /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/AbstractServiceBusConnection.cpp
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_example.dir/AbstractServiceBusConnection.cpp.o -MF CMakeFiles/my_example.dir/AbstractServiceBusConnection.cpp.o.d -o CMakeFiles/my_example.dir/AbstractServiceBusConnection.cpp.o -c /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/AbstractServiceBusConnection.cpp
 
 CMakeFiles/my_example.dir/AbstractServiceBusConnection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_example.dir/AbstractServiceBusConnection.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/AbstractServiceBusConnection.cpp > CMakeFiles/my_example.dir/AbstractServiceBusConnection.cpp.i
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/AbstractServiceBusConnection.cpp > CMakeFiles/my_example.dir/AbstractServiceBusConnection.cpp.i
 
 CMakeFiles/my_example.dir/AbstractServiceBusConnection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_example.dir/AbstractServiceBusConnection.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/AbstractServiceBusConnection.cpp -o CMakeFiles/my_example.dir/AbstractServiceBusConnection.cpp.s
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/AbstractServiceBusConnection.cpp -o CMakeFiles/my_example.dir/AbstractServiceBusConnection.cpp.s
 
 CMakeFiles/my_example.dir/ConfigReader.cpp.o: CMakeFiles/my_example.dir/flags.make
 CMakeFiles/my_example.dir/ConfigReader.cpp.o: /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/ConfigReader.cpp
 CMakeFiles/my_example.dir/ConfigReader.cpp.o: CMakeFiles/my_example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/my_example.dir/ConfigReader.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_example.dir/ConfigReader.cpp.o -MF CMakeFiles/my_example.dir/ConfigReader.cpp.o.d -o CMakeFiles/my_example.dir/ConfigReader.cpp.o -c /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/ConfigReader.cpp
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_example.dir/ConfigReader.cpp.o -MF CMakeFiles/my_example.dir/ConfigReader.cpp.o.d -o CMakeFiles/my_example.dir/ConfigReader.cpp.o -c /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/ConfigReader.cpp
 
 CMakeFiles/my_example.dir/ConfigReader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_example.dir/ConfigReader.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/ConfigReader.cpp > CMakeFiles/my_example.dir/ConfigReader.cpp.i
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/ConfigReader.cpp > CMakeFiles/my_example.dir/ConfigReader.cpp.i
 
 CMakeFiles/my_example.dir/ConfigReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_example.dir/ConfigReader.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/ConfigReader.cpp -o CMakeFiles/my_example.dir/ConfigReader.cpp.s
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/ConfigReader.cpp -o CMakeFiles/my_example.dir/ConfigReader.cpp.s
 
 CMakeFiles/my_example.dir/ConnectionStatus.cpp.o: CMakeFiles/my_example.dir/flags.make
 CMakeFiles/my_example.dir/ConnectionStatus.cpp.o: /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/ConnectionStatus.cpp
 CMakeFiles/my_example.dir/ConnectionStatus.cpp.o: CMakeFiles/my_example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/my_example.dir/ConnectionStatus.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_example.dir/ConnectionStatus.cpp.o -MF CMakeFiles/my_example.dir/ConnectionStatus.cpp.o.d -o CMakeFiles/my_example.dir/ConnectionStatus.cpp.o -c /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/ConnectionStatus.cpp
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_example.dir/ConnectionStatus.cpp.o -MF CMakeFiles/my_example.dir/ConnectionStatus.cpp.o.d -o CMakeFiles/my_example.dir/ConnectionStatus.cpp.o -c /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/ConnectionStatus.cpp
 
 CMakeFiles/my_example.dir/ConnectionStatus.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_example.dir/ConnectionStatus.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/ConnectionStatus.cpp > CMakeFiles/my_example.dir/ConnectionStatus.cpp.i
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/ConnectionStatus.cpp > CMakeFiles/my_example.dir/ConnectionStatus.cpp.i
 
 CMakeFiles/my_example.dir/ConnectionStatus.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_example.dir/ConnectionStatus.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/ConnectionStatus.cpp -o CMakeFiles/my_example.dir/ConnectionStatus.cpp.s
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/ConnectionStatus.cpp -o CMakeFiles/my_example.dir/ConnectionStatus.cpp.s
 
 CMakeFiles/my_example.dir/ConnectionMonitor.cpp.o: CMakeFiles/my_example.dir/flags.make
 CMakeFiles/my_example.dir/ConnectionMonitor.cpp.o: /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/ConnectionMonitor.cpp
 CMakeFiles/my_example.dir/ConnectionMonitor.cpp.o: CMakeFiles/my_example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/my_example.dir/ConnectionMonitor.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_example.dir/ConnectionMonitor.cpp.o -MF CMakeFiles/my_example.dir/ConnectionMonitor.cpp.o.d -o CMakeFiles/my_example.dir/ConnectionMonitor.cpp.o -c /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/ConnectionMonitor.cpp
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_example.dir/ConnectionMonitor.cpp.o -MF CMakeFiles/my_example.dir/ConnectionMonitor.cpp.o.d -o CMakeFiles/my_example.dir/ConnectionMonitor.cpp.o -c /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/ConnectionMonitor.cpp
 
 CMakeFiles/my_example.dir/ConnectionMonitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_example.dir/ConnectionMonitor.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/ConnectionMonitor.cpp > CMakeFiles/my_example.dir/ConnectionMonitor.cpp.i
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/ConnectionMonitor.cpp > CMakeFiles/my_example.dir/ConnectionMonitor.cpp.i
 
 CMakeFiles/my_example.dir/ConnectionMonitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_example.dir/ConnectionMonitor.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/ConnectionMonitor.cpp -o CMakeFiles/my_example.dir/ConnectionMonitor.cpp.s
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/ConnectionMonitor.cpp -o CMakeFiles/my_example.dir/ConnectionMonitor.cpp.s
 
 CMakeFiles/my_example.dir/UUIDGenerator.cpp.o: CMakeFiles/my_example.dir/flags.make
 CMakeFiles/my_example.dir/UUIDGenerator.cpp.o: /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/UUIDGenerator.cpp
 CMakeFiles/my_example.dir/UUIDGenerator.cpp.o: CMakeFiles/my_example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/my_example.dir/UUIDGenerator.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_example.dir/UUIDGenerator.cpp.o -MF CMakeFiles/my_example.dir/UUIDGenerator.cpp.o.d -o CMakeFiles/my_example.dir/UUIDGenerator.cpp.o -c /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/UUIDGenerator.cpp
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_example.dir/UUIDGenerator.cpp.o -MF CMakeFiles/my_example.dir/UUIDGenerator.cpp.o.d -o CMakeFiles/my_example.dir/UUIDGenerator.cpp.o -c /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/UUIDGenerator.cpp
 
 CMakeFiles/my_example.dir/UUIDGenerator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_example.dir/UUIDGenerator.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/UUIDGenerator.cpp > CMakeFiles/my_example.dir/UUIDGenerator.cpp.i
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/UUIDGenerator.cpp > CMakeFiles/my_example.dir/UUIDGenerator.cpp.i
 
 CMakeFiles/my_example.dir/UUIDGenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_example.dir/UUIDGenerator.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/UUIDGenerator.cpp -o CMakeFiles/my_example.dir/UUIDGenerator.cpp.s
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/UUIDGenerator.cpp -o CMakeFiles/my_example.dir/UUIDGenerator.cpp.s
 
 CMakeFiles/my_example.dir/Externalizer.cpp.o: CMakeFiles/my_example.dir/flags.make
 CMakeFiles/my_example.dir/Externalizer.cpp.o: /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/Externalizer.cpp
 CMakeFiles/my_example.dir/Externalizer.cpp.o: CMakeFiles/my_example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/my_example.dir/Externalizer.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_example.dir/Externalizer.cpp.o -MF CMakeFiles/my_example.dir/Externalizer.cpp.o.d -o CMakeFiles/my_example.dir/Externalizer.cpp.o -c /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/Externalizer.cpp
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_example.dir/Externalizer.cpp.o -MF CMakeFiles/my_example.dir/Externalizer.cpp.o.d -o CMakeFiles/my_example.dir/Externalizer.cpp.o -c /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/Externalizer.cpp
 
 CMakeFiles/my_example.dir/Externalizer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_example.dir/Externalizer.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/Externalizer.cpp > CMakeFiles/my_example.dir/Externalizer.cpp.i
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/Externalizer.cpp > CMakeFiles/my_example.dir/Externalizer.cpp.i
 
 CMakeFiles/my_example.dir/Externalizer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_example.dir/Externalizer.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/Externalizer.cpp -o CMakeFiles/my_example.dir/Externalizer.cpp.s
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/Externalizer.cpp -o CMakeFiles/my_example.dir/Externalizer.cpp.s
+
+CMakeFiles/my_example.dir/AccessorFileLocationMT.cpp.o: CMakeFiles/my_example.dir/flags.make
+CMakeFiles/my_example.dir/AccessorFileLocationMT.cpp.o: /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/AccessorFileLocationMT.cpp
+CMakeFiles/my_example.dir/AccessorFileLocationMT.cpp.o: CMakeFiles/my_example.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/my_example.dir/AccessorFileLocationMT.cpp.o"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_example.dir/AccessorFileLocationMT.cpp.o -MF CMakeFiles/my_example.dir/AccessorFileLocationMT.cpp.o.d -o CMakeFiles/my_example.dir/AccessorFileLocationMT.cpp.o -c /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/AccessorFileLocationMT.cpp
+
+CMakeFiles/my_example.dir/AccessorFileLocationMT.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_example.dir/AccessorFileLocationMT.cpp.i"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/AccessorFileLocationMT.cpp > CMakeFiles/my_example.dir/AccessorFileLocationMT.cpp.i
+
+CMakeFiles/my_example.dir/AccessorFileLocationMT.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_example.dir/AccessorFileLocationMT.cpp.s"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/AccessorFileLocationMT.cpp -o CMakeFiles/my_example.dir/AccessorFileLocationMT.cpp.s
+
+CMakeFiles/my_example.dir/UUIDFactory.cpp.o: CMakeFiles/my_example.dir/flags.make
+CMakeFiles/my_example.dir/UUIDFactory.cpp.o: /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/UUIDFactory.cpp
+CMakeFiles/my_example.dir/UUIDFactory.cpp.o: CMakeFiles/my_example.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/my_example.dir/UUIDFactory.cpp.o"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_example.dir/UUIDFactory.cpp.o -MF CMakeFiles/my_example.dir/UUIDFactory.cpp.o.d -o CMakeFiles/my_example.dir/UUIDFactory.cpp.o -c /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/UUIDFactory.cpp
+
+CMakeFiles/my_example.dir/UUIDFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_example.dir/UUIDFactory.cpp.i"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/UUIDFactory.cpp > CMakeFiles/my_example.dir/UUIDFactory.cpp.i
+
+CMakeFiles/my_example.dir/UUIDFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_example.dir/UUIDFactory.cpp.s"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/UUIDFactory.cpp -o CMakeFiles/my_example.dir/UUIDFactory.cpp.s
+
+CMakeFiles/my_example.dir/MessageReader.cpp.o: CMakeFiles/my_example.dir/flags.make
+CMakeFiles/my_example.dir/MessageReader.cpp.o: /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/MessageReader.cpp
+CMakeFiles/my_example.dir/MessageReader.cpp.o: CMakeFiles/my_example.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/my_example.dir/MessageReader.cpp.o"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_example.dir/MessageReader.cpp.o -MF CMakeFiles/my_example.dir/MessageReader.cpp.o.d -o CMakeFiles/my_example.dir/MessageReader.cpp.o -c /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/MessageReader.cpp
+
+CMakeFiles/my_example.dir/MessageReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_example.dir/MessageReader.cpp.i"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/MessageReader.cpp > CMakeFiles/my_example.dir/MessageReader.cpp.i
+
+CMakeFiles/my_example.dir/MessageReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_example.dir/MessageReader.cpp.s"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/MessageReader.cpp -o CMakeFiles/my_example.dir/MessageReader.cpp.s
 
 # Object files for target my_example
 my_example_OBJECTS = \
@@ -190,7 +232,10 @@ my_example_OBJECTS = \
 "CMakeFiles/my_example.dir/ConnectionStatus.cpp.o" \
 "CMakeFiles/my_example.dir/ConnectionMonitor.cpp.o" \
 "CMakeFiles/my_example.dir/UUIDGenerator.cpp.o" \
-"CMakeFiles/my_example.dir/Externalizer.cpp.o"
+"CMakeFiles/my_example.dir/Externalizer.cpp.o" \
+"CMakeFiles/my_example.dir/AccessorFileLocationMT.cpp.o" \
+"CMakeFiles/my_example.dir/UUIDFactory.cpp.o" \
+"CMakeFiles/my_example.dir/MessageReader.cpp.o"
 
 # External object files for target my_example
 my_example_EXTERNAL_OBJECTS =
@@ -203,9 +248,12 @@ my_example: CMakeFiles/my_example.dir/ConnectionStatus.cpp.o
 my_example: CMakeFiles/my_example.dir/ConnectionMonitor.cpp.o
 my_example: CMakeFiles/my_example.dir/UUIDGenerator.cpp.o
 my_example: CMakeFiles/my_example.dir/Externalizer.cpp.o
+my_example: CMakeFiles/my_example.dir/AccessorFileLocationMT.cpp.o
+my_example: CMakeFiles/my_example.dir/UUIDFactory.cpp.o
+my_example: CMakeFiles/my_example.dir/MessageReader.cpp.o
 my_example: CMakeFiles/my_example.dir/build.make
 my_example: CMakeFiles/my_example.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable my_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable my_example"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_example.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
