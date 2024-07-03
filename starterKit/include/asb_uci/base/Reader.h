@@ -115,6 +115,8 @@ public:
 
 };
 
+// TODO:3 accion para reader
+// TODO: esta es nuestra posible implementacion para MessageReader
 /** The Reader provides the support required to read messages */
 template<typename T_UCI, typename T_ASB_UCI>
 class Reader : public T_UCI::Reader, public ReaderBase, public cms::MessageListener {
@@ -193,6 +195,7 @@ public:
     *
     * @param listener The listener whose handleMessage() method will be invoked when a new message arrives
     */
+   // TODO:4 accion para reader 
   void addListener(typename T_UCI::Listener& listener) override {
     {
       const std::lock_guard<std::mutex> guard{asbConnectionStatusDataLock};

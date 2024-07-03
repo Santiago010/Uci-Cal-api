@@ -38,6 +38,7 @@
 #include "../../../include/asb_uci/type/OwnerProducerChoiceType.h"
 #include "../../../include/asb_uci/type/OwnerProducerEnum.h"
 #include "../../../include/asb_uci/base/Writer.h"
+// TODO: READER NUESTRO POSIBLE TIPO PARA USAR CONSUMER CON SU METODO SEMESSAGELISTENER DE FORMA CORRECTA
 #include "../../../include/asb_uci/base/Reader.h"
 #include "../../../include/asb_uci/type/WeekdayIntervalType.h"
 #include "../../../include/asb_uci/type/DateTimeRangeType.h"
@@ -62,7 +63,9 @@
 #include "../../../include/asb_uci/base/AbstractServiceBusConnectionFactory.h"
 #include "../../../include/asb_uci/base/ExternalizerLoader.h"
 #include "../../../include/asb_uci/base/UUIDFactory.h"
-#include "../../../include/asb_uci/base/MessageReader.h"
+
+// TODO: HAY QUE ELIMINAR A MESSAGEREADER PORQUE ES UNA IMPLEMENTACION QUE NO CONTIENE EL TIPO QUE NECESITAMOS PARA QUE FUNCIONE EN EL METODO ADDLISTENER NUESTRO CONSUMER
+// // #include "../../../include/asb_uci/base/MessageReader.h"
 #include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
 #include "../../../include/asb_uci/base/ServiceStatusListener.h"
 #include "../../../include/asb_uci/base/MessageWriter.h"
@@ -475,8 +478,16 @@ void Example::runExample(int argc, char* argv[]) {
             asb_uci::base::ServiceStatusListener listener2(externalizer);
             asb_uci::type::ServiceStatusMT serviceStatus = createServiceStatusMT(asbc);
             auto serviceStatusPtr = std::make_shared<asb_uci::type::ServiceStatusMT>(serviceStatus);
+            // TODO:Reader al parecer nos va funcionar para llamaar a addListener y pasarle unos argumentos para   que funcione setMessageListener
+            // std::unique_ptr<asb_uci::base::Reader<asb_uci::type::ServiceStatusMT>> reader();
+            // TODO:1 accion Reader
+            // std::unique_ptr<asb_uci::base::Reader<asb_uci::type::ServiceStatusMT, T_ASB_UCI>> reader = asbc.createReader("Example",serviceStatusPtr);
+
+            // TODO:MessageReader ya no lo vamos a usar 
             std::unique_ptr<asb_uci::base::MessageReader<asb_uci::type::ServiceStatusMT>> reader = asbc.createReader("Example", serviceStatusPtr);
             root.info("Created ServiceStatus reader");
+            // TODO:ReaderAddListener
+            // TODO:2 ACCION READER
             reader->addListener(listener2);
             root.info("Added listener ServiceStatus reader");
 

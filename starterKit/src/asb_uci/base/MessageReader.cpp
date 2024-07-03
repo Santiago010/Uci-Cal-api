@@ -19,7 +19,7 @@ namespace asb_uci {
 
         template <typename T>
         MessageReader<T>::MessageReader(cms::Connection* conn, const std::string& tn, const std::shared_ptr<T>& t, asb_uci::base::Externalizer* ext)
-            : connection(conn), topicName(tn), typeSP(t), externalizer(ext) {
+            : connection(conn), topicName(tn), typeSP(t), externalizer(ext),consumer(std::move(consumer)) {
 
             try {
                 session.reset(conn->createSession(cms::Session::AcknowledgeMode::AUTO_ACKNOWLEDGE));
@@ -48,10 +48,12 @@ namespace asb_uci {
             }
         }
 
+        // TODO:CUARTO ACCION MESSAGEREADER
+
         template <typename T>
         asb_uci::base::MessageListener<T> MessageReader<T>::addListener(asb_uci::base::MessageListener<T> listener) {
             try {
-                if (listenerEmpty()) {
+                if (consumer && listenerEmpty()) {
                     
                     consumer->setMessageListener(this);
                 }

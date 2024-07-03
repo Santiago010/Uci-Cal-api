@@ -3,7 +3,8 @@
 
 #include "../type/MessageType.h"
 #include <type_traits>
-#include "MessageListener.h"
+// TODO: MESSAGELISTENER ANTERIOR, ESTE NO ES
+// #include "MessageListener.h"
 #include <memory>
 #include <string>
 #include <stdexcept>
@@ -15,21 +16,26 @@
 #include <log4cpp/PropertyConfigurator.hh>
 #include <cms/Message.h>
 #include <cms/TextMessage.h>
-#include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
+
+#include <cms/MessageListener.h>
 
 namespace asb_uci {
     namespace base {
-
+        
+        // TODO:PRIMER ACCION MESSAGEREADER
+        // TODO:MessageReader extiende de cms::MessageListener˚ antes era de asb_uci::base::MessageListener lo cual no nos funciona ya que no contiene la logicva necesaria para los listener
         template <typename T>
-        class MessageReader : public asb_uci::base::MessageListener<T>{
+        class MessageReader : public cms::MessageListener{
         private:
             std::unique_ptr<cms::Connection> connection;
             std::unique_ptr<cms::Session> session;
+                    // TODO:SEGUNDA ACCION MESSAGEREADER
+
+            // consumer es de tipo MessageConsumer y contiene el metodo setMessageListener el cual recibe un MessageListener* listener de tipo cms::MessageListener
             std::unique_ptr<cms::MessageConsumer> consumer;
             asb_uci::base::Externalizer* externalizer;
             std::string topicName;
             std::shared_ptr<T> typeSP;
-            uci::base::Accessor typeSPP;
             std::vector<asb_uci::base::MessageListener<T>> listeners;
             log4cpp::Category& root = log4cpp::Category::getRoot();
 
@@ -45,6 +51,8 @@ namespace asb_uci {
                 }
             }
             static_assert(std::is_base_of<asb_uci::type::MessageType, T>::value, "T must derive from MessageType");
+
+                                // TODO:TERCERA ACCION MESSAGEREADER
 
             asb_uci::base::MessageListener<T> addListener(asb_uci::base::MessageListener<T> listener);
             void removeListener(asb_uci::base::MessageListener<T> listener);

@@ -90,7 +90,8 @@
     "fstream": "cpp",
     "iostream": "cpp",
     "regex": "cpp",
-    "*.ipp": "cpp"
+    "*.ipp": "cpp",
+    "execution": "cpp"
   },
   "workbench.colorCustomizations": {
     "activityBar.activeBackground": "#ab307e",
