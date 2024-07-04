@@ -16,8 +16,8 @@
 #include <log4cpp/PropertyConfigurator.hh>
 #include <cms/Message.h>
 #include <cms/TextMessage.h>
-
-#include <cms/MessageListener.h>
+#include <boost/shared_ptr.hpp>
+#include "MessageListener.h"
 
 namespace asb_uci {
     namespace base {
@@ -25,7 +25,7 @@ namespace asb_uci {
         // TODO:PRIMER ACCION MESSAGEREADER
         // TODO:MessageReader extiende de cms::MessageListener˚ antes era de asb_uci::base::MessageListener lo cual no nos funciona ya que no contiene la logicva necesaria para los listener
         template <typename T>
-        class MessageReader : public cms::MessageListener{
+        class MessageReader : public asb_uci::base::MessageListener<T>{
         private:
             std::unique_ptr<cms::Connection> connection;
             std::unique_ptr<cms::Session> session;
@@ -56,12 +56,12 @@ namespace asb_uci {
 
             asb_uci::base::MessageListener<T> addListener(asb_uci::base::MessageListener<T> listener);
             void removeListener(asb_uci::base::MessageListener<T> listener);
-            std::shared_ptr<T> read(long timeoutSeconds);
-            std::shared_ptr<T> readNoWait();
+            boost::shared_ptr<T> read(long timeoutSeconds);
+            boost::shared_ptr<T> readNoWait();
             MessageReader(cms::Connection* conn, const std::string& tn, const std::shared_ptr<T>& t, asb_uci::base::Externalizer* ext);
             void onMessage(cms::Message* message);
             bool listenerEmpty();
-            std::shared_ptr<T> parseMessage(cms::Message* message);
+            boost::shared_ptr<T> parseMessage(cms::Message* message);
         };
 
     } // namespace base

@@ -507,7 +507,7 @@ void Example::runExample(int argc, char* argv[]) {
             root.info("CAL status is '" + status.abstractServiceBusConnectionStateToString(status.state) + "', detail: " + status.stateDetail);
 
 
-            auto task = [&serviceStatus2, &writer, &externalizer]() -> void {
+            auto task = [&serviceStatus2, &writer, &externalizer,&serviceStatus2Ptr]() -> void {
             while (true) {
                 serviceStatus2.getMessageHeader().setTimestamp(getCurrentTimeMillis());
                 serviceStatus2.getMessageData().setTimeUp(getNanosDuration());
@@ -516,7 +516,8 @@ void Example::runExample(int argc, char* argv[]) {
                 writer->write(serviceStatus2);
 
                 std::ostringstream oss;
-                externalizer.write(serviceStatus2,oss);
+                std::shared_ptr<asb_uci::type::ServiceStatusMT> typeSP = serviceStatus2Ptr;
+                externalizer.write(static_cast<uci::base::Accessor&>(*typeSP),oss);
 
                 oss << "This is an example of text written in std::ostringstream.";
 

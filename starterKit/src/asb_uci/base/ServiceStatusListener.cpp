@@ -13,8 +13,12 @@ namespace asb_uci {
         }
 
         // TODO:falta hacer esta implementacion 
-        void ServiceStatusListener::handleMessage(std::shared_ptr<asb_uci::type::ServiceStatusMT> message) {
+        void ServiceStatusListener::handleMessage(boost::shared_ptr<asb_uci::type::ServiceStatusMT> message) {
 
         }
+
+         void ServiceStatusListener::onMessage(const cms::Message* message)override{
+
+         }
     }
 }

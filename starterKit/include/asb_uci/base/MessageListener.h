@@ -4,12 +4,14 @@
 #include "../type/MessageType.h"
 #include <memory> // Para std::shared_ptr
 #include <stdexcept> // Para std::runtime_error
+#include <cms/MessageListener.h>
+#include <boost/shared_ptr.hpp>
 
 namespace asb_uci {
 namespace base {
 
 template <typename T>
-class MessageListener {
+class MessageListener : public cms::MessageListener {
 public:
     virtual ~MessageListener() = default;
 
@@ -18,7 +20,9 @@ public:
      * 
      * @param message The newly arrived message that is to be processed by this method.
      */
-    void handleMessage(std::shared_ptr<T> message);
+    void handleMessage(boost::shared_ptr<T> message);
+
+    void onMessage(const cms::Message* message) override;
 
     /**
      * Optional method to handle any exceptions thrown by handleMessage.

@@ -11,6 +11,7 @@
 #include "../../../include/asb_uci/base/Externalizer.h"
 #include "../../../include/asb_uci/base/MessageReader.h"
 #include "../../../include/asb_uci/base/MessageListener.h"
+#include <boost/shared_ptr.hpp>
 #include "../../../include/asb_uci/type/ServiceStatusMT.h"
 
 
@@ -37,7 +38,7 @@ namespace asb_uci {
         void MessageReader<T>::onMessage(cms::Message* message) {
             if (!listenerEmpty()) {
                 try {
-                    std::shared_ptr<T> uciMessage = parseMessage(message);
+                    boost::shared_ptr<T> uciMessage = parseMessage(message);
                     for (auto& listener : listeners) {
                         listener.handleMessage(uciMessage);
                     }
@@ -87,7 +88,7 @@ namespace asb_uci {
         }
 
         template <typename T>
-        std::shared_ptr<T> MessageReader<T>::read(long timeoutSeconds) {
+        boost::shared_ptr<T> MessageReader<T>::read(long timeoutSeconds) {
             try {
                 cms::Message* message = consumer->receive(timeoutSeconds * 1000);
                 return parseMessage(message);
@@ -99,7 +100,7 @@ namespace asb_uci {
         }
 
         template <typename T>
-        std::shared_ptr<T> MessageReader<T>::readNoWait() {
+        boost::shared_ptr<T> MessageReader<T>::readNoWait() {
             try {
                 cms::Message* message = consumer->receiveNoWait();
                 return parseMessage(message);
@@ -111,7 +112,7 @@ namespace asb_uci {
         }
 
         template <typename T>
-        std::shared_ptr<T> MessageReader<T>::parseMessage(cms::Message* message) {
+        boost::shared_ptr<T> MessageReader<T>::parseMessage(cms::Message* message) {
             try {
                 if (!message) {
                     throw std::runtime_error("Received null message");
@@ -125,7 +126,7 @@ namespace asb_uci {
                 std::string xml = textMessage->getText();
                 std::istringstream inputStream(xml);
 
-                return externalizer->read(inputStream, typeSP);
+                return externalizer->read(inputStream, static_cast<uci::base::Accessor&>(*typeSP));
             }
             catch (const std::exception& e) {
                 root.error("Failed to parse message from topic {}: {}", topicName, e.what());

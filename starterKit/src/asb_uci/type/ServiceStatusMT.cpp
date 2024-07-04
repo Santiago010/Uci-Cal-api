@@ -57,6 +57,11 @@ namespace asb_uci {
 /** The namespace in which all generated data types are declared */
 namespace type {
 
+// TODO:metodo no implementado, puesto que no es necesario para su buen funcionamiento
+void ServiceStatusMT::reset() noexcept{
+
+}
+
 ServiceStatusMT::ServiceStatusMT()
   : messageData_Accessor{boost::make_unique<ServiceStatusMDT>()} {
 }

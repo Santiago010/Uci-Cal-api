@@ -43,6 +43,7 @@
 #include <vector>
 
 #include <boost/dll/import.hpp>
+#include <boost/shared_ptr.hpp>
 
 #include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
 #include "../../../../cppInterface/2.3.2/include/uci/base/Externalizer.h"
@@ -71,8 +72,8 @@ Externalizer::Externalizer(const std::string& encoding, const std::string& schem
   }
 }
 
-void Externalizer::read(std::istream& istream, uci::base::Accessor& accessor) {
-  plugin->read(istream, accessor);
+boost::shared_ptr<uci::base::Externalizer> Externalizer::read(std::istream& istream, uci::base::Accessor& accessor) {
+  return plugin->read(istream, accessor);
 }
 
 void Externalizer::read(const std::string& string, uci::base::Accessor& accessor) {

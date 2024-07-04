@@ -61,7 +61,6 @@
 #include "../../../include/asb_uci/base/ConnectionStatus.h"
 #include "../../../include/asb_uci/base/Reader.h"
 #include "../../../include/asb_uci/base/MessageWriter.h"
-#include "../../../include/asb_uci/base/Reader.h"
 #include "../../../include/asb_uci/base/Writer.h"
 #include "../../../include/asb_uci/base/AbstractServiceBusConnection.h"
 #include "../../../../cppInterface/2.3.2/include/uci/base/AbstractServiceBusConnectionStatusListener.h"
@@ -70,6 +69,7 @@
 #include <log4cpp/Category.hh>//Libreria para los Logs 
 #include <log4cpp/PropertyConfigurator.hh> //libreria para los Logs
 #include "../../../include/asb_uci/base/UUIDFactory.h"
+#include "../../../include/asb_uci/base/MessageReader.h"
 
 /**  */
 namespace asb_uci {
@@ -93,15 +93,15 @@ std::unique_ptr<asb_uci::base::MessageWriter<T>> AbstractServiceBusConnection::c
     return writer;
 }
 
-  // TODO:createReader no debe retornar un MEssageReader debe retornar un Reader
+
   template <typename T>
-  std::unique_ptr<asb_uci::base::Reader<T>> AbstractServiceBusConnection::createReader(std::string target,const std::shared_ptr<T>& type){
+  std::unique_ptr<asb_uci::base::MessageReader<T>> AbstractServiceBusConnection::createReader(std::string target,const std::shared_ptr<T>& type){
     if (!connection) {
         init("service_identifier", true);
     }
 
 // TODO:tenemos que investigar cuales son los parametros que recibe Reader en su contructor
-    auto reader = boost::make_unique<asb_uci::base::Reader<T>>(connection.get(), target, type, externalizer);
+    auto reader = boost::make_unique<asb_uci::base::MessageReader<T>>(connection.get(), target, type, externalizer);
     root.info("Created message reader for target {} with type {}", target);
 
     return reader;

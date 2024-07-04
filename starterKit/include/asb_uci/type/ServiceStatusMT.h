@@ -43,6 +43,7 @@
 
 #include "MessageType.h"
 #include "../../../../cppInterface/2.3.2/include/uci/type/ServiceStatusMT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
 
 /**  */
 namespace asb_uci {
@@ -54,8 +55,10 @@ class ServiceStatusMDT;
 
 /** See the annotation in the associated message for an overall description of the message and this type. */
 /** Ver la anotación en el mensaje asociado para una descripción general del mensaje y de este tipo. */
-class ServiceStatusMT : public virtual uci::type::ServiceStatusMT, public virtual MessageType {
+class ServiceStatusMT : public virtual uci::type::ServiceStatusMT, public virtual MessageType, public uci::base::Accessor{
 public:
+
+  // TODO:metodo que proviene de accessor
 
   
   /** The constructor */
