@@ -35,7 +35,7 @@ namespace asb_uci {
             std::unique_ptr<cms::MessageConsumer> consumer;
             asb_uci::base::Externalizer* externalizer;
             std::string topicName;
-            std::shared_ptr<T> typeSP;
+            boost::shared_ptr<T> typeSP;
             std::vector<asb_uci::base::MessageListener<T>> listeners;
             log4cpp::Category& root = log4cpp::Category::getRoot();
 
@@ -58,8 +58,9 @@ namespace asb_uci {
             void removeListener(asb_uci::base::MessageListener<T> listener);
             boost::shared_ptr<T> read(long timeoutSeconds);
             boost::shared_ptr<T> readNoWait();
-            MessageReader(cms::Connection* conn, const std::string& tn, const std::shared_ptr<T>& t, asb_uci::base::Externalizer* ext);
+            MessageReader(cms::Connection* conn, const std::string& tn, const boost::shared_ptr<T>& t, asb_uci::base::Externalizer* ext);
             void onMessage(cms::Message* message);
+            void handleMessage(boost::shared_ptr<T> message);
             bool listenerEmpty();
             boost::shared_ptr<T> parseMessage(cms::Message* message);
         };

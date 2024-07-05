@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/NonIC_MarkingsEnum.h"
-#include "asb_uci/type/NonIC_MarkingsType.h"
-#include "uci/base/Accessor.h"
-#include "uci/type/NonIC_MarkingsChoiceType.h"
+#include "NonIC_MarkingsEnum.h"
+#include "NonIC_MarkingsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/NonIC_MarkingsChoiceType.h"
 
 /**  */
 namespace asb_uci {

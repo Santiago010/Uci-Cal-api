@@ -20,7 +20,6 @@ public:
      * 
      * @param message The newly arrived message that is to be processed by this method.
      */
-    void handleMessage(boost::shared_ptr<T> message);
 
     void onMessage(const cms::Message* message) override;
 

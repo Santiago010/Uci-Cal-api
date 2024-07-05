@@ -97,7 +97,7 @@ public:
     * @param istream The C++ standard library istream whose content will be used to import into the accessor.
     * @param accessor The accessor to be written to.
     */
-  boost::shared_ptr<uci::base::Externalizer> read(std::istream& istream, uci::base::Accessor& accessor) override;
+  void read(std::istream& istream, uci::base::Accessor& accessor) override;
 
   /** This method reads the content of the C++ standard library string to import into the accessor.
     *

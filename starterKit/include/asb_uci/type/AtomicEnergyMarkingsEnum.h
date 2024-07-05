@@ -36,9 +36,9 @@
 #ifndef ASB_UCI_TYPE_ATOMICENERGYMARKINGSENUM_H
 #define ASB_UCI_TYPE_ATOMICENERGYMARKINGSENUM_H
 
-#include "asb_uci/base/EnumAccessor.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AtomicEnergyMarkingsEnum.h"
+#include "../base/EnumAccessor.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AtomicEnergyMarkingsEnum.h"
 
 /**  */
 namespace asb_uci {

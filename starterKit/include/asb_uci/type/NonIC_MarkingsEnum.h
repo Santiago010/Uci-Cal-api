@@ -36,9 +36,9 @@
 #ifndef ASB_UCI_TYPE_NONIC_MARKINGSENUM_H
 #define ASB_UCI_TYPE_NONIC_MARKINGSENUM_H
 
-#include "asb_uci/base/EnumAccessor.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/NonIC_MarkingsEnum.h"
+#include "../base/EnumAccessor.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/NonIC_MarkingsEnum.h"
 
 /**  */
 namespace asb_uci {

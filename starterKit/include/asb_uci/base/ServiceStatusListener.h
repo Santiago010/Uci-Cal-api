@@ -15,7 +15,6 @@ namespace asb_uci
         class ServiceStatusListener : public asb_uci::base::MessageListener<asb_uci::type::ServiceStatusMT> {
         public:
             ServiceStatusListener(asb_uci::base::Externalizer xmlExter);
-            void handleMessage(std::shared_ptr<asb_uci::type::ServiceStatusMT> message);
             void onMessage(const cms::Message* message) override;
 
         private:

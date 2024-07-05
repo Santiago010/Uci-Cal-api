@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/FGI_SourceOpenEnum.h"
-#include "asb_uci/type/NATO_SpecialWordsType.h"
-#include "uci/base/Accessor.h"
-#include "uci/type/FGI_SourceOpenChoiceType.h"
+#include "FGI_SourceOpenEnum.h"
+#include "NATO_SpecialWordsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FGI_SourceOpenChoiceType.h"
 
 /**  */
 namespace asb_uci {

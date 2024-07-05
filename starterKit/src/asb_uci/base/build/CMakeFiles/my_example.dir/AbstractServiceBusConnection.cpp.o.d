@@ -791,6 +791,63 @@ CMakeFiles/my_example.dir/AbstractServiceBusConnection.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cstdarg \
+  /usr/local/include/boost/shared_ptr.hpp \
+  /usr/local/include/boost/smart_ptr/shared_ptr.hpp \
+  /usr/local/include/boost/smart_ptr/detail/requires_cxx11.hpp \
+  /usr/local/include/boost/config.hpp \
+  /usr/local/include/boost/config/user.hpp \
+  /usr/local/include/boost/config/detail/select_compiler_config.hpp \
+  /usr/local/include/boost/config/compiler/clang.hpp \
+  /usr/local/include/boost/config/compiler/clang_version.hpp \
+  /usr/local/include/boost/config/detail/select_stdlib_config.hpp \
+  /usr/local/include/boost/config/stdlib/libcpp.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/shared_mutex \
+  /usr/local/include/boost/config/detail/select_platform_config.hpp \
+  /usr/local/include/boost/config/platform/macos.hpp \
+  /usr/local/include/boost/config/detail/posix_features.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/unistd.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/unistd.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_posix_vdisable.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/select.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_select.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_uuid_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/gethostuuid.h \
+  /usr/local/include/boost/config/detail/suffix.hpp \
+  /usr/local/include/boost/config/helper_macros.hpp \
+  /usr/local/include/boost/config/detail/cxx_composite.hpp \
+  /usr/local/include/boost/config/pragma_message.hpp \
+  /usr/local/include/boost/smart_ptr/detail/shared_count.hpp \
+  /usr/local/include/boost/smart_ptr/bad_weak_ptr.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_counted_base.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_has_gcc_intrinsics.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_has_sync_intrinsics.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_counted_base_gcc_atomic.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_typeinfo_.hpp \
+  /usr/local/include/boost/cstdint.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_counted_impl.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_noexcept.hpp \
+  /usr/local/include/boost/core/checked_delete.hpp \
+  /usr/local/include/boost/core/addressof.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_disable_deprecated.hpp \
+  /usr/local/include/boost/throw_exception.hpp \
+  /usr/local/include/boost/exception/exception.hpp \
+  /usr/local/include/boost/assert/source_location.hpp \
+  /usr/local/include/boost/config/workaround.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_convertible.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_nullptr_t.hpp \
+  /usr/local/include/boost/assert.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/assert.h \
+  /usr/local/include/boost/smart_ptr/detail/spinlock_pool.hpp \
+  /usr/local/include/boost/smart_ptr/detail/spinlock.hpp \
+  /usr/local/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp \
+  /usr/local/include/boost/smart_ptr/detail/yield_k.hpp \
+  /usr/local/include/boost/core/yield_primitives.hpp \
+  /usr/local/include/boost/core/detail/sp_thread_pause.hpp \
+  /usr/local/include/boost/core/detail/sp_thread_yield.hpp \
+  /usr/local/include/boost/core/detail/sp_thread_sleep.hpp \
+  /usr/local/include/boost/smart_ptr/detail/operator_bool.hpp \
+  /usr/local/include/boost/smart_ptr/detail/local_sp_deleter.hpp \
+  /usr/local/include/boost/smart_ptr/detail/local_counted_base.hpp \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/ConnectionMonitor.h \
   /usr/local/Cellar/activemq-cpp/3.9.5_2/include/activemq-cpp-3.9.5/activemq/transport/DefaultTransportListener.h \
   /usr/local/Cellar/activemq-cpp/3.9.5_2/include/activemq-cpp-3.9.5/activemq/util/Config.h \
@@ -822,39 +879,10 @@ CMakeFiles/my_example.dir/AbstractServiceBusConnection.cpp.o: \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/ConfigReader.h \
   /usr/local/include/boost/property_tree/ptree.hpp \
   /usr/local/include/boost/property_tree/ptree_fwd.hpp \
-  /usr/local/include/boost/config.hpp \
-  /usr/local/include/boost/config/user.hpp \
-  /usr/local/include/boost/config/detail/select_compiler_config.hpp \
-  /usr/local/include/boost/config/compiler/clang.hpp \
-  /usr/local/include/boost/config/compiler/clang_version.hpp \
-  /usr/local/include/boost/config/detail/select_stdlib_config.hpp \
-  /usr/local/include/boost/config/stdlib/libcpp.hpp \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/shared_mutex \
-  /usr/local/include/boost/config/detail/select_platform_config.hpp \
-  /usr/local/include/boost/config/platform/macos.hpp \
-  /usr/local/include/boost/config/detail/posix_features.hpp \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/unistd.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/unistd.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_posix_vdisable.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/select.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_select.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_uuid_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/gethostuuid.h \
-  /usr/local/include/boost/config/detail/suffix.hpp \
-  /usr/local/include/boost/config/helper_macros.hpp \
-  /usr/local/include/boost/config/detail/cxx_composite.hpp \
   /usr/local/include/boost/optional/optional_fwd.hpp \
-  /usr/local/include/boost/throw_exception.hpp \
-  /usr/local/include/boost/exception/exception.hpp \
-  /usr/local/include/boost/assert/source_location.hpp \
-  /usr/local/include/boost/cstdint.hpp \
-  /usr/local/include/boost/config/workaround.hpp \
   /usr/local/include/boost/property_tree/string_path.hpp \
   /usr/local/include/boost/property_tree/id_translator.hpp \
   /usr/local/include/boost/optional/optional.hpp \
-  /usr/local/include/boost/assert.hpp \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/assert.h \
-  /usr/local/include/boost/core/addressof.hpp \
   /usr/local/include/boost/core/enable_if.hpp \
   /usr/local/include/boost/core/explicit_operator_bool.hpp \
   /usr/local/include/boost/core/invoke_swap.hpp \
@@ -929,7 +957,6 @@ CMakeFiles/my_example.dir/AbstractServiceBusConnection.cpp.o: \
   /usr/local/include/boost/move/detail/type_traits.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cassert \
   /usr/local/include/boost/none.hpp /usr/local/include/boost/none_t.hpp \
-  /usr/local/include/boost/config/pragma_message.hpp \
   /usr/local/include/boost/utility/compare_pointees.hpp \
   /usr/local/include/boost/utility/result_of.hpp \
   /usr/local/include/boost/type_traits/type_identity.hpp \
@@ -1559,33 +1586,6 @@ CMakeFiles/my_example.dir/AbstractServiceBusConnection.cpp.o: \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/../../../../cppInterface/2.3.2/include/uci/base/AbstractServiceBusConnectionStatusListener.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/../../../../cppInterface/2.3.2/include/uci/base/AbstractServiceBusConnection.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/Externalizer.h \
-  /usr/local/include/boost/shared_ptr.hpp \
-  /usr/local/include/boost/smart_ptr/shared_ptr.hpp \
-  /usr/local/include/boost/smart_ptr/detail/requires_cxx11.hpp \
-  /usr/local/include/boost/smart_ptr/detail/shared_count.hpp \
-  /usr/local/include/boost/smart_ptr/bad_weak_ptr.hpp \
-  /usr/local/include/boost/smart_ptr/detail/sp_counted_base.hpp \
-  /usr/local/include/boost/smart_ptr/detail/sp_has_gcc_intrinsics.hpp \
-  /usr/local/include/boost/smart_ptr/detail/sp_has_sync_intrinsics.hpp \
-  /usr/local/include/boost/smart_ptr/detail/sp_counted_base_gcc_atomic.hpp \
-  /usr/local/include/boost/smart_ptr/detail/sp_typeinfo_.hpp \
-  /usr/local/include/boost/smart_ptr/detail/sp_counted_impl.hpp \
-  /usr/local/include/boost/smart_ptr/detail/sp_noexcept.hpp \
-  /usr/local/include/boost/core/checked_delete.hpp \
-  /usr/local/include/boost/smart_ptr/detail/sp_disable_deprecated.hpp \
-  /usr/local/include/boost/smart_ptr/detail/sp_convertible.hpp \
-  /usr/local/include/boost/smart_ptr/detail/sp_nullptr_t.hpp \
-  /usr/local/include/boost/smart_ptr/detail/spinlock_pool.hpp \
-  /usr/local/include/boost/smart_ptr/detail/spinlock.hpp \
-  /usr/local/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp \
-  /usr/local/include/boost/smart_ptr/detail/yield_k.hpp \
-  /usr/local/include/boost/core/yield_primitives.hpp \
-  /usr/local/include/boost/core/detail/sp_thread_pause.hpp \
-  /usr/local/include/boost/core/detail/sp_thread_yield.hpp \
-  /usr/local/include/boost/core/detail/sp_thread_sleep.hpp \
-  /usr/local/include/boost/smart_ptr/detail/operator_bool.hpp \
-  /usr/local/include/boost/smart_ptr/detail/local_sp_deleter.hpp \
-  /usr/local/include/boost/smart_ptr/detail/local_counted_base.hpp \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/../../../../cppInterface/2.3.2/include/uci/base/Externalizer.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/MessageReader.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/../../../include/asb_uci/base/../type/MessageType.h \

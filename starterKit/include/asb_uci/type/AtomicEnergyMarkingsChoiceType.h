@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AtomicEnergyMarkingsEnum.h"
-#include "asb_uci/type/AtomicEnergySigmaMarkingsEnum.h"
-#include "uci/base/Accessor.h"
-#include "uci/type/AtomicEnergyMarkingsChoiceType.h"
+#include "AtomicEnergyMarkingsEnum.h"
+#include "AtomicEnergySigmaMarkingsEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AtomicEnergyMarkingsChoiceType.h"
 
 /**  */
 namespace asb_uci {

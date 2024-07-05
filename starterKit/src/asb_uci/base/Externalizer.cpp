@@ -72,8 +72,8 @@ Externalizer::Externalizer(const std::string& encoding, const std::string& schem
   }
 }
 
-boost::shared_ptr<uci::base::Externalizer> Externalizer::read(std::istream& istream, uci::base::Accessor& accessor) {
-  return plugin->read(istream, accessor);
+void Externalizer::read(std::istream& istream, uci::base::Accessor& accessor) {
+  plugin->read(istream, accessor);
 }
 
 void Externalizer::read(const std::string& string, uci::base::Accessor& accessor) {

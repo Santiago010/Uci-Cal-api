@@ -55,10 +55,8 @@ class ServiceStatusMDT;
 
 /** See the annotation in the associated message for an overall description of the message and this type. */
 /** Ver la anotación en el mensaje asociado para una descripción general del mensaje y de este tipo. */
-class ServiceStatusMT : public virtual uci::type::ServiceStatusMT, public virtual MessageType, public uci::base::Accessor{
+class ServiceStatusMT : public virtual uci::type::ServiceStatusMT, public virtual MessageType{
 public:
-
-  // TODO:metodo que proviene de accessor
 
   
   /** The constructor */

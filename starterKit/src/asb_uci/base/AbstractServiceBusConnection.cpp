@@ -52,7 +52,7 @@
 #include <activemq/library/ActiveMQCPP.h>
 #include <boost/smart_ptr/make_unique.hpp>
 #include <cms/Connection.h>
-
+#include <boost/shared_ptr.hpp>
 #include "../../../include/asb_uci/base/ConfigReader.h"
 #include "../../../include/asb_uci/base/Externalizer.h"
 #include "../../../../cppInterface/2.3.2/include/uci/base/Externalizer.h"
@@ -81,7 +81,7 @@ log4cpp::Category& AbstractServiceBusConnection::root = log4cpp::Category::getRo
 
 
 template <typename T>
-std::unique_ptr<asb_uci::base::MessageWriter<T>> AbstractServiceBusConnection::createWriter(const std::string& target, const std::shared_ptr<T>& type) {
+std::unique_ptr<asb_uci::base::MessageWriter<T>> AbstractServiceBusConnection::createWriter(const std::string& target, const boost::shared_ptr<T>& type) {
     // Llamar a init si no se ha llamado antes (por ejemplo, si se llama desde fuera del constructor)
     if (!connection) {
         init("service_identifier", true);
@@ -95,7 +95,7 @@ std::unique_ptr<asb_uci::base::MessageWriter<T>> AbstractServiceBusConnection::c
 
 
   template <typename T>
-  std::unique_ptr<asb_uci::base::MessageReader<T>> AbstractServiceBusConnection::createReader(std::string target,const std::shared_ptr<T>& type){
+  std::unique_ptr<asb_uci::base::MessageReader<T>> AbstractServiceBusConnection::createReader(std::string target,const boost::shared_ptr<T>& type){
     if (!connection) {
         init("service_identifier", true);
     }

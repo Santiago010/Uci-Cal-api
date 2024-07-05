@@ -42,7 +42,7 @@
 #include <mutex>
 #include <ostream>
 #include <string>
-
+#include <boost/shared_ptr.hpp>
 #include "ConnectionMonitor.h"
 #include "AbstractServiceBusConnection.h"
 #include "ConfigReader.h"
@@ -265,10 +265,10 @@ public:
   uci::base::UUID generateUUID();
 
   template <typename T>
-  std::unique_ptr<asb_uci::base::MessageWriter<T>> createWriter(const std::string& target, const std::shared_ptr<T>& type);
+  std::unique_ptr<asb_uci::base::MessageWriter<T>> createWriter(const std::string& target, const boost::shared_ptr<T>& type);
 
   template <typename T>
-  std::unique_ptr<asb_uci::base::MessageReader<T>>  createReader(std::string target,const std::shared_ptr<T>& type);
+  std::unique_ptr<asb_uci::base::MessageReader<T>>  createReader(std::string target,const boost::shared_ptr<T>& type);
 
 
 private:

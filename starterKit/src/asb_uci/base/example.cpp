@@ -22,6 +22,7 @@
 #include "../../../include/asb_uci/type/CapabilityCommandBaseType.h"
 #include "../../../include/asb_uci/type/CapabilityConfigurationType.h"
 #include <boost/lexical_cast.hpp>
+#include <boost/shared_ptr.hpp>
 #include <boost/uuid/uuid.hpp>
 #include <boost/uuid/uuid_generators.hpp>
 #include <boost/uuid/uuid_io.hpp>
@@ -477,17 +478,10 @@ void Example::runExample(int argc, char* argv[]) {
         if(isReader){
             asb_uci::base::ServiceStatusListener listener2(externalizer);
             asb_uci::type::ServiceStatusMT serviceStatus = createServiceStatusMT(asbc);
-            auto serviceStatusPtr = std::make_shared<asb_uci::type::ServiceStatusMT>(serviceStatus);
-            // TODO:Reader al parecer nos va funcionar para llamaar a addListener y pasarle unos argumentos para   que funcione setMessageListener
-            // std::unique_ptr<asb_uci::base::Reader<asb_uci::type::ServiceStatusMT>> reader();
-            // TODO:1 accion Reader
-            // std::unique_ptr<asb_uci::base::Reader<asb_uci::type::ServiceStatusMT, T_ASB_UCI>> reader = asbc.createReader("Example",serviceStatusPtr);
-
-            // TODO:MessageReader ya no lo vamos a usar 
+            auto serviceStatusPtr = boost::shared_ptr<asb_uci::type::ServiceStatusMT>(new asb_uci::type::ServiceStatusMT(serviceStatus));
             std::unique_ptr<asb_uci::base::MessageReader<asb_uci::type::ServiceStatusMT>> reader = asbc.createReader("Example", serviceStatusPtr);
             root.info("Created ServiceStatus reader");
-            // TODO:ReaderAddListener
-            // TODO:2 ACCION READER
+
             reader->addListener(listener2);
             root.info("Added listener ServiceStatus reader");
 
@@ -499,7 +493,7 @@ void Example::runExample(int argc, char* argv[]) {
         if(isWrite){
             asb_uci::type::ServiceStatusMT serviceStatus2 = createServiceStatusMT(asbc);
             root.info("Created ServiceStatus message");
-            auto serviceStatus2Ptr = std::make_shared<asb_uci::type::ServiceStatusMT>(serviceStatus2);
+            auto serviceStatus2Ptr = boost::shared_ptr<asb_uci::type::ServiceStatusMT>(new asb_uci::type::ServiceStatusMT(serviceStatus2));
             std::unique_ptr<asb_uci::base::MessageWriter<asb_uci::type::ServiceStatusMT>> writer = asbc.createWriter("Example", serviceStatus2Ptr);
 
             root.info("Created ServiceStatus writer");
@@ -516,7 +510,9 @@ void Example::runExample(int argc, char* argv[]) {
                 writer->write(serviceStatus2);
 
                 std::ostringstream oss;
-                std::shared_ptr<asb_uci::type::ServiceStatusMT> typeSP = serviceStatus2Ptr;
+                boost::shared_ptr<asb_uci::type::ServiceStatusMT> typeSP(serviceStatus2Ptr);
+
+
                 externalizer.write(static_cast<uci::base::Accessor&>(*typeSP),oss);
 
                 oss << "This is an example of text written in std::ostringstream.";

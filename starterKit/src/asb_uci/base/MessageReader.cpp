@@ -19,7 +19,7 @@ namespace asb_uci {
     namespace base {
 
         template <typename T>
-        MessageReader<T>::MessageReader(cms::Connection* conn, const std::string& tn, const std::shared_ptr<T>& t, asb_uci::base::Externalizer* ext)
+        MessageReader<T>::MessageReader(cms::Connection* conn, const std::string& tn, const boost::shared_ptr<T>& t, asb_uci::base::Externalizer* ext)
             : connection(conn), topicName(tn), typeSP(t), externalizer(ext),consumer(std::move(consumer)) {
 
             try {
@@ -34,13 +34,15 @@ namespace asb_uci {
         }
 
 
+
+
         template <typename T>
         void MessageReader<T>::onMessage(cms::Message* message) {
             if (!listenerEmpty()) {
                 try {
-                    boost::shared_ptr<T> uciMessage = parseMessage(message);
+                    // boost::shared_ptr<T> uciMessage = parseMessage(message);
                     for (auto& listener : listeners) {
-                        listener.handleMessage(uciMessage);
+                        listener.onMessage(message);
                     }
                 }
                 catch (const std::exception& e) {
@@ -67,25 +69,29 @@ namespace asb_uci {
             return listener;
         }
 
-        template <typename T>
-        void MessageReader<T>::removeListener(asb_uci::base::MessageListener<T> listener) {
-            try {
-                auto it = std::find(listeners.begin(), listeners.end(), listener);
-                if (it != listeners.end()) {
-                    listeners.erase(it);
-                    root.info("Removed listener for topic {}", topicName.c_str());
-                    if (listenerEmpty()) {
-                        consumer->setMessageListener(nullptr);
-                    }
-                }
-                else {
-                    root.info("Listener not found for topic {}", topicName.c_str());
-                }
-            }
-            catch (const std::exception& e) {
-                throw std::runtime_error("Failed to remove listener: " + std::string(e.what()));
-            }
-        }
+        // TODO:metodo para implementar mas adelante puesto que no sabemos MessageListener que template va recibir para poder hacer la evalucion si se encuentra un Listener o no
+        // template <typename T>
+        // void MessageReader<T>::removeListener(asb_uci::base::MessageListener<T> listener) {
+        //     try {
+        //         auto it = std::find_if(listeners.begin(), listeners.end(), [&](const auto& elem) {
+        //             // Implementa la comparación lógica entre elem y listener aquí
+        //             return elem.getId() == listener.getId(); // Ajusta según la implementación de MessageListener<T>
+        //         });
+        //         if (it != listeners.end()) {
+        //             listeners.erase(it);
+        //             root.info("Removed listener for topic {}", topicName.c_str());
+        //             if (listenerEmpty()) {
+        //                 consumer->setMessageListener(nullptr);
+        //             }
+        //         }
+        //         else {
+        //             root.info("Listener not found for topic {}", topicName.c_str());
+        //         }
+        //     }
+        //     catch (const std::exception& e) {
+        //         throw std::runtime_error("Failed to remove listener: " + std::string(e.what()));
+        //     }
+        // }
 
         template <typename T>
         boost::shared_ptr<T> MessageReader<T>::read(long timeoutSeconds) {
@@ -126,10 +132,11 @@ namespace asb_uci {
                 std::string xml = textMessage->getText();
                 std::istringstream inputStream(xml);
 
-                return externalizer->read(inputStream, static_cast<uci::base::Accessor&>(*typeSP));
+                externalizer->read(inputStream, static_cast<uci::base::Accessor&>(*typeSP));
+                return typeSP;
             }
             catch (const std::exception& e) {
-                root.error("Failed to parse message from topic {}: {}", topicName, e.what());
+                root.error("Failed to parse message from topic {}: {}", topicName.c_str(), e.what());
                 throw;
             }
         }
