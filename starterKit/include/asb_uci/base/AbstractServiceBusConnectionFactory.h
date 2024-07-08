@@ -13,8 +13,8 @@ namespace asb_uci
         {
         private:
             std::mutex sendLock;
-            log4cpp::Category& root = log4cpp::Category::getRoot();
-            bool warningAlreadyPrinted = false;
+            static log4cpp::Category& root;
+            static bool warningAlreadyPrinted;
             std::string NAME = "AbstractServiceBusConnectionFactory";
         public:
             static asb_uci::base::AbstractServiceBusConnection createAbstractServiceBusConnection(std::string serviceInitId);

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ServiceID_Type.h"
+#include "../../../include/asb_uci/type/ServiceID_Type.h"
 
 #include <memory>
 #include <string>
@@ -41,13 +41,13 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ID_Type.h"
-#include "asb_uci/type/VisibleString256Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ServiceID_Type.h"
-#include "uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/type/ID_Type.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ServiceID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString256Type.h"
 
 /**  */
 namespace asb_uci {
@@ -104,7 +104,7 @@ uci::type::ServiceID_Type& ServiceID_Type::setServiceVersion(const std::string& 
 }
 
 uci::type::ServiceID_Type& ServiceID_Type::setServiceVersion(const char* value) {
-  enableServiceVersion().setStringValue(value);
+  // enableServiceVersion().setStringValue(value);
   return *this;
 }
 
@@ -112,12 +112,14 @@ bool ServiceID_Type::hasServiceVersion() const noexcept {
   return static_cast<bool>(serviceVersion_Accessor);
 }
 
-uci::type::VisibleString256Type& ServiceID_Type::enableServiceVersion(uci::base::accessorType::AccessorType type) {
-  if (!serviceVersion_Accessor) {
-    serviceVersion_Accessor = VisibleString256Type::create(type);
-  }
-  return *serviceVersion_Accessor;
-}
+// TODO:SE COMENTA PORQUE ESTA FUNCION ESTA INTENTADO LLAAMAR A UN METODO CREATE QUE NO EXISTE
+//  Y ROMPE TODO EL CODIGO ADEMAS SOLO SE LLAMA EN UN LUGAR Y EN ESE LUGAR NO LE PASA ARGUMENTOS
+// uci::type::VisibleString256Type& ServiceID_Type::enableServiceVersion(uci::base::accessorType::AccessorType type) {
+//   if (!serviceVersion_Accessor) {
+//     serviceVersion_Accessor = asb_uci::type::VisibleString256Type::create(type);
+//   }
+//   return *serviceVersion_Accessor;
+// }
 
 uci::type::ServiceID_Type& ServiceID_Type::clearServiceVersion() noexcept {
   serviceVersion_Accessor.reset();

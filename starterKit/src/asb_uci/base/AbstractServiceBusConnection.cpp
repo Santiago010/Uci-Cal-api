@@ -33,7 +33,6 @@
  *
  */
 
-#include "../../../include/asb_uci/base/AbstractServiceBusConnection.h"
 
 #include <chrono>
 #include <cstdint>
@@ -95,7 +94,7 @@ std::unique_ptr<asb_uci::base::MessageWriter<T>> AbstractServiceBusConnection::c
 
 
   template <typename T>
-  std::unique_ptr<asb_uci::base::MessageReader<T>> AbstractServiceBusConnection::createReader(std::string target,const boost::shared_ptr<T>& type){
+  boost::shared_ptr<asb_uci::base::MessageReader<T>> AbstractServiceBusConnection::createReader(std::string target,const boost::shared_ptr<T>& type){
     if (!connection) {
         init("service_identifier", true);
     }
@@ -154,6 +153,15 @@ struct AbstractServiceBusConnection::ConnectionComponents {
 
 AbstractServiceBusConnection::AbstractServiceBusConnection(std::string asbId)
   : asbId{std::move(asbId)},externalizer("XML", "3.0", "2.3.3") {
+}
+
+AbstractServiceBusConnection::AbstractServiceBusConnection(const AbstractServiceBusConnection& rhs)
+    : asbId(rhs.asbId), externalizer(rhs.externalizer) {
+    // Implementación adicional si es necesario
+}
+
+AbstractServiceBusConnection::AbstractServiceBusConnection(AbstractServiceBusConnection&& rhs)
+    : asbId(std::move(rhs.asbId)), externalizer(std::move(rhs.externalizer)) {
 }
 
 void AbstractServiceBusConnection::init(const std::string& serviceIdentifier, const bool firstConnection) {

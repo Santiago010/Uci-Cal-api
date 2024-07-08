@@ -7,27 +7,22 @@
 namespace asb_uci{
     namespace base{
 
-        uci::base::UUID Version3UUIDHelper::createVersion3UUID(const uci::base::UUID& namespaceUUID, const std::string& name){
-            uci::base::UUID uuid;
-
-            try
-            {
+        uci::base::UUID Version3UUIDHelper::createVersion3UUID(const uci::base::UUID& namespaceUUID, const std::string& name) {
+            try {
+                std::vector<uint8_t> namespaceBytes = getBytesFromUUID(namespaceUUID);
                 std::vector<uint8_t> nameBytes(name.begin(), name.end());
-                std::vector<uint8_t> result = joinBytes(getBytesFromUUID(namespaceUUID), nameBytes);
+                std::vector<uint8_t> result = joinBytes(namespaceBytes, nameBytes);
 
                 boost::uuids::name_generator_sha1 gen(namespaceUUID);
-                uuid = gen(result.begin(), result.end());
+                boost::uuids::uuid generatedUUID = gen(std::string(result.begin(), result.end()));
 
+                uci::base::UUID uuid;
+                std::copy(generatedUUID.begin(), generatedUUID.end(), uuid.begin());
 
-            }
-            catch(const std::exception& e)
-            {
+                return uuid;
+            } catch (const std::exception& e) {
                 throw std::runtime_error("Exception encountered: " + std::string(e.what()));
-
             }
-
-            return uuid;
-            
         }
 
         std::vector<uint8_t> Version3UUIDHelper::getBytesFromUUID(const uci::base::UUID& uuid) {

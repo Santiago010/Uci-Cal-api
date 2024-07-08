@@ -52,6 +52,23 @@ class AbstractServiceBusConnection;
 class StringAccessor : public virtual Accessor {
 public:
 
+  /** The constructor [only available to derived classes]. */
+  StringAccessor() {
+  }
+
+  /** The destructor [only available to derived classes]. */
+  ~StringAccessor() {
+  }
+
+  /** The copy constructor [only available to derived classes].
+    *
+    * @param rhs The StringAccessor to copy from.
+    */
+  StringAccessor(const StringAccessor& rhs) {
+    (void)rhs;
+  }
+
+
   /** Returns this accessor's type constant, i.e. string.
     *
     * @return This accessor's type constant, i.e. string.
@@ -139,21 +156,6 @@ public:
 
 protected:
 
-  /** The constructor [only available to derived classes]. */
-  StringAccessor() {
-  }
-
-  /** The destructor [only available to derived classes]. */
-  ~StringAccessor() {
-  }
-
-  /** The copy constructor [only available to derived classes].
-    *
-    * @param rhs The StringAccessor to copy from.
-    */
-  StringAccessor(const StringAccessor& rhs) {
-    (void)rhs;
-  }
 
 };
 

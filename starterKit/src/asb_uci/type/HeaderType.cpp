@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/HeaderType.h"
+#include "../../../include/asb_uci/type/HeaderType.h"
 
 #include <memory>
 #include <string>
@@ -41,21 +41,21 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/MessageModeEnum.h"
-#include "asb_uci/type/MissionID_Type.h"
-#include "asb_uci/type/ServiceID_Type.h"
-#include "asb_uci/type/SystemID_Type.h"
-#include "asb_uci/type/UCI_SchemaVersionStringType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/HeaderType.h"
-#include "uci/type/MessageModeEnum.h"
-#include "uci/type/MissionID_Type.h"
-#include "uci/type/ServiceID_Type.h"
-#include "uci/type/SystemID_Type.h"
-#include "uci/type/UCI_SchemaVersionStringType.h"
+#include "../../../include/asb_uci/type/MessageModeEnum.h"
+#include "../../../include/asb_uci/type/MissionID_Type.h"
+#include "../../../include/asb_uci/type/ServiceID_Type.h"
+#include "../../../include/asb_uci/type/SystemID_Type.h"
+#include "../../../include/asb_uci/type/UCI_SchemaVersionStringType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DateTimeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/HeaderType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MessageModeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MissionID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ServiceID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SystemID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/UCI_SchemaVersionStringType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,7 +36,7 @@
 #ifndef ASB_UCI_UTIL_DERIVEDTYPESCREATOR_H
 #define ASB_UCI_UTIL_DERIVEDTYPESCREATOR_H
 
-#include "uci/base/Accessor.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
 
 /**  */
 namespace asb_uci {

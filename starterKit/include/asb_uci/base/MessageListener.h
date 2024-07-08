@@ -6,6 +6,7 @@
 #include <stdexcept> // Para std::runtime_error
 #include <cms/MessageListener.h>
 #include <boost/shared_ptr.hpp>
+#include <cms/Message.h>
 
 namespace asb_uci {
 namespace base {

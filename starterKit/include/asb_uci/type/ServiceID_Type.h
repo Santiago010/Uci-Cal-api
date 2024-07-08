@@ -42,7 +42,7 @@
 #include <boost/property_tree/ptree.hpp>
 
 #include "ID_Type.h"
-#include "VisibleString256Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString256Type.h"
 #include "../../../../cppInterface/2.3.2/include/uci/type/ServiceID_Type.h"
 
 /**  */
@@ -198,7 +198,7 @@ public:
   static std::string serialize(const uci::type::ServiceID_Type& accessor, boost::property_tree::ptree& propTree, const std::string& nodeName, bool createNode = true, bool addTypeAttribute = false, bool checkIfDerivation = true, bool topLevel = false);
 
 private:
-  std::unique_ptr<VisibleString256Type> serviceVersion_Accessor;
+  std::unique_ptr<uci::type::VisibleString256Type> serviceVersion_Accessor;
 
 };
 

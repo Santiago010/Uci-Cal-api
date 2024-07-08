@@ -153,6 +153,30 @@ AbstractServiceBusConnection.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/AbstractServiceBusConnection.cpp.s
 .PHONY : AbstractServiceBusConnection.cpp.s
 
+AbstractServiceBusConnectionFactory.o: AbstractServiceBusConnectionFactory.cpp.o
+.PHONY : AbstractServiceBusConnectionFactory.o
+
+# target to build an object file
+AbstractServiceBusConnectionFactory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/AbstractServiceBusConnectionFactory.cpp.o
+.PHONY : AbstractServiceBusConnectionFactory.cpp.o
+
+AbstractServiceBusConnectionFactory.i: AbstractServiceBusConnectionFactory.cpp.i
+.PHONY : AbstractServiceBusConnectionFactory.i
+
+# target to preprocess a source file
+AbstractServiceBusConnectionFactory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/AbstractServiceBusConnectionFactory.cpp.i
+.PHONY : AbstractServiceBusConnectionFactory.cpp.i
+
+AbstractServiceBusConnectionFactory.s: AbstractServiceBusConnectionFactory.cpp.s
+.PHONY : AbstractServiceBusConnectionFactory.s
+
+# target to generate assembly for a file
+AbstractServiceBusConnectionFactory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/AbstractServiceBusConnectionFactory.cpp.s
+.PHONY : AbstractServiceBusConnectionFactory.cpp.s
+
 AccessorFileLocationMT.o: AccessorFileLocationMT.cpp.o
 .PHONY : AccessorFileLocationMT.o
 
@@ -273,6 +297,30 @@ Externalizer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/Externalizer.cpp.s
 .PHONY : Externalizer.cpp.s
 
+ExternalizerLoader.o: ExternalizerLoader.cpp.o
+.PHONY : ExternalizerLoader.o
+
+# target to build an object file
+ExternalizerLoader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/ExternalizerLoader.cpp.o
+.PHONY : ExternalizerLoader.cpp.o
+
+ExternalizerLoader.i: ExternalizerLoader.cpp.i
+.PHONY : ExternalizerLoader.i
+
+# target to preprocess a source file
+ExternalizerLoader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/ExternalizerLoader.cpp.i
+.PHONY : ExternalizerLoader.cpp.i
+
+ExternalizerLoader.s: ExternalizerLoader.cpp.s
+.PHONY : ExternalizerLoader.s
+
+# target to generate assembly for a file
+ExternalizerLoader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/ExternalizerLoader.cpp.s
+.PHONY : ExternalizerLoader.cpp.s
+
 MessageReader.o: MessageReader.cpp.o
 .PHONY : MessageReader.o
 
@@ -296,6 +344,30 @@ MessageReader.s: MessageReader.cpp.s
 MessageReader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/MessageReader.cpp.s
 .PHONY : MessageReader.cpp.s
+
+ServiceStatusListener.o: ServiceStatusListener.cpp.o
+.PHONY : ServiceStatusListener.o
+
+# target to build an object file
+ServiceStatusListener.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/ServiceStatusListener.cpp.o
+.PHONY : ServiceStatusListener.cpp.o
+
+ServiceStatusListener.i: ServiceStatusListener.cpp.i
+.PHONY : ServiceStatusListener.i
+
+# target to preprocess a source file
+ServiceStatusListener.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/ServiceStatusListener.cpp.i
+.PHONY : ServiceStatusListener.cpp.i
+
+ServiceStatusListener.s: ServiceStatusListener.cpp.s
+.PHONY : ServiceStatusListener.s
+
+# target to generate assembly for a file
+ServiceStatusListener.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/ServiceStatusListener.cpp.s
+.PHONY : ServiceStatusListener.cpp.s
 
 UUIDFactory.o: UUIDFactory.cpp.o
 .PHONY : UUIDFactory.o
@@ -417,6 +489,102 @@ Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/Dissemination
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/DisseminationControlsEnum.cpp.s
 .PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/DisseminationControlsEnum.cpp.s
 
+Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/HeaderType.o: Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/HeaderType.cpp.o
+.PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/HeaderType.o
+
+# target to build an object file
+Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/HeaderType.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/HeaderType.cpp.o
+.PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/HeaderType.cpp.o
+
+Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/HeaderType.i: Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/HeaderType.cpp.i
+.PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/HeaderType.i
+
+# target to preprocess a source file
+Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/HeaderType.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/HeaderType.cpp.i
+.PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/HeaderType.cpp.i
+
+Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/HeaderType.s: Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/HeaderType.cpp.s
+.PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/HeaderType.s
+
+# target to generate assembly for a file
+Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/HeaderType.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/HeaderType.cpp.s
+.PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/HeaderType.cpp.s
+
+Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageModeEnum.o: Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageModeEnum.cpp.o
+.PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageModeEnum.o
+
+# target to build an object file
+Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageModeEnum.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageModeEnum.cpp.o
+.PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageModeEnum.cpp.o
+
+Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageModeEnum.i: Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageModeEnum.cpp.i
+.PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageModeEnum.i
+
+# target to preprocess a source file
+Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageModeEnum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageModeEnum.cpp.i
+.PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageModeEnum.cpp.i
+
+Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageModeEnum.s: Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageModeEnum.cpp.s
+.PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageModeEnum.s
+
+# target to generate assembly for a file
+Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageModeEnum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageModeEnum.cpp.s
+.PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageModeEnum.cpp.s
+
+Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageType.o: Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageType.cpp.o
+.PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageType.o
+
+# target to build an object file
+Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageType.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageType.cpp.o
+.PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageType.cpp.o
+
+Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageType.i: Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageType.cpp.i
+.PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageType.i
+
+# target to preprocess a source file
+Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageType.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageType.cpp.i
+.PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageType.cpp.i
+
+Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageType.s: Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageType.cpp.s
+.PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageType.s
+
+# target to generate assembly for a file
+Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageType.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageType.cpp.s
+.PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageType.cpp.s
+
+Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MissionID_Type.o: Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MissionID_Type.cpp.o
+.PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MissionID_Type.o
+
+# target to build an object file
+Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MissionID_Type.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MissionID_Type.cpp.o
+.PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MissionID_Type.cpp.o
+
+Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MissionID_Type.i: Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MissionID_Type.cpp.i
+.PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MissionID_Type.i
+
+# target to preprocess a source file
+Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MissionID_Type.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MissionID_Type.cpp.i
+.PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MissionID_Type.cpp.i
+
+Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MissionID_Type.s: Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MissionID_Type.cpp.s
+.PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MissionID_Type.s
+
+# target to generate assembly for a file
+Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MissionID_Type.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MissionID_Type.cpp.s
+.PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MissionID_Type.cpp.s
+
 Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/NonUS_ControlsEnum.o: Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/NonUS_ControlsEnum.cpp.o
 .PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/NonUS_ControlsEnum.o
 
@@ -464,6 +632,78 @@ Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SecurityInfor
 Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SecurityInformationType.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SecurityInformationType.cpp.s
 .PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SecurityInformationType.cpp.s
+
+Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ServiceID_Type.o: Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ServiceID_Type.cpp.o
+.PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ServiceID_Type.o
+
+# target to build an object file
+Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ServiceID_Type.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ServiceID_Type.cpp.o
+.PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ServiceID_Type.cpp.o
+
+Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ServiceID_Type.i: Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ServiceID_Type.cpp.i
+.PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ServiceID_Type.i
+
+# target to preprocess a source file
+Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ServiceID_Type.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ServiceID_Type.cpp.i
+.PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ServiceID_Type.cpp.i
+
+Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ServiceID_Type.s: Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ServiceID_Type.cpp.s
+.PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ServiceID_Type.s
+
+# target to generate assembly for a file
+Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ServiceID_Type.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ServiceID_Type.cpp.s
+.PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ServiceID_Type.cpp.s
+
+Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SystemID_Type.o: Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SystemID_Type.cpp.o
+.PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SystemID_Type.o
+
+# target to build an object file
+Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SystemID_Type.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SystemID_Type.cpp.o
+.PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SystemID_Type.cpp.o
+
+Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SystemID_Type.i: Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SystemID_Type.cpp.i
+.PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SystemID_Type.i
+
+# target to preprocess a source file
+Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SystemID_Type.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SystemID_Type.cpp.i
+.PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SystemID_Type.cpp.i
+
+Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SystemID_Type.s: Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SystemID_Type.cpp.s
+.PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SystemID_Type.s
+
+# target to generate assembly for a file
+Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SystemID_Type.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SystemID_Type.cpp.s
+.PHONY : Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SystemID_Type.cpp.s
+
+Version3UUIDHelper.o: Version3UUIDHelper.cpp.o
+.PHONY : Version3UUIDHelper.o
+
+# target to build an object file
+Version3UUIDHelper.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/Version3UUIDHelper.cpp.o
+.PHONY : Version3UUIDHelper.cpp.o
+
+Version3UUIDHelper.i: Version3UUIDHelper.cpp.i
+.PHONY : Version3UUIDHelper.i
+
+# target to preprocess a source file
+Version3UUIDHelper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/Version3UUIDHelper.cpp.i
+.PHONY : Version3UUIDHelper.cpp.i
+
+Version3UUIDHelper.s: Version3UUIDHelper.cpp.s
+.PHONY : Version3UUIDHelper.s
+
+# target to generate assembly for a file
+Version3UUIDHelper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_example.dir/build.make CMakeFiles/my_example.dir/Version3UUIDHelper.cpp.s
+.PHONY : Version3UUIDHelper.cpp.s
 
 example.o: example.cpp.o
 .PHONY : example.o
@@ -525,6 +765,9 @@ help:
 	@echo "... AbstractServiceBusConnection.o"
 	@echo "... AbstractServiceBusConnection.i"
 	@echo "... AbstractServiceBusConnection.s"
+	@echo "... AbstractServiceBusConnectionFactory.o"
+	@echo "... AbstractServiceBusConnectionFactory.i"
+	@echo "... AbstractServiceBusConnectionFactory.s"
 	@echo "... AccessorFileLocationMT.o"
 	@echo "... AccessorFileLocationMT.i"
 	@echo "... AccessorFileLocationMT.s"
@@ -540,9 +783,15 @@ help:
 	@echo "... Externalizer.o"
 	@echo "... Externalizer.i"
 	@echo "... Externalizer.s"
+	@echo "... ExternalizerLoader.o"
+	@echo "... ExternalizerLoader.i"
+	@echo "... ExternalizerLoader.s"
 	@echo "... MessageReader.o"
 	@echo "... MessageReader.i"
 	@echo "... MessageReader.s"
+	@echo "... ServiceStatusListener.o"
+	@echo "... ServiceStatusListener.i"
+	@echo "... ServiceStatusListener.s"
 	@echo "... UUIDFactory.o"
 	@echo "... UUIDFactory.i"
 	@echo "... UUIDFactory.s"
@@ -558,12 +807,33 @@ help:
 	@echo "... Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/DisseminationControlsEnum.o"
 	@echo "... Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/DisseminationControlsEnum.i"
 	@echo "... Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/DisseminationControlsEnum.s"
+	@echo "... Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/HeaderType.o"
+	@echo "... Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/HeaderType.i"
+	@echo "... Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/HeaderType.s"
+	@echo "... Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageModeEnum.o"
+	@echo "... Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageModeEnum.i"
+	@echo "... Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageModeEnum.s"
+	@echo "... Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageType.o"
+	@echo "... Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageType.i"
+	@echo "... Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MessageType.s"
+	@echo "... Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MissionID_Type.o"
+	@echo "... Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MissionID_Type.i"
+	@echo "... Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MissionID_Type.s"
 	@echo "... Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/NonUS_ControlsEnum.o"
 	@echo "... Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/NonUS_ControlsEnum.i"
 	@echo "... Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/NonUS_ControlsEnum.s"
 	@echo "... Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SecurityInformationType.o"
 	@echo "... Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SecurityInformationType.i"
 	@echo "... Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SecurityInformationType.s"
+	@echo "... Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ServiceID_Type.o"
+	@echo "... Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ServiceID_Type.i"
+	@echo "... Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ServiceID_Type.s"
+	@echo "... Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SystemID_Type.o"
+	@echo "... Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SystemID_Type.i"
+	@echo "... Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SystemID_Type.s"
+	@echo "... Version3UUIDHelper.o"
+	@echo "... Version3UUIDHelper.i"
+	@echo "... Version3UUIDHelper.s"
 	@echo "... example.o"
 	@echo "... example.i"
 	@echo "... example.s"

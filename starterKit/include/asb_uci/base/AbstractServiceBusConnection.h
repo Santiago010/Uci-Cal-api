@@ -44,7 +44,7 @@
 #include <string>
 #include <boost/shared_ptr.hpp>
 #include "ConnectionMonitor.h"
-#include "AbstractServiceBusConnection.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/AbstractServiceBusConnection.h"
 #include "ConfigReader.h"
 #include "../../../../cppInterface/2.3.2/include/uci/base/AbstractServiceBusConnectionStatusListener.h"
 #include "../../../../cppInterface/2.3.2/include/uci/base/UUID.h"
@@ -92,7 +92,7 @@ public:
     */
   AbstractServiceBusConnection(std::string asbId);
 
-  asb_uci::base::Externalizer getExternalizer(std::string externalizerType);
+
 
   /** The copy constructor
     *
@@ -137,6 +137,8 @@ public:
     * will no longer be usable.
     */
   void shutdown() override;
+
+    asb_uci::base::Externalizer getExternalizer(std::string externalizerType);
 
   /** This method will return the system label, i.e. the name of the system.
     *
@@ -268,7 +270,7 @@ public:
   std::unique_ptr<asb_uci::base::MessageWriter<T>> createWriter(const std::string& target, const boost::shared_ptr<T>& type);
 
   template <typename T>
-  std::unique_ptr<asb_uci::base::MessageReader<T>>  createReader(std::string target,const boost::shared_ptr<T>& type);
+  boost::shared_ptr<asb_uci::base::MessageReader<T>> createReader(std::string target,const boost::shared_ptr<T>& type);
 
 
 private:

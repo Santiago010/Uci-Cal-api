@@ -28,7 +28,7 @@ link_directories(
 )
 
 # Agrega tus archivos fuente
-add_executable(my_example main.cpp example.cpp AbstractServiceBusConnection.cpp ConfigReader.cpp ConnectionStatus.cpp ConnectionMonitor.cpp UUIDGenerator.cpp Externalizer.cpp AccessorFileLocationMT.cpp UUIDFactory.cpp MessageReader.cpp ../type/SecurityInformationType.cpp ../type/ClassificationEnum.cpp ../type/NonUS_ControlsEnum.cpp ../type/DeclassExceptionEnum.cpp ../type/DisseminationControlsEnum.cpp)
+add_executable(my_example main.cpp example.cpp AbstractServiceBusConnection.cpp ConfigReader.cpp ConnectionStatus.cpp ConnectionMonitor.cpp UUIDGenerator.cpp Externalizer.cpp AccessorFileLocationMT.cpp UUIDFactory.cpp MessageReader.cpp ../type/SecurityInformationType.cpp ../type/ClassificationEnum.cpp ../type/NonUS_ControlsEnum.cpp ../type/DeclassExceptionEnum.cpp ../type/DisseminationControlsEnum.cpp ServiceStatusListener.cpp ExternalizerLoader.cpp Version3UUIDHelper.cpp AbstractServiceBusConnectionFactory.cpp ../type/HeaderType.cpp ../type/MessageModeEnum.cpp ../type/MessageType.cpp ../type/SystemID_Type.cpp ../type/MissionID_Type.cpp ../type/ServiceID_Type.cpp)
 
 # Especifica las bibliotecas que necesitas enlazar
 target_link_libraries(my_example

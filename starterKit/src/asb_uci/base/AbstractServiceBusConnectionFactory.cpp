@@ -9,30 +9,19 @@
 namespace asb_uci{
     namespace base{
 
-        asb_uci::base::AbstractServiceBusConnection AbstractServiceBusConnectionFactory::createAbstractServiceBusConnection(std::string serviceInitId){
-            if(config == nullptr){
-                std::lock_guard<std::mutex> lock(sendLock);
+        log4cpp::Category& AbstractServiceBusConnectionFactory::root = log4cpp::Category::getRoot();
+        bool AbstractServiceBusConnectionFactory::warningAlreadyPrinted = false;
 
-                try
-                {
-                    if(config == nullptr){
-                        config = loadConfigFile();
-                    }
-                }
-                catch(const std::exception& e)
-                {
-                    throw std::runtime_error("Failed to load CAL configuration, check this CAL's config file from createAbstractServiceBusConnection" + std::string(e.what()));
-                }
-                
-            }
+        asb_uci::base::AbstractServiceBusConnection AbstractServiceBusConnectionFactory::createAbstractServiceBusConnection(std::string serviceInitId){
+
 
             asb_uci::base::AbstractServiceBusConnection absc(serviceInitId);
-            root.info("Initialized ASBC with service identifier '{}'",serviceInitId);
+            root.info("Initialized ASBC with service identifier '{}'",serviceInitId.c_str());
 
-            if(!warningAlreadyPrinted){
+            if(AbstractServiceBusConnectionFactory::warningAlreadyPrinted == false){
                 std::cout << "ATTENTION: The StarterKit CAL is not to be fielded in an operational capacity. This software is intended for research, \n"<<
                                 "training, and development use and has undergone neither safety nor software assurance testing. Use at your own risk." << std::endl;
-                warningAlreadyPrinted = true;
+                AbstractServiceBusConnectionFactory::warningAlreadyPrinted = true;
             }
 
             return absc;

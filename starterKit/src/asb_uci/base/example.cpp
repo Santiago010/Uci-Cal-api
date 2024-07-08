@@ -65,8 +65,7 @@
 #include "../../../include/asb_uci/base/ExternalizerLoader.h"
 #include "../../../include/asb_uci/base/UUIDFactory.h"
 
-// TODO: HAY QUE ELIMINAR A MESSAGEREADER PORQUE ES UNA IMPLEMENTACION QUE NO CONTIENE EL TIPO QUE NECESITAMOS PARA QUE FUNCIONE EN EL METODO ADDLISTENER NUESTRO CONSUMER
-// // #include "../../../include/asb_uci/base/MessageReader.h"
+#include "../../../include/asb_uci/base/MessageReader.h"
 #include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
 #include "../../../include/asb_uci/base/ServiceStatusListener.h"
 #include "../../../include/asb_uci/base/MessageWriter.h"
@@ -479,7 +478,7 @@ void Example::runExample(int argc, char* argv[]) {
             asb_uci::base::ServiceStatusListener listener2(externalizer);
             asb_uci::type::ServiceStatusMT serviceStatus = createServiceStatusMT(asbc);
             auto serviceStatusPtr = boost::shared_ptr<asb_uci::type::ServiceStatusMT>(new asb_uci::type::ServiceStatusMT(serviceStatus));
-            std::unique_ptr<asb_uci::base::MessageReader<asb_uci::type::ServiceStatusMT>> reader = asbc.createReader("Example", serviceStatusPtr);
+            boost::shared_ptr<asb_uci::base::MessageReader<asb_uci::type::ServiceStatusMT>> reader = asbc.createReader("Example", serviceStatusPtr);
             root.info("Created ServiceStatus reader");
 
             reader->addListener(listener2);
