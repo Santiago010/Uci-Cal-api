@@ -74,7 +74,7 @@ public:
     *
     * @param rhs The ServiceStatusMDT to copy from
     */
-  ServiceStatusMDT(const ServiceStatusMDT& rhs) = delete;
+  ServiceStatusMDT(const ServiceStatusMDT& rhs);
 
   /** The move constructor
     *

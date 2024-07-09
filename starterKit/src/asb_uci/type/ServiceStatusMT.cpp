@@ -33,7 +33,7 @@
  *
  */
 
-#include "../../../../starterKit/include/asb_uci/type/ServiceStatusMT.h"
+#include "../../../include/asb_uci/type/ServiceStatusMT.h"
 
 #include <memory>
 #include <string>
@@ -41,11 +41,11 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "../base/Reader.h"
-#include "../base/Writer.h"
-#include "../type/MessageType.h"
-#include "../type/ServiceStatusMDT.h"
-#include "../util/SerializationHelpers.h"
+#include "../../../include/asb_uci/base/Reader.h"
+#include "../../../include/asb_uci/base/Writer.h"
+#include "../../../include/asb_uci/type/MessageType.h"
+#include "../../../include/asb_uci/type/ServiceStatusMDT.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
 #include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
 #include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
 #include "../../../../cppInterface/2.3.2/include/uci/type/ServiceStatusMDT.h"
@@ -63,6 +63,13 @@ ServiceStatusMT::ServiceStatusMT()
 }
 
 ServiceStatusMT::~ServiceStatusMT() = default;
+
+// Constructor de copia
+ServiceStatusMT::ServiceStatusMT(const ServiceStatusMT& other)
+  : MessageType(other),  // Llama al constructor de copia de la clase base MessageType
+    messageData_Accessor{boost::make_unique<ServiceStatusMDT>(*other.messageData_Accessor)} {
+    // Realiza una copia profunda de messageData_Accessor
+}
 
 void ServiceStatusMT::copy(const uci::type::ServiceStatusMT& accessor) {
   copyImpl(accessor, false);
@@ -122,7 +129,7 @@ void ServiceStatusMT::deserialize(const boost::property_tree::ptree& propTree, u
   }
   MessageType::deserialize(node, accessor, nodeName, nsPrefix);
 }
-
+// ,
 std::string ServiceStatusMT::serialize(const uci::type::ServiceStatusMT& accessor, boost::property_tree::ptree& propTree, const std::string& nodeName, const bool createNode, const bool addTypeAttribute, const bool /*checkIfDerivation*/, const bool topLevel) {
   std::string generatedNodeName{(nodeName.empty() ? (topLevel ? ServiceStatusMT_Names::Extern_Top_Type_Name : ServiceStatusMT_Names::Extern_Type_Name) : nodeName)};
   boost::property_tree::ptree newNode;

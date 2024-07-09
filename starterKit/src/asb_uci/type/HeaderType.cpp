@@ -69,6 +69,43 @@ HeaderType::HeaderType()
     mode_Accessor{boost::make_unique<MessageModeEnum>()} {
 }
 
+HeaderType::HeaderType(const HeaderType& rhs)
+    : uci::type::HeaderType(rhs)  // Llama al constructor de copia de la clase base
+{
+    // Copia profunda de los miembros únicos
+    if (rhs.systemID_Accessor) {
+        systemID_Accessor = boost::make_unique<SystemID_Type>(*rhs.systemID_Accessor);
+    } else {
+        systemID_Accessor.reset();
+    }
+
+    timestamp_Accessor = rhs.timestamp_Accessor;
+
+    if (rhs.schemaVersion_Accessor) {
+        schemaVersion_Accessor = boost::make_unique<UCI_SchemaVersionStringType>(*rhs.schemaVersion_Accessor);
+    } else {
+        schemaVersion_Accessor.reset();
+    }
+
+    if (rhs.mode_Accessor) {
+        mode_Accessor = boost::make_unique<MessageModeEnum>(*rhs.mode_Accessor);
+    } else {
+        mode_Accessor.reset();
+    }
+
+    if (rhs.serviceID_Accessor) {
+        serviceID_Accessor = boost::make_unique<ServiceID_Type>(*rhs.serviceID_Accessor);
+    } else {
+        serviceID_Accessor.reset();
+    }
+
+    if (rhs.missionID_Accessor) {
+        missionID_Accessor = boost::make_unique<MissionID_Type>(*rhs.missionID_Accessor);
+    } else {
+        missionID_Accessor.reset();
+    }
+}
+
 HeaderType::~HeaderType() = default;
 
 void HeaderType::copy(const uci::type::HeaderType& accessor) {
@@ -201,7 +238,7 @@ bool HeaderType::hasServiceID() const noexcept {
 uci::type::ServiceID_Type& HeaderType::enableServiceID(uci::base::accessorType::AccessorType type) {
   const uci::base::accessorType::AccessorType requestedType{(type == uci::base::accessorType::null) ? uci::type::accessorType::serviceID_Type : type};
   if ((!serviceID_Accessor) || (serviceID_Accessor->getAccessorType() != requestedType)) {
-    serviceID_Accessor = ServiceID_Type::create(requestedType);
+    serviceID_Accessor = ServiceID_Type::createServiceIDType(requestedType);
     if (!serviceID_Accessor) {
       throw uci::base::UCIException("Error in enableServiceID(): Specified type is not equal to nor derived from the native type of object");
     }

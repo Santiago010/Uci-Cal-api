@@ -66,13 +66,13 @@ public:
     *
     * @param rhs The HeaderType to copy from
     */
-  HeaderType(const HeaderType& rhs) = delete;
+  HeaderType(const HeaderType& rhs) ;
 
   /** The move constructor
     *
     * @param rhs The HeaderType to move from
     */
-  HeaderType(HeaderType&& rhs) = delete;
+  HeaderType(HeaderType&& rhs);
 
   /** The assignment operator
     *

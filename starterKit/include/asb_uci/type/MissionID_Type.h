@@ -57,7 +57,7 @@ public:
     *
     * @param rhs The MissionID_Type to copy from
     */
-  MissionID_Type(const MissionID_Type& rhs) = delete;
+  MissionID_Type(const MissionID_Type& rhs);
 
   /** The move constructor
     *

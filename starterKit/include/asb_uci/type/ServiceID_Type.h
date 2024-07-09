@@ -63,7 +63,7 @@ public:
     *
     * @param rhs The ServiceID_Type to copy from
     */
-  ServiceID_Type(const ServiceID_Type& rhs) = delete;
+  ServiceID_Type(const ServiceID_Type& rhs) ;
 
   /** The move constructor
     *
@@ -172,8 +172,9 @@ public:
     * @param type .
     * @return .
     */
-  static std::unique_ptr<ServiceID_Type> create(uci::base::accessorType::AccessorType type);
+  static std::unique_ptr<uci::type::VisibleString256Type> createVisibleString256Type(uci::base::accessorType::AccessorType type);
 
+  static std::unique_ptr<ServiceID_Type> createServiceIDType(uci::base::accessorType::AccessorType type);
   /** 
     *
     * @param propTree .

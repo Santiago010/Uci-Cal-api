@@ -140,13 +140,13 @@ public:
     *
     * @param rhs The SecurityInformationType to copy from
     */
-  SecurityInformationType(const SecurityInformationType& rhs) = delete;
+  SecurityInformationType(const SecurityInformationType& rhs) ;
 
   /** The move constructor
     *
     * @param rhs The SecurityInformationType to move from
     */
-  SecurityInformationType(SecurityInformationType&& rhs) = delete;
+  SecurityInformationType(SecurityInformationType&& rhs);
 
   /** The assignment operator
     *

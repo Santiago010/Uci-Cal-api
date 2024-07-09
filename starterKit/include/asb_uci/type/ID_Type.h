@@ -60,7 +60,7 @@ public:
     *
     * @param rhs The ID_Type to copy from
     */
-  ID_Type(const ID_Type& rhs) = delete;
+  ID_Type(const ID_Type& rhs);
 
   /** The move constructor
     *

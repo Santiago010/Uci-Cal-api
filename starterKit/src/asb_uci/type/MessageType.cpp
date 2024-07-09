@@ -65,6 +65,15 @@ MessageType::MessageType()
     messageHeader_Accessor{boost::make_unique<HeaderType>()} {
 }
 
+MessageType::MessageType(const MessageType& rhs)
+  : securityInformation_Accessor{rhs.securityInformation_Accessor ? boost::make_unique<SecurityInformationType>(*rhs.securityInformation_Accessor) : nullptr},
+    messageHeader_Accessor{rhs.messageHeader_Accessor ? boost::make_unique<HeaderType>(*rhs.messageHeader_Accessor) : nullptr}
+{
+    // Aquí puedes realizar copias adicionales de otros campos si es necesario.
+}
+
+
+
 MessageType::~MessageType() = default;
 
 void MessageType::copy(const uci::type::MessageType& accessor) {

@@ -55,6 +55,14 @@ namespace type {
 
 SystemID_Type::SystemID_Type() = default;
 
+SystemID_Type::SystemID_Type(const SystemID_Type& rhs)
+    : uci::type::SystemID_Type(rhs), // Llama al constructor de copia de la clase base
+      ID_Type(rhs)                   // Llama al constructor de copia de la clase base ID_Type si es necesario
+{
+    // Aquí puedes copiar cualquier otro miembro específico de SystemID_Type si lo requieres
+}
+
+
 SystemID_Type::~SystemID_Type() = default;
 
 void SystemID_Type::copy(const uci::type::SystemID_Type& accessor) {

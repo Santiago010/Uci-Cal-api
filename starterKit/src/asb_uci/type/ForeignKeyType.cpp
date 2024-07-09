@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ForeignKeyType.h"
+#include "../../../include/asb_uci/type/ForeignKeyType.h"
 
 #include <memory>
 #include <string>
@@ -41,16 +41,16 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/VisibleString256Type.h"
-#include "asb_uci/util/DerivedTypesCopier.h"
-#include "asb_uci/util/DerivedTypesCreator.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/DerivedTypesSerializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/util/DerivedTypesCopier.h"
+#include "../../../include/asb_uci/util/DerivedTypesCreator.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/DerivedTypesSerializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ForeignKeyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString256Type.h"
 
 /**  */
 namespace asb_uci {
@@ -82,8 +82,9 @@ void ForeignKeyType::copyImpl(const uci::type::ForeignKeyType& accessor, const b
 }
 
 void ForeignKeyType::reset() noexcept {
-  key_Accessor->reset();
-  systemName_Accessor->reset();
+  // TODO:QUITE ESTAS DOS LINEAS YA QUE LLAMA UN PAR DE METODOS QUE NO EXISTEN
+  // key_Accessor->reset();
+  // systemName_Accessor->reset();
 }
 
 const uci::type::VisibleString256Type& ForeignKeyType::getKey() const noexcept {

@@ -61,7 +61,7 @@ public:
     *
     * @param rhs The VersionedID_Type to copy from
     */
-  VersionedID_Type(const VersionedID_Type& rhs) = delete;
+  VersionedID_Type(const VersionedID_Type& rhs) ;
 
   /** The move constructor
     *

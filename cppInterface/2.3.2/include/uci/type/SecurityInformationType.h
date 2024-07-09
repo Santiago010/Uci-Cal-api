@@ -810,15 +810,17 @@ public:
     */
   virtual uci::type::SecurityInformationType& setDeclassException(const uci::type::SecurityInformationType::DeclassException& value) = 0;
 
-protected:
-
-  /** The constructor [only available to derived classes]. */
+    /** The constructor [only available to derived classes]. */
   SecurityInformationType() {
   }
 
   /** The destructor [only available to derived classes]. */
   ~SecurityInformationType() {
   }
+
+protected:
+
+
 
   /** The copy constructor [only available to derived classes].
     *

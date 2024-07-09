@@ -49,6 +49,7 @@
 #include "../../../../cppInterface/2.3.2/include/uci/type/ServiceID_Type.h"
 #include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString256Type.h"
 
+
 /**  */
 namespace asb_uci {
 
@@ -58,6 +59,18 @@ namespace type {
 ServiceID_Type::ServiceID_Type() = default;
 
 ServiceID_Type::~ServiceID_Type() = default;
+
+ServiceID_Type::ServiceID_Type(const ServiceID_Type& rhs)
+    : uci::type::ServiceID_Type(rhs),  // Llama al constructor de copia de la clase base uci::type::ServiceID_Type
+      ID_Type(rhs)                    // Llama al constructor de copia de la clase base ID_Type
+{
+    // Copia profunda de serviceVersion_Accessor
+    if (rhs.serviceVersion_Accessor) {
+        // serviceVersion_Accessor = boost::make_unique<uci::type::VisibleString256Type>(*rhs.serviceVersion_Accessor);
+    } else {
+        serviceVersion_Accessor.reset();
+    }
+}
 
 void ServiceID_Type::copy(const uci::type::ServiceID_Type& accessor) {
   copyImpl(accessor, false);
@@ -104,7 +117,7 @@ uci::type::ServiceID_Type& ServiceID_Type::setServiceVersion(const std::string& 
 }
 
 uci::type::ServiceID_Type& ServiceID_Type::setServiceVersion(const char* value) {
-  // enableServiceVersion().setStringValue(value);
+  enableServiceVersion().setStringValue(value);
   return *this;
 }
 
@@ -112,24 +125,29 @@ bool ServiceID_Type::hasServiceVersion() const noexcept {
   return static_cast<bool>(serviceVersion_Accessor);
 }
 
-// TODO:SE COMENTA PORQUE ESTA FUNCION ESTA INTENTADO LLAAMAR A UN METODO CREATE QUE NO EXISTE
-//  Y ROMPE TODO EL CODIGO ADEMAS SOLO SE LLAMA EN UN LUGAR Y EN ESE LUGAR NO LE PASA ARGUMENTOS
-// uci::type::VisibleString256Type& ServiceID_Type::enableServiceVersion(uci::base::accessorType::AccessorType type) {
-//   if (!serviceVersion_Accessor) {
-//     serviceVersion_Accessor = asb_uci::type::VisibleString256Type::create(type);
-//   }
-//   return *serviceVersion_Accessor;
-// }
+
+uci::type::VisibleString256Type& ServiceID_Type::enableServiceVersion(uci::base::accessorType::AccessorType type) {
+  if (!serviceVersion_Accessor) {
+    serviceVersion_Accessor = asb_uci::type::ServiceID_Type::createVisibleString256Type(type);
+  }
+  return *serviceVersion_Accessor;
+}
 
 uci::type::ServiceID_Type& ServiceID_Type::clearServiceVersion() noexcept {
   serviceVersion_Accessor.reset();
   return *this;
 }
 
-std::unique_ptr<ServiceID_Type> ServiceID_Type::create(const uci::base::accessorType::AccessorType type) {
+std::unique_ptr<uci::type::VisibleString256Type> ServiceID_Type::createVisibleString256Type(uci::base::accessorType::AccessorType type) {
+    return nullptr;
+}
+
+
+std::unique_ptr<ServiceID_Type> ServiceID_Type::createServiceIDType(const uci::base::accessorType::AccessorType type) {
   const uci::base::accessorType::AccessorType requestedType{(type == uci::base::accessorType::null) ? uci::type::accessorType::serviceID_Type : type};
   return (requestedType == uci::type::accessorType::serviceID_Type) ? boost::make_unique<ServiceID_Type>() : nullptr;
 }
+
 
 /**  */
 namespace ServiceID_Type_Names {

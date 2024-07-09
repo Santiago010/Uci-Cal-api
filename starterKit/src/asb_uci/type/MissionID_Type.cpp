@@ -53,6 +53,14 @@ namespace asb_uci {
 /** The namespace in which all generated data types are declared */
 namespace type {
 
+  MissionID_Type::MissionID_Type(const MissionID_Type& rhs)
+    : uci::type::MissionID_Type(rhs),  // Llama al constructor de copia de la clase base uci::type::MissionID_Type
+      VersionedID_Type(rhs)           // Llama al constructor de copia de la clase base VersionedID_Type
+{
+    // Implementa la lógica de copia adicional si es necesaria para MissionID_Type
+    // Por ejemplo, copia cualquier otro dato miembro específico de MissionID_Type
+}
+
 MissionID_Type::MissionID_Type() = default;
 
 MissionID_Type::~MissionID_Type() = default;

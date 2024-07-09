@@ -62,13 +62,13 @@ public:
     *
     * @param rhs The MessageType to copy from
     */
-  MessageType(const MessageType& rhs) = delete;
+  MessageType(const MessageType& rhs);
 
   /** The move constructor
     *
     * @param rhs The MessageType to move from
     */
-  MessageType(MessageType&& rhs) = delete;
+  MessageType(MessageType&& rhs);
 
   /** The assignment operator
     *

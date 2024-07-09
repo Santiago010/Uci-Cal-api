@@ -57,7 +57,7 @@ public:
     *
     * @param rhs The SystemID_Type to copy from
     */
-  SystemID_Type(const SystemID_Type& rhs) = delete;
+  SystemID_Type(const SystemID_Type& rhs);
 
   /** The move constructor
     *
