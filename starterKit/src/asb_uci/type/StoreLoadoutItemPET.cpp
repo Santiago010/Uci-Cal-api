@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/StoreLoadoutItemPET.h"
+#include "../../../include/asb_uci/type/StoreLoadoutItemPET.h"
 
 #include <memory>
 #include <string>
@@ -41,14 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/util/DerivedTypesCopier.h"
-#include "asb_uci/util/DerivedTypesCreator.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/DerivedTypesSerializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/StoreLoadoutItemPET.h"
+#include "../../../include/asb_uci/util/DerivedTypesCopier.h"
+#include "../../../include/asb_uci/util/DerivedTypesCreator.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/DerivedTypesSerializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StoreLoadoutItemPET.h"
 
 /**  */
 namespace asb_uci {
@@ -58,10 +58,15 @@ namespace type {
 
 StoreLoadoutItemPET::StoreLoadoutItemPET() = default;
 
+StoreLoadoutItemPET::StoreLoadoutItemPET(const StoreLoadoutItemPET& rhs) {
+    copy(rhs);
+}
+
+
 StoreLoadoutItemPET::~StoreLoadoutItemPET() = default;
 
 void StoreLoadoutItemPET::copy(const uci::type::StoreLoadoutItemPET& accessor) {
-  copyImpl(accessor, false);
+  // copyImpl(accessor, false);
 }
 
 void StoreLoadoutItemPET::copyImpl(const uci::type::StoreLoadoutItemPET& accessor, const bool checkIfDerivation) {
@@ -88,26 +93,28 @@ constexpr const char* Extern_Type_Name{"StoreLoadoutItemPET"};
 
 } // namespace StoreLoadoutItemPET_Names
 
-void StoreLoadoutItemPET::deserialize(const boost::property_tree::ptree& /*propTree*/, uci::type::StoreLoadoutItemPET& /*accessor*/, std::string& nodeName, std::string& /*nsPrefix*/, const bool /*topLevel*/) {
+void StoreLoadoutItemPET::deserialize(const boost::property_tree::ptree& propTree, uci::type::StoreLoadoutItemPET& accessor, std::string& nodeName, std::string& nsPrefix, const bool topLevel) {
   nodeName = StoreLoadoutItemPET_Names::Extern_Type_Name;
 }
 
-std::string StoreLoadoutItemPET::serialize(const uci::type::StoreLoadoutItemPET& accessor, boost::property_tree::ptree& propTree, const std::string& nodeName, const bool createNode, const bool addTypeAttribute, const bool checkIfDerivation, const bool /*topLevel*/) {
-  std::string generatedNodeName{(nodeName.empty() ? StoreLoadoutItemPET_Names::Extern_Type_Name : nodeName)};
-  if (!checkIfDerivation || (accessor.getAccessorType() == uci::type::accessorType::storeLoadoutItemPET)) {
-    boost::property_tree::ptree newNode;
-    boost::property_tree::ptree& node = (createNode ? newNode : propTree);
-    if (addTypeAttribute) {
-      asb_uci::util::SerializationHelpers::addTypeAttribute(node, StoreLoadoutItemPET_Names::Extern_Type_Name);
+std::string StoreLoadoutItemPET::serialize(const uci::type::StoreLoadoutItemPET& accessor, boost::property_tree::ptree& propTree, const std::string& nodeName, bool createNode, bool addTypeAttribute, bool checkIfDerivation, bool topLevel) {
+    // Implementación de la función serialize
+    std::string generatedNodeName{(nodeName.empty() ? StoreLoadoutItemPET_Names::Extern_Type_Name : nodeName)};
+    if (!checkIfDerivation || (accessor.getAccessorType() == uci::type::accessorType::storeLoadoutItemPET)) {
+        boost::property_tree::ptree newNode;
+        boost::property_tree::ptree& node = (createNode ? newNode : propTree);
+        if (addTypeAttribute) {
+            asb_uci::util::SerializationHelpers::addTypeAttribute(node, StoreLoadoutItemPET_Names::Extern_Type_Name);
+        }
+        if (createNode) {
+            propTree.add_child(generatedNodeName, node);
+        }
+    } else {
+        asb_uci::util::DerivedTypesSerializer::serialize(accessor, propTree, nodeName, createNode);
     }
-    if (createNode) {
-      propTree.add_child(generatedNodeName, node);
-    }
-  } else {
-    asb_uci::util::DerivedTypesSerializer::serialize(accessor, propTree, nodeName, createNode);
-  }
-  return generatedNodeName;
+    return generatedNodeName;
 }
+
 
 } // namespace type
 

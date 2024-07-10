@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/StoreLoadoutItemType.h"
+#include "../../../include/asb_uci/type/StoreLoadoutItemType.h"
 
 #include <memory>
 #include <string>
@@ -41,14 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/StoreItemType.h"
-#include "asb_uci/type/StoreLoadoutItemPET.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/StoreItemType.h"
-#include "uci/type/StoreLoadoutItemType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/StoreItemType.h"
+#include "../../../include/asb_uci/type/StoreLoadoutItemPET.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StoreItemType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StoreLoadoutItemType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {
@@ -60,6 +60,17 @@ StoreLoadoutItemType& StoreLoadoutItemType::setLocation(int value){
   this->location_Accessor = value;
 
   return *this;
+}
+
+StoreLoadoutItemType::StoreLoadoutItemType(const StoreLoadoutItemType& rhs)
+    : uci::type::StoreLoadoutItemType(rhs), // Llama al constructor de copia de la clase base
+      StoreLoadoutItemPET(rhs), // Llama al constructor de copia de la clase base StoreLoadoutItemPET
+      location_Accessor(rhs.location_Accessor)
+{
+    // Copia otros miembros específicos de StoreLoadoutItemType
+    if (rhs.possibleStore_Accessor) {
+        possibleStore_Accessor = boost::make_unique<PossibleStore>(0, SIZE_MAX);
+    }
 }
 
 StoreLoadoutItemType::StoreLoadoutItemType()
@@ -74,7 +85,7 @@ void StoreLoadoutItemType::copy(const uci::type::StoreLoadoutItemType& accessor)
 
 void StoreLoadoutItemType::copyImpl(const uci::type::StoreLoadoutItemType& accessor, const bool /*checkIfDerivation*/) {
   if (&accessor != this) {
-    StoreLoadoutItemPET::copyImpl(accessor, false);
+    // StoreLoadoutItemPET::copyImpl(accessor, false);
     const auto& accessorImpl = dynamic_cast<const StoreLoadoutItemType&>(accessor);
     setLocation(accessorImpl.location_Accessor);
     setPossibleStore(*(accessorImpl.possibleStore_Accessor));
@@ -91,10 +102,7 @@ xs::Int StoreLoadoutItemType::getLocation() const {
   return location_Accessor;
 }
 
-uci::type::StoreLoadoutItemType& StoreLoadoutItemType::setLocation(xs::Int value) {
-  location_Accessor = value;
-  return *this;
-}
+
 
 
 const uci::type::StoreLoadoutItemType::PossibleStore& StoreLoadoutItemType::getPossibleStore() const {
@@ -143,7 +151,7 @@ void StoreLoadoutItemType::deserialize(const boost::property_tree::ptree& propTr
       asb_uci::type::StoreItemType::deserialize(valueType.second, boundedList.at(boundedListSize), nodeName, nsPrefix);
     }
   }
-  StoreLoadoutItemPET::deserialize(node, accessor, nodeName, nsPrefix);
+  // StoreLoadoutItemPET::deserialize(node, accessor, nodeName, nsPrefix);
 }
 
 std::string StoreLoadoutItemType::serialize(const uci::type::StoreLoadoutItemType& accessor, boost::property_tree::ptree& propTree, const std::string& nodeName, const bool createNode, const bool addTypeAttribute, const bool /*checkIfDerivation*/, const bool /*topLevel*/) {
@@ -153,7 +161,7 @@ std::string StoreLoadoutItemType::serialize(const uci::type::StoreLoadoutItemTyp
   if (addTypeAttribute) {
     asb_uci::util::SerializationHelpers::addTypeAttribute(node, StoreLoadoutItemType_Names::Extern_Type_Name);
   }
-  StoreLoadoutItemPET::serialize(accessor, node, "", false, false, false);
+  // StoreLoadoutItemPET::serialize(accessor, node, "", false, false, false);
   asb_uci::util::SerializationHelpers::serializeInt(accessor.getLocation(), node, StoreLoadoutItemType_Names::Location_Name);
   {
     const uci::type::StoreLoadoutItemType::PossibleStore& boundedList = accessor.getPossibleStore();

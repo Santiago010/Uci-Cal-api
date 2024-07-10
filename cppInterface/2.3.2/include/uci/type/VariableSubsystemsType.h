@@ -125,7 +125,6 @@ public:
     *
     * @return A reference to the bounded list identified by Configuration.
     */
-  virtual uci::type::VariableSubsystemsType::Configuration& getConfiguration() = 0;
 
   /** Sets the bounded list identified by Configuration.
     *

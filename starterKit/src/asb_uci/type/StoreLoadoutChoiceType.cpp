@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/StoreLoadoutChoiceType.h"
+#include "../../../include/asb_uci/type/StoreLoadoutChoiceType.h"
 
 #include <memory>
 #include <string>
@@ -41,15 +41,15 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/EmptyType.h"
-#include "asb_uci/type/StoreLoadoutItemPET.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/EmptyType.h"
-#include "uci/type/StoreLoadoutChoiceType.h"
-#include "uci/type/StoreLoadoutItemPET.h"
+#include "../../../include/asb_uci/type/EmptyType.h"
+#include "../../../include/asb_uci/type/StoreLoadoutItemPET.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EmptyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StoreLoadoutChoiceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StoreLoadoutItemPET.h"
 
 /**  */
 namespace asb_uci {
@@ -62,13 +62,13 @@ asb_uci::base::BoundedList<uci::type::StoreLoadoutChoiceType,uci::type::accessor
   }
 
 StoreLoadoutChoiceType& StoreLoadoutChoiceType::chooseStoreList(std::initializer_list<asb_uci::type::StoreLoadoutItemType> StoreList){
-  if(StoreList == nullptr){
-    this->choiceType = nullptr;
-    this->choiceValue = nullptr;
+  if(StoreList.size() == 0){
+    this->choiceType = ChoiseTypeEnum::NULL_CHOICE;
+    this->choiceValue.clear(); // Limpia el contenido de choiceValue
   }else{
-    this->choiseType = StoreLoadoutChoiceType::ChoiseTypeEnum::STORE_LIST;
+    this->choiceType = StoreLoadoutChoiceType::ChoiseTypeEnum::STORE_LIST;
       for(const auto& sl: StoreList){
-      this->choiceValue.push_back(sl);
+      // this->choiceValue.push_back(sl);
     }
   }
 
@@ -76,9 +76,11 @@ StoreLoadoutChoiceType& StoreLoadoutChoiceType::chooseStoreList(std::initializer
 }
 
 
-StoreLoadoutChoiceType::StoreLoadoutChoiceType() = default;
+// StoreLoadoutChoiceType::StoreLoadoutChoiceType() {
 
-StoreLoadoutChoiceType::~StoreLoadoutChoiceType() = default;
+// }
+
+// StoreLoadoutChoiceType::~StoreLoadoutChoiceType() = default;
 
 void StoreLoadoutChoiceType::copy(const uci::type::StoreLoadoutChoiceType& accessor) {
   copyImpl(accessor, false);

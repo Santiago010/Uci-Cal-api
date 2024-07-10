@@ -123,7 +123,6 @@ public:
     *
     * @return The reference to the accessor to the Configuration field.
     */
-  uci::type::VariableSubsystemsType::Configuration& getConfiguration() override;
 
   /** Set the contents of the message fragment that this accesssor provides access to to the contents the specified
     * accessor provides access to. A deep copy will be used by this method in setting the contents

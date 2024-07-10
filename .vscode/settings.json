@@ -92,7 +92,8 @@
     "regex": "cpp",
     "*.ipp": "cpp",
     "execution": "cpp",
-    "any": "cpp"
+    "any": "cpp",
+    "__availability": "cpp"
   },
   "workbench.colorCustomizations": {
     "activityBar.activeBackground": "#ab307e",

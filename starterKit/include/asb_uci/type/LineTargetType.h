@@ -41,10 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AlphanumericSpaceString15OnlyType.h"
-#include "asb_uci/type/LineType.h"
-#include "uci/type/LineTargetType.h"
-
+#include "../../../include/asb_uci/type/AlphanumericSpaceString15OnlyType.h"
+#include "../../../include/asb_uci/type/LineType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/LineTargetType.h"
 /**  */
 namespace asb_uci {
 

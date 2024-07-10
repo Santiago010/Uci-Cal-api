@@ -68,6 +68,8 @@ public:
     */
   using StoreList = asb_uci::base::BoundedList<uci::type::StoreLoadoutItemPET, uci::type::accessorType::storeLoadoutItemPET, asb_uci::type::StoreLoadoutItemPET>;
 
+  using StoreList2 = asb_uci::base::BoundedList<uci::type::StoreLoadoutChoiceType,uci::type::accessorType::storeLoadoutChoiceType,asb_uci::type::StoreLoadoutItemType>; 
+
   /** The constructor */
   StoreLoadoutChoiceType();
 
@@ -286,7 +288,8 @@ public:
 
   enum ChoiseTypeEnum{
     STORE_LIST,
-    TERMINATOR
+    TERMINATOR,
+    NULL_CHOICE
   };
 
   asb_uci::base::BoundedList<uci::type::StoreLoadoutChoiceType,uci::type::accessorType::storeLoadoutChoiceType,asb_uci::type::StoreLoadoutItemType> asStoreList();
@@ -295,7 +298,7 @@ private:
   std::unique_ptr<StoreList> storeList_Accessor;
   std::unique_ptr<EmptyType> terminator_Accessor;
   StoreLoadoutChoiceType::ChoiseTypeEnum choiceType;
-  asb_uci::base::BoundedList<uci::type::StoreLoadoutChoiceType,uci::type::accessorType::storeLoadoutChoiceType,asb_uci::type::StoreLoadoutItemType> choiceValue;
+  StoreList2 choiceValue;
  
 
 

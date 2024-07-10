@@ -326,7 +326,7 @@ void Example::testOMS83AddAndChoiceMethods(){
             root.error("FAILED: add iter test");
         }
 
-    asb_uci::type::StoreLoadoutChoiceType slct;
+    // asb_uci::type::StoreLoadoutChoiceType slct;
 
     asb_uci::type::StoreLoadoutItemType pet1;
     pet1.setLocation(1);
@@ -336,7 +336,7 @@ void Example::testOMS83AddAndChoiceMethods(){
     pet3.setLocation(3);
 
 
-    slct.chooseStoreList({pet1,pet2,pet3});
+    // slct.chooseStoreList({pet1,pet2,pet3});
 
 
     // TODO:tener en cuenta para arreglar

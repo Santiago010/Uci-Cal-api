@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/OrbitClassEnum.h"
-#include "asb_uci/type/OrbitRegimeEnum.h"
-#include "uci/type/OrbitRegimeType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/OrbitClassEnum.h"
+#include "../../../include/asb_uci/type/OrbitRegimeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitRegimeType.h"
 
 /**  */
 namespace asb_uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/Shape3D_ChoiceType.h"
+#include "../../../include/asb_uci/type/Shape3D_ChoiceType.h"
 
 #include <memory>
 #include <string>
@@ -41,26 +41,26 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ArcVolumeType.h"
-#include "asb_uci/type/ConeType.h"
-#include "asb_uci/type/CylinderType.h"
-#include "asb_uci/type/DomeType.h"
-#include "asb_uci/type/EllipsoidType.h"
-#include "asb_uci/type/IncRaPeriodVolumeType.h"
-#include "asb_uci/type/RectangularConeType.h"
-#include "asb_uci/type/SphereType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ArcVolumeType.h"
-#include "uci/type/ConeType.h"
-#include "uci/type/CylinderType.h"
-#include "uci/type/DomeType.h"
-#include "uci/type/EllipsoidType.h"
-#include "uci/type/IncRaPeriodVolumeType.h"
-#include "uci/type/RectangularConeType.h"
-#include "uci/type/Shape3D_ChoiceType.h"
-#include "uci/type/SphereType.h"
+#include "../../../include/asb_uci/type/ArcVolumeType.h"
+#include "../../../include/asb_uci/type/ConeType.h"
+#include "../../../include/asb_uci/type/CylinderType.h"
+#include "../../../include/asb_uci/type/DomeType.h"
+#include "../../../include/asb_uci/type/EllipsoidType.h"
+#include "../../../include/asb_uci/type/IncRaPeriodVolumeType.h"
+#include "../../../include/asb_uci/type/RectangularConeType.h"
+#include "../../../include/asb_uci/type/SphereType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ArcVolumeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ConeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CylinderType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DomeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EllipsoidType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IncRaPeriodVolumeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RectangularConeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/Shape3D_ChoiceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SphereType.h"
 
 /**  */
 namespace asb_uci {

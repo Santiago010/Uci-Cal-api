@@ -68,6 +68,18 @@ ServiceStatusMDT::ServiceStatusMDT()
     supportedSettings_Accessor{boost::make_unique<SupportedSettings>(0, SIZE_MAX)} {
 }
 
+ServiceStatusMDT::ServiceStatusMDT(const ServiceStatusMDT& rhs)
+  : serviceID_Accessor{boost::make_unique<ServiceID_Type>(*rhs.serviceID_Accessor)},
+    timeUp_Accessor{rhs.timeUp_Accessor},
+    serviceState_Accessor{boost::make_unique<ServiceStateEnum>(*rhs.serviceState_Accessor)},
+    enabledSettings_Accessor{boost::make_unique<EnabledSettings>(0, SIZE_MAX)},  // Utilizando constructor de rango
+    supportedSettings_Accessor{boost::make_unique<SupportedSettings>(0, SIZE_MAX)} {
+
+  if (rhs.statusDetail_Accessor) {
+    statusDetail_Accessor = boost::make_unique<VisibleString256Type>(*rhs.statusDetail_Accessor);
+  }
+}
+
 
 
 ServiceStatusMDT::~ServiceStatusMDT() = default;

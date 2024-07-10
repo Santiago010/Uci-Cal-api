@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AlphanumericDashSpaceUnderscoreString15OnlyType.h"
-#include "asb_uci/type/ZoneType.h"
-#include "uci/type/ZoneExternalType.h"
+#include "../../../include/asb_uci/type/AlphanumericDashSpaceUnderscoreString15OnlyType.h"
+#include "../../../include/asb_uci/type/ZoneType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ZoneExternalType.h"
 
 /**  */
 namespace asb_uci {

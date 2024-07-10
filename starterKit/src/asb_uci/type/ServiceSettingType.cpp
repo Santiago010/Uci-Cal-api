@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ServiceSettingType.h"
+#include "../../../include/asb_uci/type/ServiceSettingType.h"
 
 #include <memory>
 #include <string>
@@ -41,16 +41,16 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/EventSeverityEnum.h"
-#include "asb_uci/type/ServiceSettingEnum.h"
-#include "asb_uci/type/ServiceSettingsParameterType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/EventSeverityEnum.h"
-#include "uci/type/ServiceSettingEnum.h"
-#include "uci/type/ServiceSettingType.h"
-#include "uci/type/ServiceSettingsParameterType.h"
+#include "../../../include/asb_uci/type/EventSeverityEnum.h"
+#include "../../../include/asb_uci/type/ServiceSettingEnum.h"
+#include "../../../include/asb_uci/type/ServiceSettingsParameterType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EventSeverityEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ServiceSettingEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ServiceSettingType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ServiceSettingsParameterType.h"
 
 /**  */
 namespace asb_uci {

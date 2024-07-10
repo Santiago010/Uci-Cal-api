@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/VariableSubsystemsType.h"
+#include "../../../include/asb_uci/type/VariableSubsystemsType.h"
 
 #include <memory>
 #include <string>
@@ -41,12 +41,12 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "../type/CapabilityConfigurationType.h"
-#include "../util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CapabilityConfigurationType.h"
-#include "uci/type/VariableSubsystemsType.h"
+#include "../../../include/asb_uci/type/CapabilityConfigurationType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityConfigurationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VariableSubsystemsType.h"
 
 /**  */
 namespace asb_uci {
@@ -63,7 +63,7 @@ VariableSubsystemsType& VariableSubsystemsType::addConfiguration(std::initialize
 }
 
 VariableSubsystemsType::VariableSubsystemsType()
-  : configuration_Accessor{boost::make_unique<Configuration>(0, SIZE_MAX)} {
+  : configuration_Accessor{boost::make_unique<Configuration>(0, SIZE_MAX)},configuration{0,SIZE_MAX} {
 }
 
 VariableSubsystemsType::~VariableSubsystemsType() = default;
@@ -87,9 +87,7 @@ const uci::type::VariableSubsystemsType::Configuration& VariableSubsystemsType::
   return *configuration_Accessor;
 }
 
-uci::type::VariableSubsystemsType::Configuration& VariableSubsystemsType::getConfiguration() {
-  return *configuration;
-}
+
 
 uci::type::VariableSubsystemsType& VariableSubsystemsType::setConfiguration(const uci::type::VariableSubsystemsType::Configuration& accessor) {
   if (&accessor != configuration_Accessor.get()) {
@@ -119,10 +117,10 @@ void VariableSubsystemsType::deserialize(const boost::property_tree::ptree& prop
       nsPrefix = asb_uci::util::SerializationHelpers::checkForNamespacePrefix(valueType.second.get_child(""));
     } else if (valueType.first == nsPrefix + VariableSubsystemsType_Names::Configuration_Name) {
       if (const boost::optional<std::string> value = valueType.second.get_value_optional<std::string>()) {
-        uci::type::VariableSubsystemsType::Configuration& boundedList = accessor.getConfiguration();
-        const uci::type::VariableSubsystemsType::Configuration::size_type boundedListSize{boundedList.size()};
-        boundedList.resize(boundedListSize + 1);
-        asb_uci::type::CapabilityConfigurationType::deserialize(valueType.second, boundedList.at(boundedListSize), nodeName, nsPrefix);
+        // uci::type::VariableSubsystemsType::Configuration& boundedList = accessor.getConfiguration();
+        // const uci::type::VariableSubsystemsType::Configuration::size_type boundedListSize{boundedList.size()};
+        // boundedList.resize(boundedListSize + 1);
+        // asb_uci::type::CapabilityConfigurationType::deserialize(valueType.second, boundedList.at(boundedListSize), nodeName, nsPrefix);
       }
     }
   }
