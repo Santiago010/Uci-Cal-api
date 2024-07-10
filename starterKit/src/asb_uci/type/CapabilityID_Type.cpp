@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CapabilityID_Type.h"
+#include "../../../include/asb_uci/type/CapabilityID_Type.h"
 
 #include <memory>
 #include <string>
@@ -41,17 +41,24 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ID_Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CapabilityID_Type.h"
+#include "../../../include/asb_uci/type/ID_Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityID_Type.h"
 
 /**  */
 namespace asb_uci {
 
 /** The namespace in which all generated data types are declared */
 namespace type {
+
+  CapabilityID_Type::CapabilityID_Type(const CapabilityID_Type& rhs)
+    : ID_Type(rhs)  // Llama al constructor de copia de la clase base si es necesario
+{
+  
+}
+
 
 CapabilityID_Type::CapabilityID_Type() = default;
 

@@ -74,7 +74,7 @@ public:
     *
     * @param rhs The BoundedList to copy from
     */
-  BoundedList(const BoundedList& rhs) = delete;
+  BoundedList(const BoundedList& rhs);
 
   /** The move constructor
     *

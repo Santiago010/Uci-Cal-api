@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/VersionedID_Type.h"
+#include "../../../include/asb_uci/type/VersionedID_Type.h"
 
 #include <memory>
 #include <string>
@@ -41,22 +41,30 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ID_Type.h"
-#include "asb_uci/util/DerivedTypesCopier.h"
-#include "asb_uci/util/DerivedTypesCreator.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/DerivedTypesSerializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/VersionedID_Type.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/ID_Type.h"
+#include "../../../include/asb_uci/util/DerivedTypesCopier.h"
+#include "../../../include/asb_uci/util/DerivedTypesCreator.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/DerivedTypesSerializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VersionedID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {
 
 /** The namespace in which all generated data types are declared */
 namespace type {
+
+  VersionedID_Type::VersionedID_Type(const VersionedID_Type& rhs)
+    : ID_Type(rhs),  // Assuming ID_Type is the base class
+      version_Accessor(rhs.version_Accessor) {
+    // Perform deep copy if necessary
+    // For example, if version_Accessor is a boost::optional or another type requiring deep copying
+    // You can use rhs.version_Accessor.get() to access the value inside boost::optional, if applicable
+}
 
 VersionedID_Type::VersionedID_Type() = default;
 

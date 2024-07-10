@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/CannotComplyEnum.h"
-#include "asb_uci/type/VisibleString1024Type.h"
-#include "uci/type/CannotComplyType.h"
+#include "CannotComplyEnum.h"
+#include "VisibleString1024Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CannotComplyType.h"
 
 /**  */
 namespace asb_uci {

@@ -88,11 +88,9 @@ void ForeignKeyType::reset() noexcept {
 }
 
 const uci::type::VisibleString256Type& ForeignKeyType::getKey() const noexcept {
-  return *key_Accessor;
 }
 
 uci::type::VisibleString256Type& ForeignKeyType::getKey() noexcept {
-  return *key_Accessor;
 }
 
 uci::type::ForeignKeyType& ForeignKeyType::setKey(const uci::type::VisibleString256Type& value) {
@@ -104,16 +102,15 @@ uci::type::ForeignKeyType& ForeignKeyType::setKey(const std::string& value) {
 }
 
 uci::type::ForeignKeyType& ForeignKeyType::setKey(const char* value) {
-  key_Accessor->setStringValue(value);
+  // key_Accessor->setStringValue(value);
   return *this;
 }
 
 const uci::type::VisibleString256Type& ForeignKeyType::getSystemName() const noexcept {
-  return *systemName_Accessor;
+
 }
 
 uci::type::VisibleString256Type& ForeignKeyType::getSystemName() noexcept {
-  return *systemName_Accessor;
 }
 
 uci::type::ForeignKeyType& ForeignKeyType::setSystemName(const uci::type::VisibleString256Type& value) {
@@ -125,8 +122,6 @@ uci::type::ForeignKeyType& ForeignKeyType::setSystemName(const std::string& valu
 }
 
 uci::type::ForeignKeyType& ForeignKeyType::setSystemName(const char* value) {
-  systemName_Accessor->setStringValue(value);
-  return *this;
 }
 
 std::unique_ptr<ForeignKeyType> ForeignKeyType::create(const uci::base::accessorType::AccessorType type) {

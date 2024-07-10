@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/EventSeverityEnum.h"
-#include "asb_uci/type/ServiceSettingEnum.h"
-#include "uci/type/ServiceSettingType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/EventSeverityEnum.h"
+#include "../../../include/asb_uci/type/ServiceSettingEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ServiceSettingType.h"
 
 /**  */
 namespace asb_uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ActivityBaseType.h"
+#include "../../../include/asb_uci/type/ActivityBaseType.h"
 
 #include <memory>
 #include <string>
@@ -41,31 +41,31 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "../type/ActivityBasisEnum.h"
-#include "../type/ActivityID_Type.h"
-#include "../type/ActivitySourceType.h"
-#include "../type/ActivityStateEnum.h"
-#include "../type/CannotComplyType.h"
-#include "../type/CapabilityID_Type.h"
-#include "../type/ComparableRankingType.h"
-#include "../util/DerivedTypesCopier.h"
-#include "../util/DerivedTypesCreator.h"
-#include "../util/DerivedTypesDeserializer.h"
-#include "../util/DerivedTypesSerializer.h"
-#include "../util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ActivityBaseType.h"
-#include "uci/type/ActivityBasisEnum.h"
-#include "uci/type/ActivityID_Type.h"
-#include "uci/type/ActivitySourceType.h"
-#include "uci/type/ActivityStateEnum.h"
-#include "uci/type/CannotComplyType.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/ComparableRankingType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/PercentType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/ActivityBasisEnum.h"
+#include "../../../include/asb_uci/type/ActivityID_Type.h"
+#include "../../../include/asb_uci/type/ActivitySourceType.h"
+#include "../../../include/asb_uci/type/ActivityStateEnum.h"
+#include "../../../include/asb_uci/type/CannotComplyType.h"
+#include "../../../include/asb_uci/type/CapabilityID_Type.h"
+#include "../../../include/asb_uci/type/ComparableRankingType.h"
+#include "../../../include/asb_uci/util/DerivedTypesCopier.h"
+#include "../../../include/asb_uci/util/DerivedTypesCreator.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/DerivedTypesSerializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ActivityBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ActivityBasisEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ActivityID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ActivitySourceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ActivityStateEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CannotComplyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ComparableRankingType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DateTimeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PercentType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {
@@ -85,7 +85,8 @@ ActivityBaseType::ActivityBaseType()
   : activityID_Accessor{boost::make_unique<ActivityID_Type>()},
     capabilityID_Accessor{boost::make_unique<CapabilityID>(1, SIZE_MAX)},
     activityState_Accessor{boost::make_unique<ActivityStateEnum>()},
-    source_Accessor{boost::make_unique<Source>(0, SIZE_MAX)} {
+    source_Accessor{boost::make_unique<Source>(0, SIZE_MAX)},
+    capabilityID(1, SIZE_MAX){
 }
 
 ActivityBaseType::~ActivityBaseType() = default;
@@ -179,7 +180,7 @@ uci::type::ActivityBaseType::CapabilityID& ActivityBaseType::getCapabilityID() {
 uci::type::ActivityBaseType& ActivityBaseType::setCapabilityID(const uci::type::ActivityBaseType::CapabilityID& accessor) {
   if (&accessor != capabilityID_Accessor.get()) {
     
-    ->copyImpl(accessor, false);
+
   }
   return *this;
 }

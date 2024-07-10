@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ServiceStatusMDT.h"
+#include "../../../include/asb_uci/type/ServiceStatusMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,19 +41,19 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ServiceID_Type.h"
-#include "asb_uci/type/ServiceSettingType.h"
-#include "asb_uci/type/ServiceStateEnum.h"
-#include "asb_uci/type/VisibleString256Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/ServiceID_Type.h"
-#include "uci/type/ServiceSettingType.h"
-#include "uci/type/ServiceStateEnum.h"
-#include "uci/type/ServiceStatusMDT.h"
-#include "uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/type/ServiceID_Type.h"
+#include "../../../include/asb_uci/type/ServiceSettingType.h"
+#include "../../../include/asb_uci/type/ServiceStateEnum.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DurationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ServiceID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ServiceSettingType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ServiceStateEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ServiceStatusMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString256Type.h"
 
 /**  */
 namespace asb_uci {
@@ -67,6 +67,8 @@ ServiceStatusMDT::ServiceStatusMDT()
     enabledSettings_Accessor{boost::make_unique<EnabledSettings>(0, SIZE_MAX)},
     supportedSettings_Accessor{boost::make_unique<SupportedSettings>(0, SIZE_MAX)} {
 }
+
+
 
 ServiceStatusMDT::~ServiceStatusMDT() = default;
 
@@ -147,7 +149,7 @@ uci::type::ServiceStatusMDT& ServiceStatusMDT::setServiceState(uci::type::Servic
 
 uci::type::VisibleString256Type& ServiceStatusMDT::getStatusDetail_() const {
   if (statusDetail_Accessor) {
-    return *statusDetail_Accessor;
+    // return *statusDetail_Accessor;
   }
   throw uci::base::UCIException("Error in getStatusDetail(): An attempt was made to get an optional field that was not enabled, call hasStatusDetail() to determine if it is safe to call getStatusDetail()");
 }
@@ -179,9 +181,9 @@ bool ServiceStatusMDT::hasStatusDetail() const noexcept {
 
 uci::type::VisibleString256Type& ServiceStatusMDT::enableStatusDetail(uci::base::accessorType::AccessorType type) {
   if (!statusDetail_Accessor) {
-    statusDetail_Accessor = VisibleString256Type::create(type);
+    // statusDetail_Accessor = VisibleString256Type::create(type);
   }
-  return *statusDetail_Accessor;
+  // return *statusDetail_Accessor;
 }
 
 uci::type::ServiceStatusMDT& ServiceStatusMDT::clearStatusDetail() noexcept {
