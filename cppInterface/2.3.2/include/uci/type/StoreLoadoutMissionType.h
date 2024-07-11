@@ -143,17 +143,17 @@ public:
     */
   virtual uci::type::StoreType& enableStoreType(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
 
-  /** Returns a const reference to the accessor that provides access to the string identified by Mnemonic.
-    *
-    * @return A const reference to the accessor that provides access to the string identified by Mnemonic.
-    */
-  virtual const uci::type::VisibleString256Type& getMnemonic() const = 0;
+  // /** Returns a const reference to the accessor that provides access to the string identified by Mnemonic.
+  //   *
+  //   * @return A const reference to the accessor that provides access to the string identified by Mnemonic.
+  //   */
+  // virtual const uci::type::VisibleString256Type& getMnemonic() const = 0;
 
-  /** Returns a reference to the accessor that provides access to the string identified by Mnemonic.
-    *
-    * @return A reference to the accessor that provides access to the string identified by Mnemonic.
-    */
-  virtual uci::type::VisibleString256Type& getMnemonic() = 0;
+  // /** Returns a reference to the accessor that provides access to the string identified by Mnemonic.
+  //   *
+  //   * @return A reference to the accessor that provides access to the string identified by Mnemonic.
+  //   */
+  // virtual uci::type::VisibleString256Type& getMnemonic() = 0;
 
   /** Sets the string identified by Mnemonic to the contents of the string accessed by the specified accessor.
     *

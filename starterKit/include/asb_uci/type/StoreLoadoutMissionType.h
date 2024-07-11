@@ -141,17 +141,17 @@ public:
     */
   uci::type::StoreType& enableStoreType(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
 
-  /** Returns the contents of the message's Mnemonic field
-    *
-    * @return The contents of the Mnemonic field
-    */
-  const uci::type::VisibleString256Type& getMnemonic() const noexcept override;
+  // /** Returns the contents of the message's Mnemonic field
+  //   *
+  //   * @return The contents of the Mnemonic field
+  //   */
+  // const uci::type::VisibleString256Type& getMnemonic() const noexcept override;
 
-  /** Returns the contents of the message's Mnemonic field
-    *
-    * @return The contents of the Mnemonic field
-    */
-  uci::type::VisibleString256Type& getMnemonic() noexcept override;
+  // /** Returns the contents of the message's Mnemonic field
+  //   *
+  //   * @return The contents of the Mnemonic field
+  //   */
+  // uci::type::VisibleString256Type& getMnemonic() noexcept override;
 
   /** Sets the contents of the message's Mnemonic field
     *

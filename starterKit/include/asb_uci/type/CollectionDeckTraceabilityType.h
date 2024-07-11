@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AlphanumericDashSpaceUnderscoreString12OnlyType.h"
-#include "asb_uci/type/AlphanumericString7OnlyType.h"
-#include "uci/type/CollectionDeckTraceabilityType.h"
+#include "../../../include/asb_uci/type/AlphanumericDashSpaceUnderscoreString12OnlyType.h"
+#include "../../../include/asb_uci/type/AlphanumericString7OnlyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CollectionDeckTraceabilityType.h"
 
 /**  */
 namespace asb_uci {

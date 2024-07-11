@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/StoreLoadoutCarriageType.h"
+#include "../../../include/asb_uci/type/StoreLoadoutCarriageType.h"
 
 #include <memory>
 #include <string>
@@ -41,14 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/StoreLoadoutChoiceType.h"
-#include "asb_uci/type/VisibleString256Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/StoreLoadoutCarriageType.h"
-#include "uci/type/StoreLoadoutChoiceType.h"
-#include "uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/type/StoreLoadoutChoiceType.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StoreLoadoutCarriageType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StoreLoadoutChoiceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString256Type.h"
 
 /**  */
 namespace asb_uci {
@@ -76,17 +76,17 @@ void StoreLoadoutCarriageType::copyImpl(const uci::type::StoreLoadoutCarriageTyp
 }
 
 void StoreLoadoutCarriageType::reset() noexcept {
-  mnemonic_Accessor->reset();
+  // mnemonic_Accessor->reset();
   storeLoadout_Accessor->reset();
 }
 
-const uci::type::VisibleString256Type& StoreLoadoutCarriageType::getMnemonic() const noexcept {
-  return *mnemonic_Accessor;
-}
+// const uci::type::VisibleString256Type& StoreLoadoutCarriageType::getMnemonic() const noexcept {
+//   return *mnemonic_Accessor;
+// }
 
-uci::type::VisibleString256Type& StoreLoadoutCarriageType::getMnemonic() noexcept {
-  return *mnemonic_Accessor;
-}
+// uci::type::VisibleString256Type& StoreLoadoutCarriageType::getMnemonic() noexcept {
+//   return *mnemonic_Accessor;
+// }
 
 uci::type::StoreLoadoutCarriageType& StoreLoadoutCarriageType::setMnemonic(const uci::type::VisibleString256Type& value) {
   return setMnemonic(value.c_str());
@@ -97,7 +97,7 @@ uci::type::StoreLoadoutCarriageType& StoreLoadoutCarriageType::setMnemonic(const
 }
 
 uci::type::StoreLoadoutCarriageType& StoreLoadoutCarriageType::setMnemonic(const char* value) {
-  mnemonic_Accessor->setStringValue(value);
+  // mnemonic_Accessor->setStringValue(value);
   return *this;
 }
 
@@ -153,7 +153,7 @@ std::string StoreLoadoutCarriageType::serialize(const uci::type::StoreLoadoutCar
   if (addTypeAttribute) {
     asb_uci::util::SerializationHelpers::addTypeAttribute(node, StoreLoadoutCarriageType_Names::Extern_Type_Name);
   }
-  asb_uci::util::SerializationHelpers::serializeString(accessor.getMnemonic(), node, StoreLoadoutCarriageType_Names::Mnemonic_Name);
+  // asb_uci::util::SerializationHelpers::serializeString(accessor.getMnemonic(), node, StoreLoadoutCarriageType_Names::Mnemonic_Name);
   StoreLoadoutChoiceType::serialize(accessor.getStoreLoadout(), node, StoreLoadoutCarriageType_Names::StoreLoadout_Name);
   if (createNode) {
     propTree.add_child(generatedNodeName, node);

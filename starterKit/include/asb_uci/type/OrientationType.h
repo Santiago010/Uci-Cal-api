@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AngleHalfType.h"
-#include "asb_uci/type/AngleType.h"
-#include "asb_uci/type/DateTimeType.h"
-#include "uci/type/OrientationType.h"
+#include "../../../include/asb_uci/type/AngleHalfType.h"
+#include "../../../include/asb_uci/type/AngleType.h"
+#include "../../../include/asb_uci/type/DateTimeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrientationType.h"
 
 /**  */
 namespace asb_uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CapabilityCommandBaseType.h"
+#include "../../../include/asb_uci/type/CapabilityCommandBaseType.h"
 
 #include <memory>
 #include <string>
@@ -41,26 +41,26 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CapabilityCommandRankingType.h"
-#include "asb_uci/type/CapabilityCommandTemporalConstraintsType.h"
-#include "asb_uci/type/CapabilityID_Type.h"
-#include "asb_uci/type/CommandBaseType.h"
-#include "asb_uci/type/SecurityInformationType.h"
-#include "asb_uci/type/TraceabilityType.h"
-#include "asb_uci/util/DerivedTypesCopier.h"
-#include "asb_uci/util/DerivedTypesCreator.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/DerivedTypesSerializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CapabilityCommandBaseType.h"
-#include "uci/type/CapabilityCommandRankingType.h"
-#include "uci/type/CapabilityCommandTemporalConstraintsType.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/SecurityInformationType.h"
-#include "uci/type/TraceabilityType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/CapabilityCommandRankingType.h"
+#include "../../../include/asb_uci/type/CapabilityCommandTemporalConstraintsType.h"
+#include "../../../include/asb_uci/type/CapabilityID_Type.h"
+#include "../../../include/asb_uci/type/CommandBaseType.h"
+#include "../../../include/asb_uci/type/SecurityInformationType.h"
+#include "../../../include/asb_uci/type/TraceabilityType.h"
+#include "../../../include/asb_uci/util/DerivedTypesCopier.h"
+#include "../../../include/asb_uci/util/DerivedTypesCreator.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/DerivedTypesSerializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityCommandBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityCommandRankingType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityCommandTemporalConstraintsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SecurityInformationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TraceabilityType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {
@@ -307,8 +307,8 @@ std::unique_ptr<CapabilityCommandBaseType> CapabilityCommandBaseType::create(con
   return std::unique_ptr<CapabilityCommandBaseType>(dynamic_cast<CapabilityCommandBaseType*>(asb_uci::util::DerivedTypesCreator::create(requestedType)));
 }
 
-uci::type::CapabilityCommandBaseType& setTrackingRange(uci::type::DistanceTypeValue value){
-  trackingRange_Accessor = value;
+uci::type::CapabilityCommandBaseType& CapabilityCommandBaseType::setTrackingRange(uci::type::DistanceTypeValue value){
+  // trackingRange_Accessor = value;
   return *this;
 } 
 

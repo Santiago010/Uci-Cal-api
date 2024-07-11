@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AlphanumericString54Type.h"
-#include "uci/type/ACTDF_TraceabilityType.h"
+#include "../../../include/asb_uci/type/AlphanumericString54Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ACTDF_TraceabilityType.h"
 
 /**  */
 namespace asb_uci {

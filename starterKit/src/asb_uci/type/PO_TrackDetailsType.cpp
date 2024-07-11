@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/PO_TrackDetailsType.h"
+#include "../../../include/asb_uci/type/PO_TrackDetailsType.h"
 
 #include <memory>
 #include <string>
@@ -41,28 +41,28 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/IdentityBasicType.h"
-#include "asb_uci/type/IncreaseDecreaseEnum.h"
-#include "asb_uci/type/LOS_VariableB_Type.h"
-#include "asb_uci/type/PO_AirTargetVolumeType.h"
-#include "asb_uci/type/PO_CoastSettingValueType.h"
-#include "asb_uci/type/PO_LockPersistenceEnum.h"
-#include "asb_uci/type/PO_TrackCommandEnum.h"
-#include "asb_uci/type/TrackOptionsID_Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/DistanceType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/IdentityBasicType.h"
-#include "uci/type/IncreaseDecreaseEnum.h"
-#include "uci/type/LOS_VariableB_Type.h"
-#include "uci/type/PO_AirTargetVolumeType.h"
-#include "uci/type/PO_CoastSettingValueType.h"
-#include "uci/type/PO_LockPersistenceEnum.h"
-#include "uci/type/PO_TrackCommandEnum.h"
-#include "uci/type/PO_TrackDetailsType.h"
-#include "uci/type/TrackOptionsID_Type.h"
+#include "../../../include/asb_uci/type/IdentityBasicType.h"
+#include "../../../include/asb_uci/type/IncreaseDecreaseEnum.h"
+#include "../../../include/asb_uci/type/LOS_VariableB_Type.h"
+#include "../../../include/asb_uci/type/PO_AirTargetVolumeType.h"
+#include "../../../include/asb_uci/type/PO_CoastSettingValueType.h"
+#include "../../../include/asb_uci/type/PO_LockPersistenceEnum.h"
+#include "../../../include/asb_uci/type/PO_TrackCommandEnum.h"
+#include "../../../include/asb_uci/type/TrackOptionsID_Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DistanceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DurationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IdentityBasicType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IncreaseDecreaseEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/LOS_VariableB_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_AirTargetVolumeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_CoastSettingValueType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_LockPersistenceEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_TrackCommandEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_TrackDetailsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TrackOptionsID_Type.h"
 
 /**  */
 namespace asb_uci {

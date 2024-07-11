@@ -38,8 +38,8 @@
 
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/ID_Type.h"
-#include "uci/type/CapabilityConfigurationID_Type.h"
+#include "../../../include/asb_uci/type/ID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityConfigurationID_Type.h"
 
 /**  */
 namespace asb_uci {
@@ -57,7 +57,7 @@ public:
     *
     * @param rhs The CapabilityConfigurationID_Type to copy from
     */
-  CapabilityConfigurationID_Type(const CapabilityConfigurationID_Type& rhs) = delete;
+  CapabilityConfigurationID_Type(const CapabilityConfigurationID_Type& rhs) ;
 
   /** The move constructor
     *

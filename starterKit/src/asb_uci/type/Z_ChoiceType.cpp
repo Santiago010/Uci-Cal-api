@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/Z_ChoiceType.h"
+#include "../../../include/asb_uci/type/Z_ChoiceType.h"
 
 #include <memory>
 #include <string>
@@ -41,15 +41,15 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AltitudeOffsetReferenceType.h"
-#include "asb_uci/type/AltitudeReferenceType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AltitudeOffsetReferenceType.h"
-#include "uci/type/AltitudeReferenceType.h"
-#include "uci/type/DistanceOffsetType.h"
-#include "uci/type/Z_ChoiceType.h"
+#include "../../../include/asb_uci/type/AltitudeOffsetReferenceType.h"
+#include "../../../include/asb_uci/type/AltitudeReferenceType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AltitudeOffsetReferenceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AltitudeReferenceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DistanceOffsetType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/Z_ChoiceType.h"
 
 /**  */
 namespace asb_uci {

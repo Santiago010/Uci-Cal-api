@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/KinematicsType.h"
+#include "../../../include/asb_uci/type/KinematicsType.h"
 
 #include <memory>
 #include <string>
@@ -41,23 +41,23 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/Acceleration3D_Type.h"
-#include "asb_uci/type/EntityPositionType.h"
-#include "asb_uci/type/OrientationCovarianceType.h"
-#include "asb_uci/type/OrientationType.h"
-#include "asb_uci/type/StateCovarianceNED_Type.h"
-#include "asb_uci/type/Velocity2D_UncertaintyType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/Acceleration3D_Type.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/EntityPositionType.h"
-#include "uci/type/KinematicsType.h"
-#include "uci/type/OrientationCovarianceType.h"
-#include "uci/type/OrientationType.h"
-#include "uci/type/StateCovarianceNED_Type.h"
-#include "uci/type/Velocity2D_UncertaintyType.h"
+#include "../../../include/asb_uci/type/Acceleration3D_Type.h"
+#include "../../../include/asb_uci/type/EntityPositionType.h"
+#include "../../../include/asb_uci/type/OrientationCovarianceType.h"
+#include "../../../include/asb_uci/type/OrientationType.h"
+#include "../../../include/asb_uci/type/StateCovarianceNED_Type.h"
+#include "../../../include/asb_uci/type/Velocity2D_UncertaintyType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/Acceleration3D_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DateTimeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EntityPositionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/KinematicsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrientationCovarianceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrientationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StateCovarianceNED_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/Velocity2D_UncertaintyType.h"
 
 /**  */
 namespace asb_uci {

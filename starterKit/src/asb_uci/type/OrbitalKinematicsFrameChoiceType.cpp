@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/OrbitalKinematicsFrameChoiceType.h"
+#include "../../../include/asb_uci/type/OrbitalKinematicsFrameChoiceType.h"
 
 #include <memory>
 #include <string>
@@ -41,18 +41,18 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/BCRS_KinematicsType.h"
-#include "asb_uci/type/GCRS_KinematicsType.h"
-#include "asb_uci/type/J2K_KinematicsType.h"
-#include "asb_uci/type/TLE_WithParametersType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/BCRS_KinematicsType.h"
-#include "uci/type/GCRS_KinematicsType.h"
-#include "uci/type/J2K_KinematicsType.h"
-#include "uci/type/OrbitalKinematicsFrameChoiceType.h"
-#include "uci/type/TLE_WithParametersType.h"
+#include "../../../include/asb_uci/type/BCRS_KinematicsType.h"
+#include "../../../include/asb_uci/type/GCRS_KinematicsType.h"
+#include "../../../include/asb_uci/type/J2K_KinematicsType.h"
+#include "../../../include/asb_uci/type/TLE_WithParametersType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/BCRS_KinematicsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/GCRS_KinematicsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/J2K_KinematicsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalKinematicsFrameChoiceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TLE_WithParametersType.h"
 
 /**  */
 namespace asb_uci {

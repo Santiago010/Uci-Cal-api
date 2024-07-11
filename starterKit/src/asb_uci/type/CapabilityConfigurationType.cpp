@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CapabilityConfigurationType.h"
+#include "../../../include/asb_uci/type/CapabilityConfigurationType.h"
 
 #include <memory>
 #include <string>
@@ -41,16 +41,16 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CapabilityConfigurationID_Type.h"
-#include "asb_uci/type/CapabilityID_Type.h"
-#include "asb_uci/type/SubsystemID_Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CapabilityConfigurationID_Type.h"
-#include "uci/type/CapabilityConfigurationType.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/SubsystemID_Type.h"
+#include "../../../include/asb_uci/type/CapabilityConfigurationID_Type.h"
+#include "../../../include/asb_uci/type/CapabilityID_Type.h"
+#include "../../../include/asb_uci/type/SubsystemID_Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityConfigurationID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityConfigurationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemID_Type.h"
 
 /**  */
 namespace asb_uci {
@@ -62,6 +62,12 @@ CapabilityConfigurationType::CapabilityConfigurationType()
   : configurationID_Accessor{boost::make_unique<CapabilityConfigurationID_Type>()},
     subsystemID_Accessor{boost::make_unique<SubsystemID>(0, SIZE_MAX)},
     capabilityID_Accessor{boost::make_unique<CapabilityID>(0, SIZE_MAX)} {
+}
+
+CapabilityConfigurationType::CapabilityConfigurationType(const CapabilityConfigurationType& rhs)
+    : configurationID_Accessor{boost::make_unique<CapabilityConfigurationID_Type>(*rhs.configurationID_Accessor)},
+      subsystemID_Accessor{boost::make_unique<SubsystemID>(*rhs.subsystemID_Accessor)},
+      capabilityID_Accessor{boost::make_unique<CapabilityID>(*rhs.capabilityID_Accessor)} {
 }
 
 CapabilityConfigurationType::~CapabilityConfigurationType() = default;
