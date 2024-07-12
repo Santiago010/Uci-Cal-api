@@ -40,8 +40,8 @@
 
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/base/FloatAccessor.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/FloatAccessor.h"
 
 /**  */
 namespace asb_uci {

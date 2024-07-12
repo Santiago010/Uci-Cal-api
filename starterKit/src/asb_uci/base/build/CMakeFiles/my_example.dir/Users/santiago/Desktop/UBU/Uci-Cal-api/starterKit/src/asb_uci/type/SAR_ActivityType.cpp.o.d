@@ -1815,6 +1815,13 @@ CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/../../../include/asb_uci/type/../../../../cppInterface/2.3.2/include/uci/type/Point3D_Type.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/../../../include/asb_uci/type/../../../../cppInterface/2.3.2/include/uci/type/SAR_PredictedActivityDetailType.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/../../../include/asb_uci/type/ForeignKeyType.h \
+  /usr/local/include/boost/scoped_ptr.hpp \
+  /usr/local/include/boost/smart_ptr/scoped_ptr.hpp \
+  /usr/local/include/boost/core/checked_delete.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_nullptr_t.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_disable_deprecated.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_noexcept.hpp \
+  /usr/local/include/boost/smart_ptr/detail/operator_bool.hpp \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/../../../include/asb_uci/type/MultistaticModeOptionsEmployedType.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/../../../include/asb_uci/type/MultistaticModeStatusEnum.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/../../../include/asb_uci/type/RadarPointingTargetType.h \

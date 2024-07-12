@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/DurationType.h"
-#include "asb_uci/type/FrequencyOffsetType.h"
-#include "asb_uci/type/FrequencyType.h"
-#include "uci/type/ArrivalDataType.h"
+#include "../../../include/asb_uci/type/DurationType.h"
+#include "../../../include/asb_uci/type/FrequencyOffsetType.h"
+#include "../../../include/asb_uci/type/FrequencyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ArrivalDataType.h"
 
 /**  */
 namespace asb_uci {

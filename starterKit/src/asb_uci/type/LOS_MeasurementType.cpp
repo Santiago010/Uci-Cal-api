@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/LOS_MeasurementType.h"
+#include "../../../include/asb_uci/type/LOS_MeasurementType.h"
 
 #include <memory>
 #include <string>
@@ -41,18 +41,18 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ArrivalDataType.h"
-#include "asb_uci/type/ConeAngleType.h"
-#include "asb_uci/type/LOS_AzElType.h"
-#include "asb_uci/type/SlantRangeType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ArrivalDataType.h"
-#include "uci/type/ConeAngleType.h"
-#include "uci/type/LOS_AzElType.h"
-#include "uci/type/LOS_MeasurementType.h"
-#include "uci/type/SlantRangeType.h"
+#include "../../../include/asb_uci/type/ArrivalDataType.h"
+#include "../../../include/asb_uci/type/ConeAngleType.h"
+#include "../../../include/asb_uci/type/LOS_AzElType.h"
+#include "../../../include/asb_uci/type/SlantRangeType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ArrivalDataType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ConeAngleType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/LOS_AzElType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/LOS_MeasurementType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SlantRangeType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,8 +36,8 @@
 #ifndef ASB_UCI_TYPE_UNITINTERVALFLOATTYPE_H
 #define ASB_UCI_TYPE_UNITINTERVALFLOATTYPE_H
 
-#include "asb_uci/base/FloatAccessor.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/base/FloatAccessor.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

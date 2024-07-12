@@ -41,11 +41,11 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AltitudeSourceEnum.h"
-#include "asb_uci/type/DepthContactEnum.h"
-#include "asb_uci/type/DistanceOffsetType.h"
-#include "asb_uci/type/Point2D_Type.h"
-#include "uci/type/Point2D_ReportedType.h"
+#include "../../../include/asb_uci/type/AltitudeSourceEnum.h"
+#include "../../../include/asb_uci/type/DepthContactEnum.h"
+#include "../../../include/asb_uci/type/DistanceOffsetType.h"
+#include "../../../include/asb_uci/type/Point2D_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/Point2D_ReportedType.h"
 
 /**  */
 namespace asb_uci {

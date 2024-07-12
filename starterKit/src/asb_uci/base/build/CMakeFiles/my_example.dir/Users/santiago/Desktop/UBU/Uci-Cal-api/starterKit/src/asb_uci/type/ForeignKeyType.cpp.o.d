@@ -1379,6 +1379,14 @@ CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/
   /usr/local/include/boost/multi_index/member.hpp \
   /usr/local/include/boost/property_tree/detail/ptree_implementation.hpp \
   /usr/local/include/boost/core/type_name.hpp \
+  /usr/local/include/boost/scoped_ptr.hpp \
+  /usr/local/include/boost/smart_ptr/scoped_ptr.hpp \
+  /usr/local/include/boost/smart_ptr/detail/requires_cxx11.hpp \
+  /usr/local/include/boost/core/checked_delete.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_nullptr_t.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_disable_deprecated.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_noexcept.hpp \
+  /usr/local/include/boost/smart_ptr/detail/operator_bool.hpp \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/../../../include/asb_uci/type/VisibleString256Type.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/../../../include/asb_uci/type/../../../../cppInterface/2.3.2/include/xs/type/stringXmlSchemaPrimitives.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/../../../include/asb_uci/type/../../../../cppInterface/2.3.2/include/xs/type/../../uci/base/StringAccessor.h \
@@ -1388,7 +1396,6 @@ CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/../../../include/asb_uci/type/../../asb_xs/type/binaryXmlSchemaPrimitives.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/../../../include/asb_uci/type/../../asb_xs/type/../../asb_uci/base/PrimitiveList.h \
   /usr/local/include/boost/smart_ptr/make_unique.hpp \
-  /usr/local/include/boost/smart_ptr/detail/requires_cxx11.hpp \
   /usr/local/include/boost/type_traits/is_unbounded_array.hpp \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/../../../include/asb_uci/type/../../asb_xs/type/../../asb_uci/base/../../../../cppInterface/2.3.2/include/uci/base/Accessor.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/../../../include/asb_uci/type/../../asb_xs/type/../../asb_uci/base/../../../../cppInterface/2.3.2/include/uci/base/SimpleList.h \

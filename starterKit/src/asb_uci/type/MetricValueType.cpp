@@ -33,27 +33,29 @@
  *
  */
 
-#include "asb_uci/type/MetricValueType.h"
+#include "../../../include/asb_uci/type/MetricValueType.h"
 
 #include <memory>
+#include <string> // Incluir el encabezado de std::string
+
 #include <string>
 
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ForeignKeyType.h"
-#include "asb_uci/type/NegotiableOptionsEnum.h"
-#include "asb_uci/type/VisibleString256Type.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/MetricValueType.h"
-#include "uci/type/NegotiableOptionsEnum.h"
-#include "uci/type/UnitIntervalFloatType.h"
-#include "uci/type/VisibleString256Type.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/ForeignKeyType.h"
+#include "../../../include/asb_uci/type/NegotiableOptionsEnum.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ForeignKeyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MetricValueType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/NegotiableOptionsEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/UnitIntervalFloatType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString256Type.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {
@@ -62,7 +64,7 @@ namespace asb_uci {
 namespace type {
 
 MetricValueType::MetricValueType()
-  : metricIdentifier_Accessor{boost::make_unique<ForeignKeyType>()} {
+  : metricIdentifier_Accessor{boost::make_unique<ForeignKeyType>()},descriptionOfMetric_Accessor{boost::make_unique<std::string>()} {
 }
 
 MetricValueType::~MetricValueType() = default;
@@ -129,18 +131,18 @@ uci::type::ForeignKeyType& MetricValueType::enableMetricIdentifier(uci::base::ac
   return *metricIdentifier_Accessor;
 }
 
-uci::type::VisibleString256Type& MetricValueType::getDescriptionOfMetric_() const {
+std::string& MetricValueType::getDescriptionOfMetric_() const {
   if (descriptionOfMetric_Accessor) {
     return *descriptionOfMetric_Accessor;
   }
   throw uci::base::UCIException("Error in getDescriptionOfMetric(): An attempt was made to get an optional field that was not enabled, call hasDescriptionOfMetric() to determine if it is safe to call getDescriptionOfMetric()");
 }
 
-const uci::type::VisibleString256Type& MetricValueType::getDescriptionOfMetric() const {
+const std::string& MetricValueType::getDescriptionOfMetric() const {
   return getDescriptionOfMetric_();
 }
 
-uci::type::VisibleString256Type& MetricValueType::getDescriptionOfMetric() {
+std::string& MetricValueType::getDescriptionOfMetric() {
   return getDescriptionOfMetric_();
 }
 
@@ -153,7 +155,11 @@ uci::type::MetricValueType& MetricValueType::setDescriptionOfMetric(const std::s
 }
 
 uci::type::MetricValueType& MetricValueType::setDescriptionOfMetric(const char* value) {
-  enableDescriptionOfMetric().setStringValue(value);
+  // enableDescriptionOfMetric().setStringValue(value);
+
+  // TODO:HAY QUE CAMBIAR ESTO
+  descriptionOfMetric_Accessor = boost::make_unique<std::string>(value);
+
   return *this;
 }
 
@@ -161,15 +167,15 @@ bool MetricValueType::hasDescriptionOfMetric() const noexcept {
   return static_cast<bool>(descriptionOfMetric_Accessor);
 }
 
-uci::type::VisibleString256Type& MetricValueType::enableDescriptionOfMetric(uci::base::accessorType::AccessorType type) {
+std::string& MetricValueType::enableDescriptionOfMetric(uci::base::accessorType::AccessorType type) {
   if (!descriptionOfMetric_Accessor) {
-    descriptionOfMetric_Accessor = VisibleString256Type::create(type);
+    descriptionOfMetric_Accessor = descriptionOfMetric_Accessor = boost::make_unique<std::string>("");
   }
   return *descriptionOfMetric_Accessor;
 }
 
 uci::type::MetricValueType& MetricValueType::clearDescriptionOfMetric() noexcept {
-  descriptionOfMetric_Accessor.reset();
+  // descriptionOfMetric_Accessor.reset();TODO:quite reset porque no se si este en std::String
   return *this;
 }
 

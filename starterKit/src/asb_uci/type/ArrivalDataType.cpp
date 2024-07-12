@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ArrivalDataType.h"
+#include "../../../include/asb_uci/type/ArrivalDataType.h"
 
 #include <memory>
 #include <string>
@@ -41,13 +41,13 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ArrivalDataType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/FrequencyOffsetType.h"
-#include "uci/type/FrequencyType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ArrivalDataType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DurationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FrequencyOffsetType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FrequencyType.h"
 
 /**  */
 namespace asb_uci {

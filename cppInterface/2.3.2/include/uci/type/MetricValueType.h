@@ -150,13 +150,13 @@ public:
     *
     * @return A const reference to the accessor that provides access to the string identified by DescriptionOfMetric.
     */
-  virtual const uci::type::VisibleString256Type& getDescriptionOfMetric() const = 0;
+  virtual const std::string& getDescriptionOfMetric() const = 0;
 
   /** Returns a reference to the accessor that provides access to the string identified by DescriptionOfMetric.
     *
     * @return A reference to the accessor that provides access to the string identified by DescriptionOfMetric.
     */
-  virtual uci::type::VisibleString256Type& getDescriptionOfMetric() = 0;
+  virtual std::string& getDescriptionOfMetric() = 0;
 
   /** Sets the string identified by DescriptionOfMetric to the contents of the string accessed by the specified accessor.
     *
@@ -193,7 +193,7 @@ public:
     * @param type = uci::base::accessorType::null This Accessor's accessor type.
     * @return A reference to the accessor that provides access to the string identified by DescriptionOfMetric.
     */
-  virtual uci::type::VisibleString256Type& enableDescriptionOfMetric(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
+  virtual std::string& enableDescriptionOfMetric(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
 
   /** Clears (disabled) the Element identified by DescriptionOfMetric.
     *

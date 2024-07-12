@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/EntityPositionType.h"
+#include "../../../include/asb_uci/type/EntityPositionType.h"
 
 #include <memory>
 #include <string>
@@ -41,17 +41,17 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/FixedPositionType.h"
-#include "asb_uci/type/RelativePositionType.h"
-#include "asb_uci/type/ZoneType.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/EntityPositionType.h"
-#include "uci/type/FixedPositionType.h"
-#include "uci/type/RelativePositionType.h"
-#include "uci/type/ZoneType.h"
+#include "../../../include/asb_uci/type/FixedPositionType.h"
+#include "../../../include/asb_uci/type/RelativePositionType.h"
+#include "../../../include/asb_uci/type/ZoneType.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EntityPositionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FixedPositionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RelativePositionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ZoneType.h"
 
 /**  */
 namespace asb_uci {

@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AngleRateType.h"
-#include "asb_uci/type/AngleType.h"
-#include "asb_uci/type/LOS_ReferenceEnum.h"
-#include "uci/type/RelativeAnglesLOS3D_Type.h"
+#include "../../../include/asb_uci/type/AngleRateType.h"
+#include "../../../include/asb_uci/type/AngleType.h"
+#include "../../../include/asb_uci/type/LOS_ReferenceEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RelativeAnglesLOS3D_Type.h"
 
 /**  */
 namespace asb_uci {

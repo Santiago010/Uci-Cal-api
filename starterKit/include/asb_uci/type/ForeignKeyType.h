@@ -40,6 +40,7 @@
 
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
+#include <boost/scoped_ptr.hpp>
 
 #include "VisibleString256Type.h"
 #include "../../../../cppInterface/2.3.2/include/uci/type/ForeignKeyType.h"
@@ -204,6 +205,7 @@ public:
 private:
   std::unique_ptr<VisibleString256Type> key_Accessor;
   std::unique_ptr<VisibleString256Type> systemName_Accessor;
+
 
 };
 

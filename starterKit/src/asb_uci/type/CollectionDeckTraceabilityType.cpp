@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CollectionDeckTraceabilityType.h"
+#include "../../../include/asb_uci/type/CollectionDeckTraceabilityType.h"
 
 #include <memory>
 #include <string>
@@ -41,14 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AlphanumericDashSpaceUnderscoreString12OnlyType.h"
-#include "asb_uci/type/AlphanumericString7OnlyType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AlphanumericDashSpaceUnderscoreString12OnlyType.h"
-#include "uci/type/AlphanumericString7OnlyType.h"
-#include "uci/type/CollectionDeckTraceabilityType.h"
+#include "../../../include/asb_uci/type/AlphanumericDashSpaceUnderscoreString12OnlyType.h"
+#include "../../../include/asb_uci/type/AlphanumericString7OnlyType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AlphanumericDashSpaceUnderscoreString12OnlyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AlphanumericString7OnlyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CollectionDeckTraceabilityType.h"
 
 /**  */
 namespace asb_uci {
