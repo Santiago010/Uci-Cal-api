@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_COMMCDL_COMMWAVEFORMACTIVITYTYPE_H
 #define UCI_TYPE_COMMCDL_COMMWAVEFORMACTIVITYTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/CommCDL_ControlType.h"
-#include "uci/type/CommCDL_LinkFallbackStateEnum.h"
-#include "uci/type/CommWaveformActivityPET.h"
+#include "../base/export.h"
+#include "CommCDL_ControlType.h"
+#include "CommCDL_LinkFallbackStateEnum.h"
+#include "CommWaveformActivityPET.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

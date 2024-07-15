@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_RESPONSEPLANVALIDATIONCOMMANDSTATUS_H
 #define UCI_TYPE_RESPONSEPLANVALIDATIONCOMMANDSTATUS_H
 
-#include "uci/type/ResponsePlanValidationCommandStatusMT.h"
+#include "ResponsePlanValidationCommandStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

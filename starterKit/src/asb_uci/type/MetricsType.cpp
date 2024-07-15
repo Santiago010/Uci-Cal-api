@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/MetricsType.h"
+#include "../../../include/asb_uci/type/MetricsType.h"
 
 #include <memory>
 #include <string>
@@ -41,16 +41,16 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/EnduranceType.h"
-#include "asb_uci/type/ExpendableType.h"
-#include "asb_uci/type/WeaponStoreType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/EnduranceType.h"
-#include "uci/type/ExpendableType.h"
-#include "uci/type/MetricsType.h"
-#include "uci/type/WeaponStoreType.h"
+#include "../../../include/asb_uci/type/EnduranceType.h"
+#include "../../../include/asb_uci/type/ExpendableType.h"
+#include "../../../include/asb_uci/type/WeaponStoreType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EnduranceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ExpendableType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MetricsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/WeaponStoreType.h"
 
 /**  */
 namespace asb_uci {

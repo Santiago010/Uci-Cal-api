@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_DATARECORDLISTMANAGEMENTREQUESTSTATUS_H
 #define UCI_TYPE_DATARECORDLISTMANAGEMENTREQUESTSTATUS_H
 
-#include "uci/type/DataRecordListManagementRequestStatusMT.h"
+#include "DataRecordListManagementRequestStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

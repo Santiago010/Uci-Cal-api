@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/GatewayActivityCommandType.h"
+#include "../../../include/asb_uci/type/GatewayActivityCommandType.h"
 
 #include <memory>
 #include <string>
@@ -41,21 +41,21 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ActivityCommandBaseType.h"
-#include "asb_uci/type/CommConnectionCommandEnum.h"
-#include "asb_uci/type/CommProfileID_Type.h"
-#include "asb_uci/type/GatewayConfigurationType.h"
-#include "asb_uci/type/GatewayControlType.h"
-#include "asb_uci/type/VerboseStatusType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CommConnectionCommandEnum.h"
-#include "uci/type/CommProfileID_Type.h"
-#include "uci/type/GatewayActivityCommandType.h"
-#include "uci/type/GatewayConfigurationType.h"
-#include "uci/type/GatewayControlType.h"
-#include "uci/type/VerboseStatusType.h"
+#include "../../../include/asb_uci/type/ActivityCommandBaseType.h"
+#include "../../../include/asb_uci/type/CommConnectionCommandEnum.h"
+#include "../../../include/asb_uci/type/CommProfileID_Type.h"
+#include "../../../include/asb_uci/type/GatewayConfigurationType.h"
+#include "../../../include/asb_uci/type/GatewayControlType.h"
+#include "../../../include/asb_uci/type/VerboseStatusType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommConnectionCommandEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommProfileID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/GatewayActivityCommandType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/GatewayConfigurationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/GatewayControlType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VerboseStatusType.h"
 
 /**  */
 namespace asb_uci {

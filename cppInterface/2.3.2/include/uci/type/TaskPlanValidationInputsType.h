@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_TASKPLANVALIDATIONINPUTSTYPE_H
 #define UCI_TYPE_TASKPLANVALIDATIONINPUTSTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/PlanValidationInputsBaseType.h"
-#include "uci/type/TaskPlanID_Type.h"
-#include "uci/type/TaskTypeEnum.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "PlanValidationInputsBaseType.h"
+#include "TaskPlanID_Type.h"
+#include "TaskTypeEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

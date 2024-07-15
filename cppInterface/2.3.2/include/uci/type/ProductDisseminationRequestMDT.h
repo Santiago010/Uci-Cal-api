@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_PRODUCTDISSEMINATIONREQUESTMDT_H
 #define UCI_TYPE_PRODUCTDISSEMINATIONREQUESTMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/ComparableRankingType.h"
-#include "uci/type/DisseminationRequirementsType.h"
-#include "uci/type/DownloadPriorityEnum.h"
-#include "uci/type/RequestBaseType.h"
-#include "uci/type/SystemID_Type.h"
+#include "../base/export.h"
+#include "ComparableRankingType.h"
+#include "DisseminationRequirementsType.h"
+#include "DownloadPriorityEnum.h"
+#include "RequestBaseType.h"
+#include "SystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

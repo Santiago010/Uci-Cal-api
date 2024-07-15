@@ -36,17 +36,17 @@
 #ifndef UCI_TYPE_ASSESSMENTTYPE_H
 #define UCI_TYPE_ASSESSMENTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AchievabilityAssessmentPET.h"
-#include "uci/type/CapabilityUtilizationAssessmentType.h"
-#include "uci/type/CommPointingPlanAssessmentType.h"
-#include "uci/type/RouteDeconflictionAssessmentType.h"
-#include "uci/type/RouteThreatAssessmentType.h"
-#include "uci/type/RouteVulnerabilityMetricsAssessmentType.h"
-#include "uci/type/TargetMobilityAssessmentType.h"
-#include "uci/type/ThreatNominationAssessmentType.h"
-#include "uci/type/VehicleThreatAssessmentType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AchievabilityAssessmentPET.h"
+#include "CapabilityUtilizationAssessmentType.h"
+#include "CommPointingPlanAssessmentType.h"
+#include "RouteDeconflictionAssessmentType.h"
+#include "RouteThreatAssessmentType.h"
+#include "RouteVulnerabilityMetricsAssessmentType.h"
+#include "TargetMobilityAssessmentType.h"
+#include "ThreatNominationAssessmentType.h"
+#include "VehicleThreatAssessmentType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

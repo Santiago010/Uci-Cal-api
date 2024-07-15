@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_TURRETREPORT_H
 #define UCI_TYPE_TURRETREPORT_H
 
-#include "uci/type/TurretReportMT.h"
+#include "TurretReportMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

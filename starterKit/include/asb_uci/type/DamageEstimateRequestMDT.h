@@ -41,14 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/DamageCategoryEnum.h"
-#include "asb_uci/type/DamageEstimateContentsEnum.h"
-#include "asb_uci/type/DateTimeType.h"
-#include "asb_uci/type/PercentType.h"
-#include "asb_uci/type/RequestBaseType.h"
-#include "asb_uci/type/VisibleString64Type.h"
-#include "uci/type/DamageEstimateRequestMDT.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/DamageCategoryEnum.h"
+#include "../../../include/asb_uci/type/DamageEstimateContentsEnum.h"
+#include "../../../include/asb_uci/type/DateTimeType.h"
+#include "../../../include/asb_uci/type/PercentType.h"
+#include "../../../include/asb_uci/type/RequestBaseType.h"
+#include "../../../include/asb_uci/type/VisibleString64Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DamageEstimateRequestMDT.h"
 
 /**  */
 namespace asb_uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ESM_COMMAND_H
 #define UCI_TYPE_ESM_COMMAND_H
 
-#include "uci/type/ESM_CommandMT.h"
+#include "ESM_CommandMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

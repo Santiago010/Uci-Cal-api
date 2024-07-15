@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_IP_CONNECTIONTYPE_H
 #define UCI_TYPE_IP_CONNECTIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/IP_ConnectionChoiceType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "IP_ConnectionChoiceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

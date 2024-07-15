@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_PRODUCTOUTPUTCOMMANDBASICTYPE_H
 #define UCI_TYPE_PRODUCTOUTPUTCOMMANDBASICTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/ProductOutputType.h"
-#include "uci/type/SecurityInformationType.h"
+#include "../base/export.h"
+#include "ProductOutputType.h"
+#include "SecurityInformationType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_IO_PORTSTATUSTYPE_H
 #define UCI_TYPE_IO_PORTSTATUSTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/IO_PortType.h"
-#include "uci/type/SubsystemID_Type.h"
-#include "uci/type/SupportCapabilityStatusBaseType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "IO_PortType.h"
+#include "SubsystemID_Type.h"
+#include "SupportCapabilityStatusBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,17 +36,17 @@
 #ifndef UCI_TYPE_MEASUREMENTSOURCEIDENTITYTYPE_H
 #define UCI_TYPE_MEASUREMENTSOURCEIDENTITYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/UnsignedShortAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ActivityID_Type.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/EntityID_Type.h"
-#include "uci/type/SatelliteIdentifierType.h"
-#include "uci/type/ServiceID_Type.h"
-#include "uci/type/SubsystemID_Type.h"
-#include "uci/type/SystemID_Type.h"
-#include "uci/type/TaskID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/UnsignedShortAccessor.h"
+#include "../base/export.h"
+#include "ActivityID_Type.h"
+#include "CapabilityID_Type.h"
+#include "EntityID_Type.h"
+#include "SatelliteIdentifierType.h"
+#include "ServiceID_Type.h"
+#include "SubsystemID_Type.h"
+#include "SystemID_Type.h"
+#include "TaskID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

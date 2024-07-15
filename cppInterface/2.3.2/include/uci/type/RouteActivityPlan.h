@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ROUTEACTIVITYPLAN_H
 #define UCI_TYPE_ROUTEACTIVITYPLAN_H
 
-#include "uci/type/RouteActivityPlanMT.h"
+#include "RouteActivityPlanMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

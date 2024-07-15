@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_STABILITYCHARACTERIZATIONTYPE_H
 #define UCI_TYPE_STABILITYCHARACTERIZATIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AngleRateType.h"
-#include "uci/type/AngleType.h"
-#include "uci/type/DistanceType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AngleRateType.h"
+#include "AngleType.h"
+#include "DistanceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

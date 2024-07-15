@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_LAR_REPORT_H
 #define UCI_TYPE_LAR_REPORT_H
 
-#include "uci/type/LAR_ReportMT.h"
+#include "LAR_ReportMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

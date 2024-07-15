@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_MULTISTATICEMITTERDATA_H
 #define UCI_TYPE_MULTISTATICEMITTERDATA_H
 
-#include "uci/type/MultistaticEmitterDataMT.h"
+#include "MultistaticEmitterDataMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

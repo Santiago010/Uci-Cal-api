@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_EXTERNALDATAREQUEST_H
 #define UCI_TYPE_EXTERNALDATAREQUEST_H
 
-#include "uci/type/ExternalDataRequestMT.h"
+#include "ExternalDataRequestMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

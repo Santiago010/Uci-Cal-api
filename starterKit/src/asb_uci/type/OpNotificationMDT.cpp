@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/OpNotificationMDT.h"
+#include "../../../include/asb_uci/type/OpNotificationMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,20 +41,20 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AssociatedMessageType.h"
-#include "asb_uci/type/NotificationBaseType.h"
-#include "asb_uci/type/OpID_ChoiceType.h"
-#include "asb_uci/type/OpInteractingAssetType.h"
-#include "asb_uci/type/OpNotificationEXT.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AssociatedMessageType.h"
-#include "uci/type/OpID_ChoiceType.h"
-#include "uci/type/OpInteractingAssetType.h"
-#include "uci/type/OpNotificationEXT.h"
-#include "uci/type/OpNotificationMDT.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/AssociatedMessageType.h"
+#include "../../../include/asb_uci/type/NotificationBaseType.h"
+#include "../../../include/asb_uci/type/OpID_ChoiceType.h"
+#include "../../../include/asb_uci/type/OpInteractingAssetType.h"
+#include "../../../include/asb_uci/type/OpNotificationEXT.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AssociatedMessageType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpID_ChoiceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpInteractingAssetType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpNotificationEXT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpNotificationMDT.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

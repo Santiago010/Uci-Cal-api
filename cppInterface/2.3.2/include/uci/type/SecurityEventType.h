@@ -36,18 +36,18 @@
 #ifndef UCI_TYPE_SECURITYEVENTTYPE_H
 #define UCI_TYPE_SECURITYEVENTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/SecurityAccessType.h"
-#include "uci/type/SecurityAuditManagementType.h"
-#include "uci/type/SecurityAuthenticationType.h"
-#include "uci/type/SecurityFileManagementType.h"
-#include "uci/type/SecurityIntegrityType.h"
-#include "uci/type/SecurityIntrusionDetectionType.h"
-#include "uci/type/SecurityKeyManagementType.h"
-#include "uci/type/SecurityPolicyManagementType.h"
-#include "uci/type/SecuritySanitizationType.h"
-#include "uci/type/SecuritySystemType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "SecurityAccessType.h"
+#include "SecurityAuditManagementType.h"
+#include "SecurityAuthenticationType.h"
+#include "SecurityFileManagementType.h"
+#include "SecurityIntegrityType.h"
+#include "SecurityIntrusionDetectionType.h"
+#include "SecurityKeyManagementType.h"
+#include "SecurityPolicyManagementType.h"
+#include "SecuritySanitizationType.h"
+#include "SecuritySystemType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

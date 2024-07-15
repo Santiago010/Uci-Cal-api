@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_SYSTEMSNEEDEDOPTIONTYPE_H
 #define UCI_TYPE_SYSTEMSNEEDEDOPTIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/SystemsNeededResultsType.h"
-#include "uci/type/UnachievableRequirementType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "SystemsNeededResultsType.h"
+#include "UnachievableRequirementType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_FALSEALARMTYPE_H
 #define UCI_TYPE_FALSEALARMTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/UnsignedByteAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DecibelType.h"
+#include "../base/Accessor.h"
+#include "../base/UnsignedByteAccessor.h"
+#include "../base/export.h"
+#include "DecibelType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AugmentationProcessingParametersType.h"
-#include "asb_uci/type/VisibleString1024Type.h"
-#include "uci/type/ImageAugmentationParametersType.h"
+#include "../../../include/asb_uci/type/AugmentationProcessingParametersType.h"
+#include "../../../include/asb_uci/type/VisibleString1024Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ImageAugmentationParametersType.h"
 
 /**  */
 namespace asb_uci {

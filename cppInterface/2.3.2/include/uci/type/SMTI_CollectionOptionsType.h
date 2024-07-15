@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_SMTI_COLLECTIONOPTIONSTYPE_H
 #define UCI_TYPE_SMTI_COLLECTIONOPTIONSTYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/COARPS_SMTI_CollectionOptionsEnum.h"
-#include "uci/type/DecibelType.h"
-#include "uci/type/HRR_OptionsType.h"
-#include "uci/type/RadarCollectionOptionsType.h"
-#include "uci/type/RangeDopplerResolutionType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "COARPS_SMTI_CollectionOptionsEnum.h"
+#include "DecibelType.h"
+#include "HRR_OptionsType.h"
+#include "RadarCollectionOptionsType.h"
+#include "RangeDopplerResolutionType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

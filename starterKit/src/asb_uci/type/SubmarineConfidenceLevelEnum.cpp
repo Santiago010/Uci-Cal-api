@@ -33,7 +33,7 @@
  *
  */
 
-#include "uci/type/SubmarineConfidenceLevelEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubmarineConfidenceLevelEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

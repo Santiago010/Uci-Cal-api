@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_RF_RESOURCEALLOCATIONREQUESTMDT_H
 #define UCI_TYPE_RF_RESOURCEALLOCATIONREQUESTMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AperturePointingOptionsType.h"
-#include "uci/type/ComparableRankingType.h"
-#include "uci/type/RF_ResourceAllocationRequestRemovalType.h"
-#include "uci/type/RequestBaseType.h"
-#include "uci/type/RequestingFunctionID_ChoiceType.h"
-#include "uci/type/ResourceRequestOptionType.h"
-#include "uci/type/SupportCapabilityID_Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AperturePointingOptionsType.h"
+#include "ComparableRankingType.h"
+#include "RF_ResourceAllocationRequestRemovalType.h"
+#include "RequestBaseType.h"
+#include "RequestingFunctionID_ChoiceType.h"
+#include "ResourceRequestOptionType.h"
+#include "SupportCapabilityID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

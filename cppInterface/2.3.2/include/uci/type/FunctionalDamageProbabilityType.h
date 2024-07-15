@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_FUNCTIONALDAMAGEPROBABILITYTYPE_H
 #define UCI_TYPE_FUNCTIONALDAMAGEPROBABILITYTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/DamagedFunctionType.h"
-#include "uci/type/PercentType.h"
+#include "../base/export.h"
+#include "DamagedFunctionType.h"
+#include "PercentType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

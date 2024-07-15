@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_OPERATORROLETYPE_H
 #define UCI_TYPE_OPERATORROLETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/OperatorRoleID_Type.h"
-#include "uci/type/SystemServiceType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "OperatorRoleID_Type.h"
+#include "SystemServiceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

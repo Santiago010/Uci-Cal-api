@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_PLANNINGINTERFACESTYPE_H
 #define UCI_TYPE_PLANNINGINTERFACESTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/PlanSimultaneityEnum.h"
-#include "uci/type/PlanningInterfaceType.h"
+#include "../base/export.h"
+#include "PlanSimultaneityEnum.h"
+#include "PlanningInterfaceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_EQUATORIALKINEMATICSTYPE_H
 #define UCI_TYPE_EQUATORIALKINEMATICSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EquatorialCoordinatesCovarianceType.h"
-#include "uci/type/EquatorialCoordinatesType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "EquatorialCoordinatesCovarianceType.h"
+#include "EquatorialCoordinatesType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

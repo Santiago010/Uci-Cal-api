@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_SPECIFICVEHICLEIDENTITYCONFIDENCETYPE_H
 #define UCI_TYPE_SPECIFICVEHICLEIDENTITYCONFIDENCETYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/PercentType.h"
-#include "uci/type/VehicleIdentificationType.h"
+#include "../base/export.h"
+#include "PercentType.h"
+#include "VehicleIdentificationType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

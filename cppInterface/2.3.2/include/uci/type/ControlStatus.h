@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_CONTROLSTATUS_H
 #define UCI_TYPE_CONTROLSTATUS_H
 
-#include "uci/type/ControlStatusMT.h"
+#include "ControlStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

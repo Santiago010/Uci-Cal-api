@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_PARAMETERASSERTTYPE_H
 #define UCI_TYPE_PARAMETERASSERTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ID_Type.h"
-#include "uci/type/ParameterID_Type.h"
-#include "uci/type/ParameterValueType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ID_Type.h"
+#include "ParameterID_Type.h"
+#include "ParameterValueType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

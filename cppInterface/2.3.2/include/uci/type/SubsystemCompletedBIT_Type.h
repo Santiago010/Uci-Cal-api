@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_SUBSYSTEMCOMPLETEDBIT_TYPE_H
 #define UCI_TYPE_SUBSYSTEMCOMPLETEDBIT_TYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/BIT_ID_Type.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/SubsystemBIT_ResultEnum.h"
-#include "uci/type/SubsystemCompletedBIT_ItemType.h"
-#include "uci/type/VisibleString256Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "BIT_ID_Type.h"
+#include "DateTimeType.h"
+#include "SubsystemBIT_ResultEnum.h"
+#include "SubsystemCompletedBIT_ItemType.h"
+#include "VisibleString256Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {
@@ -181,13 +181,13 @@ public:
     *
     * @return A const reference to the accessor that provides access to the string identified by FailReason.
     */
-  virtual const uci::type::VisibleString256Type& getFailReason() const = 0;
+  virtual const std::string& getFailReason() const = 0;
 
   /** Returns a reference to the accessor that provides access to the string identified by FailReason.
     *
     * @return A reference to the accessor that provides access to the string identified by FailReason.
     */
-  virtual uci::type::VisibleString256Type& getFailReason() = 0;
+  virtual std::string& getFailReason() = 0;
 
   /** Sets the string identified by FailReason to the contents of the string accessed by the specified accessor.
     *
@@ -222,7 +222,7 @@ public:
     * @param type = uci::base::accessorType::null This Accessor's accessor type.
     * @return A reference to the accessor that provides access to the string identified by FailReason.
     */
-  virtual uci::type::VisibleString256Type& enableFailReason(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
+  virtual std::string& enableFailReason(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
 
   /** Clears (disabled) the Element identified by FailReason.
     *

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_TASKPLANAPPROVALSTATUS_H
 #define UCI_TYPE_TASKPLANAPPROVALSTATUS_H
 
-#include "uci/type/TaskPlanApprovalStatusMT.h"
+#include "TaskPlanApprovalStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

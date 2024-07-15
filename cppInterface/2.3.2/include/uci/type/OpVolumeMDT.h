@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_OPVOLUMEMDT_H
 #define UCI_TYPE_OPVOLUMEMDT_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/OpBaseType.h"
-#include "uci/type/OpVolumeID_Type.h"
-#include "uci/type/OpVolumeType.h"
-#include "uci/type/OpZoneCategoryEnum.h"
-#include "uci/type/OpZoneCategoryType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "OpBaseType.h"
+#include "OpVolumeID_Type.h"
+#include "OpVolumeType.h"
+#include "OpZoneCategoryEnum.h"
+#include "OpZoneCategoryType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

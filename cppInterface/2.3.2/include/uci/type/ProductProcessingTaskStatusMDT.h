@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_PRODUCTPROCESSINGTASKSTATUSMDT_H
 #define UCI_TYPE_PRODUCTPROCESSINGTASKSTATUSMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/ProductManagementTaskStatusDataType.h"
-#include "uci/type/ProductProcessingStatusType.h"
+#include "../base/export.h"
+#include "ProductManagementTaskStatusDataType.h"
+#include "ProductProcessingStatusType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

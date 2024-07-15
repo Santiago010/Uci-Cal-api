@@ -41,12 +41,12 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/AmbiguityOrderingEnum.h"
-#include "asb_uci/type/CapabilitySettingsCommandBaseType.h"
-#include "asb_uci/type/ESM_MessageOutputsEnum.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/ESM_SettingsCommandMDT.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/AmbiguityOrderingEnum.h"
+#include "../../../include/asb_uci/type/CapabilitySettingsCommandBaseType.h"
+#include "../../../include/asb_uci/type/ESM_MessageOutputsEnum.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ESM_SettingsCommandMDT.h"
 
 /**  */
 namespace asb_uci {

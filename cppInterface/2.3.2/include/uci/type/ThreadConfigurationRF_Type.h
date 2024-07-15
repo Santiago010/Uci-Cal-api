@@ -36,19 +36,19 @@
 #ifndef UCI_TYPE_THREADCONFIGURATIONRF_TYPE_H
 #define UCI_TYPE_THREADCONFIGURATIONRF_TYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AntennaResourceID_Type.h"
-#include "uci/type/BeamPointingReferenceType.h"
-#include "uci/type/BeamPowerModeEnum.h"
-#include "uci/type/BeamShapingType.h"
-#include "uci/type/DecibelType.h"
-#include "uci/type/FrequencyRangeType.h"
-#include "uci/type/PolarizationControlType.h"
-#include "uci/type/RF_TypeEnum.h"
-#include "uci/type/SupportCapabilityID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "AntennaResourceID_Type.h"
+#include "BeamPointingReferenceType.h"
+#include "BeamPowerModeEnum.h"
+#include "BeamShapingType.h"
+#include "DecibelType.h"
+#include "FrequencyRangeType.h"
+#include "PolarizationControlType.h"
+#include "RF_TypeEnum.h"
+#include "SupportCapabilityID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SOB_RECORDSOURCETYPE_H
 #define UCI_TYPE_SOB_RECORDSOURCETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/SOB_RecordSourceIdentityType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ForeignKeyType.h"
+#include "SOB_RecordSourceIdentityType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

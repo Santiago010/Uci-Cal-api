@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/WaypointTypeEnum.h"
-#include "uci/type/WayPointType.h"
+#include "../../../include/asb_uci/type/WaypointTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/WayPointType.h"
 
 /**  */
 namespace asb_uci {

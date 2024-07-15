@@ -36,9 +36,9 @@
 #ifndef ASB_UCI_TYPE_COMMCONNECTIONSTATEENUM_H
 #define ASB_UCI_TYPE_COMMCONNECTIONSTATEENUM_H
 
-#include "asb_uci/base/EnumAccessor.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CommConnectionStateEnum.h"
+#include "../../../include/asb_uci/base/EnumAccessor.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommConnectionStateEnum.h"
 
 /**  */
 namespace asb_uci {

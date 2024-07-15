@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/SolarFluxF10_7IndexType.h"
-#include "uci/type/SpaceWeatherParameterType.h"
+#include "../../../include/asb_uci/type/SolarFluxF10_7IndexType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SpaceWeatherParameterType.h"
 
 /**  */
 namespace asb_uci {

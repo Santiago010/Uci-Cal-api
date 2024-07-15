@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_RADAREMITTERIDENTITYTYPE_H
 #define UCI_TYPE_RADAREMITTERIDENTITYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/NotationType.h"
-#include "uci/type/RadarModeEnum.h"
-#include "uci/type/TrackModeEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ForeignKeyType.h"
+#include "NotationType.h"
+#include "RadarModeEnum.h"
+#include "TrackModeEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

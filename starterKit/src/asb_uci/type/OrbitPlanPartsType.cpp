@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/OrbitPlanPartsType.h"
+#include "../../../include/asb_uci/type/OrbitPlanPartsType.h"
 
 #include <memory>
 #include <string>
@@ -41,14 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/OrbitKinematicsEnum.h"
-#include "asb_uci/type/OrbitPlanPartsEnum.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/OrbitKinematicsEnum.h"
-#include "uci/type/OrbitPlanPartsEnum.h"
-#include "uci/type/OrbitPlanPartsType.h"
+#include "../../../include/asb_uci/type/OrbitKinematicsEnum.h"
+#include "../../../include/asb_uci/type/OrbitPlanPartsEnum.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitKinematicsEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitPlanPartsEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitPlanPartsType.h"
 
 /**  */
 namespace asb_uci {

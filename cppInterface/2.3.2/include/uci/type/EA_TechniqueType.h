@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_EA_TECHNIQUETYPE_H
 #define UCI_TYPE_EA_TECHNIQUETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ComponentID_Type.h"
-#include "uci/type/EA_ActivationEnum.h"
-#include "uci/type/EA_PointingEnum.h"
-#include "uci/type/EA_TechniqueIdentifierType.h"
-#include "uci/type/EmitterIdentityType.h"
-#include "uci/type/FrequencyRangeType.h"
-#include "uci/type/SpecificEmitterIdentityType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ComponentID_Type.h"
+#include "EA_ActivationEnum.h"
+#include "EA_PointingEnum.h"
+#include "EA_TechniqueIdentifierType.h"
+#include "EmitterIdentityType.h"
+#include "FrequencyRangeType.h"
+#include "SpecificEmitterIdentityType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

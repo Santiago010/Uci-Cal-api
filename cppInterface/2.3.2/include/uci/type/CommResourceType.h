@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_COMMRESOURCETYPE_H
 #define UCI_TYPE_COMMRESOURCETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AntennaID_Type.h"
-#include "uci/type/CommAntennaModeType.h"
-#include "uci/type/CommAssetID_Type.h"
-#include "uci/type/CommSystemID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AntennaID_Type.h"
+#include "CommAntennaModeType.h"
+#include "CommAssetID_Type.h"
+#include "CommSystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_OPERATORLOCATIONOFINTERESTMDT_H
 #define UCI_TYPE_OPERATORLOCATIONOFINTERESTMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DataRecordBaseType.h"
-#include "uci/type/EntityPositionType.h"
-#include "uci/type/OperatorLocationOfInterestID_Type.h"
-#include "uci/type/ReceiverIdentificationType.h"
-#include "uci/type/SystemMessageIdentifierType.h"
-#include "uci/type/VisibleString1024Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DataRecordBaseType.h"
+#include "EntityPositionType.h"
+#include "OperatorLocationOfInterestID_Type.h"
+#include "ReceiverIdentificationType.h"
+#include "SystemMessageIdentifierType.h"
+#include "VisibleString1024Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

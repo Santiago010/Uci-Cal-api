@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_ENTITYORBITALELEMENTSETREQUESTMT_H
 #define UCI_TYPE_ENTITYORBITALELEMENTSETREQUESTMT_H
 
-#include "uci/base/Listener.h"
-#include "uci/base/Reader.h"
-#include "uci/base/Writer.h"
-#include "uci/base/export.h"
-#include "uci/type/EntityOrbitalElementSetRequestMDT.h"
-#include "uci/type/MessageType.h"
+#include "../base/Listener.h"
+#include "../base/Reader.h"
+#include "../base/Writer.h"
+#include "../base/export.h"
+#include "EntityOrbitalElementSetRequestMDT.h"
+#include "MessageType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

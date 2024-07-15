@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_CONSTRAINEDOPZONETYPE_H
 #define UCI_TYPE_CONSTRAINEDOPZONETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/OpZoneCategoryEnum.h"
-#include "uci/type/OpZoneCategoryType.h"
-#include "uci/type/OpZoneID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "OpZoneCategoryEnum.h"
+#include "OpZoneCategoryType.h"
+#include "OpZoneID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_EFFECTPLANNINGRESULTTYPE_H
 #define UCI_TYPE_EFFECTPLANNINGRESULTTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/EffectID_Type.h"
-#include "uci/type/RequirementPlanningResultBaseType.h"
+#include "../base/export.h"
+#include "EffectID_Type.h"
+#include "RequirementPlanningResultBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_COMMDATATYPE_H
 #define UCI_TYPE_COMMDATATYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CommCapabilityEnum.h"
-#include "uci/type/CommResourceType.h"
-#include "uci/type/CommSpecificRequestDataEXT.h"
-#include "uci/type/DataRateType.h"
-#include "uci/type/FrequencyType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CommCapabilityEnum.h"
+#include "CommResourceType.h"
+#include "CommSpecificRequestDataEXT.h"
+#include "DataRateType.h"
+#include "FrequencyType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

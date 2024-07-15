@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_STORECARRIAGESTATUSTYPE_H
 #define UCI_TYPE_STORECARRIAGESTATUSTYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/DoubleAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/StoreStatusType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/DoubleAccessor.h"
+#include "../base/export.h"
+#include "StoreStatusType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

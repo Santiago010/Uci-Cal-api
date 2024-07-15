@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_ORBITALKINEMATICSTLE_SV_TYPE_H
 #define UCI_TYPE_ORBITALKINEMATICSTLE_SV_TYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/J2K_KinematicsType.h"
-#include "uci/type/TLE_BaseType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "J2K_KinematicsType.h"
+#include "TLE_BaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

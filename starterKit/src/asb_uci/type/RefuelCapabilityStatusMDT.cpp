@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/RefuelCapabilityStatusMDT.h"
+#include "../../../include/asb_uci/type/RefuelCapabilityStatusMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,18 +41,18 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AvailableFuelType.h"
-#include "asb_uci/type/CapabilityStatusBaseType.h"
-#include "asb_uci/type/CapabilityStatusType.h"
-#include "asb_uci/type/RefuelCapabilityStatusType.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AvailableFuelType.h"
-#include "uci/type/CapabilityStatusType.h"
-#include "uci/type/RefuelCapabilityStatusMDT.h"
-#include "uci/type/RefuelCapabilityStatusType.h"
+#include "../../../include/asb_uci/type/AvailableFuelType.h"
+#include "../../../include/asb_uci/type/CapabilityStatusBaseType.h"
+#include "../../../include/asb_uci/type/CapabilityStatusType.h"
+#include "../../../include/asb_uci/type/RefuelCapabilityStatusType.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AvailableFuelType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RefuelCapabilityStatusMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RefuelCapabilityStatusType.h"
 
 /**  */
 namespace asb_uci {

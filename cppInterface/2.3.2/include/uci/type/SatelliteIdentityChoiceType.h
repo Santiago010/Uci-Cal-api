@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SATELLITEIDENTITYCHOICETYPE_H
 #define UCI_TYPE_SATELLITEIDENTITYCHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AssetType.h"
-#include "uci/type/SatelliteIdentityType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AssetType.h"
+#include "SatelliteIdentityType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

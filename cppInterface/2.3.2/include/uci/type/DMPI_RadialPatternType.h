@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_DMPI_RADIALPATTERNTYPE_H
 #define UCI_TYPE_DMPI_RADIALPATTERNTYPE_H
 
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DMPI_PatternType.h"
-#include "uci/type/DistanceType.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "DMPI_PatternType.h"
+#include "DistanceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

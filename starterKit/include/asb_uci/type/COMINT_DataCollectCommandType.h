@@ -41,12 +41,12 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/DateTimeType.h"
-#include "asb_uci/type/DurationType.h"
-#include "asb_uci/type/ModulationEnum.h"
-#include "asb_uci/type/SignalTypeEnum.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/COMINT_DataCollectCommandType.h"
+#include "../../../include/asb_uci/type/DateTimeType.h"
+#include "../../../include/asb_uci/type/DurationType.h"
+#include "../../../include/asb_uci/type/ModulationEnum.h"
+#include "../../../include/asb_uci/type/SignalTypeEnum.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/COMINT_DataCollectCommandType.h"
 
 /**  */
 namespace asb_uci {

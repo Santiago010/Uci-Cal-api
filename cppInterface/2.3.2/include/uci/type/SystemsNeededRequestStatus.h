@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SYSTEMSNEEDEDREQUESTSTATUS_H
 #define UCI_TYPE_SYSTEMSNEEDEDREQUESTSTATUS_H
 
-#include "uci/type/SystemsNeededRequestStatusMT.h"
+#include "SystemsNeededRequestStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

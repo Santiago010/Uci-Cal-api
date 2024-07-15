@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_REFUELCOMMAND_H
 #define UCI_TYPE_REFUELCOMMAND_H
 
-#include "uci/type/RefuelCommandMT.h"
+#include "RefuelCommandMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

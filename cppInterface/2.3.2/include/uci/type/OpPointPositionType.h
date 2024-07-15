@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_OPPOINTPOSITIONTYPE_H
 #define UCI_TYPE_OPPOINTPOSITIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DistanceOffsetType.h"
-#include "uci/type/KinematicsFixedPositionType.h"
-#include "uci/type/Velocity2D_UncertaintyType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DistanceOffsetType.h"
+#include "KinematicsFixedPositionType.h"
+#include "Velocity2D_UncertaintyType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

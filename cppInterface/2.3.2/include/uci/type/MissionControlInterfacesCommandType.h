@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_MISSIONCONTROLINTERFACESCOMMANDTYPE_H
 #define UCI_TYPE_MISSIONCONTROLINTERFACESCOMMANDTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DirectControlInterfacesType.h"
-#include "uci/type/PlannedControlInterfacesCommandType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DirectControlInterfacesType.h"
+#include "PlannedControlInterfacesCommandType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

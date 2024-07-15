@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_GEOFILTERSQUERYTYPE_H
 #define UCI_TYPE_GEOFILTERSQUERYTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/QueryPET.h"
-#include "uci/type/ZoneRelationEnum.h"
-#include "uci/type/ZoneType.h"
+#include "../base/export.h"
+#include "QueryPET.h"
+#include "ZoneRelationEnum.h"
+#include "ZoneType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

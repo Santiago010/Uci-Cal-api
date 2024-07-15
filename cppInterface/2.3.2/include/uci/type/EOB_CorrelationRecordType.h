@@ -36,19 +36,19 @@
 #ifndef UCI_TYPE_EOB_CORRELATIONRECORDTYPE_H
 #define UCI_TYPE_EOB_CORRELATIONRECORDTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/EOB_CorrelatedToType.h"
-#include "uci/type/EOB_CorrelationRecordID_Type.h"
-#include "uci/type/EOB_CorrelationTypeEnum.h"
-#include "uci/type/EOB_SignalType.h"
-#include "uci/type/FixedPositionType.h"
-#include "uci/type/IdentityConfidenceType.h"
-#include "uci/type/KinematicsFixedType.h"
-#include "uci/type/NotationType.h"
-#include "uci/type/OB_CorrelationInputType.h"
-#include "uci/type/SecurityInformationType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DateTimeType.h"
+#include "EOB_CorrelatedToType.h"
+#include "EOB_CorrelationRecordID_Type.h"
+#include "EOB_CorrelationTypeEnum.h"
+#include "EOB_SignalType.h"
+#include "FixedPositionType.h"
+#include "IdentityConfidenceType.h"
+#include "KinematicsFixedType.h"
+#include "NotationType.h"
+#include "OB_CorrelationInputType.h"
+#include "SecurityInformationType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -41,11 +41,11 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/DoubleNonNegativeType.h"
-#include "asb_uci/type/PercentType.h"
-#include "asb_uci/type/UnitIntervalDoubleType.h"
-#include "uci/type/OrbitCollisionType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/DoubleNonNegativeType.h"
+#include "../../../include/asb_uci/type/PercentType.h"
+#include "../../../include/asb_uci/type/UnitIntervalDoubleType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitCollisionType.h"
 
 /**  */
 namespace asb_uci {

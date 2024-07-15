@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CommLink16CommWaveformActivityType.h"
+#include "../../../include/asb_uci/type/CommLink16CommWaveformActivityType.h"
 
 #include <memory>
 #include <string>
@@ -41,15 +41,15 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CommLink16ControlType.h"
-#include "asb_uci/type/CommWaveformActivityPET.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CommLink16CommWaveformActivityType.h"
-#include "uci/type/CommLink16ControlType.h"
-#include "uci/type/Link16_MessageGenerationRateType.h"
-#include "uci/type/Link16_ParticipationGroupIndexType.h"
+#include "../../../include/asb_uci/type/CommLink16ControlType.h"
+#include "../../../include/asb_uci/type/CommWaveformActivityPET.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommLink16CommWaveformActivityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommLink16ControlType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/Link16_MessageGenerationRateType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/Link16_ParticipationGroupIndexType.h"
 
 /**  */
 namespace asb_uci {

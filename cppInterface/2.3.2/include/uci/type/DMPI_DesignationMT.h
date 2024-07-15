@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_DMPI_DESIGNATIONMT_H
 #define UCI_TYPE_DMPI_DESIGNATIONMT_H
 
-#include "uci/base/Listener.h"
-#include "uci/base/Reader.h"
-#include "uci/base/Writer.h"
-#include "uci/base/export.h"
-#include "uci/type/DMPI_DesignationMDT.h"
-#include "uci/type/MessageType.h"
-#include "uci/type/ObjectStateEnum.h"
+#include "../base/Listener.h"
+#include "../base/Reader.h"
+#include "../base/Writer.h"
+#include "../base/export.h"
+#include "DMPI_DesignationMDT.h"
+#include "MessageType.h"
+#include "ObjectStateEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

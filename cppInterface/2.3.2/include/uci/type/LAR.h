@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_LAR_H
 #define UCI_TYPE_LAR_H
 
-#include "uci/type/LAR_MT.h"
+#include "LAR_MT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

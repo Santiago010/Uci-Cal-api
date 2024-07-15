@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_ESM_CAPABILITYSTATUSMDT_H
 #define UCI_TYPE_ESM_CAPABILITYSTATUSMDT_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AmbiguityOrderingEnum.h"
-#include "uci/type/CapabilityStatusBaseType.h"
-#include "uci/type/CapabilityStatusType.h"
-#include "uci/type/ESM_MessageOutputsEnum.h"
-#include "uci/type/RF_ProfileType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AmbiguityOrderingEnum.h"
+#include "CapabilityStatusBaseType.h"
+#include "CapabilityStatusType.h"
+#include "ESM_MessageOutputsEnum.h"
+#include "RF_ProfileType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

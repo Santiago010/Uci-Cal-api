@@ -36,18 +36,18 @@
 #ifndef UCI_TYPE_FILEMETADATAMDT_H
 #define UCI_TYPE_FILEMETADATAMDT_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CreationSourceEnum.h"
-#include "uci/type/DataRecordBaseType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/FileMetadataID_Type.h"
-#include "uci/type/FileNameType.h"
-#include "uci/type/FileOutputType.h"
-#include "uci/type/SHA_2_256_HashType.h"
-#include "uci/type/SecurityInformationType.h"
-#include "uci/type/SourceFiltersType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CreationSourceEnum.h"
+#include "DataRecordBaseType.h"
+#include "DateTimeType.h"
+#include "FileMetadataID_Type.h"
+#include "FileNameType.h"
+#include "FileOutputType.h"
+#include "SHA_2_256_HashType.h"
+#include "SecurityInformationType.h"
+#include "SourceFiltersType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

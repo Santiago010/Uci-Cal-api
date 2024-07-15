@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_SAR_COLLECTIONOPTIONSTYPE_H
 #define UCI_TYPE_SAR_COLLECTIONOPTIONSTYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/DoubleAccessor.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/COARPS_SAR_CollectionOptionsEnum.h"
-#include "uci/type/IEEE_FrequencyBandEnum.h"
-#include "uci/type/RadarCollectionOptionsType.h"
-#include "uci/type/SupportedResolutionID_Type.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/DoubleAccessor.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "COARPS_SAR_CollectionOptionsEnum.h"
+#include "IEEE_FrequencyBandEnum.h"
+#include "RadarCollectionOptionsType.h"
+#include "SupportedResolutionID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

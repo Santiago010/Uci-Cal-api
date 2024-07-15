@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/VehicleCommandDataType.h"
+#include "../../../include/asb_uci/type/VehicleCommandDataType.h"
 
 #include <memory>
 #include <string>
@@ -41,22 +41,22 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CommAllocationActionType.h"
-#include "asb_uci/type/IFF_Type.h"
-#include "asb_uci/type/VehicleActionEnum.h"
-#include "asb_uci/type/VehicleLossOfLinkProcessingEnum.h"
-#include "asb_uci/type/VehicleSurvivabilityModeEnum.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CommAllocationActionType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/IFF_Type.h"
-#include "uci/type/VehicleActionEnum.h"
-#include "uci/type/VehicleCommandDataType.h"
-#include "uci/type/VehicleLossOfLinkProcessingEnum.h"
-#include "uci/type/VehicleSurvivabilityModeEnum.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/CommAllocationActionType.h"
+#include "../../../include/asb_uci/type/IFF_Type.h"
+#include "../../../include/asb_uci/type/VehicleActionEnum.h"
+#include "../../../include/asb_uci/type/VehicleLossOfLinkProcessingEnum.h"
+#include "../../../include/asb_uci/type/VehicleSurvivabilityModeEnum.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommAllocationActionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DurationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IFF_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VehicleActionEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VehicleCommandDataType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VehicleLossOfLinkProcessingEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VehicleSurvivabilityModeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

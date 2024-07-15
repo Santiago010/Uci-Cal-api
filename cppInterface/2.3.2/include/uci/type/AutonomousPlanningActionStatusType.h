@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_AUTONOMOUSPLANNINGACTIONSTATUSTYPE_H
 #define UCI_TYPE_AUTONOMOUSPLANNINGACTIONSTATUSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AutonomousActionStatusEnum.h"
-#include "uci/type/AutonomousPlanningActionID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AutonomousActionStatusEnum.h"
+#include "AutonomousPlanningActionID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

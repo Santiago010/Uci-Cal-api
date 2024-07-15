@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AreaType.h"
-#include "asb_uci/type/MassType.h"
-#include "uci/type/PhysicalModelType.h"
+#include "../../../include/asb_uci/type/AreaType.h"
+#include "../../../include/asb_uci/type/MassType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PhysicalModelType.h"
 
 /**  */
 namespace asb_uci {

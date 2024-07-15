@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_PRODUCTPROCESSINGREQUESTMDT_H
 #define UCI_TYPE_PRODUCTPROCESSINGREQUESTMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/ComparableRankingType.h"
-#include "uci/type/DownloadPriorityEnum.h"
-#include "uci/type/ID_Type.h"
-#include "uci/type/ProcessingRequirementsType.h"
-#include "uci/type/RequestBaseType.h"
-#include "uci/type/SystemID_Type.h"
-#include "uci/type/TraceabilityType.h"
+#include "../base/export.h"
+#include "CapabilityID_Type.h"
+#include "ComparableRankingType.h"
+#include "DownloadPriorityEnum.h"
+#include "ID_Type.h"
+#include "ProcessingRequirementsType.h"
+#include "RequestBaseType.h"
+#include "SystemID_Type.h"
+#include "TraceabilityType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

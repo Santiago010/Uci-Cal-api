@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/CommCDL_RemoteMessageProcessingEnum.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/CommCDL_ControlType.h"
+#include "../../../include/asb_uci/type/CommCDL_RemoteMessageProcessingEnum.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommCDL_ControlType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,17 +36,17 @@
 #ifndef UCI_TYPE_SAR_TASKBASETYPE_H
 #define UCI_TYPE_SAR_TASKBASETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/LocatedEllipseType.h"
-#include "uci/type/PairIdentifierEnum.h"
-#include "uci/type/ProductOutputCommandImageryType.h"
-#include "uci/type/SAR_CapabilityEnum.h"
-#include "uci/type/SAR_CollectionConstraintsType.h"
-#include "uci/type/SAR_CollectionOptionsType.h"
-#include "uci/type/SAR_SubCapabilityEnum.h"
-#include "uci/type/SAR_WaveformType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "LocatedEllipseType.h"
+#include "PairIdentifierEnum.h"
+#include "ProductOutputCommandImageryType.h"
+#include "SAR_CapabilityEnum.h"
+#include "SAR_CollectionConstraintsType.h"
+#include "SAR_CollectionOptionsType.h"
+#include "SAR_SubCapabilityEnum.h"
+#include "SAR_WaveformType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

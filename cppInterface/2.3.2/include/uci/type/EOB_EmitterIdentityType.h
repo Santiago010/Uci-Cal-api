@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_EOB_EMITTERIDENTITYTYPE_H
 #define UCI_TYPE_EOB_EMITTERIDENTITYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EOB_CED_NameType.h"
-#include "uci/type/EOB_CodeWordType.h"
-#include "uci/type/EOB_EmitterSurrogateKeyType.h"
-#include "uci/type/EOB_WeaponSystemType.h"
-#include "uci/type/EmitterIdentityType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "EOB_CED_NameType.h"
+#include "EOB_CodeWordType.h"
+#include "EOB_EmitterSurrogateKeyType.h"
+#include "EOB_WeaponSystemType.h"
+#include "EmitterIdentityType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

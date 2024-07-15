@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SIGNALEMITTERKINEMATICSFIXEDGEOLOCATIONSTATUSTYPE_H
 #define UCI_TYPE_SIGNALEMITTERKINEMATICSFIXEDGEOLOCATIONSTATUSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/SignalGeolocationControlEnum.h"
-#include "uci/type/SignalGeolocationMethodEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "SignalGeolocationControlEnum.h"
+#include "SignalGeolocationMethodEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

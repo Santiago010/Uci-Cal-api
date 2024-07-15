@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_COMMRELAYCOMMANDSTATUS_H
 #define UCI_TYPE_COMMRELAYCOMMANDSTATUS_H
 
-#include "uci/type/CommRelayCommandStatusMT.h"
+#include "CommRelayCommandStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

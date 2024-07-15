@@ -36,21 +36,21 @@
 #ifndef UCI_TYPE_DAMAGEESTIMATEMDT_H
 #define UCI_TYPE_DAMAGEESTIMATEMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DMPI_ViolationType.h"
-#include "uci/type/DamageCategoryEnum.h"
-#include "uci/type/DamageEstimateDetailsType.h"
-#include "uci/type/DamageEstimateID_Type.h"
-#include "uci/type/DamageInformationWeatherSourceType.h"
-#include "uci/type/DamageSummaryType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/PercentType.h"
-#include "uci/type/Point3D_Type.h"
-#include "uci/type/TaskID_Type.h"
-#include "uci/type/VisibleString1024Type.h"
-#include "uci/type/ZoneType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DMPI_ViolationType.h"
+#include "DamageCategoryEnum.h"
+#include "DamageEstimateDetailsType.h"
+#include "DamageEstimateID_Type.h"
+#include "DamageInformationWeatherSourceType.h"
+#include "DamageSummaryType.h"
+#include "DateTimeType.h"
+#include "PercentType.h"
+#include "Point3D_Type.h"
+#include "TaskID_Type.h"
+#include "VisibleString1024Type.h"
+#include "ZoneType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

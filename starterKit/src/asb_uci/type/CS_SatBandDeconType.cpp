@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CS_SatBandDeconType.h"
+#include "../../../include/asb_uci/type/CS_SatBandDeconType.h"
 
 #include <memory>
 #include <string>
@@ -41,21 +41,21 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/DateTimeRangeDeconType.h"
-#include "asb_uci/type/ForeignKeyType.h"
-#include "asb_uci/type/IEEE_FrequencyBandEnum.h"
-#include "asb_uci/type/SatelliteIdentifierType.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CS_SatBandDeconType.h"
-#include "uci/type/DateTimeRangeDeconType.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/FrequencyType.h"
-#include "uci/type/IEEE_FrequencyBandEnum.h"
-#include "uci/type/MilliwattPowerRatioType.h"
-#include "uci/type/SatelliteIdentifierType.h"
+#include "../../../include/asb_uci/type/DateTimeRangeDeconType.h"
+#include "../../../include/asb_uci/type/ForeignKeyType.h"
+#include "../../../include/asb_uci/type/IEEE_FrequencyBandEnum.h"
+#include "../../../include/asb_uci/type/SatelliteIdentifierType.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CS_SatBandDeconType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DateTimeRangeDeconType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ForeignKeyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FrequencyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IEEE_FrequencyBandEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MilliwattPowerRatioType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SatelliteIdentifierType.h"
 
 /**  */
 namespace asb_uci {

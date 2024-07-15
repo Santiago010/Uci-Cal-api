@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/PO_CollectionConstraintsSettingsType.h"
+#include "../../../include/asb_uci/type/PO_CollectionConstraintsSettingsType.h"
 
 #include <memory>
 #include <string>
@@ -41,20 +41,20 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/PO_AngleConstraintControlsType.h"
-#include "asb_uci/type/PO_CollectionPatternConstraintControlsType.h"
-#include "asb_uci/type/PO_GimbalOrientationConstraintType.h"
-#include "asb_uci/type/PO_SlantRangeConstraintControlsType.h"
-#include "asb_uci/type/PO_SweepSpeedConstraintControlsType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/PO_AngleConstraintControlsType.h"
-#include "uci/type/PO_CollectionConstraintsSettingsType.h"
-#include "uci/type/PO_CollectionPatternConstraintControlsType.h"
-#include "uci/type/PO_GimbalOrientationConstraintType.h"
-#include "uci/type/PO_SlantRangeConstraintControlsType.h"
-#include "uci/type/PO_SweepSpeedConstraintControlsType.h"
+#include "../../../include/asb_uci/type/PO_AngleConstraintControlsType.h"
+#include "../../../include/asb_uci/type/PO_CollectionPatternConstraintControlsType.h"
+#include "../../../include/asb_uci/type/PO_GimbalOrientationConstraintType.h"
+#include "../../../include/asb_uci/type/PO_SlantRangeConstraintControlsType.h"
+#include "../../../include/asb_uci/type/PO_SweepSpeedConstraintControlsType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_AngleConstraintControlsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_CollectionConstraintsSettingsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_CollectionPatternConstraintControlsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_GimbalOrientationConstraintType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_SlantRangeConstraintControlsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_SweepSpeedConstraintControlsType.h"
 
 /**  */
 namespace asb_uci {

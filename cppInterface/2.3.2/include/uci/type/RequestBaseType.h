@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_REQUESTBASETYPE_H
 #define UCI_TYPE_REQUESTBASETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/type/RequestID_Type.h"
-#include "uci/type/RequestStateEnum.h"
+#include "../base/Accessor.h"
+#include "RequestID_Type.h"
+#include "RequestStateEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

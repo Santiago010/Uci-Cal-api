@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_PLANACTIVATIONPOLICYTYPE_H
 #define UCI_TYPE_PLANACTIVATIONPOLICYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ApprovalPolicyBaseType.h"
-#include "uci/type/MissionPlanActivationSettingType.h"
-#include "uci/type/PlanPartsType.h"
-#include "uci/type/SubPlanActivationSettingType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ApprovalPolicyBaseType.h"
+#include "MissionPlanActivationSettingType.h"
+#include "PlanPartsType.h"
+#include "SubPlanActivationSettingType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

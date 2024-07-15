@@ -36,19 +36,19 @@
 #ifndef UCI_TYPE_ENTITYORBITALMANEUVERMDT_H
 #define UCI_TYPE_ENTITYORBITALMANEUVERMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/ConfidenceLevelEnum.h"
-#include "uci/type/DateTimeRangeType.h"
-#include "uci/type/EntityID_Type.h"
-#include "uci/type/ManeuverSummaryType.h"
-#include "uci/type/NotificationSourceType.h"
-#include "uci/type/ObservationMeasurementReportID_Type.h"
-#include "uci/type/OrbitalManeuverID_Type.h"
-#include "uci/type/OrbitalManeuverStateEnum.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "CapabilityID_Type.h"
+#include "ConfidenceLevelEnum.h"
+#include "DateTimeRangeType.h"
+#include "EntityID_Type.h"
+#include "ManeuverSummaryType.h"
+#include "NotificationSourceType.h"
+#include "ObservationMeasurementReportID_Type.h"
+#include "OrbitalManeuverID_Type.h"
+#include "OrbitalManeuverStateEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

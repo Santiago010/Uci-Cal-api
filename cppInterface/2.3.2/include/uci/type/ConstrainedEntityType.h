@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_CONSTRAINEDENTITYTYPE_H
 #define UCI_TYPE_CONSTRAINEDENTITYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EntityID_Type.h"
-#include "uci/type/PercentType.h"
-#include "uci/type/RadarEmitterIdentityType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "EntityID_Type.h"
+#include "PercentType.h"
+#include "RadarEmitterIdentityType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

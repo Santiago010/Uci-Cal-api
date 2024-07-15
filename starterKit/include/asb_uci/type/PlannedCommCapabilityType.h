@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/CommConnectionCommandEnum.h"
-#include "asb_uci/type/NetworkLinkActionTypeEnum.h"
-#include "uci/type/PlannedCommCapabilityType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/CommConnectionCommandEnum.h"
+#include "../../../include/asb_uci/type/NetworkLinkActionTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlannedCommCapabilityType.h"
 
 /**  */
 namespace asb_uci {

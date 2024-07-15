@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_MTI_STANAG_4607_OPZONEFILTERAREATYPE_H
 #define UCI_TYPE_MTI_STANAG_4607_OPZONEFILTERAREATYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/MTI_OpZoneFilterAreaType.h"
-#include "uci/type/STANAG_4607_MissionType.h"
-#include "uci/type/STANAG_4607_PlatformTypeEnum.h"
-#include "uci/type/STANAG_4607_TargetClassificationEnum.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "MTI_OpZoneFilterAreaType.h"
+#include "STANAG_4607_MissionType.h"
+#include "STANAG_4607_PlatformTypeEnum.h"
+#include "STANAG_4607_TargetClassificationEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

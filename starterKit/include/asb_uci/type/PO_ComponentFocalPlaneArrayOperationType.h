@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/PO_FPA_ChannelOperationEnum.h"
-#include "uci/type/PO_ComponentFocalPlaneArrayOperationType.h"
+#include "../../../include/asb_uci/type/PO_FPA_ChannelOperationEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ComponentFocalPlaneArrayOperationType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_REQUIREMENTMETRICSMDT_H
 #define UCI_TYPE_REQUIREMENTMETRICSMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/PlansRequirementsReferenceType.h"
-#include "uci/type/RequirementMetricsID_Type.h"
-#include "uci/type/RequirementMetricsType.h"
-#include "uci/type/RequirementTaxonomyType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "PlansRequirementsReferenceType.h"
+#include "RequirementMetricsID_Type.h"
+#include "RequirementMetricsType.h"
+#include "RequirementTaxonomyType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

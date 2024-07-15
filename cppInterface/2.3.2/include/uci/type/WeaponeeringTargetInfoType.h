@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_WEAPONEERINGTARGETINFOTYPE_H
 #define UCI_TYPE_WEAPONEERINGTARGETINFOTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/UnsignedByteAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/TargetHardnessEnum.h"
+#include "../base/Accessor.h"
+#include "../base/UnsignedByteAccessor.h"
+#include "../base/export.h"
+#include "TargetHardnessEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

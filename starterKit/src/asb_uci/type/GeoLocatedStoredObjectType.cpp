@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/GeoLocatedStoredObjectType.h"
+#include "../../../include/asb_uci/type/GeoLocatedStoredObjectType.h"
 
 #include <memory>
 #include <string>
@@ -41,22 +41,22 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/EmergencyReferenceOpPointType.h"
-#include "asb_uci/type/EntityDataType.h"
-#include "asb_uci/type/OpLineMDT.h"
-#include "asb_uci/type/OpVolumeMDT.h"
-#include "asb_uci/type/OpZoneMDT.h"
-#include "asb_uci/type/SystemDataType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/EmergencyReferenceOpPointType.h"
-#include "uci/type/EntityDataType.h"
-#include "uci/type/GeoLocatedStoredObjectType.h"
-#include "uci/type/OpLineMDT.h"
-#include "uci/type/OpVolumeMDT.h"
-#include "uci/type/OpZoneMDT.h"
-#include "uci/type/SystemDataType.h"
+#include "../../../include/asb_uci/type/EmergencyReferenceOpPointType.h"
+#include "../../../include/asb_uci/type/EntityDataType.h"
+#include "../../../include/asb_uci/type/OpLineMDT.h"
+#include "../../../include/asb_uci/type/OpVolumeMDT.h"
+#include "../../../include/asb_uci/type/OpZoneMDT.h"
+#include "../../../include/asb_uci/type/SystemDataType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EmergencyReferenceOpPointType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EntityDataType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/GeoLocatedStoredObjectType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpLineMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpVolumeMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpZoneMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SystemDataType.h"
 
 /**  */
 namespace asb_uci {

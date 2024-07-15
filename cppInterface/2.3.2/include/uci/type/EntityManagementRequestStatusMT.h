@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_ENTITYMANAGEMENTREQUESTSTATUSMT_H
 #define UCI_TYPE_ENTITYMANAGEMENTREQUESTSTATUSMT_H
 
-#include "uci/base/Listener.h"
-#include "uci/base/Reader.h"
-#include "uci/base/Writer.h"
-#include "uci/base/export.h"
-#include "uci/type/EntityManagementRequestStatusMDT.h"
-#include "uci/type/MessageType.h"
+#include "../base/Listener.h"
+#include "../base/Reader.h"
+#include "../base/Writer.h"
+#include "../base/export.h"
+#include "EntityManagementRequestStatusMDT.h"
+#include "MessageType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

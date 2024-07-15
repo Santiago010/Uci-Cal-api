@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SYSTEMESTIMATIONREQUESTSTATUS_H
 #define UCI_TYPE_SYSTEMESTIMATIONREQUESTSTATUS_H
 
-#include "uci/type/SystemEstimationRequestStatusMT.h"
+#include "SystemEstimationRequestStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

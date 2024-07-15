@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_COMMASSETORBIT_H
 #define UCI_TYPE_COMMASSETORBIT_H
 
-#include "uci/type/CommAssetOrbitMT.h"
+#include "CommAssetOrbitMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

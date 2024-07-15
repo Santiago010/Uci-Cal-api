@@ -41,11 +41,11 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AngleType.h"
-#include "asb_uci/type/DistanceType.h"
-#include "asb_uci/type/VisualMagnitudeType.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/SpaceObjectVisualDataType.h"
+#include "../../../include/asb_uci/type/AngleType.h"
+#include "../../../include/asb_uci/type/DistanceType.h"
+#include "../../../include/asb_uci/type/VisualMagnitudeType.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SpaceObjectVisualDataType.h"
 
 /**  */
 namespace asb_uci {

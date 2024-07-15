@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_ENDPOINTTYPE_H
 #define UCI_TYPE_ENDPOINTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/LoiterPointType.h"
-#include "uci/type/TurnPointType.h"
-#include "uci/type/WayPointType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "LoiterPointType.h"
+#include "TurnPointType.h"
+#include "WayPointType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

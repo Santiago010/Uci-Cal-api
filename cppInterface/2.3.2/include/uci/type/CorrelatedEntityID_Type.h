@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_CORRELATEDENTITYID_TYPE_H
 #define UCI_TYPE_CORRELATEDENTITYID_TYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/EntityID_Type.h"
-#include "uci/type/EntitySourceEnum.h"
+#include "../base/export.h"
+#include "EntityID_Type.h"
+#include "EntitySourceEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CommMADL_LinkStatusType.h"
+#include "../../../include/asb_uci/type/CommMADL_LinkStatusType.h"
 
 #include <memory>
 #include <string>
@@ -41,27 +41,27 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CommMADL_DataRateTypeEnum.h"
-#include "asb_uci/type/CommMADL_LinkStateEnum.h"
-#include "asb_uci/type/CommMADL_PeerNodeDataType.h"
-#include "asb_uci/type/CommMADL_SearchTypeEnum.h"
-#include "asb_uci/type/CommMADL_TimeSlotOE_PhaseTypeEnum.h"
-#include "asb_uci/type/CommMADL_TimeSlotTxPhaseTypeEnum.h"
-#include "asb_uci/type/CommMADL_TopologyEntryType.h"
-#include "asb_uci/type/CommMADL_VoiceRxIndicatorTypeEnum.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CommMADL_DataRateTypeEnum.h"
-#include "uci/type/CommMADL_LinkStateEnum.h"
-#include "uci/type/CommMADL_LinkStatusType.h"
-#include "uci/type/CommMADL_PeerNodeDataType.h"
-#include "uci/type/CommMADL_SearchTypeEnum.h"
-#include "uci/type/CommMADL_TimeSlotOE_PhaseTypeEnum.h"
-#include "uci/type/CommMADL_TimeSlotTxPhaseTypeEnum.h"
-#include "uci/type/CommMADL_TopologyEntryType.h"
-#include "uci/type/CommMADL_VoiceRxIndicatorTypeEnum.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/CommMADL_DataRateTypeEnum.h"
+#include "../../../include/asb_uci/type/CommMADL_LinkStateEnum.h"
+#include "../../../include/asb_uci/type/CommMADL_PeerNodeDataType.h"
+#include "../../../include/asb_uci/type/CommMADL_SearchTypeEnum.h"
+#include "../../../include/asb_uci/type/CommMADL_TimeSlotOE_PhaseTypeEnum.h"
+#include "../../../include/asb_uci/type/CommMADL_TimeSlotTxPhaseTypeEnum.h"
+#include "../../../include/asb_uci/type/CommMADL_TopologyEntryType.h"
+#include "../../../include/asb_uci/type/CommMADL_VoiceRxIndicatorTypeEnum.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommMADL_DataRateTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommMADL_LinkStateEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommMADL_LinkStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommMADL_PeerNodeDataType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommMADL_SearchTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommMADL_TimeSlotOE_PhaseTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommMADL_TimeSlotTxPhaseTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommMADL_TopologyEntryType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommMADL_VoiceRxIndicatorTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

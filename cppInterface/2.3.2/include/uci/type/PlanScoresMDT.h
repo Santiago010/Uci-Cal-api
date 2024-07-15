@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_PLANSCORESMDT_H
 #define UCI_TYPE_PLANSCORESMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/OpConstraintScoreType.h"
-#include "uci/type/PlanScoresID_Type.h"
-#include "uci/type/PlansReferenceType.h"
-#include "uci/type/RequestID_Type.h"
-#include "uci/type/ScoringProcessID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DateTimeType.h"
+#include "OpConstraintScoreType.h"
+#include "PlanScoresID_Type.h"
+#include "PlansReferenceType.h"
+#include "RequestID_Type.h"
+#include "ScoringProcessID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

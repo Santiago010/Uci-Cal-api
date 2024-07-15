@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/DamageCauseEnum.h"
-#include "asb_uci/type/VisibleString1024Type.h"
-#include "uci/type/DamageAssessmentDetailType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/DamageCauseEnum.h"
+#include "../../../include/asb_uci/type/VisibleString1024Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DamageAssessmentDetailType.h"
 
 /**  */
 namespace asb_uci {

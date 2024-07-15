@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_DMPI_CANCELCOMMANDSTATUSMDT_H
 #define UCI_TYPE_DMPI_CANCELCOMMANDSTATUSMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/CannotComplyType.h"
-#include "uci/type/CommandStatusBaseType.h"
-#include "uci/type/SourceID_ChoiceType.h"
+#include "../base/export.h"
+#include "CannotComplyType.h"
+#include "CommandStatusBaseType.h"
+#include "SourceID_ChoiceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

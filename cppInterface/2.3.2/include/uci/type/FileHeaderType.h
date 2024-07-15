@@ -36,22 +36,22 @@
 #ifndef UCI_TYPE_FILEHEADERTYPE_H
 #define UCI_TYPE_FILEHEADERTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AlphanumericPunctuatedString11Type.h"
-#include "uci/type/AlphanumericSpaceString11Type.h"
-#include "uci/type/CountryCodeType.h"
-#include "uci/type/FIPS_ClassificationSystemType.h"
-#include "uci/type/FileDeclassificationEnum.h"
-#include "uci/type/FileHeaderClassificationAuthorityType.h"
-#include "uci/type/FileHeaderDowngradeStringType.h"
-#include "uci/type/NumericSpaceString11Type.h"
-#include "uci/type/SAR_CollectionReasonEnum.h"
-#include "uci/type/VisibleString16Type.h"
-#include "uci/type/VisibleString3Type.h"
-#include "uci/type/VisibleString80Type.h"
-#include "uci/type/VisibleString9Type.h"
+#include "../base/Accessor.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "AlphanumericPunctuatedString11Type.h"
+#include "AlphanumericSpaceString11Type.h"
+#include "CountryCodeType.h"
+#include "FIPS_ClassificationSystemType.h"
+#include "FileDeclassificationEnum.h"
+#include "FileHeaderClassificationAuthorityType.h"
+#include "FileHeaderDowngradeStringType.h"
+#include "NumericSpaceString11Type.h"
+#include "SAR_CollectionReasonEnum.h"
+#include "VisibleString16Type.h"
+#include "VisibleString3Type.h"
+#include "VisibleString80Type.h"
+#include "VisibleString9Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

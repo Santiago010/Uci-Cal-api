@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/AMTI_CollectionConstraintsType.h"
+#include "../../../include/asb_uci/type/AMTI_CollectionConstraintsType.h"
 
 #include <memory>
 #include <string>
@@ -41,18 +41,18 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CollectionConstraintsType.h"
-#include "asb_uci/type/EmconConstraintType.h"
-#include "asb_uci/type/SpeedRangeType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AMTI_CollectionConstraintsType.h"
-#include "uci/type/DecibelType.h"
-#include "uci/type/EmconConstraintType.h"
-#include "uci/type/SpeedRangeType.h"
-#include "uci/type/SpeedType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/CollectionConstraintsType.h"
+#include "../../../include/asb_uci/type/EmconConstraintType.h"
+#include "../../../include/asb_uci/type/SpeedRangeType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AMTI_CollectionConstraintsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DecibelType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EmconConstraintType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SpeedRangeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SpeedType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

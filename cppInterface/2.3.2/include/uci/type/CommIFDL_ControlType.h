@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_COMMIFDL_CONTROLTYPE_H
 #define UCI_TYPE_COMMIFDL_CONTROLTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CommIFDL_AcqControlEnum.h"
-#include "uci/type/IFDL_FlightIdentifierType.h"
-#include "uci/type/IFDL_FlightPositionType.h"
-#include "uci/type/IFDL_NetNumberType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "CommIFDL_AcqControlEnum.h"
+#include "IFDL_FlightIdentifierType.h"
+#include "IFDL_FlightPositionType.h"
+#include "IFDL_NetNumberType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

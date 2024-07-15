@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SUBSYSTEMMAINTENANCECOMMAND_H
 #define UCI_TYPE_SUBSYSTEMMAINTENANCECOMMAND_H
 
-#include "uci/type/SubsystemMaintenanceCommandMT.h"
+#include "SubsystemMaintenanceCommandMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

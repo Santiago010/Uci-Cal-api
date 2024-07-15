@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_SUBSYSTEMMAINTENANCETESTPET_H
 #define UCI_TYPE_SUBSYSTEMMAINTENANCETESTPET_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/SubsystemID_Type.h"
-#include "uci/type/SubsystemMaintenanceControlInterfacesEnum.h"
-#include "uci/type/SubsystemMaintenanceEventSettingsType.h"
-#include "uci/type/SubsystemMaintenanceID_Type.h"
-#include "uci/type/VisibleString256Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "CapabilityID_Type.h"
+#include "SubsystemID_Type.h"
+#include "SubsystemMaintenanceControlInterfacesEnum.h"
+#include "SubsystemMaintenanceEventSettingsType.h"
+#include "SubsystemMaintenanceID_Type.h"
+#include "VisibleString256Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

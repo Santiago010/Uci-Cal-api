@@ -41,15 +41,15 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/CommMADL_DataRateTypeEnum.h"
-#include "asb_uci/type/CommMADL_LinkStateEnum.h"
-#include "asb_uci/type/CommMADL_SearchTypeEnum.h"
-#include "asb_uci/type/CommMADL_TimeSlotOE_PhaseTypeEnum.h"
-#include "asb_uci/type/CommMADL_TimeSlotTxPhaseTypeEnum.h"
-#include "asb_uci/type/CommMADL_VoiceRxIndicatorTypeEnum.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/CommMADL_LinkStatusType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/CommMADL_DataRateTypeEnum.h"
+#include "../../../include/asb_uci/type/CommMADL_LinkStateEnum.h"
+#include "../../../include/asb_uci/type/CommMADL_SearchTypeEnum.h"
+#include "../../../include/asb_uci/type/CommMADL_TimeSlotOE_PhaseTypeEnum.h"
+#include "../../../include/asb_uci/type/CommMADL_TimeSlotTxPhaseTypeEnum.h"
+#include "../../../include/asb_uci/type/CommMADL_VoiceRxIndicatorTypeEnum.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommMADL_LinkStatusType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_SATELLITEPHYSICALCONFIGURATIONTYPE_H
 #define UCI_TYPE_SATELLITEPHYSICALCONFIGURATIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DecibelType.h"
-#include "uci/type/OffsetLocationType.h"
-#include "uci/type/SatellitePhysicalConfigurationID_Type.h"
-#include "uci/type/SizeType.h"
-#include "uci/type/UnitIntervalFloatType.h"
-#include "uci/type/VisualMagnitudeWithDeviationType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DecibelType.h"
+#include "OffsetLocationType.h"
+#include "SatellitePhysicalConfigurationID_Type.h"
+#include "SizeType.h"
+#include "UnitIntervalFloatType.h"
+#include "VisualMagnitudeWithDeviationType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

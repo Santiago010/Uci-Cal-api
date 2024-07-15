@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SYSTEMMETADATA_H
 #define UCI_TYPE_SYSTEMMETADATA_H
 
-#include "uci/type/SystemMetadataMT.h"
+#include "SystemMetadataMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

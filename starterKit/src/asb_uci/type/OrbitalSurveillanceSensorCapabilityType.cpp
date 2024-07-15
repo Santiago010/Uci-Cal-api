@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/OrbitalSurveillanceSensorCapabilityType.h"
+#include "../../../include/asb_uci/type/OrbitalSurveillanceSensorCapabilityType.h"
 
 #include <memory>
 #include <string>
@@ -41,22 +41,22 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CharacterizationTypeEnum.h"
-#include "asb_uci/type/CommandableCapabilityDeclarationType.h"
-#include "asb_uci/type/OrbitalSurveillanceSensorCapabilityEnum.h"
-#include "asb_uci/type/OrbitalSurveillanceSensorMessageOutputsEnum.h"
-#include "asb_uci/type/OrbitalSurveillanceSensorSubCapabilityType.h"
-#include "asb_uci/type/SensorConstraintsBaseType.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CharacterizationTypeEnum.h"
-#include "uci/type/OrbitalSurveillanceSensorCapabilityEnum.h"
-#include "uci/type/OrbitalSurveillanceSensorCapabilityType.h"
-#include "uci/type/OrbitalSurveillanceSensorMessageOutputsEnum.h"
-#include "uci/type/OrbitalSurveillanceSensorSubCapabilityType.h"
-#include "uci/type/SensorConstraintsBaseType.h"
+#include "../../../include/asb_uci/type/CharacterizationTypeEnum.h"
+#include "../../../include/asb_uci/type/CommandableCapabilityDeclarationType.h"
+#include "../../../include/asb_uci/type/OrbitalSurveillanceSensorCapabilityEnum.h"
+#include "../../../include/asb_uci/type/OrbitalSurveillanceSensorMessageOutputsEnum.h"
+#include "../../../include/asb_uci/type/OrbitalSurveillanceSensorSubCapabilityType.h"
+#include "../../../include/asb_uci/type/SensorConstraintsBaseType.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CharacterizationTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalSurveillanceSensorCapabilityEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalSurveillanceSensorCapabilityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalSurveillanceSensorMessageOutputsEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalSurveillanceSensorSubCapabilityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SensorConstraintsBaseType.h"
 
 /**  */
 namespace asb_uci {

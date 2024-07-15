@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_DATALINKNATIVEFILTER_NETWORKLINKTYPE_H
 #define UCI_TYPE_DATALINKNATIVEFILTER_NETWORKLINKTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DataLinkNativeFilterPET.h"
-#include "uci/type/NetworkLinkID_Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DataLinkNativeFilterPET.h"
+#include "NetworkLinkID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

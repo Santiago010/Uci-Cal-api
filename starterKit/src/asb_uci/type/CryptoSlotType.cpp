@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CryptoSlotType.h"
+#include "../../../include/asb_uci/type/CryptoSlotType.h"
 
 #include <memory>
 #include <string>
@@ -41,18 +41,18 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CryptoKeyStatusEnum.h"
-#include "asb_uci/type/CryptoRolloverStatusType.h"
-#include "asb_uci/type/ForeignKeyType.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CryptoKeyStatusEnum.h"
-#include "uci/type/CryptoRolloverStatusType.h"
-#include "uci/type/CryptoSlotIdentifierType.h"
-#include "uci/type/CryptoSlotType.h"
-#include "uci/type/ForeignKeyType.h"
+#include "../../../include/asb_uci/type/CryptoKeyStatusEnum.h"
+#include "../../../include/asb_uci/type/CryptoRolloverStatusType.h"
+#include "../../../include/asb_uci/type/ForeignKeyType.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CryptoKeyStatusEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CryptoRolloverStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CryptoSlotIdentifierType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CryptoSlotType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ForeignKeyType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_PLATFORMSTATUSTYPE_H
 #define UCI_TYPE_PLATFORMSTATUSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DatalinkControlType.h"
-#include "uci/type/PlatformFunctionStatusType.h"
-#include "uci/type/PlatformStatusSAM_Type.h"
-#include "uci/type/SurfaceRecoveryType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DatalinkControlType.h"
+#include "PlatformFunctionStatusType.h"
+#include "PlatformStatusSAM_Type.h"
+#include "SurfaceRecoveryType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

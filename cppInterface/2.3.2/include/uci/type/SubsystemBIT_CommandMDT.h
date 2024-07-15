@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_SUBSYSTEMBIT_COMMANDMDT_H
 #define UCI_TYPE_SUBSYSTEMBIT_COMMANDMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/CapabilityCommandFrequencyType.h"
-#include "uci/type/CommandBaseType.h"
-#include "uci/type/SubsystemBIT_CommandType.h"
-#include "uci/type/SubsystemID_Type.h"
+#include "../base/export.h"
+#include "CapabilityCommandFrequencyType.h"
+#include "CommandBaseType.h"
+#include "SubsystemBIT_CommandType.h"
+#include "SubsystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

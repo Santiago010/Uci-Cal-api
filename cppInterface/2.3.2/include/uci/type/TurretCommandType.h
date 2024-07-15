@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_TURRETCOMMANDTYPE_H
 #define UCI_TYPE_TURRETCOMMANDTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/SupportCapabilityCommandBaseType.h"
-#include "uci/type/TurretCommandChoiceType.h"
+#include "../base/export.h"
+#include "SupportCapabilityCommandBaseType.h"
+#include "TurretCommandChoiceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

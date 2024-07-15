@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/SMTI_ActivityCommandType.h"
+#include "../../../include/asb_uci/type/SMTI_ActivityCommandType.h"
 
 #include <memory>
 #include <string>
@@ -41,32 +41,32 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AtmosphericPropagationLossType.h"
-#include "asb_uci/type/CapabilityCommandFrequencyType.h"
-#include "asb_uci/type/CapabilityCommandTemporalConstraintsType.h"
-#include "asb_uci/type/ProductOutputCommandSMTI_Type.h"
-#include "asb_uci/type/RadarPointingTargetType.h"
-#include "asb_uci/type/RepetitionType.h"
-#include "asb_uci/type/SMTI_CollectionConstraintsType.h"
-#include "asb_uci/type/SMTI_CollectionOptionsType.h"
-#include "asb_uci/type/SharedRF_ApertureActivityCommandBaseType.h"
-#include "asb_uci/type/SurfaceTypeEnum.h"
-#include "asb_uci/type/WeatherSeaStateEnum.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AtmosphericPropagationLossType.h"
-#include "uci/type/CapabilityCommandFrequencyType.h"
-#include "uci/type/CapabilityCommandTemporalConstraintsType.h"
-#include "uci/type/ProductOutputCommandSMTI_Type.h"
-#include "uci/type/RadarPointingTargetType.h"
-#include "uci/type/RepetitionType.h"
-#include "uci/type/SMTI_ActivityCommandType.h"
-#include "uci/type/SMTI_CollectionConstraintsType.h"
-#include "uci/type/SMTI_CollectionOptionsType.h"
-#include "uci/type/SurfaceTypeEnum.h"
-#include "uci/type/WeatherSeaStateEnum.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/AtmosphericPropagationLossType.h"
+#include "../../../include/asb_uci/type/CapabilityCommandFrequencyType.h"
+#include "../../../include/asb_uci/type/CapabilityCommandTemporalConstraintsType.h"
+#include "../../../include/asb_uci/type/ProductOutputCommandSMTI_Type.h"
+#include "../../../include/asb_uci/type/RadarPointingTargetType.h"
+#include "../../../include/asb_uci/type/RepetitionType.h"
+#include "../../../include/asb_uci/type/SMTI_CollectionConstraintsType.h"
+#include "../../../include/asb_uci/type/SMTI_CollectionOptionsType.h"
+#include "../../../include/asb_uci/type/SharedRF_ApertureActivityCommandBaseType.h"
+#include "../../../include/asb_uci/type/SurfaceTypeEnum.h"
+#include "../../../include/asb_uci/type/WeatherSeaStateEnum.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AtmosphericPropagationLossType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityCommandFrequencyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityCommandTemporalConstraintsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProductOutputCommandSMTI_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RadarPointingTargetType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RepetitionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SMTI_ActivityCommandType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SMTI_CollectionConstraintsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SMTI_CollectionOptionsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SurfaceTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/WeatherSeaStateEnum.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

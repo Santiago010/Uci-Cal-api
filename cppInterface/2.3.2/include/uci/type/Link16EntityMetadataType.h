@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_LINK16ENTITYMETADATATYPE_H
 #define UCI_TYPE_LINK16ENTITYMETADATATYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/EntityMetadataPET.h"
-#include "uci/type/Link16MetadataType.h"
+#include "../base/export.h"
+#include "EntityMetadataPET.h"
+#include "Link16MetadataType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

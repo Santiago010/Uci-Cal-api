@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_BEAMBANDWIDTHANDSAMPLERATETYPE_H
 #define UCI_TYPE_BEAMBANDWIDTHANDSAMPLERATETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/FrequencyRangeType.h"
-#include "uci/type/SampleRateRangeType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "FrequencyRangeType.h"
+#include "SampleRateRangeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

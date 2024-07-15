@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_ENTITYFILTERTYPE_H
 #define UCI_TYPE_ENTITYFILTERTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DesignationFilterType.h"
-#include "uci/type/EntityComparativeType.h"
-#include "uci/type/EntityID_Type.h"
-#include "uci/type/EntitySourceEnum.h"
-#include "uci/type/GeoFiltersQueryType.h"
-#include "uci/type/OrbitalFiltersQueryType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DesignationFilterType.h"
+#include "EntityComparativeType.h"
+#include "EntityID_Type.h"
+#include "EntitySourceEnum.h"
+#include "GeoFiltersQueryType.h"
+#include "OrbitalFiltersQueryType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

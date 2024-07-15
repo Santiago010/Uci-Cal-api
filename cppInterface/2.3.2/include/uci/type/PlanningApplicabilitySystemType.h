@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_PLANNINGAPPLICABILITYSYSTEMTYPE_H
 #define UCI_TYPE_PLANNINGAPPLICABILITYSYSTEMTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/ApplicabilityType.h"
-#include "uci/type/ConstrainedPlanIncorporationEnum.h"
+#include "../base/export.h"
+#include "ApplicabilityType.h"
+#include "ConstrainedPlanIncorporationEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

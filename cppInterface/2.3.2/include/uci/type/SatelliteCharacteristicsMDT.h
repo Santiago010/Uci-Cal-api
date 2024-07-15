@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_SATELLITECHARACTERISTICSMDT_H
 #define UCI_TYPE_SATELLITECHARACTERISTICSMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/DataRecordBaseType.h"
-#include "uci/type/SatelliteCharacteristicsID_Type.h"
-#include "uci/type/SatelliteCharacteristicsType.h"
-#include "uci/type/SatelliteEnduranceType.h"
-#include "uci/type/SatelliteIdentityType.h"
+#include "../base/export.h"
+#include "DataRecordBaseType.h"
+#include "SatelliteCharacteristicsID_Type.h"
+#include "SatelliteCharacteristicsType.h"
+#include "SatelliteEnduranceType.h"
+#include "SatelliteIdentityType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

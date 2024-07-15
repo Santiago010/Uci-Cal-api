@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_DMPI_STORESTATUSTYPE_H
 #define UCI_TYPE_DMPI_STORESTATUSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/DMPI_StoreStateEnum.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/VisibleString1024Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CapabilityID_Type.h"
+#include "DMPI_StoreStateEnum.h"
+#include "DateTimeType.h"
+#include "VisibleString1024Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

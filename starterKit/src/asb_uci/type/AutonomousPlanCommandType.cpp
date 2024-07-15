@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/AutonomousPlanCommandType.h"
+#include "../../../include/asb_uci/type/AutonomousPlanCommandType.h"
 
 #include <memory>
 #include <string>
@@ -41,23 +41,23 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AutonomousPlanningConstrainingPlansType.h"
-#include "asb_uci/type/AutonomousPlanningOtherSystemConstrainingPlansType.h"
-#include "asb_uci/type/PlanPartsType.h"
-#include "asb_uci/type/PlanningProcessID_Type.h"
-#include "asb_uci/util/DerivedTypesCopier.h"
-#include "asb_uci/util/DerivedTypesCreator.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/DerivedTypesSerializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AutonomousPlanCommandType.h"
-#include "uci/type/AutonomousPlanningConstrainingPlansType.h"
-#include "uci/type/AutonomousPlanningOtherSystemConstrainingPlansType.h"
-#include "uci/type/PlanPartsType.h"
-#include "uci/type/PlanningProcessID_Type.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/AutonomousPlanningConstrainingPlansType.h"
+#include "../../../include/asb_uci/type/AutonomousPlanningOtherSystemConstrainingPlansType.h"
+#include "../../../include/asb_uci/type/PlanPartsType.h"
+#include "../../../include/asb_uci/type/PlanningProcessID_Type.h"
+#include "../../../include/asb_uci/util/DerivedTypesCopier.h"
+#include "../../../include/asb_uci/util/DerivedTypesCreator.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/DerivedTypesSerializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AutonomousPlanCommandType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AutonomousPlanningConstrainingPlansType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AutonomousPlanningOtherSystemConstrainingPlansType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlanPartsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlanningProcessID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

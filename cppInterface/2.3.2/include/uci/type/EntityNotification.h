@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ENTITYNOTIFICATION_H
 #define UCI_TYPE_ENTITYNOTIFICATION_H
 
-#include "uci/type/EntityNotificationMT.h"
+#include "EntityNotificationMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

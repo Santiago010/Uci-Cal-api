@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_TURRETCOMMANDCHOICETYPE_H
 #define UCI_TYPE_TURRETCOMMANDCHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/FixedPointingEnum.h"
-#include "uci/type/LOS_D_Type.h"
-#include "uci/type/PO_AirTargetVolumeCommandType.h"
-#include "uci/type/TargetType.h"
-#include "uci/type/TurretCommandPositionType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "FixedPointingEnum.h"
+#include "LOS_D_Type.h"
+#include "PO_AirTargetVolumeCommandType.h"
+#include "TargetType.h"
+#include "TurretCommandPositionType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

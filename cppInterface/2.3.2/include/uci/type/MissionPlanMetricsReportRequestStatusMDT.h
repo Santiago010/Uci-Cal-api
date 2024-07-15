@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_MISSIONPLANMETRICSREPORTREQUESTSTATUSMDT_H
 #define UCI_TYPE_MISSIONPLANMETRICSREPORTREQUESTSTATUSMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CompletionStatusType.h"
-#include "uci/type/IncompleteProcessingType.h"
-#include "uci/type/MissionPlanMetricsReportID_Type.h"
-#include "uci/type/RequestStatusBaseType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CompletionStatusType.h"
+#include "IncompleteProcessingType.h"
+#include "MissionPlanMetricsReportID_Type.h"
+#include "RequestStatusBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

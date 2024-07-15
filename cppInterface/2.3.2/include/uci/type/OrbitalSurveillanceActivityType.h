@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_ORBITALSURVEILLANCEACTIVITYTYPE_H
 #define UCI_TYPE_ORBITALSURVEILLANCEACTIVITYTYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ActivityBaseType.h"
-#include "uci/type/OrbitalSurveillanceActivityDetailType.h"
-#include "uci/type/OrbitalSurveillanceTargetType.h"
-#include "uci/type/TraceabilityType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ActivityBaseType.h"
+#include "OrbitalSurveillanceActivityDetailType.h"
+#include "OrbitalSurveillanceTargetType.h"
+#include "TraceabilityType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

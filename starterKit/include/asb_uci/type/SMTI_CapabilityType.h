@@ -41,13 +41,13 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/CommandableCapabilityDeclarationType.h"
-#include "asb_uci/type/NIIRS_Type.h"
-#include "asb_uci/type/SMTI_CapabilityEnum.h"
-#include "asb_uci/type/SMTI_MessageOutputsEnum.h"
-#include "asb_uci/type/SMTI_SubCapabilityEnum.h"
-#include "uci/type/SMTI_CapabilityType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/CommandableCapabilityDeclarationType.h"
+#include "../../../include/asb_uci/type/NIIRS_Type.h"
+#include "../../../include/asb_uci/type/SMTI_CapabilityEnum.h"
+#include "../../../include/asb_uci/type/SMTI_MessageOutputsEnum.h"
+#include "../../../include/asb_uci/type/SMTI_SubCapabilityEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SMTI_CapabilityType.h"
 
 /**  */
 namespace asb_uci {

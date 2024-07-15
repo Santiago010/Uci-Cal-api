@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/PO_ActivityCommandType.h"
+#include "../../../include/asb_uci/type/PO_ActivityCommandType.h"
 
 #include <memory>
 #include <string>
@@ -41,21 +41,21 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ActivityCommandBaseType.h"
-#include "asb_uci/type/PO_CollectionConstraintsSettingsType.h"
-#include "asb_uci/type/PO_ComponentSettingsType.h"
-#include "asb_uci/type/PO_SubCapabilitySettingsType.h"
-#include "asb_uci/type/PO_TargetType.h"
-#include "asb_uci/type/PO_TrackDetailsType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/PO_ActivityCommandType.h"
-#include "uci/type/PO_CollectionConstraintsSettingsType.h"
-#include "uci/type/PO_ComponentSettingsType.h"
-#include "uci/type/PO_SubCapabilitySettingsType.h"
-#include "uci/type/PO_TargetType.h"
-#include "uci/type/PO_TrackDetailsType.h"
+#include "../../../include/asb_uci/type/ActivityCommandBaseType.h"
+#include "../../../include/asb_uci/type/PO_CollectionConstraintsSettingsType.h"
+#include "../../../include/asb_uci/type/PO_ComponentSettingsType.h"
+#include "../../../include/asb_uci/type/PO_SubCapabilitySettingsType.h"
+#include "../../../include/asb_uci/type/PO_TargetType.h"
+#include "../../../include/asb_uci/type/PO_TrackDetailsType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ActivityCommandType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_CollectionConstraintsSettingsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ComponentSettingsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_SubCapabilitySettingsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_TargetType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_TrackDetailsType.h"
 
 /**  */
 namespace asb_uci {

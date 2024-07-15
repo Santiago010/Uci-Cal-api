@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_RESPONSEALLOCATIONTYPE_H
 #define UCI_TYPE_RESPONSEALLOCATIONTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/RequirementAllocationBaseType.h"
-#include "uci/type/ResponseID_Type.h"
+#include "../base/export.h"
+#include "RequirementAllocationBaseType.h"
+#include "ResponseID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

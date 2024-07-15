@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/EntitySourceEnum.h"
-#include "asb_uci/type/FusionUpdatesEnum.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/FusionSourceType.h"
+#include "../../../include/asb_uci/type/EntitySourceEnum.h"
+#include "../../../include/asb_uci/type/FusionUpdatesEnum.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FusionSourceType.h"
 
 /**  */
 namespace asb_uci {

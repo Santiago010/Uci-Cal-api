@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_SHAREDRF_APERTURECAPABILITYCOMMANDBASETYPE_H
 #define UCI_TYPE_SHAREDRF_APERTURECAPABILITYCOMMANDBASETYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/type/CapabilityCommandBaseType.h"
-#include "uci/type/PerformanceMetricSetType.h"
+#include "../base/BoundedList.h"
+#include "CapabilityCommandBaseType.h"
+#include "PerformanceMetricSetType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

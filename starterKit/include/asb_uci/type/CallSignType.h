@@ -38,8 +38,8 @@
 
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/ForeignKeyType.h"
-#include "uci/type/CallSignType.h"
+#include "../../../include/asb_uci/type/ForeignKeyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CallSignType.h"
 
 /**  */
 namespace asb_uci {

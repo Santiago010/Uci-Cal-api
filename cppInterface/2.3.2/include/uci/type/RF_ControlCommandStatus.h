@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_RF_CONTROLCOMMANDSTATUS_H
 #define UCI_TYPE_RF_CONTROLCOMMANDSTATUS_H
 
-#include "uci/type/RF_ControlCommandStatusMT.h"
+#include "RF_ControlCommandStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

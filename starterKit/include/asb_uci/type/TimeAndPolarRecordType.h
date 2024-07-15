@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/TimeAndPolarDataType.h"
-#include "uci/type/TimeAndPolarRecordType.h"
+#include "../../../include/asb_uci/type/TimeAndPolarDataType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TimeAndPolarRecordType.h"
 
 /**  */
 namespace asb_uci {

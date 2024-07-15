@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SIZEESTIMATIONTYPE_H
 #define UCI_TYPE_SIZEESTIMATIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/OrbitalSurveillanceSizeDataEnum.h"
-#include "uci/type/OrbitalSurveillanceSizeTypeEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "OrbitalSurveillanceSizeDataEnum.h"
+#include "OrbitalSurveillanceSizeTypeEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

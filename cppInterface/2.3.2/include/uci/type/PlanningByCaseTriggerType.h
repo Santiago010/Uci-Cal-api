@@ -36,21 +36,21 @@
 #ifndef UCI_TYPE_PLANNINGBYCASETRIGGERTYPE_H
 #define UCI_TYPE_PLANNINGBYCASETRIGGERTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityTaxonomyType.h"
-#include "uci/type/CommsLostTriggerDataType.h"
-#include "uci/type/EmptyType.h"
-#include "uci/type/EnduranceType.h"
-#include "uci/type/PlanVulnerabilityType.h"
-#include "uci/type/RequirementFailedTriggerType.h"
-#include "uci/type/RequirementTriggerType.h"
-#include "uci/type/ResponseID_Type.h"
-#include "uci/type/SatelliteEnduranceType.h"
-#include "uci/type/SystemStateFilterType.h"
-#include "uci/type/ThresholdOffOrbitTriggerDataType.h"
-#include "uci/type/ThresholdOffRouteTriggerDataType.h"
-#include "uci/type/ZoneViolationTriggerDataType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CapabilityTaxonomyType.h"
+#include "CommsLostTriggerDataType.h"
+#include "EmptyType.h"
+#include "EnduranceType.h"
+#include "PlanVulnerabilityType.h"
+#include "RequirementFailedTriggerType.h"
+#include "RequirementTriggerType.h"
+#include "ResponseID_Type.h"
+#include "SatelliteEnduranceType.h"
+#include "SystemStateFilterType.h"
+#include "ThresholdOffOrbitTriggerDataType.h"
+#include "ThresholdOffRouteTriggerDataType.h"
+#include "ZoneViolationTriggerDataType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

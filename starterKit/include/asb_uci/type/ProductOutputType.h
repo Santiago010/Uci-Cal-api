@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/ProcessingTypeEnum.h"
-#include "asb_uci/type/ProductTypeEnum.h"
-#include "uci/type/ProductOutputType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/ProcessingTypeEnum.h"
+#include "../../../include/asb_uci/type/ProductTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProductOutputType.h"
 
 /**  */
 namespace asb_uci {

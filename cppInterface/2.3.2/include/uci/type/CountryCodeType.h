@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_COUNTRYCODETYPE_H
 #define UCI_TYPE_COUNTRYCODETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/GENC_CountryNameEnum.h"
-#include "uci/type/OperatorUniqueNameEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "GENC_CountryNameEnum.h"
+#include "OperatorUniqueNameEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_OPPOINTMDT_H
 #define UCI_TYPE_OPPOINTMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/OpPointBaseType.h"
-#include "uci/type/OpPointCategoriesType.h"
-#include "uci/type/OpPointCategoriesUniqueDataType.h"
+#include "../base/export.h"
+#include "OpPointBaseType.h"
+#include "OpPointCategoriesType.h"
+#include "OpPointCategoriesUniqueDataType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

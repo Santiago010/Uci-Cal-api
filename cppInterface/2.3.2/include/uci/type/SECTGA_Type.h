@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SECTGA_TYPE_H
 #define UCI_TYPE_SECTGA_TYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AlphanumericDashSpaceUnderscoreString13OnlyType.h"
-#include "uci/type/AlphanumericDashSpaceUnderscoreString16OnlyType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AlphanumericDashSpaceUnderscoreString13OnlyType.h"
+#include "AlphanumericDashSpaceUnderscoreString16OnlyType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

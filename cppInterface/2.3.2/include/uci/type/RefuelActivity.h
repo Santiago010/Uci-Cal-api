@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_REFUELACTIVITY_H
 #define UCI_TYPE_REFUELACTIVITY_H
 
-#include "uci/type/RefuelActivityMT.h"
+#include "RefuelActivityMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

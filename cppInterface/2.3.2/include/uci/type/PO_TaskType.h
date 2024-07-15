@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_PO_TASKTYPE_H
 #define UCI_TYPE_PO_TASKTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/PO_TaskBaseType.h"
-#include "uci/type/PointingType.h"
+#include "../base/export.h"
+#include "PO_TaskBaseType.h"
+#include "PointingType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

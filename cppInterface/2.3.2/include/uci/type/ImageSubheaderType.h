@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_IMAGESUBHEADERTYPE_H
 #define UCI_TYPE_IMAGESUBHEADERTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AlphanumericDashSpaceUnderscoreString11OnlyType.h"
-#include "uci/type/AlphanumericDashSpaceUnderscoreString17OnlyType.h"
-#include "uci/type/AlphanumericDashSpaceUnderscoreString21OnlyType.h"
-#include "uci/type/AlphanumericDashSpaceUnderscoreString3OnlyType.h"
-#include "uci/type/AlphanumericDashSpaceUnderscoreString9OnlyType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AlphanumericDashSpaceUnderscoreString11OnlyType.h"
+#include "AlphanumericDashSpaceUnderscoreString17OnlyType.h"
+#include "AlphanumericDashSpaceUnderscoreString21OnlyType.h"
+#include "AlphanumericDashSpaceUnderscoreString3OnlyType.h"
+#include "AlphanumericDashSpaceUnderscoreString9OnlyType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

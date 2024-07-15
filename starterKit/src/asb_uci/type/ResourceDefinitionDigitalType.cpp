@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ResourceDefinitionDigitalType.h"
+#include "../../../include/asb_uci/type/ResourceDefinitionDigitalType.h"
 
 #include <memory>
 #include <string>
@@ -41,20 +41,20 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AperturePointingOptionsType.h"
-#include "asb_uci/type/BlankingLimitType.h"
-#include "asb_uci/type/ResourceAllocationPeriodDigitalType.h"
-#include "asb_uci/type/UnsignedIntegerMinMaxType.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AperturePointingOptionsType.h"
-#include "uci/type/BlankingLimitType.h"
-#include "uci/type/ResourceAllocationPeriodDigitalType.h"
-#include "uci/type/ResourceDefinitionDigitalType.h"
-#include "uci/type/UnsignedIntegerMinMaxType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/AperturePointingOptionsType.h"
+#include "../../../include/asb_uci/type/BlankingLimitType.h"
+#include "../../../include/asb_uci/type/ResourceAllocationPeriodDigitalType.h"
+#include "../../../include/asb_uci/type/UnsignedIntegerMinMaxType.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AperturePointingOptionsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/BlankingLimitType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ResourceAllocationPeriodDigitalType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ResourceDefinitionDigitalType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/UnsignedIntegerMinMaxType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

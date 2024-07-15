@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_DATADELETECHOICETYPE_H
 #define UCI_TYPE_DATADELETECHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/ComponentID_Type.h"
-#include "uci/type/FileLocationID_Type.h"
-#include "uci/type/FileMetadataID_Type.h"
-#include "uci/type/ProductLocationID_Type.h"
-#include "uci/type/ProductMetadataID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilityID_Type.h"
+#include "ComponentID_Type.h"
+#include "FileLocationID_Type.h"
+#include "FileMetadataID_Type.h"
+#include "ProductLocationID_Type.h"
+#include "ProductMetadataID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

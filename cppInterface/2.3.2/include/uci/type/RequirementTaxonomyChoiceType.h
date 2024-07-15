@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_REQUIREMENTTAXONOMYCHOICETYPE_H
 #define UCI_TYPE_REQUIREMENTTAXONOMYCHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ActionTypeEnum.h"
-#include "uci/type/CapabilityTypeEnum.h"
-#include "uci/type/EffectTypeEnum.h"
-#include "uci/type/ResponseTypeEnum.h"
-#include "uci/type/TaskTypeEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ActionTypeEnum.h"
+#include "CapabilityTypeEnum.h"
+#include "EffectTypeEnum.h"
+#include "ResponseTypeEnum.h"
+#include "TaskTypeEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

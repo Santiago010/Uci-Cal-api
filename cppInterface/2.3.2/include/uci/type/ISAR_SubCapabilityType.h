@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_ISAR_SUBCAPABILITYTYPE_H
 #define UCI_TYPE_ISAR_SUBCAPABILITYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ISAR_TargetType.h"
-#include "uci/type/TimeType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ISAR_TargetType.h"
+#include "TimeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

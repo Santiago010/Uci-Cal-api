@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/Link16HazardBurstEnum.h"
-#include "asb_uci/type/Link16HazardYieldEnum.h"
-#include "uci/type/Link16HazardType.h"
+#include "../../../include/asb_uci/type/Link16HazardBurstEnum.h"
+#include "../../../include/asb_uci/type/Link16HazardYieldEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/Link16HazardType.h"
 
 /**  */
 namespace asb_uci {

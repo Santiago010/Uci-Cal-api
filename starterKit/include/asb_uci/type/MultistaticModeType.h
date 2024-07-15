@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/MultistaticModeActivationEnum.h"
-#include "uci/type/MultistaticModeType.h"
+#include "../../../include/asb_uci/type/MultistaticModeActivationEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MultistaticModeType.h"
 
 /**  */
 namespace asb_uci {

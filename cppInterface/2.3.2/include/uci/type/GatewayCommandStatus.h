@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_GATEWAYCOMMANDSTATUS_H
 #define UCI_TYPE_GATEWAYCOMMANDSTATUS_H
 
-#include "uci/type/GatewayCommandStatusMT.h"
+#include "GatewayCommandStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

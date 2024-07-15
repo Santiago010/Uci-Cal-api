@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_ZONEINCLUSIONTYPE_H
 #define UCI_TYPE_ZONEINCLUSIONTYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ZoneType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "ZoneType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

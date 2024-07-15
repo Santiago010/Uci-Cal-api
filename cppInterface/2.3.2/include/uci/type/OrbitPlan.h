@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ORBITPLAN_H
 #define UCI_TYPE_ORBITPLAN_H
 
-#include "uci/type/OrbitPlanMT.h"
+#include "OrbitPlanMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

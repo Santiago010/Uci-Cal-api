@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_ACO_TRACEABILITYTYPE_H
 #define UCI_TYPE_ACO_TRACEABILITYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AlphanumericDashSpaceUnderscoreString20OnlyType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AlphanumericDashSpaceUnderscoreString20OnlyType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/PO_ComponentStatusFocalPlaneArrayChannelType.h"
+#include "../../../include/asb_uci/type/PO_ComponentStatusFocalPlaneArrayChannelType.h"
 
 #include <memory>
 #include <string>
@@ -41,30 +41,30 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ComponentControlsStatusType.h"
-#include "asb_uci/type/PO_ComponentStatusFocalPlaneArrayCollectionTimeType.h"
-#include "asb_uci/type/PO_ComponentStatusFocalPlaneArrayNonUniformityCorrectionType.h"
-#include "asb_uci/type/PO_ComponentStatusFocalPlaneArrayOpticalBandType.h"
-#include "asb_uci/type/PO_ComponentStatusFocalPlaneArrayPixelAggregationType.h"
-#include "asb_uci/type/PO_ComponentStatusFocalPlaneArrayPixelPolarityType.h"
-#include "asb_uci/type/PO_ComponentStatusFocalPlaneArrayPixelScalingType.h"
-#include "asb_uci/type/PO_ComponentStatusFocalPlaneArrayScanDirectionType.h"
-#include "asb_uci/type/PO_ComponentStatusFocalPlaneArrayTimeDelayIntegrationType.h"
-#include "asb_uci/type/PO_FPA_ChannelID_Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ComponentControlsStatusType.h"
-#include "uci/type/PO_ComponentStatusFocalPlaneArrayChannelType.h"
-#include "uci/type/PO_ComponentStatusFocalPlaneArrayCollectionTimeType.h"
-#include "uci/type/PO_ComponentStatusFocalPlaneArrayNonUniformityCorrectionType.h"
-#include "uci/type/PO_ComponentStatusFocalPlaneArrayOpticalBandType.h"
-#include "uci/type/PO_ComponentStatusFocalPlaneArrayPixelAggregationType.h"
-#include "uci/type/PO_ComponentStatusFocalPlaneArrayPixelPolarityType.h"
-#include "uci/type/PO_ComponentStatusFocalPlaneArrayPixelScalingType.h"
-#include "uci/type/PO_ComponentStatusFocalPlaneArrayScanDirectionType.h"
-#include "uci/type/PO_ComponentStatusFocalPlaneArrayTimeDelayIntegrationType.h"
-#include "uci/type/PO_FPA_ChannelID_Type.h"
+#include "../../../include/asb_uci/type/ComponentControlsStatusType.h"
+#include "../../../include/asb_uci/type/PO_ComponentStatusFocalPlaneArrayCollectionTimeType.h"
+#include "../../../include/asb_uci/type/PO_ComponentStatusFocalPlaneArrayNonUniformityCorrectionType.h"
+#include "../../../include/asb_uci/type/PO_ComponentStatusFocalPlaneArrayOpticalBandType.h"
+#include "../../../include/asb_uci/type/PO_ComponentStatusFocalPlaneArrayPixelAggregationType.h"
+#include "../../../include/asb_uci/type/PO_ComponentStatusFocalPlaneArrayPixelPolarityType.h"
+#include "../../../include/asb_uci/type/PO_ComponentStatusFocalPlaneArrayPixelScalingType.h"
+#include "../../../include/asb_uci/type/PO_ComponentStatusFocalPlaneArrayScanDirectionType.h"
+#include "../../../include/asb_uci/type/PO_ComponentStatusFocalPlaneArrayTimeDelayIntegrationType.h"
+#include "../../../include/asb_uci/type/PO_FPA_ChannelID_Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ComponentControlsStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ComponentStatusFocalPlaneArrayChannelType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ComponentStatusFocalPlaneArrayCollectionTimeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ComponentStatusFocalPlaneArrayNonUniformityCorrectionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ComponentStatusFocalPlaneArrayOpticalBandType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ComponentStatusFocalPlaneArrayPixelAggregationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ComponentStatusFocalPlaneArrayPixelPolarityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ComponentStatusFocalPlaneArrayPixelScalingType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ComponentStatusFocalPlaneArrayScanDirectionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ComponentStatusFocalPlaneArrayTimeDelayIntegrationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_FPA_ChannelID_Type.h"
 
 /**  */
 namespace asb_uci {

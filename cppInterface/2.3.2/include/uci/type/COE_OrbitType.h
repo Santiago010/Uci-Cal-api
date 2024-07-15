@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_COE_ORBITTYPE_H
 #define UCI_TYPE_COE_ORBITTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/COE_OrbitBaseType.h"
-#include "uci/type/DistanceType.h"
+#include "../base/export.h"
+#include "COE_OrbitBaseType.h"
+#include "DistanceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

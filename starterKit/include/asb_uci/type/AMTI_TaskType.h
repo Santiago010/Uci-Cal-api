@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/AMTI_TaskBaseType.h"
-#include "uci/type/AMTI_TaskType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/AMTI_TaskBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AMTI_TaskType.h"
 
 /**  */
 namespace asb_uci {

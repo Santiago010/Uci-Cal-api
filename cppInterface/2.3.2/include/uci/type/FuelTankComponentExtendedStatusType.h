@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_FUELTANKCOMPONENTEXTENDEDSTATUSTYPE_H
 #define UCI_TYPE_FUELTANKCOMPONENTEXTENDEDSTATUSTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ComponentExtendedStatusPET.h"
-#include "uci/type/MassType.h"
-#include "uci/type/PercentType.h"
-#include "uci/type/PumpComponentExtendedStatusType.h"
-#include "uci/type/TemperatureType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ComponentExtendedStatusPET.h"
+#include "MassType.h"
+#include "PercentType.h"
+#include "PumpComponentExtendedStatusType.h"
+#include "TemperatureType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ORBITACTIVITYPLANVALIDATION_H
 #define UCI_TYPE_ORBITACTIVITYPLANVALIDATION_H
 
-#include "uci/type/OrbitActivityPlanValidationMT.h"
+#include "OrbitActivityPlanValidationMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

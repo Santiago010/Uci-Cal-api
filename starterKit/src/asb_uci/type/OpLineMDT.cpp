@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/OpLineMDT.h"
+#include "../../../include/asb_uci/type/OpLineMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,17 +41,17 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/OpBaseType.h"
-#include "asb_uci/type/OpLineCategoryEnum.h"
-#include "asb_uci/type/OpLineID_Type.h"
-#include "asb_uci/type/OpLineType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/OpLineCategoryEnum.h"
-#include "uci/type/OpLineID_Type.h"
-#include "uci/type/OpLineMDT.h"
-#include "uci/type/OpLineType.h"
+#include "../../../include/asb_uci/type/OpBaseType.h"
+#include "../../../include/asb_uci/type/OpLineCategoryEnum.h"
+#include "../../../include/asb_uci/type/OpLineID_Type.h"
+#include "../../../include/asb_uci/type/OpLineType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpLineCategoryEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpLineID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpLineMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpLineType.h"
 
 /**  */
 namespace asb_uci {

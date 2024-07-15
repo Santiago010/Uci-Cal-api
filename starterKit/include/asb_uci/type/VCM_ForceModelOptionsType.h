@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AccelerationType.h"
-#include "asb_uci/type/DistanceOffsetType.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/VCM_ForceModelOptionsType.h"
+#include "../../../include/asb_uci/type/AccelerationType.h"
+#include "../../../include/asb_uci/type/DistanceOffsetType.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VCM_ForceModelOptionsType.h"
 
 /**  */
 namespace asb_uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ControlStatusMissionControlType.h"
+#include "../../../include/asb_uci/type/ControlStatusMissionControlType.h"
 
 #include <memory>
 #include <string>
@@ -41,19 +41,19 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/DirectControlInterfacesType.h"
-#include "asb_uci/type/PlannedControlInterfacesType.h"
-#include "asb_uci/type/SystemID_Type.h"
-#include "asb_uci/type/VoiceCallSignType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ControlStatusMissionControlType.h"
-#include "uci/type/DirectControlInterfacesType.h"
-#include "uci/type/PlannedControlInterfacesType.h"
-#include "uci/type/SystemID_Type.h"
-#include "uci/type/VoiceCallSignType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/DirectControlInterfacesType.h"
+#include "../../../include/asb_uci/type/PlannedControlInterfacesType.h"
+#include "../../../include/asb_uci/type/SystemID_Type.h"
+#include "../../../include/asb_uci/type/VoiceCallSignType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ControlStatusMissionControlType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DirectControlInterfacesType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlannedControlInterfacesType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SystemID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VoiceCallSignType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

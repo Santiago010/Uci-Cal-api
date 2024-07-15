@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_PRODUCTOUTPUTCAPABILITYIMAGERYTYPE_H
 #define UCI_TYPE_PRODUCTOUTPUTCAPABILITYIMAGERYTYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ComponentControllabilityA_Type.h"
-#include "uci/type/CompressionRatioSettingsType.h"
-#include "uci/type/PO_ProductGeneratorOutputID_Type.h"
-#include "uci/type/ProductOutputType.h"
-#include "uci/type/ProductRateSettingsType.h"
-#include "uci/type/ProductResolutionSettingsType.h"
-#include "uci/type/ProductSizeSettingsType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "ComponentControllabilityA_Type.h"
+#include "CompressionRatioSettingsType.h"
+#include "PO_ProductGeneratorOutputID_Type.h"
+#include "ProductOutputType.h"
+#include "ProductRateSettingsType.h"
+#include "ProductResolutionSettingsType.h"
+#include "ProductSizeSettingsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

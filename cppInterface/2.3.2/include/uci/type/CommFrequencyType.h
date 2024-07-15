@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_COMMFREQUENCYTYPE_H
 #define UCI_TYPE_COMMFREQUENCYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CommType.h"
-#include "uci/type/FrequencyRangeType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CommType.h"
+#include "FrequencyRangeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

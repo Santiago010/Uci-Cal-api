@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_GRAVITYMODELTYPE_H
 #define UCI_TYPE_GRAVITYMODELTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/GravityModelEnum.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "GravityModelEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

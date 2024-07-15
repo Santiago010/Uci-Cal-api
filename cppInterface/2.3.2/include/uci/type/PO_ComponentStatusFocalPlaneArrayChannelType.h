@@ -36,18 +36,18 @@
 #ifndef UCI_TYPE_PO_COMPONENTSTATUSFOCALPLANEARRAYCHANNELTYPE_H
 #define UCI_TYPE_PO_COMPONENTSTATUSFOCALPLANEARRAYCHANNELTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ComponentControlsStatusType.h"
-#include "uci/type/PO_ComponentStatusFocalPlaneArrayCollectionTimeType.h"
-#include "uci/type/PO_ComponentStatusFocalPlaneArrayNonUniformityCorrectionType.h"
-#include "uci/type/PO_ComponentStatusFocalPlaneArrayOpticalBandType.h"
-#include "uci/type/PO_ComponentStatusFocalPlaneArrayPixelAggregationType.h"
-#include "uci/type/PO_ComponentStatusFocalPlaneArrayPixelPolarityType.h"
-#include "uci/type/PO_ComponentStatusFocalPlaneArrayPixelScalingType.h"
-#include "uci/type/PO_ComponentStatusFocalPlaneArrayScanDirectionType.h"
-#include "uci/type/PO_ComponentStatusFocalPlaneArrayTimeDelayIntegrationType.h"
-#include "uci/type/PO_FPA_ChannelID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ComponentControlsStatusType.h"
+#include "PO_ComponentStatusFocalPlaneArrayCollectionTimeType.h"
+#include "PO_ComponentStatusFocalPlaneArrayNonUniformityCorrectionType.h"
+#include "PO_ComponentStatusFocalPlaneArrayOpticalBandType.h"
+#include "PO_ComponentStatusFocalPlaneArrayPixelAggregationType.h"
+#include "PO_ComponentStatusFocalPlaneArrayPixelPolarityType.h"
+#include "PO_ComponentStatusFocalPlaneArrayPixelScalingType.h"
+#include "PO_ComponentStatusFocalPlaneArrayScanDirectionType.h"
+#include "PO_ComponentStatusFocalPlaneArrayTimeDelayIntegrationType.h"
+#include "PO_FPA_ChannelID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

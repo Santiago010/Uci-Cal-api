@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/RF_ResourceAllocationRequestStatusMDT.h"
+#include "../../../include/asb_uci/type/RF_ResourceAllocationRequestStatusMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,16 +41,16 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CannotComplyType.h"
-#include "asb_uci/type/RequestStatusBaseType.h"
-#include "asb_uci/type/ResourceAllocationStatusEnum.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CannotComplyType.h"
-#include "uci/type/RF_ResourceAllocationRequestStatusMDT.h"
-#include "uci/type/ResourceAllocationStatusEnum.h"
+#include "../../../include/asb_uci/type/CannotComplyType.h"
+#include "../../../include/asb_uci/type/RequestStatusBaseType.h"
+#include "../../../include/asb_uci/type/ResourceAllocationStatusEnum.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CannotComplyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RF_ResourceAllocationRequestStatusMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ResourceAllocationStatusEnum.h"
 
 /**  */
 namespace asb_uci {

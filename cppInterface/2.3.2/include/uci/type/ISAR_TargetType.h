@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_ISAR_TARGETTYPE_H
 #define UCI_TYPE_ISAR_TARGETTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EntityID_Type.h"
-#include "uci/type/PointTargetType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "EntityID_Type.h"
+#include "PointTargetType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

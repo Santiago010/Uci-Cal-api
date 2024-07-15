@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_REQUIREMENTOPTIONTYPE_H
 #define UCI_TYPE_REQUIREMENTOPTIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/RequirementAllocationWindowType.h"
-#include "uci/type/RequirementInstanceID_ChoiceType.h"
-#include "uci/type/SubsystemID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilityID_Type.h"
+#include "RequirementAllocationWindowType.h"
+#include "RequirementInstanceID_ChoiceType.h"
+#include "SubsystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

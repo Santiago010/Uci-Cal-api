@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_SOB_EQUIPMENTTYPE_H
 #define UCI_TYPE_SOB_EQUIPMENTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AlphanumericString54Type.h"
-#include "uci/type/CountryCodeType.h"
-#include "uci/type/EquipmentConditionEnum.h"
-#include "uci/type/VisibleString128Type.h"
-#include "uci/type/VisibleString32Type.h"
-#include "uci/type/VisibleString64Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AlphanumericString54Type.h"
+#include "CountryCodeType.h"
+#include "EquipmentConditionEnum.h"
+#include "VisibleString128Type.h"
+#include "VisibleString32Type.h"
+#include "VisibleString64Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

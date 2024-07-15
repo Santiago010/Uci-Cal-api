@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CommTerminalPlanActivationCommandMDT.h"
+#include "../../../include/asb_uci/type/CommTerminalPlanActivationCommandMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,17 +41,17 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CommTerminalPlanEffectivityActivationType.h"
-#include "asb_uci/type/CommTerminalPlanID_Type.h"
-#include "asb_uci/type/CommandBaseType.h"
-#include "asb_uci/type/PlanActivationCommandEnum.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CommTerminalPlanActivationCommandMDT.h"
-#include "uci/type/CommTerminalPlanEffectivityActivationType.h"
-#include "uci/type/CommTerminalPlanID_Type.h"
-#include "uci/type/PlanActivationCommandEnum.h"
+#include "../../../include/asb_uci/type/CommTerminalPlanEffectivityActivationType.h"
+#include "../../../include/asb_uci/type/CommTerminalPlanID_Type.h"
+#include "../../../include/asb_uci/type/CommandBaseType.h"
+#include "../../../include/asb_uci/type/PlanActivationCommandEnum.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommTerminalPlanActivationCommandMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommTerminalPlanEffectivityActivationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommTerminalPlanID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlanActivationCommandEnum.h"
 
 /**  */
 namespace asb_uci {

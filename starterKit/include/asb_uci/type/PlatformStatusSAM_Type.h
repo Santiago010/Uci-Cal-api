@@ -41,12 +41,12 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/CommunicationsImpairmentEnum.h"
-#include "asb_uci/type/OperationalImpairmentEnum.h"
-#include "asb_uci/type/RadiationModeEnum.h"
-#include "asb_uci/type/SAM_ModeEnum.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/PlatformStatusSAM_Type.h"
+#include "../../../include/asb_uci/type/CommunicationsImpairmentEnum.h"
+#include "../../../include/asb_uci/type/OperationalImpairmentEnum.h"
+#include "../../../include/asb_uci/type/RadiationModeEnum.h"
+#include "../../../include/asb_uci/type/SAM_ModeEnum.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlatformStatusSAM_Type.h"
 
 /**  */
 namespace asb_uci {

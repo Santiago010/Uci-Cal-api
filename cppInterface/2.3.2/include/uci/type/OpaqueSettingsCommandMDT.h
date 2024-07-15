@@ -36,8 +36,8 @@
 #ifndef UCI_TYPE_OPAQUESETTINGSCOMMANDMDT_H
 #define UCI_TYPE_OPAQUESETTINGSCOMMANDMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/CapabilitySettingsCommandBaseType.h"
+#include "../base/export.h"
+#include "CapabilitySettingsCommandBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

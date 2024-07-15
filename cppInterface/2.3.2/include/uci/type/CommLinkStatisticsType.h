@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_COMMLINKSTATISTICSTYPE_H
 #define UCI_TYPE_COMMLINKSTATISTICSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DataRateType.h"
-#include "uci/type/DecibelType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/NetworkLinkID_Type.h"
-#include "uci/type/PercentType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "DataRateType.h"
+#include "DecibelType.h"
+#include "DurationType.h"
+#include "ForeignKeyType.h"
+#include "NetworkLinkID_Type.h"
+#include "PercentType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

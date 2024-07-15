@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_TIMINGCONSTRAINTSTYPE_H
 #define UCI_TYPE_TIMINGCONSTRAINTSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EmptyType.h"
-#include "uci/type/RepetitionConstraintsType.h"
-#include "uci/type/TimeWindowType.h"
-#include "uci/type/WeekdayIntervalType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "EmptyType.h"
+#include "RepetitionConstraintsType.h"
+#include "TimeWindowType.h"
+#include "WeekdayIntervalType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

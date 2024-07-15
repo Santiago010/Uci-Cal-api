@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SERVICECONFIGURATIONPARAMSDATAREQUEST_H
 #define UCI_TYPE_SERVICECONFIGURATIONPARAMSDATAREQUEST_H
 
-#include "uci/type/ServiceConfigurationParamsDataRequestMT.h"
+#include "ServiceConfigurationParamsDataRequestMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

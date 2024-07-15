@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_MISSIONENVIRONMENTOBJECTVALUEEFFECTTYPE_H
 #define UCI_TYPE_MISSIONENVIRONMENTOBJECTVALUEEFFECTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/EffectTypeEnum.h"
-#include "uci/type/MissionEnvironmentObjectEffectType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "EffectTypeEnum.h"
+#include "MissionEnvironmentObjectEffectType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

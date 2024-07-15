@@ -41,11 +41,11 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/HoseCutStatusEnum.h"
-#include "asb_uci/type/MassType.h"
-#include "asb_uci/type/RefuelCapabilityDrogueCommonType.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/RefuelCapabilityDrogueStatusType.h"
+#include "../../../include/asb_uci/type/HoseCutStatusEnum.h"
+#include "../../../include/asb_uci/type/MassType.h"
+#include "../../../include/asb_uci/type/RefuelCapabilityDrogueCommonType.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RefuelCapabilityDrogueStatusType.h"
 
 /**  */
 namespace asb_uci {

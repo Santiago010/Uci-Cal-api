@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_SYSTEMEPHEMERISREQUESTPARAMETERSTYPE_H
 #define UCI_TYPE_SYSTEMEPHEMERISREQUESTPARAMETERSTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/OrbitalEphemerisRequestParametersType.h"
-#include "uci/type/SystemEphemerisBasisChoiceType.h"
+#include "../base/export.h"
+#include "OrbitalEphemerisRequestParametersType.h"
+#include "SystemEphemerisBasisChoiceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

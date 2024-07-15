@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_STRIKETASKTYPE_H
 #define UCI_TYPE_STRIKETASKTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AnglePairType.h"
-#include "uci/type/EmptyType.h"
-#include "uci/type/Point3D_Type.h"
-#include "uci/type/StrikeTaskReleaseConstraintsType.h"
-#include "uci/type/StrikeTaskWeaponListType.h"
-#include "uci/type/TargetInformationType.h"
-#include "uci/type/TargetType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AnglePairType.h"
+#include "EmptyType.h"
+#include "Point3D_Type.h"
+#include "StrikeTaskReleaseConstraintsType.h"
+#include "StrikeTaskWeaponListType.h"
+#include "TargetInformationType.h"
+#include "TargetType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_EOB_CODESTYPE_H
 #define UCI_TYPE_EOB_CODESTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CountryCodeType.h"
-#include "uci/type/EOB_ActivityCodeType.h"
-#include "uci/type/EmitterFunctionType.h"
-#include "uci/type/MIDB_EvaluationCodeType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CountryCodeType.h"
+#include "EOB_ActivityCodeType.h"
+#include "EmitterFunctionType.h"
+#include "MIDB_EvaluationCodeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

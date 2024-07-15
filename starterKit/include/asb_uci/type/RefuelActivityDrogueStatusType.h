@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/FuelFlowModeEnum.h"
-#include "asb_uci/type/MassType.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/RefuelActivityDrogueStatusType.h"
+#include "../../../include/asb_uci/type/FuelFlowModeEnum.h"
+#include "../../../include/asb_uci/type/MassType.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RefuelActivityDrogueStatusType.h"
 
 /**  */
 namespace asb_uci {

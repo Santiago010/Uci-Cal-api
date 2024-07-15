@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SYSTEMDEPLOYMENTTASKTYPE_H
 #define UCI_TYPE_SYSTEMDEPLOYMENTTASKTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/DeployableSystemIdentityType.h"
-#include "uci/type/KinematicsMultiStandardType.h"
-#include "uci/type/SystemDeploymentTaskBaseType.h"
+#include "../base/export.h"
+#include "DeployableSystemIdentityType.h"
+#include "KinematicsMultiStandardType.h"
+#include "SystemDeploymentTaskBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/ProductTypeEnum.h"
-#include "uci/type/ProductReferenceByParentType.h"
+#include "../../../include/asb_uci/type/ProductTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProductReferenceByParentType.h"
 
 /**  */
 namespace asb_uci {

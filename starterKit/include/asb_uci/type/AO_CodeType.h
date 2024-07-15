@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AO_PIM_CodeType.h"
-#include "asb_uci/type/AO_PRF_CodeType.h"
-#include "uci/type/AO_CodeType.h"
+#include "../../../include/asb_uci/type/AO_PIM_CodeType.h"
+#include "../../../include/asb_uci/type/AO_PRF_CodeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AO_CodeType.h"
 
 /**  */
 namespace asb_uci {

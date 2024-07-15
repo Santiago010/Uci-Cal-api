@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_PO_COMPONENTSTATUSFOCALPLANEARRAYNONUNIFORMITYCORRECTIONTYPE_H
 #define UCI_TYPE_PO_COMPONENTSTATUSFOCALPLANEARRAYNONUNIFORMITYCORRECTIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/PO_ComponentStatusFocalPlaneArrayNonUniformityCorrectionDataType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "PO_ComponentStatusFocalPlaneArrayNonUniformityCorrectionDataType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

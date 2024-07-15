@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_ORBITKINEMATICSSOURCETYPE_H
 #define UCI_TYPE_ORBITKINEMATICSSOURCETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/OrbitPlanID_Type.h"
-#include "uci/type/OrbitalElementSetSourceType.h"
-#include "uci/type/OrbitalEphemerisSourceType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "OrbitPlanID_Type.h"
+#include "OrbitalElementSetSourceType.h"
+#include "OrbitalEphemerisSourceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

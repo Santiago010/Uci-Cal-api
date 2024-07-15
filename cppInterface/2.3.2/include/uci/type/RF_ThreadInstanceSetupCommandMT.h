@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_RF_THREADINSTANCESETUPCOMMANDMT_H
 #define UCI_TYPE_RF_THREADINSTANCESETUPCOMMANDMT_H
 
-#include "uci/base/Listener.h"
-#include "uci/base/Reader.h"
-#include "uci/base/Writer.h"
-#include "uci/base/export.h"
-#include "uci/type/MessageType.h"
-#include "uci/type/RF_ThreadInstanceSetupCommandMDT.h"
+#include "../base/Listener.h"
+#include "../base/Reader.h"
+#include "../base/Writer.h"
+#include "../base/export.h"
+#include "MessageType.h"
+#include "RF_ThreadInstanceSetupCommandMDT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

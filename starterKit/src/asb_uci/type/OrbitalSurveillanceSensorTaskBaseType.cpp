@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/OrbitalSurveillanceSensorTaskBaseType.h"
+#include "../../../include/asb_uci/type/OrbitalSurveillanceSensorTaskBaseType.h"
 
 #include <memory>
 #include <string>
@@ -41,26 +41,26 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/OrbitalSurveillanceCollectionRequirementsType.h"
-#include "asb_uci/type/OrbitalSurveillanceSensorCapabilityEnum.h"
-#include "asb_uci/type/OrbitalSurveillanceSensorReportingCategoriesType.h"
-#include "asb_uci/type/OrbitalSurveillanceSensorSensitivityConstraintType.h"
-#include "asb_uci/type/OrbitalSurveillanceSubCapabilityEnum.h"
-#include "asb_uci/util/DerivedTypesCopier.h"
-#include "asb_uci/util/DerivedTypesCreator.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/DerivedTypesSerializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/OrbitalSurveillanceCollectionRequirementsType.h"
-#include "uci/type/OrbitalSurveillanceSensorCapabilityEnum.h"
-#include "uci/type/OrbitalSurveillanceSensorReportingCategoriesType.h"
-#include "uci/type/OrbitalSurveillanceSensorSensitivityConstraintType.h"
-#include "uci/type/OrbitalSurveillanceSensorTaskBaseType.h"
-#include "uci/type/OrbitalSurveillanceSubCapabilityEnum.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/OrbitalSurveillanceCollectionRequirementsType.h"
+#include "../../../include/asb_uci/type/OrbitalSurveillanceSensorCapabilityEnum.h"
+#include "../../../include/asb_uci/type/OrbitalSurveillanceSensorReportingCategoriesType.h"
+#include "../../../include/asb_uci/type/OrbitalSurveillanceSensorSensitivityConstraintType.h"
+#include "../../../include/asb_uci/type/OrbitalSurveillanceSubCapabilityEnum.h"
+#include "../../../include/asb_uci/util/DerivedTypesCopier.h"
+#include "../../../include/asb_uci/util/DerivedTypesCreator.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/DerivedTypesSerializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DurationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalSurveillanceCollectionRequirementsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalSurveillanceSensorCapabilityEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalSurveillanceSensorReportingCategoriesType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalSurveillanceSensorSensitivityConstraintType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalSurveillanceSensorTaskBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalSurveillanceSubCapabilityEnum.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_TURNPOINTTYPE_H
 #define UCI_TYPE_TURNPOINTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AngleType.h"
-#include "uci/type/TurnGeometryChoiceType.h"
-#include "uci/type/TurnPointTypeEnum.h"
-#include "uci/type/WayPointPointChoiceType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AngleType.h"
+#include "TurnGeometryChoiceType.h"
+#include "TurnPointTypeEnum.h"
+#include "WayPointPointChoiceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

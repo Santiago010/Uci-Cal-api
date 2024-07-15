@@ -33,7 +33,7 @@
  *
  */
 
-#include "uci/type/STANAG_4607_TargetClassificationEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/STANAG_4607_TargetClassificationEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

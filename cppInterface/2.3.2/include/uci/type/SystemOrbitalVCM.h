@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SYSTEMORBITALVCM_H
 #define UCI_TYPE_SYSTEMORBITALVCM_H
 
-#include "uci/type/SystemOrbitalVCM_MT.h"
+#include "SystemOrbitalVCM_MT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

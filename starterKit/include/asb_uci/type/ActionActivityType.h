@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/ActivityBaseType.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/ActionActivityType.h"
+#include "../../../include/asb_uci/type/ActivityBaseType.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ActionActivityType.h"
 
 /**  */
 namespace asb_uci {

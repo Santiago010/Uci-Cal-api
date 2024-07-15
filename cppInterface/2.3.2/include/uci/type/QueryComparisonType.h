@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_QUERYCOMPARISONTYPE_H
 #define UCI_TYPE_QUERYCOMPARISONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ComparableAtomicValueType.h"
-#include "uci/type/QueryStepType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ComparableAtomicValueType.h"
+#include "QueryStepType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

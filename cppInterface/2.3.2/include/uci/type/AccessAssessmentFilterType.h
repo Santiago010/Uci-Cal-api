@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_ACCESSASSESSMENTFILTERTYPE_H
 #define UCI_TYPE_ACCESSASSESSMENTFILTERTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AccessEventFilterType.h"
-#include "uci/type/AssetFilterType.h"
-#include "uci/type/CapabilityTaxonomyUniversalType.h"
-#include "uci/type/VisibleString32Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AccessEventFilterType.h"
+#include "AssetFilterType.h"
+#include "CapabilityTaxonomyUniversalType.h"
+#include "VisibleString32Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

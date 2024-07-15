@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_DMPI_H
 #define UCI_TYPE_DMPI_H
 
-#include "uci/type/DMPI_MT.h"
+#include "DMPI_MT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

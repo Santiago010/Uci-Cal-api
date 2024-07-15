@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_RESENDDATAREQUESTSTATUSMDT_H
 #define UCI_TYPE_RESENDDATAREQUESTSTATUSMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/MessageType.h"
-#include "uci/type/RequestStatusBaseType.h"
-#include "uci/type/ServiceID_Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "MessageType.h"
+#include "RequestStatusBaseType.h"
+#include "ServiceID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

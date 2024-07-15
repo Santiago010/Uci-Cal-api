@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_FLIGHTCAPABILITYTYPE_H
 #define UCI_TYPE_FLIGHTCAPABILITYTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CommandableCapabilityDeclarationType.h"
-#include "uci/type/FlightCapabilityEnum.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CommandableCapabilityDeclarationType.h"
+#include "FlightCapabilityEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

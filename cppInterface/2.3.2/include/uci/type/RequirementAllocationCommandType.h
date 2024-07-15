@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_REQUIREMENTALLOCATIONCOMMANDTYPE_H
 #define UCI_TYPE_REQUIREMENTALLOCATIONCOMMANDTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ActionAllocationType.h"
-#include "uci/type/EffectAllocationType.h"
-#include "uci/type/ResponseAllocationType.h"
-#include "uci/type/TaskAllocationType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ActionAllocationType.h"
+#include "EffectAllocationType.h"
+#include "ResponseAllocationType.h"
+#include "TaskAllocationType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

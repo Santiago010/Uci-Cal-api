@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AngleHalfPositiveType.h"
-#include "asb_uci/type/AnglePositiveType.h"
-#include "asb_uci/type/AzElRequiredReferenceType.h"
-#include "uci/type/FOV_VolumeType.h"
+#include "../../../include/asb_uci/type/AngleHalfPositiveType.h"
+#include "../../../include/asb_uci/type/AnglePositiveType.h"
+#include "../../../include/asb_uci/type/AzElRequiredReferenceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FOV_VolumeType.h"
 
 /**  */
 namespace asb_uci {

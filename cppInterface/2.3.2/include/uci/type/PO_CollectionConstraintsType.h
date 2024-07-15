@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_PO_COLLECTIONCONSTRAINTSTYPE_H
 #define UCI_TYPE_PO_COLLECTIONCONSTRAINTSTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/ComponentControllabilityA_Type.h"
-#include "uci/type/OpticalCollectionConstraintsType.h"
-#include "uci/type/PO_CollectionConstraintsEnum.h"
+#include "../base/export.h"
+#include "ComponentControllabilityA_Type.h"
+#include "OpticalCollectionConstraintsType.h"
+#include "PO_CollectionConstraintsEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_SUBSYSTEMCONFIGURATIONMDT_H
 #define UCI_TYPE_SUBSYSTEMCONFIGURATIONMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ComponentConfigurationPET.h"
-#include "uci/type/SubsystemConfigurationID_Type.h"
-#include "uci/type/SubsystemConfigurationType.h"
-#include "uci/type/SubsystemID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ComponentConfigurationPET.h"
+#include "SubsystemConfigurationID_Type.h"
+#include "SubsystemConfigurationType.h"
+#include "SubsystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

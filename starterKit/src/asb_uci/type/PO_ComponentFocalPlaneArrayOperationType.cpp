@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/PO_ComponentFocalPlaneArrayOperationType.h"
+#include "../../../include/asb_uci/type/PO_ComponentFocalPlaneArrayOperationType.h"
 
 #include <memory>
 #include <string>
@@ -41,25 +41,25 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ComponentControllabilityA_Type.h"
-#include "asb_uci/type/DoubleMinMaxType.h"
-#include "asb_uci/type/DurationRangeType.h"
-#include "asb_uci/type/FocalPlaneArrayOperationNonUniformityCorrectionType.h"
-#include "asb_uci/type/PO_FPA_ChannelOperationEnum.h"
-#include "asb_uci/type/PixelScalingSettingsType.h"
-#include "asb_uci/type/UnsignedIntegerMinMaxType.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ComponentControllabilityA_Type.h"
-#include "uci/type/DoubleMinMaxType.h"
-#include "uci/type/DurationRangeType.h"
-#include "uci/type/FocalPlaneArrayOperationNonUniformityCorrectionType.h"
-#include "uci/type/PO_ComponentFocalPlaneArrayOperationType.h"
-#include "uci/type/PO_FPA_ChannelOperationEnum.h"
-#include "uci/type/PixelScalingSettingsType.h"
-#include "uci/type/UnsignedIntegerMinMaxType.h"
+#include "../../../include/asb_uci/type/ComponentControllabilityA_Type.h"
+#include "../../../include/asb_uci/type/DoubleMinMaxType.h"
+#include "../../../include/asb_uci/type/DurationRangeType.h"
+#include "../../../include/asb_uci/type/FocalPlaneArrayOperationNonUniformityCorrectionType.h"
+#include "../../../include/asb_uci/type/PO_FPA_ChannelOperationEnum.h"
+#include "../../../include/asb_uci/type/PixelScalingSettingsType.h"
+#include "../../../include/asb_uci/type/UnsignedIntegerMinMaxType.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ComponentControllabilityA_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DoubleMinMaxType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DurationRangeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FocalPlaneArrayOperationNonUniformityCorrectionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ComponentFocalPlaneArrayOperationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_FPA_ChannelOperationEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PixelScalingSettingsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/UnsignedIntegerMinMaxType.h"
 
 /**  */
 namespace asb_uci {

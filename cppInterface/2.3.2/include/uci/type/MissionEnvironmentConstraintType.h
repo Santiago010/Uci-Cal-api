@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_MISSIONENVIRONMENTCONSTRAINTTYPE_H
 #define UCI_TYPE_MISSIONENVIRONMENTCONSTRAINTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ConstrainedEntityType.h"
-#include "uci/type/ConstrainedOpLineType.h"
-#include "uci/type/ConstrainedOpPointType.h"
-#include "uci/type/ConstrainedOpVolumeType.h"
-#include "uci/type/ConstrainedOpZoneType.h"
-#include "uci/type/ParameterAssertType.h"
-#include "uci/type/RequirementRiskAdjustmentType.h"
-#include "uci/type/SystemStatusMDT.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ConstrainedEntityType.h"
+#include "ConstrainedOpLineType.h"
+#include "ConstrainedOpPointType.h"
+#include "ConstrainedOpVolumeType.h"
+#include "ConstrainedOpZoneType.h"
+#include "ParameterAssertType.h"
+#include "RequirementRiskAdjustmentType.h"
+#include "SystemStatusMDT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

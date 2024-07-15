@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_COMMSTARLINKCOMMWAVEFORMCAPABILITYCOMMANDTYPE_H
 #define UCI_TYPE_COMMSTARLINKCOMMWAVEFORMCAPABILITYCOMMANDTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/CommStarlinkControlType.h"
-#include "uci/type/CommWaveformCapabilityCommandPET.h"
+#include "../base/export.h"
+#include "CommStarlinkControlType.h"
+#include "CommWaveformCapabilityCommandPET.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

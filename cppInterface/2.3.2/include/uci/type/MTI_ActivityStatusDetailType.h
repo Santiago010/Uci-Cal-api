@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_MTI_ACTIVITYSTATUSDETAILTYPE_H
 #define UCI_TYPE_MTI_ACTIVITYSTATUSDETAILTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AreaChoiceType.h"
-#include "uci/type/DecibelType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/EstimatedPerformanceType.h"
-#include "uci/type/MTI_ActivityStatusBaseType.h"
+#include "../base/BoundedList.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "AreaChoiceType.h"
+#include "DecibelType.h"
+#include "DurationType.h"
+#include "EstimatedPerformanceType.h"
+#include "MTI_ActivityStatusBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/EnvironmentEnum.h"
-#include "asb_uci/type/MobilityEnum.h"
-#include "uci/type/OB_SensorIdentityType.h"
+#include "../../../include/asb_uci/type/EnvironmentEnum.h"
+#include "../../../include/asb_uci/type/MobilityEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OB_SensorIdentityType.h"
 
 /**  */
 namespace asb_uci {

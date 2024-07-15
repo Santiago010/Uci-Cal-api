@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_PRODUCTDOWNLOADREQUESTMDT_H
 #define UCI_TYPE_PRODUCTDOWNLOADREQUESTMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/ComparableRankingType.h"
-#include "uci/type/DownloadPriorityEnum.h"
-#include "uci/type/ProductReferenceType.h"
-#include "uci/type/RequestBaseType.h"
-#include "uci/type/SystemID_Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilityID_Type.h"
+#include "ComparableRankingType.h"
+#include "DownloadPriorityEnum.h"
+#include "ProductReferenceType.h"
+#include "RequestBaseType.h"
+#include "SystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

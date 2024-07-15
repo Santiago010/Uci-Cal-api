@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_COMMPOINTINGCOMMANDSTATUS_H
 #define UCI_TYPE_COMMPOINTINGCOMMANDSTATUS_H
 
-#include "uci/type/CommPointingCommandStatusMT.h"
+#include "CommPointingCommandStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

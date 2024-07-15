@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_REFUELCAPABILITYSTATUSMDT_H
 #define UCI_TYPE_REFUELCAPABILITYSTATUSMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AvailableFuelType.h"
-#include "uci/type/CapabilityStatusBaseType.h"
-#include "uci/type/CapabilityStatusType.h"
-#include "uci/type/RefuelCapabilityStatusType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AvailableFuelType.h"
+#include "CapabilityStatusBaseType.h"
+#include "CapabilityStatusType.h"
+#include "RefuelCapabilityStatusType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

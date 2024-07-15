@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_SENSORKINEMATICSCHOICETYPE_H
 #define UCI_TYPE_SENSORKINEMATICSCHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ECEF_SensorKinematicsType.h"
-#include "uci/type/SensorKinematicsOrbitalType.h"
-#include "uci/type/SignalNavDataType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ECEF_SensorKinematicsType.h"
+#include "SensorKinematicsOrbitalType.h"
+#include "SignalNavDataType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_REQUIREMENTTEMPLATEOPTIONTYPE_H
 #define UCI_TYPE_REQUIREMENTTEMPLATEOPTIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityCommandTemporalConstraintsType.h"
-#include "uci/type/RequirementConstraintsType.h"
-#include "uci/type/ResponseOptionType.h"
+#include "../base/Accessor.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "CapabilityCommandTemporalConstraintsType.h"
+#include "RequirementConstraintsType.h"
+#include "ResponseOptionType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,8 +36,8 @@
 #ifndef UCI_TYPE_PRODUCTOUTPUTSTATUSTYPE_H
 #define UCI_TYPE_PRODUCTOUTPUTSTATUSTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/ProductOutputCapabilityStatusImageryType.h"
+#include "../base/export.h"
+#include "ProductOutputCapabilityStatusImageryType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -41,11 +41,11 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/DateTimeType.h"
-#include "asb_uci/type/SubsystemBIT_ResultEnum.h"
-#include "asb_uci/type/VisibleString256Type.h"
-#include "uci/type/SubsystemCompletedBIT_Type.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/DateTimeType.h"
+#include "../../../include/asb_uci/type/SubsystemBIT_ResultEnum.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemCompletedBIT_Type.h"
 
 /**  */
 namespace asb_uci {
@@ -178,19 +178,19 @@ public:
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getFailReason_() const;
+  std::string& getFailReason_() const;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  const uci::type::VisibleString256Type& getFailReason() const override;
+  const std::string& getFailReason() const override;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getFailReason() override;
+  std::string& getFailReason() override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
@@ -225,7 +225,7 @@ public:
     * @param type The value to set the optional field to
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& enableFailReason(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
+  std::string& enableFailReason(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
 
   /** Clears the optional item marking it as not being set.
     *
@@ -288,7 +288,7 @@ private:
   std::unique_ptr<BIT_ID_Type> bIT_ID_Accessor;
   DateTimeTypeValue timetag_Accessor{0};
   std::unique_ptr<SubsystemBIT_ResultEnum> result_Accessor;
-  std::unique_ptr<VisibleString256Type> failReason_Accessor;
+  std::unique_ptr<std::string> failReason_Accessor;
   std::unique_ptr<BIT_Item> bIT_Item_Accessor;
 
 };

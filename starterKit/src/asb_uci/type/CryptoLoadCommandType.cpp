@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CryptoLoadCommandType.h"
+#include "../../../include/asb_uci/type/CryptoLoadCommandType.h"
 
 #include <memory>
 #include <string>
@@ -41,15 +41,15 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CryptoKeySourceType.h"
-#include "asb_uci/type/CryptoLocationType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CryptoKeySourceType.h"
-#include "uci/type/CryptoLoadCommandType.h"
-#include "uci/type/CryptoLocationType.h"
-#include "uci/type/DateTimeType.h"
+#include "../../../include/asb_uci/type/CryptoKeySourceType.h"
+#include "../../../include/asb_uci/type/CryptoLocationType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CryptoKeySourceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CryptoLoadCommandType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CryptoLocationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DateTimeType.h"
 
 /**  */
 namespace asb_uci {

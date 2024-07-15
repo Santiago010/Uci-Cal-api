@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_SPECIFICEMITTERIDENTITYCONFIDENCETYPE_H
 #define UCI_TYPE_SPECIFICEMITTERIDENTITYCONFIDENCETYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/PercentType.h"
-#include "uci/type/SpecificEmitterIdentityType.h"
+#include "../base/export.h"
+#include "PercentType.h"
+#include "SpecificEmitterIdentityType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

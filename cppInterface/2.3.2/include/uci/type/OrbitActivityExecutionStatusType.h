@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_ORBITACTIVITYEXECUTIONSTATUSTYPE_H
 #define UCI_TYPE_ORBITACTIVITYEXECUTIONSTATUSTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/ActivityExecutionStatusType.h"
-#include "uci/type/OrbitActivityPlanID_Type.h"
+#include "../base/export.h"
+#include "ActivityExecutionStatusType.h"
+#include "OrbitActivityPlanID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

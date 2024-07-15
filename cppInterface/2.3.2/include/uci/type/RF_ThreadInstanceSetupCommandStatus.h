@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_RF_THREADINSTANCESETUPCOMMANDSTATUS_H
 #define UCI_TYPE_RF_THREADINSTANCESETUPCOMMANDSTATUS_H
 
-#include "uci/type/RF_ThreadInstanceSetupCommandStatusMT.h"
+#include "RF_ThreadInstanceSetupCommandStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

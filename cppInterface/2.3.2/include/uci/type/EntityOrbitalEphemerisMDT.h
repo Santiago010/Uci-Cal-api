@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_ENTITYORBITALEPHEMERISMDT_H
 #define UCI_TYPE_ENTITYORBITALEPHEMERISMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/EntityOrbitalEphemerisType.h"
-#include "uci/type/RequestID_Type.h"
+#include "../base/export.h"
+#include "EntityOrbitalEphemerisType.h"
+#include "RequestID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

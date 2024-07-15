@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_SENSORKINEMATICSTYPE_H
 #define UCI_TYPE_SENSORKINEMATICSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/BoresightVelocityType.h"
-#include "uci/type/ComponentID_Type.h"
-#include "uci/type/OrientationType.h"
-#include "uci/type/VelocityVelocityCovarianceCartesianType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "BoresightVelocityType.h"
+#include "ComponentID_Type.h"
+#include "OrientationType.h"
+#include "VelocityVelocityCovarianceCartesianType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

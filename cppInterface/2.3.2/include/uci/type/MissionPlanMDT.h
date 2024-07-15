@@ -36,18 +36,18 @@
 #ifndef UCI_TYPE_MISSIONPLANMDT_H
 #define UCI_TYPE_MISSIONPLANMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeRangeType.h"
-#include "uci/type/ExecutionSequenceType.h"
-#include "uci/type/MissionPlanCommandID_ChoiceType.h"
-#include "uci/type/MissionPlanID_Type.h"
-#include "uci/type/MissionPlanInputsType.h"
-#include "uci/type/PlanApplicabilityType.h"
-#include "uci/type/PlansReferenceBaseType.h"
-#include "uci/type/RemarksType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DateTimeRangeType.h"
+#include "ExecutionSequenceType.h"
+#include "MissionPlanCommandID_ChoiceType.h"
+#include "MissionPlanID_Type.h"
+#include "MissionPlanInputsType.h"
+#include "PlanApplicabilityType.h"
+#include "PlansReferenceBaseType.h"
+#include "RemarksType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

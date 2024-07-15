@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_COMMASSETESTIMATIONREQUESTSTATUS_H
 #define UCI_TYPE_COMMASSETESTIMATIONREQUESTSTATUS_H
 
-#include "uci/type/CommAssetEstimationRequestStatusMT.h"
+#include "CommAssetEstimationRequestStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

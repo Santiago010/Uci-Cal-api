@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/CryptoRolloverStateEnum.h"
-#include "asb_uci/type/DateTimeType.h"
-#include "uci/type/CryptoRolloverStatusType.h"
+#include "../../../include/asb_uci/type/CryptoRolloverStateEnum.h"
+#include "../../../include/asb_uci/type/DateTimeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CryptoRolloverStatusType.h"
 
 /**  */
 namespace asb_uci {

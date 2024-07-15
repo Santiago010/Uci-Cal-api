@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ACTIONSTATUS_H
 #define UCI_TYPE_ACTIONSTATUS_H
 
-#include "uci/type/ActionStatusMT.h"
+#include "ActionStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

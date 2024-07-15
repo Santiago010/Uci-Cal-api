@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_PO_ACTIVITY_H
 #define UCI_TYPE_PO_ACTIVITY_H
 
-#include "uci/type/PO_ActivityMT.h"
+#include "PO_ActivityMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

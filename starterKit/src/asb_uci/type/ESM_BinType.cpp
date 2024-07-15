@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ESM_BinType.h"
+#include "../../../include/asb_uci/type/ESM_BinType.h"
 
 #include <memory>
 #include <string>
@@ -41,15 +41,15 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ESM_BinPrecedenceType.h"
-#include "asb_uci/type/NotationType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ESM_BinPrecedenceType.h"
-#include "uci/type/ESM_BinType.h"
-#include "uci/type/NotationType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/ESM_BinPrecedenceType.h"
+#include "../../../include/asb_uci/type/NotationType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ESM_BinPrecedenceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ESM_BinType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/NotationType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

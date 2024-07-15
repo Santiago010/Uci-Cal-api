@@ -36,17 +36,17 @@
 #ifndef UCI_TYPE_RDMA_INITIALIZESETUPMDT_H
 #define UCI_TYPE_RDMA_INITIALIZESETUPMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/NetworkEndpointType.h"
-#include "uci/type/RDMA_InitializeID_Type.h"
-#include "uci/type/RDMA_InitializeSetupID_Type.h"
-#include "uci/type/RDMA_ProviderEnum.h"
-#include "uci/type/ServiceID_Type.h"
-#include "uci/type/SubsystemID_Type.h"
-#include "uci/type/SystemID_Type.h"
-#include "uci/type/VisibleString1024Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "NetworkEndpointType.h"
+#include "RDMA_InitializeID_Type.h"
+#include "RDMA_InitializeSetupID_Type.h"
+#include "RDMA_ProviderEnum.h"
+#include "ServiceID_Type.h"
+#include "SubsystemID_Type.h"
+#include "SystemID_Type.h"
+#include "VisibleString1024Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

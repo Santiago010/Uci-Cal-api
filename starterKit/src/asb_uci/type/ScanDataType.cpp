@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ScanDataType.h"
+#include "../../../include/asb_uci/type/ScanDataType.h"
 
 #include <memory>
 #include <string>
@@ -41,29 +41,29 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/LobeType.h"
-#include "asb_uci/type/MeasurementStatusEnum.h"
-#include "asb_uci/type/RadarBeamPersistenceEnum.h"
-#include "asb_uci/type/RadarBeamTypeEnum.h"
-#include "asb_uci/type/ScanDataBaseType.h"
-#include "asb_uci/type/ScanDirectionalityEnum.h"
-#include "asb_uci/type/ScanMechanicsEnum.h"
-#include "asb_uci/type/ScanPlaneEnum.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AnglePositiveType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/LobeType.h"
-#include "uci/type/MeasurementStatusEnum.h"
-#include "uci/type/RadarBeamPersistenceEnum.h"
-#include "uci/type/RadarBeamTypeEnum.h"
-#include "uci/type/ScanDataType.h"
-#include "uci/type/ScanDirectionalityEnum.h"
-#include "uci/type/ScanMechanicsEnum.h"
-#include "uci/type/ScanPlaneEnum.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/LobeType.h"
+#include "../../../include/asb_uci/type/MeasurementStatusEnum.h"
+#include "../../../include/asb_uci/type/RadarBeamPersistenceEnum.h"
+#include "../../../include/asb_uci/type/RadarBeamTypeEnum.h"
+#include "../../../include/asb_uci/type/ScanDataBaseType.h"
+#include "../../../include/asb_uci/type/ScanDirectionalityEnum.h"
+#include "../../../include/asb_uci/type/ScanMechanicsEnum.h"
+#include "../../../include/asb_uci/type/ScanPlaneEnum.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AnglePositiveType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DateTimeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DurationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/LobeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MeasurementStatusEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RadarBeamPersistenceEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RadarBeamTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ScanDataType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ScanDirectionalityEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ScanMechanicsEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ScanPlaneEnum.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

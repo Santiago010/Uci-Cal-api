@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/IPON_IID2_ProgramCodeType.h"
-#include "asb_uci/type/IPON_IID2_ProjectCodeType.h"
-#include "asb_uci/type/IPON_IID2_SortieNumberType.h"
-#include "uci/type/IPON_IID2_Type.h"
+#include "../../../include/asb_uci/type/IPON_IID2_ProgramCodeType.h"
+#include "../../../include/asb_uci/type/IPON_IID2_ProjectCodeType.h"
+#include "../../../include/asb_uci/type/IPON_IID2_SortieNumberType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IPON_IID2_Type.h"
 
 /**  */
 namespace asb_uci {

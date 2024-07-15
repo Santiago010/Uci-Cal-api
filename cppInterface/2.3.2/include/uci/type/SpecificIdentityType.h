@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_SPECIFICIDENTITYTYPE_H
 #define UCI_TYPE_SPECIFICIDENTITYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EnvironmentEnum.h"
-#include "uci/type/SiteTypeEnum.h"
-#include "uci/type/SpecificTypeModelType.h"
+#include "../base/Accessor.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "EnvironmentEnum.h"
+#include "SiteTypeEnum.h"
+#include "SpecificTypeModelType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

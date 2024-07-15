@@ -36,18 +36,18 @@
 #ifndef UCI_TYPE_ORBITMETRICSMDT_H
 #define UCI_TYPE_ORBITMETRICSMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ActivityPlanPartsEnum.h"
-#include "uci/type/OrbitActivityMetricsType.h"
-#include "uci/type/OrbitActivityPlanID_Type.h"
-#include "uci/type/OrbitManeuverSegmentMetricsType.h"
-#include "uci/type/OrbitManeuverSequenceMetricsType.h"
-#include "uci/type/OrbitMetricsID_Type.h"
-#include "uci/type/OrbitPlanID_Type.h"
-#include "uci/type/OrbitPlanPartsEnum.h"
-#include "uci/type/SatelliteEnduranceType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ActivityPlanPartsEnum.h"
+#include "OrbitActivityMetricsType.h"
+#include "OrbitActivityPlanID_Type.h"
+#include "OrbitManeuverSegmentMetricsType.h"
+#include "OrbitManeuverSequenceMetricsType.h"
+#include "OrbitMetricsID_Type.h"
+#include "OrbitPlanID_Type.h"
+#include "OrbitPlanPartsEnum.h"
+#include "SatelliteEnduranceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

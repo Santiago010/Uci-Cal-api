@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_OPAQUESETTINGSCOMMAND_H
 #define UCI_TYPE_OPAQUESETTINGSCOMMAND_H
 
-#include "uci/type/OpaqueSettingsCommandMT.h"
+#include "OpaqueSettingsCommandMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

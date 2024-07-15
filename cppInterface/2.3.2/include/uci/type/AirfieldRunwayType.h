@@ -36,20 +36,20 @@
 #ifndef UCI_TYPE_AIRFIELDRUNWAYTYPE_H
 #define UCI_TYPE_AIRFIELDRUNWAYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AnglePositiveType.h"
-#include "uci/type/ApproachLightingEnum.h"
-#include "uci/type/ArresterWiresEnum.h"
-#include "uci/type/BrakingActionEnum.h"
-#include "uci/type/DistanceType.h"
-#include "uci/type/EmptyType.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/RunwayCoordinatesType.h"
-#include "uci/type/RunwayID_Type.h"
-#include "uci/type/RunwayStatusEnum.h"
-#include "uci/type/RunwayUsageDetailsType.h"
-#include "uci/type/SafeAltitudeType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AnglePositiveType.h"
+#include "ApproachLightingEnum.h"
+#include "ArresterWiresEnum.h"
+#include "BrakingActionEnum.h"
+#include "DistanceType.h"
+#include "EmptyType.h"
+#include "ForeignKeyType.h"
+#include "RunwayCoordinatesType.h"
+#include "RunwayID_Type.h"
+#include "RunwayStatusEnum.h"
+#include "RunwayUsageDetailsType.h"
+#include "SafeAltitudeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

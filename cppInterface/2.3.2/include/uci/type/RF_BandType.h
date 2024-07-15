@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_RF_BANDTYPE_H
 #define UCI_TYPE_RF_BANDTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/FrequencyRangeType.h"
-#include "uci/type/RFD_GainSettingType.h"
+#include "../base/Accessor.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "FrequencyRangeType.h"
+#include "RFD_GainSettingType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_MISSILEEMITTERIDENTITYTYPE_H
 #define UCI_TYPE_MISSILEEMITTERIDENTITYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/MissileEmitterModeEnum.h"
-#include "uci/type/NotationType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ForeignKeyType.h"
+#include "MissileEmitterModeEnum.h"
+#include "NotationType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

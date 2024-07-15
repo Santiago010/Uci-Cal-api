@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_EFFECTCANCELCOMMANDMDT_H
 #define UCI_TYPE_EFFECTCANCELCOMMANDMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/CommandBaseType.h"
-#include "uci/type/EffectID_Type.h"
+#include "../base/export.h"
+#include "CommandBaseType.h"
+#include "EffectID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

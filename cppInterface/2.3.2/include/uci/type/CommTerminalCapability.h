@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_COMMTERMINALCAPABILITY_H
 #define UCI_TYPE_COMMTERMINALCAPABILITY_H
 
-#include "uci/type/CommTerminalCapabilityMT.h"
+#include "CommTerminalCapabilityMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ELEVATIONREQUESTSTATUS_H
 #define UCI_TYPE_ELEVATIONREQUESTSTATUS_H
 
-#include "uci/type/ElevationRequestStatusMT.h"
+#include "ElevationRequestStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

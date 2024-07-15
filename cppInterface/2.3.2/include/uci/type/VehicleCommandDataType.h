@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_VEHICLECOMMANDDATATYPE_H
 #define UCI_TYPE_VEHICLECOMMANDDATATYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CommAllocationActionType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/IFF_Type.h"
-#include "uci/type/VehicleActionEnum.h"
-#include "uci/type/VehicleLossOfLinkProcessingEnum.h"
-#include "uci/type/VehicleSurvivabilityModeEnum.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "CommAllocationActionType.h"
+#include "DurationType.h"
+#include "IFF_Type.h"
+#include "VehicleActionEnum.h"
+#include "VehicleLossOfLinkProcessingEnum.h"
+#include "VehicleSurvivabilityModeEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

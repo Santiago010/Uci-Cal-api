@@ -36,18 +36,18 @@
 #ifndef UCI_TYPE_MISSIONENVIRONMENTOBJECTCLASSTYPE_H
 #define UCI_TYPE_MISSIONENVIRONMENTOBJECTCLASSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/MissionEnvironmentObjectValueActionType.h"
-#include "uci/type/MissionEnvironmentObjectValueEffectType.h"
-#include "uci/type/MissionEnvironmentObjectValueEntityType.h"
-#include "uci/type/MissionEnvironmentObjectValueOpLineType.h"
-#include "uci/type/MissionEnvironmentObjectValueOpPointType.h"
-#include "uci/type/MissionEnvironmentObjectValueOpVolumeType.h"
-#include "uci/type/MissionEnvironmentObjectValueOpZoneType.h"
-#include "uci/type/MissionEnvironmentObjectValueResponseType.h"
-#include "uci/type/MissionEnvironmentObjectValueSystemType.h"
-#include "uci/type/MissionEnvironmentObjectValueTaskType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "MissionEnvironmentObjectValueActionType.h"
+#include "MissionEnvironmentObjectValueEffectType.h"
+#include "MissionEnvironmentObjectValueEntityType.h"
+#include "MissionEnvironmentObjectValueOpLineType.h"
+#include "MissionEnvironmentObjectValueOpPointType.h"
+#include "MissionEnvironmentObjectValueOpVolumeType.h"
+#include "MissionEnvironmentObjectValueOpZoneType.h"
+#include "MissionEnvironmentObjectValueResponseType.h"
+#include "MissionEnvironmentObjectValueSystemType.h"
+#include "MissionEnvironmentObjectValueTaskType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

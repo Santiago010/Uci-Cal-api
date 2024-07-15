@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_PO_COMPONENTSETTINGSFOCALPLANEARRAYSCANDIRECTIONTYPE_H
 #define UCI_TYPE_PO_COMPONENTSETTINGSFOCALPLANEARRAYSCANDIRECTIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ComponentControlsB_Type.h"
-#include "uci/type/RelativeDirectionEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ComponentControlsB_Type.h"
+#include "RelativeDirectionEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

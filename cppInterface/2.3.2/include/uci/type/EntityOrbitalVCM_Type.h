@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_ENTITYORBITALVCM_TYPE_H
 #define UCI_TYPE_ENTITYORBITALVCM_TYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EntityID_Type.h"
-#include "uci/type/EntityOrbitalVCM_ID_Type.h"
-#include "uci/type/OrbitalVCM_ParametersType.h"
-#include "uci/type/OrbitalVCM_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "EntityID_Type.h"
+#include "EntityOrbitalVCM_ID_Type.h"
+#include "OrbitalVCM_ParametersType.h"
+#include "OrbitalVCM_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

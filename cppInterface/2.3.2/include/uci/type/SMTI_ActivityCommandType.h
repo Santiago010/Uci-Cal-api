@@ -36,22 +36,22 @@
 #ifndef UCI_TYPE_SMTI_ACTIVITYCOMMANDTYPE_H
 #define UCI_TYPE_SMTI_ACTIVITYCOMMANDTYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/DoubleAccessor.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AtmosphericPropagationLossType.h"
-#include "uci/type/CapabilityCommandFrequencyType.h"
-#include "uci/type/CapabilityCommandTemporalConstraintsType.h"
-#include "uci/type/ProductOutputCommandSMTI_Type.h"
-#include "uci/type/RadarPointingTargetType.h"
-#include "uci/type/RepetitionType.h"
-#include "uci/type/SMTI_CollectionConstraintsType.h"
-#include "uci/type/SMTI_CollectionOptionsType.h"
-#include "uci/type/SharedRF_ApertureActivityCommandBaseType.h"
-#include "uci/type/SurfaceTypeEnum.h"
-#include "uci/type/WeatherSeaStateEnum.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/DoubleAccessor.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "AtmosphericPropagationLossType.h"
+#include "CapabilityCommandFrequencyType.h"
+#include "CapabilityCommandTemporalConstraintsType.h"
+#include "ProductOutputCommandSMTI_Type.h"
+#include "RadarPointingTargetType.h"
+#include "RepetitionType.h"
+#include "SMTI_CollectionConstraintsType.h"
+#include "SMTI_CollectionOptionsType.h"
+#include "SharedRF_ApertureActivityCommandBaseType.h"
+#include "SurfaceTypeEnum.h"
+#include "WeatherSeaStateEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

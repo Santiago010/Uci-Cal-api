@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_REPETITIONEVENTTYPE_H
 #define UCI_TYPE_REPETITIONEVENTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/OrbitalEventEnum.h"
-#include "uci/type/RepetitionPositionChangeType.h"
-#include "uci/type/RouteEventEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "OrbitalEventEnum.h"
+#include "RepetitionPositionChangeType.h"
+#include "RouteEventEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

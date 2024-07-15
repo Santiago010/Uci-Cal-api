@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_EOB_EMITTERMODETYPE_H
 #define UCI_TYPE_EOB_EMITTERMODETYPE_H
 
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DataRateDataType.h"
-#include "uci/type/EOB_EmitterModeID_Type.h"
-#include "uci/type/EOB_SignalType.h"
-#include "uci/type/ModRateDataType.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "DataRateDataType.h"
+#include "EOB_EmitterModeID_Type.h"
+#include "EOB_SignalType.h"
+#include "ModRateDataType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

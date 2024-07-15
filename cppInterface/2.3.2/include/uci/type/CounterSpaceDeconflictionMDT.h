@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_COUNTERSPACEDECONFLICTIONMDT_H
 #define UCI_TYPE_COUNTERSPACEDECONFLICTIONMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CS_SatBandDeconType.h"
-#include "uci/type/CounterSpaceDeconflictionID_Type.h"
-#include "uci/type/DataRecordBaseType.h"
-#include "uci/type/DateTimeRangeType.h"
-#include "uci/type/FileLocationID_Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CS_SatBandDeconType.h"
+#include "CounterSpaceDeconflictionID_Type.h"
+#include "DataRecordBaseType.h"
+#include "DateTimeRangeType.h"
+#include "FileLocationID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

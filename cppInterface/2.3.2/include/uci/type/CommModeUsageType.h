@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_COMMMODEUSAGETYPE_H
 #define UCI_TYPE_COMMMODEUSAGETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/IntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CommAntennaModeType.h"
-#include "uci/type/DecibelType.h"
+#include "../base/Accessor.h"
+#include "../base/IntAccessor.h"
+#include "../base/export.h"
+#include "CommAntennaModeType.h"
+#include "DecibelType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

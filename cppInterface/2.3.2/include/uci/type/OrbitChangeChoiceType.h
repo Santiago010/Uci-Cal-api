@@ -36,17 +36,17 @@
 #ifndef UCI_TYPE_ORBITCHANGECHOICETYPE_H
 #define UCI_TYPE_ORBITCHANGECHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/DoubleAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AngleHalfPositiveType.h"
-#include "uci/type/AngleType.h"
-#include "uci/type/COE_OrbitType.h"
-#include "uci/type/DistanceType.h"
-#include "uci/type/OrbitalVolumeType.h"
-#include "uci/type/ProximityOperationsType.h"
-#include "uci/type/RSO_ApproachType.h"
-#include "uci/type/RaceTrackOrbitType.h"
+#include "../base/Accessor.h"
+#include "../base/DoubleAccessor.h"
+#include "../base/export.h"
+#include "AngleHalfPositiveType.h"
+#include "AngleType.h"
+#include "COE_OrbitType.h"
+#include "DistanceType.h"
+#include "OrbitalVolumeType.h"
+#include "ProximityOperationsType.h"
+#include "RSO_ApproachType.h"
+#include "RaceTrackOrbitType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

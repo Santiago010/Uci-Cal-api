@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_OBJECTKINEMATICSCHOICETYPE_H
 #define UCI_TYPE_OBJECTKINEMATICSCHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/InertialStateType.h"
-#include "uci/type/OrbitKinematicsType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "InertialStateType.h"
+#include "OrbitKinematicsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

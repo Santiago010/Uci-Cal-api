@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_COMMSINCGARS_CONTROLTYPE_H
 #define UCI_TYPE_COMMSINCGARS_CONTROLTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CommSINCGARS_FreqModeEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CommSINCGARS_FreqModeEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

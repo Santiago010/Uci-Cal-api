@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_FUNCTIONALDAMAGECONFIDENCETYPE_H
 #define UCI_TYPE_FUNCTIONALDAMAGECONFIDENCETYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/DamageConfidenceEnum.h"
-#include "uci/type/DamagedFunctionType.h"
+#include "../base/export.h"
+#include "DamageConfidenceEnum.h"
+#include "DamagedFunctionType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

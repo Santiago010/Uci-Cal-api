@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ENTITYMANAGEMENTREQUEST_H
 #define UCI_TYPE_ENTITYMANAGEMENTREQUEST_H
 
-#include "uci/type/EntityManagementRequestMT.h"
+#include "EntityManagementRequestMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_RESPONSEPLANCOMMAND_H
 #define UCI_TYPE_RESPONSEPLANCOMMAND_H
 
-#include "uci/type/ResponsePlanCommandMT.h"
+#include "ResponsePlanCommandMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

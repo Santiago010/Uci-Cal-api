@@ -133,7 +133,7 @@ bool ID_Type::hasDescriptiveLabel() const noexcept {
 
 uci::type::VisibleString256Type& ID_Type::enableDescriptiveLabel(uci::base::accessorType::AccessorType type) {
   if (!descriptiveLabel_Accessor) {
-    descriptiveLabel_Accessor = VisibleString256Type::create(type);
+    descriptiveLabel_Accessor = boost::make_unique<std::string>("");
   }
   return *descriptiveLabel_Accessor;
 }

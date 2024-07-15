@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_DLZ_H
 #define UCI_TYPE_DLZ_H
 
-#include "uci/type/DLZ_MT.h"
+#include "DLZ_MT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

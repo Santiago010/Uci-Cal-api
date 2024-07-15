@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/MADL_NodeRangeType.h"
-#include "uci/type/CommMADL_NetworkLayoutType.h"
+#include "../../../include/asb_uci/type/MADL_NodeRangeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommMADL_NetworkLayoutType.h"
 
 /**  */
 namespace asb_uci {

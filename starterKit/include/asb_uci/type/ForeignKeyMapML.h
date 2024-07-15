@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/ManagedListBaseType.h"
-#include "uci/type/ForeignKeyMapML.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/ManagedListBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ForeignKeyMapML.h"
 
 /**  */
 namespace asb_uci {

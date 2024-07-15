@@ -38,8 +38,8 @@
 
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/ComponentExtendedStatusPET.h"
-#include "uci/type/SubsystemExtendedStatusPET.h"
+#include "../../../include/asb_uci/type/ComponentExtendedStatusPET.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemExtendedStatusPET.h"
 
 /**  */
 namespace asb_uci {

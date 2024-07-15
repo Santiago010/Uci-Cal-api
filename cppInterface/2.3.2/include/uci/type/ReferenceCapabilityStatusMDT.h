@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_REFERENCECAPABILITYSTATUSMDT_H
 #define UCI_TYPE_REFERENCECAPABILITYSTATUSMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityStatusBaseType.h"
-#include "uci/type/CapabilityStatusType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilityStatusBaseType.h"
+#include "CapabilityStatusType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

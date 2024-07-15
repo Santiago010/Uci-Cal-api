@@ -36,17 +36,17 @@
 #ifndef UCI_TYPE_CS_SENSORDATATYPE_H
 #define UCI_TYPE_CS_SENSORDATATYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/DoubleAccessor.h"
-#include "uci/base/IntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AltitudeType.h"
-#include "uci/type/AnglePositiveType.h"
-#include "uci/type/AngleQuarterType.h"
-#include "uci/type/CS_SensorPointingEnum.h"
-#include "uci/type/CS_SensorTargetingEnum.h"
-#include "uci/type/CS_SensorTypeEnum.h"
-#include "uci/type/FrequencyType.h"
+#include "../base/Accessor.h"
+#include "../base/DoubleAccessor.h"
+#include "../base/IntAccessor.h"
+#include "../base/export.h"
+#include "AltitudeType.h"
+#include "AnglePositiveType.h"
+#include "AngleQuarterType.h"
+#include "CS_SensorPointingEnum.h"
+#include "CS_SensorTargetingEnum.h"
+#include "CS_SensorTypeEnum.h"
+#include "FrequencyType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

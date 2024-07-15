@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_SAR_CAPABILITYSTATUSMDT_H
 #define UCI_TYPE_SAR_CAPABILITYSTATUSMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityStatusBaseType.h"
-#include "uci/type/ElectronicProtectionOptionsEnabledType.h"
-#include "uci/type/EmissionBalanceEnum.h"
-#include "uci/type/JPEG_SettingsType.h"
-#include "uci/type/NITF_PackingPlanPET.h"
-#include "uci/type/RF_ProfileType.h"
-#include "uci/type/SAR_CapabilityStatusType.h"
-#include "uci/type/SAR_MessageOutputsEnum.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilityStatusBaseType.h"
+#include "ElectronicProtectionOptionsEnabledType.h"
+#include "EmissionBalanceEnum.h"
+#include "JPEG_SettingsType.h"
+#include "NITF_PackingPlanPET.h"
+#include "RF_ProfileType.h"
+#include "SAR_CapabilityStatusType.h"
+#include "SAR_MessageOutputsEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

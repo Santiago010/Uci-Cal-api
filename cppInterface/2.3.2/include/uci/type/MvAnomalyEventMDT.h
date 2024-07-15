@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_MVANOMALYEVENTMDT_H
 #define UCI_TYPE_MVANOMALYEVENTMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/DataRecordBaseType.h"
-#include "uci/type/MvAnomalyEventID_Type.h"
-#include "uci/type/MvObservationType.h"
-#include "uci/type/VisualMagnitudeType.h"
+#include "../base/export.h"
+#include "DataRecordBaseType.h"
+#include "MvAnomalyEventID_Type.h"
+#include "MvObservationType.h"
+#include "VisualMagnitudeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

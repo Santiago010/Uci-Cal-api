@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SAR_CAPABILITYCOMMANDSUBCAPABILITYTYPE_H
 #define UCI_TYPE_SAR_CAPABILITYCOMMANDSUBCAPABILITYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ISAR_SubCapabilityType.h"
-#include "uci/type/SAR_SubCapabilityType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ISAR_SubCapabilityType.h"
+#include "SAR_SubCapabilityType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

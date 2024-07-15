@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_SERVICELIFECYCLECOMMANDSTATUSMT_H
 #define UCI_TYPE_SERVICELIFECYCLECOMMANDSTATUSMT_H
 
-#include "uci/base/Listener.h"
-#include "uci/base/Reader.h"
-#include "uci/base/Writer.h"
-#include "uci/base/export.h"
-#include "uci/type/MessageType.h"
-#include "uci/type/ServiceLifecycleCommandStatusMDT.h"
+#include "../base/Listener.h"
+#include "../base/Reader.h"
+#include "../base/Writer.h"
+#include "../base/export.h"
+#include "MessageType.h"
+#include "ServiceLifecycleCommandStatusMDT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

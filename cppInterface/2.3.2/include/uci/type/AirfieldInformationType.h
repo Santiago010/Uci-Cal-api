@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_AIRFIELDINFORMATIONTYPE_H
 #define UCI_TYPE_AIRFIELDINFORMATIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AirRaidStateEnum.h"
-#include "uci/type/AirfieldContaminationType.h"
-#include "uci/type/AirfieldID_ICAO_StringType.h"
-#include "uci/type/AirfieldRunwayType.h"
-#include "uci/type/CrashServiceEnum.h"
-#include "uci/type/EmptyType.h"
-#include "uci/type/PressureType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AirRaidStateEnum.h"
+#include "AirfieldContaminationType.h"
+#include "AirfieldID_ICAO_StringType.h"
+#include "AirfieldRunwayType.h"
+#include "CrashServiceEnum.h"
+#include "EmptyType.h"
+#include "PressureType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

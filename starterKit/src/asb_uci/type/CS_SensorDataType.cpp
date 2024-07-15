@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CS_SensorDataType.h"
+#include "../../../include/asb_uci/type/CS_SensorDataType.h"
 
 #include <memory>
 #include <string>
@@ -41,21 +41,21 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CS_SensorPointingEnum.h"
-#include "asb_uci/type/CS_SensorTargetingEnum.h"
-#include "asb_uci/type/CS_SensorTypeEnum.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AltitudeType.h"
-#include "uci/type/AnglePositiveType.h"
-#include "uci/type/AngleQuarterType.h"
-#include "uci/type/CS_SensorDataType.h"
-#include "uci/type/CS_SensorPointingEnum.h"
-#include "uci/type/CS_SensorTargetingEnum.h"
-#include "uci/type/CS_SensorTypeEnum.h"
-#include "uci/type/FrequencyType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/CS_SensorPointingEnum.h"
+#include "../../../include/asb_uci/type/CS_SensorTargetingEnum.h"
+#include "../../../include/asb_uci/type/CS_SensorTypeEnum.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AltitudeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AnglePositiveType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AngleQuarterType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CS_SensorDataType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CS_SensorPointingEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CS_SensorTargetingEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CS_SensorTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FrequencyType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

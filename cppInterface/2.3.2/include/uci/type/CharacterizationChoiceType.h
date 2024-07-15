@@ -36,18 +36,18 @@
 #ifndef UCI_TYPE_CHARACTERIZATIONCHOICETYPE_H
 #define UCI_TYPE_CHARACTERIZATIONCHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ColorPhotometryParamsType.h"
-#include "uci/type/FrequencyParamsType.h"
-#include "uci/type/IR_ImageParamsType.h"
-#include "uci/type/MetricParamsType.h"
-#include "uci/type/Narrowband_SOI_ParamsType.h"
-#include "uci/type/OpticalImageParamsType.h"
-#include "uci/type/PhotometryParamsType.h"
-#include "uci/type/RCS_ParamsType.h"
-#include "uci/type/VisMagParamsType.h"
-#include "uci/type/Wideband_SOI_ParamsType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ColorPhotometryParamsType.h"
+#include "FrequencyParamsType.h"
+#include "IR_ImageParamsType.h"
+#include "MetricParamsType.h"
+#include "Narrowband_SOI_ParamsType.h"
+#include "OpticalImageParamsType.h"
+#include "PhotometryParamsType.h"
+#include "RCS_ParamsType.h"
+#include "VisMagParamsType.h"
+#include "Wideband_SOI_ParamsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

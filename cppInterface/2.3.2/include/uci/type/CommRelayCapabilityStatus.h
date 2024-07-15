@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_COMMRELAYCAPABILITYSTATUS_H
 #define UCI_TYPE_COMMRELAYCAPABILITYSTATUS_H
 
-#include "uci/type/CommRelayCapabilityStatusMT.h"
+#include "CommRelayCapabilityStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_TURRETSTATUSMDT_H
 #define UCI_TYPE_TURRETSTATUSMDT_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/SupportCapabilityStatusBaseType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "CapabilityID_Type.h"
+#include "SupportCapabilityStatusBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

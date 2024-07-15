@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_COMPONENTCONFIGURATIONDATAREQUESTMDT_H
 #define UCI_TYPE_COMPONENTCONFIGURATIONDATAREQUESTMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/RequestBaseType.h"
-#include "uci/type/ServiceID_Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "RequestBaseType.h"
+#include "ServiceID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_PRODUCTOUTPUTCOMMANDSMTI_TYPE_H
 #define UCI_TYPE_PRODUCTOUTPUTCOMMANDSMTI_TYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/ProductOutputCommandBasicType.h"
-#include "uci/type/STANAG_4607_PackingPlanPET.h"
+#include "../base/export.h"
+#include "ProductOutputCommandBasicType.h"
+#include "STANAG_4607_PackingPlanPET.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

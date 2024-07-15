@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_IPV6_DATALINKNATIVEINFOTYPE_H
 #define UCI_TYPE_IPV6_DATALINKNATIVEINFOTYPE_H
 
-#include "uci/base/IntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DataLinkNativeInfoPET.h"
-#include "uci/type/IPv6_AddressType.h"
+#include "../base/IntAccessor.h"
+#include "../base/export.h"
+#include "DataLinkNativeInfoPET.h"
+#include "IPv6_AddressType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

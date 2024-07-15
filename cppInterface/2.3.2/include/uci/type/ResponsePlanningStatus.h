@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_RESPONSEPLANNINGSTATUS_H
 #define UCI_TYPE_RESPONSEPLANNINGSTATUS_H
 
-#include "uci/type/ResponsePlanningStatusMT.h"
+#include "ResponsePlanningStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

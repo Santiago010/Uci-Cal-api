@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_ORBITALMANEUVERDETAILSTYPE_H
 #define UCI_TYPE_ORBITALMANEUVERDETAILSTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/OrbitalManeuverDetailsBaseType.h"
-#include "uci/type/OrbitalManeuverTypeEnum.h"
+#include "../base/export.h"
+#include "DateTimeType.h"
+#include "OrbitalManeuverDetailsBaseType.h"
+#include "OrbitalManeuverTypeEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

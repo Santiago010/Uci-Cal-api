@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_ACTIVITYCHOICETYPE_H
 #define UCI_TYPE_ACTIVITYCHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ActionID_Type.h"
-#include "uci/type/CapabilityCommandBaseType.h"
-#include "uci/type/CommDataType.h"
-#include "uci/type/EffectID_Type.h"
-#include "uci/type/ResponseID_Type.h"
-#include "uci/type/SupportCapabilityCommandBaseType.h"
-#include "uci/type/TaskID_Type.h"
-#include "uci/type/VehicleCommandDataType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ActionID_Type.h"
+#include "CapabilityCommandBaseType.h"
+#include "CommDataType.h"
+#include "EffectID_Type.h"
+#include "ResponseID_Type.h"
+#include "SupportCapabilityCommandBaseType.h"
+#include "TaskID_Type.h"
+#include "VehicleCommandDataType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

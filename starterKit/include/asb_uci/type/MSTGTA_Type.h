@@ -41,13 +41,13 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/MSTGTA_TGT_CAT_String_Type.h"
-#include "asb_uci/type/MSTGTA_TGT_UTC_Type.h"
-#include "asb_uci/type/NumericSpaceString13OnlyType.h"
-#include "asb_uci/type/NumericSpaceString2OnlyType.h"
-#include "asb_uci/type/NumericSpaceString4OnlyType.h"
-#include "asb_uci/type/NumericSpaceString6OnlyType.h"
-#include "uci/type/MSTGTA_Type.h"
+#include "../../../include/asb_uci/type/MSTGTA_TGT_CAT_String_Type.h"
+#include "../../../include/asb_uci/type/MSTGTA_TGT_UTC_Type.h"
+#include "../../../include/asb_uci/type/NumericSpaceString13OnlyType.h"
+#include "../../../include/asb_uci/type/NumericSpaceString2OnlyType.h"
+#include "../../../include/asb_uci/type/NumericSpaceString4OnlyType.h"
+#include "../../../include/asb_uci/type/NumericSpaceString6OnlyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MSTGTA_Type.h"
 
 /**  */
 namespace asb_uci {

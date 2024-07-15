@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_REQUIREMENTSETMDT_H
 #define UCI_TYPE_REQUIREMENTSETMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DataRecordBaseType.h"
-#include "uci/type/RequirementAssociationConstraintType.h"
-#include "uci/type/RequirementInstanceID_ChoiceType.h"
-#include "uci/type/RequirementSetID_Type.h"
-#include "uci/type/SystemID_Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DataRecordBaseType.h"
+#include "RequirementAssociationConstraintType.h"
+#include "RequirementInstanceID_ChoiceType.h"
+#include "RequirementSetID_Type.h"
+#include "SystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

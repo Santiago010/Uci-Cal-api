@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_RSTA_FILETRACEABILITYTYPE_H
 #define UCI_TYPE_RSTA_FILETRACEABILITYTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/FileMetadataID_Type.h"
-#include "uci/type/RSTA_TraceabilityType.h"
+#include "../base/export.h"
+#include "FileMetadataID_Type.h"
+#include "RSTA_TraceabilityType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

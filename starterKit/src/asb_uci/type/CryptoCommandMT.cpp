@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CryptoCommandMT.h"
+#include "../../../include/asb_uci/type/CryptoCommandMT.h"
 
 #include <memory>
 #include <string>
@@ -41,15 +41,15 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/base/Reader.h"
-#include "asb_uci/base/Writer.h"
-#include "asb_uci/type/CryptoCommandMDT.h"
-#include "asb_uci/type/MessageType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CryptoCommandMDT.h"
-#include "uci/type/CryptoCommandMT.h"
+#include "../../../include/asb_uci/base/Reader.h"
+#include "../../../include/asb_uci/base/Writer.h"
+#include "../../../include/asb_uci/type/CryptoCommandMDT.h"
+#include "../../../include/asb_uci/type/MessageType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CryptoCommandMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CryptoCommandMT.h"
 
 /**  */
 namespace asb_uci {

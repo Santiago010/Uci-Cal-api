@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_COMMSCHEDULINGREQUESTMDT_H
 #define UCI_TYPE_COMMSCHEDULINGREQUESTMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CommCoverageUserDataType.h"
-#include "uci/type/CommRequestActionEnum.h"
-#include "uci/type/CommSchedulingRequirementID_Type.h"
-#include "uci/type/RequestBaseType.h"
-#include "uci/type/SystemID_Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CommCoverageUserDataType.h"
+#include "CommRequestActionEnum.h"
+#include "CommSchedulingRequirementID_Type.h"
+#include "RequestBaseType.h"
+#include "SystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

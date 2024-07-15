@@ -36,8 +36,8 @@
 #ifndef UCI_TYPE_IFF_COMMANDSTATUSMDT_H
 #define UCI_TYPE_IFF_COMMANDSTATUSMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/CapabilityCommandStatusBaseType.h"
+#include "../base/export.h"
+#include "CapabilityCommandStatusBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

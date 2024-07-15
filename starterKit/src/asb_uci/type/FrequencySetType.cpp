@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/FrequencySetType.h"
+#include "../../../include/asb_uci/type/FrequencySetType.h"
 
 #include <memory>
 #include <string>
@@ -41,19 +41,19 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/FrequencyMultiChannelType.h"
-#include "asb_uci/type/FrequencyRangeType.h"
-#include "asb_uci/type/ModulationEnum.h"
-#include "asb_uci/type/RF_SignalContentEnum.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/FrequencyMultiChannelType.h"
-#include "uci/type/FrequencyRangeType.h"
-#include "uci/type/FrequencySetType.h"
-#include "uci/type/ModulationEnum.h"
-#include "uci/type/RF_SignalContentEnum.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/FrequencyMultiChannelType.h"
+#include "../../../include/asb_uci/type/FrequencyRangeType.h"
+#include "../../../include/asb_uci/type/ModulationEnum.h"
+#include "../../../include/asb_uci/type/RF_SignalContentEnum.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FrequencyMultiChannelType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FrequencyRangeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FrequencySetType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ModulationEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RF_SignalContentEnum.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

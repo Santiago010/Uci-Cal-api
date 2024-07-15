@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/ActivitySubCategoryEnum.h"
-#include "asb_uci/type/EnvironmentEnum.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/ActivityByType.h"
+#include "../../../include/asb_uci/type/ActivitySubCategoryEnum.h"
+#include "../../../include/asb_uci/type/EnvironmentEnum.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ActivityByType.h"
 
 /**  */
 namespace asb_uci {

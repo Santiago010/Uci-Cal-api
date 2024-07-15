@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_ATMOSPHERICDRAGMODELTYPE_H
 #define UCI_TYPE_ATMOSPHERICDRAGMODELTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AtmosphereModelEnum.h"
-#include "uci/type/DragCoefficientChoiceType.h"
-#include "uci/type/EnergyDissipationRateType.h"
-#include "uci/type/SpaceWeatherDataChoiceType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AtmosphereModelEnum.h"
+#include "DragCoefficientChoiceType.h"
+#include "EnergyDissipationRateType.h"
+#include "SpaceWeatherDataChoiceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

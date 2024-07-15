@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/PlanPartsType.h"
+#include "../../../include/asb_uci/type/PlanPartsType.h"
 
 #include <memory>
 #include <string>
@@ -41,21 +41,21 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ActivityPlanPartsType.h"
-#include "asb_uci/type/OrbitPlanPartsType.h"
-#include "asb_uci/type/PlanPartsBaseType.h"
-#include "asb_uci/type/RoutePlanPartsType.h"
-#include "asb_uci/util/DerivedTypesCopier.h"
-#include "asb_uci/util/DerivedTypesCreator.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/DerivedTypesSerializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ActivityPlanPartsType.h"
-#include "uci/type/OrbitPlanPartsType.h"
-#include "uci/type/PlanPartsType.h"
-#include "uci/type/RoutePlanPartsType.h"
+#include "../../../include/asb_uci/type/ActivityPlanPartsType.h"
+#include "../../../include/asb_uci/type/OrbitPlanPartsType.h"
+#include "../../../include/asb_uci/type/PlanPartsBaseType.h"
+#include "../../../include/asb_uci/type/RoutePlanPartsType.h"
+#include "../../../include/asb_uci/util/DerivedTypesCopier.h"
+#include "../../../include/asb_uci/util/DerivedTypesCreator.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/DerivedTypesSerializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ActivityPlanPartsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitPlanPartsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlanPartsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RoutePlanPartsType.h"
 
 /**  */
 namespace asb_uci {

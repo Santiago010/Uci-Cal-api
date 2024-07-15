@@ -33,7 +33,7 @@
  *
  */
 
-#include "uci/type/NotificationStateEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/NotificationStateEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

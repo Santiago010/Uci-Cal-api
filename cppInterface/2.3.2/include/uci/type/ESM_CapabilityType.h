@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_ESM_CAPABILITYTYPE_H
 #define UCI_TYPE_ESM_CAPABILITYTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityInitiationEnum.h"
-#include "uci/type/CommandableCapabilityDeclarationType.h"
-#include "uci/type/ESM_CapabilityOptionsType.h"
-#include "uci/type/ESM_DwellCoverageType.h"
-#include "uci/type/ESM_MessageOutputsEnum.h"
-#include "uci/type/ESM_PerformanceProfileType.h"
-#include "uci/type/ESM_SubCapabilityEnum.h"
-#include "uci/type/SignalGeolocationMethodEnum.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilityInitiationEnum.h"
+#include "CommandableCapabilityDeclarationType.h"
+#include "ESM_CapabilityOptionsType.h"
+#include "ESM_DwellCoverageType.h"
+#include "ESM_MessageOutputsEnum.h"
+#include "ESM_PerformanceProfileType.h"
+#include "ESM_SubCapabilityEnum.h"
+#include "SignalGeolocationMethodEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

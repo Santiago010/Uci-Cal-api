@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_PRODUCTCOLLECTIONPATHTYPE_H
 #define UCI_TYPE_PRODUCTCOLLECTIONPATHTYPE_H
 
-#include "uci/base/UnsignedByteAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/InertialStateRelativeType.h"
+#include "../base/UnsignedByteAccessor.h"
+#include "../base/export.h"
+#include "InertialStateRelativeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

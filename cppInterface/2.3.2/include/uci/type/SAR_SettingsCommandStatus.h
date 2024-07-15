@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SAR_SETTINGSCOMMANDSTATUS_H
 #define UCI_TYPE_SAR_SETTINGSCOMMANDSTATUS_H
 
-#include "uci/type/SAR_SettingsCommandStatusMT.h"
+#include "SAR_SettingsCommandStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

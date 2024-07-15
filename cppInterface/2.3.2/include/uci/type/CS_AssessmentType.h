@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_CS_ASSESSMENTTYPE_H
 #define UCI_TYPE_CS_ASSESSMENTTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/ActivityID_Type.h"
-#include "uci/type/CS_ActivityDetailType.h"
+#include "../base/export.h"
+#include "ActivityID_Type.h"
+#include "CS_ActivityDetailType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

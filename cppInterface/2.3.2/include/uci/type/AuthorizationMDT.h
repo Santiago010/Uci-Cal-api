@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_AUTHORIZATIONMDT_H
 #define UCI_TYPE_AUTHORIZATIONMDT_H
 
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AuthorizationID_Type.h"
-#include "uci/type/DataRecordBaseType.h"
-#include "uci/type/DateTimeRangeType.h"
-#include "uci/type/PlanPartsBaseType.h"
-#include "uci/type/SystemID_Type.h"
-#include "uci/type/UserIdentifierType.h"
-#include "uci/type/ZoneType.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "AuthorizationID_Type.h"
+#include "DataRecordBaseType.h"
+#include "DateTimeRangeType.h"
+#include "PlanPartsBaseType.h"
+#include "SystemID_Type.h"
+#include "UserIdentifierType.h"
+#include "ZoneType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_STRIKECAPABILITYMDT_H
 #define UCI_TYPE_STRIKECAPABILITYMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityBaseType.h"
-#include "uci/type/StoreCarriageCapabilityType.h"
-#include "uci/type/StoreVerificationStatusType.h"
-#include "uci/type/StrikeCapabilityType.h"
-#include "uci/type/VisibleString256Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilityBaseType.h"
+#include "StoreCarriageCapabilityType.h"
+#include "StoreVerificationStatusType.h"
+#include "StrikeCapabilityType.h"
+#include "VisibleString256Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_ORDEROFBATTLEMDT_H
 #define UCI_TYPE_ORDEROFBATTLEMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DataRecordBaseType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/OpVolumeID_Type.h"
-#include "uci/type/OpZoneID_Type.h"
-#include "uci/type/OrderOfBattleID_Type.h"
-#include "uci/type/UnitType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DataRecordBaseType.h"
+#include "DateTimeType.h"
+#include "OpVolumeID_Type.h"
+#include "OpZoneID_Type.h"
+#include "OrderOfBattleID_Type.h"
+#include "UnitType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

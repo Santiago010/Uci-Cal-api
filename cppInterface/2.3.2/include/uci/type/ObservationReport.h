@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_OBSERVATIONREPORT_H
 #define UCI_TYPE_OBSERVATIONREPORT_H
 
-#include "uci/type/ObservationReportMT.h"
+#include "ObservationReportMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_ROUTEACTIVITYPLANEXECUTIONSTATUSMDT_H
 #define UCI_TYPE_ROUTEACTIVITYPLANEXECUTIONSTATUSMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/RouteActivityExecutionStatusType.h"
-#include "uci/type/RouteActivityPlanExecutionStateType.h"
-#include "uci/type/SystemID_Type.h"
-#include "uci/type/SystemSourceEnum.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "RouteActivityExecutionStatusType.h"
+#include "RouteActivityPlanExecutionStateType.h"
+#include "SystemID_Type.h"
+#include "SystemSourceEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

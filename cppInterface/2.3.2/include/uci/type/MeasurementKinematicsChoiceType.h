@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_MEASUREMENTKINEMATICSCHOICETYPE_H
 #define UCI_TYPE_MEASUREMENTKINEMATICSCHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ECEF_KinematicsType.h"
-#include "uci/type/EquatorialKinematicsType.h"
-#include "uci/type/KinematicsType.h"
-#include "uci/type/LOS_MeasurementWithUncertaintyType.h"
-#include "uci/type/OrbitalKinematicsChoiceType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ECEF_KinematicsType.h"
+#include "EquatorialKinematicsType.h"
+#include "KinematicsType.h"
+#include "LOS_MeasurementWithUncertaintyType.h"
+#include "OrbitalKinematicsChoiceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

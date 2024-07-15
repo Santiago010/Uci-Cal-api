@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_TIMEDZONETYPE_H
 #define UCI_TYPE_TIMEDZONETYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/ScheduleType.h"
-#include "uci/type/ZoneType.h"
+#include "../base/export.h"
+#include "ScheduleType.h"
+#include "ZoneType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

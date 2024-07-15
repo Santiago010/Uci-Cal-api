@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_SATELLITEC2_IDENTITYTYPE_H
 #define UCI_TYPE_SATELLITEC2_IDENTITYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EOB_IdentityType.h"
-#include "uci/type/FacilityIdentificationType.h"
-#include "uci/type/StandardIdentityType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "EOB_IdentityType.h"
+#include "FacilityIdentificationType.h"
+#include "StandardIdentityType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

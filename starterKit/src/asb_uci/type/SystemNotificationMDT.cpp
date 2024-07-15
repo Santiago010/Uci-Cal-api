@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/SystemNotificationMDT.h"
+#include "../../../include/asb_uci/type/SystemNotificationMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,17 +41,17 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AssociatedMessageType.h"
-#include "asb_uci/type/NotificationBaseType.h"
-#include "asb_uci/type/NotificationPerspectiveEnum.h"
-#include "asb_uci/type/SystemID_Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AssociatedMessageType.h"
-#include "uci/type/NotificationPerspectiveEnum.h"
-#include "uci/type/SystemID_Type.h"
-#include "uci/type/SystemNotificationMDT.h"
+#include "../../../include/asb_uci/type/AssociatedMessageType.h"
+#include "../../../include/asb_uci/type/NotificationBaseType.h"
+#include "../../../include/asb_uci/type/NotificationPerspectiveEnum.h"
+#include "../../../include/asb_uci/type/SystemID_Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AssociatedMessageType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/NotificationPerspectiveEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SystemID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SystemNotificationMDT.h"
 
 /**  */
 namespace asb_uci {

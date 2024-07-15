@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/QueryType.h"
+#include "../../../include/asb_uci/type/QueryType.h"
 
 #include <memory>
 #include <string>
@@ -41,27 +41,27 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/QueryComparisonType.h"
-#include "asb_uci/type/QueryContainsType.h"
-#include "asb_uci/type/QueryCountType.h"
-#include "asb_uci/type/QueryEqualsType.h"
-#include "asb_uci/type/QueryExistsType.h"
-#include "asb_uci/type/QueryInstanceOfType.h"
-#include "asb_uci/type/QueryMatchType.h"
-#include "asb_uci/type/QueryPET.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/QueryComparisonType.h"
-#include "uci/type/QueryContainsType.h"
-#include "uci/type/QueryCountType.h"
-#include "uci/type/QueryEqualsType.h"
-#include "uci/type/QueryExistsType.h"
-#include "uci/type/QueryInstanceOfType.h"
-#include "uci/type/QueryMatchType.h"
-#include "uci/type/QueryPET.h"
-#include "uci/type/QueryType.h"
+#include "../../../include/asb_uci/type/QueryComparisonType.h"
+#include "../../../include/asb_uci/type/QueryContainsType.h"
+#include "../../../include/asb_uci/type/QueryCountType.h"
+#include "../../../include/asb_uci/type/QueryEqualsType.h"
+#include "../../../include/asb_uci/type/QueryExistsType.h"
+#include "../../../include/asb_uci/type/QueryInstanceOfType.h"
+#include "../../../include/asb_uci/type/QueryMatchType.h"
+#include "../../../include/asb_uci/type/QueryPET.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/QueryComparisonType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/QueryContainsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/QueryCountType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/QueryEqualsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/QueryExistsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/QueryInstanceOfType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/QueryMatchType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/QueryPET.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/QueryType.h"
 
 /**  */
 namespace asb_uci {

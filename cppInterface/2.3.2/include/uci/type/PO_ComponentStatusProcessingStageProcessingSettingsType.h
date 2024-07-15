@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_PO_COMPONENTSTATUSPROCESSINGSTAGEPROCESSINGSETTINGSTYPE_H
 #define UCI_TYPE_PO_COMPONENTSTATUSPROCESSINGSTAGEPROCESSINGSETTINGSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/DoubleAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/HSB_ColorControlType.h"
-#include "uci/type/PO_ComponentStatusProcessingStagePixelScalingType.h"
-#include "uci/type/PercentType.h"
-#include "uci/type/RGB_ColorControlType.h"
+#include "../base/Accessor.h"
+#include "../base/DoubleAccessor.h"
+#include "../base/export.h"
+#include "HSB_ColorControlType.h"
+#include "PO_ComponentStatusProcessingStagePixelScalingType.h"
+#include "PercentType.h"
+#include "RGB_ColorControlType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

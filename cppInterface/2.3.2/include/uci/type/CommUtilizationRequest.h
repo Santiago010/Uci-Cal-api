@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_COMMUTILIZATIONREQUEST_H
 #define UCI_TYPE_COMMUTILIZATIONREQUEST_H
 
-#include "uci/type/CommUtilizationRequestMT.h"
+#include "CommUtilizationRequestMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_TASKALLOCATIONTYPE_H
 #define UCI_TYPE_TASKALLOCATIONTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/RequirementAllocationBaseType.h"
-#include "uci/type/TaskID_Type.h"
+#include "../base/export.h"
+#include "RequirementAllocationBaseType.h"
+#include "TaskID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

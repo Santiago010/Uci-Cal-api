@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_ESM_ACTIVITYCOMMANDTYPE_H
 #define UCI_TYPE_ESM_ACTIVITYCOMMANDTYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityCommandFrequencyType.h"
-#include "uci/type/DependentActivityType.h"
-#include "uci/type/ESM_ChangeDwellType.h"
-#include "uci/type/ESM_ChangeGeolocationType.h"
-#include "uci/type/SharedRF_ApertureActivityCommandBaseType.h"
-#include "uci/type/SubCapabilityDetailsType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilityCommandFrequencyType.h"
+#include "DependentActivityType.h"
+#include "ESM_ChangeDwellType.h"
+#include "ESM_ChangeGeolocationType.h"
+#include "SharedRF_ApertureActivityCommandBaseType.h"
+#include "SubCapabilityDetailsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_WEATHERRADAROBSERVATIONMDT_H
 #define UCI_TYPE_WEATHERRADAROBSERVATIONMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/Point3D_Type.h"
-#include "uci/type/SystemID_Type.h"
-#include "uci/type/WeatherRadarCellSizeType.h"
-#include "uci/type/WeatherRadarCellType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilityID_Type.h"
+#include "DateTimeType.h"
+#include "Point3D_Type.h"
+#include "SystemID_Type.h"
+#include "WeatherRadarCellSizeType.h"
+#include "WeatherRadarCellType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

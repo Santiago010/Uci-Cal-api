@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_REQUIREMENTPLANCONSTRAINTTYPE_H
 #define UCI_TYPE_REQUIREMENTPLANCONSTRAINTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ActionPlanConstraintType.h"
-#include "uci/type/EffectPlanConstraintType.h"
-#include "uci/type/ResponsePlanConstraintType.h"
-#include "uci/type/TaskPlanConstraintType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ActionPlanConstraintType.h"
+#include "EffectPlanConstraintType.h"
+#include "ResponsePlanConstraintType.h"
+#include "TaskPlanConstraintType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

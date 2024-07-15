@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_ORBITPLANCOMMANDMDT_H
 #define UCI_TYPE_ORBITPLANCOMMANDMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CommandStateEnum.h"
-#include "uci/type/MissionPlanCommandID_Type.h"
-#include "uci/type/OrbitPlanCommandID_Type.h"
-#include "uci/type/OrbitPlanInputsType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "CommandStateEnum.h"
+#include "MissionPlanCommandID_Type.h"
+#include "OrbitPlanCommandID_Type.h"
+#include "OrbitPlanInputsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

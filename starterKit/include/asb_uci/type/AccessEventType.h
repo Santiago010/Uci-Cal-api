@@ -41,12 +41,12 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AccessEffortEnum.h"
-#include "asb_uci/type/DateTimeType.h"
-#include "asb_uci/type/DistanceType.h"
-#include "asb_uci/type/DurationType.h"
-#include "asb_uci/type/PercentType.h"
-#include "uci/type/AccessEventType.h"
+#include "../../../include/asb_uci/type/AccessEffortEnum.h"
+#include "../../../include/asb_uci/type/DateTimeType.h"
+#include "../../../include/asb_uci/type/DistanceType.h"
+#include "../../../include/asb_uci/type/DurationType.h"
+#include "../../../include/asb_uci/type/PercentType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AccessEventType.h"
 
 /**  */
 namespace asb_uci {

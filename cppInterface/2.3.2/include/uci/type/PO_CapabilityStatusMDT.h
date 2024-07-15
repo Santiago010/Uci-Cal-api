@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_PO_CAPABILITYSTATUSMDT_H
 #define UCI_TYPE_PO_CAPABILITYSTATUSMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityStatusBaseType.h"
-#include "uci/type/FOR_Type.h"
-#include "uci/type/PO_CapabilityStatusType.h"
-#include "uci/type/PO_CollectionConstraintsStatusType.h"
-#include "uci/type/PO_ComponentStatusType.h"
-#include "uci/type/PO_MessageOutputsEnum.h"
-#include "uci/type/PO_SubCapabilitySettingsType.h"
-#include "uci/type/PO_TrackStatusType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilityStatusBaseType.h"
+#include "FOR_Type.h"
+#include "PO_CapabilityStatusType.h"
+#include "PO_CollectionConstraintsStatusType.h"
+#include "PO_ComponentStatusType.h"
+#include "PO_MessageOutputsEnum.h"
+#include "PO_SubCapabilitySettingsType.h"
+#include "PO_TrackStatusType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_ACTIONPLANCOMMANDMDT_H
 #define UCI_TYPE_ACTIONPLANCOMMANDMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ActionPlanCommandID_ChoiceType.h"
-#include "uci/type/ActionPlanCommandID_Type.h"
-#include "uci/type/ActionPlanInputsType.h"
-#include "uci/type/CommandStateEnum.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "ActionPlanCommandID_ChoiceType.h"
+#include "ActionPlanCommandID_Type.h"
+#include "ActionPlanInputsType.h"
+#include "CommandStateEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

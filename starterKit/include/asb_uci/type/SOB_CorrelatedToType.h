@@ -41,7 +41,7 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "uci/type/SOB_CorrelatedToType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SOB_CorrelatedToType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_SECURITYINTEGRITYTYPE_H
 #define UCI_TYPE_SECURITYINTEGRITYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/MDF_ID_Type.h"
-#include "uci/type/SecurityIntegrityEnum.h"
-#include "uci/type/VisibleString1024Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "MDF_ID_Type.h"
+#include "SecurityIntegrityEnum.h"
+#include "VisibleString1024Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

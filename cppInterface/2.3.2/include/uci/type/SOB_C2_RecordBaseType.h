@@ -36,22 +36,22 @@
 #ifndef UCI_TYPE_SOB_C2_RECORDBASETYPE_H
 #define UCI_TYPE_SOB_C2_RECORDBASETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/EOB_RecordID_Type.h"
-#include "uci/type/FileMetadataID_Type.h"
-#include "uci/type/OB_OperationalStatusEnum.h"
-#include "uci/type/OB_SensorType.h"
-#include "uci/type/OrderOfBattleC2_EmitterType.h"
-#include "uci/type/OrderOfBattleTimestampsType.h"
-#include "uci/type/Point2D_Type.h"
-#include "uci/type/ProductMetadataID_Type.h"
-#include "uci/type/SOB_C2_RecordID_Type.h"
-#include "uci/type/SOB_C2_RecordRemoveInfoType.h"
-#include "uci/type/SOB_SatelliteRecordID_Type.h"
-#include "uci/type/SatelliteC2_IdentityType.h"
-#include "uci/type/VisibleString512Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "EOB_RecordID_Type.h"
+#include "FileMetadataID_Type.h"
+#include "OB_OperationalStatusEnum.h"
+#include "OB_SensorType.h"
+#include "OrderOfBattleC2_EmitterType.h"
+#include "OrderOfBattleTimestampsType.h"
+#include "Point2D_Type.h"
+#include "ProductMetadataID_Type.h"
+#include "SOB_C2_RecordID_Type.h"
+#include "SOB_C2_RecordRemoveInfoType.h"
+#include "SOB_SatelliteRecordID_Type.h"
+#include "SatelliteC2_IdentityType.h"
+#include "VisibleString512Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

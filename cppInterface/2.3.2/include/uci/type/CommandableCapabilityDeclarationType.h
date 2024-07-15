@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_COMMANDABLECAPABILITYDECLARATIONTYPE_H
 #define UCI_TYPE_COMMANDABLECAPABILITYDECLARATIONTYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityControlInterfacesEnum.h"
-#include "uci/type/CapabilityDeclarationBaseType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilityControlInterfacesEnum.h"
+#include "CapabilityDeclarationBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

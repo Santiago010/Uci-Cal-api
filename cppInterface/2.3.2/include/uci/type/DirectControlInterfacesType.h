@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_DIRECTCONTROLINTERFACESTYPE_H
 #define UCI_TYPE_DIRECTCONTROLINTERFACESTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/InterfaceStateEnum.h"
-#include "uci/type/RequirementTaxonomyType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "InterfaceStateEnum.h"
+#include "RequirementTaxonomyType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

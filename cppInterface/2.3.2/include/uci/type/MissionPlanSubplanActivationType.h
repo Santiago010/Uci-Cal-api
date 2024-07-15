@@ -36,18 +36,18 @@
 #ifndef UCI_TYPE_MISSIONPLANSUBPLANACTIVATIONTYPE_H
 #define UCI_TYPE_MISSIONPLANSUBPLANACTIVATIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ActionPlanActivationType.h"
-#include "uci/type/ActivityPlanActivationType.h"
-#include "uci/type/EffectPlanActivationType.h"
-#include "uci/type/OrbitActivityPlanActivationType.h"
-#include "uci/type/OrbitPlanActivationType.h"
-#include "uci/type/ResponsePlanActivationType.h"
-#include "uci/type/RouteActivityPlanActivationType.h"
-#include "uci/type/RoutePlanActivationType.h"
-#include "uci/type/TaskPlanActivationType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ActionPlanActivationType.h"
+#include "ActivityPlanActivationType.h"
+#include "EffectPlanActivationType.h"
+#include "OrbitActivityPlanActivationType.h"
+#include "OrbitPlanActivationType.h"
+#include "ResponsePlanActivationType.h"
+#include "RouteActivityPlanActivationType.h"
+#include "RoutePlanActivationType.h"
+#include "TaskPlanActivationType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

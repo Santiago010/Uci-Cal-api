@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_PO_COMPONENTSTATUSAPERTURESETTINGSTYPE_H
 #define UCI_TYPE_PO_COMPONENTSTATUSAPERTURESETTINGSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/FloatAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ComponentControlsStatusType.h"
-#include "uci/type/EmptyType.h"
-#include "uci/type/PO_ApertureID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/FloatAccessor.h"
+#include "../base/export.h"
+#include "ComponentControlsStatusType.h"
+#include "EmptyType.h"
+#include "PO_ApertureID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

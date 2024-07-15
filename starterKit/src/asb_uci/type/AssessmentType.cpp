@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/AssessmentType.h"
+#include "../../../include/asb_uci/type/AssessmentType.h"
 
 #include <memory>
 #include <string>
@@ -41,29 +41,29 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AchievabilityAssessmentPET.h"
-#include "asb_uci/type/CapabilityUtilizationAssessmentType.h"
-#include "asb_uci/type/CommPointingPlanAssessmentType.h"
-#include "asb_uci/type/RouteDeconflictionAssessmentType.h"
-#include "asb_uci/type/RouteThreatAssessmentType.h"
-#include "asb_uci/type/RouteVulnerabilityMetricsAssessmentType.h"
-#include "asb_uci/type/TargetMobilityAssessmentType.h"
-#include "asb_uci/type/ThreatNominationAssessmentType.h"
-#include "asb_uci/type/VehicleThreatAssessmentType.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AchievabilityAssessmentPET.h"
-#include "uci/type/AssessmentType.h"
-#include "uci/type/CapabilityUtilizationAssessmentType.h"
-#include "uci/type/CommPointingPlanAssessmentType.h"
-#include "uci/type/RouteDeconflictionAssessmentType.h"
-#include "uci/type/RouteThreatAssessmentType.h"
-#include "uci/type/RouteVulnerabilityMetricsAssessmentType.h"
-#include "uci/type/TargetMobilityAssessmentType.h"
-#include "uci/type/ThreatNominationAssessmentType.h"
-#include "uci/type/VehicleThreatAssessmentType.h"
+#include "../../../include/asb_uci/type/AchievabilityAssessmentPET.h"
+#include "../../../include/asb_uci/type/CapabilityUtilizationAssessmentType.h"
+#include "../../../include/asb_uci/type/CommPointingPlanAssessmentType.h"
+#include "../../../include/asb_uci/type/RouteDeconflictionAssessmentType.h"
+#include "../../../include/asb_uci/type/RouteThreatAssessmentType.h"
+#include "../../../include/asb_uci/type/RouteVulnerabilityMetricsAssessmentType.h"
+#include "../../../include/asb_uci/type/TargetMobilityAssessmentType.h"
+#include "../../../include/asb_uci/type/ThreatNominationAssessmentType.h"
+#include "../../../include/asb_uci/type/VehicleThreatAssessmentType.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AchievabilityAssessmentPET.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AssessmentType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityUtilizationAssessmentType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommPointingPlanAssessmentType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RouteDeconflictionAssessmentType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RouteThreatAssessmentType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RouteVulnerabilityMetricsAssessmentType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TargetMobilityAssessmentType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ThreatNominationAssessmentType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VehicleThreatAssessmentType.h"
 
 /**  */
 namespace asb_uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ServiceSettingsCommandMDT.h"
+#include "../../../include/asb_uci/type/ServiceSettingsCommandMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,20 +41,20 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CapabilityCommandStateEnum.h"
-#include "asb_uci/type/CommandBaseType.h"
-#include "asb_uci/type/EventSeverityEnum.h"
-#include "asb_uci/type/ServiceID_Type.h"
-#include "asb_uci/type/ServiceSettingEnum.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CapabilityCommandStateEnum.h"
-#include "uci/type/EventSeverityEnum.h"
-#include "uci/type/ServiceID_Type.h"
-#include "uci/type/ServiceSettingEnum.h"
-#include "uci/type/ServiceSettingsCommandMDT.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/CapabilityCommandStateEnum.h"
+#include "../../../include/asb_uci/type/CommandBaseType.h"
+#include "../../../include/asb_uci/type/EventSeverityEnum.h"
+#include "../../../include/asb_uci/type/ServiceID_Type.h"
+#include "../../../include/asb_uci/type/ServiceSettingEnum.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityCommandStateEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EventSeverityEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ServiceID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ServiceSettingEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ServiceSettingsCommandMDT.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

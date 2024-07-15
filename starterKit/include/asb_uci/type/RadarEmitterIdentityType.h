@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/NotationType.h"
-#include "asb_uci/type/RadarModeEnum.h"
-#include "asb_uci/type/TrackModeEnum.h"
-#include "uci/type/RadarEmitterIdentityType.h"
+#include "../../../include/asb_uci/type/NotationType.h"
+#include "../../../include/asb_uci/type/RadarModeEnum.h"
+#include "../../../include/asb_uci/type/TrackModeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RadarEmitterIdentityType.h"
 
 /**  */
 namespace asb_uci {

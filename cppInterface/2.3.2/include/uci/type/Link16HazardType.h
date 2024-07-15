@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_LINK16HAZARDTYPE_H
 #define UCI_TYPE_LINK16HAZARDTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/Link16HazardBurstEnum.h"
-#include "uci/type/Link16HazardYieldEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "Link16HazardBurstEnum.h"
+#include "Link16HazardYieldEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

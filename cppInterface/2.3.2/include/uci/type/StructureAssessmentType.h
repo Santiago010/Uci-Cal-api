@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_STRUCTUREASSESSMENTTYPE_H
 #define UCI_TYPE_STRUCTUREASSESSMENTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ResolvedCharacterizationType.h"
-#include "uci/type/SizeEstimationType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ResolvedCharacterizationType.h"
+#include "SizeEstimationType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

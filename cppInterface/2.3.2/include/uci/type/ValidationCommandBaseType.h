@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_VALIDATIONCOMMANDBASETYPE_H
 #define UCI_TYPE_VALIDATIONCOMMANDBASETYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/type/CommandBaseType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/RepeatEnum.h"
+#include "../base/BooleanAccessor.h"
+#include "CommandBaseType.h"
+#include "DurationType.h"
+#include "RepeatEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

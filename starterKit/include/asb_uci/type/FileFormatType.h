@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/MIME_Type.h"
-#include "uci/base/Accessor.h"
-#include "uci/type/FileFormatType.h"
+#include "../../../include/asb_uci/type/MIME_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FileFormatType.h"
 
 /**  */
 namespace asb_uci {

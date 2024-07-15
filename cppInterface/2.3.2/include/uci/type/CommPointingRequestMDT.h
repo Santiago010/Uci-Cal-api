@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_COMMPOINTINGREQUESTMDT_H
 #define UCI_TYPE_COMMPOINTINGREQUESTMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/CommPointingID_Type.h"
-#include "uci/type/CommPointingRequestEnum.h"
-#include "uci/type/CommPointingType.h"
-#include "uci/type/RequestBaseType.h"
+#include "../base/export.h"
+#include "CommPointingID_Type.h"
+#include "CommPointingRequestEnum.h"
+#include "CommPointingType.h"
+#include "RequestBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

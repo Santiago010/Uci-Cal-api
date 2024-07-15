@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_WEATHERREPORTGRIDDATATYPE_H
 #define UCI_TYPE_WEATHERREPORTGRIDDATATYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/Point3D_Type.h"
-#include "uci/type/WeatherAreaDataType.h"
+#include "../base/export.h"
+#include "Point3D_Type.h"
+#include "WeatherAreaDataType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

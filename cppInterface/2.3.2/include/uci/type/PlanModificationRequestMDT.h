@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_PLANMODIFICATIONREQUESTMDT_H
 #define UCI_TYPE_PLANMODIFICATIONREQUESTMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/PlanInitiationSourceEnum.h"
-#include "uci/type/PlanModificationDetailsType.h"
-#include "uci/type/PlansReferenceType.h"
-#include "uci/type/RequestBaseType.h"
+#include "../base/export.h"
+#include "PlanInitiationSourceEnum.h"
+#include "PlanModificationDetailsType.h"
+#include "PlansReferenceType.h"
+#include "RequestBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

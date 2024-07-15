@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_COMMMADL_NETCHANGESELECTIONTYPE_H
 #define UCI_TYPE_COMMMADL_NETCHANGESELECTIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CommMADL_FlightGroupType.h"
-#include "uci/type/CommMADL_NetworkLayoutType.h"
-#include "uci/type/CommMADL_NetworkType.h"
-#include "uci/type/MADL_NodeRangeType.h"
-#include "uci/type/MADL_SelectionShiftValueType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CommMADL_FlightGroupType.h"
+#include "CommMADL_NetworkLayoutType.h"
+#include "CommMADL_NetworkType.h"
+#include "MADL_NodeRangeType.h"
+#include "MADL_SelectionShiftValueType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

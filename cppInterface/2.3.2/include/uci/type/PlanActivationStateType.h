@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_PLANACTIVATIONSTATETYPE_H
 #define UCI_TYPE_PLANACTIVATIONSTATETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/PlanActivationStateEnum.h"
-#include "uci/type/PlansReferenceBaseType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "PlanActivationStateEnum.h"
+#include "PlansReferenceBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

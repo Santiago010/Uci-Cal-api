@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_ROUTEPLANNINGCANDIDATETYPE_H
 #define UCI_TYPE_ROUTEPLANNINGCANDIDATETYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/PlanningCandidateBaseType.h"
-#include "uci/type/PlanningGuidelineType.h"
+#include "../base/export.h"
+#include "PlanningCandidateBaseType.h"
+#include "PlanningGuidelineType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

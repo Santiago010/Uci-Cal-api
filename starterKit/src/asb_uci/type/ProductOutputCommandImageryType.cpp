@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ProductOutputCommandImageryType.h"
+#include "../../../include/asb_uci/type/ProductOutputCommandImageryType.h"
 
 #include <memory>
 #include <string>
@@ -41,16 +41,16 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/JPEG_SettingsType.h"
-#include "asb_uci/type/NITF_PackingPlanPET.h"
-#include "asb_uci/type/ProductOutputCommandBasicType.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/JPEG_SettingsType.h"
-#include "uci/type/NITF_PackingPlanPET.h"
-#include "uci/type/ProductOutputCommandImageryType.h"
+#include "../../../include/asb_uci/type/JPEG_SettingsType.h"
+#include "../../../include/asb_uci/type/NITF_PackingPlanPET.h"
+#include "../../../include/asb_uci/type/ProductOutputCommandBasicType.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/JPEG_SettingsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/NITF_PackingPlanPET.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProductOutputCommandImageryType.h"
 
 /**  */
 namespace asb_uci {

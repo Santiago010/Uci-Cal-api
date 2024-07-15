@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/TargetDefensesEnum.h"
-#include "asb_uci/type/TargetTypeEnum.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/TargetInformationType.h"
+#include "../../../include/asb_uci/type/TargetDefensesEnum.h"
+#include "../../../include/asb_uci/type/TargetTypeEnum.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TargetInformationType.h"
 
 /**  */
 namespace asb_uci {

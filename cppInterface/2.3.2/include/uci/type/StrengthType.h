@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_STRENGTHTYPE_H
 #define UCI_TYPE_STRENGTHTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/PercentRangeType.h"
-#include "uci/type/StrengthRangeType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "PercentRangeType.h"
+#include "StrengthRangeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

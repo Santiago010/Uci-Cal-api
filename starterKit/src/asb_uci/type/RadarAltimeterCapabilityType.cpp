@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/RadarAltimeterCapabilityType.h"
+#include "../../../include/asb_uci/type/RadarAltimeterCapabilityType.h"
 
 #include <memory>
 #include <string>
@@ -41,21 +41,21 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CommandableCapabilityDeclarationType.h"
-#include "asb_uci/type/FrequencyRangeType.h"
-#include "asb_uci/type/RadarAltimeterCapabilityEnum.h"
-#include "asb_uci/type/RadarAltimeterCapabilityOptionsType.h"
-#include "asb_uci/type/RadarAltimeterMessageOutputsEnum.h"
-#include "asb_uci/type/RadarAltimeterSubCapabilityEnum.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/FrequencyRangeType.h"
-#include "uci/type/RadarAltimeterCapabilityEnum.h"
-#include "uci/type/RadarAltimeterCapabilityOptionsType.h"
-#include "uci/type/RadarAltimeterCapabilityType.h"
-#include "uci/type/RadarAltimeterMessageOutputsEnum.h"
-#include "uci/type/RadarAltimeterSubCapabilityEnum.h"
+#include "../../../include/asb_uci/type/CommandableCapabilityDeclarationType.h"
+#include "../../../include/asb_uci/type/FrequencyRangeType.h"
+#include "../../../include/asb_uci/type/RadarAltimeterCapabilityEnum.h"
+#include "../../../include/asb_uci/type/RadarAltimeterCapabilityOptionsType.h"
+#include "../../../include/asb_uci/type/RadarAltimeterMessageOutputsEnum.h"
+#include "../../../include/asb_uci/type/RadarAltimeterSubCapabilityEnum.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FrequencyRangeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RadarAltimeterCapabilityEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RadarAltimeterCapabilityOptionsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RadarAltimeterCapabilityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RadarAltimeterMessageOutputsEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RadarAltimeterSubCapabilityEnum.h"
 
 /**  */
 namespace asb_uci {

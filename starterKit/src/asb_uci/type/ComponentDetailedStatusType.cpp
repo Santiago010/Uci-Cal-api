@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ComponentDetailedStatusType.h"
+#include "../../../include/asb_uci/type/ComponentDetailedStatusType.h"
 
 #include <memory>
 #include <string>
@@ -41,24 +41,24 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ComponentDetailedStatusInfoType.h"
-#include "asb_uci/type/ComponentElementID_Type.h"
-#include "asb_uci/type/ComponentElementIdentifierChoiceType.h"
-#include "asb_uci/type/ComponentElementStateType.h"
-#include "asb_uci/type/VisibleString256Type.h"
-#include "asb_uci/util/DerivedTypesCopier.h"
-#include "asb_uci/util/DerivedTypesCreator.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/DerivedTypesSerializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ComponentDetailedStatusInfoType.h"
-#include "uci/type/ComponentDetailedStatusType.h"
-#include "uci/type/ComponentElementID_Type.h"
-#include "uci/type/ComponentElementIdentifierChoiceType.h"
-#include "uci/type/ComponentElementStateType.h"
-#include "uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/type/ComponentDetailedStatusInfoType.h"
+#include "../../../include/asb_uci/type/ComponentElementID_Type.h"
+#include "../../../include/asb_uci/type/ComponentElementIdentifierChoiceType.h"
+#include "../../../include/asb_uci/type/ComponentElementStateType.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/util/DerivedTypesCopier.h"
+#include "../../../include/asb_uci/util/DerivedTypesCreator.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/DerivedTypesSerializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ComponentDetailedStatusInfoType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ComponentDetailedStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ComponentElementID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ComponentElementIdentifierChoiceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ComponentElementStateType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString256Type.h"
 
 /**  */
 namespace asb_uci {
@@ -204,7 +204,7 @@ bool ComponentDetailedStatusType::hasComponentElementDescription() const noexcep
 
 uci::type::VisibleString256Type& ComponentDetailedStatusType::enableComponentElementDescription(uci::base::accessorType::AccessorType type) {
   if (!componentElementDescription_Accessor) {
-    componentElementDescription_Accessor = VisibleString256Type::create(type);
+    componentElementDescription_Accessor = boost::make_unique<std::string>("");
   }
   return *componentElementDescription_Accessor;
 }

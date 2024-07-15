@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_COMPONENTDETAILEDSTATUSINFOTYPE_H
 #define UCI_TYPE_COMPONENTDETAILEDSTATUSINFOTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/ComponentElementStateType.h"
-#include "uci/type/NameValuePairType.h"
-#include "uci/type/VisibleString256Type.h"
+#include "../base/export.h"
+#include "ComponentElementStateType.h"
+#include "NameValuePairType.h"
+#include "VisibleString256Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

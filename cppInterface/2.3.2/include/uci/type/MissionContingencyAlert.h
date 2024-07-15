@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_MISSIONCONTINGENCYALERT_H
 #define UCI_TYPE_MISSIONCONTINGENCYALERT_H
 
-#include "uci/type/MissionContingencyAlertMT.h"
+#include "MissionContingencyAlertMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

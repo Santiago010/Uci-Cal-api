@@ -36,8 +36,8 @@
 #ifndef UCI_TYPE_COMPONENTCONFIGURATIONTYPE_H
 #define UCI_TYPE_COMPONENTCONFIGURATIONTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/ComponentConfigurationPET.h"
+#include "../base/export.h"
+#include "ComponentConfigurationPET.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

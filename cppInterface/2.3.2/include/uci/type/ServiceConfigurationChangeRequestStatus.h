@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SERVICECONFIGURATIONCHANGEREQUESTSTATUS_H
 #define UCI_TYPE_SERVICECONFIGURATIONCHANGEREQUESTSTATUS_H
 
-#include "uci/type/ServiceConfigurationChangeRequestStatusMT.h"
+#include "ServiceConfigurationChangeRequestStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_COMMCOVERAGEUSERDATATYPE_H
 #define UCI_TYPE_COMMCOVERAGEUSERDATATYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/CommCoverageDataType.h"
-#include "uci/type/VisibleString256Type.h"
+#include "../base/export.h"
+#include "CommCoverageDataType.h"
+#include "VisibleString256Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

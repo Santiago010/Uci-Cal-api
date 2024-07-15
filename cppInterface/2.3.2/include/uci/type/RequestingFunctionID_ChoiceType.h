@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_REQUESTINGFUNCTIONID_CHOICETYPE_H
 #define UCI_TYPE_REQUESTINGFUNCTIONID_CHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ActivityID_Type.h"
-#include "uci/type/BIT_ID_Type.h"
-#include "uci/type/CalibrationID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ActivityID_Type.h"
+#include "BIT_ID_Type.h"
+#include "CalibrationID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

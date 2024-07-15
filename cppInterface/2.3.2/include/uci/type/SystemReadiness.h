@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SYSTEMREADINESS_H
 #define UCI_TYPE_SYSTEMREADINESS_H
 
-#include "uci/type/SystemReadinessMT.h"
+#include "SystemReadinessMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

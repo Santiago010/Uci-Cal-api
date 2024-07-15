@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_SUBSYSTEMSETTINGSCOMMANDMDT_H
 #define UCI_TYPE_SUBSYSTEMSETTINGSCOMMANDMDT_H
 
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityCommandStateEnum.h"
-#include "uci/type/CommandBaseType.h"
-#include "uci/type/SubsystemID_Type.h"
-#include "uci/type/SubsystemSettingEnum.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "CapabilityCommandStateEnum.h"
+#include "CommandBaseType.h"
+#include "SubsystemID_Type.h"
+#include "SubsystemSettingEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

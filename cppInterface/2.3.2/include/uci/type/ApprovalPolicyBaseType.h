@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_APPROVALPOLICYBASETYPE_H
 #define UCI_TYPE_APPROVALPOLICYBASETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ApprovalRequirementEnum.h"
-#include "uci/type/DefaultResponseType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ApprovalRequirementEnum.h"
+#include "DefaultResponseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

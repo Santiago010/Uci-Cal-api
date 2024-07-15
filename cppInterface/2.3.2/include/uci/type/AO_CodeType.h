@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_AO_CODETYPE_H
 #define UCI_TYPE_AO_CODETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AO_PIM_CodeType.h"
-#include "uci/type/AO_PRF_CodeType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AO_PIM_CodeType.h"
+#include "AO_PRF_CodeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_ORBITKINEMATICSSEQUENCEINSERTIONTYPE_H
 #define UCI_TYPE_ORBITKINEMATICSSEQUENCEINSERTIONTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/OrbitKinematicsSequenceType.h"
-#include "uci/type/OrbitSequenceInsertionPositionChoiceType.h"
+#include "../base/export.h"
+#include "OrbitKinematicsSequenceType.h"
+#include "OrbitSequenceInsertionPositionChoiceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

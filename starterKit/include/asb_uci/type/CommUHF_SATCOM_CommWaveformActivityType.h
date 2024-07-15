@@ -41,13 +41,13 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/CommRangeModeTypeEnum.h"
-#include "asb_uci/type/CommSATCOM_ServiceTypeEnum.h"
-#include "asb_uci/type/CommWaveformActivityPET.h"
-#include "asb_uci/type/DurationType.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/CommUHF_SATCOM_CommWaveformActivityType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/CommRangeModeTypeEnum.h"
+#include "../../../include/asb_uci/type/CommSATCOM_ServiceTypeEnum.h"
+#include "../../../include/asb_uci/type/CommWaveformActivityPET.h"
+#include "../../../include/asb_uci/type/DurationType.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommUHF_SATCOM_CommWaveformActivityType.h"
 
 /**  */
 namespace asb_uci {

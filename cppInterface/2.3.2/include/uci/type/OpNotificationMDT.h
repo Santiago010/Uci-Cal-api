@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_OPNOTIFICATIONMDT_H
 #define UCI_TYPE_OPNOTIFICATIONMDT_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AssociatedMessageType.h"
-#include "uci/type/NotificationBaseType.h"
-#include "uci/type/OpID_ChoiceType.h"
-#include "uci/type/OpInteractingAssetType.h"
-#include "uci/type/OpNotificationEXT.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AssociatedMessageType.h"
+#include "NotificationBaseType.h"
+#include "OpID_ChoiceType.h"
+#include "OpInteractingAssetType.h"
+#include "OpNotificationEXT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

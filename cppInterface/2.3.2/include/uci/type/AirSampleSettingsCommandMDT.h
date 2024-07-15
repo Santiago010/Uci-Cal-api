@@ -36,8 +36,8 @@
 #ifndef UCI_TYPE_AIRSAMPLESETTINGSCOMMANDMDT_H
 #define UCI_TYPE_AIRSAMPLESETTINGSCOMMANDMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/CapabilitySettingsCommandBaseType.h"
+#include "../base/export.h"
+#include "CapabilitySettingsCommandBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_VCM_INTEGRATORSETTINGSTYPE_H
 #define UCI_TYPE_VCM_INTEGRATORSETTINGSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/DoubleAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AS_IntegratorModeEnum.h"
-#include "uci/type/AS_IntegratorStepModeEnum.h"
-#include "uci/type/AS_PartialDerivativesEnum.h"
-#include "uci/type/DoublePositiveType.h"
-#include "uci/type/InitialStepSizeEnum.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/DoubleAccessor.h"
+#include "../base/export.h"
+#include "AS_IntegratorModeEnum.h"
+#include "AS_IntegratorStepModeEnum.h"
+#include "AS_PartialDerivativesEnum.h"
+#include "DoublePositiveType.h"
+#include "InitialStepSizeEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

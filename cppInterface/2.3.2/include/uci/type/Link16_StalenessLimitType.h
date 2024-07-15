@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_LINK16_STALENESSLIMITTYPE_H
 #define UCI_TYPE_LINK16_STALENESSLIMITTYPE_H
 
-#include "uci/type/ShortPositiveType.h"
+#include "ShortPositiveType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

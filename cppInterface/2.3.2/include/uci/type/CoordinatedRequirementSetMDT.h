@@ -36,17 +36,17 @@
 #ifndef UCI_TYPE_COORDINATEDREQUIREMENTSETMDT_H
 #define UCI_TYPE_COORDINATEDREQUIREMENTSETMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CallSignType.h"
-#include "uci/type/CoordinatedRequirementSetID_Type.h"
-#include "uci/type/FrequencyType.h"
-#include "uci/type/LinkedRequirementType.h"
-#include "uci/type/SecurityInformationType.h"
-#include "uci/type/TimingConstraintsType.h"
-#include "uci/type/VisibleString1024Type.h"
-#include "uci/type/VisibleString256Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CallSignType.h"
+#include "CoordinatedRequirementSetID_Type.h"
+#include "FrequencyType.h"
+#include "LinkedRequirementType.h"
+#include "SecurityInformationType.h"
+#include "TimingConstraintsType.h"
+#include "VisibleString1024Type.h"
+#include "VisibleString256Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

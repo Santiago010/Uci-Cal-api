@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/StrikeActivityType.h"
+#include "../../../include/asb_uci/type/StrikeActivityType.h"
 
 #include <memory>
 #include <string>
@@ -41,25 +41,25 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AO_CodeType.h"
-#include "asb_uci/type/ActivityBaseType.h"
-#include "asb_uci/type/ConsentEnum.h"
-#include "asb_uci/type/EnduranceFootprintType.h"
-#include "asb_uci/type/GeoLocatedObjectType.h"
-#include "asb_uci/type/LAR_ID_Type.h"
-#include "asb_uci/type/MunitionInFlightType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AO_CodeType.h"
-#include "uci/type/ConsentEnum.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/EnduranceFootprintType.h"
-#include "uci/type/GeoLocatedObjectType.h"
-#include "uci/type/LAR_ID_Type.h"
-#include "uci/type/MunitionInFlightType.h"
-#include "uci/type/StrikeActivityType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/AO_CodeType.h"
+#include "../../../include/asb_uci/type/ActivityBaseType.h"
+#include "../../../include/asb_uci/type/ConsentEnum.h"
+#include "../../../include/asb_uci/type/EnduranceFootprintType.h"
+#include "../../../include/asb_uci/type/GeoLocatedObjectType.h"
+#include "../../../include/asb_uci/type/LAR_ID_Type.h"
+#include "../../../include/asb_uci/type/MunitionInFlightType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AO_CodeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ConsentEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DurationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EnduranceFootprintType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/GeoLocatedObjectType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/LAR_ID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MunitionInFlightType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StrikeActivityType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

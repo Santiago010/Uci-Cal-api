@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_EOB_EQUIPMENTIDENTITYTYPE_H
 #define UCI_TYPE_EOB_EQUIPMENTIDENTITYTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/EOB_EquipmentType.h"
-#include "uci/type/EOB_IdentityBaseType.h"
+#include "../base/export.h"
+#include "EOB_EquipmentType.h"
+#include "EOB_IdentityBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

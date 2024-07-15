@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_CAPABILITYASSESSMENTPOINTTYPE_H
 #define UCI_TYPE_CAPABILITYASSESSMENTPOINTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityAssessmentActionType.h"
-#include "uci/type/CapabilityAssessmentActivityDetailsType.h"
-#include "uci/type/InertialStateRelativeType.h"
-#include "uci/type/RoutePlanReferencesType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilityAssessmentActionType.h"
+#include "CapabilityAssessmentActivityDetailsType.h"
+#include "InertialStateRelativeType.h"
+#include "RoutePlanReferencesType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

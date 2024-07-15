@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_PRODUCTDOWNLOADREPORT_H
 #define UCI_TYPE_PRODUCTDOWNLOADREPORT_H
 
-#include "uci/type/ProductDownloadReportMT.h"
+#include "ProductDownloadReportMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

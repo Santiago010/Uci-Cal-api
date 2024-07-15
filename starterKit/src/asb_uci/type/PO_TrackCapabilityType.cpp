@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/PO_TrackCapabilityType.h"
+#include "../../../include/asb_uci/type/PO_TrackCapabilityType.h"
 
 #include <memory>
 #include <string>
@@ -41,25 +41,25 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/DoubleMinMaxType.h"
-#include "asb_uci/type/DurationRangeType.h"
-#include "asb_uci/type/IdentityBasicType.h"
-#include "asb_uci/type/PO_CoastSettingOptionsType.h"
-#include "asb_uci/type/PO_OffsetTrackSettingsType.h"
-#include "asb_uci/type/PO_TrackCapabilityTypeEnum.h"
-#include "asb_uci/type/TrackOptionsID_Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/DoubleMinMaxType.h"
-#include "uci/type/DurationRangeType.h"
-#include "uci/type/IdentityBasicType.h"
-#include "uci/type/PO_CoastSettingOptionsType.h"
-#include "uci/type/PO_OffsetTrackSettingsType.h"
-#include "uci/type/PO_TrackCapabilityType.h"
-#include "uci/type/PO_TrackCapabilityTypeEnum.h"
-#include "uci/type/TrackOptionsID_Type.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/DoubleMinMaxType.h"
+#include "../../../include/asb_uci/type/DurationRangeType.h"
+#include "../../../include/asb_uci/type/IdentityBasicType.h"
+#include "../../../include/asb_uci/type/PO_CoastSettingOptionsType.h"
+#include "../../../include/asb_uci/type/PO_OffsetTrackSettingsType.h"
+#include "../../../include/asb_uci/type/PO_TrackCapabilityTypeEnum.h"
+#include "../../../include/asb_uci/type/TrackOptionsID_Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DoubleMinMaxType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DurationRangeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IdentityBasicType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_CoastSettingOptionsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_OffsetTrackSettingsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_TrackCapabilityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_TrackCapabilityTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TrackOptionsID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

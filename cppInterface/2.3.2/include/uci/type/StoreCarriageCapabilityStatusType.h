@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_STORECARRIAGECAPABILITYSTATUSTYPE_H
 #define UCI_TYPE_STORECARRIAGECAPABILITYSTATUSTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/StoreCarriageCapabilityStatusBaseType.h"
-#include "uci/type/SubsystemID_Type.h"
+#include "../base/export.h"
+#include "StoreCarriageCapabilityStatusBaseType.h"
+#include "SubsystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

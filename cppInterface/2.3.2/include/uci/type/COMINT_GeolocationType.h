@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_COMINT_GEOLOCATIONTYPE_H
 #define UCI_TYPE_COMINT_GEOLOCATIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/EntityID_Type.h"
-#include "uci/type/SignalGeolocationControlEnum.h"
-#include "uci/type/SignalGeolocationMethodEnum.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DurationType.h"
+#include "EntityID_Type.h"
+#include "SignalGeolocationControlEnum.h"
+#include "SignalGeolocationMethodEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

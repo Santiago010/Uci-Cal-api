@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_PLATFORMIDENTITYTYPE_H
 #define UCI_TYPE_PLATFORMIDENTITYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EnvironmentEnum.h"
-#include "uci/type/LaunchCapabilityEnum.h"
-#include "uci/type/SubmarineConfidenceLevelEnum.h"
-#include "uci/type/ThreatEnum.h"
-#include "uci/type/UnitTypeEnum.h"
+#include "../base/Accessor.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "EnvironmentEnum.h"
+#include "LaunchCapabilityEnum.h"
+#include "SubmarineConfidenceLevelEnum.h"
+#include "ThreatEnum.h"
+#include "UnitTypeEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

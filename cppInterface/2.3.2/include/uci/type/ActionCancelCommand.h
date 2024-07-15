@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ACTIONCANCELCOMMAND_H
 #define UCI_TYPE_ACTIONCANCELCOMMAND_H
 
-#include "uci/type/ActionCancelCommandMT.h"
+#include "ActionCancelCommandMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

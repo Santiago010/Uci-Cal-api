@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_ENTITYORBITALVCM_MDT_H
 #define UCI_TYPE_ENTITYORBITALVCM_MDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/EntityOrbitalVCM_Type.h"
-#include "uci/type/RequestID_Type.h"
+#include "../base/export.h"
+#include "EntityOrbitalVCM_Type.h"
+#include "RequestID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

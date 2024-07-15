@@ -41,15 +41,15 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/DateTimeType.h"
-#include "asb_uci/type/DurationType.h"
-#include "asb_uci/type/QueryString4096Type.h"
-#include "asb_uci/type/SchemaComponentNameType.h"
-#include "asb_uci/type/TimeType.h"
-#include "asb_xs/type/binaryXmlSchemaPrimitives.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/base/Accessor.h"
-#include "uci/type/AtomicValueType.h"
+#include "../../../include/asb_uci/type/DateTimeType.h"
+#include "../../../include/asb_uci/type/DurationType.h"
+#include "../../../include/asb_uci/type/QueryString4096Type.h"
+#include "../../../include/asb_uci/type/SchemaComponentNameType.h"
+#include "../../../include/asb_uci/type/TimeType.h"
+#include "../../../include/asb_xs/type/binaryXmlSchemaPrimitives.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AtomicValueType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_IFF_TYPE_H
 #define UCI_TYPE_IFF_TYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/IFF_Mode1Type.h"
-#include "uci/type/IFF_Mode4Type.h"
-#include "uci/type/IFF_Mode5Type.h"
-#include "uci/type/IFF_ModeS_Type.h"
-#include "uci/type/IFF_OctalModeType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "IFF_Mode1Type.h"
+#include "IFF_Mode4Type.h"
+#include "IFF_Mode5Type.h"
+#include "IFF_ModeS_Type.h"
+#include "IFF_OctalModeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

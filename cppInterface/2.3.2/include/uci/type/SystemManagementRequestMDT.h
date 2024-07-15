@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_SYSTEMMANAGEMENTREQUESTMDT_H
 #define UCI_TYPE_SYSTEMMANAGEMENTREQUESTMDT_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/EntityManagementRequestAuthorityEnum.h"
-#include "uci/type/RequestBaseType.h"
-#include "uci/type/RequestSourceEnum.h"
-#include "uci/type/SystemID_Type.h"
-#include "uci/type/SystemManagementRequestType.h"
-#include "uci/type/SystemMessageIdentifierType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "EntityManagementRequestAuthorityEnum.h"
+#include "RequestBaseType.h"
+#include "RequestSourceEnum.h"
+#include "SystemID_Type.h"
+#include "SystemManagementRequestType.h"
+#include "SystemMessageIdentifierType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

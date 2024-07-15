@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ACTIVITYMETRICSREQUEST_H
 #define UCI_TYPE_ACTIVITYMETRICSREQUEST_H
 
-#include "uci/type/ActivityMetricsRequestMT.h"
+#include "ActivityMetricsRequestMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

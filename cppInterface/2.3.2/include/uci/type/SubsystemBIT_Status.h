@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SUBSYSTEMBIT_STATUS_H
 #define UCI_TYPE_SUBSYSTEMBIT_STATUS_H
 
-#include "uci/type/SubsystemBIT_StatusMT.h"
+#include "SubsystemBIT_StatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

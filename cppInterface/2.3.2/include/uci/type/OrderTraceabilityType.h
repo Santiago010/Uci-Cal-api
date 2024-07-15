@@ -36,18 +36,18 @@
 #ifndef UCI_TYPE_ORDERTRACEABILITYTYPE_H
 #define UCI_TYPE_ORDERTRACEABILITYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ACO_FileTraceabilityType.h"
-#include "uci/type/ACTDF_FileTraceabilityType.h"
-#include "uci/type/AOCO_TraceabilityType.h"
-#include "uci/type/ATO_FileTraceabilityType.h"
-#include "uci/type/CollectionDeckTraceabilityType.h"
-#include "uci/type/FileMetadataID_Type.h"
-#include "uci/type/ROME_IdentityType.h"
-#include "uci/type/RSTA_FileTraceabilityType.h"
-#include "uci/type/SystemID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ACO_FileTraceabilityType.h"
+#include "ACTDF_FileTraceabilityType.h"
+#include "AOCO_TraceabilityType.h"
+#include "ATO_FileTraceabilityType.h"
+#include "CollectionDeckTraceabilityType.h"
+#include "FileMetadataID_Type.h"
+#include "ROME_IdentityType.h"
+#include "RSTA_FileTraceabilityType.h"
+#include "SystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

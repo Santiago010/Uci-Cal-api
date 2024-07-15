@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_FUELCENTEROFGRAVITYTYPE_H
 #define UCI_TYPE_FUELCENTEROFGRAVITYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CenterOfGravityAeroType.h"
-#include "uci/type/LateralCenterOfGravityTrendEnum.h"
-#include "uci/type/LongitudinalCenterOfGravityTrendEnum.h"
-#include "uci/type/VerticalCenterOfGravityTrendEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CenterOfGravityAeroType.h"
+#include "LateralCenterOfGravityTrendEnum.h"
+#include "LongitudinalCenterOfGravityTrendEnum.h"
+#include "VerticalCenterOfGravityTrendEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

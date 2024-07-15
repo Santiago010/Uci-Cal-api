@@ -36,18 +36,18 @@
 #ifndef UCI_TYPE_ROUTEMETRICSMDT_H
 #define UCI_TYPE_ROUTEMETRICSMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ActivityMetricsType.h"
-#include "uci/type/ActivityPlanPartsEnum.h"
-#include "uci/type/MetricsType.h"
-#include "uci/type/PathMetricsType.h"
-#include "uci/type/PathTypeEnum.h"
-#include "uci/type/RouteActivityPlanID_Type.h"
-#include "uci/type/RouteMetricsID_Type.h"
-#include "uci/type/RoutePlanID_Type.h"
-#include "uci/type/SegmentMetricsType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ActivityMetricsType.h"
+#include "ActivityPlanPartsEnum.h"
+#include "MetricsType.h"
+#include "PathMetricsType.h"
+#include "PathTypeEnum.h"
+#include "RouteActivityPlanID_Type.h"
+#include "RouteMetricsID_Type.h"
+#include "RoutePlanID_Type.h"
+#include "SegmentMetricsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

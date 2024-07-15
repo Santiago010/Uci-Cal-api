@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SERVICECONFIGURATIONCHANGEREQUESTSTATUSMDT_H
 #define UCI_TYPE_SERVICECONFIGURATIONCHANGEREQUESTSTATUSMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AttributedURI_Type.h"
-#include "uci/type/RequestStatusBaseType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AttributedURI_Type.h"
+#include "RequestStatusBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/GimbalAxisControlStatusType.h"
+#include "../../../include/asb_uci/type/GimbalAxisControlStatusType.h"
 
 #include <memory>
 #include <string>
@@ -41,14 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/GimbalAxisID_Type.h"
-#include "asb_uci/type/PO_AngleConstraintControlsStatusType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/GimbalAxisControlStatusType.h"
-#include "uci/type/GimbalAxisID_Type.h"
-#include "uci/type/PO_AngleConstraintControlsStatusType.h"
+#include "../../../include/asb_uci/type/GimbalAxisID_Type.h"
+#include "../../../include/asb_uci/type/PO_AngleConstraintControlsStatusType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/GimbalAxisControlStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/GimbalAxisID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_AngleConstraintControlsStatusType.h"
 
 /**  */
 namespace asb_uci {

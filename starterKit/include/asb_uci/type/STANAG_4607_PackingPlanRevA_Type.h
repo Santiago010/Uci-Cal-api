@@ -41,13 +41,13 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/CharOrSpacePairsType.h"
-#include "asb_uci/type/STANAG_4607_PacketSecurityClassificationType.h"
-#include "asb_uci/type/STANAG_4607_PackingPlanPET.h"
-#include "asb_uci/type/STANAG_4607_PlanType.h"
-#include "asb_uci/type/VisibleString10Type.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/STANAG_4607_PackingPlanRevA_Type.h"
+#include "../../../include/asb_uci/type/CharOrSpacePairsType.h"
+#include "../../../include/asb_uci/type/STANAG_4607_PacketSecurityClassificationType.h"
+#include "../../../include/asb_uci/type/STANAG_4607_PackingPlanPET.h"
+#include "../../../include/asb_uci/type/STANAG_4607_PlanType.h"
+#include "../../../include/asb_uci/type/VisibleString10Type.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/STANAG_4607_PackingPlanRevA_Type.h"
 
 /**  */
 namespace asb_uci {

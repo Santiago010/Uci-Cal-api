@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ELEVATIONVISIBILITYREQUESTSTATUS_H
 #define UCI_TYPE_ELEVATIONVISIBILITYREQUESTSTATUS_H
 
-#include "uci/type/ElevationVisibilityRequestStatusMT.h"
+#include "ElevationVisibilityRequestStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

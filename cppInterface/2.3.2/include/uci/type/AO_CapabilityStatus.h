@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_AO_CAPABILITYSTATUS_H
 #define UCI_TYPE_AO_CAPABILITYSTATUS_H
 
-#include "uci/type/AO_CapabilityStatusMT.h"
+#include "AO_CapabilityStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

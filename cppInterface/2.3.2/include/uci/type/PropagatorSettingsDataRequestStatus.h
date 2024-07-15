@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_PROPAGATORSETTINGSDATAREQUESTSTATUS_H
 #define UCI_TYPE_PROPAGATORSETTINGSDATAREQUESTSTATUS_H
 
-#include "uci/type/PropagatorSettingsDataRequestStatusMT.h"
+#include "PropagatorSettingsDataRequestStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,20 +36,20 @@
 #ifndef UCI_TYPE_COMMTERMINALCAPABILITYTYPE_H
 #define UCI_TYPE_COMMTERMINALCAPABILITYTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CommCapabilityEnum.h"
-#include "uci/type/CommCapabilityOptionsType.h"
-#include "uci/type/CommDataFormatEnum.h"
-#include "uci/type/CommProfileID_Type.h"
-#include "uci/type/CommUserIO_ID_Type.h"
-#include "uci/type/CommUserLinkType.h"
-#include "uci/type/CommandableCapabilityDeclarationType.h"
-#include "uci/type/ComponentID_Type.h"
-#include "uci/type/CryptoTypeEnum.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/FrequencyRangeType.h"
-#include "uci/type/MilliwattPowerRatioRangeType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CommCapabilityEnum.h"
+#include "CommCapabilityOptionsType.h"
+#include "CommDataFormatEnum.h"
+#include "CommProfileID_Type.h"
+#include "CommUserIO_ID_Type.h"
+#include "CommUserLinkType.h"
+#include "CommandableCapabilityDeclarationType.h"
+#include "ComponentID_Type.h"
+#include "CryptoTypeEnum.h"
+#include "ForeignKeyType.h"
+#include "FrequencyRangeType.h"
+#include "MilliwattPowerRatioRangeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_EFFECTACTIVITY_H
 #define UCI_TYPE_EFFECTACTIVITY_H
 
-#include "uci/type/EffectActivityMT.h"
+#include "EffectActivityMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

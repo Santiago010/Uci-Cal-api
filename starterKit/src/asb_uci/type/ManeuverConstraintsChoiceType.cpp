@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ManeuverConstraintsChoiceType.h"
+#include "../../../include/asb_uci/type/ManeuverConstraintsChoiceType.h"
 
 #include <memory>
 #include <string>
@@ -41,14 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/BasicManeuverConstraintsType.h"
-#include "asb_uci/type/OrbitalManeuverDetailsType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/BasicManeuverConstraintsType.h"
-#include "uci/type/ManeuverConstraintsChoiceType.h"
-#include "uci/type/OrbitalManeuverDetailsType.h"
+#include "../../../include/asb_uci/type/BasicManeuverConstraintsType.h"
+#include "../../../include/asb_uci/type/OrbitalManeuverDetailsType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/BasicManeuverConstraintsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ManeuverConstraintsChoiceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalManeuverDetailsType.h"
 
 /**  */
 namespace asb_uci {

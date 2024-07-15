@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/Link16InterfaceDataLinkNativeInfoType.h"
+#include "../../../include/asb_uci/type/Link16InterfaceDataLinkNativeInfoType.h"
 
 #include <memory>
 #include <string>
@@ -41,19 +41,19 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ActivityByType.h"
-#include "asb_uci/type/DataLinkNativeInfoPET.h"
-#include "asb_uci/type/VoiceCallSignType.h"
-#include "asb_uci/type/VoiceControlType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ActivityByType.h"
-#include "uci/type/Link16InterfaceDataLinkNativeInfoType.h"
-#include "uci/type/Link16_ControlChannelType.h"
-#include "uci/type/VoiceCallSignType.h"
-#include "uci/type/VoiceControlType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/ActivityByType.h"
+#include "../../../include/asb_uci/type/DataLinkNativeInfoPET.h"
+#include "../../../include/asb_uci/type/VoiceCallSignType.h"
+#include "../../../include/asb_uci/type/VoiceControlType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ActivityByType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/Link16InterfaceDataLinkNativeInfoType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/Link16_ControlChannelType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VoiceCallSignType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VoiceControlType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

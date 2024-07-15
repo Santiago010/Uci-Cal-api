@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/SMTI_CapabilityType.h"
+#include "../../../include/asb_uci/type/SMTI_CapabilityType.h"
 
 #include <memory>
 #include <string>
@@ -41,25 +41,25 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CommandableCapabilityDeclarationType.h"
-#include "asb_uci/type/ComponentFieldOfRegardType.h"
-#include "asb_uci/type/FrequencyRangeType.h"
-#include "asb_uci/type/NIIRS_Type.h"
-#include "asb_uci/type/SMTI_CapabilityEnum.h"
-#include "asb_uci/type/SMTI_CapabilityOptionsType.h"
-#include "asb_uci/type/SMTI_MessageOutputsEnum.h"
-#include "asb_uci/type/SMTI_SubCapabilityEnum.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ComponentFieldOfRegardType.h"
-#include "uci/type/FrequencyRangeType.h"
-#include "uci/type/NIIRS_Type.h"
-#include "uci/type/SMTI_CapabilityEnum.h"
-#include "uci/type/SMTI_CapabilityOptionsType.h"
-#include "uci/type/SMTI_CapabilityType.h"
-#include "uci/type/SMTI_MessageOutputsEnum.h"
-#include "uci/type/SMTI_SubCapabilityEnum.h"
+#include "../../../include/asb_uci/type/CommandableCapabilityDeclarationType.h"
+#include "../../../include/asb_uci/type/ComponentFieldOfRegardType.h"
+#include "../../../include/asb_uci/type/FrequencyRangeType.h"
+#include "../../../include/asb_uci/type/NIIRS_Type.h"
+#include "../../../include/asb_uci/type/SMTI_CapabilityEnum.h"
+#include "../../../include/asb_uci/type/SMTI_CapabilityOptionsType.h"
+#include "../../../include/asb_uci/type/SMTI_MessageOutputsEnum.h"
+#include "../../../include/asb_uci/type/SMTI_SubCapabilityEnum.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ComponentFieldOfRegardType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FrequencyRangeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/NIIRS_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SMTI_CapabilityEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SMTI_CapabilityOptionsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SMTI_CapabilityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SMTI_MessageOutputsEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SMTI_SubCapabilityEnum.h"
 
 /**  */
 namespace asb_uci {

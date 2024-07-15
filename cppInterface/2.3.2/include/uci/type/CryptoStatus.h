@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_CRYPTOSTATUS_H
 #define UCI_TYPE_CRYPTOSTATUS_H
 
-#include "uci/type/CryptoStatusMT.h"
+#include "CryptoStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

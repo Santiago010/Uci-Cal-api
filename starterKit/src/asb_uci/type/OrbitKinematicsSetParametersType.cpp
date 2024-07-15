@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/OrbitKinematicsSetParametersType.h"
+#include "../../../include/asb_uci/type/OrbitKinematicsSetParametersType.h"
 
 #include <memory>
 #include <string>
@@ -41,16 +41,16 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/OrbitalElementSetParametersType.h"
-#include "asb_uci/type/OrbitalEphemerisParametersType.h"
-#include "asb_uci/type/OrbitalVCM_ParametersType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/OrbitKinematicsSetParametersType.h"
-#include "uci/type/OrbitalElementSetParametersType.h"
-#include "uci/type/OrbitalEphemerisParametersType.h"
-#include "uci/type/OrbitalVCM_ParametersType.h"
+#include "../../../include/asb_uci/type/OrbitalElementSetParametersType.h"
+#include "../../../include/asb_uci/type/OrbitalEphemerisParametersType.h"
+#include "../../../include/asb_uci/type/OrbitalVCM_ParametersType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitKinematicsSetParametersType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalElementSetParametersType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalEphemerisParametersType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalVCM_ParametersType.h"
 
 /**  */
 namespace asb_uci {

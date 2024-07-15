@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/GeomagneticRecordApEnum.h"
-#include "uci/type/GeomagneticStormApType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/GeomagneticRecordApEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/GeomagneticStormApType.h"
 
 /**  */
 namespace asb_uci {

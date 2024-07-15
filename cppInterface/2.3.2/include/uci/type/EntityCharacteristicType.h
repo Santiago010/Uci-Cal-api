@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_ENTITYCHARACTERISTICTYPE_H
 #define UCI_TYPE_ENTITYCHARACTERISTICTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/FloatAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/BehaviorType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/IdentityComparisonType.h"
-#include "uci/type/PrioritizationListValueType.h"
+#include "../base/Accessor.h"
+#include "../base/FloatAccessor.h"
+#include "../base/export.h"
+#include "BehaviorType.h"
+#include "DurationType.h"
+#include "IdentityComparisonType.h"
+#include "PrioritizationListValueType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

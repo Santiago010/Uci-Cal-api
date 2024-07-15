@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_MISSIONPLANNINGORCHESTRATION_H
 #define UCI_TYPE_MISSIONPLANNINGORCHESTRATION_H
 
-#include "uci/type/MissionPlanningOrchestrationMT.h"
+#include "MissionPlanningOrchestrationMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

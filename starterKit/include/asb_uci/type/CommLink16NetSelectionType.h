@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/Link16_NetNumberType.h"
-#include "asb_uci/type/Link16_ParticipationGroupIndexType.h"
-#include "uci/type/CommLink16NetSelectionType.h"
+#include "../../../include/asb_uci/type/Link16_NetNumberType.h"
+#include "../../../include/asb_uci/type/Link16_ParticipationGroupIndexType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommLink16NetSelectionType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_EA_TASKESCORTTYPE_H
 #define UCI_TYPE_EA_TASKESCORTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AnglePairType.h"
-#include "uci/type/DistanceType.h"
-#include "uci/type/Point4D_Type.h"
-#include "uci/type/ProtectedAssetType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AnglePairType.h"
+#include "DistanceType.h"
+#include "Point4D_Type.h"
+#include "ProtectedAssetType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/PlanInputsCoreType.h"
-#include "uci/type/TaskPlanInputsType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/PlanInputsCoreType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TaskPlanInputsType.h"
 
 /**  */
 namespace asb_uci {

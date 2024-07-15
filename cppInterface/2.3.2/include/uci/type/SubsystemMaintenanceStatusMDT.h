@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_SUBSYSTEMMAINTENANCESTATUSMDT_H
 #define UCI_TYPE_SUBSYSTEMMAINTENANCESTATUSMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CompletionStatusType.h"
-#include "uci/type/SubsystemID_Type.h"
-#include "uci/type/SubsystemMaintenanceStatusType.h"
-#include "uci/type/SubsystemMaintenanceTestResultType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CompletionStatusType.h"
+#include "SubsystemID_Type.h"
+#include "SubsystemMaintenanceStatusType.h"
+#include "SubsystemMaintenanceTestResultType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

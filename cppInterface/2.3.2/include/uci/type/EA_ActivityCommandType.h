@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_EA_ACTIVITYCOMMANDTYPE_H
 #define UCI_TYPE_EA_ACTIVITYCOMMANDTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityCommandFrequencyType.h"
-#include "uci/type/DependentActivityType.h"
-#include "uci/type/EA_ActivityChangeBeamCommandType.h"
-#include "uci/type/EA_ChangeLocationAndPowerType.h"
-#include "uci/type/ProtectedAssetReturnPowerType.h"
-#include "uci/type/SelectAntennaType.h"
-#include "uci/type/SharedRF_ApertureActivityCommandBaseType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilityCommandFrequencyType.h"
+#include "DependentActivityType.h"
+#include "EA_ActivityChangeBeamCommandType.h"
+#include "EA_ChangeLocationAndPowerType.h"
+#include "ProtectedAssetReturnPowerType.h"
+#include "SelectAntennaType.h"
+#include "SharedRF_ApertureActivityCommandBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

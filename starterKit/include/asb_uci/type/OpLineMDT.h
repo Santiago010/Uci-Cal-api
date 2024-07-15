@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/OpBaseType.h"
-#include "asb_uci/type/OpLineCategoryEnum.h"
-#include "uci/type/OpLineMDT.h"
+#include "../../../include/asb_uci/type/OpBaseType.h"
+#include "../../../include/asb_uci/type/OpLineCategoryEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpLineMDT.h"
 
 /**  */
 namespace asb_uci {

@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/InterrogatorIdentifierType.h"
-#include "asb_uci/type/SurveillanceIdentifierType.h"
-#include "uci/base/Accessor.h"
-#include "uci/type/ModeS_InterrogatorAddressType.h"
+#include "../../../include/asb_uci/type/InterrogatorIdentifierType.h"
+#include "../../../include/asb_uci/type/SurveillanceIdentifierType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ModeS_InterrogatorAddressType.h"
 
 /**  */
 namespace asb_uci {

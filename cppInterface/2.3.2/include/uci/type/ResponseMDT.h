@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_RESPONSEMDT_H
 #define UCI_TYPE_RESPONSEMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/RequirementConstraintsType.h"
-#include "uci/type/RequirementGuidanceType.h"
-#include "uci/type/RequirementMetadataType.h"
-#include "uci/type/RequirementsTemplateType.h"
-#include "uci/type/ResponseID_Type.h"
-#include "uci/type/ResponseOptionDetailsType.h"
-#include "uci/type/ResponseTypeEnum.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "RequirementConstraintsType.h"
+#include "RequirementGuidanceType.h"
+#include "RequirementMetadataType.h"
+#include "RequirementsTemplateType.h"
+#include "ResponseID_Type.h"
+#include "ResponseOptionDetailsType.h"
+#include "ResponseTypeEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_SECURITYAUDITRECORDMDT_H
 #define UCI_TYPE_SECURITYAUDITRECORDMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/EventSeverityEnum.h"
-#include "uci/type/SecurityAuditRecordID_Type.h"
-#include "uci/type/SecurityEventOutcomeEnum.h"
-#include "uci/type/SecurityEventType.h"
-#include "uci/type/ServiceID_Type.h"
-#include "uci/type/SubsystemID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DateTimeType.h"
+#include "EventSeverityEnum.h"
+#include "SecurityAuditRecordID_Type.h"
+#include "SecurityEventOutcomeEnum.h"
+#include "SecurityEventType.h"
+#include "ServiceID_Type.h"
+#include "SubsystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_SYSTEMORBITALELEMENTSETMDT_H
 #define UCI_TYPE_SYSTEMORBITALELEMENTSETMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/RequestID_Type.h"
-#include "uci/type/SystemOrbitalElementSetType.h"
+#include "../base/export.h"
+#include "RequestID_Type.h"
+#include "SystemOrbitalElementSetType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

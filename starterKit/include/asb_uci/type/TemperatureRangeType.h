@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/TemperatureType.h"
-#include "uci/type/TemperatureRangeType.h"
+#include "../../../include/asb_uci/type/TemperatureType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TemperatureRangeType.h"
 
 /**  */
 namespace asb_uci {

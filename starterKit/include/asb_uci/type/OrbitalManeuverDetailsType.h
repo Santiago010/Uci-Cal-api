@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/DateTimeType.h"
-#include "asb_uci/type/OrbitalManeuverDetailsBaseType.h"
-#include "asb_uci/type/OrbitalManeuverTypeEnum.h"
-#include "uci/type/OrbitalManeuverDetailsType.h"
+#include "../../../include/asb_uci/type/DateTimeType.h"
+#include "../../../include/asb_uci/type/OrbitalManeuverDetailsBaseType.h"
+#include "../../../include/asb_uci/type/OrbitalManeuverTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalManeuverDetailsType.h"
 
 /**  */
 namespace asb_uci {

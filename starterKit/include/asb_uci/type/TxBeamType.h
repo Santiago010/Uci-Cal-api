@@ -41,12 +41,12 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/AnglePositiveType.h"
-#include "asb_uci/type/EA_PointingEnum.h"
-#include "asb_uci/type/MilliwattPowerRatioType.h"
-#include "asb_uci/type/PercentType.h"
-#include "uci/type/TxBeamType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/AnglePositiveType.h"
+#include "../../../include/asb_uci/type/EA_PointingEnum.h"
+#include "../../../include/asb_uci/type/MilliwattPowerRatioType.h"
+#include "../../../include/asb_uci/type/PercentType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TxBeamType.h"
 
 /**  */
 namespace asb_uci {

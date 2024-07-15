@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/SOB_SatelliteRecordBaseType.h"
-#include "uci/type/SOB_SatelliteRecordType.h"
+#include "../../../include/asb_uci/type/SOB_SatelliteRecordBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SOB_SatelliteRecordType.h"
 
 /**  */
 namespace asb_uci {

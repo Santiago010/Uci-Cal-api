@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_COUNTERSPACECAPABILITYMDT_H
 #define UCI_TYPE_COUNTERSPACECAPABILITYMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CS_CapabilityType.h"
-#include "uci/type/CapabilityBaseType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CS_CapabilityType.h"
+#include "CapabilityBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

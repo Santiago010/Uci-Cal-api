@@ -41,19 +41,19 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/AnglePositiveType.h"
-#include "asb_uci/type/DateTimeType.h"
-#include "asb_uci/type/DurationType.h"
-#include "asb_uci/type/MeasurementStatusEnum.h"
-#include "asb_uci/type/RadarBeamPersistenceEnum.h"
-#include "asb_uci/type/RadarBeamTypeEnum.h"
-#include "asb_uci/type/ScanDataBaseType.h"
-#include "asb_uci/type/ScanDirectionalityEnum.h"
-#include "asb_uci/type/ScanMechanicsEnum.h"
-#include "asb_uci/type/ScanPlaneEnum.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/ScanDataType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/AnglePositiveType.h"
+#include "../../../include/asb_uci/type/DateTimeType.h"
+#include "../../../include/asb_uci/type/DurationType.h"
+#include "../../../include/asb_uci/type/MeasurementStatusEnum.h"
+#include "../../../include/asb_uci/type/RadarBeamPersistenceEnum.h"
+#include "../../../include/asb_uci/type/RadarBeamTypeEnum.h"
+#include "../../../include/asb_uci/type/ScanDataBaseType.h"
+#include "../../../include/asb_uci/type/ScanDirectionalityEnum.h"
+#include "../../../include/asb_uci/type/ScanMechanicsEnum.h"
+#include "../../../include/asb_uci/type/ScanPlaneEnum.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ScanDataType.h"
 
 /**  */
 namespace asb_uci {

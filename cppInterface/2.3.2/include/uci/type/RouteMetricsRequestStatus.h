@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ROUTEMETRICSREQUESTSTATUS_H
 #define UCI_TYPE_ROUTEMETRICSREQUESTSTATUS_H
 
-#include "uci/type/RouteMetricsRequestStatusMT.h"
+#include "RouteMetricsRequestStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

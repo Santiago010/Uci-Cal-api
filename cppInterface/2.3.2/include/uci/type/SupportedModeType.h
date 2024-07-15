@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_SUPPORTEDMODETYPE_H
 #define UCI_TYPE_SUPPORTEDMODETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AnglePositiveType.h"
-#include "uci/type/CommAntennaModeType.h"
-#include "uci/type/CommCapabilityEnum.h"
-#include "uci/type/DataRateType.h"
-#include "uci/type/DecibelType.h"
-#include "uci/type/FrequencyRangeType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AnglePositiveType.h"
+#include "CommAntennaModeType.h"
+#include "CommCapabilityEnum.h"
+#include "DataRateType.h"
+#include "DecibelType.h"
+#include "FrequencyRangeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

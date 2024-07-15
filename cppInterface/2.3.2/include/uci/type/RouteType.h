@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_ROUTETYPE_H
 #define UCI_TYPE_ROUTETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/LineProjectionEnum.h"
-#include "uci/type/PathID_Type.h"
-#include "uci/type/RemarksType.h"
-#include "uci/type/RoutePathType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "LineProjectionEnum.h"
+#include "PathID_Type.h"
+#include "RemarksType.h"
+#include "RoutePathType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

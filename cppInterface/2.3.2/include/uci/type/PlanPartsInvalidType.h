@@ -36,18 +36,18 @@
 #ifndef UCI_TYPE_PLANPARTSINVALIDTYPE_H
 #define UCI_TYPE_PLANPARTSINVALIDTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ActionPlanInvalidType.h"
-#include "uci/type/ActivityPlanInvalidType.h"
-#include "uci/type/EffectPlanInvalidType.h"
-#include "uci/type/OrbitActivityPlanInvalidType.h"
-#include "uci/type/OrbitPlanInvalidType.h"
-#include "uci/type/ResponsePlanInvalidType.h"
-#include "uci/type/RouteActivityPlanInvalidType.h"
-#include "uci/type/RoutePlanInvalidType.h"
-#include "uci/type/TaskPlanInvalidType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ActionPlanInvalidType.h"
+#include "ActivityPlanInvalidType.h"
+#include "EffectPlanInvalidType.h"
+#include "OrbitActivityPlanInvalidType.h"
+#include "OrbitPlanInvalidType.h"
+#include "ResponsePlanInvalidType.h"
+#include "RouteActivityPlanInvalidType.h"
+#include "RoutePlanInvalidType.h"
+#include "TaskPlanInvalidType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

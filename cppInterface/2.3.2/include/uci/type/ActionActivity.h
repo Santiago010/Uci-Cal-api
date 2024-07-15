@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ACTIONACTIVITY_H
 #define UCI_TYPE_ACTIONACTIVITY_H
 
-#include "uci/type/ActionActivityMT.h"
+#include "ActionActivityMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

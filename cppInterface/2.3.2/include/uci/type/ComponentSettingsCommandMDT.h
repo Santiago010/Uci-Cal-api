@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_COMPONENTSETTINGSCOMMANDMDT_H
 #define UCI_TYPE_COMPONENTSETTINGSCOMMANDMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CommandBaseType.h"
-#include "uci/type/ComponentID_Type.h"
-#include "uci/type/ComponentSettingEnum.h"
-#include "uci/type/ComponentSettingsParameterType.h"
-#include "uci/type/ComponentStateCommandEnum.h"
-#include "uci/type/ServiceID_Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CommandBaseType.h"
+#include "ComponentID_Type.h"
+#include "ComponentSettingEnum.h"
+#include "ComponentSettingsParameterType.h"
+#include "ComponentStateCommandEnum.h"
+#include "ServiceID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

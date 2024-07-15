@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_LINK16_CONTROLCHANNELTYPE_H
 #define UCI_TYPE_LINK16_CONTROLCHANNELTYPE_H
 
-#include "uci/base/UnsignedByteAccessor.h"
+#include "../base/UnsignedByteAccessor.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

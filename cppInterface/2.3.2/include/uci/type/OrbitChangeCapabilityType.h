@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_ORBITCHANGECAPABILITYTYPE_H
 #define UCI_TYPE_ORBITCHANGECAPABILITYTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CommandableCapabilityDeclarationType.h"
-#include "uci/type/OrbitChangeCapabilityEnum.h"
-#include "uci/type/OrbitChangeMagnitudeType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CommandableCapabilityDeclarationType.h"
+#include "OrbitChangeCapabilityEnum.h"
+#include "OrbitChangeMagnitudeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

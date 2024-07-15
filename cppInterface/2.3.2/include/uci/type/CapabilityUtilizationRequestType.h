@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_CAPABILITYUTILIZATIONREQUESTTYPE_H
 #define UCI_TYPE_CAPABILITYUTILIZATIONREQUESTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ActivityCommandBaseType.h"
-#include "uci/type/CapabilityCommandBaseType.h"
-#include "uci/type/EntityID_Type.h"
-#include "uci/type/SystemRoutePlanSpecificationType.h"
-#include "uci/type/TaskID_InclusionType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ActivityCommandBaseType.h"
+#include "CapabilityCommandBaseType.h"
+#include "EntityID_Type.h"
+#include "SystemRoutePlanSpecificationType.h"
+#include "TaskID_InclusionType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_PO_COMPONENTFOCALPLANEARRAYOPERATIONTYPE_H
 #define UCI_TYPE_PO_COMPONENTFOCALPLANEARRAYOPERATIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ComponentControllabilityA_Type.h"
-#include "uci/type/DoubleMinMaxType.h"
-#include "uci/type/DurationRangeType.h"
-#include "uci/type/FocalPlaneArrayOperationNonUniformityCorrectionType.h"
-#include "uci/type/PO_FPA_ChannelOperationEnum.h"
-#include "uci/type/PixelScalingSettingsType.h"
-#include "uci/type/UnsignedIntegerMinMaxType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ComponentControllabilityA_Type.h"
+#include "DoubleMinMaxType.h"
+#include "DurationRangeType.h"
+#include "FocalPlaneArrayOperationNonUniformityCorrectionType.h"
+#include "PO_FPA_ChannelOperationEnum.h"
+#include "PixelScalingSettingsType.h"
+#include "UnsignedIntegerMinMaxType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

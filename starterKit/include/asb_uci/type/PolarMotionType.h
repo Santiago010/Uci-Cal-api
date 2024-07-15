@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/ArcSecondsType.h"
-#include "uci/type/PolarMotionType.h"
+#include "../../../include/asb_uci/type/ArcSecondsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PolarMotionType.h"
 
 /**  */
 namespace asb_uci {

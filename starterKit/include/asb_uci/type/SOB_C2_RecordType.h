@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/SOB_C2_RecordBaseType.h"
-#include "uci/type/SOB_C2_RecordType.h"
+#include "../../../include/asb_uci/type/SOB_C2_RecordBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SOB_C2_RecordType.h"
 
 /**  */
 namespace asb_uci {

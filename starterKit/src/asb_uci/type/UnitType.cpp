@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/UnitType.h"
+#include "../../../include/asb_uci/type/UnitType.h"
 
 #include <memory>
 #include <string>
@@ -41,40 +41,40 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AirDefenseAreaType.h"
-#include "asb_uci/type/BaseEOB_RecordType.h"
-#include "asb_uci/type/CountryCodeType.h"
-#include "asb_uci/type/EOB_EquipmentRecordType.h"
-#include "asb_uci/type/EOB_FixedPositionType.h"
-#include "asb_uci/type/ID_Type.h"
-#include "asb_uci/type/OB_OperationalStatusEnum.h"
-#include "asb_uci/type/OrderOfBattleTimestampsType.h"
-#include "asb_uci/type/SecurityInformationType.h"
-#include "asb_uci/type/StandardIdentityConfidenceType.h"
-#include "asb_uci/type/String20Type.h"
-#include "asb_uci/type/String4Type.h"
-#include "asb_uci/type/UnitIdentityType.h"
-#include "asb_uci/type/VisibleString256Type.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AirDefenseAreaType.h"
-#include "uci/type/BaseEOB_RecordType.h"
-#include "uci/type/CountryCodeType.h"
-#include "uci/type/EOB_EquipmentRecordType.h"
-#include "uci/type/EOB_FixedPositionType.h"
-#include "uci/type/ID_Type.h"
-#include "uci/type/OB_OperationalStatusEnum.h"
-#include "uci/type/OrderOfBattleTimestampsType.h"
-#include "uci/type/SecurityInformationType.h"
-#include "uci/type/StandardIdentityConfidenceType.h"
-#include "uci/type/String20Type.h"
-#include "uci/type/String4Type.h"
-#include "uci/type/UnitIdentityType.h"
-#include "uci/type/UnitType.h"
-#include "uci/type/VisibleString256Type.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/AirDefenseAreaType.h"
+#include "../../../include/asb_uci/type/BaseEOB_RecordType.h"
+#include "../../../include/asb_uci/type/CountryCodeType.h"
+#include "../../../include/asb_uci/type/EOB_EquipmentRecordType.h"
+#include "../../../include/asb_uci/type/EOB_FixedPositionType.h"
+#include "../../../include/asb_uci/type/ID_Type.h"
+#include "../../../include/asb_uci/type/OB_OperationalStatusEnum.h"
+#include "../../../include/asb_uci/type/OrderOfBattleTimestampsType.h"
+#include "../../../include/asb_uci/type/SecurityInformationType.h"
+#include "../../../include/asb_uci/type/StandardIdentityConfidenceType.h"
+#include "../../../include/asb_uci/type/String20Type.h"
+#include "../../../include/asb_uci/type/String4Type.h"
+#include "../../../include/asb_uci/type/UnitIdentityType.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AirDefenseAreaType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/BaseEOB_RecordType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CountryCodeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EOB_EquipmentRecordType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EOB_FixedPositionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OB_OperationalStatusEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrderOfBattleTimestampsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SecurityInformationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StandardIdentityConfidenceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/String20Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/String4Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/UnitIdentityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/UnitType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString256Type.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {
@@ -561,7 +561,7 @@ bool UnitType::hasPoliticalSubdivision() const noexcept {
 
 uci::type::VisibleString256Type& UnitType::enablePoliticalSubdivision(uci::base::accessorType::AccessorType type) {
   if (!politicalSubdivision_Accessor) {
-    politicalSubdivision_Accessor = VisibleString256Type::create(type);
+    politicalSubdivision_Accessor = boost::make_unique<std::string>("");
   }
   return *politicalSubdivision_Accessor;
 }
@@ -692,7 +692,7 @@ bool UnitType::hasDivisionCategory() const noexcept {
 
 uci::type::VisibleString256Type& UnitType::enableDivisionCategory(uci::base::accessorType::AccessorType type) {
   if (!divisionCategory_Accessor) {
-    divisionCategory_Accessor = VisibleString256Type::create(type);
+    divisionCategory_Accessor = boost::make_unique<std::string>("");
   }
   return *divisionCategory_Accessor;
 }
@@ -932,7 +932,7 @@ bool UnitType::hasForceAssignment() const noexcept {
 
 uci::type::VisibleString256Type& UnitType::enableForceAssignment(uci::base::accessorType::AccessorType type) {
   if (!forceAssignment_Accessor) {
-    forceAssignment_Accessor = VisibleString256Type::create(type);
+    forceAssignment_Accessor = boost::make_unique<std::string>("");
   }
   return *forceAssignment_Accessor;
 }
@@ -976,7 +976,7 @@ bool UnitType::hasForceName() const noexcept {
 
 uci::type::VisibleString256Type& UnitType::enableForceName(uci::base::accessorType::AccessorType type) {
   if (!forceName_Accessor) {
-    forceName_Accessor = VisibleString256Type::create(type);
+    forceName_Accessor = boost::make_unique<std::string>("");
   }
   return *forceName_Accessor;
 }

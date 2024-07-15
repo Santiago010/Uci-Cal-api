@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_REFUELSETTINGSCOMMANDSTATUS_H
 #define UCI_TYPE_REFUELSETTINGSCOMMANDSTATUS_H
 
-#include "uci/type/RefuelSettingsCommandStatusMT.h"
+#include "RefuelSettingsCommandStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

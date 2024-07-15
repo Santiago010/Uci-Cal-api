@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/FileNameType.h"
-#include "uci/base/Accessor.h"
-#include "uci/type/ProductReferenceType.h"
+#include "../../../include/asb_uci/type/FileNameType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProductReferenceType.h"
 
 /**  */
 namespace asb_uci {

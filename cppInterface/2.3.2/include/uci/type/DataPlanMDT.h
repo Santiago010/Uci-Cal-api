@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_DATAPLANMDT_H
 #define UCI_TYPE_DATAPLANMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DataPlanApprovalStatusEnum.h"
-#include "uci/type/DataPlanDetailsType.h"
-#include "uci/type/DataPlanID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DataPlanApprovalStatusEnum.h"
+#include "DataPlanDetailsType.h"
+#include "DataPlanID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

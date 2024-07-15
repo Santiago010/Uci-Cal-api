@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SUBSYSTEMEXTENDEDSTATUSPET_H
 #define UCI_TYPE_SUBSYSTEMEXTENDEDSTATUSPET_H
 
-#include "uci/type/ComponentExtendedStatusPET.h"
+#include "ComponentExtendedStatusPET.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

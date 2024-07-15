@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/SubsystemMaintenanceResultEventType.h"
+#include "../../../include/asb_uci/type/SubsystemMaintenanceResultEventType.h"
 
 #include <memory>
 #include <string>
@@ -41,22 +41,22 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/NameValuePairType.h"
-#include "asb_uci/type/ProcessingStatusEnum.h"
-#include "asb_uci/type/SubsystemMaintenanceResultStatusType.h"
-#include "asb_uci/type/VisibleString256Type.h"
-#include "asb_uci/type/VisibleString64Type.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/NameValuePairType.h"
-#include "uci/type/ProcessingStatusEnum.h"
-#include "uci/type/SubsystemMaintenanceResultEventType.h"
-#include "uci/type/SubsystemMaintenanceResultStatusType.h"
-#include "uci/type/VisibleString256Type.h"
-#include "uci/type/VisibleString64Type.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/NameValuePairType.h"
+#include "../../../include/asb_uci/type/ProcessingStatusEnum.h"
+#include "../../../include/asb_uci/type/SubsystemMaintenanceResultStatusType.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/type/VisibleString64Type.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/NameValuePairType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProcessingStatusEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemMaintenanceResultEventType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemMaintenanceResultStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString256Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString64Type.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {
@@ -283,7 +283,7 @@ bool SubsystemMaintenanceResultEventType::hasEventFailReason() const noexcept {
 
 uci::type::VisibleString256Type& SubsystemMaintenanceResultEventType::enableEventFailReason(uci::base::accessorType::AccessorType type) {
   if (!eventFailReason_Accessor) {
-    eventFailReason_Accessor = VisibleString256Type::create(type);
+    eventFailReason_Accessor = boost::make_unique<std::string>("");
   }
   return *eventFailReason_Accessor;
 }

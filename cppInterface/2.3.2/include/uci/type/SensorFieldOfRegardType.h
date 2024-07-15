@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_SENSORFIELDOFREGARDTYPE_H
 #define UCI_TYPE_SENSORFIELDOFREGARDTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AnglePairType.h"
-#include "uci/type/FieldOfRegardExtentsType.h"
-#include "uci/type/GeometricVolumeType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AnglePairType.h"
+#include "FieldOfRegardExtentsType.h"
+#include "GeometricVolumeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

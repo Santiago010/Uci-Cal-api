@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_EA_TASKROUTEREQUIREMENTSTYPE_H
 #define UCI_TYPE_EA_TASKROUTEREQUIREMENTSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EA_TaskEscortType.h"
-#include "uci/type/LoiterType.h"
-#include "uci/type/PathType.h"
-#include "uci/type/VolumeChoiceType.h"
-#include "uci/type/ZoneChoiceType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "EA_TaskEscortType.h"
+#include "LoiterType.h"
+#include "PathType.h"
+#include "VolumeChoiceType.h"
+#include "ZoneChoiceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

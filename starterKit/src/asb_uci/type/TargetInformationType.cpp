@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/TargetInformationType.h"
+#include "../../../include/asb_uci/type/TargetInformationType.h"
 
 #include <memory>
 #include <string>
@@ -41,15 +41,15 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/TargetDefensesEnum.h"
-#include "asb_uci/type/TargetTypeEnum.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/TargetDefensesEnum.h"
-#include "uci/type/TargetInformationType.h"
-#include "uci/type/TargetTypeEnum.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/TargetDefensesEnum.h"
+#include "../../../include/asb_uci/type/TargetTypeEnum.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TargetDefensesEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TargetInformationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TargetTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

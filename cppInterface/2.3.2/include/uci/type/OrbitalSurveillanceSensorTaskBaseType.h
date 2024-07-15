@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_ORBITALSURVEILLANCESENSORTASKBASETYPE_H
 #define UCI_TYPE_ORBITALSURVEILLANCESENSORTASKBASETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/OrbitalSurveillanceCollectionRequirementsType.h"
-#include "uci/type/OrbitalSurveillanceSensorCapabilityEnum.h"
-#include "uci/type/OrbitalSurveillanceSensorReportingCategoriesType.h"
-#include "uci/type/OrbitalSurveillanceSensorSensitivityConstraintType.h"
-#include "uci/type/OrbitalSurveillanceSubCapabilityEnum.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DurationType.h"
+#include "OrbitalSurveillanceCollectionRequirementsType.h"
+#include "OrbitalSurveillanceSensorCapabilityEnum.h"
+#include "OrbitalSurveillanceSensorReportingCategoriesType.h"
+#include "OrbitalSurveillanceSensorSensitivityConstraintType.h"
+#include "OrbitalSurveillanceSubCapabilityEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

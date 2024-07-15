@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_ENDURANCEFOOTPRINTTYPE_H
 #define UCI_TYPE_ENDURANCEFOOTPRINTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AltitudeType.h"
-#include "uci/type/BoundaryType.h"
-#include "uci/type/DurationType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AltitudeType.h"
+#include "BoundaryType.h"
+#include "DurationType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

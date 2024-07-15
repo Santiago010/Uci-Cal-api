@@ -2981,6 +2981,216 @@ CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MetricValueType.cpp.s"
 	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MetricValueType.cpp -o CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MetricValueType.cpp.s
 
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ResourceStatusSelectedType.cpp.o: CMakeFiles/my_example.dir/flags.make
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ResourceStatusSelectedType.cpp.o: /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ResourceStatusSelectedType.cpp
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ResourceStatusSelectedType.cpp.o: CMakeFiles/my_example.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building CXX object CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ResourceStatusSelectedType.cpp.o"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ResourceStatusSelectedType.cpp.o -MF CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ResourceStatusSelectedType.cpp.o.d -o CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ResourceStatusSelectedType.cpp.o -c /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ResourceStatusSelectedType.cpp
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ResourceStatusSelectedType.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ResourceStatusSelectedType.cpp.i"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ResourceStatusSelectedType.cpp > CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ResourceStatusSelectedType.cpp.i
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ResourceStatusSelectedType.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ResourceStatusSelectedType.cpp.s"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ResourceStatusSelectedType.cpp -o CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ResourceStatusSelectedType.cpp.s
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SelectAntennaType.cpp.o: CMakeFiles/my_example.dir/flags.make
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SelectAntennaType.cpp.o: /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SelectAntennaType.cpp
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SelectAntennaType.cpp.o: CMakeFiles/my_example.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building CXX object CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SelectAntennaType.cpp.o"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SelectAntennaType.cpp.o -MF CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SelectAntennaType.cpp.o.d -o CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SelectAntennaType.cpp.o -c /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SelectAntennaType.cpp
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SelectAntennaType.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SelectAntennaType.cpp.i"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SelectAntennaType.cpp > CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SelectAntennaType.cpp.i
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SelectAntennaType.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SelectAntennaType.cpp.s"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SelectAntennaType.cpp -o CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SelectAntennaType.cpp.s
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RF_TypeEnum.cpp.o: CMakeFiles/my_example.dir/flags.make
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RF_TypeEnum.cpp.o: /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RF_TypeEnum.cpp
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RF_TypeEnum.cpp.o: CMakeFiles/my_example.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building CXX object CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RF_TypeEnum.cpp.o"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RF_TypeEnum.cpp.o -MF CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RF_TypeEnum.cpp.o.d -o CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RF_TypeEnum.cpp.o -c /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RF_TypeEnum.cpp
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RF_TypeEnum.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RF_TypeEnum.cpp.i"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RF_TypeEnum.cpp > CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RF_TypeEnum.cpp.i
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RF_TypeEnum.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RF_TypeEnum.cpp.s"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RF_TypeEnum.cpp -o CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RF_TypeEnum.cpp.s
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SupportCapabilityID_Type.cpp.o: CMakeFiles/my_example.dir/flags.make
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SupportCapabilityID_Type.cpp.o: /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SupportCapabilityID_Type.cpp
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SupportCapabilityID_Type.cpp.o: CMakeFiles/my_example.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building CXX object CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SupportCapabilityID_Type.cpp.o"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SupportCapabilityID_Type.cpp.o -MF CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SupportCapabilityID_Type.cpp.o.d -o CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SupportCapabilityID_Type.cpp.o -c /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SupportCapabilityID_Type.cpp
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SupportCapabilityID_Type.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SupportCapabilityID_Type.cpp.i"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SupportCapabilityID_Type.cpp > CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SupportCapabilityID_Type.cpp.i
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SupportCapabilityID_Type.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SupportCapabilityID_Type.cpp.s"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SupportCapabilityID_Type.cpp -o CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SupportCapabilityID_Type.cpp.s
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceChoiceType.cpp.o: CMakeFiles/my_example.dir/flags.make
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceChoiceType.cpp.o: /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceChoiceType.cpp
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceChoiceType.cpp.o: CMakeFiles/my_example.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building CXX object CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceChoiceType.cpp.o"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceChoiceType.cpp.o -MF CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceChoiceType.cpp.o.d -o CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceChoiceType.cpp.o -c /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceChoiceType.cpp
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceChoiceType.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceChoiceType.cpp.i"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceChoiceType.cpp > CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceChoiceType.cpp.i
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceChoiceType.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceChoiceType.cpp.s"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceChoiceType.cpp -o CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceChoiceType.cpp.s
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceID_Type.cpp.o: CMakeFiles/my_example.dir/flags.make
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceID_Type.cpp.o: /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceID_Type.cpp
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceID_Type.cpp.o: CMakeFiles/my_example.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building CXX object CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceID_Type.cpp.o"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceID_Type.cpp.o -MF CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceID_Type.cpp.o.d -o CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceID_Type.cpp.o -c /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceID_Type.cpp
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceID_Type.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceID_Type.cpp.i"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceID_Type.cpp > CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceID_Type.cpp.i
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceID_Type.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceID_Type.cpp.s"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceID_Type.cpp -o CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceID_Type.cpp.s
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PeriodPerformanceFeedbackType.cpp.o: CMakeFiles/my_example.dir/flags.make
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PeriodPerformanceFeedbackType.cpp.o: /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PeriodPerformanceFeedbackType.cpp
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PeriodPerformanceFeedbackType.cpp.o: CMakeFiles/my_example.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building CXX object CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PeriodPerformanceFeedbackType.cpp.o"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PeriodPerformanceFeedbackType.cpp.o -MF CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PeriodPerformanceFeedbackType.cpp.o.d -o CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PeriodPerformanceFeedbackType.cpp.o -c /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PeriodPerformanceFeedbackType.cpp
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PeriodPerformanceFeedbackType.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PeriodPerformanceFeedbackType.cpp.i"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PeriodPerformanceFeedbackType.cpp > CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PeriodPerformanceFeedbackType.cpp.i
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PeriodPerformanceFeedbackType.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PeriodPerformanceFeedbackType.cpp.s"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PeriodPerformanceFeedbackType.cpp -o CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PeriodPerformanceFeedbackType.cpp.s
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeOptionsEmployedType.cpp.o: CMakeFiles/my_example.dir/flags.make
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeOptionsEmployedType.cpp.o: /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeOptionsEmployedType.cpp
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeOptionsEmployedType.cpp.o: CMakeFiles/my_example.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building CXX object CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeOptionsEmployedType.cpp.o"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeOptionsEmployedType.cpp.o -MF CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeOptionsEmployedType.cpp.o.d -o CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeOptionsEmployedType.cpp.o -c /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeOptionsEmployedType.cpp
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeOptionsEmployedType.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeOptionsEmployedType.cpp.i"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeOptionsEmployedType.cpp > CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeOptionsEmployedType.cpp.i
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeOptionsEmployedType.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeOptionsEmployedType.cpp.s"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeOptionsEmployedType.cpp -o CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeOptionsEmployedType.cpp.s
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeStatusEnum.cpp.o: CMakeFiles/my_example.dir/flags.make
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeStatusEnum.cpp.o: /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeStatusEnum.cpp
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeStatusEnum.cpp.o: CMakeFiles/my_example.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building CXX object CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeStatusEnum.cpp.o"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeStatusEnum.cpp.o -MF CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeStatusEnum.cpp.o.d -o CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeStatusEnum.cpp.o -c /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeStatusEnum.cpp
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeStatusEnum.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeStatusEnum.cpp.i"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeStatusEnum.cpp > CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeStatusEnum.cpp.i
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeStatusEnum.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeStatusEnum.cpp.s"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeStatusEnum.cpp -o CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeStatusEnum.cpp.s
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticEmitterDataID_Type.cpp.o: CMakeFiles/my_example.dir/flags.make
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticEmitterDataID_Type.cpp.o: /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticEmitterDataID_Type.cpp
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticEmitterDataID_Type.cpp.o: CMakeFiles/my_example.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building CXX object CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticEmitterDataID_Type.cpp.o"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticEmitterDataID_Type.cpp.o -MF CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticEmitterDataID_Type.cpp.o.d -o CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticEmitterDataID_Type.cpp.o -c /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticEmitterDataID_Type.cpp
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticEmitterDataID_Type.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticEmitterDataID_Type.cpp.i"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticEmitterDataID_Type.cpp > CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticEmitterDataID_Type.cpp.i
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticEmitterDataID_Type.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticEmitterDataID_Type.cpp.s"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticEmitterDataID_Type.cpp -o CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticEmitterDataID_Type.cpp.s
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PositionAccelerationCovarianceType.cpp.o: CMakeFiles/my_example.dir/flags.make
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PositionAccelerationCovarianceType.cpp.o: /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PositionAccelerationCovarianceType.cpp
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PositionAccelerationCovarianceType.cpp.o: CMakeFiles/my_example.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building CXX object CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PositionAccelerationCovarianceType.cpp.o"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PositionAccelerationCovarianceType.cpp.o -MF CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PositionAccelerationCovarianceType.cpp.o.d -o CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PositionAccelerationCovarianceType.cpp.o -c /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PositionAccelerationCovarianceType.cpp
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PositionAccelerationCovarianceType.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PositionAccelerationCovarianceType.cpp.i"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PositionAccelerationCovarianceType.cpp > CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PositionAccelerationCovarianceType.cpp.i
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PositionAccelerationCovarianceType.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PositionAccelerationCovarianceType.cpp.s"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PositionAccelerationCovarianceType.cpp -o CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PositionAccelerationCovarianceType.cpp.s
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RelativeAngleUncertaintyLOS3D_Type.cpp.o: CMakeFiles/my_example.dir/flags.make
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RelativeAngleUncertaintyLOS3D_Type.cpp.o: /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RelativeAngleUncertaintyLOS3D_Type.cpp
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RelativeAngleUncertaintyLOS3D_Type.cpp.o: CMakeFiles/my_example.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building CXX object CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RelativeAngleUncertaintyLOS3D_Type.cpp.o"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RelativeAngleUncertaintyLOS3D_Type.cpp.o -MF CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RelativeAngleUncertaintyLOS3D_Type.cpp.o.d -o CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RelativeAngleUncertaintyLOS3D_Type.cpp.o -c /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RelativeAngleUncertaintyLOS3D_Type.cpp
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RelativeAngleUncertaintyLOS3D_Type.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RelativeAngleUncertaintyLOS3D_Type.cpp.i"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RelativeAngleUncertaintyLOS3D_Type.cpp > CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RelativeAngleUncertaintyLOS3D_Type.cpp.i
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RelativeAngleUncertaintyLOS3D_Type.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RelativeAngleUncertaintyLOS3D_Type.cpp.s"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RelativeAngleUncertaintyLOS3D_Type.cpp -o CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RelativeAngleUncertaintyLOS3D_Type.cpp.s
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SlantRangeRatesAndAccelerationType.cpp.o: CMakeFiles/my_example.dir/flags.make
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SlantRangeRatesAndAccelerationType.cpp.o: /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SlantRangeRatesAndAccelerationType.cpp
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SlantRangeRatesAndAccelerationType.cpp.o: CMakeFiles/my_example.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building CXX object CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SlantRangeRatesAndAccelerationType.cpp.o"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SlantRangeRatesAndAccelerationType.cpp.o -MF CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SlantRangeRatesAndAccelerationType.cpp.o.d -o CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SlantRangeRatesAndAccelerationType.cpp.o -c /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SlantRangeRatesAndAccelerationType.cpp
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SlantRangeRatesAndAccelerationType.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SlantRangeRatesAndAccelerationType.cpp.i"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SlantRangeRatesAndAccelerationType.cpp > CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SlantRangeRatesAndAccelerationType.cpp.i
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SlantRangeRatesAndAccelerationType.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SlantRangeRatesAndAccelerationType.cpp.s"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SlantRangeRatesAndAccelerationType.cpp -o CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SlantRangeRatesAndAccelerationType.cpp.s
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/VelocityAccelerationCovarianceType.cpp.o: CMakeFiles/my_example.dir/flags.make
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/VelocityAccelerationCovarianceType.cpp.o: /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/VelocityAccelerationCovarianceType.cpp
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/VelocityAccelerationCovarianceType.cpp.o: CMakeFiles/my_example.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building CXX object CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/VelocityAccelerationCovarianceType.cpp.o"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/VelocityAccelerationCovarianceType.cpp.o -MF CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/VelocityAccelerationCovarianceType.cpp.o.d -o CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/VelocityAccelerationCovarianceType.cpp.o -c /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/VelocityAccelerationCovarianceType.cpp
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/VelocityAccelerationCovarianceType.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/VelocityAccelerationCovarianceType.cpp.i"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/VelocityAccelerationCovarianceType.cpp > CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/VelocityAccelerationCovarianceType.cpp.i
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/VelocityAccelerationCovarianceType.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/VelocityAccelerationCovarianceType.cpp.s"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/VelocityAccelerationCovarianceType.cpp -o CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/VelocityAccelerationCovarianceType.cpp.s
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/OrbitalKinematicsObjectRelativeType.cpp.o: CMakeFiles/my_example.dir/flags.make
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/OrbitalKinematicsObjectRelativeType.cpp.o: /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/OrbitalKinematicsObjectRelativeType.cpp
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/OrbitalKinematicsObjectRelativeType.cpp.o: CMakeFiles/my_example.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building CXX object CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/OrbitalKinematicsObjectRelativeType.cpp.o"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/OrbitalKinematicsObjectRelativeType.cpp.o -MF CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/OrbitalKinematicsObjectRelativeType.cpp.o.d -o CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/OrbitalKinematicsObjectRelativeType.cpp.o -c /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/OrbitalKinematicsObjectRelativeType.cpp
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/OrbitalKinematicsObjectRelativeType.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/OrbitalKinematicsObjectRelativeType.cpp.i"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/OrbitalKinematicsObjectRelativeType.cpp > CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/OrbitalKinematicsObjectRelativeType.cpp.i
+
+CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/OrbitalKinematicsObjectRelativeType.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/OrbitalKinematicsObjectRelativeType.cpp.s"
+	/usr/bin/gcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/OrbitalKinematicsObjectRelativeType.cpp -o CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/OrbitalKinematicsObjectRelativeType.cpp.s
+
 # Object files for target my_example
 my_example_OBJECTS = \
 "CMakeFiles/my_example.dir/main.cpp.o" \
@@ -3190,7 +3400,22 @@ my_example_OBJECTS = \
 "CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/TypeOfDependencyEnum.cpp.o" \
 "CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PerformanceMetricSetType.cpp.o" \
 "CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/NegotiableOptionsEnum.cpp.o" \
-"CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MetricValueType.cpp.o"
+"CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MetricValueType.cpp.o" \
+"CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ResourceStatusSelectedType.cpp.o" \
+"CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SelectAntennaType.cpp.o" \
+"CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RF_TypeEnum.cpp.o" \
+"CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SupportCapabilityID_Type.cpp.o" \
+"CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceChoiceType.cpp.o" \
+"CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceID_Type.cpp.o" \
+"CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PeriodPerformanceFeedbackType.cpp.o" \
+"CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeOptionsEmployedType.cpp.o" \
+"CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeStatusEnum.cpp.o" \
+"CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticEmitterDataID_Type.cpp.o" \
+"CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PositionAccelerationCovarianceType.cpp.o" \
+"CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RelativeAngleUncertaintyLOS3D_Type.cpp.o" \
+"CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SlantRangeRatesAndAccelerationType.cpp.o" \
+"CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/VelocityAccelerationCovarianceType.cpp.o" \
+"CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/OrbitalKinematicsObjectRelativeType.cpp.o"
 
 # External object files for target my_example
 my_example_EXTERNAL_OBJECTS =
@@ -3403,9 +3628,24 @@ my_example: CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/sta
 my_example: CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PerformanceMetricSetType.cpp.o
 my_example: CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/NegotiableOptionsEnum.cpp.o
 my_example: CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MetricValueType.cpp.o
+my_example: CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/ResourceStatusSelectedType.cpp.o
+my_example: CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SelectAntennaType.cpp.o
+my_example: CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RF_TypeEnum.cpp.o
+my_example: CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SupportCapabilityID_Type.cpp.o
+my_example: CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceChoiceType.cpp.o
+my_example: CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/AntennaResourceID_Type.cpp.o
+my_example: CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PeriodPerformanceFeedbackType.cpp.o
+my_example: CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeOptionsEmployedType.cpp.o
+my_example: CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticModeStatusEnum.cpp.o
+my_example: CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/MultistaticEmitterDataID_Type.cpp.o
+my_example: CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/PositionAccelerationCovarianceType.cpp.o
+my_example: CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/RelativeAngleUncertaintyLOS3D_Type.cpp.o
+my_example: CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/SlantRangeRatesAndAccelerationType.cpp.o
+my_example: CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/VelocityAccelerationCovarianceType.cpp.o
+my_example: CMakeFiles/my_example.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/OrbitalKinematicsObjectRelativeType.cpp.o
 my_example: CMakeFiles/my_example.dir/build.make
 my_example: CMakeFiles/my_example.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Linking CXX executable my_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Linking CXX executable my_example"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_example.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

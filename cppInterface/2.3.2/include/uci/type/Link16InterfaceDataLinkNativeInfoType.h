@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_LINK16INTERFACEDATALINKNATIVEINFOTYPE_H
 #define UCI_TYPE_LINK16INTERFACEDATALINKNATIVEINFOTYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ActivityByType.h"
-#include "uci/type/DataLinkNativeInfoPET.h"
-#include "uci/type/Link16_ControlChannelType.h"
-#include "uci/type/VoiceCallSignType.h"
-#include "uci/type/VoiceControlType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ActivityByType.h"
+#include "DataLinkNativeInfoPET.h"
+#include "Link16_ControlChannelType.h"
+#include "VoiceCallSignType.h"
+#include "VoiceControlType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

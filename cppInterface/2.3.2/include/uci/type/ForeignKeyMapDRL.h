@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_FOREIGNKEYMAPDRL_H
 #define UCI_TYPE_FOREIGNKEYMAPDRL_H
 
-#include "uci/base/export.h"
-#include "uci/type/DataRecordListBaseType.h"
-#include "uci/type/ForeignKeyMapML.h"
+#include "../base/export.h"
+#include "DataRecordListBaseType.h"
+#include "ForeignKeyMapML.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

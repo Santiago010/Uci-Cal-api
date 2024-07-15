@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_VEHICLEIDENTIFICATIONTYPE_H
 #define UCI_TYPE_VEHICLEIDENTIFICATIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CallSignType.h"
-#include "uci/type/DataLinkIdentifierPET.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/IFF_Type.h"
-#include "uci/type/SystemID_Type.h"
-#include "uci/type/VehicleUniqueIdentifierType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CallSignType.h"
+#include "DataLinkIdentifierPET.h"
+#include "ForeignKeyType.h"
+#include "IFF_Type.h"
+#include "SystemID_Type.h"
+#include "VehicleUniqueIdentifierType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

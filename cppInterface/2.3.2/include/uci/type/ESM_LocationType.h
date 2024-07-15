@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_ESM_LOCATIONTYPE_H
 #define UCI_TYPE_ESM_LOCATIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AirVolumeSensorReferencedType.h"
-#include "uci/type/ESM_SubcapabilityTargetLocationDataType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AirVolumeSensorReferencedType.h"
+#include "ESM_SubcapabilityTargetLocationDataType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

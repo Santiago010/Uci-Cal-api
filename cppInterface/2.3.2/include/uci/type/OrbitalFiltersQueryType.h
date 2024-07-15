@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_ORBITALFILTERSQUERYTYPE_H
 #define UCI_TYPE_ORBITALFILTERSQUERYTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/OpVolumeType.h"
-#include "uci/type/QueryPET.h"
-#include "uci/type/ZoneRelationEnum.h"
+#include "../base/export.h"
+#include "OpVolumeType.h"
+#include "QueryPET.h"
+#include "ZoneRelationEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

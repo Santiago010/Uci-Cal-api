@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_PRODUCTCLASSIFICATIONTASKMDT_H
 #define UCI_TYPE_PRODUCTCLASSIFICATIONTASKMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/ClassificationRequirementsType.h"
-#include "uci/type/ProductManagementTaskDataType.h"
+#include "../base/export.h"
+#include "ClassificationRequirementsType.h"
+#include "ProductManagementTaskDataType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

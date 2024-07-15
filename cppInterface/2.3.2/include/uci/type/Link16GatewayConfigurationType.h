@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_LINK16GATEWAYCONFIGURATIONTYPE_H
 #define UCI_TYPE_LINK16GATEWAYCONFIGURATIONTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/GatewayConfigurationPET.h"
-#include "uci/type/Link16DataStoreManagementType.h"
-#include "uci/type/Link16TrackNumberType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "GatewayConfigurationPET.h"
+#include "Link16DataStoreManagementType.h"
+#include "Link16TrackNumberType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

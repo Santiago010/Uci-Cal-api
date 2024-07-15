@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_PLANNINGALLOWEDTYPE_H
 #define UCI_TYPE_PLANNINGALLOWEDTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/AutonomousPlanCommandType.h"
-#include "uci/type/DurationType.h"
+#include "../base/export.h"
+#include "AutonomousPlanCommandType.h"
+#include "DurationType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

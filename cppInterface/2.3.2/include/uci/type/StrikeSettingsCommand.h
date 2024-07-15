@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_STRIKESETTINGSCOMMAND_H
 #define UCI_TYPE_STRIKESETTINGSCOMMAND_H
 
-#include "uci/type/StrikeSettingsCommandMT.h"
+#include "StrikeSettingsCommandMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

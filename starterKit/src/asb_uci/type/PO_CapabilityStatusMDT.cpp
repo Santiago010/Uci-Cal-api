@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/PO_CapabilityStatusMDT.h"
+#include "../../../include/asb_uci/type/PO_CapabilityStatusMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,25 +41,25 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CapabilityStatusBaseType.h"
-#include "asb_uci/type/FOR_Type.h"
-#include "asb_uci/type/PO_CapabilityStatusType.h"
-#include "asb_uci/type/PO_CollectionConstraintsStatusType.h"
-#include "asb_uci/type/PO_ComponentStatusType.h"
-#include "asb_uci/type/PO_MessageOutputsEnum.h"
-#include "asb_uci/type/PO_SubCapabilitySettingsType.h"
-#include "asb_uci/type/PO_TrackStatusType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/FOR_Type.h"
-#include "uci/type/PO_CapabilityStatusMDT.h"
-#include "uci/type/PO_CapabilityStatusType.h"
-#include "uci/type/PO_CollectionConstraintsStatusType.h"
-#include "uci/type/PO_ComponentStatusType.h"
-#include "uci/type/PO_MessageOutputsEnum.h"
-#include "uci/type/PO_SubCapabilitySettingsType.h"
-#include "uci/type/PO_TrackStatusType.h"
+#include "../../../include/asb_uci/type/CapabilityStatusBaseType.h"
+#include "../../../include/asb_uci/type/FOR_Type.h"
+#include "../../../include/asb_uci/type/PO_CapabilityStatusType.h"
+#include "../../../include/asb_uci/type/PO_CollectionConstraintsStatusType.h"
+#include "../../../include/asb_uci/type/PO_ComponentStatusType.h"
+#include "../../../include/asb_uci/type/PO_MessageOutputsEnum.h"
+#include "../../../include/asb_uci/type/PO_SubCapabilitySettingsType.h"
+#include "../../../include/asb_uci/type/PO_TrackStatusType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FOR_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_CapabilityStatusMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_CapabilityStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_CollectionConstraintsStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ComponentStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_MessageOutputsEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_SubCapabilitySettingsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_TrackStatusType.h"
 
 /**  */
 namespace asb_uci {

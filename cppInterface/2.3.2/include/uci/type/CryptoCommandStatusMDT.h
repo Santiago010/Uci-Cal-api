@@ -36,8 +36,8 @@
 #ifndef UCI_TYPE_CRYPTOCOMMANDSTATUSMDT_H
 #define UCI_TYPE_CRYPTOCOMMANDSTATUSMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/SupportCapabilityCommandStatusBaseType.h"
+#include "../base/export.h"
+#include "SupportCapabilityCommandStatusBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

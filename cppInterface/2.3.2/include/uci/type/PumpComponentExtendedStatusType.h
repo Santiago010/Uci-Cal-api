@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_PUMPCOMPONENTEXTENDEDSTATUSTYPE_H
 #define UCI_TYPE_PUMPCOMPONENTEXTENDEDSTATUSTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/DoubleAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ComponentExtendedStatusPET.h"
-#include "uci/type/ComponentPressureType.h"
-#include "uci/type/ComponentTemperatureType.h"
-#include "uci/type/EmptyType.h"
-#include "uci/type/LineDataStatusType.h"
-#include "uci/type/ValveDataStatusType.h"
-#include "uci/type/VisibleString64Type.h"
+#include "../base/BoundedList.h"
+#include "../base/DoubleAccessor.h"
+#include "../base/export.h"
+#include "ComponentExtendedStatusPET.h"
+#include "ComponentPressureType.h"
+#include "ComponentTemperatureType.h"
+#include "EmptyType.h"
+#include "LineDataStatusType.h"
+#include "ValveDataStatusType.h"
+#include "VisibleString64Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,8 +36,8 @@
 #ifndef UCI_TYPE_STRIKETASKACHIEVABILITYASSESSMENTREQUESTTYPE_H
 #define UCI_TYPE_STRIKETASKACHIEVABILITYASSESSMENTREQUESTTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/TaskAchievabilityAssessmentRequestPET.h"
+#include "../base/export.h"
+#include "TaskAchievabilityAssessmentRequestPET.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

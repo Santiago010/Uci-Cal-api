@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_CRYPTOCOMMANDTYPE_H
 #define UCI_TYPE_CRYPTOCOMMANDTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ActivityID_Type.h"
-#include "uci/type/CryptoLoadCommandType.h"
-#include "uci/type/CryptoLocationType.h"
-#include "uci/type/CryptoRolloverCommandType.h"
-#include "uci/type/SupportCapabilityCommandBaseType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ActivityID_Type.h"
+#include "CryptoLoadCommandType.h"
+#include "CryptoLocationType.h"
+#include "CryptoRolloverCommandType.h"
+#include "SupportCapabilityCommandBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

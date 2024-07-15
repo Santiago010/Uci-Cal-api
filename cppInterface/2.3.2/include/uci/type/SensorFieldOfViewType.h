@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_SENSORFIELDOFVIEWTYPE_H
 #define UCI_TYPE_SENSORFIELDOFVIEWTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AnglePositiveType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AnglePositiveType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

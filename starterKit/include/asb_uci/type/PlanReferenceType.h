@@ -41,7 +41,7 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "uci/type/PlanReferenceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlanReferenceType.h"
 
 /**  */
 namespace asb_uci {

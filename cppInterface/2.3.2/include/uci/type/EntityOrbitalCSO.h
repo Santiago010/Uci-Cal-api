@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ENTITYORBITALCSO_H
 #define UCI_TYPE_ENTITYORBITALCSO_H
 
-#include "uci/type/EntityOrbitalCSO_MT.h"
+#include "EntityOrbitalCSO_MT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

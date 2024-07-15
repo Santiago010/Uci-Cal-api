@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_PLANNINGBYRESULTTRIGGERTYPE_H
 #define UCI_TYPE_PLANNINGBYRESULTTRIGGERTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/PlanTypeEnum.h"
-#include "uci/type/PlanVulnerabilityType.h"
-#include "uci/type/RequirementTriggerType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "PlanTypeEnum.h"
+#include "PlanVulnerabilityType.h"
+#include "RequirementTriggerType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

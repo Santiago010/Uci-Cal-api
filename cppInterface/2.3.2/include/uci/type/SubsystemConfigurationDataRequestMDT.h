@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_SUBSYSTEMCONFIGURATIONDATAREQUESTMDT_H
 #define UCI_TYPE_SUBSYSTEMCONFIGURATIONDATAREQUESTMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/RequestBaseType.h"
-#include "uci/type/SubsystemID_Type.h"
-#include "uci/type/SystemID_Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "RequestBaseType.h"
+#include "SubsystemID_Type.h"
+#include "SystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_ORBITALSURVEILLANCEOBJECTTYPE_H
 #define UCI_TYPE_ORBITALSURVEILLANCEOBJECTTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/OrbitalSurveillanceObjectBaseType.h"
-#include "uci/type/Shape3D_ChoiceType.h"
+#include "../base/export.h"
+#include "OrbitalSurveillanceObjectBaseType.h"
+#include "Shape3D_ChoiceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

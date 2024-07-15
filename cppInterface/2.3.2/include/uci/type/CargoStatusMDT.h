@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_CARGOSTATUSMDT_H
 #define UCI_TYPE_CARGOSTATUSMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CargoID_Type.h"
-#include "uci/type/CargoLocationType.h"
-#include "uci/type/CargoType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CargoID_Type.h"
+#include "CargoLocationType.h"
+#include "CargoType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

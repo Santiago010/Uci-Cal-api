@@ -36,17 +36,17 @@
 #ifndef UCI_TYPE_PULSEDATACOLLECTCOMMANDTYPE_H
 #define UCI_TYPE_PULSEDATACOLLECTCOMMANDTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/FloatAccessor.h"
-#include "uci/base/IntAccessor.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CollectionFrequencyType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/FrequencyRangeType.h"
-#include "uci/type/ModulationEnum.h"
-#include "uci/type/SignalTypeEnum.h"
+#include "../base/Accessor.h"
+#include "../base/FloatAccessor.h"
+#include "../base/IntAccessor.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "CollectionFrequencyType.h"
+#include "DateTimeType.h"
+#include "DurationType.h"
+#include "FrequencyRangeType.h"
+#include "ModulationEnum.h"
+#include "SignalTypeEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

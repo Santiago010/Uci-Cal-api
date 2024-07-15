@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_OTHERSYSTEMCONSTRAININGPLANSTYPE_H
 #define UCI_TYPE_OTHERSYSTEMCONSTRAININGPLANSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ConstrainingPlansType.h"
-#include "uci/type/PlanConstraintUsageEnum.h"
-#include "uci/type/SystemID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ConstrainingPlansType.h"
+#include "PlanConstraintUsageEnum.h"
+#include "SystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

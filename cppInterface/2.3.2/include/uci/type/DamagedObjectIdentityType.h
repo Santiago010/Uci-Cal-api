@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_DAMAGEDOBJECTIDENTITYTYPE_H
 #define UCI_TYPE_DAMAGEDOBJECTIDENTITYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/PlatformIdentityType.h"
-#include "uci/type/SpecificIdentityType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "PlatformIdentityType.h"
+#include "SpecificIdentityType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

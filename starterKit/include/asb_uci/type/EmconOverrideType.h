@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/EmconLevelEnum.h"
-#include "uci/base/Accessor.h"
-#include "uci/type/EmconOverrideType.h"
+#include "../../../include/asb_uci/type/EmconLevelEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EmconOverrideType.h"
 
 /**  */
 namespace asb_uci {

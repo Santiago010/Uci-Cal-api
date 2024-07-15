@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_IP_DATALINKNATIVEINFOTYPE_H
 #define UCI_TYPE_IP_DATALINKNATIVEINFOTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/DataLinkNativeInfoPET.h"
-#include "uci/type/IP_ConnectionType.h"
-#include "uci/type/IP_ProtocolEnum.h"
+#include "../base/export.h"
+#include "DataLinkNativeInfoPET.h"
+#include "IP_ConnectionType.h"
+#include "IP_ProtocolEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

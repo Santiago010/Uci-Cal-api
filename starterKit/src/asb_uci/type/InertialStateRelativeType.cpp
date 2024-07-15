@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/InertialStateRelativeType.h"
+#include "../../../include/asb_uci/type/InertialStateRelativeType.h"
 
 #include <memory>
 #include <string>
@@ -41,28 +41,28 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/Acceleration3D_Type.h"
-#include "asb_uci/type/OrientationRateType.h"
-#include "asb_uci/type/OrientationType.h"
-#include "asb_uci/type/PointChoice4D_Type.h"
-#include "asb_uci/type/UncertaintyType.h"
-#include "asb_uci/type/Velocity2D_Type.h"
-#include "asb_uci/type/Velocity3D_Type.h"
-#include "asb_uci/util/DerivedTypesCopier.h"
-#include "asb_uci/util/DerivedTypesCreator.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/DerivedTypesSerializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/Acceleration3D_Type.h"
-#include "uci/type/InertialStateRelativeType.h"
-#include "uci/type/OrientationRateType.h"
-#include "uci/type/OrientationType.h"
-#include "uci/type/PointChoice4D_Type.h"
-#include "uci/type/UncertaintyType.h"
-#include "uci/type/Velocity2D_Type.h"
-#include "uci/type/Velocity3D_Type.h"
+#include "../../../include/asb_uci/type/Acceleration3D_Type.h"
+#include "../../../include/asb_uci/type/OrientationRateType.h"
+#include "../../../include/asb_uci/type/OrientationType.h"
+#include "../../../include/asb_uci/type/PointChoice4D_Type.h"
+#include "../../../include/asb_uci/type/UncertaintyType.h"
+#include "../../../include/asb_uci/type/Velocity2D_Type.h"
+#include "../../../include/asb_uci/type/Velocity3D_Type.h"
+#include "../../../include/asb_uci/util/DerivedTypesCopier.h"
+#include "../../../include/asb_uci/util/DerivedTypesCreator.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/DerivedTypesSerializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/Acceleration3D_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/InertialStateRelativeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrientationRateType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrientationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PointChoice4D_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/UncertaintyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/Velocity2D_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/Velocity3D_Type.h"
 
 /**  */
 namespace asb_uci {

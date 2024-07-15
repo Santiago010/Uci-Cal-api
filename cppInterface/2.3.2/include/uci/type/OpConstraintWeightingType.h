@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_OPCONSTRAINTWEIGHTINGTYPE_H
 #define UCI_TYPE_OPCONSTRAINTWEIGHTINGTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/FileLocationID_Type.h"
-#include "uci/type/OpConstraintEnum.h"
-#include "uci/type/OpConstraintTypeEnum.h"
-#include "uci/type/OpConstraintWeightingValueType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "FileLocationID_Type.h"
+#include "OpConstraintEnum.h"
+#include "OpConstraintTypeEnum.h"
+#include "OpConstraintWeightingValueType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

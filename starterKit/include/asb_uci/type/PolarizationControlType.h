@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/DurationType.h"
-#include "asb_uci/type/PolarizationPortEnum.h"
-#include "uci/type/PolarizationControlType.h"
+#include "../../../include/asb_uci/type/DurationType.h"
+#include "../../../include/asb_uci/type/PolarizationPortEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PolarizationControlType.h"
 
 /**  */
 namespace asb_uci {

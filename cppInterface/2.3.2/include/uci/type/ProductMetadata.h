@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_PRODUCTMETADATA_H
 #define UCI_TYPE_PRODUCTMETADATA_H
 
-#include "uci/type/ProductMetadataMT.h"
+#include "ProductMetadataMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

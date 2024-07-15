@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CoordinatedRequirementSetMDT.h"
+#include "../../../include/asb_uci/type/CoordinatedRequirementSetMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,25 +41,25 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CallSignType.h"
-#include "asb_uci/type/CoordinatedRequirementSetID_Type.h"
-#include "asb_uci/type/LinkedRequirementType.h"
-#include "asb_uci/type/SecurityInformationType.h"
-#include "asb_uci/type/TimingConstraintsType.h"
-#include "asb_uci/type/VisibleString1024Type.h"
-#include "asb_uci/type/VisibleString256Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CallSignType.h"
-#include "uci/type/CoordinatedRequirementSetID_Type.h"
-#include "uci/type/CoordinatedRequirementSetMDT.h"
-#include "uci/type/FrequencyType.h"
-#include "uci/type/LinkedRequirementType.h"
-#include "uci/type/SecurityInformationType.h"
-#include "uci/type/TimingConstraintsType.h"
-#include "uci/type/VisibleString1024Type.h"
-#include "uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/type/CallSignType.h"
+#include "../../../include/asb_uci/type/CoordinatedRequirementSetID_Type.h"
+#include "../../../include/asb_uci/type/LinkedRequirementType.h"
+#include "../../../include/asb_uci/type/SecurityInformationType.h"
+#include "../../../include/asb_uci/type/TimingConstraintsType.h"
+#include "../../../include/asb_uci/type/VisibleString1024Type.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CallSignType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CoordinatedRequirementSetID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CoordinatedRequirementSetMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FrequencyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/LinkedRequirementType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SecurityInformationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TimingConstraintsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString1024Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString256Type.h"
 
 /**  */
 namespace asb_uci {
@@ -315,7 +315,7 @@ bool CoordinatedRequirementSetMDT::hasCoordinationParameter() const noexcept {
 
 uci::type::VisibleString256Type& CoordinatedRequirementSetMDT::enableCoordinationParameter(uci::base::accessorType::AccessorType type) {
   if (!coordinationParameter_Accessor) {
-    coordinationParameter_Accessor = VisibleString256Type::create(type);
+    coordinationParameter_Accessor = boost::make_unique<std::string>("");
   }
   return *coordinationParameter_Accessor;
 }
@@ -374,7 +374,7 @@ bool CoordinatedRequirementSetMDT::hasVOIP_Number() const noexcept {
 
 uci::type::VisibleString256Type& CoordinatedRequirementSetMDT::enableVOIP_Number(uci::base::accessorType::AccessorType type) {
   if (!vOIP_Number_Accessor) {
-    vOIP_Number_Accessor = VisibleString256Type::create(type);
+    vOIP_Number_Accessor = boost::make_unique<std::string>("");
   }
   return *vOIP_Number_Accessor;
 }
@@ -418,7 +418,7 @@ bool CoordinatedRequirementSetMDT::hasChatRoom() const noexcept {
 
 uci::type::VisibleString256Type& CoordinatedRequirementSetMDT::enableChatRoom(uci::base::accessorType::AccessorType type) {
   if (!chatRoom_Accessor) {
-    chatRoom_Accessor = VisibleString256Type::create(type);
+    chatRoom_Accessor = boost::make_unique<std::string>("");
   }
   return *chatRoom_Accessor;
 }

@@ -36,17 +36,17 @@
 #ifndef UCI_TYPE_OB_SENSORTYPE_H
 #define UCI_TYPE_OB_SENSORTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AnglePositiveType.h"
-#include "uci/type/DistanceType.h"
-#include "uci/type/EntityEphemerisBasisChoiceType.h"
-#include "uci/type/FieldOfRegardType.h"
-#include "uci/type/KinematicsType.h"
-#include "uci/type/OB_SensorID_Type.h"
-#include "uci/type/OB_SensorIdentityType.h"
-#include "uci/type/SensorFieldOfViewType.h"
-#include "uci/type/VisualMagnitudeLimitsType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AnglePositiveType.h"
+#include "DistanceType.h"
+#include "EntityEphemerisBasisChoiceType.h"
+#include "FieldOfRegardType.h"
+#include "KinematicsType.h"
+#include "OB_SensorID_Type.h"
+#include "OB_SensorIdentityType.h"
+#include "SensorFieldOfViewType.h"
+#include "VisualMagnitudeLimitsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

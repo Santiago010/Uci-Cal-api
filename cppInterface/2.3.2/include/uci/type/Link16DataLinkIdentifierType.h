@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_LINK16DATALINKIDENTIFIERTYPE_H
 #define UCI_TYPE_LINK16DATALINKIDENTIFIERTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/DataLinkIdentifierPET.h"
-#include "uci/type/Link16TrackIdentifierType.h"
-#include "uci/type/VoiceCallSignType.h"
+#include "../base/export.h"
+#include "DataLinkIdentifierPET.h"
+#include "Link16TrackIdentifierType.h"
+#include "VoiceCallSignType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

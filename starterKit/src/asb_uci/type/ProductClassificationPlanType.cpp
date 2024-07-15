@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ProductClassificationPlanType.h"
+#include "../../../include/asb_uci/type/ProductClassificationPlanType.h"
 
 #include <memory>
 #include <string>
@@ -41,14 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ClassificationConstrainedSubPlanType.h"
-#include "asb_uci/type/SecurityInformationType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ClassificationConstrainedSubPlanType.h"
-#include "uci/type/ProductClassificationPlanType.h"
-#include "uci/type/SecurityInformationType.h"
+#include "../../../include/asb_uci/type/ClassificationConstrainedSubPlanType.h"
+#include "../../../include/asb_uci/type/SecurityInformationType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ClassificationConstrainedSubPlanType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProductClassificationPlanType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SecurityInformationType.h"
 
 /**  */
 namespace asb_uci {

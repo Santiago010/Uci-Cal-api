@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_COMMASSETESTIMATIONREQUESTSTATUSMDT_H
 #define UCI_TYPE_COMMASSETESTIMATIONREQUESTSTATUSMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CommAssetEstimationResultType.h"
-#include "uci/type/RequestStatusBaseType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CommAssetEstimationResultType.h"
+#include "RequestStatusBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

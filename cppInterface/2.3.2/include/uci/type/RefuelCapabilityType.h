@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_REFUELCAPABILITYTYPE_H
 #define UCI_TYPE_REFUELCAPABILITYTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/CommandableCapabilityDeclarationType.h"
-#include "uci/type/RefuelCapabilityEnum.h"
-#include "uci/type/RefuelLocationEnum.h"
+#include "../base/export.h"
+#include "CommandableCapabilityDeclarationType.h"
+#include "RefuelCapabilityEnum.h"
+#include "RefuelLocationEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

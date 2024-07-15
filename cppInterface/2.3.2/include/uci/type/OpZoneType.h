@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_OPZONETYPE_H
 #define UCI_TYPE_OPZONETYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/Velocity2D_Type.h"
-#include "uci/type/ZoneType.h"
+#include "../base/export.h"
+#include "Velocity2D_Type.h"
+#include "ZoneType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

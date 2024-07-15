@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/DecibelType.h"
-#include "asb_uci/type/DurationType.h"
-#include "uci/type/RCS_ParamsType.h"
+#include "../../../include/asb_uci/type/DecibelType.h"
+#include "../../../include/asb_uci/type/DurationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RCS_ParamsType.h"
 
 /**  */
 namespace asb_uci {

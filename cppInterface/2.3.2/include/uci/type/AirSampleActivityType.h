@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_AIRSAMPLEACTIVITYTYPE_H
 #define UCI_TYPE_AIRSAMPLEACTIVITYTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/ActivityBaseType.h"
-#include "uci/type/DateTimeType.h"
+#include "../base/export.h"
+#include "ActivityBaseType.h"
+#include "DateTimeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

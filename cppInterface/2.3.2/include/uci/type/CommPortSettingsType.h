@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_COMMPORTSETTINGSTYPE_H
 #define UCI_TYPE_COMMPORTSETTINGSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/IntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DataRateType.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/IO_PortOpenCloseStateEnum.h"
-#include "uci/type/ParityTypeEnum.h"
+#include "../base/Accessor.h"
+#include "../base/IntAccessor.h"
+#include "../base/export.h"
+#include "DataRateType.h"
+#include "ForeignKeyType.h"
+#include "IO_PortOpenCloseStateEnum.h"
+#include "ParityTypeEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

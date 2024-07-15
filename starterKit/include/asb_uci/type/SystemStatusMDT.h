@@ -41,12 +41,12 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/EntityFusionEligibilityEnum.h"
-#include "asb_uci/type/SystemSourceEnum.h"
-#include "asb_uci/type/SystemStateEnum.h"
-#include "asb_uci/type/VisibleString32Type.h"
-#include "uci/type/SystemStatusMDT.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/EntityFusionEligibilityEnum.h"
+#include "../../../include/asb_uci/type/SystemSourceEnum.h"
+#include "../../../include/asb_uci/type/SystemStateEnum.h"
+#include "../../../include/asb_uci/type/VisibleString32Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SystemStatusMDT.h"
 
 /**  */
 namespace asb_uci {

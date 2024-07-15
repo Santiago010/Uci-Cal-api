@@ -41,11 +41,11 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/ProcessingStatusEnum.h"
-#include "asb_uci/type/VisibleString256Type.h"
-#include "asb_uci/type/VisibleString64Type.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/SubsystemMaintenanceResultEventType.h"
+#include "../../../include/asb_uci/type/ProcessingStatusEnum.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/type/VisibleString64Type.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemMaintenanceResultEventType.h"
 
 /**  */
 namespace asb_uci {

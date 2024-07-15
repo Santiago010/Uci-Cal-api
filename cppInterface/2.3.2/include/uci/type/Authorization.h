@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_AUTHORIZATION_H
 #define UCI_TYPE_AUTHORIZATION_H
 
-#include "uci/type/AuthorizationMT.h"
+#include "AuthorizationMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

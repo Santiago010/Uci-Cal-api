@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/VehicleConfigurationType.h"
-#include "uci/type/PlanningLocationType.h"
+#include "../../../include/asb_uci/type/VehicleConfigurationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlanningLocationType.h"
 
 /**  */
 namespace asb_uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "uci/type/CommLink16_PPLI_PoolEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommLink16_PPLI_PoolEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

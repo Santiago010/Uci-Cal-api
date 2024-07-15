@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SURFACERECOVERYTYPE_H
 #define UCI_TYPE_SURFACERECOVERYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ApproachConditionStatusEnum.h"
-#include "uci/type/FlightDeckStatusEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ApproachConditionStatusEnum.h"
+#include "FlightDeckStatusEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_COUNTERSPACEREPORT_H
 #define UCI_TYPE_COUNTERSPACEREPORT_H
 
-#include "uci/type/CounterSpaceReportMT.h"
+#include "CounterSpaceReportMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

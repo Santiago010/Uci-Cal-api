@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_EFFECTPLANINPUTSTYPE_H
 #define UCI_TYPE_EFFECTPLANINPUTSTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/EffectAllocationType.h"
-#include "uci/type/EffectPlanConstraintType.h"
-#include "uci/type/EffectPlanPartsType.h"
-#include "uci/type/PlanInputsCoreType.h"
-#include "uci/type/RequirementAssociationConstraintType.h"
-#include "uci/type/RequirementPlanningCandidateType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "EffectAllocationType.h"
+#include "EffectPlanConstraintType.h"
+#include "EffectPlanPartsType.h"
+#include "PlanInputsCoreType.h"
+#include "RequirementAssociationConstraintType.h"
+#include "RequirementPlanningCandidateType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

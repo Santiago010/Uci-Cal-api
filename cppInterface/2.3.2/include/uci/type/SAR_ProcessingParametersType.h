@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_SAR_PROCESSINGPARAMETERSTYPE_H
 #define UCI_TYPE_SAR_PROCESSINGPARAMETERSTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/ImageRegionOfInterestPET.h"
-#include "uci/type/ImageRemapEnum.h"
-#include "uci/type/ImageWeightEnum.h"
-#include "uci/type/ProcessingParametersPET.h"
+#include "../base/export.h"
+#include "ImageRegionOfInterestPET.h"
+#include "ImageRemapEnum.h"
+#include "ImageWeightEnum.h"
+#include "ProcessingParametersPET.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/StoreStatusBaseType.h"
+#include "../../../include/asb_uci/type/StoreStatusBaseType.h"
 
 #include <memory>
 #include <string>
@@ -41,20 +41,20 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CannotComplyType.h"
-#include "asb_uci/type/StoreStateEnum.h"
-#include "asb_uci/type/StoreStatusDetailsType.h"
-#include "asb_uci/util/DerivedTypesCopier.h"
-#include "asb_uci/util/DerivedTypesCreator.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/DerivedTypesSerializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CannotComplyType.h"
-#include "uci/type/StoreStateEnum.h"
-#include "uci/type/StoreStatusBaseType.h"
-#include "uci/type/StoreStatusDetailsType.h"
+#include "../../../include/asb_uci/type/CannotComplyType.h"
+#include "../../../include/asb_uci/type/StoreStateEnum.h"
+#include "../../../include/asb_uci/type/StoreStatusDetailsType.h"
+#include "../../../include/asb_uci/util/DerivedTypesCopier.h"
+#include "../../../include/asb_uci/util/DerivedTypesCreator.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/DerivedTypesSerializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CannotComplyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StoreStateEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StoreStatusBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StoreStatusDetailsType.h"
 
 /**  */
 namespace asb_uci {

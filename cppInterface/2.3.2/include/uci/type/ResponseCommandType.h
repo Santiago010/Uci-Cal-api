@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_RESPONSECOMMANDTYPE_H
 #define UCI_TYPE_RESPONSECOMMANDTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ActivityCommandBaseType.h"
-#include "uci/type/ResponseCapabilityCommandType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ActivityCommandBaseType.h"
+#include "ResponseCapabilityCommandType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

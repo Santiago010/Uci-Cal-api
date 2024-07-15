@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_IDENTITYKINDASSETTYPE_H
 #define UCI_TYPE_IDENTITYKINDASSETTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AssetType.h"
-#include "uci/type/IdentityType.h"
-#include "uci/type/RequirementPlanningCandidateType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AssetType.h"
+#include "IdentityType.h"
+#include "RequirementPlanningCandidateType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

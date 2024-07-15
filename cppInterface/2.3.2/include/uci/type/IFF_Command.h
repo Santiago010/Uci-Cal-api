@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_IFF_COMMAND_H
 #define UCI_TYPE_IFF_COMMAND_H
 
-#include "uci/type/IFF_CommandMT.h"
+#include "IFF_CommandMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

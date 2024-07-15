@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/StrikeCapabilityMDT.h"
+#include "../../../include/asb_uci/type/StrikeCapabilityMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,19 +41,19 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CapabilityBaseType.h"
-#include "asb_uci/type/StoreCarriageCapabilityType.h"
-#include "asb_uci/type/StoreVerificationStatusType.h"
-#include "asb_uci/type/StrikeCapabilityType.h"
-#include "asb_uci/type/VisibleString256Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/StoreCarriageCapabilityType.h"
-#include "uci/type/StoreVerificationStatusType.h"
-#include "uci/type/StrikeCapabilityMDT.h"
-#include "uci/type/StrikeCapabilityType.h"
-#include "uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/type/CapabilityBaseType.h"
+#include "../../../include/asb_uci/type/StoreCarriageCapabilityType.h"
+#include "../../../include/asb_uci/type/StoreVerificationStatusType.h"
+#include "../../../include/asb_uci/type/StrikeCapabilityType.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StoreCarriageCapabilityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StoreVerificationStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StrikeCapabilityMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StrikeCapabilityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString256Type.h"
 
 /**  */
 namespace asb_uci {
@@ -206,7 +206,7 @@ bool StrikeCapabilityMDT::hasLoadoutMnemonic() const noexcept {
 
 uci::type::VisibleString256Type& StrikeCapabilityMDT::enableLoadoutMnemonic(uci::base::accessorType::AccessorType type) {
   if (!loadoutMnemonic_Accessor) {
-    loadoutMnemonic_Accessor = VisibleString256Type::create(type);
+    loadoutMnemonic_Accessor = boost::make_unique<std::string>("");
   }
   return *loadoutMnemonic_Accessor;
 }

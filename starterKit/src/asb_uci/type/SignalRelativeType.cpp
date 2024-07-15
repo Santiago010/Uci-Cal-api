@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/SignalRelativeType.h"
+#include "../../../include/asb_uci/type/SignalRelativeType.h"
 
 #include <memory>
 #include <string>
@@ -41,22 +41,22 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/EW_MeasurementEnum.h"
-#include "asb_uci/type/LOS_MeasurementWithUncertaintyType.h"
-#include "asb_uci/type/MeasurementStatusEnum.h"
-#include "asb_uci/type/ReferenceObjectType.h"
-#include "asb_uci/type/SignalMeasurementFlagEnum.h"
-#include "asb_uci/type/SignalMeasurementMethodEnum.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/EW_MeasurementEnum.h"
-#include "uci/type/MeasurementStatusEnum.h"
-#include "uci/type/ReferenceObjectType.h"
-#include "uci/type/SignalMeasurementFlagEnum.h"
-#include "uci/type/SignalMeasurementMethodEnum.h"
-#include "uci/type/SignalRelativeType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/EW_MeasurementEnum.h"
+#include "../../../include/asb_uci/type/LOS_MeasurementWithUncertaintyType.h"
+#include "../../../include/asb_uci/type/MeasurementStatusEnum.h"
+#include "../../../include/asb_uci/type/ReferenceObjectType.h"
+#include "../../../include/asb_uci/type/SignalMeasurementFlagEnum.h"
+#include "../../../include/asb_uci/type/SignalMeasurementMethodEnum.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EW_MeasurementEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MeasurementStatusEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ReferenceObjectType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SignalMeasurementFlagEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SignalMeasurementMethodEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SignalRelativeType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

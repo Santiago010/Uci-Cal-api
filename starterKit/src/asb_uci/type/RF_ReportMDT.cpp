@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/RF_ReportMDT.h"
+#include "../../../include/asb_uci/type/RF_ReportMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,18 +41,18 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/RF_OperationType.h"
-#include "asb_uci/type/RF_ProfileType.h"
-#include "asb_uci/type/RF_ReportID_Type.h"
-#include "asb_uci/type/RF_ReportStateEnum.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/RF_OperationType.h"
-#include "uci/type/RF_ProfileType.h"
-#include "uci/type/RF_ReportID_Type.h"
-#include "uci/type/RF_ReportMDT.h"
-#include "uci/type/RF_ReportStateEnum.h"
+#include "../../../include/asb_uci/type/RF_OperationType.h"
+#include "../../../include/asb_uci/type/RF_ProfileType.h"
+#include "../../../include/asb_uci/type/RF_ReportID_Type.h"
+#include "../../../include/asb_uci/type/RF_ReportStateEnum.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RF_OperationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RF_ProfileType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RF_ReportID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RF_ReportMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RF_ReportStateEnum.h"
 
 /**  */
 namespace asb_uci {

@@ -41,14 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/FrequencyType.h"
-#include "asb_uci/type/PercentType.h"
-#include "asb_uci/type/VideoBlockSizeEnum.h"
-#include "asb_uci/type/VideoChromaSubsampleEnum.h"
-#include "asb_uci/type/VideoEncoderCompressionModeEnum.h"
-#include "asb_uci/type/VisibleString32Type.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/VideoEncoderSettingsType.h"
+#include "../../../include/asb_uci/type/FrequencyType.h"
+#include "../../../include/asb_uci/type/PercentType.h"
+#include "../../../include/asb_uci/type/VideoBlockSizeEnum.h"
+#include "../../../include/asb_uci/type/VideoChromaSubsampleEnum.h"
+#include "../../../include/asb_uci/type/VideoEncoderCompressionModeEnum.h"
+#include "../../../include/asb_uci/type/VisibleString32Type.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VideoEncoderSettingsType.h"
 
 /**  */
 namespace asb_uci {

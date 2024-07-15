@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_PO_COMPONENTSETTINGSTYPE_H
 #define UCI_TYPE_PO_COMPONENTSETTINGSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ComponentID_Type.h"
-#include "uci/type/PO_ComponentApertureSettingsType.h"
-#include "uci/type/PO_ComponentSettingsFilterType.h"
-#include "uci/type/PO_ComponentSettingsFocalPlaneArrayType.h"
-#include "uci/type/PO_ComponentSettingsLensAssemblyType.h"
-#include "uci/type/PO_ComponentSettingsProcessingStageType.h"
-#include "uci/type/PO_ComponentSettingsProductGeneratorType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ComponentID_Type.h"
+#include "PO_ComponentApertureSettingsType.h"
+#include "PO_ComponentSettingsFilterType.h"
+#include "PO_ComponentSettingsFocalPlaneArrayType.h"
+#include "PO_ComponentSettingsLensAssemblyType.h"
+#include "PO_ComponentSettingsProcessingStageType.h"
+#include "PO_ComponentSettingsProductGeneratorType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

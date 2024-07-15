@@ -38,8 +38,8 @@
 
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/ComponentConfigurationPET.h"
-#include "uci/type/ComponentConfigurationType.h"
+#include "../../../include/asb_uci/type/ComponentConfigurationPET.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ComponentConfigurationType.h"
 
 /**  */
 namespace asb_uci {

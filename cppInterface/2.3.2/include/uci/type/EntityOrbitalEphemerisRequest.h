@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ENTITYORBITALEPHEMERISREQUEST_H
 #define UCI_TYPE_ENTITYORBITALEPHEMERISREQUEST_H
 
-#include "uci/type/EntityOrbitalEphemerisRequestMT.h"
+#include "EntityOrbitalEphemerisRequestMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

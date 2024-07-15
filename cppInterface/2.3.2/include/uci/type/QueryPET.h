@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_QUERYPET_H
 #define UCI_TYPE_QUERYPET_H
 
-#include "uci/base/Accessor.h"
+#include "../base/Accessor.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

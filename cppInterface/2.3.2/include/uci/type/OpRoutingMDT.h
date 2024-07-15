@@ -36,18 +36,18 @@
 #ifndef UCI_TYPE_OPROUTINGMDT_H
 #define UCI_TYPE_OPROUTINGMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/MissionTraceabilityType.h"
-#include "uci/type/OpDescriptionType.h"
-#include "uci/type/OpRoutingID_Type.h"
-#include "uci/type/ScheduleType.h"
-#include "uci/type/SeparationParametersType.h"
-#include "uci/type/SpecificBlueSeparationType.h"
-#include "uci/type/SpecificRedSeparationType.h"
-#include "uci/type/SystemID_Type.h"
-#include "uci/type/ZoneType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "MissionTraceabilityType.h"
+#include "OpDescriptionType.h"
+#include "OpRoutingID_Type.h"
+#include "ScheduleType.h"
+#include "SeparationParametersType.h"
+#include "SpecificBlueSeparationType.h"
+#include "SpecificRedSeparationType.h"
+#include "SystemID_Type.h"
+#include "ZoneType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

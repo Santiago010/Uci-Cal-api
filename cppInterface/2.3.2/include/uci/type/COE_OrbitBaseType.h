@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_COE_ORBITBASETYPE_H
 #define UCI_TYPE_COE_ORBITBASETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AngleHalfPositiveType.h"
-#include "uci/type/COE_OrientationType.h"
-#include "uci/type/DoubleNonNegativeType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AngleHalfPositiveType.h"
+#include "COE_OrientationType.h"
+#include "DoubleNonNegativeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

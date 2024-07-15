@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_COMMPTW_COMMWAVEFORMACTIVITYTYPE_H
 #define UCI_TYPE_COMMPTW_COMMWAVEFORMACTIVITYTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/CommPTW_ControlStatusType.h"
-#include "uci/type/CommWaveformActivityPET.h"
+#include "../base/export.h"
+#include "CommPTW_ControlStatusType.h"
+#include "CommWaveformActivityPET.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/EmptyType.h"
-#include "asb_uci/type/SpeedType.h"
-#include "uci/type/WindDataType.h"
+#include "../../../include/asb_uci/type/EmptyType.h"
+#include "../../../include/asb_uci/type/SpeedType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/WindDataType.h"
 
 /**  */
 namespace asb_uci {

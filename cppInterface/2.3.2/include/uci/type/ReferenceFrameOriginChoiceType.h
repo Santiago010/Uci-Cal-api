@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_REFERENCEFRAMEORIGINCHOICETYPE_H
 #define UCI_TYPE_REFERENCEFRAMEORIGINCHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/ReferenceFrameObjectToFollowType.h"
-#include "uci/type/ReferenceFrameOriginKinematicsType.h"
-#include "uci/type/ReferenceFrameOriginType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ForeignKeyType.h"
+#include "ReferenceFrameObjectToFollowType.h"
+#include "ReferenceFrameOriginKinematicsType.h"
+#include "ReferenceFrameOriginType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

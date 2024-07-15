@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_STOREMANAGEMENTCOMMANDSTATUS_H
 #define UCI_TYPE_STOREMANAGEMENTCOMMANDSTATUS_H
 
-#include "uci/type/StoreManagementCommandStatusMT.h"
+#include "StoreManagementCommandStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

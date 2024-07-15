@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/CommMADL_NetChangeOpEnum.h"
-#include "asb_uci/type/MADL_NetChangeSelectorType.h"
-#include "uci/type/CommMADL_NetChangeRequestType.h"
+#include "../../../include/asb_uci/type/CommMADL_NetChangeOpEnum.h"
+#include "../../../include/asb_uci/type/MADL_NetChangeSelectorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommMADL_NetChangeRequestType.h"
 
 /**  */
 namespace asb_uci {

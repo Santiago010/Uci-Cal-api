@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_REQUIREMENTOPTIONS_H
 #define UCI_TYPE_REQUIREMENTOPTIONS_H
 
-#include "uci/type/RequirementOptionsMT.h"
+#include "RequirementOptionsMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_COORDINATEDREQUIREMENTSETSTATUSMDT_H
 #define UCI_TYPE_COORDINATEDREQUIREMENTSETSTATUSMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CoordinatedRequirementSetID_Type.h"
-#include "uci/type/CoordinationConditionType.h"
-#include "uci/type/RequirementExecutionStateEnum.h"
-#include "uci/type/RequirementInstanceID_ChoiceType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CoordinatedRequirementSetID_Type.h"
+#include "CoordinationConditionType.h"
+#include "RequirementExecutionStateEnum.h"
+#include "RequirementInstanceID_ChoiceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

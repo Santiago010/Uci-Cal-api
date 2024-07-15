@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_PO_GIMBALORIENTATIONCONSTRAINTCONTROLSSTATUSTYPE_H
 #define UCI_TYPE_PO_GIMBALORIENTATIONCONSTRAINTCONTROLSSTATUSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ComponentID_Type.h"
-#include "uci/type/GimbalAxisControlStatusType.h"
-#include "uci/type/PO_AngleConstraintControlsStatusType.h"
-#include "uci/type/PO_GimbalOrientationReferenceFrameEnum.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ComponentID_Type.h"
+#include "GimbalAxisControlStatusType.h"
+#include "PO_AngleConstraintControlsStatusType.h"
+#include "PO_GimbalOrientationReferenceFrameEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

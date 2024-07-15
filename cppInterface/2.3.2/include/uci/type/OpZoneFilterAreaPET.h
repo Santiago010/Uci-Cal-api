@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_OPZONEFILTERAREAPET_H
 #define UCI_TYPE_OPZONEFILTERAREAPET_H
 
-#include "uci/base/Accessor.h"
-#include "uci/type/ComparableRankingType.h"
-#include "uci/type/OpZoneFilterEnum.h"
+#include "../base/Accessor.h"
+#include "ComparableRankingType.h"
+#include "OpZoneFilterEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

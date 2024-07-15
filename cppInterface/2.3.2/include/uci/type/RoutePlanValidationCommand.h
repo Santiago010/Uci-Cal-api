@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ROUTEPLANVALIDATIONCOMMAND_H
 #define UCI_TYPE_ROUTEPLANVALIDATIONCOMMAND_H
 
-#include "uci/type/RoutePlanValidationCommandMT.h"
+#include "RoutePlanValidationCommandMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_DATAPLANACTIVATIONSTATUS_H
 #define UCI_TYPE_DATAPLANACTIVATIONSTATUS_H
 
-#include "uci/type/DataPlanActivationStatusMT.h"
+#include "DataPlanActivationStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

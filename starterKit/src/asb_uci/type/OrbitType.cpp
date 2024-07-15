@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/OrbitType.h"
+#include "../../../include/asb_uci/type/OrbitType.h"
 
 #include <memory>
 #include <string>
@@ -41,18 +41,18 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CircleType.h"
-#include "asb_uci/type/OrbitDurationType.h"
-#include "asb_uci/type/OrbitEnum.h"
-#include "asb_uci/type/RelativeDirectionEnum.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CircleType.h"
-#include "uci/type/OrbitDurationType.h"
-#include "uci/type/OrbitEnum.h"
-#include "uci/type/OrbitType.h"
-#include "uci/type/RelativeDirectionEnum.h"
+#include "../../../include/asb_uci/type/CircleType.h"
+#include "../../../include/asb_uci/type/OrbitDurationType.h"
+#include "../../../include/asb_uci/type/OrbitEnum.h"
+#include "../../../include/asb_uci/type/RelativeDirectionEnum.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CircleType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitDurationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RelativeDirectionEnum.h"
 
 /**  */
 namespace asb_uci {

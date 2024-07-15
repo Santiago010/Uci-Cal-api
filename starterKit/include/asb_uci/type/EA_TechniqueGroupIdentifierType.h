@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/VisibleString256Type.h"
-#include "asb_uci/type/VisibleString2_4Type.h"
-#include "uci/type/EA_TechniqueGroupIdentifierType.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/type/VisibleString2_4Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EA_TechniqueGroupIdentifierType.h"
 
 /**  */
 namespace asb_uci {

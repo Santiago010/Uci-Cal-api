@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_EMITTERIDENTITYCATEGORYTYPE_H
 #define UCI_TYPE_EMITTERIDENTITYCATEGORYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CommunicationsEmitterIdentityType.h"
-#include "uci/type/JammerEmitterIdentityType.h"
-#include "uci/type/MissileEmitterIdentityType.h"
-#include "uci/type/RadarEmitterIdentityType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CommunicationsEmitterIdentityType.h"
+#include "JammerEmitterIdentityType.h"
+#include "MissileEmitterIdentityType.h"
+#include "RadarEmitterIdentityType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_ROUTEPLANCOMMANDSTATUSMT_H
 #define UCI_TYPE_ROUTEPLANCOMMANDSTATUSMT_H
 
-#include "uci/base/Listener.h"
-#include "uci/base/Reader.h"
-#include "uci/base/Writer.h"
-#include "uci/base/export.h"
-#include "uci/type/MessageType.h"
-#include "uci/type/RoutePlanCommandStatusMDT.h"
+#include "../base/Listener.h"
+#include "../base/Reader.h"
+#include "../base/Writer.h"
+#include "../base/export.h"
+#include "MessageType.h"
+#include "RoutePlanCommandStatusMDT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

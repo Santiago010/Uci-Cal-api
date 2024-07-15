@@ -36,8 +36,8 @@
 #ifndef UCI_TYPE_SYSTEMDEPLOYMENTCAPABILITYSTATUSTYPE_H
 #define UCI_TYPE_SYSTEMDEPLOYMENTCAPABILITYSTATUSTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/CapabilityStatusType.h"
+#include "../base/export.h"
+#include "CapabilityStatusType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

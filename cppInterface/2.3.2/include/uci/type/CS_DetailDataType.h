@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_CS_DETAILDATATYPE_H
 #define UCI_TYPE_CS_DETAILDATATYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CS_SubDetailDataType.h"
-#include "uci/type/FileLocationID_Type.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/FrequencyType.h"
-#include "uci/type/ModulationEnum.h"
-#include "uci/type/PolarizationEnum.h"
-#include "uci/type/VisibleString32Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CS_SubDetailDataType.h"
+#include "FileLocationID_Type.h"
+#include "ForeignKeyType.h"
+#include "FrequencyType.h"
+#include "ModulationEnum.h"
+#include "PolarizationEnum.h"
+#include "VisibleString32Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

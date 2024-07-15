@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_PRODUCTDOWNLOADTASKMDT_H
 #define UCI_TYPE_PRODUCTDOWNLOADTASKMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/InputProductType.h"
-#include "uci/type/ProductManagementTaskDataType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "InputProductType.h"
+#include "ProductManagementTaskDataType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_POLARIZATIONCONTROLTYPE_H
 #define UCI_TYPE_POLARIZATIONCONTROLTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/PolarizationPortEnum.h"
-#include "uci/type/PolarizationType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DurationType.h"
+#include "PolarizationPortEnum.h"
+#include "PolarizationType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

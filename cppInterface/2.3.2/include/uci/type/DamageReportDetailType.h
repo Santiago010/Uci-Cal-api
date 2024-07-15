@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_DAMAGEREPORTDETAILTYPE_H
 #define UCI_TYPE_DAMAGEREPORTDETAILTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/BehavioralChangeEnum.h"
-#include "uci/type/DamageAssessmentDetailType.h"
-#include "uci/type/DamageCategoryEnum.h"
-#include "uci/type/DamageWeaponEmploymentType.h"
-#include "uci/type/ImpactDetailsType.h"
+#include "../base/export.h"
+#include "BehavioralChangeEnum.h"
+#include "DamageAssessmentDetailType.h"
+#include "DamageCategoryEnum.h"
+#include "DamageWeaponEmploymentType.h"
+#include "ImpactDetailsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

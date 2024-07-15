@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ResourceAllocatorSystemThreadStatusType.h"
+#include "../../../include/asb_uci/type/ResourceAllocatorSystemThreadStatusType.h"
 
 #include <memory>
 #include <string>
@@ -41,14 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AvailabilityInfoType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AvailabilityInfoType.h"
-#include "uci/type/PercentType.h"
-#include "uci/type/ResourceAllocatorSystemThreadStatusType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/AvailabilityInfoType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AvailabilityInfoType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PercentType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ResourceAllocatorSystemThreadStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

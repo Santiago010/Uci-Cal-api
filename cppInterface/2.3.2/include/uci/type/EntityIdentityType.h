@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_ENTITYIDENTITYTYPE_H
 #define UCI_TYPE_ENTITYIDENTITYTYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/IdentityConfidenceType.h"
-#include "uci/type/QualifyingTagsType.h"
-#include "uci/type/TimeFunctionType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DateTimeType.h"
+#include "IdentityConfidenceType.h"
+#include "QualifyingTagsType.h"
+#include "TimeFunctionType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

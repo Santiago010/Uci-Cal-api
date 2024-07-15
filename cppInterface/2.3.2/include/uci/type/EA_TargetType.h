@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_EA_TARGETTYPE_H
 #define UCI_TYPE_EA_TARGETTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/EA_EmitterDataType.h"
-#include "uci/type/EA_PowerType.h"
-#include "uci/type/EA_TargetPointingType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DateTimeType.h"
+#include "EA_EmitterDataType.h"
+#include "EA_PowerType.h"
+#include "EA_TargetPointingType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

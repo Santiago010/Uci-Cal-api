@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ORBITCONJUNCTIONASSESSMENT_H
 #define UCI_TYPE_ORBITCONJUNCTIONASSESSMENT_H
 
-#include "uci/type/OrbitConjunctionAssessmentMT.h"
+#include "OrbitConjunctionAssessmentMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -41,14 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/CommLink16TxPackingLimitEnum.h"
-#include "asb_uci/type/Link16_MessagePriorityType.h"
-#include "asb_uci/type/Link16_MessageStorageLimitType.h"
-#include "asb_uci/type/Link16_ParticipationGroupIndexType.h"
-#include "asb_uci/type/Link16_SlotNumberType.h"
-#include "asb_uci/type/Link16_StalenessLimitType.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/CommLink16TxPG_Type.h"
+#include "../../../include/asb_uci/type/CommLink16TxPackingLimitEnum.h"
+#include "../../../include/asb_uci/type/Link16_MessagePriorityType.h"
+#include "../../../include/asb_uci/type/Link16_MessageStorageLimitType.h"
+#include "../../../include/asb_uci/type/Link16_ParticipationGroupIndexType.h"
+#include "../../../include/asb_uci/type/Link16_SlotNumberType.h"
+#include "../../../include/asb_uci/type/Link16_StalenessLimitType.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommLink16TxPG_Type.h"
 
 /**  */
 namespace asb_uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/SpecificIdentityType.h"
+#include "../../../include/asb_uci/type/SpecificIdentityType.h"
 
 #include <memory>
 #include <string>
@@ -41,21 +41,21 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/EnvironmentEnum.h"
-#include "asb_uci/type/SiteTypeEnum.h"
-#include "asb_uci/type/SpecificTypeModelType.h"
-#include "asb_uci/util/DerivedTypesCopier.h"
-#include "asb_uci/util/DerivedTypesCreator.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/DerivedTypesSerializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/EnvironmentEnum.h"
-#include "uci/type/SiteTypeEnum.h"
-#include "uci/type/SpecificIdentityType.h"
-#include "uci/type/SpecificTypeModelType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/EnvironmentEnum.h"
+#include "../../../include/asb_uci/type/SiteTypeEnum.h"
+#include "../../../include/asb_uci/type/SpecificTypeModelType.h"
+#include "../../../include/asb_uci/util/DerivedTypesCopier.h"
+#include "../../../include/asb_uci/util/DerivedTypesCreator.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/DerivedTypesSerializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EnvironmentEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SiteTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SpecificIdentityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SpecificTypeModelType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

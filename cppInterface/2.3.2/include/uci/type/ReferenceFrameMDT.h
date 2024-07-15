@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_REFERENCEFRAMEMDT_H
 #define UCI_TYPE_REFERENCEFRAMEMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ReferenceFrameID_Type.h"
-#include "uci/type/ReferenceFrameOriginChoiceType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ReferenceFrameID_Type.h"
+#include "ReferenceFrameOriginChoiceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/SystemPositionSpecificationType.h"
+#include "../../../include/asb_uci/type/SystemPositionSpecificationType.h"
 
 #include <memory>
 #include <string>
@@ -41,16 +41,16 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/InertialStateType.h"
-#include "asb_uci/type/SystemCapabilitySpecificationType.h"
-#include "asb_uci/type/SystemID_Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/InertialStateType.h"
-#include "uci/type/SystemCapabilitySpecificationType.h"
-#include "uci/type/SystemID_Type.h"
-#include "uci/type/SystemPositionSpecificationType.h"
+#include "../../../include/asb_uci/type/InertialStateType.h"
+#include "../../../include/asb_uci/type/SystemCapabilitySpecificationType.h"
+#include "../../../include/asb_uci/type/SystemID_Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/InertialStateType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SystemCapabilitySpecificationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SystemID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SystemPositionSpecificationType.h"
 
 /**  */
 namespace asb_uci {

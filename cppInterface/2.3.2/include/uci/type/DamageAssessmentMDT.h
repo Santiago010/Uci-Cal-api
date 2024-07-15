@@ -36,19 +36,19 @@
 #ifndef UCI_TYPE_DAMAGEASSESSMENTMDT_H
 #define UCI_TYPE_DAMAGEASSESSMENTMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DamageAssessmentDetailType.h"
-#include "uci/type/DamageAssessmentID_Type.h"
-#include "uci/type/DamageCategoryEnum.h"
-#include "uci/type/DamageSubjectType.h"
-#include "uci/type/DamageSummaryID_Type.h"
-#include "uci/type/DamageSummaryType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/VisibleString1024Type.h"
-#include "uci/type/ZoneType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DamageAssessmentDetailType.h"
+#include "DamageAssessmentID_Type.h"
+#include "DamageCategoryEnum.h"
+#include "DamageSubjectType.h"
+#include "DamageSummaryID_Type.h"
+#include "DamageSummaryType.h"
+#include "DateTimeType.h"
+#include "VisibleString1024Type.h"
+#include "ZoneType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

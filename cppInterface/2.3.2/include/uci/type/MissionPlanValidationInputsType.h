@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_MISSIONPLANVALIDATIONINPUTSTYPE_H
 #define UCI_TYPE_MISSIONPLANVALIDATIONINPUTSTYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/MissionPlanID_Type.h"
-#include "uci/type/PlanPartsType.h"
-#include "uci/type/PlanTypeEnum.h"
-#include "uci/type/PlanValidationInputsBaseType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "MissionPlanID_Type.h"
+#include "PlanPartsType.h"
+#include "PlanTypeEnum.h"
+#include "PlanValidationInputsBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SOB_C2_RECORD_H
 #define UCI_TYPE_SOB_C2_RECORD_H
 
-#include "uci/type/SOB_C2_RecordMT.h"
+#include "SOB_C2_RecordMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

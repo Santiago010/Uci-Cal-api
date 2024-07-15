@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SERVICESETTINGSCOMMANDSTATUS_H
 #define UCI_TYPE_SERVICESETTINGSCOMMANDSTATUS_H
 
-#include "uci/type/ServiceSettingsCommandStatusMT.h"
+#include "ServiceSettingsCommandStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

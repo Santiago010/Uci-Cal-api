@@ -36,17 +36,17 @@
 #ifndef UCI_TYPE_PRODUCTDISSEMINATIONDESTINATIONMDT_H
 #define UCI_TYPE_PRODUCTDISSEMINATIONDESTINATIONMDT_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DataRecordBaseType.h"
-#include "uci/type/DestinationCategoryEnum.h"
-#include "uci/type/MIME_Type.h"
-#include "uci/type/ProductDisseminationDestinationID_Type.h"
-#include "uci/type/ProductDisseminationGatewayType.h"
-#include "uci/type/ProductTypeEnum.h"
-#include "uci/type/SecurityInformationType.h"
-#include "uci/type/VisibleString256Type.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DataRecordBaseType.h"
+#include "DestinationCategoryEnum.h"
+#include "MIME_Type.h"
+#include "ProductDisseminationDestinationID_Type.h"
+#include "ProductDisseminationGatewayType.h"
+#include "ProductTypeEnum.h"
+#include "SecurityInformationType.h"
+#include "VisibleString256Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

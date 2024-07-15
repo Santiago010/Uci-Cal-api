@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SMTI_COMMAND_H
 #define UCI_TYPE_SMTI_COMMAND_H
 
-#include "uci/type/SMTI_CommandMT.h"
+#include "SMTI_CommandMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

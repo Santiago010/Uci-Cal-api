@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_DMPI_TRACEABILITYTYPE_H
 #define UCI_TYPE_DMPI_TRACEABILITYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ATO_TraceabilityType.h"
-#include "uci/type/BasicEncyclopediaNumberType.h"
-#include "uci/type/GeoLocatedObjectType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ATO_TraceabilityType.h"
+#include "BasicEncyclopediaNumberType.h"
+#include "GeoLocatedObjectType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

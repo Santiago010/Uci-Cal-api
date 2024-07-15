@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SYSTEMSTATUS_H
 #define UCI_TYPE_SYSTEMSTATUS_H
 
-#include "uci/type/SystemStatusMT.h"
+#include "SystemStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

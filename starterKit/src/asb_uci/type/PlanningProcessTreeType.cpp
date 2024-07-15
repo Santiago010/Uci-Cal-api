@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/PlanningProcessTreeType.h"
+#include "../../../include/asb_uci/type/PlanningProcessTreeType.h"
 
 #include <memory>
 #include <string>
@@ -41,14 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/PlanningProcessID_Type.h"
-#include "asb_uci/type/SubordinatePlanningProcessType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/PlanningProcessID_Type.h"
-#include "uci/type/PlanningProcessTreeType.h"
-#include "uci/type/SubordinatePlanningProcessType.h"
+#include "../../../include/asb_uci/type/PlanningProcessID_Type.h"
+#include "../../../include/asb_uci/type/SubordinatePlanningProcessType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlanningProcessID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlanningProcessTreeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubordinatePlanningProcessType.h"
 
 /**  */
 namespace asb_uci {

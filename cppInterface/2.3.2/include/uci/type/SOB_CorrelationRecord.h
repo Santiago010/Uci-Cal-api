@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SOB_CORRELATIONRECORD_H
 #define UCI_TYPE_SOB_CORRELATIONRECORD_H
 
-#include "uci/type/SOB_CorrelationRecordMT.h"
+#include "SOB_CorrelationRecordMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

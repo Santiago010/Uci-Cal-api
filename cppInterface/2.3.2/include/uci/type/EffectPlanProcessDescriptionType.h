@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_EFFECTPLANPROCESSDESCRIPTIONTYPE_H
 #define UCI_TYPE_EFFECTPLANPROCESSDESCRIPTIONTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/EffectPlanPartsType.h"
-#include "uci/type/PlanningDiscoveryBaseType.h"
+#include "../base/export.h"
+#include "EffectPlanPartsType.h"
+#include "PlanningDiscoveryBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

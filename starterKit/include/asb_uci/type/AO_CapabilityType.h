@@ -41,12 +41,12 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/AO_CapabilityEnum.h"
-#include "asb_uci/type/AO_MessageOutputsEnum.h"
-#include "asb_uci/type/CommandableCapabilityDeclarationType.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/AO_CapabilityType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/AO_CapabilityEnum.h"
+#include "../../../include/asb_uci/type/AO_MessageOutputsEnum.h"
+#include "../../../include/asb_uci/type/CommandableCapabilityDeclarationType.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AO_CapabilityType.h"
 
 /**  */
 namespace asb_uci {

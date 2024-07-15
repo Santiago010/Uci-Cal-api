@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_DATAUPDATEREQUESTMDT_H
 #define UCI_TYPE_DATAUPDATEREQUESTMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DataUpdateOriginatorType.h"
-#include "uci/type/DataUpdateRequestType.h"
-#include "uci/type/RequestBaseType.h"
-#include "uci/type/ServiceID_Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DataUpdateOriginatorType.h"
+#include "DataUpdateRequestType.h"
+#include "RequestBaseType.h"
+#include "ServiceID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

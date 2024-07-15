@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_THREATASSESSMENTREQUESTTYPE_H
 #define UCI_TYPE_THREATASSESSMENTREQUESTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AssessmentSuppressionEnum.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/EntityID_Type.h"
-#include "uci/type/SystemRoutePlanSpecificationType.h"
-#include "uci/type/ThreatCapabilityEnum.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AssessmentSuppressionEnum.h"
+#include "DurationType.h"
+#include "EntityID_Type.h"
+#include "SystemRoutePlanSpecificationType.h"
+#include "ThreatCapabilityEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

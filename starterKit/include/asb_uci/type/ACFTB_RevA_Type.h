@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/VisibleString20Type.h"
-#include "uci/type/ACFTB_RevA_Type.h"
+#include "../../../include/asb_uci/type/VisibleString20Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ACFTB_RevA_Type.h"
 
 /**  */
 namespace asb_uci {

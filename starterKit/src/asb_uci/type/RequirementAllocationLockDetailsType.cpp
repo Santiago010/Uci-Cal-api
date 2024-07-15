@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/RequirementAllocationLockDetailsType.h"
+#include "../../../include/asb_uci/type/RequirementAllocationLockDetailsType.h"
 
 #include <memory>
 #include <string>
@@ -41,13 +41,13 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/RequirementsReferenceLockableType.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/RequirementAllocationLockDetailsType.h"
-#include "uci/type/RequirementsReferenceLockableType.h"
+#include "../../../include/asb_uci/type/RequirementsReferenceLockableType.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RequirementAllocationLockDetailsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RequirementsReferenceLockableType.h"
 
 /**  */
 namespace asb_uci {

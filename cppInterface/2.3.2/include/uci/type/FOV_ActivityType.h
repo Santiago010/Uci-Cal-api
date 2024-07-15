@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_FOV_ACTIVITYTYPE_H
 #define UCI_TYPE_FOV_ACTIVITYTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/DistanceType.h"
-#include "uci/type/FOV_Type.h"
-#include "uci/type/PolygonType.h"
+#include "../base/export.h"
+#include "DateTimeType.h"
+#include "DistanceType.h"
+#include "FOV_Type.h"
+#include "PolygonType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

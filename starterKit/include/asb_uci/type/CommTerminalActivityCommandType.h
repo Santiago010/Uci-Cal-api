@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/CommConnectionCommandEnum.h"
-#include "asb_uci/type/SharedRF_ApertureActivityCommandBaseType.h"
-#include "uci/type/CommTerminalActivityCommandType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/CommConnectionCommandEnum.h"
+#include "../../../include/asb_uci/type/SharedRF_ApertureActivityCommandBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommTerminalActivityCommandType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_PRODUCTDISSEMINATIONPLAN_H
 #define UCI_TYPE_PRODUCTDISSEMINATIONPLAN_H
 
-#include "uci/type/ProductDisseminationPlanMT.h"
+#include "ProductDisseminationPlanMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

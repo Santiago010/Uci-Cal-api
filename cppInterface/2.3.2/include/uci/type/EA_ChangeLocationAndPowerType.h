@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_EA_CHANGELOCATIONANDPOWERTYPE_H
 #define UCI_TYPE_EA_CHANGELOCATIONANDPOWERTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EA_PowerType.h"
-#include "uci/type/EA_TargetPointingType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "EA_PowerType.h"
+#include "EA_TargetPointingType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

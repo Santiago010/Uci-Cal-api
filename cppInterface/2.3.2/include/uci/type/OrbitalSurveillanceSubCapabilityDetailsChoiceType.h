@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_ORBITALSURVEILLANCESUBCAPABILITYDETAILSCHOICETYPE_H
 #define UCI_TYPE_ORBITALSURVEILLANCESUBCAPABILITYDETAILSCHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CharacterizationObjectiveType.h"
-#include "uci/type/DeploymentDetectionType.h"
-#include "uci/type/ManeuverDetectionType.h"
-#include "uci/type/MultiObjectType.h"
-#include "uci/type/OrbitAccuracyType.h"
-#include "uci/type/OrbitalSurveillanceSearchType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CharacterizationObjectiveType.h"
+#include "DeploymentDetectionType.h"
+#include "ManeuverDetectionType.h"
+#include "MultiObjectType.h"
+#include "OrbitAccuracyType.h"
+#include "OrbitalSurveillanceSearchType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

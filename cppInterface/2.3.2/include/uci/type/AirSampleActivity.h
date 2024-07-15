@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_AIRSAMPLEACTIVITY_H
 #define UCI_TYPE_AIRSAMPLEACTIVITY_H
 
-#include "uci/type/AirSampleActivityMT.h"
+#include "AirSampleActivityMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

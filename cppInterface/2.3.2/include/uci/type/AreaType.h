@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_AREATYPE_H
 #define UCI_TYPE_AREATYPE_H
 
-#include "uci/type/DoubleNonNegativeType.h"
+#include "DoubleNonNegativeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

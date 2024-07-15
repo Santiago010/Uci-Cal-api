@@ -41,14 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/DecibelType.h"
-#include "asb_uci/type/FrequencyType.h"
-#include "asb_uci/type/IrradianceType.h"
-#include "asb_uci/type/PassiveActiveEnum.h"
-#include "asb_uci/type/PathIdentificationEnum.h"
-#include "asb_uci/type/PercentType.h"
-#include "uci/type/MeasurementCharacteristicsType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/DecibelType.h"
+#include "../../../include/asb_uci/type/FrequencyType.h"
+#include "../../../include/asb_uci/type/IrradianceType.h"
+#include "../../../include/asb_uci/type/PassiveActiveEnum.h"
+#include "../../../include/asb_uci/type/PathIdentificationEnum.h"
+#include "../../../include/asb_uci/type/PercentType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MeasurementCharacteristicsType.h"
 
 /**  */
 namespace asb_uci {

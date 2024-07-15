@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_ESTIMATIONSTARTTYPE_H
 #define UCI_TYPE_ESTIMATIONSTARTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/InertialStateRelativeType.h"
-#include "uci/type/SegmentID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DateTimeType.h"
+#include "InertialStateRelativeType.h"
+#include "SegmentID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

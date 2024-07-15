@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_AIRFIELDGENERALSTORETYPE_H
 #define UCI_TYPE_AIRFIELDGENERALSTORETYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AirfieldStoresEnum.h"
-#include "uci/type/AirfieldStoresPET.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AirfieldStoresEnum.h"
+#include "AirfieldStoresPET.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

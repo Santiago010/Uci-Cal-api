@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_CONSTRAININGPLANPARTSTYPE_H
 #define UCI_TYPE_CONSTRAININGPLANPARTSTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/CommAllocationPartsType.h"
-#include "uci/type/PlanPartsType.h"
+#include "../base/export.h"
+#include "CommAllocationPartsType.h"
+#include "PlanPartsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ESM_BinProfileType.h"
+#include "../../../include/asb_uci/type/ESM_BinProfileType.h"
 
 #include <memory>
 #include <string>
@@ -41,17 +41,17 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CapabilityID_Type.h"
-#include "asb_uci/type/ESM_BinType.h"
-#include "asb_uci/type/SubsystemID_Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/ESM_BinProfileType.h"
-#include "uci/type/ESM_BinType.h"
-#include "uci/type/SubsystemID_Type.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/CapabilityID_Type.h"
+#include "../../../include/asb_uci/type/ESM_BinType.h"
+#include "../../../include/asb_uci/type/SubsystemID_Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ESM_BinProfileType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ESM_BinType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

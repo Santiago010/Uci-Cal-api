@@ -36,19 +36,19 @@
 #ifndef UCI_TYPE_MSTGTA_REVA_TYPE_H
 #define UCI_TYPE_MSTGTA_REVA_TYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ElevationType.h"
-#include "uci/type/MSTGTA_TGT_LOC_Type.h"
-#include "uci/type/MSTGTA_TGT_LTIOV_Type.h"
-#include "uci/type/MeterUnitLetterStringType.h"
-#include "uci/type/NITF_TargetCategoryCodeType.h"
-#include "uci/type/NITF_TargetNumberType.h"
-#include "uci/type/NITF_TargetPriorityType.h"
-#include "uci/type/SingleDigitStringType.h"
-#include "uci/type/TGT_UTCStringType.h"
-#include "uci/type/VisibleString12Type.h"
-#include "uci/type/VisibleString15Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ElevationType.h"
+#include "MSTGTA_TGT_LOC_Type.h"
+#include "MSTGTA_TGT_LTIOV_Type.h"
+#include "MeterUnitLetterStringType.h"
+#include "NITF_TargetCategoryCodeType.h"
+#include "NITF_TargetNumberType.h"
+#include "NITF_TargetPriorityType.h"
+#include "SingleDigitStringType.h"
+#include "TGT_UTCStringType.h"
+#include "VisibleString12Type.h"
+#include "VisibleString15Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/OpticalCollectionConstraintsType.h"
-#include "asb_uci/type/PO_CollectionConstraintsEnum.h"
-#include "uci/type/PO_CollectionConstraintsType.h"
+#include "../../../include/asb_uci/type/OpticalCollectionConstraintsType.h"
+#include "../../../include/asb_uci/type/PO_CollectionConstraintsEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_CollectionConstraintsType.h"
 
 /**  */
 namespace asb_uci {

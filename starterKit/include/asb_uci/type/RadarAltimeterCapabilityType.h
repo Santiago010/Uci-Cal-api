@@ -41,12 +41,12 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/CommandableCapabilityDeclarationType.h"
-#include "asb_uci/type/RadarAltimeterCapabilityEnum.h"
-#include "asb_uci/type/RadarAltimeterMessageOutputsEnum.h"
-#include "asb_uci/type/RadarAltimeterSubCapabilityEnum.h"
-#include "uci/type/RadarAltimeterCapabilityType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/CommandableCapabilityDeclarationType.h"
+#include "../../../include/asb_uci/type/RadarAltimeterCapabilityEnum.h"
+#include "../../../include/asb_uci/type/RadarAltimeterMessageOutputsEnum.h"
+#include "../../../include/asb_uci/type/RadarAltimeterSubCapabilityEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RadarAltimeterCapabilityType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_RADARALTIMETERCAPABILITYSTATUS_H
 #define UCI_TYPE_RADARALTIMETERCAPABILITYSTATUS_H
 
-#include "uci/type/RadarAltimeterCapabilityStatusMT.h"
+#include "RadarAltimeterCapabilityStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

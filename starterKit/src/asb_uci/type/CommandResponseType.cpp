@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CommandResponseType.h"
+#include "../../../include/asb_uci/type/CommandResponseType.h"
 
 #include <memory>
 #include <string>
@@ -41,34 +41,34 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AMTI_CommandResponseType.h"
-#include "asb_uci/type/AO_CommandResponseType.h"
-#include "asb_uci/type/AirSampleCommandResponseType.h"
-#include "asb_uci/type/COMINT_CommandResponseType.h"
-#include "asb_uci/type/CommRelayCommandResponseType.h"
-#include "asb_uci/type/EA_CommandResponseType.h"
-#include "asb_uci/type/ESM_CommandResponseType.h"
-#include "asb_uci/type/EmptyType.h"
-#include "asb_uci/type/PO_CommandResponseType.h"
-#include "asb_uci/type/SAR_CommandResponseType.h"
-#include "asb_uci/type/SMTI_CommandResponseType.h"
-#include "asb_uci/type/StrikeWeaponCommandType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AMTI_CommandResponseType.h"
-#include "uci/type/AO_CommandResponseType.h"
-#include "uci/type/AirSampleCommandResponseType.h"
-#include "uci/type/COMINT_CommandResponseType.h"
-#include "uci/type/CommRelayCommandResponseType.h"
-#include "uci/type/CommandResponseType.h"
-#include "uci/type/EA_CommandResponseType.h"
-#include "uci/type/ESM_CommandResponseType.h"
-#include "uci/type/EmptyType.h"
-#include "uci/type/PO_CommandResponseType.h"
-#include "uci/type/SAR_CommandResponseType.h"
-#include "uci/type/SMTI_CommandResponseType.h"
-#include "uci/type/StrikeWeaponCommandType.h"
+#include "../../../include/asb_uci/type/AMTI_CommandResponseType.h"
+#include "../../../include/asb_uci/type/AO_CommandResponseType.h"
+#include "../../../include/asb_uci/type/AirSampleCommandResponseType.h"
+#include "../../../include/asb_uci/type/COMINT_CommandResponseType.h"
+#include "../../../include/asb_uci/type/CommRelayCommandResponseType.h"
+#include "../../../include/asb_uci/type/EA_CommandResponseType.h"
+#include "../../../include/asb_uci/type/ESM_CommandResponseType.h"
+#include "../../../include/asb_uci/type/EmptyType.h"
+#include "../../../include/asb_uci/type/PO_CommandResponseType.h"
+#include "../../../include/asb_uci/type/SAR_CommandResponseType.h"
+#include "../../../include/asb_uci/type/SMTI_CommandResponseType.h"
+#include "../../../include/asb_uci/type/StrikeWeaponCommandType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AMTI_CommandResponseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AO_CommandResponseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AirSampleCommandResponseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/COMINT_CommandResponseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommRelayCommandResponseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommandResponseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EA_CommandResponseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ESM_CommandResponseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EmptyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_CommandResponseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SAR_CommandResponseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SMTI_CommandResponseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StrikeWeaponCommandType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_ROUTEPLANEXECUTIONSTATUSMDT_H
 #define UCI_TYPE_ROUTEPLANEXECUTIONSTATUSMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/RoutePlanExecutionStateType.h"
-#include "uci/type/SegmentCompletedType.h"
-#include "uci/type/SegmentEstimateType.h"
-#include "uci/type/SystemID_Type.h"
-#include "uci/type/SystemSourceEnum.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "RoutePlanExecutionStateType.h"
+#include "SegmentCompletedType.h"
+#include "SegmentEstimateType.h"
+#include "SystemID_Type.h"
+#include "SystemSourceEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

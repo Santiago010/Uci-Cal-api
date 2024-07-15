@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_ACCESSEVENTFILTERTYPE_H
 #define UCI_TYPE_ACCESSEVENTFILTERTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AccessEffortEnum.h"
-#include "uci/type/DateTimeRangeType.h"
-#include "uci/type/DistanceConstraintsType.h"
-#include "uci/type/DurationRangeType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AccessEffortEnum.h"
+#include "DateTimeRangeType.h"
+#include "DistanceConstraintsType.h"
+#include "DurationRangeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

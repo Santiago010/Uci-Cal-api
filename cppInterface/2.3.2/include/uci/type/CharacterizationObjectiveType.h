@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_CHARACTERIZATIONOBJECTIVETYPE_H
 #define UCI_TYPE_CHARACTERIZATIONOBJECTIVETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CharacterizationOptionsType.h"
-#include "uci/type/IdentificationVerificationType.h"
-#include "uci/type/SatelliteOperationsChangesCharacterizationType.h"
-#include "uci/type/StabilityCharacterizationType.h"
-#include "uci/type/StructureAssessmentType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CharacterizationOptionsType.h"
+#include "IdentificationVerificationType.h"
+#include "SatelliteOperationsChangesCharacterizationType.h"
+#include "StabilityCharacterizationType.h"
+#include "StructureAssessmentType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

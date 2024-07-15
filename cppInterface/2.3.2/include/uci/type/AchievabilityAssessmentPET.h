@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_ACHIEVABILITYASSESSMENTPET_H
 #define UCI_TYPE_ACHIEVABILITYASSESSMENTPET_H
 
-#include "uci/type/AchievabilityEnum.h"
-#include "uci/type/AssessmentStatusType.h"
-#include "uci/type/CannotComplyType.h"
-#include "uci/type/RoutePlanReferencesType.h"
+#include "AchievabilityEnum.h"
+#include "AssessmentStatusType.h"
+#include "CannotComplyType.h"
+#include "RoutePlanReferencesType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CoordinatedRequirementSetStatusMDT.h"
+#include "../../../include/asb_uci/type/CoordinatedRequirementSetStatusMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,18 +41,18 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CoordinatedRequirementSetID_Type.h"
-#include "asb_uci/type/CoordinationConditionType.h"
-#include "asb_uci/type/RequirementExecutionStateEnum.h"
-#include "asb_uci/type/RequirementInstanceID_ChoiceType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CoordinatedRequirementSetID_Type.h"
-#include "uci/type/CoordinatedRequirementSetStatusMDT.h"
-#include "uci/type/CoordinationConditionType.h"
-#include "uci/type/RequirementExecutionStateEnum.h"
-#include "uci/type/RequirementInstanceID_ChoiceType.h"
+#include "../../../include/asb_uci/type/CoordinatedRequirementSetID_Type.h"
+#include "../../../include/asb_uci/type/CoordinationConditionType.h"
+#include "../../../include/asb_uci/type/RequirementExecutionStateEnum.h"
+#include "../../../include/asb_uci/type/RequirementInstanceID_ChoiceType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CoordinatedRequirementSetID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CoordinatedRequirementSetStatusMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CoordinationConditionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RequirementExecutionStateEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RequirementInstanceID_ChoiceType.h"
 
 /**  */
 namespace asb_uci {

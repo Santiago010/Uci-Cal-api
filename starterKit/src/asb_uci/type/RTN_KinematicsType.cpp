@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/RTN_KinematicsType.h"
+#include "../../../include/asb_uci/type/RTN_KinematicsType.h"
 
 #include <memory>
 #include <string>
@@ -41,21 +41,21 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CovarianceMatrixType.h"
-#include "asb_uci/type/QuaternionType.h"
-#include "asb_uci/type/RTN_AccelerationType.h"
-#include "asb_uci/type/RTN_PositionType.h"
-#include "asb_uci/type/RTN_VelocityType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CovarianceMatrixType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/QuaternionType.h"
-#include "uci/type/RTN_AccelerationType.h"
-#include "uci/type/RTN_KinematicsType.h"
-#include "uci/type/RTN_PositionType.h"
-#include "uci/type/RTN_VelocityType.h"
+#include "../../../include/asb_uci/type/CovarianceMatrixType.h"
+#include "../../../include/asb_uci/type/QuaternionType.h"
+#include "../../../include/asb_uci/type/RTN_AccelerationType.h"
+#include "../../../include/asb_uci/type/RTN_PositionType.h"
+#include "../../../include/asb_uci/type/RTN_VelocityType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CovarianceMatrixType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DateTimeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/QuaternionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RTN_AccelerationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RTN_KinematicsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RTN_PositionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RTN_VelocityType.h"
 
 /**  */
 namespace asb_uci {

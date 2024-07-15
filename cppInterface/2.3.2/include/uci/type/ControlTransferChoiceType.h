@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_CONTROLTRANSFERCHOICETYPE_H
 #define UCI_TYPE_CONTROLTRANSFERCHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ControlStatusMissionControlType.h"
-#include "uci/type/EmptyType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ControlStatusMissionControlType.h"
+#include "EmptyType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

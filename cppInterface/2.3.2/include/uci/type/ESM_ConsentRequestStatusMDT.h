@@ -36,8 +36,8 @@
 #ifndef UCI_TYPE_ESM_CONSENTREQUESTSTATUSMDT_H
 #define UCI_TYPE_ESM_CONSENTREQUESTSTATUSMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/CapabilityConsentRequestStatusBaseType.h"
+#include "../base/export.h"
+#include "CapabilityConsentRequestStatusBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_APPROVALMANAGEMENTCOMMANDMDT_H
 #define UCI_TYPE_APPROVALMANAGEMENTCOMMANDMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ApprovalPolicyID_Type.h"
-#include "uci/type/ApprovalRequestItemReferenceType.h"
-#include "uci/type/CommandBaseType.h"
-#include "uci/type/PlanPolicyProcessingEnum.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ApprovalPolicyID_Type.h"
+#include "ApprovalRequestItemReferenceType.h"
+#include "CommandBaseType.h"
+#include "PlanPolicyProcessingEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

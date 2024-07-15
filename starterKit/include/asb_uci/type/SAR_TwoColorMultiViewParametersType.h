@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/ImagePixelDepthEnum.h"
-#include "asb_uci/type/SAR_ProcessingParametersType.h"
-#include "uci/type/SAR_TwoColorMultiViewParametersType.h"
+#include "../../../include/asb_uci/type/ImagePixelDepthEnum.h"
+#include "../../../include/asb_uci/type/SAR_ProcessingParametersType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SAR_TwoColorMultiViewParametersType.h"
 
 /**  */
 namespace asb_uci {

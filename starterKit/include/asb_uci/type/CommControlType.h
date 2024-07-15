@@ -41,13 +41,13 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/CommReceiverStateEnum.h"
-#include "asb_uci/type/CommTransmitterStateEnum.h"
-#include "asb_uci/type/DataRateType.h"
-#include "asb_uci/type/MilliwattPowerRatioType.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/CommControlType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/CommReceiverStateEnum.h"
+#include "../../../include/asb_uci/type/CommTransmitterStateEnum.h"
+#include "../../../include/asb_uci/type/DataRateType.h"
+#include "../../../include/asb_uci/type/MilliwattPowerRatioType.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommControlType.h"
 
 /**  */
 namespace asb_uci {

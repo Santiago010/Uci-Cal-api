@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_ACTIONALLOCATIONINVALIDTYPE_H
 #define UCI_TYPE_ACTIONALLOCATIONINVALIDTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ActionID_Type.h"
-#include "uci/type/CannotComplyType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ActionID_Type.h"
+#include "CannotComplyType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

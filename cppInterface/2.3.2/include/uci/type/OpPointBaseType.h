@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_OPPOINTBASETYPE_H
 #define UCI_TYPE_OPPOINTBASETYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/type/AnglePairType.h"
-#include "uci/type/OpBaseType.h"
-#include "uci/type/OpPointChoiceType.h"
-#include "uci/type/OpPointID_Type.h"
-#include "uci/type/RelativeDirectionEnum.h"
-#include "uci/type/SafeAltitudeType.h"
-#include "uci/type/SystemConfigurationType.h"
+#include "../base/BoundedList.h"
+#include "AnglePairType.h"
+#include "OpBaseType.h"
+#include "OpPointChoiceType.h"
+#include "OpPointID_Type.h"
+#include "RelativeDirectionEnum.h"
+#include "SafeAltitudeType.h"
+#include "SystemConfigurationType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

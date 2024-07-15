@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_TACTICALORDERCAPABILITYSTATUS_H
 #define UCI_TYPE_TACTICALORDERCAPABILITYSTATUS_H
 
-#include "uci/type/TacticalOrderCapabilityStatusMT.h"
+#include "TacticalOrderCapabilityStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_SYSTEMDATATYPE_H
 #define UCI_TYPE_SYSTEMDATATYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/NavigationReportMDT.h"
-#include "uci/type/PositionReportMDT.h"
-#include "uci/type/SystemMetadataMDT.h"
-#include "uci/type/SystemStatusMDT.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "NavigationReportMDT.h"
+#include "PositionReportMDT.h"
+#include "SystemMetadataMDT.h"
+#include "SystemStatusMDT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

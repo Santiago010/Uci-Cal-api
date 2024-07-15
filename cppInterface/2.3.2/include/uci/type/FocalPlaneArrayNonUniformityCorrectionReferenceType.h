@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_FOCALPLANEARRAYNONUNIFORMITYCORRECTIONREFERENCETYPE_H
 #define UCI_TYPE_FOCALPLANEARRAYNONUNIFORMITYCORRECTIONREFERENCETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/FocalPlaneArrayNonUniformityCorrectionOffsetEnum.h"
-#include "uci/type/FocalPlaneArrayNonUniformityCorrectionReferenceEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "FocalPlaneArrayNonUniformityCorrectionOffsetEnum.h"
+#include "FocalPlaneArrayNonUniformityCorrectionReferenceEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

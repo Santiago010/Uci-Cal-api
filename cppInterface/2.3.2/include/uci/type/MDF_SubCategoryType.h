@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_MDF_SUBCATEGORYTYPE_H
 #define UCI_TYPE_MDF_SUBCATEGORYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/MDF_FileType.h"
-#include "uci/type/MDF_StatusEnum.h"
-#include "uci/type/MDF_SubCategoryID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "MDF_FileType.h"
+#include "MDF_StatusEnum.h"
+#include "MDF_SubCategoryID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

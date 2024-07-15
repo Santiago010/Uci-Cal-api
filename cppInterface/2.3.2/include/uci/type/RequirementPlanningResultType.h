@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_REQUIREMENTPLANNINGRESULTTYPE_H
 #define UCI_TYPE_REQUIREMENTPLANNINGRESULTTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/RequirementInstanceID_ChoiceType.h"
-#include "uci/type/RequirementPlanningResultBaseType.h"
+#include "../base/export.h"
+#include "RequirementInstanceID_ChoiceType.h"
+#include "RequirementPlanningResultBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

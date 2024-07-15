@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ProductProcessingFunctionType.h"
+#include "../../../include/asb_uci/type/ProductProcessingFunctionType.h"
 
 #include <memory>
 #include <string>
@@ -41,20 +41,20 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AcceptedProductInformationType.h"
-#include "asb_uci/type/FunctionID_Type.h"
-#include "asb_uci/type/SupportedOutputType.h"
-#include "asb_uci/type/SupportedProcessingType.h"
-#include "asb_uci/type/SystemID_Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AcceptedProductInformationType.h"
-#include "uci/type/FunctionID_Type.h"
-#include "uci/type/ProductProcessingFunctionType.h"
-#include "uci/type/SupportedOutputType.h"
-#include "uci/type/SupportedProcessingType.h"
-#include "uci/type/SystemID_Type.h"
+#include "../../../include/asb_uci/type/AcceptedProductInformationType.h"
+#include "../../../include/asb_uci/type/FunctionID_Type.h"
+#include "../../../include/asb_uci/type/SupportedOutputType.h"
+#include "../../../include/asb_uci/type/SupportedProcessingType.h"
+#include "../../../include/asb_uci/type/SystemID_Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AcceptedProductInformationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FunctionID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProductProcessingFunctionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SupportedOutputType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SupportedProcessingType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SystemID_Type.h"
 
 /**  */
 namespace asb_uci {

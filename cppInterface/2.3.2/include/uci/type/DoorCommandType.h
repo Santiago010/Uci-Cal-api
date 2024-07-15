@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_DOORCOMMANDTYPE_H
 #define UCI_TYPE_DOORCOMMANDTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/DoorCommandChoiceType.h"
-#include "uci/type/SupportCapabilityCommandBaseType.h"
+#include "../base/export.h"
+#include "DoorCommandChoiceType.h"
+#include "SupportCapabilityCommandBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

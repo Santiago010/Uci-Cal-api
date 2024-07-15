@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SUBSYSTEMSTREAM_H
 #define UCI_TYPE_SUBSYSTEMSTREAM_H
 
-#include "uci/type/SubsystemStreamMT.h"
+#include "SubsystemStreamMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

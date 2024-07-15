@@ -41,11 +41,11 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AngleType.h"
-#include "asb_uci/type/DecibelType.h"
-#include "asb_uci/type/PolarizationEnum.h"
-#include "asb_uci/type/PolarizationSenseEnum.h"
-#include "uci/type/PolarizationType.h"
+#include "../../../include/asb_uci/type/AngleType.h"
+#include "../../../include/asb_uci/type/DecibelType.h"
+#include "../../../include/asb_uci/type/PolarizationEnum.h"
+#include "../../../include/asb_uci/type/PolarizationSenseEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PolarizationType.h"
 
 /**  */
 namespace asb_uci {

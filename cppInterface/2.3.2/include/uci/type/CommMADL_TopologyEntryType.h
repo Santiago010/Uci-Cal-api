@@ -36,18 +36,18 @@
 #ifndef UCI_TYPE_COMMMADL_TOPOLOGYENTRYTYPE_H
 #define UCI_TYPE_COMMMADL_TOPOLOGYENTRYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CommMADL_DataRateTypeEnum.h"
-#include "uci/type/CommMADL_FlightGroupType.h"
-#include "uci/type/CommMADL_NodeDataValidityEnum.h"
-#include "uci/type/CommMADL_SecurityKeyType.h"
-#include "uci/type/CommMADL_TimeSourceEnum.h"
-#include "uci/type/MADL_NodeRangeType.h"
-#include "uci/type/Point4D_Type.h"
-#include "uci/type/ShortPositiveType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CommMADL_DataRateTypeEnum.h"
+#include "CommMADL_FlightGroupType.h"
+#include "CommMADL_NodeDataValidityEnum.h"
+#include "CommMADL_SecurityKeyType.h"
+#include "CommMADL_TimeSourceEnum.h"
+#include "MADL_NodeRangeType.h"
+#include "Point4D_Type.h"
+#include "ShortPositiveType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

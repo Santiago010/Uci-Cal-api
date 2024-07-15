@@ -36,17 +36,17 @@
 #ifndef UCI_TYPE_CS_FORCETYPE_H
 #define UCI_TYPE_CS_FORCETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CS_CapabilitiesType.h"
-#include "uci/type/CS_FreeFormatType.h"
-#include "uci/type/CS_ObscuraDataType.h"
-#include "uci/type/CS_PostureType.h"
-#include "uci/type/DistanceType.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/VisibleString32Type.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CS_CapabilitiesType.h"
+#include "CS_FreeFormatType.h"
+#include "CS_ObscuraDataType.h"
+#include "CS_PostureType.h"
+#include "DistanceType.h"
+#include "ForeignKeyType.h"
+#include "VisibleString32Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

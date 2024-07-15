@@ -36,8 +36,8 @@
 #ifndef UCI_TYPE_PLANNINGFUNCTIONSETTINGSCOMMANDSTATUSMDT_H
 #define UCI_TYPE_PLANNINGFUNCTIONSETTINGSCOMMANDSTATUSMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/CommandStatusBaseType.h"
+#include "../base/export.h"
+#include "CommandStatusBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

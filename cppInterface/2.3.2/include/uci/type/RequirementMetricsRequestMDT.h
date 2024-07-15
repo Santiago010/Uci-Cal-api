@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_REQUIREMENTMETRICSREQUESTMDT_H
 #define UCI_TYPE_REQUIREMENTMETRICSREQUESTMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/PlansRequirementsReferenceType.h"
-#include "uci/type/RequestBaseType.h"
-#include "uci/type/RequirementTaxonomyType.h"
+#include "../base/export.h"
+#include "PlansRequirementsReferenceType.h"
+#include "RequestBaseType.h"
+#include "RequirementTaxonomyType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_OPERATORMDT_H
 #define UCI_TYPE_OPERATORMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ContactDetailsType.h"
-#include "uci/type/DataRecordBaseType.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/OperatorID_Type.h"
-#include "uci/type/OperatorRoleID_Type.h"
-#include "uci/type/OperatorStatusEnum.h"
-#include "uci/type/SystemID_Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ContactDetailsType.h"
+#include "DataRecordBaseType.h"
+#include "ForeignKeyType.h"
+#include "OperatorID_Type.h"
+#include "OperatorRoleID_Type.h"
+#include "OperatorStatusEnum.h"
+#include "SystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SYSTEMORBITALELEMENTSET_H
 #define UCI_TYPE_SYSTEMORBITALELEMENTSET_H
 
-#include "uci/type/SystemOrbitalElementSetMT.h"
+#include "SystemOrbitalElementSetMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

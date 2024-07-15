@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_SMTI_CAPABILITYOPTIONSTYPE_H
 #define UCI_TYPE_SMTI_CAPABILITYOPTIONSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/UnsignedByteAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/COARPS_SMTI_CollectionOptionsEnum.h"
-#include "uci/type/ElectronicProtectionOptionsSupportedType.h"
-#include "uci/type/MultistaticOptionsSupportedType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/UnsignedByteAccessor.h"
+#include "../base/export.h"
+#include "COARPS_SMTI_CollectionOptionsEnum.h"
+#include "ElectronicProtectionOptionsSupportedType.h"
+#include "MultistaticOptionsSupportedType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

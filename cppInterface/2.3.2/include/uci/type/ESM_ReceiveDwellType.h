@@ -36,21 +36,21 @@
 #ifndef UCI_TYPE_ESM_RECEIVEDWELLTYPE_H
 #define UCI_TYPE_ESM_RECEIVEDWELLTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ComponentID_Type.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/DecibelType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/DwellID_Type.h"
-#include "uci/type/ESM_AcquisitionTargetType.h"
-#include "uci/type/ESM_DwellStateEnum.h"
-#include "uci/type/ESM_DwellTypeEnum.h"
-#include "uci/type/FrequencyRangeType.h"
-#include "uci/type/FrequencyType.h"
-#include "uci/type/MilliwattPowerRatioType.h"
-#include "uci/type/NED_ConeType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ComponentID_Type.h"
+#include "DateTimeType.h"
+#include "DecibelType.h"
+#include "DurationType.h"
+#include "DwellID_Type.h"
+#include "ESM_AcquisitionTargetType.h"
+#include "ESM_DwellStateEnum.h"
+#include "ESM_DwellTypeEnum.h"
+#include "FrequencyRangeType.h"
+#include "FrequencyType.h"
+#include "MilliwattPowerRatioType.h"
+#include "NED_ConeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

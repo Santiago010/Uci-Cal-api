@@ -36,22 +36,22 @@
 #ifndef UCI_TYPE_MEASUREMENTTYPE_H
 #define UCI_TYPE_MEASUREMENTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/EntityID_Type.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/IdentityConfidenceType.h"
-#include "uci/type/MeasurementCharacteristicsType.h"
-#include "uci/type/MeasurementGroupID_Type.h"
-#include "uci/type/MeasurementID_Type.h"
-#include "uci/type/MeasurementKinematicsChoiceType.h"
-#include "uci/type/ObjectKinematicsChoiceType.h"
-#include "uci/type/PulseDataID_Type.h"
-#include "uci/type/SensorKinematicsChoiceType.h"
-#include "uci/type/SignalID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DateTimeType.h"
+#include "EntityID_Type.h"
+#include "ForeignKeyType.h"
+#include "IdentityConfidenceType.h"
+#include "MeasurementCharacteristicsType.h"
+#include "MeasurementGroupID_Type.h"
+#include "MeasurementID_Type.h"
+#include "MeasurementKinematicsChoiceType.h"
+#include "ObjectKinematicsChoiceType.h"
+#include "PulseDataID_Type.h"
+#include "SensorKinematicsChoiceType.h"
+#include "SignalID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

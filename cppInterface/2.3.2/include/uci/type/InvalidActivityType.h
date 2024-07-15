@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_INVALIDACTIVITYTYPE_H
 #define UCI_TYPE_INVALIDACTIVITYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CannotComplyType.h"
-#include "uci/type/PlannedActivityID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CannotComplyType.h"
+#include "PlannedActivityID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

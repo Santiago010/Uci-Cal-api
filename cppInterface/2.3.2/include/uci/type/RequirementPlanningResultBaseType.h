@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_REQUIREMENTPLANNINGRESULTBASETYPE_H
 #define UCI_TYPE_REQUIREMENTPLANNINGRESULTBASETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/PlanReferenceType.h"
-#include "uci/type/PlanningResultEnum.h"
-#include "uci/type/SystemID_Type.h"
-#include "uci/type/UnallocatedReasonType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "PlanReferenceType.h"
+#include "PlanningResultEnum.h"
+#include "SystemID_Type.h"
+#include "UnallocatedReasonType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

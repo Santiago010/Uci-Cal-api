@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_DATAPLAN_H
 #define UCI_TYPE_DATAPLAN_H
 
-#include "uci/type/DataPlanMT.h"
+#include "DataPlanMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

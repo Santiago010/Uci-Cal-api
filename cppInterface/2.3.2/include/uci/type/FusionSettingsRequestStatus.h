@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_FUSIONSETTINGSREQUESTSTATUS_H
 #define UCI_TYPE_FUSIONSETTINGSREQUESTSTATUS_H
 
-#include "uci/type/FusionSettingsRequestStatusMT.h"
+#include "FusionSettingsRequestStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

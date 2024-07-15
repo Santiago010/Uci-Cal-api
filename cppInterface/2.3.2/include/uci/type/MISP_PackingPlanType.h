@@ -36,22 +36,22 @@
 #ifndef UCI_TYPE_MISP_PACKINGPLANTYPE_H
 #define UCI_TYPE_MISP_PACKINGPLANTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/DoubleAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AlphanumericDashSpaceUnderscoreString16Type.h"
-#include "uci/type/AlphanumericDashSpaceUnderscoreString20Type.h"
-#include "uci/type/AlphanumericDashSpaceUnderscoreString40Type.h"
-#include "uci/type/MISP_OperationalModeEnum.h"
-#include "uci/type/MissionID_Type.h"
-#include "uci/type/TailNumberType.h"
-#include "uci/type/UMID_AudioID_Type.h"
-#include "uci/type/UMID_DataID_Type.h"
-#include "uci/type/UMID_SystemID_Type.h"
-#include "uci/type/UMID_VideoID_Type.h"
-#include "uci/type/VisibleString10Type.h"
-#include "uci/type/VisibleString20Type.h"
-#include "uci/type/VisibleString480Type.h"
+#include "../base/Accessor.h"
+#include "../base/DoubleAccessor.h"
+#include "../base/export.h"
+#include "AlphanumericDashSpaceUnderscoreString16Type.h"
+#include "AlphanumericDashSpaceUnderscoreString20Type.h"
+#include "AlphanumericDashSpaceUnderscoreString40Type.h"
+#include "MISP_OperationalModeEnum.h"
+#include "MissionID_Type.h"
+#include "TailNumberType.h"
+#include "UMID_AudioID_Type.h"
+#include "UMID_DataID_Type.h"
+#include "UMID_SystemID_Type.h"
+#include "UMID_VideoID_Type.h"
+#include "VisibleString10Type.h"
+#include "VisibleString20Type.h"
+#include "VisibleString480Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

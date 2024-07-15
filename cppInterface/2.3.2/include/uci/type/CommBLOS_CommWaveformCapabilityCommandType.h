@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_COMMBLOS_COMMWAVEFORMCAPABILITYCOMMANDTYPE_H
 #define UCI_TYPE_COMMBLOS_COMMWAVEFORMCAPABILITYCOMMANDTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/CommBLOS_ControlType.h"
-#include "uci/type/CommWaveformCapabilityCommandPET.h"
+#include "../base/export.h"
+#include "CommBLOS_ControlType.h"
+#include "CommWaveformCapabilityCommandPET.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

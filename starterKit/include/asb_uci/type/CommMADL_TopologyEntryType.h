@@ -41,15 +41,15 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/CommMADL_DataRateTypeEnum.h"
-#include "asb_uci/type/CommMADL_FlightGroupType.h"
-#include "asb_uci/type/CommMADL_NodeDataValidityEnum.h"
-#include "asb_uci/type/CommMADL_TimeSourceEnum.h"
-#include "asb_uci/type/MADL_NodeRangeType.h"
-#include "asb_uci/type/ShortPositiveType.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/CommMADL_TopologyEntryType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/CommMADL_DataRateTypeEnum.h"
+#include "../../../include/asb_uci/type/CommMADL_FlightGroupType.h"
+#include "../../../include/asb_uci/type/CommMADL_NodeDataValidityEnum.h"
+#include "../../../include/asb_uci/type/CommMADL_TimeSourceEnum.h"
+#include "../../../include/asb_uci/type/MADL_NodeRangeType.h"
+#include "../../../include/asb_uci/type/ShortPositiveType.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommMADL_TopologyEntryType.h"
 
 /**  */
 namespace asb_uci {

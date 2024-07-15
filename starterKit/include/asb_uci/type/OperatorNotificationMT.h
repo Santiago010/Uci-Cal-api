@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/MessageType.h"
-#include "asb_uci/type/ObjectStateEnum.h"
-#include "uci/type/OperatorNotificationMT.h"
+#include "../../../include/asb_uci/type/MessageType.h"
+#include "../../../include/asb_uci/type/ObjectStateEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OperatorNotificationMT.h"
 
 /**  */
 namespace asb_uci {

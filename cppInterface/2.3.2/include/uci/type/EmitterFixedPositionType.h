@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_EMITTERFIXEDPOSITIONTYPE_H
 #define UCI_TYPE_EMITTERFIXEDPOSITIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EmitterUncertaintyType.h"
-#include "uci/type/Point2D_ReportedType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "EmitterUncertaintyType.h"
+#include "Point2D_ReportedType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

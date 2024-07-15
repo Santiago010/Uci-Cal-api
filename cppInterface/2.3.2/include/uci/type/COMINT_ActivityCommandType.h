@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_COMINT_ACTIVITYCOMMANDTYPE_H
 #define UCI_TYPE_COMINT_ACTIVITYCOMMANDTYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/COMINT_ChangeDwellType.h"
-#include "uci/type/COMINT_ChangeGeolocationType.h"
-#include "uci/type/SharedRF_ApertureActivityCommandBaseType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "COMINT_ChangeDwellType.h"
+#include "COMINT_ChangeGeolocationType.h"
+#include "SharedRF_ApertureActivityCommandBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

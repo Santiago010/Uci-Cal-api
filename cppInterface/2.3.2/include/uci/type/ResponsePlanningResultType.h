@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_RESPONSEPLANNINGRESULTTYPE_H
 #define UCI_TYPE_RESPONSEPLANNINGRESULTTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/RequirementPlanningResultBaseType.h"
-#include "uci/type/ResponseID_Type.h"
+#include "../base/export.h"
+#include "RequirementPlanningResultBaseType.h"
+#include "ResponseID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

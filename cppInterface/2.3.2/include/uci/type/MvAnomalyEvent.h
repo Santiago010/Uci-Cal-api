@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_MVANOMALYEVENT_H
 #define UCI_TYPE_MVANOMALYEVENT_H
 
-#include "uci/type/MvAnomalyEventMT.h"
+#include "MvAnomalyEventMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

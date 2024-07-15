@@ -36,17 +36,17 @@
 #ifndef UCI_TYPE_MUSTFLYLOCATIONTYPE_H
 #define UCI_TYPE_MUSTFLYLOCATIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EntityID_Type.h"
-#include "uci/type/LineTargetType.h"
-#include "uci/type/OpLineID_Type.h"
-#include "uci/type/OpPointID_Type.h"
-#include "uci/type/OpVolumeID_Type.h"
-#include "uci/type/OpVolumeType.h"
-#include "uci/type/OpZoneID_Type.h"
-#include "uci/type/Point3D_Type.h"
-#include "uci/type/ZoneExternalType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "EntityID_Type.h"
+#include "LineTargetType.h"
+#include "OpLineID_Type.h"
+#include "OpPointID_Type.h"
+#include "OpVolumeID_Type.h"
+#include "OpVolumeType.h"
+#include "OpZoneID_Type.h"
+#include "Point3D_Type.h"
+#include "ZoneExternalType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

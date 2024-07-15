@@ -46,7 +46,7 @@
 #include <boost/property_tree/ptree.hpp>
 
 #include "uci/base/UUID.h"
-#include "xs/type/xmlSchemaPrimitives.h"
+#include "../../xs/type/xmlSchemaPrimitives.h"
 
 /**  */
 namespace extjson_uci {

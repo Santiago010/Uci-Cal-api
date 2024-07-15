@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SURVIVABILITYRISKLEVEL_H
 #define UCI_TYPE_SURVIVABILITYRISKLEVEL_H
 
-#include "uci/type/SurvivabilityRiskLevelMT.h"
+#include "SurvivabilityRiskLevelMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

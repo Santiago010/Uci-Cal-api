@@ -41,11 +41,11 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AlphanumericDashSpaceUnderscoreString3Type.h"
-#include "asb_uci/type/MobilityEnum.h"
-#include "asb_uci/type/OB_OperationalStatusEnum.h"
-#include "asb_uci/type/VisibleString512Type.h"
-#include "uci/type/BaseEOB_RecordType.h"
+#include "../../../include/asb_uci/type/AlphanumericDashSpaceUnderscoreString3Type.h"
+#include "../../../include/asb_uci/type/MobilityEnum.h"
+#include "../../../include/asb_uci/type/OB_OperationalStatusEnum.h"
+#include "../../../include/asb_uci/type/VisibleString512Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/BaseEOB_RecordType.h"
 
 /**  */
 namespace asb_uci {

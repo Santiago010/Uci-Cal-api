@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_EOB_CORRELATIONRECORD_H
 #define UCI_TYPE_EOB_CORRELATIONRECORD_H
 
-#include "uci/type/EOB_CorrelationRecordMT.h"
+#include "EOB_CorrelationRecordMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_COMPONENTSETTINGSCOMMAND_H
 #define UCI_TYPE_COMPONENTSETTINGSCOMMAND_H
 
-#include "uci/type/ComponentSettingsCommandMT.h"
+#include "ComponentSettingsCommandMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

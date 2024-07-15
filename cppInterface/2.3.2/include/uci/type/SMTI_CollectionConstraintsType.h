@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_SMTI_COLLECTIONCONSTRAINTSTYPE_H
 #define UCI_TYPE_SMTI_COLLECTIONCONSTRAINTSTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/CollectionConstraintsType.h"
-#include "uci/type/DecibelType.h"
-#include "uci/type/EmconConstraintType.h"
-#include "uci/type/FalseAlarmType.h"
-#include "uci/type/PercentType.h"
-#include "uci/type/PositionLocationUncertaintyType.h"
-#include "uci/type/SMTI_CollectionConstraintsQualityType.h"
-#include "uci/type/SpeedRangeType.h"
+#include "../base/export.h"
+#include "CollectionConstraintsType.h"
+#include "DecibelType.h"
+#include "EmconConstraintType.h"
+#include "FalseAlarmType.h"
+#include "PercentType.h"
+#include "PositionLocationUncertaintyType.h"
+#include "SMTI_CollectionConstraintsQualityType.h"
+#include "SpeedRangeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

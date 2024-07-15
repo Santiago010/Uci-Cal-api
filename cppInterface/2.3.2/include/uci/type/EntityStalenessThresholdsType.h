@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_ENTITYSTALENESSTHRESHOLDSTYPE_H
 #define UCI_TYPE_ENTITYSTALENESSTHRESHOLDSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/ScheduleType.h"
-#include "uci/type/StalenessDomainMobilityType.h"
-#include "uci/type/ZoneType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DurationType.h"
+#include "ScheduleType.h"
+#include "StalenessDomainMobilityType.h"
+#include "ZoneType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

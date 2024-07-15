@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ObjectTypeDamageEstimateType.h"
+#include "../../../include/asb_uci/type/ObjectTypeDamageEstimateType.h"
 
 #include <memory>
 #include <string>
@@ -41,20 +41,20 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/DamageCauseEnum.h"
-#include "asb_uci/type/DamageObjectClassType.h"
-#include "asb_uci/type/DamageProbabilityZoneType.h"
-#include "asb_uci/type/DamageType.h"
-#include "asb_uci/type/VisibleString1024Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/DamageCauseEnum.h"
-#include "uci/type/DamageObjectClassType.h"
-#include "uci/type/DamageProbabilityZoneType.h"
-#include "uci/type/DamageType.h"
-#include "uci/type/ObjectTypeDamageEstimateType.h"
-#include "uci/type/VisibleString1024Type.h"
+#include "../../../include/asb_uci/type/DamageCauseEnum.h"
+#include "../../../include/asb_uci/type/DamageObjectClassType.h"
+#include "../../../include/asb_uci/type/DamageProbabilityZoneType.h"
+#include "../../../include/asb_uci/type/DamageType.h"
+#include "../../../include/asb_uci/type/VisibleString1024Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DamageCauseEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DamageObjectClassType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DamageProbabilityZoneType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DamageType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ObjectTypeDamageEstimateType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString1024Type.h"
 
 /**  */
 namespace asb_uci {

@@ -41,16 +41,16 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/ActionTypeEnum.h"
-#include "asb_uci/type/CommCapabilityEnum.h"
-#include "asb_uci/type/CyberTypeEnum.h"
-#include "asb_uci/type/EffectTypeEnum.h"
-#include "asb_uci/type/EnvironmentPairingEnum.h"
-#include "asb_uci/type/IdentificationTypeEnum.h"
-#include "asb_uci/type/SensingTypeEnum.h"
-#include "asb_uci/type/WeaponTypeEnum.h"
-#include "uci/type/ReferenceCapabilityTaxonomyType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/ActionTypeEnum.h"
+#include "../../../include/asb_uci/type/CommCapabilityEnum.h"
+#include "../../../include/asb_uci/type/CyberTypeEnum.h"
+#include "../../../include/asb_uci/type/EffectTypeEnum.h"
+#include "../../../include/asb_uci/type/EnvironmentPairingEnum.h"
+#include "../../../include/asb_uci/type/IdentificationTypeEnum.h"
+#include "../../../include/asb_uci/type/SensingTypeEnum.h"
+#include "../../../include/asb_uci/type/WeaponTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ReferenceCapabilityTaxonomyType.h"
 
 /**  */
 namespace asb_uci {

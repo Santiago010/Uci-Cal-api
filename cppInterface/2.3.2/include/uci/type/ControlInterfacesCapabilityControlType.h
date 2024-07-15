@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_CONTROLINTERFACESCAPABILITYCONTROLTYPE_H
 #define UCI_TYPE_CONTROLINTERFACESCAPABILITYCONTROLTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityControlInterfacesEnum.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/CapabilityManagerType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilityControlInterfacesEnum.h"
+#include "CapabilityID_Type.h"
+#include "CapabilityManagerType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

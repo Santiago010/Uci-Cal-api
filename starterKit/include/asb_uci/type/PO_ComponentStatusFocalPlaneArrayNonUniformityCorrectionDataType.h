@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/base/Accessor.h"
-#include "uci/type/PO_ComponentStatusFocalPlaneArrayNonUniformityCorrectionDataType.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ComponentStatusFocalPlaneArrayNonUniformityCorrectionDataType.h"
 
 /**  */
 namespace asb_uci {

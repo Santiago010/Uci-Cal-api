@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SYSTEMDEPLOYMENTCAPABILITY_H
 #define UCI_TYPE_SYSTEMDEPLOYMENTCAPABILITY_H
 
-#include "uci/type/SystemDeploymentCapabilityMT.h"
+#include "SystemDeploymentCapabilityMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

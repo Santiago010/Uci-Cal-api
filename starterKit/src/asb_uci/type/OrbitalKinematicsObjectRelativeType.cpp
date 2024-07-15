@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/OrbitalKinematicsObjectRelativeType.h"
+#include "../../../include/asb_uci/type/OrbitalKinematicsObjectRelativeType.h"
 
 #include <memory>
 #include <string>
@@ -41,16 +41,16 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AssetType.h"
-#include "asb_uci/type/OrbitalKinematicsStandardFrameChoiceType.h"
-#include "asb_uci/type/RTN_KinematicsType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AssetType.h"
-#include "uci/type/OrbitalKinematicsObjectRelativeType.h"
-#include "uci/type/OrbitalKinematicsStandardFrameChoiceType.h"
-#include "uci/type/RTN_KinematicsType.h"
+#include "../../../include/asb_uci/type/AssetType.h"
+#include "../../../include/asb_uci/type/OrbitalKinematicsStandardFrameChoiceType.h"
+#include "../../../include/asb_uci/type/RTN_KinematicsType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AssetType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalKinematicsObjectRelativeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalKinematicsStandardFrameChoiceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RTN_KinematicsType.h"
 
 /**  */
 namespace asb_uci {

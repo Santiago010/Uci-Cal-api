@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_COMMLINK16MISSIONINFOWORDSTYPE_H
 #define UCI_TYPE_COMMLINK16MISSIONINFOWORDSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/UnsignedByteAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/Link16_NetNumberType.h"
-#include "uci/type/Link16_TrackNumberType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/UnsignedByteAccessor.h"
+#include "../base/export.h"
+#include "ForeignKeyType.h"
+#include "Link16_NetNumberType.h"
+#include "Link16_TrackNumberType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

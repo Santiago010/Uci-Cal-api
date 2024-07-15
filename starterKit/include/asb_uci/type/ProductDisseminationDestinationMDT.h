@@ -41,14 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/DataRecordBaseType.h"
-#include "asb_uci/type/DestinationCategoryEnum.h"
-#include "asb_uci/type/MIME_Type.h"
-#include "asb_uci/type/ProductTypeEnum.h"
-#include "asb_uci/type/VisibleString256Type.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/ProductDisseminationDestinationMDT.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/DataRecordBaseType.h"
+#include "../../../include/asb_uci/type/DestinationCategoryEnum.h"
+#include "../../../include/asb_uci/type/MIME_Type.h"
+#include "../../../include/asb_uci/type/ProductTypeEnum.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProductDisseminationDestinationMDT.h"
 
 /**  */
 namespace asb_uci {

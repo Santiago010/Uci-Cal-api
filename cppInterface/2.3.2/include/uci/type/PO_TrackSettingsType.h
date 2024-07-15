@@ -36,19 +36,19 @@
 #ifndef UCI_TYPE_PO_TRACKSETTINGSTYPE_H
 #define UCI_TYPE_PO_TRACKSETTINGSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DistanceType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/IdentityBasicType.h"
-#include "uci/type/IncreaseDecreaseEnum.h"
-#include "uci/type/LOS_VariableB_Type.h"
-#include "uci/type/PO_AirTargetVolumeType.h"
-#include "uci/type/PO_CoastSettingValueType.h"
-#include "uci/type/PO_LockPersistenceEnum.h"
-#include "uci/type/PO_TrackCommandEnum.h"
-#include "uci/type/TrackOptionsID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DistanceType.h"
+#include "DurationType.h"
+#include "IdentityBasicType.h"
+#include "IncreaseDecreaseEnum.h"
+#include "LOS_VariableB_Type.h"
+#include "PO_AirTargetVolumeType.h"
+#include "PO_CoastSettingValueType.h"
+#include "PO_LockPersistenceEnum.h"
+#include "PO_TrackCommandEnum.h"
+#include "TrackOptionsID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

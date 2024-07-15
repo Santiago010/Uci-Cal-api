@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_BASICENCYCLOPEDIANUMBERTYPE_H
 #define UCI_TYPE_BASICENCYCLOPEDIANUMBERTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AlphanumericString4OnlyType.h"
-#include "uci/type/OneUpNumberStringType.h"
-#include "uci/type/RecordOriginatorStringType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AlphanumericString4OnlyType.h"
+#include "OneUpNumberStringType.h"
+#include "RecordOriginatorStringType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

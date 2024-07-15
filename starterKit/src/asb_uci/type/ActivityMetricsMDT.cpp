@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ActivityMetricsMDT.h"
+#include "../../../include/asb_uci/type/ActivityMetricsMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,18 +41,18 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ActivityMetricsID_Type.h"
-#include "asb_uci/type/ActivityMetricsType.h"
-#include "asb_uci/type/ActivityPlanID_Type.h"
-#include "asb_uci/type/ActivityPlanPartsEnum.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ActivityMetricsID_Type.h"
-#include "uci/type/ActivityMetricsMDT.h"
-#include "uci/type/ActivityMetricsType.h"
-#include "uci/type/ActivityPlanID_Type.h"
-#include "uci/type/ActivityPlanPartsEnum.h"
+#include "../../../include/asb_uci/type/ActivityMetricsID_Type.h"
+#include "../../../include/asb_uci/type/ActivityMetricsType.h"
+#include "../../../include/asb_uci/type/ActivityPlanID_Type.h"
+#include "../../../include/asb_uci/type/ActivityPlanPartsEnum.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ActivityMetricsID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ActivityMetricsMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ActivityMetricsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ActivityPlanID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ActivityPlanPartsEnum.h"
 
 /**  */
 namespace asb_uci {

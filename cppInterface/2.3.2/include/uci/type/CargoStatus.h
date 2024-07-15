@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_CARGOSTATUS_H
 #define UCI_TYPE_CARGOSTATUS_H
 
-#include "uci/type/CargoStatusMT.h"
+#include "CargoStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

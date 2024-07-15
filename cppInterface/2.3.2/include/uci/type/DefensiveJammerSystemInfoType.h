@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_DEFENSIVEJAMMERSYSTEMINFOTYPE_H
 #define UCI_TYPE_DEFENSIVEJAMMERSYSTEMINFOTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DefensiveJammerSystemStatusEnum.h"
-#include "uci/type/DefensiveJammerSystemTypeEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DefensiveJammerSystemStatusEnum.h"
+#include "DefensiveJammerSystemTypeEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

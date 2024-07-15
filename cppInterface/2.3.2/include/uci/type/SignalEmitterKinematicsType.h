@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_SIGNALEMITTERKINEMATICSTYPE_H
 #define UCI_TYPE_SIGNALEMITTERKINEMATICSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DoubleNonNegativeType.h"
-#include "uci/type/MeasurementStatusEnum.h"
-#include "uci/type/PositionAndVelocityCovarianceType.h"
-#include "uci/type/SignalEmitterKinematicsPositionType.h"
-#include "uci/type/Velocity2D_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DoubleNonNegativeType.h"
+#include "MeasurementStatusEnum.h"
+#include "PositionAndVelocityCovarianceType.h"
+#include "SignalEmitterKinematicsPositionType.h"
+#include "Velocity2D_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

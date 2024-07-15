@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_REQUIREMENTMETRICSREQUESTSTATUS_H
 #define UCI_TYPE_REQUIREMENTMETRICSREQUESTSTATUS_H
 
-#include "uci/type/RequirementMetricsRequestStatusMT.h"
+#include "RequirementMetricsRequestStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

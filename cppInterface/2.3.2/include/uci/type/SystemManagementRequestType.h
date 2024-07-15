@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_SYSTEMMANAGEMENTREQUESTTYPE_H
 #define UCI_TYPE_SYSTEMMANAGEMENTREQUESTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/Link16MetadataType.h"
-#include "uci/type/MessageModeEnum.h"
-#include "uci/type/SystemIdentityType.h"
-#include "uci/type/VehicleCommandDataType.h"
-#include "uci/type/VoiceControlType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "Link16MetadataType.h"
+#include "MessageModeEnum.h"
+#include "SystemIdentityType.h"
+#include "VehicleCommandDataType.h"
+#include "VoiceControlType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

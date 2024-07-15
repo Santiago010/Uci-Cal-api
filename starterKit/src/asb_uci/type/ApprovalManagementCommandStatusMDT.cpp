@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ApprovalManagementCommandStatusMDT.h"
+#include "../../../include/asb_uci/type/ApprovalManagementCommandStatusMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,19 +41,19 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CommandStatusBaseType.h"
-#include "asb_uci/type/CompletionStatusType.h"
-#include "asb_uci/type/IncompleteProcessingType.h"
-#include "asb_uci/type/ProcessingStatusEnum.h"
-#include "asb_uci/type/RequestID_Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ApprovalManagementCommandStatusMDT.h"
-#include "uci/type/CompletionStatusType.h"
-#include "uci/type/IncompleteProcessingType.h"
-#include "uci/type/ProcessingStatusEnum.h"
-#include "uci/type/RequestID_Type.h"
+#include "../../../include/asb_uci/type/CommandStatusBaseType.h"
+#include "../../../include/asb_uci/type/CompletionStatusType.h"
+#include "../../../include/asb_uci/type/IncompleteProcessingType.h"
+#include "../../../include/asb_uci/type/ProcessingStatusEnum.h"
+#include "../../../include/asb_uci/type/RequestID_Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ApprovalManagementCommandStatusMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CompletionStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IncompleteProcessingType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProcessingStatusEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RequestID_Type.h"
 
 /**  */
 namespace asb_uci {

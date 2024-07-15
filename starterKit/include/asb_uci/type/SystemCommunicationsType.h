@@ -41,11 +41,11 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/DateTimeType.h"
-#include "asb_uci/type/DurationType.h"
-#include "asb_uci/type/MissionCommunicationsStateEnum.h"
-#include "uci/type/SystemCommunicationsType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/DateTimeType.h"
+#include "../../../include/asb_uci/type/DurationType.h"
+#include "../../../include/asb_uci/type/MissionCommunicationsStateEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SystemCommunicationsType.h"
 
 /**  */
 namespace asb_uci {

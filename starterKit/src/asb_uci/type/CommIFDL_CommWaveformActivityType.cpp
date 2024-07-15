@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CommIFDL_CommWaveformActivityType.h"
+#include "../../../include/asb_uci/type/CommIFDL_CommWaveformActivityType.h"
 
 #include <memory>
 #include <string>
@@ -41,20 +41,20 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CommIFDL_ControlType.h"
-#include "asb_uci/type/CommIFDL_FlightSizeEnum.h"
-#include "asb_uci/type/CommIFDL_NetLinkStatusType.h"
-#include "asb_uci/type/CommWaveformActivityPET.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CommIFDL_CommWaveformActivityType.h"
-#include "uci/type/CommIFDL_ControlType.h"
-#include "uci/type/CommIFDL_FlightSizeEnum.h"
-#include "uci/type/CommIFDL_NetLinkStatusType.h"
-#include "uci/type/IFDL_ChannelNumberType.h"
-#include "uci/type/IFDL_WideNetIdentifierType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/CommIFDL_ControlType.h"
+#include "../../../include/asb_uci/type/CommIFDL_FlightSizeEnum.h"
+#include "../../../include/asb_uci/type/CommIFDL_NetLinkStatusType.h"
+#include "../../../include/asb_uci/type/CommWaveformActivityPET.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommIFDL_CommWaveformActivityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommIFDL_ControlType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommIFDL_FlightSizeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommIFDL_NetLinkStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IFDL_ChannelNumberType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IFDL_WideNetIdentifierType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

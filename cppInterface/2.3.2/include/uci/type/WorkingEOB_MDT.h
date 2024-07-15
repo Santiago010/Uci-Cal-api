@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_WORKINGEOB_MDT_H
 #define UCI_TYPE_WORKINGEOB_MDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DataRecordBaseType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/EOB_RecordMarkedType.h"
-#include "uci/type/OpVolumeID_Type.h"
-#include "uci/type/OpZoneID_Type.h"
-#include "uci/type/WorkingEOB_ID_Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DataRecordBaseType.h"
+#include "DateTimeType.h"
+#include "EOB_RecordMarkedType.h"
+#include "OpVolumeID_Type.h"
+#include "OpZoneID_Type.h"
+#include "WorkingEOB_ID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

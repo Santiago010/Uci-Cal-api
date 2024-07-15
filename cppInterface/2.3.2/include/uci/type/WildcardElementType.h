@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_WILDCARDELEMENTTYPE_H
 #define UCI_TYPE_WILDCARDELEMENTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/SchemaComponentNameType.h"
-#include "uci/type/WhitespaceVisibleString4096Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "SchemaComponentNameType.h"
+#include "WhitespaceVisibleString4096Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_EFFECTPLANINVALIDTYPE_H
 #define UCI_TYPE_EFFECTPLANINVALIDTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/EffectAllocationInvalidType.h"
-#include "uci/type/EffectPlanID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "EffectAllocationInvalidType.h"
+#include "EffectPlanID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_POINTINGTYPE_H
 #define UCI_TYPE_POINTINGTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ActivityID_Type.h"
-#include "uci/type/EmptyType.h"
-#include "uci/type/FixedPointingEnum.h"
-#include "uci/type/LOS_D_Type.h"
-#include "uci/type/PO_AirTargetVolumeCommandType.h"
-#include "uci/type/TargetType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ActivityID_Type.h"
+#include "EmptyType.h"
+#include "FixedPointingEnum.h"
+#include "LOS_D_Type.h"
+#include "PO_AirTargetVolumeCommandType.h"
+#include "TargetType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

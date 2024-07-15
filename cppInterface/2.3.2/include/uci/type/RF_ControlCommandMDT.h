@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_RF_CONTROLCOMMANDMDT_H
 #define UCI_TYPE_RF_CONTROLCOMMANDMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/CommandBaseType.h"
-#include "uci/type/RF_ProfileType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilityID_Type.h"
+#include "CommandBaseType.h"
+#include "RF_ProfileType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/OpticalCollectionConstraintsType.h"
+#include "../../../include/asb_uci/type/OpticalCollectionConstraintsType.h"
 
 #include <memory>
 #include <string>
@@ -41,22 +41,22 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AngleHalfPairType.h"
-#include "asb_uci/type/AnglePairType.h"
-#include "asb_uci/type/CollectionConstraintsType.h"
-#include "asb_uci/type/GimbalOrientationPairType.h"
-#include "asb_uci/util/DerivedTypesCopier.h"
-#include "asb_uci/util/DerivedTypesCreator.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/DerivedTypesSerializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AngleHalfPairType.h"
-#include "uci/type/AnglePairType.h"
-#include "uci/type/GimbalOrientationPairType.h"
-#include "uci/type/OpticalCollectionConstraintsType.h"
-#include "uci/type/SpeedType.h"
+#include "../../../include/asb_uci/type/AngleHalfPairType.h"
+#include "../../../include/asb_uci/type/AnglePairType.h"
+#include "../../../include/asb_uci/type/CollectionConstraintsType.h"
+#include "../../../include/asb_uci/type/GimbalOrientationPairType.h"
+#include "../../../include/asb_uci/util/DerivedTypesCopier.h"
+#include "../../../include/asb_uci/util/DerivedTypesCreator.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/DerivedTypesSerializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AngleHalfPairType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AnglePairType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/GimbalOrientationPairType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpticalCollectionConstraintsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SpeedType.h"
 
 /**  */
 namespace asb_uci {

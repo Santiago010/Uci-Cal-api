@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_RADARALTIMETERREPORTMDT_H
 #define UCI_TYPE_RADARALTIMETERREPORTMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ActivityID_Type.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/RadarAltimeterReportID_Type.h"
-#include "uci/type/RadarAltimeterReportMeasurementType.h"
-#include "uci/type/SignalNavDataType.h"
-#include "uci/type/SystemID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ActivityID_Type.h"
+#include "CapabilityID_Type.h"
+#include "RadarAltimeterReportID_Type.h"
+#include "RadarAltimeterReportMeasurementType.h"
+#include "SignalNavDataType.h"
+#include "SystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

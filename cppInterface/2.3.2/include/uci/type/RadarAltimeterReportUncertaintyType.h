@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_RADARALTIMETERREPORTUNCERTAINTYTYPE_H
 #define UCI_TYPE_RADARALTIMETERREPORTUNCERTAINTYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DistanceType.h"
-#include "uci/type/SpeedType.h"
-#include "uci/type/TimeType.h"
-#include "uci/type/UncertaintyEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DistanceType.h"
+#include "SpeedType.h"
+#include "TimeType.h"
+#include "UncertaintyEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

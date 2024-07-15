@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_PRODUCTLOCATION_H
 #define UCI_TYPE_PRODUCTLOCATION_H
 
-#include "uci/type/ProductLocationMT.h"
+#include "ProductLocationMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

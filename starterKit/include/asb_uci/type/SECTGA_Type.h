@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AlphanumericDashSpaceUnderscoreString13OnlyType.h"
-#include "asb_uci/type/AlphanumericDashSpaceUnderscoreString16OnlyType.h"
-#include "uci/type/SECTGA_Type.h"
+#include "../../../include/asb_uci/type/AlphanumericDashSpaceUnderscoreString13OnlyType.h"
+#include "../../../include/asb_uci/type/AlphanumericDashSpaceUnderscoreString16OnlyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SECTGA_Type.h"
 
 /**  */
 namespace asb_uci {

@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_STRIKECAPABILITYCOMMANDTYPE_H
 #define UCI_TYPE_STRIKECAPABILITYCOMMANDTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/CapabilityCommandBaseType.h"
-#include "uci/type/StrikeWeaponCommandType.h"
+#include "../base/export.h"
+#include "CapabilityCommandBaseType.h"
+#include "StrikeWeaponCommandType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

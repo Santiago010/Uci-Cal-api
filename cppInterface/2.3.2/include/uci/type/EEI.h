@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_EEI_H
 #define UCI_TYPE_EEI_H
 
-#include "uci/type/EEI_MT.h"
+#include "EEI_MT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

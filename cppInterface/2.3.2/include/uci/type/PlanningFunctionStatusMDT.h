@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_PLANNINGFUNCTIONSTATUSMDT_H
 #define UCI_TYPE_PLANNINGFUNCTIONSTATUSMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ContingencyPathAutonomyType.h"
-#include "uci/type/MissionPlanningAutonomySettingType.h"
-#include "uci/type/PlanActivationAutonomyType.h"
-#include "uci/type/PlanningInterfaceType.h"
-#include "uci/type/SystemID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ContingencyPathAutonomyType.h"
+#include "MissionPlanningAutonomySettingType.h"
+#include "PlanActivationAutonomyType.h"
+#include "PlanningInterfaceType.h"
+#include "SystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

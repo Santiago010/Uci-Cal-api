@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_RESPONSEPLANEXECUTIONSTATUSMDT_H
 #define UCI_TYPE_RESPONSEPLANEXECUTIONSTATUSMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ResponsePlanExecutionStateType.h"
-#include "uci/type/SystemID_Type.h"
-#include "uci/type/SystemSourceEnum.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ResponsePlanExecutionStateType.h"
+#include "SystemID_Type.h"
+#include "SystemSourceEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

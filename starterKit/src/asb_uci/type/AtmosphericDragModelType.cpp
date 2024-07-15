@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/AtmosphericDragModelType.h"
+#include "../../../include/asb_uci/type/AtmosphericDragModelType.h"
 
 #include <memory>
 #include <string>
@@ -41,17 +41,17 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AtmosphereModelEnum.h"
-#include "asb_uci/type/DragCoefficientChoiceType.h"
-#include "asb_uci/type/SpaceWeatherDataChoiceType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AtmosphereModelEnum.h"
-#include "uci/type/AtmosphericDragModelType.h"
-#include "uci/type/DragCoefficientChoiceType.h"
-#include "uci/type/EnergyDissipationRateType.h"
-#include "uci/type/SpaceWeatherDataChoiceType.h"
+#include "../../../include/asb_uci/type/AtmosphereModelEnum.h"
+#include "../../../include/asb_uci/type/DragCoefficientChoiceType.h"
+#include "../../../include/asb_uci/type/SpaceWeatherDataChoiceType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AtmosphereModelEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AtmosphericDragModelType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DragCoefficientChoiceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EnergyDissipationRateType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SpaceWeatherDataChoiceType.h"
 
 /**  */
 namespace asb_uci {

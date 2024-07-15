@@ -36,8 +36,8 @@
 #ifndef UCI_TYPE_MESSAGETRANSMISSIONLISTID_TYPE_H
 #define UCI_TYPE_MESSAGETRANSMISSIONLISTID_TYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/DataRecordListID_Type.h"
+#include "../base/export.h"
+#include "DataRecordListID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

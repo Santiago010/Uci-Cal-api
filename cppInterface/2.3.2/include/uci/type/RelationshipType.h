@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_RELATIONSHIPTYPE_H
 #define UCI_TYPE_RELATIONSHIPTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ExternalCommandExecutionStateEnum.h"
-#include "uci/type/PairingRelationshipEnum.h"
-#include "uci/type/RelationshipControllingUnitType.h"
-#include "uci/type/RelationshipElectronicWarfareType.h"
-#include "uci/type/RelationshipThreatType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ExternalCommandExecutionStateEnum.h"
+#include "PairingRelationshipEnum.h"
+#include "RelationshipControllingUnitType.h"
+#include "RelationshipElectronicWarfareType.h"
+#include "RelationshipThreatType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_ASSOCIATEDDROPRESTRICTMESSAGETYPE_H
 #define UCI_TYPE_ASSOCIATEDDROPRESTRICTMESSAGETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ID_Type.h"
-#include "uci/type/MessageTypeDropRestrictionEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ID_Type.h"
+#include "MessageTypeDropRestrictionEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

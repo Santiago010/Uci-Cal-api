@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_SYSTEMSNEEDEDREQUESTMDT_H
 #define UCI_TYPE_SYSTEMSNEEDEDREQUESTMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/RequestBaseType.h"
-#include "uci/type/RequirementAllocationCommandType.h"
-#include "uci/type/RequirementAssociationConstraintType.h"
-#include "uci/type/SystemCandidateType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "RequestBaseType.h"
+#include "RequirementAllocationCommandType.h"
+#include "RequirementAssociationConstraintType.h"
+#include "SystemCandidateType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

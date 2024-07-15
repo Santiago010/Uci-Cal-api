@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/OrbitalSurveillanceTargetType.h"
+#include "../../../include/asb_uci/type/OrbitalSurveillanceTargetType.h"
 
 #include <memory>
 #include <string>
@@ -41,16 +41,16 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/OrbitalSurveillanceLocationTargetType.h"
-#include "asb_uci/type/OrbitalSurveillanceObjectsType.h"
-#include "asb_uci/type/OrbitalSurveillanceZoneTargetType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/OrbitalSurveillanceLocationTargetType.h"
-#include "uci/type/OrbitalSurveillanceObjectsType.h"
-#include "uci/type/OrbitalSurveillanceTargetType.h"
-#include "uci/type/OrbitalSurveillanceZoneTargetType.h"
+#include "../../../include/asb_uci/type/OrbitalSurveillanceLocationTargetType.h"
+#include "../../../include/asb_uci/type/OrbitalSurveillanceObjectsType.h"
+#include "../../../include/asb_uci/type/OrbitalSurveillanceZoneTargetType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalSurveillanceLocationTargetType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalSurveillanceObjectsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalSurveillanceTargetType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalSurveillanceZoneTargetType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SPACEWEATHERPARAMETERTYPE_H
 #define UCI_TYPE_SPACEWEATHERPARAMETERTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/SolarFluxF10_7IndexType.h"
-#include "uci/type/SpaceWeatherKpApChoiceType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "SolarFluxF10_7IndexType.h"
+#include "SpaceWeatherKpApChoiceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

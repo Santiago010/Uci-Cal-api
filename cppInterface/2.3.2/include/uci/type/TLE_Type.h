@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_TLE_TYPE_H
 #define UCI_TYPE_TLE_TYPE_H
 
-#include "uci/base/UnsignedByteAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ClassificationEnum.h"
-#include "uci/type/SatelliteIdentifierType.h"
-#include "uci/type/TLE_BaseType.h"
+#include "../base/UnsignedByteAccessor.h"
+#include "../base/export.h"
+#include "ClassificationEnum.h"
+#include "SatelliteIdentifierType.h"
+#include "TLE_BaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_PRODUCTPROCESSINGFUNCTIONSTATUS_H
 #define UCI_TYPE_PRODUCTPROCESSINGFUNCTIONSTATUS_H
 
-#include "uci/type/ProductProcessingFunctionStatusMT.h"
+#include "ProductProcessingFunctionStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

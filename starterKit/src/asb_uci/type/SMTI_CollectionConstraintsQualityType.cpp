@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/SMTI_CollectionConstraintsQualityType.h"
+#include "../../../include/asb_uci/type/SMTI_CollectionConstraintsQualityType.h"
 
 #include <memory>
 #include <string>
@@ -41,13 +41,13 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/NIIRS_Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/DistanceType.h"
-#include "uci/type/NIIRS_Type.h"
-#include "uci/type/SMTI_CollectionConstraintsQualityType.h"
+#include "../../../include/asb_uci/type/NIIRS_Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DistanceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/NIIRS_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SMTI_CollectionConstraintsQualityType.h"
 
 /**  */
 namespace asb_uci {

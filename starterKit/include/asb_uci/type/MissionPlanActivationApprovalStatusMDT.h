@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/ApprovalStatusEnum.h"
-#include "asb_uci/type/PlanActivationCommandEnum.h"
-#include "uci/type/MissionPlanActivationApprovalStatusMDT.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/ApprovalStatusEnum.h"
+#include "../../../include/asb_uci/type/PlanActivationCommandEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MissionPlanActivationApprovalStatusMDT.h"
 
 /**  */
 namespace asb_uci {

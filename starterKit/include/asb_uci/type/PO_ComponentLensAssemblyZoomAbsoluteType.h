@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/AngleQuarterType.h"
-#include "asb_uci/type/ComponentControlInterfacesEnum.h"
-#include "uci/type/PO_ComponentLensAssemblyZoomAbsoluteType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/AngleQuarterType.h"
+#include "../../../include/asb_uci/type/ComponentControlInterfacesEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ComponentLensAssemblyZoomAbsoluteType.h"
 
 /**  */
 namespace asb_uci {

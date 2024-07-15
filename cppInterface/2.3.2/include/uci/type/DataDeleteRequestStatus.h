@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_DATADELETEREQUESTSTATUS_H
 #define UCI_TYPE_DATADELETEREQUESTSTATUS_H
 
-#include "uci/type/DataDeleteRequestStatusMT.h"
+#include "DataDeleteRequestStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

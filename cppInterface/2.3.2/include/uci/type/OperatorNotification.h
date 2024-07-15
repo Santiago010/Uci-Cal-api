@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_OPERATORNOTIFICATION_H
 #define UCI_TYPE_OPERATORNOTIFICATION_H
 
-#include "uci/type/OperatorNotificationMT.h"
+#include "OperatorNotificationMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

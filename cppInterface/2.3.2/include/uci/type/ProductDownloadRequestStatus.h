@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_PRODUCTDOWNLOADREQUESTSTATUS_H
 #define UCI_TYPE_PRODUCTDOWNLOADREQUESTSTATUS_H
 
-#include "uci/type/ProductDownloadRequestStatusMT.h"
+#include "ProductDownloadRequestStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

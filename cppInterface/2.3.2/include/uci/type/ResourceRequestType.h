@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_RESOURCEREQUESTTYPE_H
 #define UCI_TYPE_RESOURCEREQUESTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ComponentResourceType.h"
-#include "uci/type/DependentActivityType.h"
-#include "uci/type/PercentType.h"
-#include "uci/type/RF_TypeEnum.h"
-#include "uci/type/ResourceRequestPeriodType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ComponentResourceType.h"
+#include "DependentActivityType.h"
+#include "PercentType.h"
+#include "RF_TypeEnum.h"
+#include "ResourceRequestPeriodType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

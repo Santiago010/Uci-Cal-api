@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_COMINT_PROCESSINGPARAMETERSTYPE_H
 #define UCI_TYPE_COMINT_PROCESSINGPARAMETERSTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/FrequencyRangeType.h"
-#include "uci/type/FrequencyType.h"
-#include "uci/type/ProcessingParametersPET.h"
+#include "../base/export.h"
+#include "DurationType.h"
+#include "FrequencyRangeType.h"
+#include "FrequencyType.h"
+#include "ProcessingParametersPET.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

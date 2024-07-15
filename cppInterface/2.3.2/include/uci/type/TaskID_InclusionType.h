@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_TASKID_INCLUSIONTYPE_H
 #define UCI_TYPE_TASKID_INCLUSIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/InclusionEnum.h"
-#include "uci/type/TaskID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "InclusionEnum.h"
+#include "TaskID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

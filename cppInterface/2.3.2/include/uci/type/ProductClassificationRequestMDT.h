@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_PRODUCTCLASSIFICATIONREQUESTMDT_H
 #define UCI_TYPE_PRODUCTCLASSIFICATIONREQUESTMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/ClassificationRequirementsType.h"
-#include "uci/type/ComparableRankingType.h"
-#include "uci/type/DownloadPriorityEnum.h"
-#include "uci/type/ProductClassificationRequestEnum.h"
-#include "uci/type/RequestBaseType.h"
-#include "uci/type/SystemID_Type.h"
+#include "../base/export.h"
+#include "ClassificationRequirementsType.h"
+#include "ComparableRankingType.h"
+#include "DownloadPriorityEnum.h"
+#include "ProductClassificationRequestEnum.h"
+#include "RequestBaseType.h"
+#include "SystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

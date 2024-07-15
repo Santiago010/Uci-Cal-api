@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SENSORCONSTRAINTSTYPE_H
 #define UCI_TYPE_SENSORCONSTRAINTSTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/SensorConstraintsBaseType.h"
-#include "uci/type/SystemID_Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "SensorConstraintsBaseType.h"
+#include "SystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

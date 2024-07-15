@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/StandardIdentityConfidenceType.h"
+#include "../../../include/asb_uci/type/StandardIdentityConfidenceType.h"
 
 #include <memory>
 #include <string>
@@ -41,16 +41,16 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ExerciseIdentityType.h"
-#include "asb_uci/type/SpecialIdentityEnum.h"
-#include "asb_uci/type/StandardIdentityType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ExerciseIdentityType.h"
-#include "uci/type/PercentType.h"
-#include "uci/type/SpecialIdentityEnum.h"
-#include "uci/type/StandardIdentityConfidenceType.h"
+#include "../../../include/asb_uci/type/ExerciseIdentityType.h"
+#include "../../../include/asb_uci/type/SpecialIdentityEnum.h"
+#include "../../../include/asb_uci/type/StandardIdentityType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ExerciseIdentityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PercentType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SpecialIdentityEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StandardIdentityConfidenceType.h"
 
 /**  */
 namespace asb_uci {

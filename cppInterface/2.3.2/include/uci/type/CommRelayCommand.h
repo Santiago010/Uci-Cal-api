@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_COMMRELAYCOMMAND_H
 #define UCI_TYPE_COMMRELAYCOMMAND_H
 
-#include "uci/type/CommRelayCommandMT.h"
+#include "CommRelayCommandMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

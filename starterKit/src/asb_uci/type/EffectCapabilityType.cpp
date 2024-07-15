@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/EffectCapabilityType.h"
+#include "../../../include/asb_uci/type/EffectCapabilityType.h"
 
 #include <memory>
 #include <string>
@@ -41,23 +41,23 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ActionTypeEnum.h"
-#include "asb_uci/type/CapabilityTypeEnum.h"
-#include "asb_uci/type/CommandableCapabilityDeclarationType.h"
-#include "asb_uci/type/EffectCapabilityOptionsType.h"
-#include "asb_uci/type/EffectMessageOutputsEnum.h"
-#include "asb_uci/type/EffectTypeEnum.h"
-#include "asb_uci/type/TaskTypeEnum.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ActionTypeEnum.h"
-#include "uci/type/CapabilityTypeEnum.h"
-#include "uci/type/EffectCapabilityOptionsType.h"
-#include "uci/type/EffectCapabilityType.h"
-#include "uci/type/EffectMessageOutputsEnum.h"
-#include "uci/type/EffectTypeEnum.h"
-#include "uci/type/TaskTypeEnum.h"
+#include "../../../include/asb_uci/type/ActionTypeEnum.h"
+#include "../../../include/asb_uci/type/CapabilityTypeEnum.h"
+#include "../../../include/asb_uci/type/CommandableCapabilityDeclarationType.h"
+#include "../../../include/asb_uci/type/EffectCapabilityOptionsType.h"
+#include "../../../include/asb_uci/type/EffectMessageOutputsEnum.h"
+#include "../../../include/asb_uci/type/EffectTypeEnum.h"
+#include "../../../include/asb_uci/type/TaskTypeEnum.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ActionTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EffectCapabilityOptionsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EffectCapabilityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EffectMessageOutputsEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EffectTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TaskTypeEnum.h"
 
 /**  */
 namespace asb_uci {

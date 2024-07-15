@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_ORBITALMANEUVERDETAILSBASETYPE_H
 #define UCI_TYPE_ORBITALMANEUVERDETAILSBASETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CovarianceMatrixType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/MassType.h"
-#include "uci/type/OrbitalDeltaVelocity_B_Type.h"
-#include "uci/type/SpeedType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CovarianceMatrixType.h"
+#include "DurationType.h"
+#include "MassType.h"
+#include "OrbitalDeltaVelocity_B_Type.h"
+#include "SpeedType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

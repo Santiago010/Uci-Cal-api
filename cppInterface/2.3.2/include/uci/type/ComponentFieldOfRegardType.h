@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_COMPONENTFIELDOFREGARDTYPE_H
 #define UCI_TYPE_COMPONENTFIELDOFREGARDTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ComponentID_Type.h"
-#include "uci/type/FieldOfRegardType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ComponentID_Type.h"
+#include "FieldOfRegardType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

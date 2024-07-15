@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_LAR_DETAILSTYPE_H
 #define UCI_TYPE_LAR_DETAILSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/PlannedReleaseConditionsType.h"
-#include "uci/type/RoutePlanReferenceType.h"
-#include "uci/type/WeaponTargetPairingChoiceType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "PlannedReleaseConditionsType.h"
+#include "RoutePlanReferenceType.h"
+#include "WeaponTargetPairingChoiceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

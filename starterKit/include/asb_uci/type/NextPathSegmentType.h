@@ -41,7 +41,7 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "uci/type/NextPathSegmentType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/NextPathSegmentType.h"
 
 /**  */
 namespace asb_uci {

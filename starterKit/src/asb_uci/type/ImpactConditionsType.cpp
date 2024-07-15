@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ImpactConditionsType.h"
+#include "../../../include/asb_uci/type/ImpactConditionsType.h"
 
 #include <memory>
 #include <string>
@@ -41,18 +41,18 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AzElReferenceType.h"
-#include "asb_uci/type/FuzeType.h"
-#include "asb_uci/type/ImpactPointType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AzElReferenceType.h"
-#include "uci/type/FuzeType.h"
-#include "uci/type/ImpactConditionsType.h"
-#include "uci/type/ImpactPointType.h"
-#include "uci/type/SpeedType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/AzElReferenceType.h"
+#include "../../../include/asb_uci/type/FuzeType.h"
+#include "../../../include/asb_uci/type/ImpactPointType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AzElReferenceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FuzeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ImpactConditionsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ImpactPointType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SpeedType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

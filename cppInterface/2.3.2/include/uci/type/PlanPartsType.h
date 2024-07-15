@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_PLANPARTSTYPE_H
 #define UCI_TYPE_PLANPARTSTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/ActivityPlanPartsType.h"
-#include "uci/type/OrbitPlanPartsType.h"
-#include "uci/type/PlanPartsBaseType.h"
-#include "uci/type/RoutePlanPartsType.h"
+#include "../base/export.h"
+#include "ActivityPlanPartsType.h"
+#include "OrbitPlanPartsType.h"
+#include "PlanPartsBaseType.h"
+#include "RoutePlanPartsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

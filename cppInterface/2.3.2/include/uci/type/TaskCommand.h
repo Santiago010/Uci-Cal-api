@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_TASKCOMMAND_H
 #define UCI_TYPE_TASKCOMMAND_H
 
-#include "uci/type/TaskCommandMT.h"
+#include "TaskCommandMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

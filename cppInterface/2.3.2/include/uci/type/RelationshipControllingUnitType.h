@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_RELATIONSHIPCONTROLLINGUNITTYPE_H
 #define UCI_TYPE_RELATIONSHIPCONTROLLINGUNITTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EmptyType.h"
-#include "uci/type/VoiceCallSignType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "EmptyType.h"
+#include "VoiceCallSignType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

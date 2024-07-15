@@ -41,7 +41,7 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "uci/type/AreaConstraintsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AreaConstraintsType.h"
 
 /**  */
 namespace asb_uci {

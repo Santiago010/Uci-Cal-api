@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_ESM_TASKTYPE_H
 #define UCI_TYPE_ESM_TASKTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/ESM_TaskBaseType.h"
-#include "uci/type/SubCapabilityDetailsType.h"
+#include "../base/export.h"
+#include "ESM_TaskBaseType.h"
+#include "SubCapabilityDetailsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

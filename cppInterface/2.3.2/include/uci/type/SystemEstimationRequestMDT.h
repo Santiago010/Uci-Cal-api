@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_SYSTEMESTIMATIONREQUESTMDT_H
 #define UCI_TYPE_SYSTEMESTIMATIONREQUESTMDT_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/EstimationMessageEnum.h"
-#include "uci/type/RepeatEnum.h"
-#include "uci/type/RequestBaseType.h"
-#include "uci/type/SystemEstimationStartType.h"
-#include "uci/type/SystemEstimationStopType.h"
-#include "uci/type/SystemID_Type.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DurationType.h"
+#include "EstimationMessageEnum.h"
+#include "RepeatEnum.h"
+#include "RequestBaseType.h"
+#include "SystemEstimationStartType.h"
+#include "SystemEstimationStopType.h"
+#include "SystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

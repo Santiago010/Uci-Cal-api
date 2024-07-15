@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_PO_COMPONENTSTATUSTYPE_H
 #define UCI_TYPE_PO_COMPONENTSTATUSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ComponentID_Type.h"
-#include "uci/type/PO_ComponentStatusApertureSettingsType.h"
-#include "uci/type/PO_ComponentStatusFilterType.h"
-#include "uci/type/PO_ComponentStatusFocalPlaneArrayType.h"
-#include "uci/type/PO_ComponentStatusLensAssemblyType.h"
-#include "uci/type/PO_ComponentStatusProcessingStageType.h"
-#include "uci/type/PO_ComponentStatusProductGeneratorType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ComponentID_Type.h"
+#include "PO_ComponentStatusApertureSettingsType.h"
+#include "PO_ComponentStatusFilterType.h"
+#include "PO_ComponentStatusFocalPlaneArrayType.h"
+#include "PO_ComponentStatusLensAssemblyType.h"
+#include "PO_ComponentStatusProcessingStageType.h"
+#include "PO_ComponentStatusProductGeneratorType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

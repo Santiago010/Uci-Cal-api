@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_EOB_RECORDMARKEDTYPE_H
 #define UCI_TYPE_EOB_RECORDMARKEDTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/BaseEOB_RecordType.h"
-#include "uci/type/EOB_EquipmentRecordType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "BaseEOB_RecordType.h"
+#include "EOB_EquipmentRecordType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

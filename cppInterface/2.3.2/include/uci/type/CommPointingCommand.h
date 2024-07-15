@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_COMMPOINTINGCOMMAND_H
 #define UCI_TYPE_COMMPOINTINGCOMMAND_H
 
-#include "uci/type/CommPointingCommandMT.h"
+#include "CommPointingCommandMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

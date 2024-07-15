@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_COUNTERSPACEDECONFLICTION_H
 #define UCI_TYPE_COUNTERSPACEDECONFLICTION_H
 
-#include "uci/type/CounterSpaceDeconflictionMT.h"
+#include "CounterSpaceDeconflictionMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_COMMIFDL_NETLINKSTATUSTYPE_H
 #define UCI_TYPE_COMMIFDL_NETLINKSTATUSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CommIFDL_CommModeEnum.h"
-#include "uci/type/CommIFDL_TxRateEnum.h"
-#include "uci/type/IFDL_FlightIdentifierType.h"
-#include "uci/type/IFDL_FlightPositionType.h"
-#include "uci/type/NetworkLinkID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "CommIFDL_CommModeEnum.h"
+#include "CommIFDL_TxRateEnum.h"
+#include "IFDL_FlightIdentifierType.h"
+#include "IFDL_FlightPositionType.h"
+#include "NetworkLinkID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,17 +36,17 @@
 #ifndef UCI_TYPE_RESPONSEPLANVALIDATIONMDT_H
 #define UCI_TYPE_RESPONSEPLANVALIDATIONMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CompletionStatusType.h"
-#include "uci/type/IncompleteProcessingType.h"
-#include "uci/type/PlanValidationStateEnum.h"
-#include "uci/type/ResponseAllocationInvalidType.h"
-#include "uci/type/ResponsePlanID_Type.h"
-#include "uci/type/ResponsePlanValidationID_Type.h"
-#include "uci/type/ResponsePlanningResultType.h"
-#include "uci/type/ValidatorType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CompletionStatusType.h"
+#include "IncompleteProcessingType.h"
+#include "PlanValidationStateEnum.h"
+#include "ResponseAllocationInvalidType.h"
+#include "ResponsePlanID_Type.h"
+#include "ResponsePlanValidationID_Type.h"
+#include "ResponsePlanningResultType.h"
+#include "ValidatorType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_FILEMETADATA_H
 #define UCI_TYPE_FILEMETADATA_H
 
-#include "uci/type/FileMetadataMT.h"
+#include "FileMetadataMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

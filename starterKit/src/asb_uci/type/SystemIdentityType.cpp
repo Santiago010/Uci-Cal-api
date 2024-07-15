@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/SystemIdentityType.h"
+#include "../../../include/asb_uci/type/SystemIdentityType.h"
 
 #include <memory>
 #include <string>
@@ -41,15 +41,15 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/IdentityType.h"
-#include "asb_uci/type/QualifyingTagsType.h"
-#include "asb_uci/type/TimeFunctionType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/QualifyingTagsType.h"
-#include "uci/type/SystemIdentityType.h"
-#include "uci/type/TimeFunctionType.h"
+#include "../../../include/asb_uci/type/IdentityType.h"
+#include "../../../include/asb_uci/type/QualifyingTagsType.h"
+#include "../../../include/asb_uci/type/TimeFunctionType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/QualifyingTagsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SystemIdentityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TimeFunctionType.h"
 
 /**  */
 namespace asb_uci {

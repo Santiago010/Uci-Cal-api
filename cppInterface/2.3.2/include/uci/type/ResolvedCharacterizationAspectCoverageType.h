@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_RESOLVEDCHARACTERIZATIONASPECTCOVERAGETYPE_H
 #define UCI_TYPE_RESOLVEDCHARACTERIZATIONASPECTCOVERAGETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AngleType.h"
-#include "uci/type/BodyReferenceEnum.h"
-#include "uci/type/QuaternionType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AngleType.h"
+#include "BodyReferenceEnum.h"
+#include "QuaternionType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/CommandBaseType.h"
-#include "uci/type/GatewayCapabilitySettingsCommandBaseType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/CommandBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/GatewayCapabilitySettingsCommandBaseType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SYSTEMESTIMATIONREQUESTSTATUSMDT_H
 #define UCI_TYPE_SYSTEMESTIMATIONREQUESTSTATUSMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/EstimationResultType.h"
-#include "uci/type/RequestStatusBaseType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "EstimationResultType.h"
+#include "RequestStatusBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

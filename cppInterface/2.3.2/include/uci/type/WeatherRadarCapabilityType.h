@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_WEATHERRADARCAPABILITYTYPE_H
 #define UCI_TYPE_WEATHERRADARCAPABILITYTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CommandableCapabilityDeclarationType.h"
-#include "uci/type/FrequencyRangeType.h"
-#include "uci/type/WeatherRadarCapabilityEnum.h"
-#include "uci/type/WeatherRadarMessageOutputsEnum.h"
-#include "uci/type/WeatherRadarOptionsType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CommandableCapabilityDeclarationType.h"
+#include "FrequencyRangeType.h"
+#include "WeatherRadarCapabilityEnum.h"
+#include "WeatherRadarMessageOutputsEnum.h"
+#include "WeatherRadarOptionsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

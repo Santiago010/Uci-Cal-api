@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_RESENDDATAREQUESTSTATUS_H
 #define UCI_TYPE_RESENDDATAREQUESTSTATUS_H
 
-#include "uci/type/ResendDataRequestStatusMT.h"
+#include "ResendDataRequestStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

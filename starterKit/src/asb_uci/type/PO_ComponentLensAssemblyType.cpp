@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/PO_ComponentLensAssemblyType.h"
+#include "../../../include/asb_uci/type/PO_ComponentLensAssemblyType.h"
 
 #include <memory>
 #include <string>
@@ -41,22 +41,22 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ComponentControllabilityB_Type.h"
-#include "asb_uci/type/PO_ComponentLensAssemblyFieldOfViewType.h"
-#include "asb_uci/type/PO_ComponentLensAssemblyFocusType.h"
-#include "asb_uci/type/PO_ComponentSettingsFocusSweepSettingsType.h"
-#include "asb_uci/type/PO_FPA_ID_Type.h"
-#include "asb_uci/type/PO_LensID_Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ComponentControllabilityB_Type.h"
-#include "uci/type/PO_ComponentLensAssemblyFieldOfViewType.h"
-#include "uci/type/PO_ComponentLensAssemblyFocusType.h"
-#include "uci/type/PO_ComponentLensAssemblyType.h"
-#include "uci/type/PO_ComponentSettingsFocusSweepSettingsType.h"
-#include "uci/type/PO_FPA_ID_Type.h"
-#include "uci/type/PO_LensID_Type.h"
+#include "../../../include/asb_uci/type/ComponentControllabilityB_Type.h"
+#include "../../../include/asb_uci/type/PO_ComponentLensAssemblyFieldOfViewType.h"
+#include "../../../include/asb_uci/type/PO_ComponentLensAssemblyFocusType.h"
+#include "../../../include/asb_uci/type/PO_ComponentSettingsFocusSweepSettingsType.h"
+#include "../../../include/asb_uci/type/PO_FPA_ID_Type.h"
+#include "../../../include/asb_uci/type/PO_LensID_Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ComponentControllabilityB_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ComponentLensAssemblyFieldOfViewType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ComponentLensAssemblyFocusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ComponentLensAssemblyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ComponentSettingsFocusSweepSettingsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_FPA_ID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_LensID_Type.h"
 
 /**  */
 namespace asb_uci {

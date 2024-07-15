@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_FOV_TYPE_H
 #define UCI_TYPE_FOV_TYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AnglePositiveType.h"
-#include "uci/type/LOS_InertialB_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AnglePositiveType.h"
+#include "LOS_InertialB_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

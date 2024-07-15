@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_DATARATETYPE_H
 #define UCI_TYPE_DATARATETYPE_H
 
-#include "uci/base/UnsignedIntAccessor.h"
+#include "../base/UnsignedIntAccessor.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

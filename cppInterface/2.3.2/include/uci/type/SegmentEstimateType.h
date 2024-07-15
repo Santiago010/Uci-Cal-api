@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_SEGMENTESTIMATETYPE_H
 #define UCI_TYPE_SEGMENTESTIMATETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/DistanceType.h"
-#include "uci/type/LoiterProgressType.h"
-#include "uci/type/PathID_Type.h"
-#include "uci/type/RoutePlanID_Type.h"
-#include "uci/type/SegmentID_Type.h"
-#include "uci/type/SegmentKinematicsType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DateTimeType.h"
+#include "DistanceType.h"
+#include "LoiterProgressType.h"
+#include "PathID_Type.h"
+#include "RoutePlanID_Type.h"
+#include "SegmentID_Type.h"
+#include "SegmentKinematicsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_PO_COMPONENTPRODUCTGENERATORTYPE_H
 #define UCI_TYPE_PO_COMPONENTPRODUCTGENERATORTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ComponentControllabilityA_Type.h"
-#include "uci/type/PO_ComponentSettingsOutputProductSettingsType.h"
-#include "uci/type/PO_ComponentSettingsProductGeneratorSettingsType.h"
-#include "uci/type/PO_FPA_ID_Type.h"
-#include "uci/type/PO_ProductGeneratorID_Type.h"
-#include "uci/type/ProductOutputCapabilityImageryType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ComponentControllabilityA_Type.h"
+#include "PO_ComponentSettingsOutputProductSettingsType.h"
+#include "PO_ComponentSettingsProductGeneratorSettingsType.h"
+#include "PO_FPA_ID_Type.h"
+#include "PO_ProductGeneratorID_Type.h"
+#include "ProductOutputCapabilityImageryType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

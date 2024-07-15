@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_RESPONSEPLANSTATUSMDT_H
 #define UCI_TYPE_RESPONSEPLANSTATUSMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/PlanStatusType.h"
-#include "uci/type/ResponsePlanID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "PlanStatusType.h"
+#include "ResponsePlanID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

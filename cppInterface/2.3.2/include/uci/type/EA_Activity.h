@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_EA_ACTIVITY_H
 #define UCI_TYPE_EA_ACTIVITY_H
 
-#include "uci/type/EA_ActivityMT.h"
+#include "EA_ActivityMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

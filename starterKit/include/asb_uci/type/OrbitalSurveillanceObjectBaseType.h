@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/OrbitalKinematicsSourceEnum.h"
-#include "uci/type/OrbitalSurveillanceObjectBaseType.h"
+#include "../../../include/asb_uci/type/OrbitalKinematicsSourceEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalSurveillanceObjectBaseType.h"
 
 /**  */
 namespace asb_uci {

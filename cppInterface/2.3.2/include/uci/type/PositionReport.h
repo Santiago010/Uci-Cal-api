@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_POSITIONREPORT_H
 #define UCI_TYPE_POSITIONREPORT_H
 
-#include "uci/type/PositionReportMT.h"
+#include "PositionReportMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_MISSIONPLANMETRICSREPORTREQUESTMDT_H
 #define UCI_TYPE_MISSIONPLANMETRICSREPORTREQUESTMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/MissionPlanID_Type.h"
-#include "uci/type/RequestBaseType.h"
+#include "../base/export.h"
+#include "MissionPlanID_Type.h"
+#include "RequestBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

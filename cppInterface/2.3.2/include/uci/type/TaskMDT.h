@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_TASKMDT_H
 #define UCI_TYPE_TASKMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/RequirementConstraintsType.h"
-#include "uci/type/RequirementGuidanceType.h"
-#include "uci/type/RequirementMetadataType.h"
-#include "uci/type/TaskID_Type.h"
-#include "uci/type/TaskType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "RequirementConstraintsType.h"
+#include "RequirementGuidanceType.h"
+#include "RequirementMetadataType.h"
+#include "TaskID_Type.h"
+#include "TaskType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

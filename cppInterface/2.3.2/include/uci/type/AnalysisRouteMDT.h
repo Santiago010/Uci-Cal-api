@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_ANALYSISROUTEMDT_H
 #define UCI_TYPE_ANALYSISROUTEMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AnalysisRouteID_Type.h"
-#include "uci/type/AnalysisRouteInformationType.h"
-#include "uci/type/AnalysisRoutePathType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/RequestID_Type.h"
-#include "uci/type/RoutePlanAnalysisInputsType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AnalysisRouteID_Type.h"
+#include "AnalysisRouteInformationType.h"
+#include "AnalysisRoutePathType.h"
+#include "DateTimeType.h"
+#include "RequestID_Type.h"
+#include "RoutePlanAnalysisInputsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

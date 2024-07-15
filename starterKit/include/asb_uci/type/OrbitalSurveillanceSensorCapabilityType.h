@@ -41,12 +41,12 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/CharacterizationTypeEnum.h"
-#include "asb_uci/type/CommandableCapabilityDeclarationType.h"
-#include "asb_uci/type/OrbitalSurveillanceSensorCapabilityEnum.h"
-#include "asb_uci/type/OrbitalSurveillanceSensorMessageOutputsEnum.h"
-#include "uci/type/OrbitalSurveillanceSensorCapabilityType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/CharacterizationTypeEnum.h"
+#include "../../../include/asb_uci/type/CommandableCapabilityDeclarationType.h"
+#include "../../../include/asb_uci/type/OrbitalSurveillanceSensorCapabilityEnum.h"
+#include "../../../include/asb_uci/type/OrbitalSurveillanceSensorMessageOutputsEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalSurveillanceSensorCapabilityType.h"
 
 /**  */
 namespace asb_uci {

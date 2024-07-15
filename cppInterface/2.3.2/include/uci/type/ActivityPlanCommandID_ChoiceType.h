@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_ACTIVITYPLANCOMMANDID_CHOICETYPE_H
 #define UCI_TYPE_ACTIVITYPLANCOMMANDID_CHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ActivityPlanCommandID_Type.h"
-#include "uci/type/MissionPlanCommandID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ActivityPlanCommandID_Type.h"
+#include "MissionPlanCommandID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

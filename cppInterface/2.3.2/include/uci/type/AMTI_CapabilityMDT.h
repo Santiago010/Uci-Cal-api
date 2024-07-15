@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_AMTI_CAPABILITYMDT_H
 #define UCI_TYPE_AMTI_CAPABILITYMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AMTI_CapabilityType.h"
-#include "uci/type/CapabilityBaseType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AMTI_CapabilityType.h"
+#include "CapabilityBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

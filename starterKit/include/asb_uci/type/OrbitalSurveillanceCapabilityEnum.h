@@ -36,9 +36,9 @@
 #ifndef ASB_UCI_TYPE_ORBITALSURVEILLANCECAPABILITYENUM_H
 #define ASB_UCI_TYPE_ORBITALSURVEILLANCECAPABILITYENUM_H
 
-#include "asb_uci/base/EnumAccessor.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/OrbitalSurveillanceCapabilityEnum.h"
+#include "../../../include/asb_uci/base/EnumAccessor.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalSurveillanceCapabilityEnum.h"
 
 /**  */
 namespace asb_uci {

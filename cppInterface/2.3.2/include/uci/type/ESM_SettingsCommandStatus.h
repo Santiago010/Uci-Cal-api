@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ESM_SETTINGSCOMMANDSTATUS_H
 #define UCI_TYPE_ESM_SETTINGSCOMMANDSTATUS_H
 
-#include "uci/type/ESM_SettingsCommandStatusMT.h"
+#include "ESM_SettingsCommandStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

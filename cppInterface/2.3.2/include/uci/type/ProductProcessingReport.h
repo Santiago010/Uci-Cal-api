@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_PRODUCTPROCESSINGREPORT_H
 #define UCI_TYPE_PRODUCTPROCESSINGREPORT_H
 
-#include "uci/type/ProductProcessingReportMT.h"
+#include "ProductProcessingReportMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SUBSYSTEMCOMMANDTYPE_H
 #define UCI_TYPE_SUBSYSTEMCOMMANDTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/MDF_CommandType.h"
-#include "uci/type/SubsystemID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "MDF_CommandType.h"
+#include "SubsystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

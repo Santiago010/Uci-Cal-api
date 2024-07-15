@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/FuelTankComponentExtendedStatusType.h"
+#include "../../../include/asb_uci/type/FuelTankComponentExtendedStatusType.h"
 
 #include <memory>
 #include <string>
@@ -41,16 +41,16 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ComponentExtendedStatusPET.h"
-#include "asb_uci/type/PumpComponentExtendedStatusType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/FuelTankComponentExtendedStatusType.h"
-#include "uci/type/MassType.h"
-#include "uci/type/PercentType.h"
-#include "uci/type/PumpComponentExtendedStatusType.h"
-#include "uci/type/TemperatureType.h"
+#include "../../../include/asb_uci/type/ComponentExtendedStatusPET.h"
+#include "../../../include/asb_uci/type/PumpComponentExtendedStatusType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FuelTankComponentExtendedStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MassType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PercentType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PumpComponentExtendedStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TemperatureType.h"
 
 /**  */
 namespace asb_uci {

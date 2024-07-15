@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_REQUIREMENTMETRICSTYPE_H
 #define UCI_TYPE_REQUIREMENTMETRICSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/EnduranceBaseType.h"
-#include "uci/type/MetricsType.h"
-#include "uci/type/OrbitalManeuverDetailsBaseType.h"
-#include "uci/type/RequirementInstanceID_ChoiceType.h"
-#include "uci/type/TimeWindowType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "EnduranceBaseType.h"
+#include "MetricsType.h"
+#include "OrbitalManeuverDetailsBaseType.h"
+#include "RequirementInstanceID_ChoiceType.h"
+#include "TimeWindowType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_EOB_EQUIPMENTRECORDTYPE_H
 #define UCI_TYPE_EOB_EQUIPMENTRECORDTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/BaseEOB_RecordType.h"
-#include "uci/type/EOB_EmitterType.h"
-#include "uci/type/EOB_WeaponSystemType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "BaseEOB_RecordType.h"
+#include "EOB_EmitterType.h"
+#include "EOB_WeaponSystemType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

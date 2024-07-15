@@ -38,8 +38,8 @@
 
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/MTI_ActivityStatusBaseType.h"
-#include "uci/type/OrbitalSurveillanceActivityDetailType.h"
+#include "../../../include/asb_uci/type/MTI_ActivityStatusBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalSurveillanceActivityDetailType.h"
 
 /**  */
 namespace asb_uci {

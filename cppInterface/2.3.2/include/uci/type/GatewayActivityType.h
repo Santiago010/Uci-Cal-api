@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_GATEWAYACTIVITYTYPE_H
 #define UCI_TYPE_GATEWAYACTIVITYTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ActivityBaseType.h"
-#include "uci/type/CommConnectionStateEnum.h"
-#include "uci/type/CommProfileID_Type.h"
-#include "uci/type/DataDeliveryType.h"
-#include "uci/type/GatewayConfigurationType.h"
-#include "uci/type/GatewayControlType.h"
-#include "uci/type/GatewayLinkStatisticsType.h"
-#include "uci/type/VerboseStatusType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ActivityBaseType.h"
+#include "CommConnectionStateEnum.h"
+#include "CommProfileID_Type.h"
+#include "DataDeliveryType.h"
+#include "GatewayConfigurationType.h"
+#include "GatewayControlType.h"
+#include "GatewayLinkStatisticsType.h"
+#include "VerboseStatusType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

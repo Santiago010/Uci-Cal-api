@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_REQUIREMENTMETRICS_H
 #define UCI_TYPE_REQUIREMENTMETRICS_H
 
-#include "uci/type/RequirementMetricsMT.h"
+#include "RequirementMetricsMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

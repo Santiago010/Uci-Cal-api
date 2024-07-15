@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_STORECOMMANDTYPE_H
 #define UCI_TYPE_STORECOMMANDTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EmptyType.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/ReleaseConsentType.h"
-#include "uci/type/StoreType.h"
-#include "uci/type/Velocity2D_Type.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "EmptyType.h"
+#include "ForeignKeyType.h"
+#include "ReleaseConsentType.h"
+#include "StoreType.h"
+#include "Velocity2D_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

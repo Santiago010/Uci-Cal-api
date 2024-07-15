@@ -36,18 +36,18 @@
 #ifndef UCI_TYPE_ECEF_STATECOVARIANCETYPE_H
 #define UCI_TYPE_ECEF_STATECOVARIANCETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/DoubleAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ECEF_AccelerationAccelerationCovarianceType.h"
-#include "uci/type/ECEF_PositionAccelerationCovarianceType.h"
-#include "uci/type/ECEF_PositionOrientationCovarianceType.h"
-#include "uci/type/ECEF_PositionPositionCovarianceType.h"
-#include "uci/type/ECEF_PositionVelocityCovarianceType.h"
-#include "uci/type/ECEF_VelocityAccelerationCovarianceType.h"
-#include "uci/type/ECEF_VelocityOrientationCovarianceType.h"
-#include "uci/type/ECEF_VelocityVelocityCovarianceType.h"
-#include "uci/type/OrientationCovarianceType.h"
+#include "../base/Accessor.h"
+#include "../base/DoubleAccessor.h"
+#include "../base/export.h"
+#include "ECEF_AccelerationAccelerationCovarianceType.h"
+#include "ECEF_PositionAccelerationCovarianceType.h"
+#include "ECEF_PositionOrientationCovarianceType.h"
+#include "ECEF_PositionPositionCovarianceType.h"
+#include "ECEF_PositionVelocityCovarianceType.h"
+#include "ECEF_VelocityAccelerationCovarianceType.h"
+#include "ECEF_VelocityOrientationCovarianceType.h"
+#include "ECEF_VelocityVelocityCovarianceType.h"
+#include "OrientationCovarianceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

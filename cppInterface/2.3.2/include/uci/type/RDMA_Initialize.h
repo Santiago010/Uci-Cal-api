@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_RDMA_INITIALIZE_H
 #define UCI_TYPE_RDMA_INITIALIZE_H
 
-#include "uci/type/RDMA_InitializeMT.h"
+#include "RDMA_InitializeMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

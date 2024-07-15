@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_MIME_TYPE_H
 #define UCI_TYPE_MIME_TYPE_H
 
-#include "uci/type/VisibleString256Type.h"
+#include "VisibleString256Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

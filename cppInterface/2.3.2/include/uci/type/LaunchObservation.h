@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_LAUNCHOBSERVATION_H
 #define UCI_TYPE_LAUNCHOBSERVATION_H
 
-#include "uci/type/LaunchObservationMT.h"
+#include "LaunchObservationMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SOLARRADIATIONPRESSUREMODELTYPE_H
 #define UCI_TYPE_SOLARRADIATIONPRESSUREMODELTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/SolarRadiationPressureCoefficientChoiceType.h"
-#include "uci/type/SolarRadiationPressureModelEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "SolarRadiationPressureCoefficientChoiceType.h"
+#include "SolarRadiationPressureModelEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/CommandableCapabilityDeclarationType.h"
-#include "asb_uci/type/OrbitChangeCapabilityEnum.h"
-#include "uci/type/OrbitChangeCapabilityType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/CommandableCapabilityDeclarationType.h"
+#include "../../../include/asb_uci/type/OrbitChangeCapabilityEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitChangeCapabilityType.h"
 
 /**  */
 namespace asb_uci {

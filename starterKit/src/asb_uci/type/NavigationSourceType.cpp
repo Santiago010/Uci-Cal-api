@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/NavigationSourceType.h"
+#include "../../../include/asb_uci/type/NavigationSourceType.h"
 
 #include <memory>
 #include <string>
@@ -41,23 +41,23 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AutopilotModeEnum.h"
-#include "asb_uci/type/EmptyType.h"
-#include "asb_uci/type/MissionPlanNavigationType.h"
-#include "asb_uci/type/Point3D_Type.h"
-#include "asb_uci/type/RelativeNavigationType.h"
-#include "asb_uci/type/SlavedNavigationType.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AutopilotModeEnum.h"
-#include "uci/type/EmptyType.h"
-#include "uci/type/MissionPlanNavigationType.h"
-#include "uci/type/NavigationSourceType.h"
-#include "uci/type/Point3D_Type.h"
-#include "uci/type/RelativeNavigationType.h"
-#include "uci/type/SlavedNavigationType.h"
+#include "../../../include/asb_uci/type/AutopilotModeEnum.h"
+#include "../../../include/asb_uci/type/EmptyType.h"
+#include "../../../include/asb_uci/type/MissionPlanNavigationType.h"
+#include "../../../include/asb_uci/type/Point3D_Type.h"
+#include "../../../include/asb_uci/type/RelativeNavigationType.h"
+#include "../../../include/asb_uci/type/SlavedNavigationType.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AutopilotModeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EmptyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MissionPlanNavigationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/NavigationSourceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/Point3D_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RelativeNavigationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SlavedNavigationType.h"
 
 /**  */
 namespace asb_uci {

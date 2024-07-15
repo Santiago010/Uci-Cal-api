@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_RESPONSEPLANNINGSTATUSMDT_H
 #define UCI_TYPE_RESPONSEPLANNINGSTATUSMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/RequirementPlanningStatusDetailsType.h"
-#include "uci/type/ResponseID_Type.h"
+#include "../base/export.h"
+#include "RequirementPlanningStatusDetailsType.h"
+#include "ResponseID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

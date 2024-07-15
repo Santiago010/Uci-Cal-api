@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_PRODUCTDOWNLOADTASKSTATUSMDT_H
 #define UCI_TYPE_PRODUCTDOWNLOADTASKSTATUSMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ProductDownloadStatusType.h"
-#include "uci/type/ProductManagementTaskStatusDataType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ProductDownloadStatusType.h"
+#include "ProductManagementTaskStatusDataType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

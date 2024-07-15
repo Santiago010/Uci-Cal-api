@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ElevationVisibilityPointInfoFromSetType.h"
+#include "../../../include/asb_uci/type/ElevationVisibilityPointInfoFromSetType.h"
 
 #include <memory>
 #include <string>
@@ -41,15 +41,15 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ElevationVisibilityPointInfoType.h"
-#include "asb_uci/type/PolygonType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ElevationVisibilityPointInfoFromSetType.h"
-#include "uci/type/ElevationVisibilityPointInfoType.h"
-#include "uci/type/PolygonType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/ElevationVisibilityPointInfoType.h"
+#include "../../../include/asb_uci/type/PolygonType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ElevationVisibilityPointInfoFromSetType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ElevationVisibilityPointInfoType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PolygonType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

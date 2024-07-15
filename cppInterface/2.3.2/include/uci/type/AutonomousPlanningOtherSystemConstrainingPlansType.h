@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_AUTONOMOUSPLANNINGOTHERSYSTEMCONSTRAININGPLANSTYPE_H
 #define UCI_TYPE_AUTONOMOUSPLANNINGOTHERSYSTEMCONSTRAININGPLANSTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/AutonomousPlanningConstrainingPlansType.h"
-#include "uci/type/PlanConstraintUsageEnum.h"
+#include "../base/export.h"
+#include "AutonomousPlanningConstrainingPlansType.h"
+#include "PlanConstraintUsageEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -38,8 +38,8 @@
 
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/CapabilitySettingsCommandBaseType.h"
-#include "uci/type/OpaqueSettingsCommandMDT.h"
+#include "../../../include/asb_uci/type/CapabilitySettingsCommandBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpaqueSettingsCommandMDT.h"
 
 /**  */
 namespace asb_uci {

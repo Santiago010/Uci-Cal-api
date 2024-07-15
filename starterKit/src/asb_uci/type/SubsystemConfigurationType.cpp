@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/SubsystemConfigurationType.h"
+#include "../../../include/asb_uci/type/SubsystemConfigurationType.h"
 
 #include <memory>
 #include <string>
@@ -41,23 +41,23 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AboutType.h"
-#include "asb_uci/type/CapabilityID_Type.h"
-#include "asb_uci/type/InstallationDetailsType.h"
-#include "asb_uci/type/ServiceID_Type.h"
-#include "asb_uci/type/SubsystemSupportedSettingType.h"
-#include "asb_uci/type/SupportCapabilityID_Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AboutType.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/InstallationDetailsType.h"
-#include "uci/type/MassType.h"
-#include "uci/type/ServiceID_Type.h"
-#include "uci/type/SubsystemConfigurationType.h"
-#include "uci/type/SubsystemSupportedSettingType.h"
-#include "uci/type/SupportCapabilityID_Type.h"
+#include "../../../include/asb_uci/type/AboutType.h"
+#include "../../../include/asb_uci/type/CapabilityID_Type.h"
+#include "../../../include/asb_uci/type/InstallationDetailsType.h"
+#include "../../../include/asb_uci/type/ServiceID_Type.h"
+#include "../../../include/asb_uci/type/SubsystemSupportedSettingType.h"
+#include "../../../include/asb_uci/type/SupportCapabilityID_Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AboutType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/InstallationDetailsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MassType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ServiceID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemConfigurationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemSupportedSettingType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SupportCapabilityID_Type.h"
 
 /**  */
 namespace asb_uci {

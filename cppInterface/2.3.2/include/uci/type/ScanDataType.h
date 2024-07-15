@@ -36,20 +36,20 @@
 #ifndef UCI_TYPE_SCANDATATYPE_H
 #define UCI_TYPE_SCANDATATYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AnglePositiveType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/LobeType.h"
-#include "uci/type/MeasurementStatusEnum.h"
-#include "uci/type/RadarBeamPersistenceEnum.h"
-#include "uci/type/RadarBeamTypeEnum.h"
-#include "uci/type/ScanDataBaseType.h"
-#include "uci/type/ScanDirectionalityEnum.h"
-#include "uci/type/ScanMechanicsEnum.h"
-#include "uci/type/ScanPlaneEnum.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AnglePositiveType.h"
+#include "DateTimeType.h"
+#include "DurationType.h"
+#include "LobeType.h"
+#include "MeasurementStatusEnum.h"
+#include "RadarBeamPersistenceEnum.h"
+#include "RadarBeamTypeEnum.h"
+#include "ScanDataBaseType.h"
+#include "ScanDirectionalityEnum.h"
+#include "ScanMechanicsEnum.h"
+#include "ScanPlaneEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

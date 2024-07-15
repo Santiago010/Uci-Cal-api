@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_TURRETCOMMANDSTATUS_H
 #define UCI_TYPE_TURRETCOMMANDSTATUS_H
 
-#include "uci/type/TurretCommandStatusMT.h"
+#include "TurretCommandStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

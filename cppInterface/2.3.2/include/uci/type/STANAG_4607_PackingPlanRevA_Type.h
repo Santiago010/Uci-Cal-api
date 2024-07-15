@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_STANAG_4607_PACKINGPLANREVA_TYPE_H
 #define UCI_TYPE_STANAG_4607_PACKINGPLANREVA_TYPE_H
 
-#include "uci/base/UnsignedByteAccessor.h"
-#include "uci/base/UnsignedShortAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CharOrSpacePairsType.h"
-#include "uci/type/STANAG_4607_PacketSecurityClassificationType.h"
-#include "uci/type/STANAG_4607_PackingPlanPET.h"
-#include "uci/type/STANAG_4607_PlanType.h"
-#include "uci/type/VisibleString10Type.h"
+#include "../base/UnsignedByteAccessor.h"
+#include "../base/UnsignedShortAccessor.h"
+#include "../base/export.h"
+#include "CharOrSpacePairsType.h"
+#include "STANAG_4607_PacketSecurityClassificationType.h"
+#include "STANAG_4607_PackingPlanPET.h"
+#include "STANAG_4607_PlanType.h"
+#include "VisibleString10Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_CS_ACTIVITYTYPE_H
 #define UCI_TYPE_CS_ACTIVITYTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/CS_ActivityDetailType.h"
-#include "uci/type/SharedRF_ApertureActivityBaseType.h"
+#include "../base/export.h"
+#include "CS_ActivityDetailType.h"
+#include "SharedRF_ApertureActivityBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

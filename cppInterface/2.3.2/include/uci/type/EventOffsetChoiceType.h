@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_EVENTOFFSETCHOICETYPE_H
 #define UCI_TYPE_EVENTOFFSETCHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AngleType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/LOS_InertialB_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AngleType.h"
+#include "DurationType.h"
+#include "LOS_InertialB_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

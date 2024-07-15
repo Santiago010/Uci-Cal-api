@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_AVAILABILITYINFOTYPE_H
 #define UCI_TYPE_AVAILABILITYINFOTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CannotComplyType.h"
-#include "uci/type/CapabilityAvailabilityEnum.h"
-#include "uci/type/DateTimeType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CannotComplyType.h"
+#include "CapabilityAvailabilityEnum.h"
+#include "DateTimeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

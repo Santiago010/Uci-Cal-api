@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_DAMAGEESTIMATETARGETTYPE_H
 #define UCI_TYPE_DAMAGEESTIMATETARGETTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/TargetType.h"
-#include "uci/type/TaskID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "TargetType.h"
+#include "TaskID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

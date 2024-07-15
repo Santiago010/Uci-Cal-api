@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_PLANNEDACTIVITYTRIGGERTYPE_H
 #define UCI_TYPE_PLANNEDACTIVITYTRIGGERTYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ActivityTriggerType.h"
-#include "uci/type/PlannedActivityBaseType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "ActivityTriggerType.h"
+#include "PlannedActivityBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

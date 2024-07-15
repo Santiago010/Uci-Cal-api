@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_MISSIONENVIRONMENTOBJECTOPZONETYPE_H
 #define UCI_TYPE_MISSIONENVIRONMENTOBJECTOPZONETYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/MissionEnvironmentObjectBaseType.h"
-#include "uci/type/OpZoneID_Type.h"
+#include "../base/export.h"
+#include "MissionEnvironmentObjectBaseType.h"
+#include "OpZoneID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

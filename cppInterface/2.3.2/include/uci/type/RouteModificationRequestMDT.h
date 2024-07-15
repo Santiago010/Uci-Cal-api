@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_ROUTEMODIFICATIONREQUESTMDT_H
 #define UCI_TYPE_ROUTEMODIFICATIONREQUESTMDT_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/LineProjectionEnum.h"
-#include "uci/type/PathID_Type.h"
-#include "uci/type/PathSegmentModificationType.h"
-#include "uci/type/PlanInitiationSourceEnum.h"
-#include "uci/type/RequestBaseType.h"
-#include "uci/type/RoutePathModificationType.h"
-#include "uci/type/RoutePlanID_Type.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "LineProjectionEnum.h"
+#include "PathID_Type.h"
+#include "PathSegmentModificationType.h"
+#include "PlanInitiationSourceEnum.h"
+#include "RequestBaseType.h"
+#include "RoutePathModificationType.h"
+#include "RoutePlanID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

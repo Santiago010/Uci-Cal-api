@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_REFUELTASKTYPE_H
 #define UCI_TYPE_REFUELTASKTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/IdentityKindAssetType.h"
-#include "uci/type/RefuelTaskBaseType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "IdentityKindAssetType.h"
+#include "RefuelTaskBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

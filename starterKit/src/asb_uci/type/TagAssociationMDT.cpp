@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/TagAssociationMDT.h"
+#include "../../../include/asb_uci/type/TagAssociationMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,17 +41,17 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/DataRecordBaseType.h"
-#include "asb_uci/type/SecureStringType.h"
-#include "asb_uci/type/TagAssociationID_Type.h"
-#include "asb_uci/type/TagAssociationTargetType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/SecureStringType.h"
-#include "uci/type/TagAssociationID_Type.h"
-#include "uci/type/TagAssociationMDT.h"
-#include "uci/type/TagAssociationTargetType.h"
+#include "../../../include/asb_uci/type/DataRecordBaseType.h"
+#include "../../../include/asb_uci/type/SecureStringType.h"
+#include "../../../include/asb_uci/type/TagAssociationID_Type.h"
+#include "../../../include/asb_uci/type/TagAssociationTargetType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SecureStringType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TagAssociationID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TagAssociationMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TagAssociationTargetType.h"
 
 /**  */
 namespace asb_uci {

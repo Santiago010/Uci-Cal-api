@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/RF_ControlCommandMDT.h"
+#include "../../../include/asb_uci/type/RF_ControlCommandMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,15 +41,15 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CapabilityID_Type.h"
-#include "asb_uci/type/CommandBaseType.h"
-#include "asb_uci/type/RF_ProfileType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/RF_ControlCommandMDT.h"
-#include "uci/type/RF_ProfileType.h"
+#include "../../../include/asb_uci/type/CapabilityID_Type.h"
+#include "../../../include/asb_uci/type/CommandBaseType.h"
+#include "../../../include/asb_uci/type/RF_ProfileType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RF_ControlCommandMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RF_ProfileType.h"
 
 /**  */
 namespace asb_uci {

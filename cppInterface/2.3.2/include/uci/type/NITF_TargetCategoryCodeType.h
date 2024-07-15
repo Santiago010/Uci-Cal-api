@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_NITF_TARGETCATEGORYCODETYPE_H
 #define UCI_TYPE_NITF_TARGETCATEGORYCODETYPE_H
 
-#include "uci/base/IntAccessor.h"
+#include "../base/IntAccessor.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

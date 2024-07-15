@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_COORDINATEDREQUIREMENTSET_H
 #define UCI_TYPE_COORDINATEDREQUIREMENTSET_H
 
-#include "uci/type/CoordinatedRequirementSetMT.h"
+#include "CoordinatedRequirementSetMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

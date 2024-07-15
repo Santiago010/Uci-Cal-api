@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/SecuritySanitizationEnum.h"
-#include "asb_uci/type/VisibleString1024Type.h"
-#include "uci/type/SecuritySanitizationType.h"
+#include "../../../include/asb_uci/type/SecuritySanitizationEnum.h"
+#include "../../../include/asb_uci/type/VisibleString1024Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SecuritySanitizationType.h"
 
 /**  */
 namespace asb_uci {

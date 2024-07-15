@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ApprovalAuthorityMDT.h"
+#include "../../../include/asb_uci/type/ApprovalAuthorityMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,17 +41,17 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ApprovalAuthorityID_Type.h"
-#include "asb_uci/type/DataRecordBaseType.h"
-#include "asb_uci/type/SystemApprovalPolicyType.h"
-#include "asb_uci/type/SystemID_Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ApprovalAuthorityID_Type.h"
-#include "uci/type/ApprovalAuthorityMDT.h"
-#include "uci/type/SystemApprovalPolicyType.h"
-#include "uci/type/SystemID_Type.h"
+#include "../../../include/asb_uci/type/ApprovalAuthorityID_Type.h"
+#include "../../../include/asb_uci/type/DataRecordBaseType.h"
+#include "../../../include/asb_uci/type/SystemApprovalPolicyType.h"
+#include "../../../include/asb_uci/type/SystemID_Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ApprovalAuthorityID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ApprovalAuthorityMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SystemApprovalPolicyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SystemID_Type.h"
 
 /**  */
 namespace asb_uci {

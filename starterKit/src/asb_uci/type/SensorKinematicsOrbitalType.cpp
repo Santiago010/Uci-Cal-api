@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/SensorKinematicsOrbitalType.h"
+#include "../../../include/asb_uci/type/SensorKinematicsOrbitalType.h"
 
 #include <memory>
 #include <string>
@@ -41,15 +41,15 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/OrbitalKinematicsFrameChoiceType.h"
-#include "asb_uci/type/QuaternionAttitudeType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/OrbitalKinematicsFrameChoiceType.h"
-#include "uci/type/QuaternionAttitudeType.h"
-#include "uci/type/SensorKinematicsOrbitalType.h"
+#include "../../../include/asb_uci/type/OrbitalKinematicsFrameChoiceType.h"
+#include "../../../include/asb_uci/type/QuaternionAttitudeType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DateTimeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalKinematicsFrameChoiceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/QuaternionAttitudeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SensorKinematicsOrbitalType.h"
 
 /**  */
 namespace asb_uci {

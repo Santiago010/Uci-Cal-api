@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_PO_COMPONENTPROCESSINGSTAGETYPE_H
 #define UCI_TYPE_PO_COMPONENTPROCESSINGSTAGETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ComponentControllabilityA_Type.h"
-#include "uci/type/DoubleMinMaxType.h"
-#include "uci/type/PO_FPA_ID_Type.h"
-#include "uci/type/PO_ProcessingStageID_Type.h"
-#include "uci/type/PO_ProcessingStageTypeEnum.h"
-#include "uci/type/PixelScalingSettingsType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ComponentControllabilityA_Type.h"
+#include "DoubleMinMaxType.h"
+#include "PO_FPA_ID_Type.h"
+#include "PO_ProcessingStageID_Type.h"
+#include "PO_ProcessingStageTypeEnum.h"
+#include "PixelScalingSettingsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

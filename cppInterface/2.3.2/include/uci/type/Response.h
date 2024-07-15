@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_RESPONSE_H
 #define UCI_TYPE_RESPONSE_H
 
-#include "uci/type/ResponseMT.h"
+#include "ResponseMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

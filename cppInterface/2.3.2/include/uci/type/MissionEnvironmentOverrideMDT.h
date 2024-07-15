@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_MISSIONENVIRONMENTOVERRIDEMDT_H
 #define UCI_TYPE_MISSIONENVIRONMENTOVERRIDEMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DataRecordBaseType.h"
-#include "uci/type/MissionEnvironmentConstraintType.h"
-#include "uci/type/MissionEnvironmentOverrideID_Type.h"
-#include "uci/type/SystemID_Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DataRecordBaseType.h"
+#include "MissionEnvironmentConstraintType.h"
+#include "MissionEnvironmentOverrideID_Type.h"
+#include "SystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

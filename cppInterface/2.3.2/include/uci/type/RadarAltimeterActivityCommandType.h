@@ -36,20 +36,20 @@
 #ifndef UCI_TYPE_RADARALTIMETERACTIVITYCOMMANDTYPE_H
 #define UCI_TYPE_RADARALTIMETERACTIVITYCOMMANDTYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AtmosphericPropagationLossType.h"
-#include "uci/type/CapabilityCommandFrequencyType.h"
-#include "uci/type/CapabilityCommandTemporalConstraintsType.h"
-#include "uci/type/DecibelType.h"
-#include "uci/type/GroundTerrainTypeEnum.h"
-#include "uci/type/RadarAltimeterCollectionConstraintsType.h"
-#include "uci/type/RadarAltimeterCollectionOptionsType.h"
-#include "uci/type/RepetitionType.h"
-#include "uci/type/SharedRF_ApertureActivityCommandBaseType.h"
-#include "uci/type/WeatherSeaStateEnum.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "AtmosphericPropagationLossType.h"
+#include "CapabilityCommandFrequencyType.h"
+#include "CapabilityCommandTemporalConstraintsType.h"
+#include "DecibelType.h"
+#include "GroundTerrainTypeEnum.h"
+#include "RadarAltimeterCollectionConstraintsType.h"
+#include "RadarAltimeterCollectionOptionsType.h"
+#include "RepetitionType.h"
+#include "SharedRF_ApertureActivityCommandBaseType.h"
+#include "WeatherSeaStateEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

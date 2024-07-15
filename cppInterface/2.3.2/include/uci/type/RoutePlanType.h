@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_ROUTEPLANTYPE_H
 #define UCI_TYPE_ROUTEPLANTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeRangeType.h"
-#include "uci/type/PlanApplicabilityType.h"
-#include "uci/type/RoutePlanPartsType.h"
-#include "uci/type/RouteType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DateTimeRangeType.h"
+#include "PlanApplicabilityType.h"
+#include "RoutePlanPartsType.h"
+#include "RouteType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

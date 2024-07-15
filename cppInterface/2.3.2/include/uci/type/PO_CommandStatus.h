@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_PO_COMMANDSTATUS_H
 #define UCI_TYPE_PO_COMMANDSTATUS_H
 
-#include "uci/type/PO_CommandStatusMT.h"
+#include "PO_CommandStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ENTITY_H
 #define UCI_TYPE_ENTITY_H
 
-#include "uci/type/EntityMT.h"
+#include "EntityMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

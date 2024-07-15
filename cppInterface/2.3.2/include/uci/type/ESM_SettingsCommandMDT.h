@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_ESM_SETTINGSCOMMANDMDT_H
 #define UCI_TYPE_ESM_SETTINGSCOMMANDMDT_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AmbiguityOrderingEnum.h"
-#include "uci/type/ApplicableVolumeType.h"
-#include "uci/type/ApplicableZoneType.h"
-#include "uci/type/CapabilitySettingsCommandBaseType.h"
-#include "uci/type/ESM_BinProfileType.h"
-#include "uci/type/ESM_MessageOutputsEnum.h"
-#include "uci/type/ESM_ProfileEditType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AmbiguityOrderingEnum.h"
+#include "ApplicableVolumeType.h"
+#include "ApplicableZoneType.h"
+#include "CapabilitySettingsCommandBaseType.h"
+#include "ESM_BinProfileType.h"
+#include "ESM_MessageOutputsEnum.h"
+#include "ESM_ProfileEditType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

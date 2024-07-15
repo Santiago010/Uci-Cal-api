@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/SAR_SubCapabilityType.h"
+#include "../../../include/asb_uci/type/SAR_SubCapabilityType.h"
 
 #include <memory>
 #include <string>
@@ -41,20 +41,20 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/RadarPointingTargetType.h"
-#include "asb_uci/type/SAR_EllipticityPolicyEnum.h"
-#include "asb_uci/type/SAR_SubCapabilityClutterParametersType.h"
-#include "asb_uci/type/SAR_SubCapabilityNparDetailsType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/DecibelType.h"
-#include "uci/type/RadarPointingTargetType.h"
-#include "uci/type/SAR_EllipticityPolicyEnum.h"
-#include "uci/type/SAR_SubCapabilityClutterParametersType.h"
-#include "uci/type/SAR_SubCapabilityNparDetailsType.h"
-#include "uci/type/SAR_SubCapabilityType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/RadarPointingTargetType.h"
+#include "../../../include/asb_uci/type/SAR_EllipticityPolicyEnum.h"
+#include "../../../include/asb_uci/type/SAR_SubCapabilityClutterParametersType.h"
+#include "../../../include/asb_uci/type/SAR_SubCapabilityNparDetailsType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DecibelType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RadarPointingTargetType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SAR_EllipticityPolicyEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SAR_SubCapabilityClutterParametersType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SAR_SubCapabilityNparDetailsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SAR_SubCapabilityType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

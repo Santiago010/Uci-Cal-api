@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_ROUTEMETRICSREQUESTMDT_H
 #define UCI_TYPE_ROUTEMETRICSREQUESTMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ActivityPlanPartsEnum.h"
-#include "uci/type/PathTypeEnum.h"
-#include "uci/type/RequestBaseType.h"
-#include "uci/type/RouteActivityPlanID_Type.h"
-#include "uci/type/RoutePlanID_Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ActivityPlanPartsEnum.h"
+#include "PathTypeEnum.h"
+#include "RequestBaseType.h"
+#include "RouteActivityPlanID_Type.h"
+#include "RoutePlanID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_ESM_TASKBASETYPE_H
 #define UCI_TYPE_ESM_TASKBASETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ESM_SubCapabilityEnum.h"
-#include "uci/type/ProductOutputCommandBasicType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ESM_SubCapabilityEnum.h"
+#include "ProductOutputCommandBasicType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

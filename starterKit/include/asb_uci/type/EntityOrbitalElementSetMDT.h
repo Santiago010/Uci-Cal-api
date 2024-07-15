@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/EntityOrbitalElementSetType.h"
-#include "uci/type/EntityOrbitalElementSetMDT.h"
+#include "../../../include/asb_uci/type/EntityOrbitalElementSetType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EntityOrbitalElementSetMDT.h"
 
 /**  */
 namespace asb_uci {

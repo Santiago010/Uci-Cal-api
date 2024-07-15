@@ -41,12 +41,12 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/SharedRF_ApertureActivityCommandBaseType.h"
-#include "asb_uci/type/SurfaceTypeEnum.h"
-#include "asb_uci/type/WeatherSeaStateEnum.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/SMTI_ActivityCommandType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/SharedRF_ApertureActivityCommandBaseType.h"
+#include "../../../include/asb_uci/type/SurfaceTypeEnum.h"
+#include "../../../include/asb_uci/type/WeatherSeaStateEnum.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SMTI_ActivityCommandType.h"
 
 /**  */
 namespace asb_uci {

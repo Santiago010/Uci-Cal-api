@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_ENTITYCONTRIBUTORID_CHOICETYPE_H
 #define UCI_TYPE_ENTITYCONTRIBUTORID_CHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EOB_EmitterID_Type.h"
-#include "uci/type/EntityID_Type.h"
-#include "uci/type/MeasurementID_Type.h"
-#include "uci/type/SOB_C2_RecordID_Type.h"
-#include "uci/type/SOB_SatelliteRecordID_Type.h"
-#include "uci/type/SignalID_Type.h"
-#include "uci/type/SystemID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "EOB_EmitterID_Type.h"
+#include "EntityID_Type.h"
+#include "MeasurementID_Type.h"
+#include "SOB_C2_RecordID_Type.h"
+#include "SOB_SatelliteRecordID_Type.h"
+#include "SignalID_Type.h"
+#include "SystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

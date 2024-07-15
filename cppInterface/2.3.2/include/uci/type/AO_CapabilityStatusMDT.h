@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_AO_CAPABILITYSTATUSMDT_H
 #define UCI_TYPE_AO_CAPABILITYSTATUSMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AO_ComponentSettingsType.h"
-#include "uci/type/AO_MessageOutputsEnum.h"
-#include "uci/type/CapabilityStatusBaseType.h"
-#include "uci/type/CapabilityStatusType.h"
-#include "uci/type/JPEG_SettingsType.h"
-#include "uci/type/NITF_PackingPlanPET.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AO_ComponentSettingsType.h"
+#include "AO_MessageOutputsEnum.h"
+#include "CapabilityStatusBaseType.h"
+#include "CapabilityStatusType.h"
+#include "JPEG_SettingsType.h"
+#include "NITF_PackingPlanPET.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

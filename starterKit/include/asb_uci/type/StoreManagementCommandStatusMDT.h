@@ -38,8 +38,8 @@
 
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/SupportCapabilityCommandStatusBaseType.h"
-#include "uci/type/StoreManagementCommandStatusMDT.h"
+#include "../../../include/asb_uci/type/SupportCapabilityCommandStatusBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StoreManagementCommandStatusMDT.h"
 
 /**  */
 namespace asb_uci {

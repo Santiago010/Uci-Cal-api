@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CommTerminalPlanEffectivityActivationStatusType.h"
+#include "../../../include/asb_uci/type/CommTerminalPlanEffectivityActivationStatusType.h"
 
 #include <memory>
 #include <string>
@@ -41,17 +41,17 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CannotComplyType.h"
-#include "asb_uci/type/CommEffectivityID_Type.h"
-#include "asb_uci/type/CommandStateEnum.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CannotComplyType.h"
-#include "uci/type/CommEffectivityID_Type.h"
-#include "uci/type/CommTerminalPlanEffectivityActivationStatusType.h"
-#include "uci/type/CommandStateEnum.h"
+#include "../../../include/asb_uci/type/CannotComplyType.h"
+#include "../../../include/asb_uci/type/CommEffectivityID_Type.h"
+#include "../../../include/asb_uci/type/CommandStateEnum.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CannotComplyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommEffectivityID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommTerminalPlanEffectivityActivationStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommandStateEnum.h"
 
 /**  */
 namespace asb_uci {

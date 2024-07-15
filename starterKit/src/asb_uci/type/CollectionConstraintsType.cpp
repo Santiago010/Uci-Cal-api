@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CollectionConstraintsType.h"
+#include "../../../include/asb_uci/type/CollectionConstraintsType.h"
 
 #include <memory>
 #include <string>
@@ -41,24 +41,24 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AngleHalfPairType.h"
-#include "asb_uci/type/AnglePairType.h"
-#include "asb_uci/type/AngleQuarterPairType.h"
-#include "asb_uci/type/CollectionPatternEnum.h"
-#include "asb_uci/type/SlantRangeConstraintsType.h"
-#include "asb_uci/util/DerivedTypesCopier.h"
-#include "asb_uci/util/DerivedTypesCreator.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/DerivedTypesSerializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AngleHalfPairType.h"
-#include "uci/type/AnglePairType.h"
-#include "uci/type/AngleQuarterPairType.h"
-#include "uci/type/CollectionConstraintsType.h"
-#include "uci/type/CollectionPatternEnum.h"
-#include "uci/type/SlantRangeConstraintsType.h"
+#include "../../../include/asb_uci/type/AngleHalfPairType.h"
+#include "../../../include/asb_uci/type/AnglePairType.h"
+#include "../../../include/asb_uci/type/AngleQuarterPairType.h"
+#include "../../../include/asb_uci/type/CollectionPatternEnum.h"
+#include "../../../include/asb_uci/type/SlantRangeConstraintsType.h"
+#include "../../../include/asb_uci/util/DerivedTypesCopier.h"
+#include "../../../include/asb_uci/util/DerivedTypesCreator.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/DerivedTypesSerializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AngleHalfPairType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AnglePairType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AngleQuarterPairType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CollectionConstraintsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CollectionPatternEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SlantRangeConstraintsType.h"
 
 /**  */
 namespace asb_uci {

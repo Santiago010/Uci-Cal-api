@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AIMIDB_FlightNumberStringType.h"
-#include "asb_uci/type/AIMIDB_MISSION_NO_Type.h"
-#include "uci/type/AIMIDB_Type.h"
+#include "../../../include/asb_uci/type/AIMIDB_FlightNumberStringType.h"
+#include "../../../include/asb_uci/type/AIMIDB_MISSION_NO_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AIMIDB_Type.h"
 
 /**  */
 namespace asb_uci {

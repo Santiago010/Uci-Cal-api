@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_OPERATORNOTIFICATIONOVERRIDE_H
 #define UCI_TYPE_OPERATORNOTIFICATIONOVERRIDE_H
 
-#include "uci/type/OperatorNotificationOverrideMT.h"
+#include "OperatorNotificationOverrideMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

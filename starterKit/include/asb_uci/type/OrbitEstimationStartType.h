@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/DateTimeType.h"
-#include "uci/type/OrbitEstimationStartType.h"
+#include "../../../include/asb_uci/type/DateTimeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitEstimationStartType.h"
 
 /**  */
 namespace asb_uci {

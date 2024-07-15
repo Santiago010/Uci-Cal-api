@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_ORBITALSURVEILLANCECOLLECTIONREQUIREMENTSTYPE_H
 #define UCI_TYPE_ORBITALSURVEILLANCECOLLECTIONREQUIREMENTSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DeploymentDetectionType.h"
-#include "uci/type/ManeuverDetectionType.h"
-#include "uci/type/MetricCollectionType.h"
-#include "uci/type/MultiObjectType.h"
-#include "uci/type/OrbitAccuracyType.h"
-#include "uci/type/SensorCharacterizationChoiceType.h"
-#include "uci/type/SpeedRangeType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DeploymentDetectionType.h"
+#include "ManeuverDetectionType.h"
+#include "MetricCollectionType.h"
+#include "MultiObjectType.h"
+#include "OrbitAccuracyType.h"
+#include "SensorCharacterizationChoiceType.h"
+#include "SpeedRangeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

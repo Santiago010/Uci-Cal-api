@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_QUALIFYINGTAGSTYPE_H
 #define UCI_TYPE_QUALIFYINGTAGSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/UnsignedShortAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EmptyType.h"
-#include "uci/type/SystemMessageIdentifierType.h"
+#include "../base/Accessor.h"
+#include "../base/UnsignedShortAccessor.h"
+#include "../base/export.h"
+#include "EmptyType.h"
+#include "SystemMessageIdentifierType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

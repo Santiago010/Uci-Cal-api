@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_EXECUTIONSEQUENCEMODIFICATIONDETAILSTYPE_H
 #define UCI_TYPE_EXECUTIONSEQUENCEMODIFICATIONDETAILSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ExecutionSequenceInsertionType.h"
-#include "uci/type/ExecutionSequenceTrimType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ExecutionSequenceInsertionType.h"
+#include "ExecutionSequenceTrimType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

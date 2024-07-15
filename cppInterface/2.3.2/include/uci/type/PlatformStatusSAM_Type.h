@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_PLATFORMSTATUSSAM_TYPE_H
 #define UCI_TYPE_PLATFORMSTATUSSAM_TYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CommunicationsImpairmentEnum.h"
-#include "uci/type/OperationalImpairmentEnum.h"
-#include "uci/type/RadiationModeEnum.h"
-#include "uci/type/SAM_ModeEnum.h"
+#include "../base/Accessor.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "CommunicationsImpairmentEnum.h"
+#include "OperationalImpairmentEnum.h"
+#include "RadiationModeEnum.h"
+#include "SAM_ModeEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/SharedRF_ApertureActivityBaseType.h"
-#include "uci/type/CS_ActivityType.h"
+#include "../../../include/asb_uci/type/SharedRF_ApertureActivityBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CS_ActivityType.h"
 
 /**  */
 namespace asb_uci {

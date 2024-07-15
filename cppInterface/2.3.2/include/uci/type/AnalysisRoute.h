@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ANALYSISROUTE_H
 #define UCI_TYPE_ANALYSISROUTE_H
 
-#include "uci/type/AnalysisRouteMT.h"
+#include "AnalysisRouteMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

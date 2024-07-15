@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/AA_CodeType.h"
-#include "asb_uci/type/BDS_AddressType.h"
-#include "uci/type/SpecificBDS_RegistersType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/AA_CodeType.h"
+#include "../../../include/asb_uci/type/BDS_AddressType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SpecificBDS_RegistersType.h"
 
 /**  */
 namespace asb_uci {

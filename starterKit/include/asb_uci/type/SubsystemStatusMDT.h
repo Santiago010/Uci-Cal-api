@@ -41,12 +41,12 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/ProcessingStatusEnum.h"
-#include "asb_uci/type/StateTransitionStatusEnum.h"
-#include "asb_uci/type/SubsystemStateEnum.h"
-#include "asb_uci/type/VisibleString256Type.h"
-#include "uci/type/SubsystemStatusMDT.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/ProcessingStatusEnum.h"
+#include "../../../include/asb_uci/type/StateTransitionStatusEnum.h"
+#include "../../../include/asb_uci/type/SubsystemStateEnum.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemStatusMDT.h"
 
 /**  */
 namespace asb_uci {
@@ -192,19 +192,19 @@ public:
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getSubsystemStateDescription_() const;
+  std::string& getSubsystemStateDescription_() const;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  const uci::type::VisibleString256Type& getSubsystemStateDescription() const override;
+  const std::string& getSubsystemStateDescription() const override;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getSubsystemStateDescription() override;
+  std::string& getSubsystemStateDescription() override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
@@ -239,7 +239,7 @@ public:
     * @param type The value to set the optional field to
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& enableSubsystemStateDescription(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
+  std::string& enableSubsystemStateDescription(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
 
   /** Clears the optional item marking it as not being set.
     *
@@ -542,7 +542,7 @@ public:
 private:
   std::unique_ptr<SubsystemID_Type> subsystemID_Accessor;
   std::unique_ptr<SubsystemStateEnum> subsystemState_Accessor;
-  std::unique_ptr<VisibleString256Type> subsystemStateDescription_Accessor;
+  std::unique_ptr<std::string> subsystemStateDescription_Accessor;
   std::unique_ptr<EnabledSetting> enabledSetting_Accessor;
   std::unique_ptr<CommandableSubsystemSettingParameters> commandableSubsystemSettingParameters_Accessor;
   std::unique_ptr<ProcessingStatusEnum> eraseStatus_Accessor;

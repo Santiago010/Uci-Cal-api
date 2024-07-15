@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_EA_CAPABILITYTYPE_H
 #define UCI_TYPE_EA_CAPABILITYTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityInitiationEnum.h"
-#include "uci/type/CommandableCapabilityDeclarationType.h"
-#include "uci/type/ComponentID_Type.h"
-#include "uci/type/EA_CapabilityOptionsType.h"
-#include "uci/type/EA_IndicatorEnum.h"
-#include "uci/type/EA_MessageOutputsEnum.h"
-#include "uci/type/EA_TechniqueGroupIdentifierType.h"
-#include "uci/type/EA_TechniqueType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilityInitiationEnum.h"
+#include "CommandableCapabilityDeclarationType.h"
+#include "ComponentID_Type.h"
+#include "EA_CapabilityOptionsType.h"
+#include "EA_IndicatorEnum.h"
+#include "EA_MessageOutputsEnum.h"
+#include "EA_TechniqueGroupIdentifierType.h"
+#include "EA_TechniqueType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

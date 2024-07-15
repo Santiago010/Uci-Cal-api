@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_TIMEANDPOLARDATATYPE_H
 #define UCI_TYPE_TIMEANDPOLARDATATYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/DoubleAccessor.h"
-#include "uci/base/IntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/PolarMotionType.h"
+#include "../base/Accessor.h"
+#include "../base/DoubleAccessor.h"
+#include "../base/IntAccessor.h"
+#include "../base/export.h"
+#include "DateTimeType.h"
+#include "PolarMotionType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

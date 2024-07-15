@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SUBSYSTEMCALIBRATIONSTATUS_H
 #define UCI_TYPE_SUBSYSTEMCALIBRATIONSTATUS_H
 
-#include "uci/type/SubsystemCalibrationStatusMT.h"
+#include "SubsystemCalibrationStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

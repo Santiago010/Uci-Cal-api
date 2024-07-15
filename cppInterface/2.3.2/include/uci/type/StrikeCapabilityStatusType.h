@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_STRIKECAPABILITYSTATUSTYPE_H
 #define UCI_TYPE_STRIKECAPABILITYSTATUSTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/CapabilityStatusType.h"
-#include "uci/type/StoreStatusType.h"
+#include "../base/export.h"
+#include "CapabilityStatusType.h"
+#include "StoreStatusType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

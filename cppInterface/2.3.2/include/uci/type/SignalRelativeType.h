@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_SIGNALRELATIVETYPE_H
 #define UCI_TYPE_SIGNALRELATIVETYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EW_MeasurementEnum.h"
-#include "uci/type/LOS_MeasurementWithUncertaintyType.h"
-#include "uci/type/MeasurementStatusEnum.h"
-#include "uci/type/ReferenceObjectType.h"
-#include "uci/type/SignalMeasurementFlagEnum.h"
-#include "uci/type/SignalMeasurementMethodEnum.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "EW_MeasurementEnum.h"
+#include "LOS_MeasurementWithUncertaintyType.h"
+#include "MeasurementStatusEnum.h"
+#include "ReferenceObjectType.h"
+#include "SignalMeasurementFlagEnum.h"
+#include "SignalMeasurementMethodEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

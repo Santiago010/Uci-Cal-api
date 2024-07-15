@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_CAPABILITYCOVERAGEAREAREQUESTSTATUS_H
 #define UCI_TYPE_CAPABILITYCOVERAGEAREAREQUESTSTATUS_H
 
-#include "uci/type/CapabilityCoverageAreaRequestStatusMT.h"
+#include "CapabilityCoverageAreaRequestStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

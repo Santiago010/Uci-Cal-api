@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SYSTEMORBITALPOSITIONREPORT_H
 #define UCI_TYPE_SYSTEMORBITALPOSITIONREPORT_H
 
-#include "uci/type/SystemOrbitalPositionReportMT.h"
+#include "SystemOrbitalPositionReportMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

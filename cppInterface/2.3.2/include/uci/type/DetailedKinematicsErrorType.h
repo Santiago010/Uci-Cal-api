@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_DETAILEDKINEMATICSERRORTYPE_H
 #define UCI_TYPE_DETAILEDKINEMATICSERRORTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/OrientationCovarianceType.h"
-#include "uci/type/PositionOrientationCovarianceType.h"
-#include "uci/type/PositionPositionCovarianceType.h"
-#include "uci/type/PositionVelocityCovarianceType.h"
-#include "uci/type/VelocityOrientationCovarianceType.h"
-#include "uci/type/VelocityVelocityCovarianceType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "OrientationCovarianceType.h"
+#include "PositionOrientationCovarianceType.h"
+#include "PositionPositionCovarianceType.h"
+#include "PositionVelocityCovarianceType.h"
+#include "VelocityOrientationCovarianceType.h"
+#include "VelocityVelocityCovarianceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

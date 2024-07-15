@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/COMINT_TaskBaseType.h"
-#include "uci/type/COMINT_TaskType.h"
+#include "../../../include/asb_uci/type/COMINT_TaskBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/COMINT_TaskType.h"
 
 /**  */
 namespace asb_uci {

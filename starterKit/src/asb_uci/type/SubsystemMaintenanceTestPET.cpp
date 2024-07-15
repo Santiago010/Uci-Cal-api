@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/SubsystemMaintenanceTestPET.h"
+#include "../../../include/asb_uci/type/SubsystemMaintenanceTestPET.h"
 
 #include <memory>
 #include <string>
@@ -41,27 +41,27 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CapabilityID_Type.h"
-#include "asb_uci/type/SubsystemID_Type.h"
-#include "asb_uci/type/SubsystemMaintenanceControlInterfacesEnum.h"
-#include "asb_uci/type/SubsystemMaintenanceEventSettingsType.h"
-#include "asb_uci/type/SubsystemMaintenanceID_Type.h"
-#include "asb_uci/type/VisibleString256Type.h"
-#include "asb_uci/util/DerivedTypesCopier.h"
-#include "asb_uci/util/DerivedTypesCreator.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/DerivedTypesSerializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/SubsystemID_Type.h"
-#include "uci/type/SubsystemMaintenanceControlInterfacesEnum.h"
-#include "uci/type/SubsystemMaintenanceEventSettingsType.h"
-#include "uci/type/SubsystemMaintenanceID_Type.h"
-#include "uci/type/SubsystemMaintenanceTestPET.h"
-#include "uci/type/VisibleString256Type.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/CapabilityID_Type.h"
+#include "../../../include/asb_uci/type/SubsystemID_Type.h"
+#include "../../../include/asb_uci/type/SubsystemMaintenanceControlInterfacesEnum.h"
+#include "../../../include/asb_uci/type/SubsystemMaintenanceEventSettingsType.h"
+#include "../../../include/asb_uci/type/SubsystemMaintenanceID_Type.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/util/DerivedTypesCopier.h"
+#include "../../../include/asb_uci/util/DerivedTypesCreator.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/DerivedTypesSerializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemMaintenanceControlInterfacesEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemMaintenanceEventSettingsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemMaintenanceID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemMaintenanceTestPET.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString256Type.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {
@@ -194,7 +194,7 @@ bool SubsystemMaintenanceTestPET::hasDescription() const noexcept {
 
 uci::type::VisibleString256Type& SubsystemMaintenanceTestPET::enableDescription(uci::base::accessorType::AccessorType type) {
   if (!description_Accessor) {
-    description_Accessor = VisibleString256Type::create(type);
+    description_Accessor = boost::make_unique<std::string>("");
   }
   return *description_Accessor;
 }
@@ -304,7 +304,7 @@ bool SubsystemMaintenanceTestPET::hasSubsystemMaintenanceItemName() const noexce
 
 uci::type::VisibleString256Type& SubsystemMaintenanceTestPET::enableSubsystemMaintenanceItemName(uci::base::accessorType::AccessorType type) {
   if (!subsystemMaintenanceItemName_Accessor) {
-    subsystemMaintenanceItemName_Accessor = VisibleString256Type::create(type);
+    subsystemMaintenanceItemName_Accessor = boost::make_unique<std::string>("");
   }
   return *subsystemMaintenanceItemName_Accessor;
 }

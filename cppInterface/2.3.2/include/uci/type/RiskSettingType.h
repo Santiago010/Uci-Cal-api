@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_RISKSETTINGTYPE_H
 #define UCI_TYPE_RISKSETTINGTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/VulnerabilityLevelsType.h"
-#include "uci/type/VulnerabilityTypeEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "VulnerabilityLevelsType.h"
+#include "VulnerabilityTypeEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

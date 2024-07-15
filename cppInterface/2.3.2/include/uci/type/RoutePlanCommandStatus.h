@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ROUTEPLANCOMMANDSTATUS_H
 #define UCI_TYPE_ROUTEPLANCOMMANDSTATUS_H
 
-#include "uci/type/RoutePlanCommandStatusMT.h"
+#include "RoutePlanCommandStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

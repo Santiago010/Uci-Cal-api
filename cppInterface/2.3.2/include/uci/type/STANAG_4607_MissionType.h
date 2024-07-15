@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_STANAG_4607_MISSIONTYPE_H
 #define UCI_TYPE_STANAG_4607_MISSIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/IntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/STANAG_4607_NationalityType.h"
-#include "uci/type/STANAG_4607_PlatformIdentifierType.h"
+#include "../base/Accessor.h"
+#include "../base/IntAccessor.h"
+#include "../base/export.h"
+#include "STANAG_4607_NationalityType.h"
+#include "STANAG_4607_PlatformIdentifierType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

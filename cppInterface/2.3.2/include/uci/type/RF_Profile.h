@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_RF_PROFILE_H
 #define UCI_TYPE_RF_PROFILE_H
 
-#include "uci/type/RF_ProfileMT.h"
+#include "RF_ProfileMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

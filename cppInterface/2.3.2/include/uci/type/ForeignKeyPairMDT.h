@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_FOREIGNKEYPAIRMDT_H
 #define UCI_TYPE_FOREIGNKEYPAIRMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/ForeignKeyPairDRLE.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/ID_Type.h"
+#include "../base/export.h"
+#include "ForeignKeyPairDRLE.h"
+#include "ForeignKeyType.h"
+#include "ID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

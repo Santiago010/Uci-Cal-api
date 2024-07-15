@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_REFUELCAPABILITYDROGUECOMMONTYPE_H
 #define UCI_TYPE_REFUELCAPABILITYDROGUECOMMONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DrogueCommandEnum.h"
-#include "uci/type/MassType.h"
-#include "uci/type/TailConeLightEnum.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "DrogueCommandEnum.h"
+#include "MassType.h"
+#include "TailConeLightEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

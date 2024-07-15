@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_OPNOTIFICATION_H
 #define UCI_TYPE_OPNOTIFICATION_H
 
-#include "uci/type/OpNotificationMT.h"
+#include "OpNotificationMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

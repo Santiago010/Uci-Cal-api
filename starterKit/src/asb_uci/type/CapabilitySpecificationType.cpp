@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CapabilitySpecificationType.h"
+#include "../../../include/asb_uci/type/CapabilitySpecificationType.h"
 
 #include <memory>
 #include <string>
@@ -41,16 +41,16 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CapabilityID_Type.h"
-#include "asb_uci/type/MDF_ID_Type.h"
-#include "asb_uci/type/SupportCapabilityID_Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/CapabilitySpecificationType.h"
-#include "uci/type/MDF_ID_Type.h"
-#include "uci/type/SupportCapabilityID_Type.h"
+#include "../../../include/asb_uci/type/CapabilityID_Type.h"
+#include "../../../include/asb_uci/type/MDF_ID_Type.h"
+#include "../../../include/asb_uci/type/SupportCapabilityID_Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilitySpecificationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MDF_ID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SupportCapabilityID_Type.h"
 
 /**  */
 namespace asb_uci {

@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/VisibleString256Type.h"
-#include "uci/type/StoreLoadoutConfigurationType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StoreLoadoutConfigurationType.h"
 
 /**  */
 namespace asb_uci {

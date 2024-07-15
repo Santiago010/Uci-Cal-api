@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_ACO_FILETRACEABILITYTYPE_H
 #define UCI_TYPE_ACO_FILETRACEABILITYTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/ACO_TraceabilityType.h"
-#include "uci/type/FileMetadataID_Type.h"
+#include "../base/export.h"
+#include "ACO_TraceabilityType.h"
+#include "FileMetadataID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

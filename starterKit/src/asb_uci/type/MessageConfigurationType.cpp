@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/MessageConfigurationType.h"
+#include "../../../include/asb_uci/type/MessageConfigurationType.h"
 
 #include <memory>
 #include <string>
@@ -41,33 +41,33 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CommConfigurationStateEnum.h"
-#include "asb_uci/type/CommDataDirectionFiltrationEnum.h"
-#include "asb_uci/type/ComparableRankingType.h"
-#include "asb_uci/type/DataLinkNativeFilterPET.h"
-#include "asb_uci/type/FilterID_Type.h"
-#include "asb_uci/type/ForeignKeyType.h"
-#include "asb_uci/type/InclusionEnum.h"
-#include "asb_uci/type/MessageConfigurationID_Type.h"
-#include "asb_uci/type/QueryMessageType.h"
-#include "asb_uci/type/SystemID_Type.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CommConfigurationStateEnum.h"
-#include "uci/type/CommDataDirectionFiltrationEnum.h"
-#include "uci/type/ComparableRankingType.h"
-#include "uci/type/DataLinkNativeFilterPET.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/FilterID_Type.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/InclusionEnum.h"
-#include "uci/type/MessageConfigurationID_Type.h"
-#include "uci/type/MessageConfigurationType.h"
-#include "uci/type/QueryMessageType.h"
-#include "uci/type/SystemID_Type.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/CommConfigurationStateEnum.h"
+#include "../../../include/asb_uci/type/CommDataDirectionFiltrationEnum.h"
+#include "../../../include/asb_uci/type/ComparableRankingType.h"
+#include "../../../include/asb_uci/type/DataLinkNativeFilterPET.h"
+#include "../../../include/asb_uci/type/FilterID_Type.h"
+#include "../../../include/asb_uci/type/ForeignKeyType.h"
+#include "../../../include/asb_uci/type/InclusionEnum.h"
+#include "../../../include/asb_uci/type/MessageConfigurationID_Type.h"
+#include "../../../include/asb_uci/type/QueryMessageType.h"
+#include "../../../include/asb_uci/type/SystemID_Type.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommConfigurationStateEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommDataDirectionFiltrationEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ComparableRankingType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DataLinkNativeFilterPET.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DurationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FilterID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ForeignKeyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/InclusionEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MessageConfigurationID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MessageConfigurationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/QueryMessageType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SystemID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

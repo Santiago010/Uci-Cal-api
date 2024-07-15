@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_EFFECTPLANCOMMANDID_CHOICETYPE_H
 #define UCI_TYPE_EFFECTPLANCOMMANDID_CHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CommandID_Type.h"
-#include "uci/type/EffectPlanCommandID_Type.h"
-#include "uci/type/MissionPlanCommandID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CommandID_Type.h"
+#include "EffectPlanCommandID_Type.h"
+#include "MissionPlanCommandID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

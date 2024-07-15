@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AlphanumericDashSpaceUnderscoreString20Type.h"
-#include "asb_uci/type/TailNumberType.h"
-#include "uci/base/Accessor.h"
-#include "uci/type/VehicleUniqueIdentifierType.h"
+#include "../../../include/asb_uci/type/AlphanumericDashSpaceUnderscoreString20Type.h"
+#include "../../../include/asb_uci/type/TailNumberType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VehicleUniqueIdentifierType.h"
 
 /**  */
 namespace asb_uci {

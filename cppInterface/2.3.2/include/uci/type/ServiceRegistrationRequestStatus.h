@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SERVICEREGISTRATIONREQUESTSTATUS_H
 #define UCI_TYPE_SERVICEREGISTRATIONREQUESTSTATUS_H
 
-#include "uci/type/ServiceRegistrationRequestStatusMT.h"
+#include "ServiceRegistrationRequestStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

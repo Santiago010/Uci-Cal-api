@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/CommMADL_NetLinkOpStateEnum.h"
-#include "asb_uci/type/CommMADL_NetLinkSearchModeEnum.h"
-#include "uci/type/CommMADL_LinkCommandType.h"
+#include "../../../include/asb_uci/type/CommMADL_NetLinkOpStateEnum.h"
+#include "../../../include/asb_uci/type/CommMADL_NetLinkSearchModeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommMADL_LinkCommandType.h"
 
 /**  */
 namespace asb_uci {

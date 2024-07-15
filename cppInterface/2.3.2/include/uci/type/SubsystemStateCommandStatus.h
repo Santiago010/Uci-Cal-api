@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SUBSYSTEMSTATECOMMANDSTATUS_H
 #define UCI_TYPE_SUBSYSTEMSTATECOMMANDSTATUS_H
 
-#include "uci/type/SubsystemStateCommandStatusMT.h"
+#include "SubsystemStateCommandStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

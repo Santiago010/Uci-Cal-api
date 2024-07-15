@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_STOREMANAGEMENTREPORTMDT_H
 #define UCI_TYPE_STOREMANAGEMENTREPORTMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/LAR_CalculationWindType.h"
-#include "uci/type/StoreManagementReportID_Type.h"
-#include "uci/type/StoreType.h"
-#include "uci/type/SupportCapabilityID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "ForeignKeyType.h"
+#include "LAR_CalculationWindType.h"
+#include "StoreManagementReportID_Type.h"
+#include "StoreType.h"
+#include "SupportCapabilityID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

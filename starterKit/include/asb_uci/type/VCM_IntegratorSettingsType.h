@@ -41,13 +41,13 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AS_IntegratorModeEnum.h"
-#include "asb_uci/type/AS_IntegratorStepModeEnum.h"
-#include "asb_uci/type/AS_PartialDerivativesEnum.h"
-#include "asb_uci/type/DoublePositiveType.h"
-#include "asb_uci/type/InitialStepSizeEnum.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/VCM_IntegratorSettingsType.h"
+#include "../../../include/asb_uci/type/AS_IntegratorModeEnum.h"
+#include "../../../include/asb_uci/type/AS_IntegratorStepModeEnum.h"
+#include "../../../include/asb_uci/type/AS_PartialDerivativesEnum.h"
+#include "../../../include/asb_uci/type/DoublePositiveType.h"
+#include "../../../include/asb_uci/type/InitialStepSizeEnum.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VCM_IntegratorSettingsType.h"
 
 /**  */
 namespace asb_uci {

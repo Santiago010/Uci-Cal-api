@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SELFDEFENSESTATUSMDT_H
 #define UCI_TYPE_SELFDEFENSESTATUSMDT_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/SupportCapabilityStatusBaseType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "SupportCapabilityStatusBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_ROUTETHREATASSESSMENTDATATYPE_H
 #define UCI_TYPE_ROUTETHREATASSESSMENTDATATYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/MissionPlanID_Type.h"
-#include "uci/type/PathThreatAssessmentType.h"
-#include "uci/type/RoutePlanID_Type.h"
-#include "uci/type/SystemID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "MissionPlanID_Type.h"
+#include "PathThreatAssessmentType.h"
+#include "RoutePlanID_Type.h"
+#include "SystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

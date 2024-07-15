@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/COMINT_GeolocationType.h"
+#include "../../../include/asb_uci/type/COMINT_GeolocationType.h"
 
 #include <memory>
 #include <string>
@@ -41,18 +41,18 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/EntityID_Type.h"
-#include "asb_uci/type/SignalGeolocationControlEnum.h"
-#include "asb_uci/type/SignalGeolocationMethodEnum.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/COMINT_GeolocationType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/EntityID_Type.h"
-#include "uci/type/SignalGeolocationControlEnum.h"
-#include "uci/type/SignalGeolocationMethodEnum.h"
+#include "../../../include/asb_uci/type/EntityID_Type.h"
+#include "../../../include/asb_uci/type/SignalGeolocationControlEnum.h"
+#include "../../../include/asb_uci/type/SignalGeolocationMethodEnum.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/COMINT_GeolocationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DurationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EntityID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SignalGeolocationControlEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SignalGeolocationMethodEnum.h"
 
 /**  */
 namespace asb_uci {

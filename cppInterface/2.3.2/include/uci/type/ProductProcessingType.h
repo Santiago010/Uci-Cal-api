@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_PRODUCTPROCESSINGTYPE_H
 #define UCI_TYPE_PRODUCTPROCESSINGTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ProcessingParametersPET.h"
-#include "uci/type/ProcessingTypeEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ProcessingParametersPET.h"
+#include "ProcessingTypeEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

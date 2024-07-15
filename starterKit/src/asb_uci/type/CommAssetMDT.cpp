@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CommAssetMDT.h"
+#include "../../../include/asb_uci/type/CommAssetMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,18 +41,18 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AntennaType.h"
-#include "asb_uci/type/CommAssetCategoryEnum.h"
-#include "asb_uci/type/CommAssetID_Type.h"
-#include "asb_uci/type/CommSystemID_Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AntennaType.h"
-#include "uci/type/CommAssetCategoryEnum.h"
-#include "uci/type/CommAssetID_Type.h"
-#include "uci/type/CommAssetMDT.h"
-#include "uci/type/CommSystemID_Type.h"
+#include "../../../include/asb_uci/type/AntennaType.h"
+#include "../../../include/asb_uci/type/CommAssetCategoryEnum.h"
+#include "../../../include/asb_uci/type/CommAssetID_Type.h"
+#include "../../../include/asb_uci/type/CommSystemID_Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AntennaType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommAssetCategoryEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommAssetID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommAssetMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommSystemID_Type.h"
 
 /**  */
 namespace asb_uci {

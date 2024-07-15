@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_EXTERNALDATAREQUESTMDT_H
 #define UCI_TYPE_EXTERNALDATAREQUESTMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/ExternalDataRequestEnum.h"
-#include "uci/type/ExternalRequestedDataID_Type.h"
-#include "uci/type/RequestBaseType.h"
+#include "../base/export.h"
+#include "ExternalDataRequestEnum.h"
+#include "ExternalRequestedDataID_Type.h"
+#include "RequestBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

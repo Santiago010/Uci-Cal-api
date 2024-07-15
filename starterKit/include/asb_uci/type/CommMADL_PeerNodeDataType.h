@@ -41,11 +41,11 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/CommMADL_AircraftTypeEnum.h"
-#include "asb_uci/type/MADL_NodeRangeType.h"
-#include "asb_uci/type/ShortPositiveType.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/CommMADL_PeerNodeDataType.h"
+#include "../../../include/asb_uci/type/CommMADL_AircraftTypeEnum.h"
+#include "../../../include/asb_uci/type/MADL_NodeRangeType.h"
+#include "../../../include/asb_uci/type/ShortPositiveType.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommMADL_PeerNodeDataType.h"
 
 /**  */
 namespace asb_uci {

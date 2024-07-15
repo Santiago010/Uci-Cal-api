@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_SYSTEMORBITALELEMENTSETREQUESTMDT_H
 #define UCI_TYPE_SYSTEMORBITALELEMENTSETREQUESTMDT_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/OrbitalElementSetRequestParametersType.h"
-#include "uci/type/RequestBaseType.h"
-#include "uci/type/SystemID_Type.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "OrbitalElementSetRequestParametersType.h"
+#include "RequestBaseType.h"
+#include "SystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

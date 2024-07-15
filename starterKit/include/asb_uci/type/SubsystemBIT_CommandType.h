@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/VisibleString256Type.h"
-#include "uci/base/Accessor.h"
-#include "uci/type/SubsystemBIT_CommandType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemBIT_CommandType.h"
 
 /**  */
 namespace asb_uci {

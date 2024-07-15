@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_VEHICLECONFIGURATIONTYPE_H
 #define UCI_TYPE_VEHICLECONFIGURATIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EnduranceType.h"
-#include "uci/type/InertialStateRelativeType.h"
-#include "uci/type/MassType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "EnduranceType.h"
+#include "InertialStateRelativeType.h"
+#include "MassType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

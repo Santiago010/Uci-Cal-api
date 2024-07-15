@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SUBSYSTEMERASECOMMANDSTATUS_H
 #define UCI_TYPE_SUBSYSTEMERASECOMMANDSTATUS_H
 
-#include "uci/type/SubsystemEraseCommandStatusMT.h"
+#include "SubsystemEraseCommandStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

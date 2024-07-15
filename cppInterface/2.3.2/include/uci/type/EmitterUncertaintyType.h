@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_EMITTERUNCERTAINTYTYPE_H
 #define UCI_TYPE_EMITTERUNCERTAINTYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AngleHalfType.h"
-#include "uci/type/DistanceType.h"
-#include "uci/type/EmitterUncertaintyChoiceType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AngleHalfType.h"
+#include "DistanceType.h"
+#include "EmitterUncertaintyChoiceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

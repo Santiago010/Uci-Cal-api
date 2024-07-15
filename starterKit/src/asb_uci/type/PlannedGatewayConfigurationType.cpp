@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/PlannedGatewayConfigurationType.h"
+#include "../../../include/asb_uci/type/PlannedGatewayConfigurationType.h"
 
 #include <memory>
 #include <string>
@@ -41,35 +41,35 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ActivityID_Type.h"
-#include "asb_uci/type/CapabilityID_Type.h"
-#include "asb_uci/type/CommConfigurationID_Type.h"
-#include "asb_uci/type/CommConfigurationStateEnum.h"
-#include "asb_uci/type/CommProfileID_Type.h"
-#include "asb_uci/type/GatewayConfigurationPET.h"
-#include "asb_uci/type/GatewayLinkDestinationType.h"
-#include "asb_uci/type/MDF_CommandType.h"
-#include "asb_uci/type/MessageConfigurationType.h"
-#include "asb_uci/type/ProductDisseminationDestinationID_Type.h"
-#include "asb_uci/type/ServiceID_Type.h"
-#include "asb_uci/type/SystemID_Type.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ActivityID_Type.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/CommConfigurationID_Type.h"
-#include "uci/type/CommConfigurationStateEnum.h"
-#include "uci/type/CommProfileID_Type.h"
-#include "uci/type/GatewayConfigurationPET.h"
-#include "uci/type/GatewayLinkDestinationType.h"
-#include "uci/type/MDF_CommandType.h"
-#include "uci/type/MessageConfigurationType.h"
-#include "uci/type/PlannedGatewayConfigurationType.h"
-#include "uci/type/ProductDisseminationDestinationID_Type.h"
-#include "uci/type/ServiceID_Type.h"
-#include "uci/type/SystemID_Type.h"
+#include "../../../include/asb_uci/type/ActivityID_Type.h"
+#include "../../../include/asb_uci/type/CapabilityID_Type.h"
+#include "../../../include/asb_uci/type/CommConfigurationID_Type.h"
+#include "../../../include/asb_uci/type/CommConfigurationStateEnum.h"
+#include "../../../include/asb_uci/type/CommProfileID_Type.h"
+#include "../../../include/asb_uci/type/GatewayConfigurationPET.h"
+#include "../../../include/asb_uci/type/GatewayLinkDestinationType.h"
+#include "../../../include/asb_uci/type/MDF_CommandType.h"
+#include "../../../include/asb_uci/type/MessageConfigurationType.h"
+#include "../../../include/asb_uci/type/ProductDisseminationDestinationID_Type.h"
+#include "../../../include/asb_uci/type/ServiceID_Type.h"
+#include "../../../include/asb_uci/type/SystemID_Type.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ActivityID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommConfigurationID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommConfigurationStateEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommProfileID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/GatewayConfigurationPET.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/GatewayLinkDestinationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MDF_CommandType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MessageConfigurationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlannedGatewayConfigurationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProductDisseminationDestinationID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ServiceID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SystemID_Type.h"
 
 /**  */
 namespace asb_uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/EA_TaskSuppressionConstraintsType.h"
+#include "../../../include/asb_uci/type/EA_TaskSuppressionConstraintsType.h"
 
 #include <memory>
 #include <string>
@@ -41,15 +41,15 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/EA_TargetType.h"
-#include "asb_uci/type/EA_TechniqueIdentifierType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/EA_TargetType.h"
-#include "uci/type/EA_TaskSuppressionConstraintsType.h"
-#include "uci/type/EA_TechniqueIdentifierType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/EA_TargetType.h"
+#include "../../../include/asb_uci/type/EA_TechniqueIdentifierType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EA_TargetType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EA_TaskSuppressionConstraintsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EA_TechniqueIdentifierType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

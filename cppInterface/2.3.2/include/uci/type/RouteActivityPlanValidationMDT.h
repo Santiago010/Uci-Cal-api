@@ -36,17 +36,17 @@
 #ifndef UCI_TYPE_ROUTEACTIVITYPLANVALIDATIONMDT_H
 #define UCI_TYPE_ROUTEACTIVITYPLANVALIDATIONMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CompletionStatusType.h"
-#include "uci/type/IncompleteProcessingType.h"
-#include "uci/type/InvalidActivityType.h"
-#include "uci/type/PlanValidationStateEnum.h"
-#include "uci/type/RequirementPlanningResultType.h"
-#include "uci/type/RouteActivityPlanID_Type.h"
-#include "uci/type/RouteActivityPlanValidationID_Type.h"
-#include "uci/type/ValidatorType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CompletionStatusType.h"
+#include "IncompleteProcessingType.h"
+#include "InvalidActivityType.h"
+#include "PlanValidationStateEnum.h"
+#include "RequirementPlanningResultType.h"
+#include "RouteActivityPlanID_Type.h"
+#include "RouteActivityPlanValidationID_Type.h"
+#include "ValidatorType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

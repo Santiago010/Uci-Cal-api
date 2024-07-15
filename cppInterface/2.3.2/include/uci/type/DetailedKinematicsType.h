@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_DETAILEDKINEMATICSTYPE_H
 #define UCI_TYPE_DETAILEDKINEMATICSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/Acceleration3D_Type.h"
-#include "uci/type/AirDataType.h"
-#include "uci/type/AngleType.h"
-#include "uci/type/OrientationAccelerationType.h"
-#include "uci/type/OrientationRateType.h"
-#include "uci/type/OrientationType.h"
-#include "uci/type/PointChoice4D_Type.h"
-#include "uci/type/Velocity3D_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "Acceleration3D_Type.h"
+#include "AirDataType.h"
+#include "AngleType.h"
+#include "OrientationAccelerationType.h"
+#include "OrientationRateType.h"
+#include "OrientationType.h"
+#include "PointChoice4D_Type.h"
+#include "Velocity3D_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

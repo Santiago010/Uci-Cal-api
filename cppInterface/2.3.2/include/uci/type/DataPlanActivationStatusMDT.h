@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_DATAPLANACTIVATIONSTATUSMDT_H
 #define UCI_TYPE_DATAPLANACTIVATIONSTATUSMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DataPlanActivationStateEnum.h"
-#include "uci/type/DataPlanEffectivityStateType.h"
-#include "uci/type/DataPlanID_Type.h"
-#include "uci/type/ForeignKeyType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DataPlanActivationStateEnum.h"
+#include "DataPlanEffectivityStateType.h"
+#include "DataPlanID_Type.h"
+#include "ForeignKeyType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

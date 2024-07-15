@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_PRODUCTOUTPUTTYPE_H
 #define UCI_TYPE_PRODUCTOUTPUTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/FileFormatType.h"
-#include "uci/type/ProcessingTypeEnum.h"
-#include "uci/type/ProductTypeEnum.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "FileFormatType.h"
+#include "ProcessingTypeEnum.h"
+#include "ProductTypeEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

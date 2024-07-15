@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_POINT4D_TYPE_H
 #define UCI_TYPE_POINT4D_TYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AltitudeReferenceEnum.h"
-#include "uci/type/AltitudeType.h"
-#include "uci/type/AngleHalfType.h"
-#include "uci/type/AngleType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/DistanceOffsetType.h"
-#include "uci/type/Link16DepthEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AltitudeReferenceEnum.h"
+#include "AltitudeType.h"
+#include "AngleHalfType.h"
+#include "AngleType.h"
+#include "DateTimeType.h"
+#include "DistanceOffsetType.h"
+#include "Link16DepthEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

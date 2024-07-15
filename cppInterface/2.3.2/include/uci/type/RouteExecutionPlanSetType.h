@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_ROUTEEXECUTIONPLANSETTYPE_H
 #define UCI_TYPE_ROUTEEXECUTIONPLANSETTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ExecutionPlanSetBaseType.h"
-#include "uci/type/RouteActivityPlanID_Type.h"
-#include "uci/type/RoutePlanID_Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ExecutionPlanSetBaseType.h"
+#include "RouteActivityPlanID_Type.h"
+#include "RoutePlanID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

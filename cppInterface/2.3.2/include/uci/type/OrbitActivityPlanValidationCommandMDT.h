@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_ORBITACTIVITYPLANVALIDATIONCOMMANDMDT_H
 #define UCI_TYPE_ORBITACTIVITYPLANVALIDATIONCOMMANDMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/OrbitActivityPlanValidationInputsType.h"
-#include "uci/type/ValidationCommandBaseType.h"
+#include "../base/export.h"
+#include "OrbitActivityPlanValidationInputsType.h"
+#include "ValidationCommandBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/DistanceOffsetType.h"
-#include "asb_uci/type/OffsetXY_Enum.h"
-#include "asb_uci/type/RotationEnum.h"
-#include "uci/type/RelativeOffset3D_Type.h"
+#include "../../../include/asb_uci/type/DistanceOffsetType.h"
+#include "../../../include/asb_uci/type/OffsetXY_Enum.h"
+#include "../../../include/asb_uci/type/RotationEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RelativeOffset3D_Type.h"
 
 /**  */
 namespace asb_uci {

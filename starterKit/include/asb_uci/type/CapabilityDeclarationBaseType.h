@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/EnvironmentPairingEnum.h"
-#include "asb_uci/type/PackageOperationEnum.h"
-#include "uci/type/CapabilityDeclarationBaseType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/EnvironmentPairingEnum.h"
+#include "../../../include/asb_uci/type/PackageOperationEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityDeclarationBaseType.h"
 
 /**  */
 namespace asb_uci {

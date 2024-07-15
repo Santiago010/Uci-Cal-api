@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_MISSIONENVIRONMENTOVERRIDE_H
 #define UCI_TYPE_MISSIONENVIRONMENTOVERRIDE_H
 
-#include "uci/type/MissionEnvironmentOverrideMT.h"
+#include "MissionEnvironmentOverrideMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

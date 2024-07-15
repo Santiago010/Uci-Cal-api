@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_MISSIONENVIRONMENTOBJECTOPVOLUMETYPE_H
 #define UCI_TYPE_MISSIONENVIRONMENTOBJECTOPVOLUMETYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/MissionEnvironmentObjectBaseType.h"
-#include "uci/type/OpVolumeID_Type.h"
+#include "../base/export.h"
+#include "MissionEnvironmentObjectBaseType.h"
+#include "OpVolumeID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

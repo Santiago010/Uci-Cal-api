@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/FieldOfRegardTypeEnum.h"
-#include "asb_uci/type/VisibleString256Type.h"
-#include "uci/type/FieldOfRegardType.h"
+#include "../../../include/asb_uci/type/FieldOfRegardTypeEnum.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FieldOfRegardType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_CONCURRENTTASKREFERENCETYPE_H
 #define UCI_TYPE_CONCURRENTTASKREFERENCETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/OffsetTimeType.h"
-#include "uci/type/TaskID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "OffsetTimeType.h"
+#include "TaskID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

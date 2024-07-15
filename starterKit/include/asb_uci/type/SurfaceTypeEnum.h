@@ -36,9 +36,9 @@
 #ifndef ASB_UCI_TYPE_SURFACETYPEENUM_H
 #define ASB_UCI_TYPE_SURFACETYPEENUM_H
 
-#include "asb_uci/base/EnumAccessor.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/SurfaceTypeEnum.h"
+#include "../../../include/asb_uci/base/EnumAccessor.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SurfaceTypeEnum.h"
 
 /**  */
 namespace asb_uci {

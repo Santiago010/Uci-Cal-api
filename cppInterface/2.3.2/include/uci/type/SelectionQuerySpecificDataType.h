@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_SELECTIONQUERYSPECIFICDATATYPE_H
 #define UCI_TYPE_SELECTIONQUERYSPECIFICDATATYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/DataUpdateRequestCategoryEnum.h"
-#include "uci/type/QuerySpecificDataPET.h"
+#include "../base/export.h"
+#include "DataUpdateRequestCategoryEnum.h"
+#include "QuerySpecificDataPET.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

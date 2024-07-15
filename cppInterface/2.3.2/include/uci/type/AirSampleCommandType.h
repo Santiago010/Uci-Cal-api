@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_AIRSAMPLECOMMANDTYPE_H
 #define UCI_TYPE_AIRSAMPLECOMMANDTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ActivityCommandBaseType.h"
-#include "uci/type/AirSampleCapabilityCommandType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ActivityCommandBaseType.h"
+#include "AirSampleCapabilityCommandType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

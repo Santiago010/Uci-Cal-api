@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_WORKINGEOB_SOURCEID_CHOICETYPE_H
 #define UCI_TYPE_WORKINGEOB_SOURCEID_CHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/SystemID_Type.h"
-#include "uci/type/WorkingEOB_ID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "SystemID_Type.h"
+#include "WorkingEOB_ID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

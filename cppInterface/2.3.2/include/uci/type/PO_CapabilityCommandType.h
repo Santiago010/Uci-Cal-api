@@ -36,18 +36,18 @@
 #ifndef UCI_TYPE_PO_CAPABILITYCOMMANDTYPE_H
 #define UCI_TYPE_PO_CAPABILITYCOMMANDTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityCommandBaseType.h"
-#include "uci/type/CollectionPolicyEnum.h"
-#include "uci/type/PO_CollectionConstraintsSettingsType.h"
-#include "uci/type/PO_ComponentSettingsType.h"
-#include "uci/type/PO_ProductOutputCommandImageryType.h"
-#include "uci/type/PO_SubCapabilitySettingsType.h"
-#include "uci/type/PO_TargetType.h"
-#include "uci/type/PO_TrackDetailsType.h"
-#include "uci/type/PairIdentifierEnum.h"
-#include "uci/type/RepetitionType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilityCommandBaseType.h"
+#include "CollectionPolicyEnum.h"
+#include "PO_CollectionConstraintsSettingsType.h"
+#include "PO_ComponentSettingsType.h"
+#include "PO_ProductOutputCommandImageryType.h"
+#include "PO_SubCapabilitySettingsType.h"
+#include "PO_TargetType.h"
+#include "PO_TrackDetailsType.h"
+#include "PairIdentifierEnum.h"
+#include "RepetitionType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

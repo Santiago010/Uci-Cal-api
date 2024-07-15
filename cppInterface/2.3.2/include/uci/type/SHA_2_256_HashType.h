@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SHA_2_256_HASHTYPE_H
 #define UCI_TYPE_SHA_2_256_HASHTYPE_H
 
-#include "xs/type/binaryXmlSchemaPrimitives.h"
+#include "../../xs/type/binaryXmlSchemaPrimitives.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

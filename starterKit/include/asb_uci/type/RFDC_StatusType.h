@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/PowerType.h"
-#include "uci/type/RFDC_StatusType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/PowerType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RFDC_StatusType.h"
 
 /**  */
 namespace asb_uci {

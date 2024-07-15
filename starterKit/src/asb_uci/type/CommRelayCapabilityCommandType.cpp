@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CommRelayCapabilityCommandType.h"
+#include "../../../include/asb_uci/type/CommRelayCapabilityCommandType.h"
 
 #include <memory>
 #include <string>
@@ -41,17 +41,17 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AssetType.h"
-#include "asb_uci/type/CapabilityCommandBaseType.h"
-#include "asb_uci/type/FrequencySetType.h"
-#include "asb_uci/type/RepetitionType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AssetType.h"
-#include "uci/type/CommRelayCapabilityCommandType.h"
-#include "uci/type/FrequencySetType.h"
-#include "uci/type/RepetitionType.h"
+#include "../../../include/asb_uci/type/AssetType.h"
+#include "../../../include/asb_uci/type/CapabilityCommandBaseType.h"
+#include "../../../include/asb_uci/type/FrequencySetType.h"
+#include "../../../include/asb_uci/type/RepetitionType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AssetType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommRelayCapabilityCommandType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FrequencySetType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RepetitionType.h"
 
 /**  */
 namespace asb_uci {

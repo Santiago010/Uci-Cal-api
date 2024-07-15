@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_COMMOUTAGETYPE_H
 #define UCI_TYPE_COMMOUTAGETYPE_H
 
-#include "uci/base/IntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CommCoverageDataType.h"
-#include "uci/type/VisibleString1024Type.h"
+#include "../base/IntAccessor.h"
+#include "../base/export.h"
+#include "CommCoverageDataType.h"
+#include "VisibleString1024Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

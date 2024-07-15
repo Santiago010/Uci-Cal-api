@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_PO_COLLECTIONCONSTRAINTSSETTINGSTYPE_H
 #define UCI_TYPE_PO_COLLECTIONCONSTRAINTSSETTINGSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/PO_AngleConstraintControlsType.h"
-#include "uci/type/PO_CollectionPatternConstraintControlsType.h"
-#include "uci/type/PO_GimbalOrientationConstraintType.h"
-#include "uci/type/PO_SlantRangeConstraintControlsType.h"
-#include "uci/type/PO_SweepSpeedConstraintControlsType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "PO_AngleConstraintControlsType.h"
+#include "PO_CollectionPatternConstraintControlsType.h"
+#include "PO_GimbalOrientationConstraintType.h"
+#include "PO_SlantRangeConstraintControlsType.h"
+#include "PO_SweepSpeedConstraintControlsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SUBSYSTEMSTATUSDETAILEDDATAREQUEST_H
 #define UCI_TYPE_SUBSYSTEMSTATUSDETAILEDDATAREQUEST_H
 
-#include "uci/type/SubsystemStatusDetailedDataRequestMT.h"
+#include "SubsystemStatusDetailedDataRequestMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -41,12 +41,12 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AltitudeBarometricType.h"
-#include "asb_uci/type/AngleHalfType.h"
-#include "asb_uci/type/DateTimeType.h"
-#include "asb_uci/type/SpeedType.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/AirDataType.h"
+#include "../../../include/asb_uci/type/AltitudeBarometricType.h"
+#include "../../../include/asb_uci/type/AngleHalfType.h"
+#include "../../../include/asb_uci/type/DateTimeType.h"
+#include "../../../include/asb_uci/type/SpeedType.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AirDataType.h"
 
 /**  */
 namespace asb_uci {

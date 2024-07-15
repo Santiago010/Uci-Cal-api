@@ -33,7 +33,7 @@
  *
  */
 
-#include "uci/type/R_BarApproachEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/R_BarApproachEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

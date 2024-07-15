@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/SystemScheduleStateType.h"
+#include "../../../include/asb_uci/type/SystemScheduleStateType.h"
 
 #include <memory>
 #include <string>
@@ -41,16 +41,16 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/OpStateEnum.h"
-#include "asb_uci/type/ScheduleStateType.h"
-#include "asb_uci/type/SystemID_Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/OpStateEnum.h"
-#include "uci/type/ScheduleStateType.h"
-#include "uci/type/SystemID_Type.h"
-#include "uci/type/SystemScheduleStateType.h"
+#include "../../../include/asb_uci/type/OpStateEnum.h"
+#include "../../../include/asb_uci/type/ScheduleStateType.h"
+#include "../../../include/asb_uci/type/SystemID_Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpStateEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ScheduleStateType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SystemID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SystemScheduleStateType.h"
 
 /**  */
 namespace asb_uci {

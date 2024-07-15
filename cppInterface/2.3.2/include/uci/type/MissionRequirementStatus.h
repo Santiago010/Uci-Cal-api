@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_MISSIONREQUIREMENTSTATUS_H
 #define UCI_TYPE_MISSIONREQUIREMENTSTATUS_H
 
-#include "uci/type/MissionRequirementStatusMT.h"
+#include "MissionRequirementStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_ENDURANCETYPE_H
 #define UCI_TYPE_ENDURANCETYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/EnduranceBaseType.h"
-#include "uci/type/EnduranceFootprintType.h"
+#include "../base/export.h"
+#include "EnduranceBaseType.h"
+#include "EnduranceFootprintType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

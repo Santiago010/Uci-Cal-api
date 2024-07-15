@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/BCRS_KinematicsType.h"
+#include "../../../include/asb_uci/type/BCRS_KinematicsType.h"
 
 #include <memory>
 #include <string>
@@ -41,21 +41,21 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/BCRS_PositionType.h"
-#include "asb_uci/type/CovarianceMatrixType.h"
-#include "asb_uci/type/OrbitalKinematicsAccelerationType.h"
-#include "asb_uci/type/OrbitalKinematicsVelocityType.h"
-#include "asb_uci/type/QuaternionType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/BCRS_KinematicsType.h"
-#include "uci/type/BCRS_PositionType.h"
-#include "uci/type/CovarianceMatrixType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/OrbitalKinematicsAccelerationType.h"
-#include "uci/type/OrbitalKinematicsVelocityType.h"
-#include "uci/type/QuaternionType.h"
+#include "../../../include/asb_uci/type/BCRS_PositionType.h"
+#include "../../../include/asb_uci/type/CovarianceMatrixType.h"
+#include "../../../include/asb_uci/type/OrbitalKinematicsAccelerationType.h"
+#include "../../../include/asb_uci/type/OrbitalKinematicsVelocityType.h"
+#include "../../../include/asb_uci/type/QuaternionType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/BCRS_KinematicsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/BCRS_PositionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CovarianceMatrixType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DateTimeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalKinematicsAccelerationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalKinematicsVelocityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/QuaternionType.h"
 
 /**  */
 namespace asb_uci {

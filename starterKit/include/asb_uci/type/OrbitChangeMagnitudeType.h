@@ -41,12 +41,12 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/AngleHalfPositiveType.h"
-#include "asb_uci/type/AngleType.h"
-#include "asb_uci/type/DistanceType.h"
-#include "asb_uci/type/DoubleNonNegativeType.h"
-#include "uci/type/OrbitChangeMagnitudeType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/AngleHalfPositiveType.h"
+#include "../../../include/asb_uci/type/AngleType.h"
+#include "../../../include/asb_uci/type/DistanceType.h"
+#include "../../../include/asb_uci/type/DoubleNonNegativeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitChangeMagnitudeType.h"
 
 /**  */
 namespace asb_uci {

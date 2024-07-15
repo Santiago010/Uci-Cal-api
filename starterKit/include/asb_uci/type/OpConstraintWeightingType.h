@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/OpConstraintEnum.h"
-#include "asb_uci/type/OpConstraintTypeEnum.h"
-#include "uci/type/OpConstraintWeightingType.h"
+#include "../../../include/asb_uci/type/OpConstraintEnum.h"
+#include "../../../include/asb_uci/type/OpConstraintTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpConstraintWeightingType.h"
 
 /**  */
 namespace asb_uci {

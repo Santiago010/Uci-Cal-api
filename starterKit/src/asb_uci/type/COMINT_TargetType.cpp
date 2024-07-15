@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/COMINT_TargetType.h"
+#include "../../../include/asb_uci/type/COMINT_TargetType.h"
 
 #include <memory>
 #include <string>
@@ -41,23 +41,23 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/EmitterIdentityType.h"
-#include "asb_uci/type/EntityID_Type.h"
-#include "asb_uci/type/ForeignKeyType.h"
-#include "asb_uci/type/SignalID_Type.h"
-#include "asb_uci/type/SignalSummaryType.h"
-#include "asb_uci/type/SpecificEmitterIdentityType.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/COMINT_TargetType.h"
-#include "uci/type/EmitterIdentityType.h"
-#include "uci/type/EntityID_Type.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/SignalID_Type.h"
-#include "uci/type/SignalSummaryType.h"
-#include "uci/type/SpecificEmitterIdentityType.h"
+#include "../../../include/asb_uci/type/EmitterIdentityType.h"
+#include "../../../include/asb_uci/type/EntityID_Type.h"
+#include "../../../include/asb_uci/type/ForeignKeyType.h"
+#include "../../../include/asb_uci/type/SignalID_Type.h"
+#include "../../../include/asb_uci/type/SignalSummaryType.h"
+#include "../../../include/asb_uci/type/SpecificEmitterIdentityType.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/COMINT_TargetType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EmitterIdentityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EntityID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ForeignKeyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SignalID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SignalSummaryType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SpecificEmitterIdentityType.h"
 
 /**  */
 namespace asb_uci {

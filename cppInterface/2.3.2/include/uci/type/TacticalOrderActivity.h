@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_TACTICALORDERACTIVITY_H
 #define UCI_TYPE_TACTICALORDERACTIVITY_H
 
-#include "uci/type/TacticalOrderActivityMT.h"
+#include "TacticalOrderActivityMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

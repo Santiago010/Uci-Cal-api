@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_MESSAGETRANSMISSIONLIST_H
 #define UCI_TYPE_MESSAGETRANSMISSIONLIST_H
 
-#include "uci/type/MessageTransmissionListMT.h"
+#include "MessageTransmissionListMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

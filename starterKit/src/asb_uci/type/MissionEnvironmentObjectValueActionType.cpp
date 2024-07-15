@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/MissionEnvironmentObjectValueActionType.h"
+#include "../../../include/asb_uci/type/MissionEnvironmentObjectValueActionType.h"
 
 #include <memory>
 #include <string>
@@ -41,14 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ActionTypeEnum.h"
-#include "asb_uci/type/MissionEnvironmentObjectActionType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ActionTypeEnum.h"
-#include "uci/type/MissionEnvironmentObjectActionType.h"
-#include "uci/type/MissionEnvironmentObjectValueActionType.h"
+#include "../../../include/asb_uci/type/ActionTypeEnum.h"
+#include "../../../include/asb_uci/type/MissionEnvironmentObjectActionType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ActionTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MissionEnvironmentObjectActionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MissionEnvironmentObjectValueActionType.h"
 
 /**  */
 namespace asb_uci {

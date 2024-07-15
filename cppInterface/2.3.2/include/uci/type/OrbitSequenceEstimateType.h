@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_ORBITSEQUENCEESTIMATETYPE_H
 #define UCI_TYPE_ORBITSEQUENCEESTIMATETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/OrbitKinematicsSequenceID_Type.h"
-#include "uci/type/OrbitManeuverSegmentID_Type.h"
-#include "uci/type/OrbitPlanID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DateTimeType.h"
+#include "OrbitKinematicsSequenceID_Type.h"
+#include "OrbitManeuverSegmentID_Type.h"
+#include "OrbitPlanID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

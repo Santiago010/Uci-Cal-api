@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_SOLARWINDRECORDTYPE_H
 #define UCI_TYPE_SOLARWINDRECORDTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/UnsignedByteAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/ParticleDensityType.h"
-#include "uci/type/SpeedType.h"
-#include "uci/type/TemperatureType.h"
+#include "../base/Accessor.h"
+#include "../base/UnsignedByteAccessor.h"
+#include "../base/export.h"
+#include "DateTimeType.h"
+#include "ParticleDensityType.h"
+#include "SpeedType.h"
+#include "TemperatureType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

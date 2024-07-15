@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ResponseCapabilityMDT.h"
+#include "../../../include/asb_uci/type/ResponseCapabilityMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,13 +41,13 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CapabilityBaseType.h"
-#include "asb_uci/type/ResponseCapabilityType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ResponseCapabilityMDT.h"
-#include "uci/type/ResponseCapabilityType.h"
+#include "../../../include/asb_uci/type/CapabilityBaseType.h"
+#include "../../../include/asb_uci/type/ResponseCapabilityType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ResponseCapabilityMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ResponseCapabilityType.h"
 
 /**  */
 namespace asb_uci {

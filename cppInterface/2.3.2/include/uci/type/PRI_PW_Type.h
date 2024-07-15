@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_PRI_PW_TYPE_H
 #define UCI_TYPE_PRI_PW_TYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/PRI_DataType.h"
-#include "uci/type/SignalPulseWidthType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "PRI_DataType.h"
+#include "SignalPulseWidthType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

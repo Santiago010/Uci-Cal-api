@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/RF_ThreadInstanceCommandType.h"
+#include "../../../include/asb_uci/type/RF_ThreadInstanceCommandType.h"
 
 #include <memory>
 #include <string>
@@ -41,16 +41,16 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ModifyRF_ThreadInstanceType.h"
-#include "asb_uci/type/RemoveRF_ThreadInstanceType.h"
-#include "asb_uci/type/SetupRF_ThreadInstanceType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ModifyRF_ThreadInstanceType.h"
-#include "uci/type/RF_ThreadInstanceCommandType.h"
-#include "uci/type/RemoveRF_ThreadInstanceType.h"
-#include "uci/type/SetupRF_ThreadInstanceType.h"
+#include "../../../include/asb_uci/type/ModifyRF_ThreadInstanceType.h"
+#include "../../../include/asb_uci/type/RemoveRF_ThreadInstanceType.h"
+#include "../../../include/asb_uci/type/SetupRF_ThreadInstanceType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ModifyRF_ThreadInstanceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RF_ThreadInstanceCommandType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RemoveRF_ThreadInstanceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SetupRF_ThreadInstanceType.h"
 
 /**  */
 namespace asb_uci {

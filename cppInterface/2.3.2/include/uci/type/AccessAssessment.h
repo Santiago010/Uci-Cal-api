@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ACCESSASSESSMENT_H
 #define UCI_TYPE_ACCESSASSESSMENT_H
 
-#include "uci/type/AccessAssessmentMT.h"
+#include "AccessAssessmentMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

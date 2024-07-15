@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_PO_SUBCAPABILITYTYPE_H
 #define UCI_TYPE_PO_SUBCAPABILITYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/PO_EnvironmentEnum.h"
-#include "uci/type/PO_TechniqueCapabilityType.h"
-#include "uci/type/SensorSpectrumEnum.h"
-#include "uci/type/SubCapabilityID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "PO_EnvironmentEnum.h"
+#include "PO_TechniqueCapabilityType.h"
+#include "SensorSpectrumEnum.h"
+#include "SubCapabilityID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

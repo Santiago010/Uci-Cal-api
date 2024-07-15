@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_ORBITACCURACYTYPE_H
 #define UCI_TYPE_ORBITACCURACYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeRangeType.h"
-#include "uci/type/RTN_PositionSigmaType.h"
-#include "uci/type/RTN_VelocitySigmaType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DateTimeRangeType.h"
+#include "RTN_PositionSigmaType.h"
+#include "RTN_VelocitySigmaType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

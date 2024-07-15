@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CapabilityUtilizationRequestType.h"
+#include "../../../include/asb_uci/type/CapabilityUtilizationRequestType.h"
 
 #include <memory>
 #include <string>
@@ -41,21 +41,21 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ActivityCommandBaseType.h"
-#include "asb_uci/type/CapabilityCommandBaseType.h"
-#include "asb_uci/type/EntityID_Type.h"
-#include "asb_uci/type/SystemRoutePlanSpecificationType.h"
-#include "asb_uci/type/TaskID_InclusionType.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ActivityCommandBaseType.h"
-#include "uci/type/CapabilityCommandBaseType.h"
-#include "uci/type/CapabilityUtilizationRequestType.h"
-#include "uci/type/EntityID_Type.h"
-#include "uci/type/SystemRoutePlanSpecificationType.h"
-#include "uci/type/TaskID_InclusionType.h"
+#include "../../../include/asb_uci/type/ActivityCommandBaseType.h"
+#include "../../../include/asb_uci/type/CapabilityCommandBaseType.h"
+#include "../../../include/asb_uci/type/EntityID_Type.h"
+#include "../../../include/asb_uci/type/SystemRoutePlanSpecificationType.h"
+#include "../../../include/asb_uci/type/TaskID_InclusionType.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ActivityCommandBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityCommandBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityUtilizationRequestType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EntityID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SystemRoutePlanSpecificationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TaskID_InclusionType.h"
 
 /**  */
 namespace asb_uci {

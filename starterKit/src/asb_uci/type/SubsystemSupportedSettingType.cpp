@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/SubsystemSupportedSettingType.h"
+#include "../../../include/asb_uci/type/SubsystemSupportedSettingType.h"
 
 #include <memory>
 #include <string>
@@ -41,14 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/SubsystemSettingEnum.h"
-#include "asb_uci/type/SubsystemSettingParameterType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/SubsystemSettingEnum.h"
-#include "uci/type/SubsystemSettingParameterType.h"
-#include "uci/type/SubsystemSupportedSettingType.h"
+#include "../../../include/asb_uci/type/SubsystemSettingEnum.h"
+#include "../../../include/asb_uci/type/SubsystemSettingParameterType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemSettingEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemSettingParameterType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemSupportedSettingType.h"
 
 /**  */
 namespace asb_uci {

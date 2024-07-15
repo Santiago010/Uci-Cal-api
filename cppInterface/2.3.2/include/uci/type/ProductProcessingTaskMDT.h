@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_PRODUCTPROCESSINGTASKMDT_H
 #define UCI_TYPE_PRODUCTPROCESSINGTASKMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/ProcessingRequirementsType.h"
-#include "uci/type/ProductManagementTaskDataType.h"
+#include "../base/export.h"
+#include "ProcessingRequirementsType.h"
+#include "ProductManagementTaskDataType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

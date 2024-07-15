@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_IFF_MODESAVAILABLETYPE_H
 #define UCI_TYPE_IFF_MODESAVAILABLETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/IFF_ADS_B_SubtypeType.h"
-#include "uci/type/IFF_ADS_B_Type.h"
-#include "uci/type/IFF_Mode5_FormatType.h"
-#include "uci/type/IFF_ModeS_SupportEnum.h"
-#include "uci/type/IFF_ModesEnum.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "IFF_ADS_B_SubtypeType.h"
+#include "IFF_ADS_B_Type.h"
+#include "IFF_Mode5_FormatType.h"
+#include "IFF_ModeS_SupportEnum.h"
+#include "IFF_ModesEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

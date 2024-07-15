@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/EntityStalenessThresholdsType.h"
+#include "../../../include/asb_uci/type/EntityStalenessThresholdsType.h"
 
 #include <memory>
 #include <string>
@@ -41,18 +41,18 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ScheduleType.h"
-#include "asb_uci/type/StalenessDomainMobilityType.h"
-#include "asb_uci/type/ZoneType.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/EntityStalenessThresholdsType.h"
-#include "uci/type/ScheduleType.h"
-#include "uci/type/StalenessDomainMobilityType.h"
-#include "uci/type/ZoneType.h"
+#include "../../../include/asb_uci/type/ScheduleType.h"
+#include "../../../include/asb_uci/type/StalenessDomainMobilityType.h"
+#include "../../../include/asb_uci/type/ZoneType.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DurationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EntityStalenessThresholdsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ScheduleType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StalenessDomainMobilityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ZoneType.h"
 
 /**  */
 namespace asb_uci {

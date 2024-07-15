@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_REQUIREMENTFAILEDTRIGGERTYPE_H
 #define UCI_TYPE_REQUIREMENTFAILEDTRIGGERTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/MissionPlanningByCaseTriggerEnum.h"
-#include "uci/type/RequirementTriggerType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "MissionPlanningByCaseTriggerEnum.h"
+#include "RequirementTriggerType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

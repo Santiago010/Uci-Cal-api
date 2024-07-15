@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_FAULT_H
 #define UCI_TYPE_FAULT_H
 
-#include "uci/type/FaultMT.h"
+#include "FaultMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

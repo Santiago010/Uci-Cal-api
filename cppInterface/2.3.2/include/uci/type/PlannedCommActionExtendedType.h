@@ -36,8 +36,8 @@
 #ifndef UCI_TYPE_PLANNEDCOMMACTIONEXTENDEDTYPE_H
 #define UCI_TYPE_PLANNEDCOMMACTIONEXTENDEDTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/PlannedCommActionType.h"
+#include "../base/export.h"
+#include "PlannedCommActionType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_OPVOLUME_H
 #define UCI_TYPE_OPVOLUME_H
 
-#include "uci/type/OpVolumeMT.h"
+#include "OpVolumeMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_INTERNATIONALDESIGNATORTYPE_H
 #define UCI_TYPE_INTERNATIONALDESIGNATORTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/UnsignedByteAccessor.h"
-#include "uci/base/UnsignedShortAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/LaunchPieceType.h"
+#include "../base/Accessor.h"
+#include "../base/UnsignedByteAccessor.h"
+#include "../base/UnsignedShortAccessor.h"
+#include "../base/export.h"
+#include "LaunchPieceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

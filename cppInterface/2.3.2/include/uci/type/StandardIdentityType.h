@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_STANDARDIDENTITYTYPE_H
 #define UCI_TYPE_STANDARDIDENTITYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CountryCodeType.h"
-#include "uci/type/StandardIdentityEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CountryCodeType.h"
+#include "StandardIdentityEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

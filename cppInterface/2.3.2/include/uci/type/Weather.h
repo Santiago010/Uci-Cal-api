@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_WEATHER_H
 #define UCI_TYPE_WEATHER_H
 
-#include "uci/type/WeatherMT.h"
+#include "WeatherMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

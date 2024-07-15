@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/CargoDeliveryCapabilityEnum.h"
-#include "asb_uci/type/CargoDeliverySubCapabilityEnum.h"
-#include "uci/type/CargoDeliverySpecificDataType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/CargoDeliveryCapabilityEnum.h"
+#include "../../../include/asb_uci/type/CargoDeliverySubCapabilityEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CargoDeliverySpecificDataType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_ROUTEDECONFLICTIONASSESSMENTTYPE_H
 #define UCI_TYPE_ROUTEDECONFLICTIONASSESSMENTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/RouteDeconflictionAssessmentDataType.h"
-#include "uci/type/RouteDeconflictionRequestType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "RouteDeconflictionAssessmentDataType.h"
+#include "RouteDeconflictionRequestType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

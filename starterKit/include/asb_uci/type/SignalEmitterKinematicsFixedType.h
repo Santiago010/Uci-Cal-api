@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/EW_FixEnum.h"
-#include "asb_uci/type/EmitterFixedPositionType.h"
-#include "uci/type/SignalEmitterKinematicsFixedType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/EW_FixEnum.h"
+#include "../../../include/asb_uci/type/EmitterFixedPositionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SignalEmitterKinematicsFixedType.h"
 
 /**  */
 namespace asb_uci {

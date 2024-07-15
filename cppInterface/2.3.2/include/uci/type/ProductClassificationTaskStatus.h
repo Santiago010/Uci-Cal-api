@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_PRODUCTCLASSIFICATIONTASKSTATUS_H
 #define UCI_TYPE_PRODUCTCLASSIFICATIONTASKSTATUS_H
 
-#include "uci/type/ProductClassificationTaskStatusMT.h"
+#include "ProductClassificationTaskStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

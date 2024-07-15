@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_COMMSCHEDULEAVAILABILITY_H
 #define UCI_TYPE_COMMSCHEDULEAVAILABILITY_H
 
-#include "uci/type/CommScheduleAvailabilityMT.h"
+#include "CommScheduleAvailabilityMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

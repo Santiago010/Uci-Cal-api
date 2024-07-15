@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_PROCESSINGCONSTRAINEDSUBPLANTYPE_H
 #define UCI_TYPE_PROCESSINGCONSTRAINEDSUBPLANTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ComparableRankingType.h"
-#include "uci/type/ProductProcessingType.h"
-#include "uci/type/ProductTypeFilterType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ComparableRankingType.h"
+#include "ProductProcessingType.h"
+#include "ProductTypeFilterType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

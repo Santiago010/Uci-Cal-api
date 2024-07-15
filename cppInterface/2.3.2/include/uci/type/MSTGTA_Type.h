@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_MSTGTA_TYPE_H
 #define UCI_TYPE_MSTGTA_TYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/MSTGTA_TGT_CAT_String_Type.h"
-#include "uci/type/MSTGTA_TGT_UTC_Type.h"
-#include "uci/type/NumericSpaceString13OnlyType.h"
-#include "uci/type/NumericSpaceString2OnlyType.h"
-#include "uci/type/NumericSpaceString4OnlyType.h"
-#include "uci/type/NumericSpaceString6OnlyType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "MSTGTA_TGT_CAT_String_Type.h"
+#include "MSTGTA_TGT_UTC_Type.h"
+#include "NumericSpaceString13OnlyType.h"
+#include "NumericSpaceString2OnlyType.h"
+#include "NumericSpaceString4OnlyType.h"
+#include "NumericSpaceString6OnlyType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

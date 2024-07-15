@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CommTerminalActivityType.h"
+#include "../../../include/asb_uci/type/CommTerminalActivityType.h"
 
 #include <memory>
 #include <string>
@@ -41,30 +41,30 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CommConnectionStateEnum.h"
-#include "asb_uci/type/CommControlType.h"
-#include "asb_uci/type/CommLinkPortMapType.h"
-#include "asb_uci/type/CommLinkStatisticsType.h"
-#include "asb_uci/type/CommProfileID_Type.h"
-#include "asb_uci/type/CommWaveformActivityPET.h"
-#include "asb_uci/type/ForeignKeyType.h"
-#include "asb_uci/type/SharedRF_ApertureActivityBaseType.h"
-#include "asb_uci/type/UserLinkStatusType.h"
-#include "asb_uci/type/VerboseStatusType.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CommConnectionStateEnum.h"
-#include "uci/type/CommControlType.h"
-#include "uci/type/CommLinkPortMapType.h"
-#include "uci/type/CommLinkStatisticsType.h"
-#include "uci/type/CommProfileID_Type.h"
-#include "uci/type/CommTerminalActivityType.h"
-#include "uci/type/CommWaveformActivityPET.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/UserLinkStatusType.h"
-#include "uci/type/VerboseStatusType.h"
+#include "../../../include/asb_uci/type/CommConnectionStateEnum.h"
+#include "../../../include/asb_uci/type/CommControlType.h"
+#include "../../../include/asb_uci/type/CommLinkPortMapType.h"
+#include "../../../include/asb_uci/type/CommLinkStatisticsType.h"
+#include "../../../include/asb_uci/type/CommProfileID_Type.h"
+#include "../../../include/asb_uci/type/CommWaveformActivityPET.h"
+#include "../../../include/asb_uci/type/ForeignKeyType.h"
+#include "../../../include/asb_uci/type/SharedRF_ApertureActivityBaseType.h"
+#include "../../../include/asb_uci/type/UserLinkStatusType.h"
+#include "../../../include/asb_uci/type/VerboseStatusType.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommConnectionStateEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommControlType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommLinkPortMapType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommLinkStatisticsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommProfileID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommTerminalActivityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommWaveformActivityPET.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ForeignKeyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/UserLinkStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VerboseStatusType.h"
 
 /**  */
 namespace asb_uci {

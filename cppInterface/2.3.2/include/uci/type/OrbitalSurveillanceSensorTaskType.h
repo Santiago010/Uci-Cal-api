@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_ORBITALSURVEILLANCESENSORTASKTYPE_H
 #define UCI_TYPE_ORBITALSURVEILLANCESENSORTASKTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/OrbitalSurveillanceSensorTargetType.h"
-#include "uci/type/OrbitalSurveillanceSensorTaskBaseType.h"
+#include "../base/export.h"
+#include "OrbitalSurveillanceSensorTargetType.h"
+#include "OrbitalSurveillanceSensorTaskBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

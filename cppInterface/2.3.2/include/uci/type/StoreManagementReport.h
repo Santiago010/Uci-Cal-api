@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_STOREMANAGEMENTREPORT_H
 #define UCI_TYPE_STOREMANAGEMENTREPORT_H
 
-#include "uci/type/StoreManagementReportMT.h"
+#include "StoreManagementReportMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

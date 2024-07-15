@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_COMMSTARLINKCONTROLTYPE_H
 #define UCI_TYPE_COMMSTARLINKCONTROLTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/BeamPointingReferenceType.h"
-#include "uci/type/PointingControlModeEnum.h"
-#include "uci/type/PolarizationType.h"
-#include "uci/type/PositionModeEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "BeamPointingReferenceType.h"
+#include "PointingControlModeEnum.h"
+#include "PolarizationType.h"
+#include "PositionModeEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

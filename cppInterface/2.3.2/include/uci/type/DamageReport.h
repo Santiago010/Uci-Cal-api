@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_DAMAGEREPORT_H
 #define UCI_TYPE_DAMAGEREPORT_H
 
-#include "uci/type/DamageReportMT.h"
+#include "DamageReportMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

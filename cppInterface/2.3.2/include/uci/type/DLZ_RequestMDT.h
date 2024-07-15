@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_DLZ_REQUESTMDT_H
 #define UCI_TYPE_DLZ_REQUESTMDT_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DLZ_RelationEnum.h"
-#include "uci/type/RequestBaseType.h"
-#include "uci/type/SystemID_Type.h"
-#include "uci/type/WeaponeeringTargetType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DLZ_RelationEnum.h"
+#include "RequestBaseType.h"
+#include "SystemID_Type.h"
+#include "WeaponeeringTargetType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

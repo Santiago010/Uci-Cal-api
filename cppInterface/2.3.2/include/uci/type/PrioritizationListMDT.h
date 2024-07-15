@@ -36,18 +36,18 @@
 #ifndef UCI_TYPE_PRIORITIZATIONLISTMDT_H
 #define UCI_TYPE_PRIORITIZATIONLISTMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DataRecordBaseType.h"
-#include "uci/type/OpDescriptionType.h"
-#include "uci/type/OrderTraceabilityType.h"
-#include "uci/type/PrioritizationListEnum.h"
-#include "uci/type/PrioritizationListID_Type.h"
-#include "uci/type/PrioritizationListItemType.h"
-#include "uci/type/ScheduleType.h"
-#include "uci/type/ServiceID_Type.h"
-#include "uci/type/SystemID_Type.h"
-#include "uci/type/ZoneType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DataRecordBaseType.h"
+#include "OpDescriptionType.h"
+#include "OrderTraceabilityType.h"
+#include "PrioritizationListEnum.h"
+#include "PrioritizationListID_Type.h"
+#include "PrioritizationListItemType.h"
+#include "ScheduleType.h"
+#include "ServiceID_Type.h"
+#include "SystemID_Type.h"
+#include "ZoneType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

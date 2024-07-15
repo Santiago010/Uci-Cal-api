@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/DurationType.h"
-#include "asb_uci/type/ScanTypeEnum.h"
-#include "uci/type/ScanDataBaseType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/DurationType.h"
+#include "../../../include/asb_uci/type/ScanTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ScanDataBaseType.h"
 
 /**  */
 namespace asb_uci {

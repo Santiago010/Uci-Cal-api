@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_MISSIONPLANACTIVATIONCOMMAND_H
 #define UCI_TYPE_MISSIONPLANACTIVATIONCOMMAND_H
 
-#include "uci/type/MissionPlanActivationCommandMT.h"
+#include "MissionPlanActivationCommandMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

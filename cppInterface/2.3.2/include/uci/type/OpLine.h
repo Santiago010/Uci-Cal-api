@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_OPLINE_H
 #define UCI_TYPE_OPLINE_H
 
-#include "uci/type/OpLineMT.h"
+#include "OpLineMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

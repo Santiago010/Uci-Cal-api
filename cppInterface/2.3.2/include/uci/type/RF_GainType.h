@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_RF_GAINTYPE_H
 #define UCI_TYPE_RF_GAINTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DecibelType.h"
-#include "uci/type/RF_TypeEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DecibelType.h"
+#include "RF_TypeEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AngleType.h"
-#include "asb_uci/type/DurationType.h"
-#include "uci/type/RaceTrackOrbitType.h"
+#include "../../../include/asb_uci/type/AngleType.h"
+#include "../../../include/asb_uci/type/DurationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RaceTrackOrbitType.h"
 
 /**  */
 namespace asb_uci {

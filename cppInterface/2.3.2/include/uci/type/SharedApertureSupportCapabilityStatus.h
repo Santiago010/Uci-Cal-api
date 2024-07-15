@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SHAREDAPERTURESUPPORTCAPABILITYSTATUS_H
 #define UCI_TYPE_SHAREDAPERTURESUPPORTCAPABILITYSTATUS_H
 
-#include "uci/type/SharedApertureSupportCapabilityStatusMT.h"
+#include "SharedApertureSupportCapabilityStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

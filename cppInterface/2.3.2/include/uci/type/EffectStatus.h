@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_EFFECTSTATUS_H
 #define UCI_TYPE_EFFECTSTATUS_H
 
-#include "uci/type/EffectStatusMT.h"
+#include "EffectStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_LINK16_NPG_TYPE_H
 #define UCI_TYPE_LINK16_NPG_TYPE_H
 
-#include "uci/base/UnsignedShortAccessor.h"
+#include "../base/UnsignedShortAccessor.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

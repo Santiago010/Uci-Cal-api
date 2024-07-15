@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_OPAQUECAPABILITYSTATUS_H
 #define UCI_TYPE_OPAQUECAPABILITYSTATUS_H
 
-#include "uci/type/OpaqueCapabilityStatusMT.h"
+#include "OpaqueCapabilityStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

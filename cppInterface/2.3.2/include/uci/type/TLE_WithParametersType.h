@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_TLE_WITHPARAMETERSTYPE_H
 #define UCI_TYPE_TLE_WITHPARAMETERSTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/OrbitalElementSetParametersType.h"
-#include "uci/type/TLE_BaseType.h"
+#include "../base/export.h"
+#include "OrbitalElementSetParametersType.h"
+#include "TLE_BaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

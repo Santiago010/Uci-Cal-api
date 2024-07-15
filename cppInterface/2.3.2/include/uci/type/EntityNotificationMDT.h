@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_ENTITYNOTIFICATIONMDT_H
 #define UCI_TYPE_ENTITYNOTIFICATIONMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AssociatedMessageType.h"
-#include "uci/type/EntityID_Type.h"
-#include "uci/type/NotificationBaseType.h"
-#include "uci/type/NotificationPerspectiveEnum.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AssociatedMessageType.h"
+#include "EntityID_Type.h"
+#include "NotificationBaseType.h"
+#include "NotificationPerspectiveEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_ACTIONCOMMANDTYPE_H
 #define UCI_TYPE_ACTIONCOMMANDTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ActionCapabilityCommandType.h"
-#include "uci/type/ActivityCommandBaseType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ActionCapabilityCommandType.h"
+#include "ActivityCommandBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

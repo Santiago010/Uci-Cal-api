@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_PLANNINGPOINTTYPE_H
 #define UCI_TYPE_PLANNINGPOINTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/OpPointID_Type.h"
-#include "uci/type/PlanningLocationType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DateTimeType.h"
+#include "OpPointID_Type.h"
+#include "PlanningLocationType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

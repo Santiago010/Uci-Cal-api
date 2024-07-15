@@ -41,11 +41,11 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/EmptyType.h"
-#include "asb_uci/type/R_BarApproachEnum.h"
-#include "asb_uci/type/V_BarApproachEnum.h"
-#include "uci/base/Accessor.h"
-#include "uci/type/ProximityOrbitChoiceType.h"
+#include "../../../include/asb_uci/type/EmptyType.h"
+#include "../../../include/asb_uci/type/R_BarApproachEnum.h"
+#include "../../../include/asb_uci/type/V_BarApproachEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProximityOrbitChoiceType.h"
 
 /**  */
 namespace asb_uci {

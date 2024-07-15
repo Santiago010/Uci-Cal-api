@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/DurationType.h"
-#include "asb_uci/type/PRI_TypeEnum.h"
-#include "uci/type/PRI_DataBaseType.h"
+#include "../../../include/asb_uci/type/DurationType.h"
+#include "../../../include/asb_uci/type/PRI_TypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PRI_DataBaseType.h"
 
 /**  */
 namespace asb_uci {

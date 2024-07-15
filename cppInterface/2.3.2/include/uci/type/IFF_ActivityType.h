@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_IFF_ACTIVITYTYPE_H
 #define UCI_TYPE_IFF_ACTIVITYTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ActivityBaseType.h"
-#include "uci/type/IFF_SubmodesType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ActivityBaseType.h"
+#include "IFF_SubmodesType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_ORBITACTIVITYPLANTYPE_H
 #define UCI_TYPE_ORBITACTIVITYPLANTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ActivityPlanPartsType.h"
-#include "uci/type/DateTimeRangeType.h"
-#include "uci/type/OrbitActivityType.h"
-#include "uci/type/OrbitPlanID_Type.h"
-#include "uci/type/PlanApplicabilityType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ActivityPlanPartsType.h"
+#include "DateTimeRangeType.h"
+#include "OrbitActivityType.h"
+#include "OrbitPlanID_Type.h"
+#include "PlanApplicabilityType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

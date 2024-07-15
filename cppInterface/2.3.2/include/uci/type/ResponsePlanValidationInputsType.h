@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_RESPONSEPLANVALIDATIONINPUTSTYPE_H
 #define UCI_TYPE_RESPONSEPLANVALIDATIONINPUTSTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/PlanValidationInputsBaseType.h"
-#include "uci/type/ResponsePlanID_Type.h"
-#include "uci/type/ResponseTypeEnum.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "PlanValidationInputsBaseType.h"
+#include "ResponsePlanID_Type.h"
+#include "ResponseTypeEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

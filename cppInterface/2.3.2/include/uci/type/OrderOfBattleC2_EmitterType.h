@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_ORDEROFBATTLEC2_EMITTERTYPE_H
 #define UCI_TYPE_ORDEROFBATTLEC2_EMITTERTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/FixedPositionType.h"
-#include "uci/type/OrderOfBattleEmitterType.h"
+#include "../base/export.h"
+#include "FixedPositionType.h"
+#include "OrderOfBattleEmitterType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

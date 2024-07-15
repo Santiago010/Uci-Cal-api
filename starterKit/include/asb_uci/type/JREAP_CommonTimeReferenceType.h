@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/CTR_StateEnum.h"
-#include "asb_uci/type/JREAP_TimeReferenceEnum.h"
-#include "uci/type/JREAP_CommonTimeReferenceType.h"
+#include "../../../include/asb_uci/type/CTR_StateEnum.h"
+#include "../../../include/asb_uci/type/JREAP_TimeReferenceEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/JREAP_CommonTimeReferenceType.h"
 
 /**  */
 namespace asb_uci {

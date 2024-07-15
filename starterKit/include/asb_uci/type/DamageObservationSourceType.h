@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/DamageObservationEnum.h"
-#include "uci/type/DamageObservationSourceType.h"
+#include "../../../include/asb_uci/type/DamageObservationEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DamageObservationSourceType.h"
 
 /**  */
 namespace asb_uci {

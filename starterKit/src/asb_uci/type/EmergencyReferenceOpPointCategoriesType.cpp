@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/EmergencyReferenceOpPointCategoriesType.h"
+#include "../../../include/asb_uci/type/EmergencyReferenceOpPointCategoriesType.h"
 
 #include <memory>
 #include <string>
@@ -41,18 +41,18 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/OpPointGeneralEnum.h"
-#include "asb_uci/type/OpPointHazardEnum.h"
-#include "asb_uci/type/OpPointReferenceEnum.h"
-#include "asb_uci/type/OpPointStationEnum.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/EmergencyReferenceOpPointCategoriesType.h"
-#include "uci/type/OpPointGeneralEnum.h"
-#include "uci/type/OpPointHazardEnum.h"
-#include "uci/type/OpPointReferenceEnum.h"
-#include "uci/type/OpPointStationEnum.h"
+#include "../../../include/asb_uci/type/OpPointGeneralEnum.h"
+#include "../../../include/asb_uci/type/OpPointHazardEnum.h"
+#include "../../../include/asb_uci/type/OpPointReferenceEnum.h"
+#include "../../../include/asb_uci/type/OpPointStationEnum.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EmergencyReferenceOpPointCategoriesType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpPointGeneralEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpPointHazardEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpPointReferenceEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpPointStationEnum.h"
 
 /**  */
 namespace asb_uci {

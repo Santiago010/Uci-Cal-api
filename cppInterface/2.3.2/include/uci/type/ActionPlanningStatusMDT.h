@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_ACTIONPLANNINGSTATUSMDT_H
 #define UCI_TYPE_ACTIONPLANNINGSTATUSMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/ActionID_Type.h"
-#include "uci/type/RequirementPlanningStatusDetailsType.h"
+#include "../base/export.h"
+#include "ActionID_Type.h"
+#include "RequirementPlanningStatusDetailsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

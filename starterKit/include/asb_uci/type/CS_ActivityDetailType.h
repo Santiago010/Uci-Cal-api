@@ -41,11 +41,11 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/CS_SENO_Type.h"
-#include "asb_uci/type/IntPositiveType.h"
-#include "asb_uci/type/MilliwattPowerRatioType.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/CS_ActivityDetailType.h"
+#include "../../../include/asb_uci/type/CS_SENO_Type.h"
+#include "../../../include/asb_uci/type/IntPositiveType.h"
+#include "../../../include/asb_uci/type/MilliwattPowerRatioType.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CS_ActivityDetailType.h"
 
 /**  */
 namespace asb_uci {

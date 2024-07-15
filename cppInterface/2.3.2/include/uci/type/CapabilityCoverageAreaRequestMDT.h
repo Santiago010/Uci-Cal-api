@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_CAPABILITYCOVERAGEAREAREQUESTMDT_H
 #define UCI_TYPE_CAPABILITYCOVERAGEAREAREQUESTMDT_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityCoverageAreaRequestDataType.h"
-#include "uci/type/RepeatEnum.h"
-#include "uci/type/RequestBaseType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "CapabilityCoverageAreaRequestDataType.h"
+#include "RepeatEnum.h"
+#include "RequestBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/DataLinkNativeInfoPET.h"
-#include "asb_uci/type/IP_ProtocolEnum.h"
-#include "uci/type/IP_DataLinkNativeInfoType.h"
+#include "../../../include/asb_uci/type/DataLinkNativeInfoPET.h"
+#include "../../../include/asb_uci/type/IP_ProtocolEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IP_DataLinkNativeInfoType.h"
 
 /**  */
 namespace asb_uci {

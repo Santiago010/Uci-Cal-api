@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/AMTI_CapabilityEnum.h"
-#include "asb_uci/type/DecibelType.h"
-#include "uci/type/AMTI_CommandResponseType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/AMTI_CapabilityEnum.h"
+#include "../../../include/asb_uci/type/DecibelType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AMTI_CommandResponseType.h"
 
 /**  */
 namespace asb_uci {

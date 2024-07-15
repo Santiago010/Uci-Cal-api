@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_SYSTEMAPPROVALPOLICYTYPE_H
 #define UCI_TYPE_SYSTEMAPPROVALPOLICYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/IntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ApprovalPolicyID_Type.h"
-#include "uci/type/ApproverRoleType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/IntAccessor.h"
+#include "../base/export.h"
+#include "ApprovalPolicyID_Type.h"
+#include "ApproverRoleType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

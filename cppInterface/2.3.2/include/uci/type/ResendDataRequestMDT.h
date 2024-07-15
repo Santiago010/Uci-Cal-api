@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_RESENDDATAREQUESTMDT_H
 #define UCI_TYPE_RESENDDATAREQUESTMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/MessageTypeEnum.h"
-#include "uci/type/RequestBaseType.h"
-#include "uci/type/ServiceID_Type.h"
+#include "../base/export.h"
+#include "MessageTypeEnum.h"
+#include "RequestBaseType.h"
+#include "ServiceID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

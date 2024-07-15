@@ -36,8 +36,8 @@
 #ifndef UCI_TYPE_TASKACHIEVABILITYASSESSMENTPET_H
 #define UCI_TYPE_TASKACHIEVABILITYASSESSMENTPET_H
 
-#include "uci/type/AchievabilityAssessmentPET.h"
-#include "uci/type/TaskID_Type.h"
+#include "AchievabilityAssessmentPET.h"
+#include "TaskID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

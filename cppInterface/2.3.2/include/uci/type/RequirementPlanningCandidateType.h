@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_REQUIREMENTPLANNINGCANDIDATETYPE_H
 #define UCI_TYPE_REQUIREMENTPLANNINGCANDIDATETYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/OrbitGuidelineType.h"
-#include "uci/type/PlanningCandidateBaseType.h"
-#include "uci/type/PlanningGuidelineType.h"
+#include "../base/export.h"
+#include "OrbitGuidelineType.h"
+#include "PlanningCandidateBaseType.h"
+#include "PlanningGuidelineType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

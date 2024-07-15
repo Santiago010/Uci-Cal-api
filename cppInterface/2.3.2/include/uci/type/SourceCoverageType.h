@@ -36,17 +36,17 @@
 #ifndef UCI_TYPE_SOURCECOVERAGETYPE_H
 #define UCI_TYPE_SOURCECOVERAGETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AngleHalfPairType.h"
-#include "uci/type/AnglePairType.h"
-#include "uci/type/AngleRateRangeType.h"
-#include "uci/type/CapabilityCoverageAreaID_Type.h"
-#include "uci/type/DoubleMinMaxType.h"
-#include "uci/type/LOS_MeasurementEnum.h"
-#include "uci/type/SlantRangeConstraintsType.h"
-#include "uci/type/SpeedRangeType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AngleHalfPairType.h"
+#include "AnglePairType.h"
+#include "AngleRateRangeType.h"
+#include "CapabilityCoverageAreaID_Type.h"
+#include "DoubleMinMaxType.h"
+#include "LOS_MeasurementEnum.h"
+#include "SlantRangeConstraintsType.h"
+#include "SpeedRangeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

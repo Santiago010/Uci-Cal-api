@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_WEATHERRADARSETTINGSCOMMAND_H
 #define UCI_TYPE_WEATHERRADARSETTINGSCOMMAND_H
 
-#include "uci/type/WeatherRadarSettingsCommandMT.h"
+#include "WeatherRadarSettingsCommandMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

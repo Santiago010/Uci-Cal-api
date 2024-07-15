@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/CommandBaseType.h"
-#include "asb_uci/type/PointingVectorCommandTypeEnum.h"
-#include "uci/type/CommPointingCommandMDT.h"
+#include "../../../include/asb_uci/type/CommandBaseType.h"
+#include "../../../include/asb_uci/type/PointingVectorCommandTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommPointingCommandMDT.h"
 
 /**  */
 namespace asb_uci {

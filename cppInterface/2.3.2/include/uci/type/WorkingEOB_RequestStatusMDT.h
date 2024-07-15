@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_WORKINGEOB_REQUESTSTATUSMDT_H
 #define UCI_TYPE_WORKINGEOB_REQUESTSTATUSMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/CompletionStatusType.h"
-#include "uci/type/RequestStatusBaseType.h"
-#include "uci/type/WorkingEOB_ID_Type.h"
+#include "../base/export.h"
+#include "CompletionStatusType.h"
+#include "RequestStatusBaseType.h"
+#include "WorkingEOB_ID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

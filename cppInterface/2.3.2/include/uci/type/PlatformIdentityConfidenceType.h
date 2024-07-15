@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_PLATFORMIDENTITYCONFIDENCETYPE_H
 #define UCI_TYPE_PLATFORMIDENTITYCONFIDENCETYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/PercentType.h"
-#include "uci/type/PlatformIdentityType.h"
+#include "../base/export.h"
+#include "PercentType.h"
+#include "PlatformIdentityType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

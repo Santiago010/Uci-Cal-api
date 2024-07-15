@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/SubCapabilitySelectionType.h"
+#include "../../../include/asb_uci/type/SubCapabilitySelectionType.h"
 
 #include <memory>
 #include <string>
@@ -41,14 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ESM_SubCapabilityEnum.h"
-#include "asb_uci/type/SubCapabilityDetailsType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ESM_SubCapabilityEnum.h"
-#include "uci/type/SubCapabilityDetailsType.h"
-#include "uci/type/SubCapabilitySelectionType.h"
+#include "../../../include/asb_uci/type/ESM_SubCapabilityEnum.h"
+#include "../../../include/asb_uci/type/SubCapabilityDetailsType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ESM_SubCapabilityEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubCapabilityDetailsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubCapabilitySelectionType.h"
 
 /**  */
 namespace asb_uci {

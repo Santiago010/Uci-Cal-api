@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_CONTROLREQUEST_H
 #define UCI_TYPE_CONTROLREQUEST_H
 
-#include "uci/type/ControlRequestMT.h"
+#include "ControlRequestMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

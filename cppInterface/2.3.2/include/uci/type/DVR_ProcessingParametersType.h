@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_DVR_PROCESSINGPARAMETERSTYPE_H
 #define UCI_TYPE_DVR_PROCESSINGPARAMETERSTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/DVR_OperationEnum.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/ProcessingParametersPET.h"
+#include "../base/export.h"
+#include "DVR_OperationEnum.h"
+#include "DurationType.h"
+#include "ProcessingParametersPET.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

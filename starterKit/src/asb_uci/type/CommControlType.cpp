@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CommControlType.h"
+#include "../../../include/asb_uci/type/CommControlType.h"
 
 #include <memory>
 #include <string>
@@ -41,23 +41,23 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CommConnectionType.h"
-#include "asb_uci/type/CommReceiverStateEnum.h"
-#include "asb_uci/type/CommTransmitterStateEnum.h"
-#include "asb_uci/type/ComponentID_Type.h"
-#include "asb_uci/type/RemoteDestinationType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CommConnectionType.h"
-#include "uci/type/CommControlType.h"
-#include "uci/type/CommReceiverStateEnum.h"
-#include "uci/type/CommTransmitterStateEnum.h"
-#include "uci/type/ComponentID_Type.h"
-#include "uci/type/DataRateType.h"
-#include "uci/type/MilliwattPowerRatioType.h"
-#include "uci/type/RemoteDestinationType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/CommConnectionType.h"
+#include "../../../include/asb_uci/type/CommReceiverStateEnum.h"
+#include "../../../include/asb_uci/type/CommTransmitterStateEnum.h"
+#include "../../../include/asb_uci/type/ComponentID_Type.h"
+#include "../../../include/asb_uci/type/RemoteDestinationType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommConnectionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommControlType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommReceiverStateEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommTransmitterStateEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ComponentID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DataRateType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MilliwattPowerRatioType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RemoteDestinationType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

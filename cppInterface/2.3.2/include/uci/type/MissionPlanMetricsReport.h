@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_MISSIONPLANMETRICSREPORT_H
 #define UCI_TYPE_MISSIONPLANMETRICSREPORT_H
 
-#include "uci/type/MissionPlanMetricsReportMT.h"
+#include "MissionPlanMetricsReportMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

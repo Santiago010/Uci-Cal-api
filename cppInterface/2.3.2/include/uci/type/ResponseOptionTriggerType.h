@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_RESPONSEOPTIONTRIGGERTYPE_H
 #define UCI_TYPE_RESPONSEOPTIONTRIGGERTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AccessAssessmentFilterType.h"
-#include "uci/type/EmptyType.h"
-#include "uci/type/EntityFilterType.h"
-#include "uci/type/OperatorLocationOfInterestClauseType.h"
-#include "uci/type/QueryMessageType.h"
-#include "uci/type/RequirementFilterType.h"
-#include "uci/type/SystemFilterType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AccessAssessmentFilterType.h"
+#include "EmptyType.h"
+#include "EntityFilterType.h"
+#include "OperatorLocationOfInterestClauseType.h"
+#include "QueryMessageType.h"
+#include "RequirementFilterType.h"
+#include "SystemFilterType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

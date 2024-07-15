@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_WORKINGEOB_REQUESTSTATUS_H
 #define UCI_TYPE_WORKINGEOB_REQUESTSTATUS_H
 
-#include "uci/type/WorkingEOB_RequestStatusMT.h"
+#include "WorkingEOB_RequestStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

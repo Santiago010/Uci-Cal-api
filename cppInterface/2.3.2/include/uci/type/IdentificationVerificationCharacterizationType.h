@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_IDENTIFICATIONVERIFICATIONCHARACTERIZATIONTYPE_H
 #define UCI_TYPE_IDENTIFICATIONVERIFICATIONCHARACTERIZATIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CharacterizationProductTypeEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CharacterizationProductTypeEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

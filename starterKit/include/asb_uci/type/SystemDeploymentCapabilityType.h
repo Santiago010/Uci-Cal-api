@@ -41,11 +41,11 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/CommandableCapabilityDeclarationType.h"
-#include "asb_uci/type/EnvironmentEnum.h"
-#include "asb_uci/type/SystemDeploymentEnum.h"
-#include "uci/type/SystemDeploymentCapabilityType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/CommandableCapabilityDeclarationType.h"
+#include "../../../include/asb_uci/type/EnvironmentEnum.h"
+#include "../../../include/asb_uci/type/SystemDeploymentEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SystemDeploymentCapabilityType.h"
 
 /**  */
 namespace asb_uci {

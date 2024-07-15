@@ -41,11 +41,11 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/EntityFusionEligibilityEnum.h"
-#include "asb_uci/type/Link16_TrackQualityType.h"
-#include "asb_uci/type/PassiveActiveEnum.h"
-#include "uci/type/EntitySourceSpecificDataType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/EntityFusionEligibilityEnum.h"
+#include "../../../include/asb_uci/type/Link16_TrackQualityType.h"
+#include "../../../include/asb_uci/type/PassiveActiveEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EntitySourceSpecificDataType.h"
 
 /**  */
 namespace asb_uci {

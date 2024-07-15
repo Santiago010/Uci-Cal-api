@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/BeamWeightingEnum.h"
-#include "asb_uci/type/DecibelType.h"
-#include "uci/type/BeamWeightingType.h"
+#include "../../../include/asb_uci/type/BeamWeightingEnum.h"
+#include "../../../include/asb_uci/type/DecibelType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/BeamWeightingType.h"
 
 /**  */
 namespace asb_uci {

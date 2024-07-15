@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_AO_COMMAND_H
 #define UCI_TYPE_AO_COMMAND_H
 
-#include "uci/type/AO_CommandMT.h"
+#include "AO_CommandMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

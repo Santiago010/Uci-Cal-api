@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_ROUTEPLANSTATUSTYPE_H
 #define UCI_TYPE_ROUTEPLANSTATUSTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/PathTypeEnum.h"
-#include "uci/type/PlanStatusType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "PathTypeEnum.h"
+#include "PlanStatusType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

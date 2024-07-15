@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/CryptoDS101_Enum.h"
-#include "asb_uci/type/CryptoOTAM_Enum.h"
-#include "uci/base/Accessor.h"
-#include "uci/type/CryptoKeySourceType.h"
+#include "../../../include/asb_uci/type/CryptoDS101_Enum.h"
+#include "../../../include/asb_uci/type/CryptoOTAM_Enum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CryptoKeySourceType.h"
 
 /**  */
 namespace asb_uci {

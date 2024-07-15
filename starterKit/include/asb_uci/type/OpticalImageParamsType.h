@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/DurationType.h"
-#include "asb_uci/type/ResolutionMetersPerPixelType.h"
-#include "uci/type/OpticalImageParamsType.h"
+#include "../../../include/asb_uci/type/DurationType.h"
+#include "../../../include/asb_uci/type/ResolutionMetersPerPixelType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpticalImageParamsType.h"
 
 /**  */
 namespace asb_uci {

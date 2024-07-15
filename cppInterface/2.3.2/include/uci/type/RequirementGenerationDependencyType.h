@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_REQUIREMENTGENERATIONDEPENDENCYTYPE_H
 #define UCI_TYPE_REQUIREMENTGENERATIONDEPENDENCYTYPE_H
 
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/RequirementDependencyBaseType.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "RequirementDependencyBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

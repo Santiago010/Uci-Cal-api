@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/EA_TargetPointingType.h"
+#include "../../../include/asb_uci/type/EA_TargetPointingType.h"
 
 #include <memory>
 #include <string>
@@ -41,14 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AirVolumeSensorReferencedType.h"
-#include "asb_uci/type/TargetType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AirVolumeSensorReferencedType.h"
-#include "uci/type/EA_TargetPointingType.h"
-#include "uci/type/TargetType.h"
+#include "../../../include/asb_uci/type/AirVolumeSensorReferencedType.h"
+#include "../../../include/asb_uci/type/TargetType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AirVolumeSensorReferencedType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EA_TargetPointingType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TargetType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_ENTITYORBITALCSO_MDT_H
 #define UCI_TYPE_ENTITYORBITALCSO_MDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CSO_DetailsType.h"
-#include "uci/type/CSO_StateEnum.h"
-#include "uci/type/EntityID_Type.h"
-#include "uci/type/EntityOrbitalCSO_ID_Type.h"
-#include "uci/type/OperatorID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CSO_DetailsType.h"
+#include "CSO_StateEnum.h"
+#include "EntityID_Type.h"
+#include "EntityOrbitalCSO_ID_Type.h"
+#include "OperatorID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

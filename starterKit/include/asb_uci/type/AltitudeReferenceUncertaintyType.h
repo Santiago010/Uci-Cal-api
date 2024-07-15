@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AltitudeReferenceEnum.h"
-#include "asb_uci/type/AltitudeType.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/AltitudeReferenceUncertaintyType.h"
+#include "../../../include/asb_uci/type/AltitudeReferenceEnum.h"
+#include "../../../include/asb_uci/type/AltitudeType.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AltitudeReferenceUncertaintyType.h"
 
 /**  */
 namespace asb_uci {

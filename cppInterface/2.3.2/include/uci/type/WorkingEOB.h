@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_WORKINGEOB_H
 #define UCI_TYPE_WORKINGEOB_H
 
-#include "uci/type/WorkingEOB_MT.h"
+#include "WorkingEOB_MT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

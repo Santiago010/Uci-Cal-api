@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/DecibelType.h"
-#include "asb_uci/type/FrequencyType.h"
-#include "asb_uci/type/ModulationEnum.h"
-#include "uci/type/DemodulationParameterType.h"
+#include "../../../include/asb_uci/type/DecibelType.h"
+#include "../../../include/asb_uci/type/FrequencyType.h"
+#include "../../../include/asb_uci/type/ModulationEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DemodulationParameterType.h"
 
 /**  */
 namespace asb_uci {

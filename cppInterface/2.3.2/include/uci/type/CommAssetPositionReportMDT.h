@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_COMMASSETPOSITIONREPORTMDT_H
 #define UCI_TYPE_COMMASSETPOSITIONREPORTMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AngleType.h"
-#include "uci/type/CommAssetID_Type.h"
-#include "uci/type/EnvironmentEnum.h"
-#include "uci/type/InertialStateType.h"
-#include "uci/type/SystemSourceEnum.h"
-#include "uci/type/VisibleString256Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AngleType.h"
+#include "CommAssetID_Type.h"
+#include "EnvironmentEnum.h"
+#include "InertialStateType.h"
+#include "SystemSourceEnum.h"
+#include "VisibleString256Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

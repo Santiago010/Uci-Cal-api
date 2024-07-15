@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/AreaChoiceType.h"
+#include "../../../include/asb_uci/type/AreaChoiceType.h"
 
 #include <memory>
 #include <string>
@@ -41,18 +41,18 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/LocatedEllipseType.h"
-#include "asb_uci/type/LocatedRectangleType.h"
-#include "asb_uci/type/PolygonType.h"
-#include "asb_uci/type/SlantRangeAreaType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AreaChoiceType.h"
-#include "uci/type/LocatedEllipseType.h"
-#include "uci/type/LocatedRectangleType.h"
-#include "uci/type/PolygonType.h"
-#include "uci/type/SlantRangeAreaType.h"
+#include "../../../include/asb_uci/type/LocatedEllipseType.h"
+#include "../../../include/asb_uci/type/LocatedRectangleType.h"
+#include "../../../include/asb_uci/type/PolygonType.h"
+#include "../../../include/asb_uci/type/SlantRangeAreaType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AreaChoiceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/LocatedEllipseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/LocatedRectangleType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PolygonType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SlantRangeAreaType.h"
 
 /**  */
 namespace asb_uci {

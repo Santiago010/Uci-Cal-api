@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SYSTEMORBITALELEMENTSETREQUESTSTATUSMDT_H
 #define UCI_TYPE_SYSTEMORBITALELEMENTSETREQUESTSTATUSMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/RequestStatusBaseType.h"
-#include "uci/type/SystemOrbitalElementSetType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "RequestStatusBaseType.h"
+#include "SystemOrbitalElementSetType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

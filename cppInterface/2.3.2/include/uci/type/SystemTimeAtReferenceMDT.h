@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SYSTEMTIMEATREFERENCEMDT_H
 #define UCI_TYPE_SYSTEMTIMEATREFERENCEMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/DateTimeAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeType.h"
+#include "../base/Accessor.h"
+#include "../base/DateTimeAccessor.h"
+#include "../base/export.h"
+#include "DateTimeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

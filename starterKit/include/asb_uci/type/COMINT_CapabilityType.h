@@ -41,13 +41,13 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/COMINT_SubCapabilityEnum.h"
-#include "asb_uci/type/CapabilityInitiationEnum.h"
-#include "asb_uci/type/CommandableCapabilityDeclarationType.h"
-#include "asb_uci/type/ESM_MessageOutputsEnum.h"
-#include "asb_uci/type/SignalGeolocationMethodEnum.h"
-#include "uci/type/COMINT_CapabilityType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/COMINT_SubCapabilityEnum.h"
+#include "../../../include/asb_uci/type/CapabilityInitiationEnum.h"
+#include "../../../include/asb_uci/type/CommandableCapabilityDeclarationType.h"
+#include "../../../include/asb_uci/type/ESM_MessageOutputsEnum.h"
+#include "../../../include/asb_uci/type/SignalGeolocationMethodEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/COMINT_CapabilityType.h"
 
 /**  */
 namespace asb_uci {

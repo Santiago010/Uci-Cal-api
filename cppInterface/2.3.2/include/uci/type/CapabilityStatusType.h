@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_CAPABILITYSTATUSTYPE_H
 #define UCI_TYPE_CAPABILITYSTATUSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AvailabilityInfoType.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/ForeignKeyType.h"
+#include "../base/Accessor.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "AvailabilityInfoType.h"
+#include "CapabilityID_Type.h"
+#include "ForeignKeyType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

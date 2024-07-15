@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_EXECUTIONSEQUENCEINSERTIONTYPE_H
 #define UCI_TYPE_EXECUTIONSEQUENCEINSERTIONTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/ExecutionSequenceInsertionTypeChoiceType.h"
-#include "uci/type/ExecutionSequencePlanSetsType.h"
+#include "../base/export.h"
+#include "ExecutionSequenceInsertionTypeChoiceType.h"
+#include "ExecutionSequencePlanSetsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

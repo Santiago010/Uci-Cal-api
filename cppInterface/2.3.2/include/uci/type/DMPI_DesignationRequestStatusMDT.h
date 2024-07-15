@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_DMPI_DESIGNATIONREQUESTSTATUSMDT_H
 #define UCI_TYPE_DMPI_DESIGNATIONREQUESTSTATUSMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DMPI_DesignationID_Type.h"
-#include "uci/type/RequestStatusBaseType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DMPI_DesignationID_Type.h"
+#include "RequestStatusBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AchievabilityEnum.h"
-#include "asb_uci/type/AssessmentStatusType.h"
-#include "uci/type/AchievabilityAssessmentPET.h"
+#include "../../../include/asb_uci/type/AchievabilityEnum.h"
+#include "../../../include/asb_uci/type/AssessmentStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AchievabilityAssessmentPET.h"
 
 /**  */
 namespace asb_uci {

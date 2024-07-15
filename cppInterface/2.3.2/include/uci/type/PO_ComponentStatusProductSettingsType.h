@@ -36,20 +36,20 @@
 #ifndef UCI_TYPE_PO_COMPONENTSTATUSPRODUCTSETTINGSTYPE_H
 #define UCI_TYPE_PO_COMPONENTSTATUSPRODUCTSETTINGSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/FloatAccessor.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ComponentControlsStatusType.h"
-#include "uci/type/JPEG_SettingsType.h"
-#include "uci/type/MISP_PackingPlanType.h"
-#include "uci/type/NITF_PackingPlanPET.h"
-#include "uci/type/PO_ProductGeneratorOutputID_Type.h"
-#include "uci/type/ProductResolutionType.h"
-#include "uci/type/SecurityInformationType.h"
-#include "uci/type/VideoOutputSettingsType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/FloatAccessor.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "ComponentControlsStatusType.h"
+#include "JPEG_SettingsType.h"
+#include "MISP_PackingPlanType.h"
+#include "NITF_PackingPlanPET.h"
+#include "PO_ProductGeneratorOutputID_Type.h"
+#include "ProductResolutionType.h"
+#include "SecurityInformationType.h"
+#include "VideoOutputSettingsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

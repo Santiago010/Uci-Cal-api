@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_COMMTERMINALPLANACTIVATIONCOMMANDSTATUSMDT_H
 #define UCI_TYPE_COMMTERMINALPLANACTIVATIONCOMMANDSTATUSMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/CommandStatusBaseType.h"
-#include "uci/type/PlanActivationStateEnum.h"
+#include "../base/export.h"
+#include "CommandStatusBaseType.h"
+#include "PlanActivationStateEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

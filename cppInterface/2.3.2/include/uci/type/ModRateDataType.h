@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_MODRATEDATATYPE_H
 #define UCI_TYPE_MODRATEDATATYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/DataRateDataType.h"
-#include "uci/type/ModulationEnum.h"
+#include "../base/export.h"
+#include "DataRateDataType.h"
+#include "ModulationEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

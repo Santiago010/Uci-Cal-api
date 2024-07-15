@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_PRIORITIZATIONLIST_H
 #define UCI_TYPE_PRIORITIZATIONLIST_H
 
-#include "uci/type/PrioritizationListMT.h"
+#include "PrioritizationListMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

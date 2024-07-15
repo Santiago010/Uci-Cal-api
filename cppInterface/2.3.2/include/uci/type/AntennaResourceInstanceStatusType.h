@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_ANTENNARESOURCEINSTANCESTATUSTYPE_H
 #define UCI_TYPE_ANTENNARESOURCEINSTANCESTATUSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AntennaResourceID_Type.h"
-#include "uci/type/CapabilityAvailabilityEnum.h"
-#include "uci/type/PercentType.h"
-#include "uci/type/PowerType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AntennaResourceID_Type.h"
+#include "CapabilityAvailabilityEnum.h"
+#include "PercentType.h"
+#include "PowerType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

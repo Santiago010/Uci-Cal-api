@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/FuzeType.h"
+#include "../../../include/asb_uci/type/FuzeType.h"
 
 #include <memory>
 #include <string>
@@ -41,19 +41,19 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/FuzeTriggerType.h"
-#include "asb_uci/type/VisibleString1024Type.h"
-#include "asb_uci/type/WeaponFuzeModeEnum.h"
-#include "asb_uci/type/WeaponFuzePositionEnum.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/FuzeTriggerType.h"
-#include "uci/type/FuzeType.h"
-#include "uci/type/VisibleString1024Type.h"
-#include "uci/type/WeaponFuzeModeEnum.h"
-#include "uci/type/WeaponFuzePositionEnum.h"
+#include "../../../include/asb_uci/type/FuzeTriggerType.h"
+#include "../../../include/asb_uci/type/VisibleString1024Type.h"
+#include "../../../include/asb_uci/type/WeaponFuzeModeEnum.h"
+#include "../../../include/asb_uci/type/WeaponFuzePositionEnum.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DurationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FuzeTriggerType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FuzeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString1024Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/WeaponFuzeModeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/WeaponFuzePositionEnum.h"
 
 /**  */
 namespace asb_uci {

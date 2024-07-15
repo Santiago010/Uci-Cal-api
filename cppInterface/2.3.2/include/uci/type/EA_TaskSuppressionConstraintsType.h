@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_EA_TASKSUPPRESSIONCONSTRAINTSTYPE_H
 #define UCI_TYPE_EA_TASKSUPPRESSIONCONSTRAINTSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EA_TargetType.h"
-#include "uci/type/EA_TechniqueIdentifierType.h"
+#include "../base/Accessor.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "EA_TargetType.h"
+#include "EA_TechniqueIdentifierType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

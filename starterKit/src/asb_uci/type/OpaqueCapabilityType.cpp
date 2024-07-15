@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/OpaqueCapabilityType.h"
+#include "../../../include/asb_uci/type/OpaqueCapabilityType.h"
 
 #include <memory>
 #include <string>
@@ -41,16 +41,16 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CapabilityID_Type.h"
-#include "asb_uci/type/CapabilityInitiationEnum.h"
-#include "asb_uci/type/PackageOperationEnum.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/CapabilityInitiationEnum.h"
-#include "uci/type/OpaqueCapabilityType.h"
-#include "uci/type/PackageOperationEnum.h"
+#include "../../../include/asb_uci/type/CapabilityID_Type.h"
+#include "../../../include/asb_uci/type/CapabilityInitiationEnum.h"
+#include "../../../include/asb_uci/type/PackageOperationEnum.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityInitiationEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpaqueCapabilityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PackageOperationEnum.h"
 
 /**  */
 namespace asb_uci {

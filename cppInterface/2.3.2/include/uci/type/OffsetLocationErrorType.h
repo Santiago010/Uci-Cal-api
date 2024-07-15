@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_OFFSETLOCATIONERRORTYPE_H
 #define UCI_TYPE_OFFSETLOCATIONERRORTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/DistanceType.h"
-#include "uci/type/OffsetLocationType.h"
-#include "uci/type/PercentType.h"
+#include "../base/export.h"
+#include "DistanceType.h"
+#include "OffsetLocationType.h"
+#include "PercentType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

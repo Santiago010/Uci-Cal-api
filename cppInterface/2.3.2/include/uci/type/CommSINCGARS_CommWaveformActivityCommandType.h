@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_COMMSINCGARS_COMMWAVEFORMACTIVITYCOMMANDTYPE_H
 #define UCI_TYPE_COMMSINCGARS_COMMWAVEFORMACTIVITYCOMMANDTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/CommSINCGARS_ControlType.h"
-#include "uci/type/CommWaveformActivityCommandPET.h"
+#include "../base/export.h"
+#include "CommSINCGARS_ControlType.h"
+#include "CommWaveformActivityCommandPET.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

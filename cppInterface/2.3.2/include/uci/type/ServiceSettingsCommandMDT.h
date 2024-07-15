@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_SERVICESETTINGSCOMMANDMDT_H
 #define UCI_TYPE_SERVICESETTINGSCOMMANDMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityCommandStateEnum.h"
-#include "uci/type/CommandBaseType.h"
-#include "uci/type/EventSeverityEnum.h"
-#include "uci/type/ServiceID_Type.h"
-#include "uci/type/ServiceSettingEnum.h"
+#include "../base/BoundedList.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "CapabilityCommandStateEnum.h"
+#include "CommandBaseType.h"
+#include "EventSeverityEnum.h"
+#include "ServiceID_Type.h"
+#include "ServiceSettingEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

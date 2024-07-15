@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/OrbitalSurveillanceSubCapabilityDetailsChoiceType.h"
+#include "../../../include/asb_uci/type/OrbitalSurveillanceSubCapabilityDetailsChoiceType.h"
 
 #include <memory>
 #include <string>
@@ -41,23 +41,23 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CharacterizationObjectiveType.h"
-#include "asb_uci/type/DeploymentDetectionType.h"
-#include "asb_uci/type/ManeuverDetectionType.h"
-#include "asb_uci/type/MultiObjectType.h"
-#include "asb_uci/type/OrbitAccuracyType.h"
-#include "asb_uci/type/OrbitalSurveillanceSearchType.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CharacterizationObjectiveType.h"
-#include "uci/type/DeploymentDetectionType.h"
-#include "uci/type/ManeuverDetectionType.h"
-#include "uci/type/MultiObjectType.h"
-#include "uci/type/OrbitAccuracyType.h"
-#include "uci/type/OrbitalSurveillanceSearchType.h"
-#include "uci/type/OrbitalSurveillanceSubCapabilityDetailsChoiceType.h"
+#include "../../../include/asb_uci/type/CharacterizationObjectiveType.h"
+#include "../../../include/asb_uci/type/DeploymentDetectionType.h"
+#include "../../../include/asb_uci/type/ManeuverDetectionType.h"
+#include "../../../include/asb_uci/type/MultiObjectType.h"
+#include "../../../include/asb_uci/type/OrbitAccuracyType.h"
+#include "../../../include/asb_uci/type/OrbitalSurveillanceSearchType.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CharacterizationObjectiveType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DeploymentDetectionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ManeuverDetectionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MultiObjectType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitAccuracyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalSurveillanceSearchType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalSurveillanceSubCapabilityDetailsChoiceType.h"
 
 /**  */
 namespace asb_uci {

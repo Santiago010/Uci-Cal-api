@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_OPROUTING_H
 #define UCI_TYPE_OPROUTING_H
 
-#include "uci/type/OpRoutingMT.h"
+#include "OpRoutingMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

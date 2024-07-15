@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SAR_WAVEFORMTYPE_H
 #define UCI_TYPE_SAR_WAVEFORMTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/SAR_WaveformSelectionEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ForeignKeyType.h"
+#include "SAR_WaveformSelectionEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

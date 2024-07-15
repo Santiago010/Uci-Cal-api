@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ProductOutputCapabilityImageryType.h"
+#include "../../../include/asb_uci/type/ProductOutputCapabilityImageryType.h"
 
 #include <memory>
 #include <string>
@@ -41,24 +41,24 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ComponentControllabilityA_Type.h"
-#include "asb_uci/type/CompressionRatioSettingsType.h"
-#include "asb_uci/type/PO_ProductGeneratorOutputID_Type.h"
-#include "asb_uci/type/ProductOutputType.h"
-#include "asb_uci/type/ProductRateSettingsType.h"
-#include "asb_uci/type/ProductResolutionSettingsType.h"
-#include "asb_uci/type/ProductSizeSettingsType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ComponentControllabilityA_Type.h"
-#include "uci/type/CompressionRatioSettingsType.h"
-#include "uci/type/PO_ProductGeneratorOutputID_Type.h"
-#include "uci/type/ProductOutputCapabilityImageryType.h"
-#include "uci/type/ProductRateSettingsType.h"
-#include "uci/type/ProductResolutionSettingsType.h"
-#include "uci/type/ProductSizeSettingsType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/ComponentControllabilityA_Type.h"
+#include "../../../include/asb_uci/type/CompressionRatioSettingsType.h"
+#include "../../../include/asb_uci/type/PO_ProductGeneratorOutputID_Type.h"
+#include "../../../include/asb_uci/type/ProductOutputType.h"
+#include "../../../include/asb_uci/type/ProductRateSettingsType.h"
+#include "../../../include/asb_uci/type/ProductResolutionSettingsType.h"
+#include "../../../include/asb_uci/type/ProductSizeSettingsType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ComponentControllabilityA_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CompressionRatioSettingsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ProductGeneratorOutputID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProductOutputCapabilityImageryType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProductRateSettingsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProductResolutionSettingsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProductSizeSettingsType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

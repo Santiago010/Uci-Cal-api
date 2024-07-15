@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_SPECIALCODEDATALINKIDENTIFIERTYPE_H
 #define UCI_TYPE_SPECIALCODEDATALINKIDENTIFIERTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/DataLinkIdentifierPET.h"
-#include "uci/type/SpecialCode2Type.h"
+#include "../base/export.h"
+#include "DataLinkIdentifierPET.h"
+#include "SpecialCode2Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

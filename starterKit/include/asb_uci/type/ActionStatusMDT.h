@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/RequirementExecutionStatusDetailsType.h"
-#include "uci/type/ActionStatusMDT.h"
+#include "../../../include/asb_uci/type/RequirementExecutionStatusDetailsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ActionStatusMDT.h"
 
 /**  */
 namespace asb_uci {

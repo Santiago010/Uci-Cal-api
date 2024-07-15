@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_DMPI_CANCELCOMMANDSTATUS_H
 #define UCI_TYPE_DMPI_CANCELCOMMANDSTATUS_H
 
-#include "uci/type/DMPI_CancelCommandStatusMT.h"
+#include "DMPI_CancelCommandStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

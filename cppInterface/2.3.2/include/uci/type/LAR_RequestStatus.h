@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_LAR_REQUESTSTATUS_H
 #define UCI_TYPE_LAR_REQUESTSTATUS_H
 
-#include "uci/type/LAR_RequestStatusMT.h"
+#include "LAR_RequestStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

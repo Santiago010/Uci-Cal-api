@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_OPERATORACTIONCOMMANDMDT_H
 #define UCI_TYPE_OPERATORACTIONCOMMANDMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/CommandBaseType.h"
-#include "uci/type/OperatorActionType.h"
-#include "uci/type/OperatorNotificationID_Type.h"
+#include "../base/export.h"
+#include "CommandBaseType.h"
+#include "OperatorActionType.h"
+#include "OperatorNotificationID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

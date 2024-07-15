@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_TASKPLANVALIDATIONCOMMAND_H
 #define UCI_TYPE_TASKPLANVALIDATIONCOMMAND_H
 
-#include "uci/type/TaskPlanValidationCommandMT.h"
+#include "TaskPlanValidationCommandMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

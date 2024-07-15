@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/EOB_ActivityCodeType.h"
-#include "asb_uci/type/MIDB_EvaluationCodeType.h"
-#include "uci/type/EOB_CodesType.h"
+#include "../../../include/asb_uci/type/EOB_ActivityCodeType.h"
+#include "../../../include/asb_uci/type/MIDB_EvaluationCodeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EOB_CodesType.h"
 
 /**  */
 namespace asb_uci {

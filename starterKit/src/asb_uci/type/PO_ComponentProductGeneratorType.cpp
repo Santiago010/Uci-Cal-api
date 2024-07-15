@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/PO_ComponentProductGeneratorType.h"
+#include "../../../include/asb_uci/type/PO_ComponentProductGeneratorType.h"
 
 #include <memory>
 #include <string>
@@ -41,22 +41,22 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ComponentControllabilityA_Type.h"
-#include "asb_uci/type/PO_ComponentSettingsOutputProductSettingsType.h"
-#include "asb_uci/type/PO_ComponentSettingsProductGeneratorSettingsType.h"
-#include "asb_uci/type/PO_FPA_ID_Type.h"
-#include "asb_uci/type/PO_ProductGeneratorID_Type.h"
-#include "asb_uci/type/ProductOutputCapabilityImageryType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ComponentControllabilityA_Type.h"
-#include "uci/type/PO_ComponentProductGeneratorType.h"
-#include "uci/type/PO_ComponentSettingsOutputProductSettingsType.h"
-#include "uci/type/PO_ComponentSettingsProductGeneratorSettingsType.h"
-#include "uci/type/PO_FPA_ID_Type.h"
-#include "uci/type/PO_ProductGeneratorID_Type.h"
-#include "uci/type/ProductOutputCapabilityImageryType.h"
+#include "../../../include/asb_uci/type/ComponentControllabilityA_Type.h"
+#include "../../../include/asb_uci/type/PO_ComponentSettingsOutputProductSettingsType.h"
+#include "../../../include/asb_uci/type/PO_ComponentSettingsProductGeneratorSettingsType.h"
+#include "../../../include/asb_uci/type/PO_FPA_ID_Type.h"
+#include "../../../include/asb_uci/type/PO_ProductGeneratorID_Type.h"
+#include "../../../include/asb_uci/type/ProductOutputCapabilityImageryType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ComponentControllabilityA_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ComponentProductGeneratorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ComponentSettingsOutputProductSettingsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ComponentSettingsProductGeneratorSettingsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_FPA_ID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ProductGeneratorID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProductOutputCapabilityImageryType.h"
 
 /**  */
 namespace asb_uci {

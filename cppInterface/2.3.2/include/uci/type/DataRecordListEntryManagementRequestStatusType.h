@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_DATARECORDLISTENTRYMANAGEMENTREQUESTSTATUSTYPE_H
 #define UCI_TYPE_DATARECORDLISTENTRYMANAGEMENTREQUESTSTATUSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CannotComplyType.h"
-#include "uci/type/ID_Type.h"
-#include "uci/type/RequestProcessingStateEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CannotComplyType.h"
+#include "ID_Type.h"
+#include "RequestProcessingStateEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

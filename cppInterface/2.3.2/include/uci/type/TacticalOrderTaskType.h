@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_TACTICALORDERTASKTYPE_H
 #define UCI_TYPE_TACTICALORDERTASKTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/TacticalOrderTaskBaseType.h"
-#include "uci/type/TargetType.h"
+#include "../base/export.h"
+#include "TacticalOrderTaskBaseType.h"
+#include "TargetType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

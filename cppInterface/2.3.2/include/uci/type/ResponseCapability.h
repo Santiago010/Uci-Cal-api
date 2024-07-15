@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_RESPONSECAPABILITY_H
 #define UCI_TYPE_RESPONSECAPABILITY_H
 
-#include "uci/type/ResponseCapabilityMT.h"
+#include "ResponseCapabilityMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

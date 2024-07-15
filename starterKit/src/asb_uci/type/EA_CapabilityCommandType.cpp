@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/EA_CapabilityCommandType.h"
+#include "../../../include/asb_uci/type/EA_CapabilityCommandType.h"
 
 #include <memory>
 #include <string>
@@ -41,23 +41,23 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CapabilityCommandFrequencyType.h"
-#include "asb_uci/type/EA_ActivationEnum.h"
-#include "asb_uci/type/EA_EmissionType.h"
-#include "asb_uci/type/ProtectedAssetReturnPowerType.h"
-#include "asb_uci/type/ResourceAllocatorCommandExtensionType.h"
-#include "asb_uci/type/ResourceSelectionType.h"
-#include "asb_uci/type/SharedRF_ApertureCapabilityCommandBaseType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CapabilityCommandFrequencyType.h"
-#include "uci/type/EA_ActivationEnum.h"
-#include "uci/type/EA_CapabilityCommandType.h"
-#include "uci/type/EA_EmissionType.h"
-#include "uci/type/ProtectedAssetReturnPowerType.h"
-#include "uci/type/ResourceAllocatorCommandExtensionType.h"
-#include "uci/type/ResourceSelectionType.h"
+#include "../../../include/asb_uci/type/CapabilityCommandFrequencyType.h"
+#include "../../../include/asb_uci/type/EA_ActivationEnum.h"
+#include "../../../include/asb_uci/type/EA_EmissionType.h"
+#include "../../../include/asb_uci/type/ProtectedAssetReturnPowerType.h"
+#include "../../../include/asb_uci/type/ResourceAllocatorCommandExtensionType.h"
+#include "../../../include/asb_uci/type/ResourceSelectionType.h"
+#include "../../../include/asb_uci/type/SharedRF_ApertureCapabilityCommandBaseType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityCommandFrequencyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EA_ActivationEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EA_CapabilityCommandType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EA_EmissionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProtectedAssetReturnPowerType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ResourceAllocatorCommandExtensionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ResourceSelectionType.h"
 
 /**  */
 namespace asb_uci {

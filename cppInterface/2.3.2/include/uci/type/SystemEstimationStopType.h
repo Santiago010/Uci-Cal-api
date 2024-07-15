@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_SYSTEMESTIMATIONSTOPTYPE_H
 #define UCI_TYPE_SYSTEMESTIMATIONSTOPTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/OrbitManeuverSegmentID_Type.h"
-#include "uci/type/SegmentID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DateTimeType.h"
+#include "OrbitManeuverSegmentID_Type.h"
+#include "SegmentID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

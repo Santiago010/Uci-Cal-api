@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_EARTHORIENTATIONPARAMETERSMDT_H
 #define UCI_TYPE_EARTHORIENTATIONPARAMETERSMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeRangeType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/EarthOrientationParametersID_Type.h"
-#include "uci/type/TimeAndPolarRecordType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DateTimeRangeType.h"
+#include "DateTimeType.h"
+#include "EarthOrientationParametersID_Type.h"
+#include "TimeAndPolarRecordType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

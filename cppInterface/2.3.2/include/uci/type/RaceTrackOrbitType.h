@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_RACETRACKORBITTYPE_H
 #define UCI_TYPE_RACETRACKORBITTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AngleType.h"
-#include "uci/type/DurationType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AngleType.h"
+#include "DurationType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

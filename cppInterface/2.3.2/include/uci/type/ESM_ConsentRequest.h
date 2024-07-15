@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ESM_CONSENTREQUEST_H
 #define UCI_TYPE_ESM_CONSENTREQUEST_H
 
-#include "uci/type/ESM_ConsentRequestMT.h"
+#include "ESM_ConsentRequestMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

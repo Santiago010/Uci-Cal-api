@@ -36,17 +36,17 @@
 #ifndef UCI_TYPE_FORCEMODELTYPE_H
 #define UCI_TYPE_FORCEMODELTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AtmosphericDragModelType.h"
-#include "uci/type/EarthOrientationParametersDataChoiceType.h"
-#include "uci/type/GravityModelType.h"
-#include "uci/type/OrbitalManeuverDetailsType.h"
-#include "uci/type/PhysicalModelType.h"
-#include "uci/type/SolarRadiationPressureModelType.h"
-#include "uci/type/ThirdBodyGravityType.h"
-#include "uci/type/VCM_ForceModelOptionsType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AtmosphericDragModelType.h"
+#include "EarthOrientationParametersDataChoiceType.h"
+#include "GravityModelType.h"
+#include "OrbitalManeuverDetailsType.h"
+#include "PhysicalModelType.h"
+#include "SolarRadiationPressureModelType.h"
+#include "ThirdBodyGravityType.h"
+#include "VCM_ForceModelOptionsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

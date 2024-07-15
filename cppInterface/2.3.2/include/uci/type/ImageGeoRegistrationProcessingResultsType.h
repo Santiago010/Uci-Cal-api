@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_IMAGEGEOREGISTRATIONPROCESSINGRESULTSTYPE_H
 #define UCI_TYPE_IMAGEGEOREGISTRATIONPROCESSINGRESULTSTYPE_H
 
-#include "uci/base/DoubleAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ProcessingResultsPET.h"
-#include "uci/type/UnitBallDoubleType.h"
+#include "../base/DoubleAccessor.h"
+#include "../base/export.h"
+#include "ProcessingResultsPET.h"
+#include "UnitBallDoubleType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

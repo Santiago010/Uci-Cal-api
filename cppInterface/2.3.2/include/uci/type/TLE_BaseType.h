@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_TLE_BASETYPE_H
 #define UCI_TYPE_TLE_BASETYPE_H
 
-#include "uci/base/DoubleAccessor.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/UnsignedShortAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/COE_OrbitBaseType.h"
-#include "uci/type/COE_PositionType.h"
-#include "uci/type/DateTimeType.h"
+#include "../base/DoubleAccessor.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/UnsignedShortAccessor.h"
+#include "../base/export.h"
+#include "COE_OrbitBaseType.h"
+#include "COE_PositionType.h"
+#include "DateTimeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

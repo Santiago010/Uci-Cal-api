@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_FREQUENCYSETTYPE_H
 #define UCI_TYPE_FREQUENCYSETTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/FrequencyMultiChannelType.h"
-#include "uci/type/FrequencyRangeType.h"
-#include "uci/type/ModulationEnum.h"
-#include "uci/type/RF_SignalContentEnum.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "FrequencyMultiChannelType.h"
+#include "FrequencyRangeType.h"
+#include "ModulationEnum.h"
+#include "RF_SignalContentEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

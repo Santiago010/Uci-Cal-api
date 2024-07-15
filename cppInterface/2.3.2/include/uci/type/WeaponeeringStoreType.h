@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_WEAPONEERINGSTORETYPE_H
 #define UCI_TYPE_WEAPONEERINGSTORETYPE_H
 
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/StoreType.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "StoreType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CharacterizationChoiceType.h"
+#include "../../../include/asb_uci/type/CharacterizationChoiceType.h"
 
 #include <memory>
 #include <string>
@@ -41,30 +41,30 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ColorPhotometryParamsType.h"
-#include "asb_uci/type/FrequencyParamsType.h"
-#include "asb_uci/type/IR_ImageParamsType.h"
-#include "asb_uci/type/MetricParamsType.h"
-#include "asb_uci/type/Narrowband_SOI_ParamsType.h"
-#include "asb_uci/type/OpticalImageParamsType.h"
-#include "asb_uci/type/PhotometryParamsType.h"
-#include "asb_uci/type/RCS_ParamsType.h"
-#include "asb_uci/type/VisMagParamsType.h"
-#include "asb_uci/type/Wideband_SOI_ParamsType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CharacterizationChoiceType.h"
-#include "uci/type/ColorPhotometryParamsType.h"
-#include "uci/type/FrequencyParamsType.h"
-#include "uci/type/IR_ImageParamsType.h"
-#include "uci/type/MetricParamsType.h"
-#include "uci/type/Narrowband_SOI_ParamsType.h"
-#include "uci/type/OpticalImageParamsType.h"
-#include "uci/type/PhotometryParamsType.h"
-#include "uci/type/RCS_ParamsType.h"
-#include "uci/type/VisMagParamsType.h"
-#include "uci/type/Wideband_SOI_ParamsType.h"
+#include "../../../include/asb_uci/type/ColorPhotometryParamsType.h"
+#include "../../../include/asb_uci/type/FrequencyParamsType.h"
+#include "../../../include/asb_uci/type/IR_ImageParamsType.h"
+#include "../../../include/asb_uci/type/MetricParamsType.h"
+#include "../../../include/asb_uci/type/Narrowband_SOI_ParamsType.h"
+#include "../../../include/asb_uci/type/OpticalImageParamsType.h"
+#include "../../../include/asb_uci/type/PhotometryParamsType.h"
+#include "../../../include/asb_uci/type/RCS_ParamsType.h"
+#include "../../../include/asb_uci/type/VisMagParamsType.h"
+#include "../../../include/asb_uci/type/Wideband_SOI_ParamsType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CharacterizationChoiceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ColorPhotometryParamsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FrequencyParamsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IR_ImageParamsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MetricParamsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/Narrowband_SOI_ParamsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpticalImageParamsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PhotometryParamsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RCS_ParamsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisMagParamsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/Wideband_SOI_ParamsType.h"
 
 /**  */
 namespace asb_uci {

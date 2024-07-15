@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_CONFIGURATIONPARAMETERTYPE_H
 #define UCI_TYPE_CONFIGURATIONPARAMETERTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ConfigurationParameterValueRestrictionsType.h"
-#include "uci/type/EmptyType.h"
-#include "uci/type/MessageElementDataTypeEnum.h"
-#include "uci/type/MissionEnvironmentObjectClassType.h"
-#include "uci/type/ParameterID_Type.h"
-#include "uci/type/VisibleString256Type.h"
-#include "uci/type/VisibleString32Type.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "ConfigurationParameterValueRestrictionsType.h"
+#include "EmptyType.h"
+#include "MessageElementDataTypeEnum.h"
+#include "MissionEnvironmentObjectClassType.h"
+#include "ParameterID_Type.h"
+#include "VisibleString256Type.h"
+#include "VisibleString32Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/NonIPON_IID2_Type.h"
-#include "uci/base/Accessor.h"
-#include "uci/type/IID2_ChoiceType.h"
+#include "../../../include/asb_uci/type/NonIPON_IID2_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IID2_ChoiceType.h"
 
 /**  */
 namespace asb_uci {

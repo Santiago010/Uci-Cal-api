@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_SUBSYSTEMMAINTENANCECOMMANDMDT_H
 #define UCI_TYPE_SUBSYSTEMMAINTENANCECOMMANDMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CommandBaseType.h"
-#include "uci/type/SubsystemID_Type.h"
-#include "uci/type/SubsystemMaintenanceCommandEnum.h"
-#include "uci/type/SubsystemMaintenanceTestCommandType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CommandBaseType.h"
+#include "SubsystemID_Type.h"
+#include "SubsystemMaintenanceCommandEnum.h"
+#include "SubsystemMaintenanceTestCommandType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

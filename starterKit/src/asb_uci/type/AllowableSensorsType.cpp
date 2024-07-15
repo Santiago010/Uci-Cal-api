@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/AllowableSensorsType.h"
+#include "../../../include/asb_uci/type/AllowableSensorsType.h"
 
 #include <memory>
 #include <string>
@@ -41,17 +41,17 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/SecurityInformationType.h"
-#include "asb_uci/type/SensorConstraintsType.h"
-#include "asb_uci/type/SensorCountConstraintType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AllowableSensorsType.h"
-#include "uci/type/SecurityInformationType.h"
-#include "uci/type/SensorConstraintsType.h"
-#include "uci/type/SensorCountConstraintType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/SecurityInformationType.h"
+#include "../../../include/asb_uci/type/SensorConstraintsType.h"
+#include "../../../include/asb_uci/type/SensorCountConstraintType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AllowableSensorsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SecurityInformationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SensorConstraintsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SensorCountConstraintType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

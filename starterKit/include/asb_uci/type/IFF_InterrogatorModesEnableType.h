@@ -41,11 +41,11 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/IFF_ActivePassiveEnum.h"
-#include "asb_uci/type/IFF_CivilMilitaryEnum.h"
-#include "asb_uci/type/IFF_LethalNonLethalEnum.h"
-#include "uci/type/IFF_InterrogatorModesEnableType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/IFF_ActivePassiveEnum.h"
+#include "../../../include/asb_uci/type/IFF_CivilMilitaryEnum.h"
+#include "../../../include/asb_uci/type/IFF_LethalNonLethalEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IFF_InterrogatorModesEnableType.h"
 
 /**  */
 namespace asb_uci {

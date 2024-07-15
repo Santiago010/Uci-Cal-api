@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_MESSAGETRANSMISSIONFILTERRECORDDRLE_H
 #define UCI_TYPE_MESSAGETRANSMISSIONFILTERRECORDDRLE_H
 
-#include "uci/base/export.h"
-#include "uci/type/DataRecordBaseType.h"
-#include "uci/type/MessageTransmissionFilterRecordID_Type.h"
+#include "../base/export.h"
+#include "DataRecordBaseType.h"
+#include "MessageTransmissionFilterRecordID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

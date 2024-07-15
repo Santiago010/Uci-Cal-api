@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_EFFECTPLAN_H
 #define UCI_TYPE_EFFECTPLAN_H
 
-#include "uci/type/EffectPlanMT.h"
+#include "EffectPlanMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

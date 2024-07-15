@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ESM_ACTIVITY_H
 #define UCI_TYPE_ESM_ACTIVITY_H
 
-#include "uci/type/ESM_ActivityMT.h"
+#include "ESM_ActivityMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

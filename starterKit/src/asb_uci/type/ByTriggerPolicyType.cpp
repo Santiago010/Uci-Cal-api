@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ByTriggerPolicyType.h"
+#include "../../../include/asb_uci/type/ByTriggerPolicyType.h"
 
 #include <memory>
 #include <string>
@@ -41,17 +41,17 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ApprovalPolicyBaseType.h"
-#include "asb_uci/type/ByResultPolicyType.h"
-#include "asb_uci/type/PlanningByCaseTriggerType.h"
-#include "asb_uci/type/PlanningTriggerSourceEnum.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ByResultPolicyType.h"
-#include "uci/type/ByTriggerPolicyType.h"
-#include "uci/type/PlanningByCaseTriggerType.h"
-#include "uci/type/PlanningTriggerSourceEnum.h"
+#include "../../../include/asb_uci/type/ApprovalPolicyBaseType.h"
+#include "../../../include/asb_uci/type/ByResultPolicyType.h"
+#include "../../../include/asb_uci/type/PlanningByCaseTriggerType.h"
+#include "../../../include/asb_uci/type/PlanningTriggerSourceEnum.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ByResultPolicyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ByTriggerPolicyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlanningByCaseTriggerType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlanningTriggerSourceEnum.h"
 
 /**  */
 namespace asb_uci {

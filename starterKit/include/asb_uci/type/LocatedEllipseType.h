@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/EllipseType.h"
-#include "uci/type/LocatedEllipseType.h"
+#include "../../../include/asb_uci/type/EllipseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/LocatedEllipseType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_METRICSTYPE_H
 #define UCI_TYPE_METRICSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/EnduranceType.h"
-#include "uci/type/ExpendableType.h"
-#include "uci/type/WeaponStoreType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "EnduranceType.h"
+#include "ExpendableType.h"
+#include "WeaponStoreType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

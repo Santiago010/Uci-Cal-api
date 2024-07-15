@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/DistanceType.h"
-#include "asb_uci/type/DurationType.h"
-#include "uci/base/Accessor.h"
-#include "uci/type/IntervalChoiceType.h"
+#include "../../../include/asb_uci/type/DistanceType.h"
+#include "../../../include/asb_uci/type/DurationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IntervalChoiceType.h"
 
 /**  */
 namespace asb_uci {

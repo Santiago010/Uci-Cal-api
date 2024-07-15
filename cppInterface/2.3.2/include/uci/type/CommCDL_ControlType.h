@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_COMMCDL_CONTROLTYPE_H
 #define UCI_TYPE_COMMCDL_CONTROLTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/UnsignedByteAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CommCDL_RemoteMessageProcessingEnum.h"
-#include "uci/type/DataPortType.h"
+#include "../base/Accessor.h"
+#include "../base/UnsignedByteAccessor.h"
+#include "../base/export.h"
+#include "CommCDL_RemoteMessageProcessingEnum.h"
+#include "DataPortType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

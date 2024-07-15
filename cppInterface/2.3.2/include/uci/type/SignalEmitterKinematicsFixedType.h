@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_SIGNALEMITTERKINEMATICSFIXEDTYPE_H
 #define UCI_TYPE_SIGNALEMITTERKINEMATICSFIXEDTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/EW_FixEnum.h"
-#include "uci/type/EmitterFixedPositionType.h"
-#include "uci/type/SignalEmitterKinematicsFixedGeolocationStatusType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "EW_FixEnum.h"
+#include "EmitterFixedPositionType.h"
+#include "SignalEmitterKinematicsFixedGeolocationStatusType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

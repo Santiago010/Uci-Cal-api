@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/SubsystemCompletedBIT_Type.h"
+#include "../../../include/asb_uci/type/SubsystemCompletedBIT_Type.h"
 
 #include <memory>
 #include <string>
@@ -41,19 +41,19 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/BIT_ID_Type.h"
-#include "asb_uci/type/SubsystemBIT_ResultEnum.h"
-#include "asb_uci/type/SubsystemCompletedBIT_ItemType.h"
-#include "asb_uci/type/VisibleString256Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/BIT_ID_Type.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/SubsystemBIT_ResultEnum.h"
-#include "uci/type/SubsystemCompletedBIT_ItemType.h"
-#include "uci/type/SubsystemCompletedBIT_Type.h"
-#include "uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/type/BIT_ID_Type.h"
+#include "../../../include/asb_uci/type/SubsystemBIT_ResultEnum.h"
+#include "../../../include/asb_uci/type/SubsystemCompletedBIT_ItemType.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/BIT_ID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DateTimeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemBIT_ResultEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemCompletedBIT_ItemType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemCompletedBIT_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString256Type.h"
 
 /**  */
 namespace asb_uci {
@@ -142,18 +142,18 @@ uci::type::SubsystemCompletedBIT_Type& SubsystemCompletedBIT_Type::setResult(uci
 }
 
 
-uci::type::VisibleString256Type& SubsystemCompletedBIT_Type::getFailReason_() const {
+std::string& SubsystemCompletedBIT_Type::getFailReason_() const {
   if (failReason_Accessor) {
     return *failReason_Accessor;
   }
   throw uci::base::UCIException("Error in getFailReason(): An attempt was made to get an optional field that was not enabled, call hasFailReason() to determine if it is safe to call getFailReason()");
 }
 
-const uci::type::VisibleString256Type& SubsystemCompletedBIT_Type::getFailReason() const {
+const std::string& SubsystemCompletedBIT_Type::getFailReason() const {
   return getFailReason_();
 }
 
-uci::type::VisibleString256Type& SubsystemCompletedBIT_Type::getFailReason() {
+std::string& SubsystemCompletedBIT_Type::getFailReason() {
   return getFailReason_();
 }
 
@@ -166,7 +166,7 @@ uci::type::SubsystemCompletedBIT_Type& SubsystemCompletedBIT_Type::setFailReason
 }
 
 uci::type::SubsystemCompletedBIT_Type& SubsystemCompletedBIT_Type::setFailReason(const char* value) {
-  enableFailReason().setStringValue(value);
+ failReason_Accessor = boost::make_unique<std::string>(value);
   return *this;
 }
 
@@ -174,9 +174,9 @@ bool SubsystemCompletedBIT_Type::hasFailReason() const noexcept {
   return static_cast<bool>(failReason_Accessor);
 }
 
-uci::type::VisibleString256Type& SubsystemCompletedBIT_Type::enableFailReason(uci::base::accessorType::AccessorType type) {
+std::string& SubsystemCompletedBIT_Type::enableFailReason(uci::base::accessorType::AccessorType type) {
   if (!failReason_Accessor) {
-    failReason_Accessor = VisibleString256Type::create(type);
+    failReason_Accessor = boost::make_unique<std::string>("");
   }
   return *failReason_Accessor;
 }
@@ -260,7 +260,8 @@ std::string SubsystemCompletedBIT_Type::serialize(const uci::type::SubsystemComp
   asb_uci::util::SerializationHelpers::serializeDateTime(accessor.getTimetag(), node, SubsystemCompletedBIT_Type_Names::Timetag_Name);
   SubsystemBIT_ResultEnum::serialize(accessor.getResult(), node, SubsystemCompletedBIT_Type_Names::Result_Name, false);
   if (accessor.hasFailReason()) {
-    asb_uci::util::SerializationHelpers::serializeString(accessor.getFailReason(), node, SubsystemCompletedBIT_Type_Names::FailReason_Name);
+    // TODO:COMENTO ESTA LINEA PORUQE ACESSOR DEVUELVE UN STD::STRING Y ESO NO ES LO QUE NECESITA
+    // asb_uci::util::SerializationHelpers::serializeString(accessor.getFailReason(), node, SubsystemCompletedBIT_Type_Names::FailReason_Name);
   }
   {
     const uci::type::SubsystemCompletedBIT_Type::BIT_Item& boundedList = accessor.getBIT_Item();

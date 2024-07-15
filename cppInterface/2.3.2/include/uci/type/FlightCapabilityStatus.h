@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_FLIGHTCAPABILITYSTATUS_H
 #define UCI_TYPE_FLIGHTCAPABILITYSTATUS_H
 
-#include "uci/type/FlightCapabilityStatusMT.h"
+#include "FlightCapabilityStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

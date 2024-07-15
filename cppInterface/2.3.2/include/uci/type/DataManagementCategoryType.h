@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_DATAMANAGEMENTCATEGORYTYPE_H
 #define UCI_TYPE_DATAMANAGEMENTCATEGORYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DataManagementImportExportType.h"
-#include "uci/type/DataManagementSaveAsType.h"
-#include "uci/type/MissionID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DataManagementImportExportType.h"
+#include "DataManagementSaveAsType.h"
+#include "MissionID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

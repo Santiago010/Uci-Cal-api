@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_PRODUCTGEOSPATIALLOCATIONTYPE_H
 #define UCI_TYPE_PRODUCTGEOSPATIALLOCATIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/Point2D_Type.h"
-#include "uci/type/RelativePositionType.h"
-#include "uci/type/ZoneType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "Point2D_Type.h"
+#include "RelativePositionType.h"
+#include "ZoneType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

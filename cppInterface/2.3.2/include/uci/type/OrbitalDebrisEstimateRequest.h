@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ORBITALDEBRISESTIMATEREQUEST_H
 #define UCI_TYPE_ORBITALDEBRISESTIMATEREQUEST_H
 
-#include "uci/type/OrbitalDebrisEstimateRequestMT.h"
+#include "OrbitalDebrisEstimateRequestMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_SAR_SUBCAPABILITYTYPE_H
 #define UCI_TYPE_SAR_SUBCAPABILITYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/FloatAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DecibelType.h"
-#include "uci/type/RadarPointingTargetType.h"
-#include "uci/type/SAR_EllipticityPolicyEnum.h"
-#include "uci/type/SAR_SubCapabilityClutterParametersType.h"
-#include "uci/type/SAR_SubCapabilityNparDetailsType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/FloatAccessor.h"
+#include "../base/export.h"
+#include "DecibelType.h"
+#include "RadarPointingTargetType.h"
+#include "SAR_EllipticityPolicyEnum.h"
+#include "SAR_SubCapabilityClutterParametersType.h"
+#include "SAR_SubCapabilityNparDetailsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

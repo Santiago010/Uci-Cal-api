@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_THRESHOLDOFFORBITTRIGGERDATATYPE_H
 #define UCI_TYPE_THRESHOLDOFFORBITTRIGGERDATATYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/RTN_PositionDeltaType.h"
-#include "uci/type/RTN_VelocityDeltaType.h"
-#include "uci/type/TimeErrorType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "RTN_PositionDeltaType.h"
+#include "RTN_VelocityDeltaType.h"
+#include "TimeErrorType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ENTITYMETADATA_H
 #define UCI_TYPE_ENTITYMETADATA_H
 
-#include "uci/type/EntityMetadataMT.h"
+#include "EntityMetadataMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

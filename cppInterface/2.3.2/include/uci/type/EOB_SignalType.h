@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_EOB_SIGNALTYPE_H
 #define UCI_TYPE_EOB_SIGNALTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/EmitterFunctionType.h"
-#include "uci/type/FrequencyDataBaseType.h"
-#include "uci/type/ModulationOnPulseDataBaseType.h"
-#include "uci/type/PRI_DataBaseType.h"
-#include "uci/type/ScanDataBaseType.h"
-#include "uci/type/SignalAmplitudeType.h"
-#include "uci/type/SignalPulseWidthBaseType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DateTimeType.h"
+#include "EmitterFunctionType.h"
+#include "FrequencyDataBaseType.h"
+#include "ModulationOnPulseDataBaseType.h"
+#include "PRI_DataBaseType.h"
+#include "ScanDataBaseType.h"
+#include "SignalAmplitudeType.h"
+#include "SignalPulseWidthBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

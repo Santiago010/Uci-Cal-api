@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_IDENTITYKINDINSTANCETYPE_H
 #define UCI_TYPE_IDENTITYKINDINSTANCETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/IdentityType.h"
-#include "uci/type/TargetType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "IdentityType.h"
+#include "TargetType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

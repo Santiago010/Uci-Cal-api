@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_OPERATORROLE_H
 #define UCI_TYPE_OPERATORROLE_H
 
-#include "uci/type/OperatorRoleMT.h"
+#include "OperatorRoleMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

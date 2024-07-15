@@ -36,9 +36,9 @@
 #ifndef ASB_UCI_TYPE_PACKAGEOPERATIONENUM_H
 #define ASB_UCI_TYPE_PACKAGEOPERATIONENUM_H
 
-#include "asb_uci/base/EnumAccessor.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/PackageOperationEnum.h"
+#include "../../../include/asb_uci/base/EnumAccessor.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PackageOperationEnum.h"
 
 /**  */
 namespace asb_uci {

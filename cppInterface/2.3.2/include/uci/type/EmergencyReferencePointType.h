@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_EMERGENCYREFERENCEPOINTTYPE_H
 #define UCI_TYPE_EMERGENCYREFERENCEPOINTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EmptyType.h"
-#include "uci/type/OpPointReferenceType.h"
-#include "uci/type/StrengthRangeType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "EmptyType.h"
+#include "OpPointReferenceType.h"
+#include "StrengthRangeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

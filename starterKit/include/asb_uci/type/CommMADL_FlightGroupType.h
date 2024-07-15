@@ -36,7 +36,7 @@
 #ifndef ASB_UCI_TYPE_COMMMADL_FLIGHTGROUPTYPE_H
 #define ASB_UCI_TYPE_COMMMADL_FLIGHTGROUPTYPE_H
 
-#include "asb_xs/type/stringXmlSchemaPrimitives.h"
+#include "../../../include/asb_xs/type/stringXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

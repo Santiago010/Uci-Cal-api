@@ -41,11 +41,11 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/COARPS_SAR_CollectionOptionsEnum.h"
-#include "asb_uci/type/IEEE_FrequencyBandEnum.h"
-#include "asb_uci/type/RadarCollectionOptionsType.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/SAR_CollectionOptionsType.h"
+#include "../../../include/asb_uci/type/COARPS_SAR_CollectionOptionsEnum.h"
+#include "../../../include/asb_uci/type/IEEE_FrequencyBandEnum.h"
+#include "../../../include/asb_uci/type/RadarCollectionOptionsType.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SAR_CollectionOptionsType.h"
 
 /**  */
 namespace asb_uci {

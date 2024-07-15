@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_RADARALTIMETERSETTINGSCOMMANDMDT_H
 #define UCI_TYPE_RADARALTIMETERSETTINGSCOMMANDMDT_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilitySettingsCommandBaseType.h"
-#include "uci/type/ElectronicProtectionOptionsDefaultType.h"
-#include "uci/type/EmconSettingType.h"
-#include "uci/type/EmissionBalanceEnum.h"
-#include "uci/type/RadarAltimeterMessageOutputsEnum.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilitySettingsCommandBaseType.h"
+#include "ElectronicProtectionOptionsDefaultType.h"
+#include "EmconSettingType.h"
+#include "EmissionBalanceEnum.h"
+#include "RadarAltimeterMessageOutputsEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

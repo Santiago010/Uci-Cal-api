@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_PLANMODIFICATIONDETAILSTYPE_H
 #define UCI_TYPE_PLANMODIFICATIONDETAILSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ExecutionSequenceReplaceOrModifyChoiceType.h"
-#include "uci/type/HierarchyModificationType.h"
-#include "uci/type/PlanApplicabilityModificationType.h"
-#include "uci/type/PlanWindowModificationTypeChoiceType.h"
-#include "uci/type/RequirementAllocationLockDetailsType.h"
-#include "uci/type/SubPlansModificationType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "ExecutionSequenceReplaceOrModifyChoiceType.h"
+#include "HierarchyModificationType.h"
+#include "PlanApplicabilityModificationType.h"
+#include "PlanWindowModificationTypeChoiceType.h"
+#include "RequirementAllocationLockDetailsType.h"
+#include "SubPlansModificationType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

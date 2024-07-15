@@ -38,7 +38,7 @@
 
 #include <boost/property_tree/ptree.hpp>
 
-#include "uci/type/SystemMetadataPET.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SystemMetadataPET.h"
 
 /**  */
 namespace asb_uci {

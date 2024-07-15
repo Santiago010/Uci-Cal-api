@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_MISSIONENVIRONMENTOBJECTSYSTEMTYPE_H
 #define UCI_TYPE_MISSIONENVIRONMENTOBJECTSYSTEMTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/MissionEnvironmentObjectBaseType.h"
-#include "uci/type/SystemID_Type.h"
+#include "../base/export.h"
+#include "MissionEnvironmentObjectBaseType.h"
+#include "SystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

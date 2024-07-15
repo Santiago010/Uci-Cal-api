@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_TASKCAPABILITYCOMMANDTYPE_H
 #define UCI_TYPE_TASKCAPABILITYCOMMANDTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/CapabilityCommandBaseType.h"
-#include "uci/type/PlanReferenceType.h"
-#include "uci/type/RequirementAllocationDetailsType.h"
-#include "uci/type/RequirementConstraintsType.h"
-#include "uci/type/TaskID_Type.h"
+#include "../base/export.h"
+#include "CapabilityCommandBaseType.h"
+#include "PlanReferenceType.h"
+#include "RequirementAllocationDetailsType.h"
+#include "RequirementConstraintsType.h"
+#include "TaskID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

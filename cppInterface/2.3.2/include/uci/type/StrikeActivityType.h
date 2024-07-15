@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_STRIKEACTIVITYTYPE_H
 #define UCI_TYPE_STRIKEACTIVITYTYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AO_CodeType.h"
-#include "uci/type/ActivityBaseType.h"
-#include "uci/type/ConsentEnum.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/EnduranceFootprintType.h"
-#include "uci/type/GeoLocatedObjectType.h"
-#include "uci/type/LAR_ID_Type.h"
-#include "uci/type/MunitionInFlightType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "AO_CodeType.h"
+#include "ActivityBaseType.h"
+#include "ConsentEnum.h"
+#include "DurationType.h"
+#include "EnduranceFootprintType.h"
+#include "GeoLocatedObjectType.h"
+#include "LAR_ID_Type.h"
+#include "MunitionInFlightType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

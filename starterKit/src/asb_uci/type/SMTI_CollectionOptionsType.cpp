@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/SMTI_CollectionOptionsType.h"
+#include "../../../include/asb_uci/type/SMTI_CollectionOptionsType.h"
 
 #include <memory>
 #include <string>
@@ -41,19 +41,19 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/COARPS_SMTI_CollectionOptionsEnum.h"
-#include "asb_uci/type/HRR_OptionsType.h"
-#include "asb_uci/type/RadarCollectionOptionsType.h"
-#include "asb_uci/type/RangeDopplerResolutionType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/COARPS_SMTI_CollectionOptionsEnum.h"
-#include "uci/type/DecibelType.h"
-#include "uci/type/HRR_OptionsType.h"
-#include "uci/type/RangeDopplerResolutionType.h"
-#include "uci/type/SMTI_CollectionOptionsType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/COARPS_SMTI_CollectionOptionsEnum.h"
+#include "../../../include/asb_uci/type/HRR_OptionsType.h"
+#include "../../../include/asb_uci/type/RadarCollectionOptionsType.h"
+#include "../../../include/asb_uci/type/RangeDopplerResolutionType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/COARPS_SMTI_CollectionOptionsEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DecibelType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/HRR_OptionsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RangeDopplerResolutionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SMTI_CollectionOptionsType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

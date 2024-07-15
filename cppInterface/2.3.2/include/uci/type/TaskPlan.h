@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_TASKPLAN_H
 #define UCI_TYPE_TASKPLAN_H
 
-#include "uci/type/TaskPlanMT.h"
+#include "TaskPlanMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

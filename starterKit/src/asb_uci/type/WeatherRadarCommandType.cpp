@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/WeatherRadarCommandType.h"
+#include "../../../include/asb_uci/type/WeatherRadarCommandType.h"
 
 #include <memory>
 #include <string>
@@ -41,14 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/RadarActivityCommandType.h"
-#include "asb_uci/type/WeatherRadarCapabilityCommandType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/RadarActivityCommandType.h"
-#include "uci/type/WeatherRadarCapabilityCommandType.h"
-#include "uci/type/WeatherRadarCommandType.h"
+#include "../../../include/asb_uci/type/RadarActivityCommandType.h"
+#include "../../../include/asb_uci/type/WeatherRadarCapabilityCommandType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RadarActivityCommandType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/WeatherRadarCapabilityCommandType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/WeatherRadarCommandType.h"
 
 /**  */
 namespace asb_uci {

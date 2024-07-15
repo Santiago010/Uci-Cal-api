@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_SPECIFICREDSEPARATIONTYPE_H
 #define UCI_TYPE_SPECIFICREDSEPARATIONTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/IdentityType.h"
-#include "uci/type/SeparationParametersType.h"
+#include "../base/export.h"
+#include "IdentityType.h"
+#include "SeparationParametersType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

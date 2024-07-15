@@ -36,21 +36,21 @@
 #ifndef UCI_TYPE_REQUIREMENTCONSTRAINTSTYPE_H
 #define UCI_TYPE_REQUIREMENTCONSTRAINTSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AnalyticConstraintsType.h"
-#include "uci/type/ComparableRankingType.h"
-#include "uci/type/DataProductClassificationLevelType.h"
-#include "uci/type/EnvironmentPairingEnum.h"
-#include "uci/type/RequirementAllocationParametersType.h"
-#include "uci/type/RequirementDependencyType.h"
-#include "uci/type/RequirementKinematicConstraintsType.h"
-#include "uci/type/RequirementTaxonomyType.h"
-#include "uci/type/RequirementTimingType.h"
-#include "uci/type/SecurityInformationType.h"
-#include "uci/type/VisibleString1024Type.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AnalyticConstraintsType.h"
+#include "ComparableRankingType.h"
+#include "DataProductClassificationLevelType.h"
+#include "EnvironmentPairingEnum.h"
+#include "RequirementAllocationParametersType.h"
+#include "RequirementDependencyType.h"
+#include "RequirementKinematicConstraintsType.h"
+#include "RequirementTaxonomyType.h"
+#include "RequirementTimingType.h"
+#include "SecurityInformationType.h"
+#include "VisibleString1024Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_REFERENCECAPABILITY_H
 #define UCI_TYPE_REFERENCECAPABILITY_H
 
-#include "uci/type/ReferenceCapabilityMT.h"
+#include "ReferenceCapabilityMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

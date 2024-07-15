@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_AO_CAPABILITYCOMMANDTYPE_H
 #define UCI_TYPE_AO_CAPABILITYCOMMANDTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/AO_ComponentSettingsType.h"
-#include "uci/type/CapabilityCommandBaseType.h"
-#include "uci/type/OpticalCollectionConstraintsType.h"
-#include "uci/type/RepetitionType.h"
-#include "uci/type/TargetType.h"
+#include "../base/export.h"
+#include "AO_ComponentSettingsType.h"
+#include "CapabilityCommandBaseType.h"
+#include "OpticalCollectionConstraintsType.h"
+#include "RepetitionType.h"
+#include "TargetType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

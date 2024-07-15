@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_SUBSYSTEMMAINTENANCETESTCOMMANDTYPE_H
 #define UCI_TYPE_SUBSYSTEMMAINTENANCETESTCOMMANDTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/SubsystemMaintenanceSubtestCommandChoiceType.h"
-#include "uci/type/SubsystemMaintenanceTestCommandPET.h"
+#include "../base/export.h"
+#include "SubsystemMaintenanceSubtestCommandChoiceType.h"
+#include "SubsystemMaintenanceTestCommandPET.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

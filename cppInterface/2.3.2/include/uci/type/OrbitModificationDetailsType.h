@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_ORBITMODIFICATIONDETAILSTYPE_H
 #define UCI_TYPE_ORBITMODIFICATIONDETAILSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/OrbitKinematicsSequenceReplaceOrModifyChoiceType.h"
-#include "uci/type/OrbitKinematicsSetParametersType.h"
-#include "uci/type/OrbitRegimeType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "OrbitKinematicsSequenceReplaceOrModifyChoiceType.h"
+#include "OrbitKinematicsSetParametersType.h"
+#include "OrbitRegimeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_ROUTEACTIVITYPLANMDT_H
 #define UCI_TYPE_ROUTEACTIVITYPLANMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/RouteActivityPlanCommandID_ChoiceType.h"
-#include "uci/type/RouteActivityPlanID_Type.h"
-#include "uci/type/RouteActivityPlanInputsType.h"
-#include "uci/type/RouteActivityPlanType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "RouteActivityPlanCommandID_ChoiceType.h"
+#include "RouteActivityPlanID_Type.h"
+#include "RouteActivityPlanInputsType.h"
+#include "RouteActivityPlanType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

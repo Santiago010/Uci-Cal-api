@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_MISSIONPLANACTIVATIONCOMMANDSTATUS_H
 #define UCI_TYPE_MISSIONPLANACTIVATIONCOMMANDSTATUS_H
 
-#include "uci/type/MissionPlanActivationCommandStatusMT.h"
+#include "MissionPlanActivationCommandStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

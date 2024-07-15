@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_VIDEOOUTPUTSETTINGSTYPE_H
 #define UCI_TYPE_VIDEOOUTPUTSETTINGSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/UnsignedShortAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/VideoEncoderOutputType.h"
-#include "uci/type/VideoEncoderSettingsType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/UnsignedShortAccessor.h"
+#include "../base/export.h"
+#include "VideoEncoderOutputType.h"
+#include "VideoEncoderSettingsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

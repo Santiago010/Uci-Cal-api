@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_STORECARRIAGECAPABILITYTYPE_H
 #define UCI_TYPE_STORECARRIAGECAPABILITYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/StoreInformationBaseType.h"
-#include "uci/type/StoreVerificationStatusType.h"
-#include "uci/type/SupportCapabilityID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "StoreInformationBaseType.h"
+#include "StoreVerificationStatusType.h"
+#include "SupportCapabilityID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

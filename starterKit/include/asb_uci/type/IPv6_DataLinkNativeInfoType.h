@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/DataLinkNativeInfoPET.h"
-#include "asb_uci/type/IPv6_AddressType.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/IPv6_DataLinkNativeInfoType.h"
+#include "../../../include/asb_uci/type/DataLinkNativeInfoPET.h"
+#include "../../../include/asb_uci/type/IPv6_AddressType.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IPv6_DataLinkNativeInfoType.h"
 
 /**  */
 namespace asb_uci {

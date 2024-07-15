@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_PLANNEDACTIVITYEXECUTIONSTATUSTYPE_H
 #define UCI_TYPE_PLANNEDACTIVITYEXECUTIONSTATUSTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/ActivityExecutionStatusType.h"
-#include "uci/type/ActivityPlanID_Type.h"
+#include "../base/export.h"
+#include "ActivityExecutionStatusType.h"
+#include "ActivityPlanID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

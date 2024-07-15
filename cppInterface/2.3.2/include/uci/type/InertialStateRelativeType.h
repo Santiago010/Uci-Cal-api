@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_INERTIALSTATERELATIVETYPE_H
 #define UCI_TYPE_INERTIALSTATERELATIVETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/Acceleration3D_Type.h"
-#include "uci/type/OrientationRateType.h"
-#include "uci/type/OrientationType.h"
-#include "uci/type/PointChoice4D_Type.h"
-#include "uci/type/UncertaintyType.h"
-#include "uci/type/Velocity2D_Type.h"
-#include "uci/type/Velocity3D_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "Acceleration3D_Type.h"
+#include "OrientationRateType.h"
+#include "OrientationType.h"
+#include "PointChoice4D_Type.h"
+#include "UncertaintyType.h"
+#include "Velocity2D_Type.h"
+#include "Velocity3D_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

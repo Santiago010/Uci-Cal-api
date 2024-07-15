@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_PLANMODIFICATIONREQUEST_H
 #define UCI_TYPE_PLANMODIFICATIONREQUEST_H
 
-#include "uci/type/PlanModificationRequestMT.h"
+#include "PlanModificationRequestMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

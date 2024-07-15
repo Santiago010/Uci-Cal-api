@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_ACCESSOBJECTTYPE_H
 #define UCI_TYPE_ACCESSOBJECTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AccessCapabilityType.h"
-#include "uci/type/IdentityKindAssetType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AccessCapabilityType.h"
+#include "IdentityKindAssetType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

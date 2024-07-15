@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_DISSEMINATIONPRODUCTTYPE_H
 #define UCI_TYPE_DISSEMINATIONPRODUCTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DisseminationByType.h"
-#include "uci/type/ProductReferenceType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DisseminationByType.h"
+#include "ProductReferenceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

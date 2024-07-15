@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_COMINT_SUBCAPABILITYCHOICETYPE_H
 #define UCI_TYPE_COMINT_SUBCAPABILITYCHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/COMINT_SubcapabilityAcquisitionType.h"
-#include "uci/type/COMINT_SubcapabilityDataCollectType.h"
-#include "uci/type/COMINT_SubcapabilityGeolocationType.h"
-#include "uci/type/COMINT_SubcapabilityIdentificationType.h"
-#include "uci/type/COMINT_SubcapabilityMeasurementType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "COMINT_SubcapabilityAcquisitionType.h"
+#include "COMINT_SubcapabilityDataCollectType.h"
+#include "COMINT_SubcapabilityGeolocationType.h"
+#include "COMINT_SubcapabilityIdentificationType.h"
+#include "COMINT_SubcapabilityMeasurementType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

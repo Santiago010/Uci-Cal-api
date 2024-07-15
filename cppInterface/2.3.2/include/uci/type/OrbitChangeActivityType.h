@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_ORBITCHANGEACTIVITYTYPE_H
 #define UCI_TYPE_ORBITCHANGEACTIVITYTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/ActivityBaseType.h"
-#include "uci/type/ManeuverSummaryType.h"
-#include "uci/type/OrbitKinematicsChangeSummaryType.h"
+#include "../base/export.h"
+#include "ActivityBaseType.h"
+#include "ManeuverSummaryType.h"
+#include "OrbitKinematicsChangeSummaryType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

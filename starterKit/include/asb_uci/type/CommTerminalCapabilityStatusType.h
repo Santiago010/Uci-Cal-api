@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/CapabilityStatusType.h"
-#include "uci/type/CommTerminalCapabilityStatusType.h"
+#include "../../../include/asb_uci/type/CapabilityStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommTerminalCapabilityStatusType.h"
 
 /**  */
 namespace asb_uci {

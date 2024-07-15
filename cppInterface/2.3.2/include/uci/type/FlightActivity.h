@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_FLIGHTACTIVITY_H
 #define UCI_TYPE_FLIGHTACTIVITY_H
 
-#include "uci/type/FlightActivityMT.h"
+#include "FlightActivityMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_STANAG_4607_NATIONALITYTYPE_H
 #define UCI_TYPE_STANAG_4607_NATIONALITYTYPE_H
 
-#include "xs/type/stringXmlSchemaPrimitives.h"
+#include "../../xs/type/stringXmlSchemaPrimitives.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

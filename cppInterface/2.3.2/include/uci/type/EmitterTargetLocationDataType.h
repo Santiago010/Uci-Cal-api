@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_EMITTERTARGETLOCATIONDATATYPE_H
 #define UCI_TYPE_EMITTERTARGETLOCATIONDATATYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EmitterSourceID_ChoiceType.h"
-#include "uci/type/FOV_VolumeType.h"
-#include "uci/type/PointTargetType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "EmitterSourceID_ChoiceType.h"
+#include "FOV_VolumeType.h"
+#include "PointTargetType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

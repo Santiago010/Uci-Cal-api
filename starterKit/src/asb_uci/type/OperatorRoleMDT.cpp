@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/OperatorRoleMDT.h"
+#include "../../../include/asb_uci/type/OperatorRoleMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,20 +41,20 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/DataRecordBaseType.h"
-#include "asb_uci/type/ForeignKeyType.h"
-#include "asb_uci/type/OperatorRoleID_Type.h"
-#include "asb_uci/type/SystemID_Type.h"
-#include "asb_uci/type/VisibleString256Type.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/OperatorRoleID_Type.h"
-#include "uci/type/OperatorRoleMDT.h"
-#include "uci/type/SystemID_Type.h"
-#include "uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/type/DataRecordBaseType.h"
+#include "../../../include/asb_uci/type/ForeignKeyType.h"
+#include "../../../include/asb_uci/type/OperatorRoleID_Type.h"
+#include "../../../include/asb_uci/type/SystemID_Type.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ForeignKeyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OperatorRoleID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OperatorRoleMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SystemID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString256Type.h"
 
 /**  */
 namespace asb_uci {
@@ -223,7 +223,7 @@ bool OperatorRoleMDT::hasRoleDescription() const noexcept {
 
 uci::type::VisibleString256Type& OperatorRoleMDT::enableRoleDescription(uci::base::accessorType::AccessorType type) {
   if (!roleDescription_Accessor) {
-    roleDescription_Accessor = VisibleString256Type::create(type);
+    roleDescription_Accessor = boost::make_unique<std::string>("");
   }
   return *roleDescription_Accessor;
 }

@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SPACEWEATHERKPAPCHOICETYPE_H
 #define UCI_TYPE_SPACEWEATHERKPAPCHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/GeomagneticApIndexType.h"
-#include "uci/type/GeomagneticKpIndexType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "GeomagneticApIndexType.h"
+#include "GeomagneticKpIndexType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

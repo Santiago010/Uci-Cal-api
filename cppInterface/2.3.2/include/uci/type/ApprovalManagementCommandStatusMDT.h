@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_APPROVALMANAGEMENTCOMMANDSTATUSMDT_H
 #define UCI_TYPE_APPROVALMANAGEMENTCOMMANDSTATUSMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CommandStatusBaseType.h"
-#include "uci/type/CompletionStatusType.h"
-#include "uci/type/IncompleteProcessingType.h"
-#include "uci/type/ProcessingStatusEnum.h"
-#include "uci/type/RequestID_Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CommandStatusBaseType.h"
+#include "CompletionStatusType.h"
+#include "IncompleteProcessingType.h"
+#include "ProcessingStatusEnum.h"
+#include "RequestID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

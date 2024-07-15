@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_IFF_TRANSPONDERMODECONTROLTYPE_H
 #define UCI_TYPE_IFF_TRANSPONDERMODECONTROLTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/IFF_TransponderModesSelectionType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "IFF_TransponderModesSelectionType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

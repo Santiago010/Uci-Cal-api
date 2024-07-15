@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_SAR_DYNAMICIMAGEPARAMETERSTYPE_H
 #define UCI_TYPE_SAR_DYNAMICIMAGEPARAMETERSTYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/UnsignedByteAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DoublePositiveType.h"
-#include "uci/type/DynamicImageProcessingEnum.h"
-#include "uci/type/PercentType.h"
-#include "uci/type/SAR_ProcessingParametersType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/UnsignedByteAccessor.h"
+#include "../base/export.h"
+#include "DoublePositiveType.h"
+#include "DynamicImageProcessingEnum.h"
+#include "PercentType.h"
+#include "SAR_ProcessingParametersType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

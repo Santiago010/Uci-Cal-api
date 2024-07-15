@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_TACTICALORDERCAPABILITYTYPE_H
 #define UCI_TYPE_TACTICALORDERCAPABILITYTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/CommandableCapabilityDeclarationType.h"
-#include "uci/type/TacticalOrderCapabilityEnum.h"
+#include "../base/export.h"
+#include "CommandableCapabilityDeclarationType.h"
+#include "TacticalOrderCapabilityEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

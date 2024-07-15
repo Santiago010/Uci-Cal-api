@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/OB_OperationalStatusEnum.h"
-#include "asb_uci/type/VisibleString512Type.h"
-#include "uci/type/SOB_C2_RecordBaseType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/OB_OperationalStatusEnum.h"
+#include "../../../include/asb_uci/type/VisibleString512Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SOB_C2_RecordBaseType.h"
 
 /**  */
 namespace asb_uci {

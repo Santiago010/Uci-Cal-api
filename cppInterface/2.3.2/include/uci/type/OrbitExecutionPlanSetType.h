@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_ORBITEXECUTIONPLANSETTYPE_H
 #define UCI_TYPE_ORBITEXECUTIONPLANSETTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ExecutionPlanSetBaseType.h"
-#include "uci/type/OrbitActivityPlanID_Type.h"
-#include "uci/type/OrbitPlanID_Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ExecutionPlanSetBaseType.h"
+#include "OrbitActivityPlanID_Type.h"
+#include "OrbitPlanID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

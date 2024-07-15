@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_ENTITYMANAGEMENTSETLINK16METADATATYPE_H
 #define UCI_TYPE_ENTITYMANAGEMENTSETLINK16METADATATYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EntityID_Type.h"
-#include "uci/type/Link16MetadataType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "EntityID_Type.h"
+#include "Link16MetadataType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_STRIKECAPABILITYTYPE_H
 #define UCI_TYPE_STRIKECAPABILITYTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AO_CodeType.h"
-#include "uci/type/CommandableCapabilityDeclarationType.h"
-#include "uci/type/StoreInformationType.h"
-#include "uci/type/StoreType.h"
-#include "uci/type/StoreVerificationStatusType.h"
-#include "uci/type/StrikeCapabilityOptionsType.h"
-#include "uci/type/StrikeMessageOutputsEnum.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AO_CodeType.h"
+#include "CommandableCapabilityDeclarationType.h"
+#include "StoreInformationType.h"
+#include "StoreType.h"
+#include "StoreVerificationStatusType.h"
+#include "StrikeCapabilityOptionsType.h"
+#include "StrikeMessageOutputsEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

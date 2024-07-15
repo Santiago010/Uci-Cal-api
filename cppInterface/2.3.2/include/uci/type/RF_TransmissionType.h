@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_RF_TRANSMISSIONTYPE_H
 #define UCI_TYPE_RF_TRANSMISSIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AntennaAndResourceInstanceType.h"
-#include "uci/type/BlankingLimitType.h"
-#include "uci/type/DecibelType.h"
-#include "uci/type/FrequencyRangeType.h"
-#include "uci/type/PercentType.h"
-#include "uci/type/PolarizationControlType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "AntennaAndResourceInstanceType.h"
+#include "BlankingLimitType.h"
+#include "DecibelType.h"
+#include "FrequencyRangeType.h"
+#include "PercentType.h"
+#include "PolarizationControlType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

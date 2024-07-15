@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_CARGODELIVERYCAPABILITYTYPE_H
 #define UCI_TYPE_CARGODELIVERYCAPABILITYTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CargoDeliveryCapabilityEnum.h"
-#include "uci/type/CargoDeliverySubCapabilityEnum.h"
-#include "uci/type/CargoType.h"
-#include "uci/type/CommandableCapabilityDeclarationType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CargoDeliveryCapabilityEnum.h"
+#include "CargoDeliverySubCapabilityEnum.h"
+#include "CargoType.h"
+#include "CommandableCapabilityDeclarationType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

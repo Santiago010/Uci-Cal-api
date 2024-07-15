@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_NED_CONETYPE_H
 #define UCI_TYPE_NED_CONETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AnglePositiveType.h"
-#include "uci/type/NED_LOS_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AnglePositiveType.h"
+#include "NED_LOS_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

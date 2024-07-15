@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CommRelayCapabilityType.h"
+#include "../../../include/asb_uci/type/CommRelayCapabilityType.h"
 
 #include <memory>
 #include <string>
@@ -41,17 +41,17 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CommCapabilityEnum.h"
-#include "asb_uci/type/CommRelayMessageOutputsEnum.h"
-#include "asb_uci/type/CommRelayOptionsType.h"
-#include "asb_uci/type/CommandableCapabilityDeclarationType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CommCapabilityEnum.h"
-#include "uci/type/CommRelayCapabilityType.h"
-#include "uci/type/CommRelayMessageOutputsEnum.h"
-#include "uci/type/CommRelayOptionsType.h"
+#include "../../../include/asb_uci/type/CommCapabilityEnum.h"
+#include "../../../include/asb_uci/type/CommRelayMessageOutputsEnum.h"
+#include "../../../include/asb_uci/type/CommRelayOptionsType.h"
+#include "../../../include/asb_uci/type/CommandableCapabilityDeclarationType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommCapabilityEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommRelayCapabilityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommRelayMessageOutputsEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommRelayOptionsType.h"
 
 /**  */
 namespace asb_uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/SystemDeploymentTaskType.h"
+#include "../../../include/asb_uci/type/SystemDeploymentTaskType.h"
 
 #include <memory>
 #include <string>
@@ -41,15 +41,15 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/DeployableSystemIdentityType.h"
-#include "asb_uci/type/KinematicsMultiStandardType.h"
-#include "asb_uci/type/SystemDeploymentTaskBaseType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/DeployableSystemIdentityType.h"
-#include "uci/type/KinematicsMultiStandardType.h"
-#include "uci/type/SystemDeploymentTaskType.h"
+#include "../../../include/asb_uci/type/DeployableSystemIdentityType.h"
+#include "../../../include/asb_uci/type/KinematicsMultiStandardType.h"
+#include "../../../include/asb_uci/type/SystemDeploymentTaskBaseType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DeployableSystemIdentityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/KinematicsMultiStandardType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SystemDeploymentTaskType.h"
 
 /**  */
 namespace asb_uci {

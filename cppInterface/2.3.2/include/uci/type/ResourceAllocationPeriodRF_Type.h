@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_RESOURCEALLOCATIONPERIODRF_TYPE_H
 #define UCI_TYPE_RESOURCEALLOCATIONPERIODRF_TYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/PercentType.h"
-#include "uci/type/RF_TypeEnum.h"
+#include "../base/Accessor.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "DurationType.h"
+#include "PercentType.h"
+#include "RF_TypeEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

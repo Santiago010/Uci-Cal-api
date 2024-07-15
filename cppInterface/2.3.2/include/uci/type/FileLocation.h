@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_FILELOCATION_H
 #define UCI_TYPE_FILELOCATION_H
 
-#include "uci/type/FileLocationMT.h"
+#include "FileLocationMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

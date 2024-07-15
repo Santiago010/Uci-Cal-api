@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CS_DetailDataType.h"
+#include "../../../include/asb_uci/type/CS_DetailDataType.h"
 
 #include <memory>
 #include <string>
@@ -41,24 +41,24 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CS_SubDetailDataType.h"
-#include "asb_uci/type/FileLocationID_Type.h"
-#include "asb_uci/type/ForeignKeyType.h"
-#include "asb_uci/type/ModulationEnum.h"
-#include "asb_uci/type/PolarizationEnum.h"
-#include "asb_uci/type/VisibleString32Type.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CS_DetailDataType.h"
-#include "uci/type/CS_SubDetailDataType.h"
-#include "uci/type/FileLocationID_Type.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/FrequencyType.h"
-#include "uci/type/ModulationEnum.h"
-#include "uci/type/PolarizationEnum.h"
-#include "uci/type/VisibleString32Type.h"
+#include "../../../include/asb_uci/type/CS_SubDetailDataType.h"
+#include "../../../include/asb_uci/type/FileLocationID_Type.h"
+#include "../../../include/asb_uci/type/ForeignKeyType.h"
+#include "../../../include/asb_uci/type/ModulationEnum.h"
+#include "../../../include/asb_uci/type/PolarizationEnum.h"
+#include "../../../include/asb_uci/type/VisibleString32Type.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CS_DetailDataType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CS_SubDetailDataType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FileLocationID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ForeignKeyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FrequencyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ModulationEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PolarizationEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString32Type.h"
 
 /**  */
 namespace asb_uci {

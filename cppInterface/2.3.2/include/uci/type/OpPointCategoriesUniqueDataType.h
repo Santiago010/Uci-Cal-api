@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_OPPOINTCATEGORIESUNIQUEDATATYPE_H
 #define UCI_TYPE_OPPOINTCATEGORIESUNIQUEDATATYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EmergencyReferencePointType.h"
-#include "uci/type/Link16HazardType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "EmergencyReferencePointType.h"
+#include "Link16HazardType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

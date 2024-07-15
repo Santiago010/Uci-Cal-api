@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_STRIKETASKWEAPONTYPE_H
 #define UCI_TYPE_STRIKETASKWEAPONTYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/WeaponeeringType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "WeaponeeringType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_COMINT_ACTIVITY_H
 #define UCI_TYPE_COMINT_ACTIVITY_H
 
-#include "uci/type/COMINT_ActivityMT.h"
+#include "COMINT_ActivityMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

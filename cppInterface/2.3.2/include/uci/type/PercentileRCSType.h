@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_PERCENTILERCSTYPE_H
 #define UCI_TYPE_PERCENTILERCSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DoubleNonNegativeType.h"
-#include "uci/type/PercentType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DoubleNonNegativeType.h"
+#include "PercentType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

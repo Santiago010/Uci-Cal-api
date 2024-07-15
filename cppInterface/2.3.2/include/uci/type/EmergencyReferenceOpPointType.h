@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_EMERGENCYREFERENCEOPPOINTTYPE_H
 #define UCI_TYPE_EMERGENCYREFERENCEOPPOINTTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/EmergencyReferenceOpPointCategoriesType.h"
-#include "uci/type/OpPointBaseType.h"
+#include "../base/export.h"
+#include "EmergencyReferenceOpPointCategoriesType.h"
+#include "OpPointBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

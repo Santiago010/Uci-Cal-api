@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_ORBITKINEMATICSREFERENCESTYPE_H
 #define UCI_TYPE_ORBITKINEMATICSREFERENCESTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EntityOrbitalElementSetID_Type.h"
-#include "uci/type/EntityOrbitalEphemerisID_Type.h"
-#include "uci/type/OrbitKinematicsSequenceID_Type.h"
-#include "uci/type/OrbitManeuverSegmentID_Type.h"
-#include "uci/type/OrbitPlanID_Type.h"
-#include "uci/type/SystemOrbitalElementSetID_Type.h"
-#include "uci/type/SystemOrbitalEphemerisID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "EntityOrbitalElementSetID_Type.h"
+#include "EntityOrbitalEphemerisID_Type.h"
+#include "OrbitKinematicsSequenceID_Type.h"
+#include "OrbitManeuverSegmentID_Type.h"
+#include "OrbitPlanID_Type.h"
+#include "SystemOrbitalElementSetID_Type.h"
+#include "SystemOrbitalEphemerisID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

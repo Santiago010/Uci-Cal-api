@@ -41,11 +41,11 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/OrderOfBattleLastCollectorType.h"
-#include "asb_uci/type/OrderOfBattleRecordOwnerType.h"
-#include "asb_uci/type/VisibleString512Type.h"
-#include "uci/type/OrderOfBattleEmitterType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/OrderOfBattleLastCollectorType.h"
+#include "../../../include/asb_uci/type/OrderOfBattleRecordOwnerType.h"
+#include "../../../include/asb_uci/type/VisibleString512Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrderOfBattleEmitterType.h"
 
 /**  */
 namespace asb_uci {

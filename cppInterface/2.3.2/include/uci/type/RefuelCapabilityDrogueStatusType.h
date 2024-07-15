@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_REFUELCAPABILITYDROGUESTATUSTYPE_H
 #define UCI_TYPE_REFUELCAPABILITYDROGUESTATUSTYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/HoseCutStatusEnum.h"
-#include "uci/type/MassType.h"
-#include "uci/type/RefuelCapabilityDrogueCommonType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "HoseCutStatusEnum.h"
+#include "MassType.h"
+#include "RefuelCapabilityDrogueCommonType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

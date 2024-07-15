@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_ORBITCHANGEMAGNITUDETYPE_H
 #define UCI_TYPE_ORBITCHANGEMAGNITUDETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AngleHalfPositiveType.h"
-#include "uci/type/AngleType.h"
-#include "uci/type/DistanceType.h"
-#include "uci/type/DoubleNonNegativeType.h"
-#include "uci/type/OrbitRegimeType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AngleHalfPositiveType.h"
+#include "AngleType.h"
+#include "DistanceType.h"
+#include "DoubleNonNegativeType.h"
+#include "OrbitRegimeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

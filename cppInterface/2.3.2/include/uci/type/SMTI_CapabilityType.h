@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_SMTI_CAPABILITYTYPE_H
 #define UCI_TYPE_SMTI_CAPABILITYTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CommandableCapabilityDeclarationType.h"
-#include "uci/type/ComponentFieldOfRegardType.h"
-#include "uci/type/FrequencyRangeType.h"
-#include "uci/type/NIIRS_Type.h"
-#include "uci/type/SMTI_CapabilityEnum.h"
-#include "uci/type/SMTI_CapabilityOptionsType.h"
-#include "uci/type/SMTI_MessageOutputsEnum.h"
-#include "uci/type/SMTI_SubCapabilityEnum.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CommandableCapabilityDeclarationType.h"
+#include "ComponentFieldOfRegardType.h"
+#include "FrequencyRangeType.h"
+#include "NIIRS_Type.h"
+#include "SMTI_CapabilityEnum.h"
+#include "SMTI_CapabilityOptionsType.h"
+#include "SMTI_MessageOutputsEnum.h"
+#include "SMTI_SubCapabilityEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

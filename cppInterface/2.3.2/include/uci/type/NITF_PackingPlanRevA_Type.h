@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_NITF_PACKINGPLANREVA_TYPE_H
 #define UCI_TYPE_NITF_PACKINGPLANREVA_TYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/ACFTB_RevA_Type.h"
-#include "uci/type/FileHeaderRevA_Type.h"
-#include "uci/type/ImageSubheaderRevA_Type.h"
-#include "uci/type/MSTGTA_RevA_Type.h"
-#include "uci/type/NITF_PackingPlanPET.h"
+#include "../base/export.h"
+#include "ACFTB_RevA_Type.h"
+#include "FileHeaderRevA_Type.h"
+#include "ImageSubheaderRevA_Type.h"
+#include "MSTGTA_RevA_Type.h"
+#include "NITF_PackingPlanPET.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

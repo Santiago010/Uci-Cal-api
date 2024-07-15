@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_POINTINGVECTORPARAMETERTYPE_H
 #define UCI_TYPE_POINTINGVECTORPARAMETERTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DataRateType.h"
-#include "uci/type/DoubleNonNegativeType.h"
-#include "uci/type/EllipseType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DataRateType.h"
+#include "DoubleNonNegativeType.h"
+#include "EllipseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

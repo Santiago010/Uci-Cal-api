@@ -41,22 +41,22 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/DistanceType.h"
-#include "asb_uci/type/PercentType.h"
-#include "asb_uci/type/PrecipitationAmountType.h"
-#include "asb_uci/type/TemperatureType.h"
-#include "asb_uci/type/VisibleString1024Type.h"
-#include "asb_uci/type/VisibleString32Type.h"
-#include "asb_uci/type/WeatherDescriptionEnum.h"
-#include "asb_uci/type/WeatherKindEnum.h"
-#include "asb_uci/type/WeatherPrecipitationAmplificationEnum.h"
-#include "asb_uci/type/WeatherPrecipitationEnum.h"
-#include "asb_uci/type/WeatherSeverityEnum.h"
-#include "asb_uci/type/WeatherSourceEnum.h"
-#include "asb_uci/type/WeatherVisibilityEnum.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/WeatherAreaDataType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/DistanceType.h"
+#include "../../../include/asb_uci/type/PercentType.h"
+#include "../../../include/asb_uci/type/PrecipitationAmountType.h"
+#include "../../../include/asb_uci/type/TemperatureType.h"
+#include "../../../include/asb_uci/type/VisibleString1024Type.h"
+#include "../../../include/asb_uci/type/VisibleString32Type.h"
+#include "../../../include/asb_uci/type/WeatherDescriptionEnum.h"
+#include "../../../include/asb_uci/type/WeatherKindEnum.h"
+#include "../../../include/asb_uci/type/WeatherPrecipitationAmplificationEnum.h"
+#include "../../../include/asb_uci/type/WeatherPrecipitationEnum.h"
+#include "../../../include/asb_uci/type/WeatherSeverityEnum.h"
+#include "../../../include/asb_uci/type/WeatherSourceEnum.h"
+#include "../../../include/asb_uci/type/WeatherVisibilityEnum.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/WeatherAreaDataType.h"
 
 /**  */
 namespace asb_uci {

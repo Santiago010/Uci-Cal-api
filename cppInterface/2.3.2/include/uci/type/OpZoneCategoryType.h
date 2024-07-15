@@ -36,19 +36,19 @@
 #ifndef UCI_TYPE_OPZONECATEGORYTYPE_H
 #define UCI_TYPE_OPZONECATEGORYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ConstrainedEntryExitType.h"
-#include "uci/type/IngressEgressType.h"
-#include "uci/type/OpZoneFilterAreaPET.h"
-#include "uci/type/OpZoneJammingType.h"
-#include "uci/type/OpZoneMissileDataType.h"
-#include "uci/type/OpZoneNoFireType.h"
-#include "uci/type/OpZoneNoFlyType.h"
-#include "uci/type/OpZoneWeaponRestrictionType.h"
-#include "uci/type/OpZoneWeatherType.h"
-#include "uci/type/VehicleCommandDataType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ConstrainedEntryExitType.h"
+#include "IngressEgressType.h"
+#include "OpZoneFilterAreaPET.h"
+#include "OpZoneJammingType.h"
+#include "OpZoneMissileDataType.h"
+#include "OpZoneNoFireType.h"
+#include "OpZoneNoFlyType.h"
+#include "OpZoneWeaponRestrictionType.h"
+#include "OpZoneWeatherType.h"
+#include "VehicleCommandDataType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

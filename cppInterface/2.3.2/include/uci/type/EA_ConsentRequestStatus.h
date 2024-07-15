@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_EA_CONSENTREQUESTSTATUS_H
 #define UCI_TYPE_EA_CONSENTREQUESTSTATUS_H
 
-#include "uci/type/EA_ConsentRequestStatusMT.h"
+#include "EA_ConsentRequestStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

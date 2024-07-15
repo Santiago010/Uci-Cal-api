@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_SUBSYSTEMCONFIGURATIONDATAREQUESTSTATUSMDT_H
 #define UCI_TYPE_SUBSYSTEMCONFIGURATIONDATAREQUESTSTATUSMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/RequestStatusBaseType.h"
-#include "uci/type/SubsystemConfigurationMDT.h"
+#include "../base/export.h"
+#include "RequestStatusBaseType.h"
+#include "SubsystemConfigurationMDT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

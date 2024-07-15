@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/COMINT_ReceiveDwellType.h"
+#include "../../../include/asb_uci/type/COMINT_ReceiveDwellType.h"
 
 #include <memory>
 #include <string>
@@ -41,30 +41,30 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/COMINT_DwellStateEnum.h"
-#include "asb_uci/type/COMINT_DwellTypeEnum.h"
-#include "asb_uci/type/COMINT_InteractiveType.h"
-#include "asb_uci/type/ComponentID_Type.h"
-#include "asb_uci/type/DwellID_Type.h"
-#include "asb_uci/type/FrequencyRangeType.h"
-#include "asb_uci/type/NED_ConeType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/COMINT_DwellStateEnum.h"
-#include "uci/type/COMINT_DwellTypeEnum.h"
-#include "uci/type/COMINT_InteractiveType.h"
-#include "uci/type/COMINT_ReceiveDwellType.h"
-#include "uci/type/ComponentID_Type.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/DecibelType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/DwellID_Type.h"
-#include "uci/type/FrequencyRangeType.h"
-#include "uci/type/FrequencyType.h"
-#include "uci/type/MilliwattPowerRatioType.h"
-#include "uci/type/NED_ConeType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/COMINT_DwellStateEnum.h"
+#include "../../../include/asb_uci/type/COMINT_DwellTypeEnum.h"
+#include "../../../include/asb_uci/type/COMINT_InteractiveType.h"
+#include "../../../include/asb_uci/type/ComponentID_Type.h"
+#include "../../../include/asb_uci/type/DwellID_Type.h"
+#include "../../../include/asb_uci/type/FrequencyRangeType.h"
+#include "../../../include/asb_uci/type/NED_ConeType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/COMINT_DwellStateEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/COMINT_DwellTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/COMINT_InteractiveType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/COMINT_ReceiveDwellType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ComponentID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DateTimeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DecibelType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DurationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DwellID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FrequencyRangeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FrequencyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MilliwattPowerRatioType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/NED_ConeType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

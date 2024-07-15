@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/ExternalCommandExecutionStateEnum.h"
-#include "asb_uci/type/PairingRelationshipEnum.h"
-#include "uci/base/Accessor.h"
-#include "uci/type/RelationshipType.h"
+#include "../../../include/asb_uci/type/ExternalCommandExecutionStateEnum.h"
+#include "../../../include/asb_uci/type/PairingRelationshipEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RelationshipType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_COMMSCHEDULEALLOCATIONUPDATEREQUESTMDT_H
 #define UCI_TYPE_COMMSCHEDULEALLOCATIONUPDATEREQUESTMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CommScheduleAllocationMDT.h"
-#include "uci/type/RequestBaseType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CommScheduleAllocationMDT.h"
+#include "RequestBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "uci/base/Accessor.h"
-#include "uci/type/AirTargetVolumeCommandType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AirTargetVolumeCommandType.h"
 
 /**  */
 namespace asb_uci {

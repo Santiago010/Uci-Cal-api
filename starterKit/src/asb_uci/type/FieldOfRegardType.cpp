@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/FieldOfRegardType.h"
+#include "../../../include/asb_uci/type/FieldOfRegardType.h"
 
 #include <memory>
 #include <string>
@@ -41,18 +41,18 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/FieldOfRegardTypeEnum.h"
-#include "asb_uci/type/SensorFieldOfRegardType.h"
-#include "asb_uci/type/SlantRangeConstraintsType.h"
-#include "asb_uci/type/VisibleString256Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/FieldOfRegardType.h"
-#include "uci/type/FieldOfRegardTypeEnum.h"
-#include "uci/type/SensorFieldOfRegardType.h"
-#include "uci/type/SlantRangeConstraintsType.h"
-#include "uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/type/FieldOfRegardTypeEnum.h"
+#include "../../../include/asb_uci/type/SensorFieldOfRegardType.h"
+#include "../../../include/asb_uci/type/SlantRangeConstraintsType.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FieldOfRegardType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FieldOfRegardTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SensorFieldOfRegardType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SlantRangeConstraintsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString256Type.h"
 
 /**  */
 namespace asb_uci {
@@ -240,7 +240,7 @@ bool FieldOfRegardType::hasMnemonic() const noexcept {
 
 uci::type::VisibleString256Type& FieldOfRegardType::enableMnemonic(uci::base::accessorType::AccessorType type) {
   if (!mnemonic_Accessor) {
-    mnemonic_Accessor = VisibleString256Type::create(type);
+    mnemonic_Accessor = boost::make_unique<std::string>("");
   }
   return *mnemonic_Accessor;
 }

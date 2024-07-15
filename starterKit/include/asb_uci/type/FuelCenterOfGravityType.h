@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/LateralCenterOfGravityTrendEnum.h"
-#include "asb_uci/type/LongitudinalCenterOfGravityTrendEnum.h"
-#include "asb_uci/type/VerticalCenterOfGravityTrendEnum.h"
-#include "uci/type/FuelCenterOfGravityType.h"
+#include "../../../include/asb_uci/type/LateralCenterOfGravityTrendEnum.h"
+#include "../../../include/asb_uci/type/LongitudinalCenterOfGravityTrendEnum.h"
+#include "../../../include/asb_uci/type/VerticalCenterOfGravityTrendEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FuelCenterOfGravityType.h"
 
 /**  */
 namespace asb_uci {

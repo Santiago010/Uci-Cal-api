@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SAR_TWOCOLORMULTIVIEWPARAMETERSTYPE_H
 #define UCI_TYPE_SAR_TWOCOLORMULTIVIEWPARAMETERSTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/ImagePixelDepthEnum.h"
-#include "uci/type/ProductMetadataID_Type.h"
-#include "uci/type/SAR_ProcessingParametersType.h"
+#include "../base/export.h"
+#include "ImagePixelDepthEnum.h"
+#include "ProductMetadataID_Type.h"
+#include "SAR_ProcessingParametersType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

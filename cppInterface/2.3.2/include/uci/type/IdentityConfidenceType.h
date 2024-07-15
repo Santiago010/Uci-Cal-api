@@ -36,19 +36,19 @@
 #ifndef UCI_TYPE_IDENTITYCONFIDENCETYPE_H
 #define UCI_TYPE_IDENTITYCONFIDENCETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/EOB_IdentityConfidenceType.h"
-#include "uci/type/EmitterMultipleType.h"
-#include "uci/type/EnvironmentIdentityConfidenceType.h"
-#include "uci/type/PlatformIdentityConfidenceType.h"
-#include "uci/type/SpecificEmitterMultipleType.h"
-#include "uci/type/SpecificFacilityIdentityConfidenceType.h"
-#include "uci/type/SpecificIdentityConfidenceType.h"
-#include "uci/type/SpecificVehicleIdentityConfidenceType.h"
-#include "uci/type/StandardIdentityConfidenceType.h"
-#include "uci/type/StoreMultipleType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "EOB_IdentityConfidenceType.h"
+#include "EmitterMultipleType.h"
+#include "EnvironmentIdentityConfidenceType.h"
+#include "PlatformIdentityConfidenceType.h"
+#include "SpecificEmitterMultipleType.h"
+#include "SpecificFacilityIdentityConfidenceType.h"
+#include "SpecificIdentityConfidenceType.h"
+#include "SpecificVehicleIdentityConfidenceType.h"
+#include "StandardIdentityConfidenceType.h"
+#include "StoreMultipleType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

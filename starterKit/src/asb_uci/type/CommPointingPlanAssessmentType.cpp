@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CommPointingPlanAssessmentType.h"
+#include "../../../include/asb_uci/type/CommPointingPlanAssessmentType.h"
 
 #include <memory>
 #include <string>
@@ -41,14 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CommPointingPlanDataType.h"
-#include "asb_uci/type/CommPointingPlanRequestType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CommPointingPlanAssessmentType.h"
-#include "uci/type/CommPointingPlanDataType.h"
-#include "uci/type/CommPointingPlanRequestType.h"
+#include "../../../include/asb_uci/type/CommPointingPlanDataType.h"
+#include "../../../include/asb_uci/type/CommPointingPlanRequestType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommPointingPlanAssessmentType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommPointingPlanDataType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommPointingPlanRequestType.h"
 
 /**  */
 namespace asb_uci {

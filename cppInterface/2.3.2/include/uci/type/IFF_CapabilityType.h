@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_IFF_CAPABILITYTYPE_H
 #define UCI_TYPE_IFF_CAPABILITYTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityInitiationEnum.h"
-#include "uci/type/CommandableCapabilityDeclarationType.h"
-#include "uci/type/IFF_CapabilityOptionsType.h"
-#include "uci/type/IFF_MessageOutputsEnum.h"
-#include "uci/type/IFF_ModesAvailableType.h"
-#include "uci/type/IFF_SubCapabilityEnum.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilityInitiationEnum.h"
+#include "CommandableCapabilityDeclarationType.h"
+#include "IFF_CapabilityOptionsType.h"
+#include "IFF_MessageOutputsEnum.h"
+#include "IFF_ModesAvailableType.h"
+#include "IFF_SubCapabilityEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

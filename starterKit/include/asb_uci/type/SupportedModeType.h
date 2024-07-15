@@ -41,11 +41,11 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AnglePositiveType.h"
-#include "asb_uci/type/CommCapabilityEnum.h"
-#include "asb_uci/type/DataRateType.h"
-#include "asb_uci/type/DecibelType.h"
-#include "uci/type/SupportedModeType.h"
+#include "../../../include/asb_uci/type/AnglePositiveType.h"
+#include "../../../include/asb_uci/type/CommCapabilityEnum.h"
+#include "../../../include/asb_uci/type/DataRateType.h"
+#include "../../../include/asb_uci/type/DecibelType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SupportedModeType.h"
 
 /**  */
 namespace asb_uci {

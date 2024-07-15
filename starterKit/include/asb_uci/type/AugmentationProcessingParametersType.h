@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/ProcessingParametersPET.h"
-#include "uci/type/AugmentationProcessingParametersType.h"
+#include "../../../include/asb_uci/type/ProcessingParametersPET.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AugmentationProcessingParametersType.h"
 
 /**  */
 namespace asb_uci {

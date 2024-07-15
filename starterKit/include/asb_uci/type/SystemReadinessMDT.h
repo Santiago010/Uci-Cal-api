@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/DataRecordBaseType.h"
-#include "uci/type/SystemReadinessMDT.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/DataRecordBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SystemReadinessMDT.h"
 
 /**  */
 namespace asb_uci {

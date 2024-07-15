@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_ORBITALVCM_TYPE_H
 #define UCI_TYPE_ORBITALVCM_TYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/OrbitalKinematicsStandardFrameChoiceType.h"
-#include "uci/type/VCM_DataType.h"
+#include "../base/Accessor.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "OrbitalKinematicsStandardFrameChoiceType.h"
+#include "VCM_DataType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

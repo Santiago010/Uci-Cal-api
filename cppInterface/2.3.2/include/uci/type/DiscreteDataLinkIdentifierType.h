@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_DISCRETEDATALINKIDENTIFIERTYPE_H
 #define UCI_TYPE_DISCRETEDATALINKIDENTIFIERTYPE_H
 
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DataLinkIdentifierPET.h"
-#include "uci/type/NetworkLinkID_Type.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "DataLinkIdentifierPET.h"
+#include "NetworkLinkID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

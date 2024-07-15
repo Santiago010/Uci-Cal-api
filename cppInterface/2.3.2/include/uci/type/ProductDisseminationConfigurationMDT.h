@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_PRODUCTDISSEMINATIONCONFIGURATIONMDT_H
 #define UCI_TYPE_PRODUCTDISSEMINATIONCONFIGURATIONMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DataRecordBaseType.h"
-#include "uci/type/ProductDisseminationConfigurationID_Type.h"
-#include "uci/type/ProductDisseminationConfigurationType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DataRecordBaseType.h"
+#include "ProductDisseminationConfigurationID_Type.h"
+#include "ProductDisseminationConfigurationType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

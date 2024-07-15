@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ResponseMDT.h"
+#include "../../../include/asb_uci/type/ResponseMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,24 +41,24 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/RequirementConstraintsType.h"
-#include "asb_uci/type/RequirementGuidanceType.h"
-#include "asb_uci/type/RequirementMetadataType.h"
-#include "asb_uci/type/RequirementsTemplateType.h"
-#include "asb_uci/type/ResponseID_Type.h"
-#include "asb_uci/type/ResponseOptionDetailsType.h"
-#include "asb_uci/type/ResponseTypeEnum.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/RequirementConstraintsType.h"
-#include "uci/type/RequirementGuidanceType.h"
-#include "uci/type/RequirementMetadataType.h"
-#include "uci/type/RequirementsTemplateType.h"
-#include "uci/type/ResponseID_Type.h"
-#include "uci/type/ResponseMDT.h"
-#include "uci/type/ResponseOptionDetailsType.h"
-#include "uci/type/ResponseTypeEnum.h"
+#include "../../../include/asb_uci/type/RequirementConstraintsType.h"
+#include "../../../include/asb_uci/type/RequirementGuidanceType.h"
+#include "../../../include/asb_uci/type/RequirementMetadataType.h"
+#include "../../../include/asb_uci/type/RequirementsTemplateType.h"
+#include "../../../include/asb_uci/type/ResponseID_Type.h"
+#include "../../../include/asb_uci/type/ResponseOptionDetailsType.h"
+#include "../../../include/asb_uci/type/ResponseTypeEnum.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RequirementConstraintsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RequirementGuidanceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RequirementMetadataType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RequirementsTemplateType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ResponseID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ResponseMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ResponseOptionDetailsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ResponseTypeEnum.h"
 
 /**  */
 namespace asb_uci {

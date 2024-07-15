@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_COMMPOINTINGPLANREQUESTTYPE_H
 #define UCI_TYPE_COMMPOINTINGPLANREQUESTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CommCoverageUserDataType.h"
-#include "uci/type/CommPointingAssessmentEnum.h"
-#include "uci/type/CommScheduleAllocationID_Type.h"
-#include "uci/type/CommSchedulingRequirementID_Type.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/RoutePlanReferencesType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CommCoverageUserDataType.h"
+#include "CommPointingAssessmentEnum.h"
+#include "CommScheduleAllocationID_Type.h"
+#include "CommSchedulingRequirementID_Type.h"
+#include "ForeignKeyType.h"
+#include "RoutePlanReferencesType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ORBITALSURVEILLANCEACTIVITY_H
 #define UCI_TYPE_ORBITALSURVEILLANCEACTIVITY_H
 
-#include "uci/type/OrbitalSurveillanceActivityMT.h"
+#include "OrbitalSurveillanceActivityMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

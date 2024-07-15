@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AltitudeType.h"
-#include "asb_uci/type/AngleType.h"
-#include "uci/type/AltitudeRadialPairType.h"
+#include "../../../include/asb_uci/type/AltitudeType.h"
+#include "../../../include/asb_uci/type/AngleType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AltitudeRadialPairType.h"
 
 /**  */
 namespace asb_uci {

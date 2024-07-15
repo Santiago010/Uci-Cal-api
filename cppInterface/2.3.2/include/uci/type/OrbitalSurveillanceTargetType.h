@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_ORBITALSURVEILLANCETARGETTYPE_H
 #define UCI_TYPE_ORBITALSURVEILLANCETARGETTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/OrbitalSurveillanceLocationTargetType.h"
-#include "uci/type/OrbitalSurveillanceObjectsType.h"
-#include "uci/type/OrbitalSurveillanceZoneTargetType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "OrbitalSurveillanceLocationTargetType.h"
+#include "OrbitalSurveillanceObjectsType.h"
+#include "OrbitalSurveillanceZoneTargetType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

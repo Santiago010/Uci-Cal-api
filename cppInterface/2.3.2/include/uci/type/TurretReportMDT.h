@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_TURRETREPORTMDT_H
 #define UCI_TYPE_TURRETREPORTMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/IMU_AlignmentEnum.h"
-#include "uci/type/PointingType.h"
-#include "uci/type/SupportCapabilityID_Type.h"
-#include "uci/type/TurretReportID_Type.h"
-#include "uci/type/TurretReportPointingType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "IMU_AlignmentEnum.h"
+#include "PointingType.h"
+#include "SupportCapabilityID_Type.h"
+#include "TurretReportID_Type.h"
+#include "TurretReportPointingType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

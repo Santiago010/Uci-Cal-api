@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/QueryString4096Type.h"
-#include "uci/type/QueryContainsType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/QueryString4096Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/QueryContainsType.h"
 
 /**  */
 namespace asb_uci {

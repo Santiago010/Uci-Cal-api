@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/PathTypeEnum.h"
-#include "asb_uci/type/PlanValidationInputsBaseType.h"
-#include "uci/type/RoutePlanValidationInputsType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/PathTypeEnum.h"
+#include "../../../include/asb_uci/type/PlanValidationInputsBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RoutePlanValidationInputsType.h"
 
 /**  */
 namespace asb_uci {

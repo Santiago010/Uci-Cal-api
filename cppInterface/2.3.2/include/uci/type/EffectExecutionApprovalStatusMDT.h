@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_EFFECTEXECUTIONAPPROVALSTATUSMDT_H
 #define UCI_TYPE_EFFECTEXECUTIONAPPROVALSTATUSMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/EffectID_Type.h"
-#include "uci/type/RequirementExecutionApprovalStatusBaseType.h"
+#include "../base/export.h"
+#include "EffectID_Type.h"
+#include "RequirementExecutionApprovalStatusBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

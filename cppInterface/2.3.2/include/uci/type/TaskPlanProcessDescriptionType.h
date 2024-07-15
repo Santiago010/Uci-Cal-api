@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_TASKPLANPROCESSDESCRIPTIONTYPE_H
 #define UCI_TYPE_TASKPLANPROCESSDESCRIPTIONTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/PlanningDiscoveryBaseType.h"
-#include "uci/type/TaskPlanPartsType.h"
+#include "../base/export.h"
+#include "PlanningDiscoveryBaseType.h"
+#include "TaskPlanPartsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

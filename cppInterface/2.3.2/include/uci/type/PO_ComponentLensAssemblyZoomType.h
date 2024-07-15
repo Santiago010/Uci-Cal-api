@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_PO_COMPONENTLENSASSEMBLYZOOMTYPE_H
 #define UCI_TYPE_PO_COMPONENTLENSASSEMBLYZOOMTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/PO_ComponentLensAssemblyZoomAbsoluteType.h"
-#include "uci/type/PO_ComponentLensAssemblyZoomIncrementalType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "PO_ComponentLensAssemblyZoomAbsoluteType.h"
+#include "PO_ComponentLensAssemblyZoomIncrementalType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

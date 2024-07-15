@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ENTITYLOST_H
 #define UCI_TYPE_ENTITYLOST_H
 
-#include "uci/type/EntityLostMT.h"
+#include "EntityLostMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

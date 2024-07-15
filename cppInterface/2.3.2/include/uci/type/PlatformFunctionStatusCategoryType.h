@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_PLATFORMFUNCTIONSTATUSCATEGORYTYPE_H
 #define UCI_TYPE_PLATFORMFUNCTIONSTATUSCATEGORYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/PlatformFunctionAirEnum.h"
-#include "uci/type/PlatformFunctionEW_Enum.h"
-#include "uci/type/PlatformFunctionGroundEnum.h"
-#include "uci/type/PlatformFunctionSeaSurfaceEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "PlatformFunctionAirEnum.h"
+#include "PlatformFunctionEW_Enum.h"
+#include "PlatformFunctionGroundEnum.h"
+#include "PlatformFunctionSeaSurfaceEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

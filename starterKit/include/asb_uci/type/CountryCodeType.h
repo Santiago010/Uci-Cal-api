@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/GENC_CountryNameEnum.h"
-#include "asb_uci/type/OperatorUniqueNameEnum.h"
-#include "uci/base/Accessor.h"
-#include "uci/type/CountryCodeType.h"
+#include "../../../include/asb_uci/type/GENC_CountryNameEnum.h"
+#include "../../../include/asb_uci/type/OperatorUniqueNameEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CountryCodeType.h"
 
 /**  */
 namespace asb_uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/VehicleThreatAssessmentRequestType.h"
+#include "../../../include/asb_uci/type/VehicleThreatAssessmentRequestType.h"
 
 #include <memory>
 #include <string>
@@ -41,22 +41,22 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AssessmentSuppressionEnum.h"
-#include "asb_uci/type/DetectionEnvelopeParametersType.h"
-#include "asb_uci/type/EntityID_Type.h"
-#include "asb_uci/type/SystemPositionSpecificationType.h"
-#include "asb_uci/type/ThreatCapabilityEnum.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AssessmentSuppressionEnum.h"
-#include "uci/type/DetectionEnvelopeParametersType.h"
-#include "uci/type/EntityID_Type.h"
-#include "uci/type/SystemPositionSpecificationType.h"
-#include "uci/type/ThreatCapabilityEnum.h"
-#include "uci/type/VehicleThreatAssessmentRequestType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/AssessmentSuppressionEnum.h"
+#include "../../../include/asb_uci/type/DetectionEnvelopeParametersType.h"
+#include "../../../include/asb_uci/type/EntityID_Type.h"
+#include "../../../include/asb_uci/type/SystemPositionSpecificationType.h"
+#include "../../../include/asb_uci/type/ThreatCapabilityEnum.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AssessmentSuppressionEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DetectionEnvelopeParametersType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EntityID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SystemPositionSpecificationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ThreatCapabilityEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VehicleThreatAssessmentRequestType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

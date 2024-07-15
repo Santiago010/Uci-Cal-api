@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/DateTimeType.h"
-#include "asb_uci/type/DistanceType.h"
-#include "asb_uci/type/FOV_Type.h"
-#include "uci/type/FOV_ActivityType.h"
+#include "../../../include/asb_uci/type/DateTimeType.h"
+#include "../../../include/asb_uci/type/DistanceType.h"
+#include "../../../include/asb_uci/type/FOV_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FOV_ActivityType.h"
 
 /**  */
 namespace asb_uci {

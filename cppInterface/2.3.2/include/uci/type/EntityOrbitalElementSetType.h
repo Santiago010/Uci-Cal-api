@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_ENTITYORBITALELEMENTSETTYPE_H
 #define UCI_TYPE_ENTITYORBITALELEMENTSETTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EntityID_Type.h"
-#include "uci/type/EntityOrbitalElementSetID_Type.h"
-#include "uci/type/OrbitalElementSetParametersType.h"
-#include "uci/type/TLE_BaseType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "EntityID_Type.h"
+#include "EntityOrbitalElementSetID_Type.h"
+#include "OrbitalElementSetParametersType.h"
+#include "TLE_BaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

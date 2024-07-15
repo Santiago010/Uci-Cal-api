@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/OrbitalSurveillanceSensorTargetType.h"
+#include "../../../include/asb_uci/type/OrbitalSurveillanceSensorTargetType.h"
 
 #include <memory>
 #include <string>
@@ -41,20 +41,20 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ElementSetCloudType.h"
-#include "asb_uci/type/OrbitalSurveillanceLocationTargetType.h"
-#include "asb_uci/type/OrbitalSurveillanceObjectsType.h"
-#include "asb_uci/type/SensorPointListType.h"
-#include "asb_uci/type/SourceCoverageType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ElementSetCloudType.h"
-#include "uci/type/OrbitalSurveillanceLocationTargetType.h"
-#include "uci/type/OrbitalSurveillanceObjectsType.h"
-#include "uci/type/OrbitalSurveillanceSensorTargetType.h"
-#include "uci/type/SensorPointListType.h"
-#include "uci/type/SourceCoverageType.h"
+#include "../../../include/asb_uci/type/ElementSetCloudType.h"
+#include "../../../include/asb_uci/type/OrbitalSurveillanceLocationTargetType.h"
+#include "../../../include/asb_uci/type/OrbitalSurveillanceObjectsType.h"
+#include "../../../include/asb_uci/type/SensorPointListType.h"
+#include "../../../include/asb_uci/type/SourceCoverageType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ElementSetCloudType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalSurveillanceLocationTargetType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalSurveillanceObjectsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalSurveillanceSensorTargetType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SensorPointListType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SourceCoverageType.h"
 
 /**  */
 namespace asb_uci {

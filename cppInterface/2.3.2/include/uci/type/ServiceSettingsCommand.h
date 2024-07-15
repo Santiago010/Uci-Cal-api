@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SERVICESETTINGSCOMMAND_H
 #define UCI_TYPE_SERVICESETTINGSCOMMAND_H
 
-#include "uci/type/ServiceSettingsCommandMT.h"
+#include "ServiceSettingsCommandMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_EA_ACTIVITYCHANGEBEAMCOMMANDTYPE_H
 #define UCI_TYPE_EA_ACTIVITYCHANGEBEAMCOMMANDTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/BeamID_Type.h"
-#include "uci/type/CapabilityCommandStateEnum.h"
-#include "uci/type/FrequencyRangeType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "BeamID_Type.h"
+#include "CapabilityCommandStateEnum.h"
+#include "FrequencyRangeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

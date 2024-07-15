@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_ROUTEPLANVALIDATIONINPUTSTYPE_H
 #define UCI_TYPE_ROUTEPLANVALIDATIONINPUTSTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AnalysisRouteID_Type.h"
-#include "uci/type/PathTypeEnum.h"
-#include "uci/type/PlanValidationInputsBaseType.h"
-#include "uci/type/PlanningPointType.h"
-#include "uci/type/RoutePlanReferencesType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AnalysisRouteID_Type.h"
+#include "PathTypeEnum.h"
+#include "PlanValidationInputsBaseType.h"
+#include "PlanningPointType.h"
+#include "RoutePlanReferencesType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

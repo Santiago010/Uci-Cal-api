@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_ORBITALDEBRISESTIMATEMDT_H
 #define UCI_TYPE_ORBITALDEBRISESTIMATEMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/OrbitBreakupEventDetailsType.h"
-#include "uci/type/OrbitalDebrisEstimateID_Type.h"
-#include "uci/type/OrbitalDebrisEstimateType.h"
-#include "uci/type/RequestID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "OrbitBreakupEventDetailsType.h"
+#include "OrbitalDebrisEstimateID_Type.h"
+#include "OrbitalDebrisEstimateType.h"
+#include "RequestID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

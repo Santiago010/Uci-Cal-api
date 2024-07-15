@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/OperatorLocationOfInterestComparativeType.h"
+#include "../../../include/asb_uci/type/OperatorLocationOfInterestComparativeType.h"
 
 #include <memory>
 #include <string>
@@ -41,14 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/EqualityExpressionEnum.h"
-#include "asb_uci/type/PrioritizationListValueType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/EqualityExpressionEnum.h"
-#include "uci/type/OperatorLocationOfInterestComparativeType.h"
-#include "uci/type/PrioritizationListValueType.h"
+#include "../../../include/asb_uci/type/EqualityExpressionEnum.h"
+#include "../../../include/asb_uci/type/PrioritizationListValueType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EqualityExpressionEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OperatorLocationOfInterestComparativeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PrioritizationListValueType.h"
 
 /**  */
 namespace asb_uci {

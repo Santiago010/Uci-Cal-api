@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/DistanceType.h"
-#include "asb_uci/type/FixedPositionType.h"
-#include "asb_uci/type/MilitaryGridStringType.h"
-#include "uci/type/EOB_FixedPositionType.h"
+#include "../../../include/asb_uci/type/DistanceType.h"
+#include "../../../include/asb_uci/type/FixedPositionType.h"
+#include "../../../include/asb_uci/type/MilitaryGridStringType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EOB_FixedPositionType.h"
 
 /**  */
 namespace asb_uci {

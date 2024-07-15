@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_BEAMPOINTINGREFERENCETYPE_H
 #define UCI_TYPE_BEAMPOINTINGREFERENCETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/Az_El_BeamPointingType.h"
-#include "uci/type/Az_El_BeamPointingWithRangeType.h"
-#include "uci/type/Point2D_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "Az_El_BeamPointingType.h"
+#include "Az_El_BeamPointingWithRangeType.h"
+#include "Point2D_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

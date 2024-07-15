@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_FLIGHTTASKTYPE_H
 #define UCI_TYPE_FLIGHTTASKTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/FlightTaskBaseType.h"
-#include "uci/type/LoiterType.h"
-#include "uci/type/MustFlyType.h"
+#include "../base/export.h"
+#include "FlightTaskBaseType.h"
+#include "LoiterType.h"
+#include "MustFlyType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

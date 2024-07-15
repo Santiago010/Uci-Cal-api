@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/CapabilityTypeEnum.h"
-#include "asb_uci/type/ThreatCapabilityEnum.h"
-#include "uci/type/CapabilityTaxonomyUniversalBaseType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/CapabilityTypeEnum.h"
+#include "../../../include/asb_uci/type/ThreatCapabilityEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityTaxonomyUniversalBaseType.h"
 
 /**  */
 namespace asb_uci {

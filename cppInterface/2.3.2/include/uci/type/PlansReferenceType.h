@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_PLANSREFERENCETYPE_H
 #define UCI_TYPE_PLANSREFERENCETYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/MissionPlanID_Type.h"
-#include "uci/type/PlansReferenceBaseType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "MissionPlanID_Type.h"
+#include "PlansReferenceBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

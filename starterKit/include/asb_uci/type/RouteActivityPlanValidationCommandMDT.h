@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/ValidationCommandBaseType.h"
-#include "uci/type/RouteActivityPlanValidationCommandMDT.h"
+#include "../../../include/asb_uci/type/ValidationCommandBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RouteActivityPlanValidationCommandMDT.h"
 
 /**  */
 namespace asb_uci {

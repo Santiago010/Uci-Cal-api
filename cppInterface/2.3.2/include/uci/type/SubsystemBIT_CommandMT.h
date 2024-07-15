@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_SUBSYSTEMBIT_COMMANDMT_H
 #define UCI_TYPE_SUBSYSTEMBIT_COMMANDMT_H
 
-#include "uci/base/Listener.h"
-#include "uci/base/Reader.h"
-#include "uci/base/Writer.h"
-#include "uci/base/export.h"
-#include "uci/type/MessageType.h"
-#include "uci/type/SubsystemBIT_CommandMDT.h"
+#include "../base/Listener.h"
+#include "../base/Reader.h"
+#include "../base/Writer.h"
+#include "../base/export.h"
+#include "MessageType.h"
+#include "SubsystemBIT_CommandMDT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

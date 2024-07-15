@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_OBJECTCORRELATIONTYPE_H
 #define UCI_TYPE_OBJECTCORRELATIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CorrelationIndicatorEnum.h"
-#include "uci/type/IdentityKindInstanceType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CorrelationIndicatorEnum.h"
+#include "IdentityKindInstanceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_IMAGEAUGMENTATIONPARAMETERSTYPE_H
 #define UCI_TYPE_IMAGEAUGMENTATIONPARAMETERSTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/AugmentationProcessingParametersType.h"
-#include "uci/type/VisibleString1024Type.h"
+#include "../base/export.h"
+#include "AugmentationProcessingParametersType.h"
+#include "VisibleString1024Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

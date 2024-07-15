@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_COMMTERMINALPLANMDT_H
 #define UCI_TYPE_COMMTERMINALPLANMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CommTerminalPlanApprovalStatusEnum.h"
-#include "uci/type/CommTerminalPlanDetailsType.h"
-#include "uci/type/CommTerminalPlanID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CommTerminalPlanApprovalStatusEnum.h"
+#include "CommTerminalPlanDetailsType.h"
+#include "CommTerminalPlanID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

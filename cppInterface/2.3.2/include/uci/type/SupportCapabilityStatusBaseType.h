@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SUPPORTCAPABILITYSTATUSBASETYPE_H
 #define UCI_TYPE_SUPPORTCAPABILITYSTATUSBASETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AvailabilityInfoType.h"
-#include "uci/type/SupportCapabilityID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AvailabilityInfoType.h"
+#include "SupportCapabilityID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

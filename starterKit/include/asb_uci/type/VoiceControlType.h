@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/FrequencyType.h"
-#include "asb_uci/type/Link16_VoiceChannelType.h"
-#include "uci/type/VoiceControlType.h"
+#include "../../../include/asb_uci/type/FrequencyType.h"
+#include "../../../include/asb_uci/type/Link16_VoiceChannelType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VoiceControlType.h"
 
 /**  */
 namespace asb_uci {

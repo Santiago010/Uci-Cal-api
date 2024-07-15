@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_MISSIONENVIRONMENTOBJECTACTIONTYPE_H
 #define UCI_TYPE_MISSIONENVIRONMENTOBJECTACTIONTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/ActionID_Type.h"
-#include "uci/type/MissionEnvironmentObjectBaseType.h"
+#include "../base/export.h"
+#include "ActionID_Type.h"
+#include "MissionEnvironmentObjectBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

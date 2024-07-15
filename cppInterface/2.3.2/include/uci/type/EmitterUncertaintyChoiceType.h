@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_EMITTERUNCERTAINTYCHOICETYPE_H
 #define UCI_TYPE_EMITTERUNCERTAINTYCHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EllipseType.h"
-#include "uci/type/RectangleType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "EllipseType.h"
+#include "RectangleType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

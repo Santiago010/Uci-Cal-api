@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_COMMSCHEDULINGREQUIREMENT_H
 #define UCI_TYPE_COMMSCHEDULINGREQUIREMENT_H
 
-#include "uci/type/CommSchedulingRequirementMT.h"
+#include "CommSchedulingRequirementMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

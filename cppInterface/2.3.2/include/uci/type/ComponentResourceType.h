@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_COMPONENTRESOURCETYPE_H
 #define UCI_TYPE_COMPONENTRESOURCETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/SelectDigitalComponentResourceType.h"
-#include "uci/type/SelectRF_ComponentResourceType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "SelectDigitalComponentResourceType.h"
+#include "SelectRF_ComponentResourceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

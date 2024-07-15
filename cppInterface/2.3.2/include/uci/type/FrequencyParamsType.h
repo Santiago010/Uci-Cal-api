@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_FREQUENCYPARAMSTYPE_H
 #define UCI_TYPE_FREQUENCYPARAMSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/DoubleAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/FrequencyRangeType.h"
-#include "uci/type/MilliwattPowerRatioType.h"
+#include "../base/Accessor.h"
+#include "../base/DoubleAccessor.h"
+#include "../base/export.h"
+#include "DurationType.h"
+#include "FrequencyRangeType.h"
+#include "MilliwattPowerRatioType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_COMPONENTTEMPERATURETYPE_H
 #define UCI_TYPE_COMPONENTTEMPERATURETYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/TemperatureRangeType.h"
-#include "uci/type/TemperatureStatusType.h"
+#include "../base/export.h"
+#include "TemperatureRangeType.h"
+#include "TemperatureStatusType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

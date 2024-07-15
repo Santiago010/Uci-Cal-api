@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_JREAP_COMMONTIMEREFERENCETYPE_H
 #define UCI_TYPE_JREAP_COMMONTIMEREFERENCETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CTR_StateEnum.h"
-#include "uci/type/JREAP_TimeReferenceEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CTR_StateEnum.h"
+#include "JREAP_TimeReferenceEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

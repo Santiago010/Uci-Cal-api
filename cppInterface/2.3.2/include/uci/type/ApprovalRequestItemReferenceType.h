@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_APPROVALREQUESTITEMREFERENCETYPE_H
 #define UCI_TYPE_APPROVALREQUESTITEMREFERENCETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ApprovalRequestItemType.h"
-#include "uci/type/MissionPlanActivationCommandType.h"
-#include "uci/type/PlanReferenceID_ChoiceType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ApprovalRequestItemType.h"
+#include "MissionPlanActivationCommandType.h"
+#include "PlanReferenceID_ChoiceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

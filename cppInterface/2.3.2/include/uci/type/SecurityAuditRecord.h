@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SECURITYAUDITRECORD_H
 #define UCI_TYPE_SECURITYAUDITRECORD_H
 
-#include "uci/type/SecurityAuditRecordMT.h"
+#include "SecurityAuditRecordMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

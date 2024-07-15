@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_IFF_ACTIVITY_H
 #define UCI_TYPE_IFF_ACTIVITY_H
 
-#include "uci/type/IFF_ActivityMT.h"
+#include "IFF_ActivityMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

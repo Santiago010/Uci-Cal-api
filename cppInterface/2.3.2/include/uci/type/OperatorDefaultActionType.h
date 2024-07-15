@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_OPERATORDEFAULTACTIONTYPE_H
 #define UCI_TYPE_OPERATORDEFAULTACTIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/OperatorActionID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DurationType.h"
+#include "OperatorActionID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

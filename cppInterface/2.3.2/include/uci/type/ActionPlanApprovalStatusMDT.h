@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_ACTIONPLANAPPROVALSTATUSMDT_H
 #define UCI_TYPE_ACTIONPLANAPPROVALSTATUSMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ActionPlanID_Type.h"
-#include "uci/type/ApprovalStateEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ActionPlanID_Type.h"
+#include "ApprovalStateEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

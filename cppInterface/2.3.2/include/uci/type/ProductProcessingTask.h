@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_PRODUCTPROCESSINGTASK_H
 #define UCI_TYPE_PRODUCTPROCESSINGTASK_H
 
-#include "uci/type/ProductProcessingTaskMT.h"
+#include "ProductProcessingTaskMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

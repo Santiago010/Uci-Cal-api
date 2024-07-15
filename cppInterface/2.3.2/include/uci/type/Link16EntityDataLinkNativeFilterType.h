@@ -36,17 +36,17 @@
 #ifndef UCI_TYPE_LINK16ENTITYDATALINKNATIVEFILTERTYPE_H
 #define UCI_TYPE_LINK16ENTITYDATALINKNATIVEFILTERTYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DataLinkNativeFilterPET.h"
-#include "uci/type/EntityAssignmentType.h"
-#include "uci/type/GatewayLink16ConfigurationAreaType.h"
-#include "uci/type/GatewayLink16ConfigurationClassEnum.h"
-#include "uci/type/GatewayLink16ConfigurationEnvironmentType.h"
-#include "uci/type/GatewayLink16ConfigurationIdentityType.h"
-#include "uci/type/Link16_NPG_Type.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "DataLinkNativeFilterPET.h"
+#include "EntityAssignmentType.h"
+#include "GatewayLink16ConfigurationAreaType.h"
+#include "GatewayLink16ConfigurationClassEnum.h"
+#include "GatewayLink16ConfigurationEnvironmentType.h"
+#include "GatewayLink16ConfigurationIdentityType.h"
+#include "Link16_NPG_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

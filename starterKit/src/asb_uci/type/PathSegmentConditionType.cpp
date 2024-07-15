@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/PathSegmentConditionType.h"
+#include "../../../include/asb_uci/type/PathSegmentConditionType.h"
 
 #include <memory>
 #include <string>
@@ -41,21 +41,21 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AltitudeRangeType.h"
-#include "asb_uci/type/DateTimeRangeType.h"
-#include "asb_uci/type/EnduranceRemainingType.h"
-#include "asb_uci/type/SegmentCaptureType.h"
-#include "asb_uci/type/SystemContingencyLevelEnum.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AltitudeRangeType.h"
-#include "uci/type/DateTimeRangeType.h"
-#include "uci/type/EnduranceRemainingType.h"
-#include "uci/type/PathSegmentConditionType.h"
-#include "uci/type/SegmentCaptureType.h"
-#include "uci/type/SystemContingencyLevelEnum.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/AltitudeRangeType.h"
+#include "../../../include/asb_uci/type/DateTimeRangeType.h"
+#include "../../../include/asb_uci/type/EnduranceRemainingType.h"
+#include "../../../include/asb_uci/type/SegmentCaptureType.h"
+#include "../../../include/asb_uci/type/SystemContingencyLevelEnum.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AltitudeRangeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DateTimeRangeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EnduranceRemainingType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PathSegmentConditionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SegmentCaptureType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SystemContingencyLevelEnum.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

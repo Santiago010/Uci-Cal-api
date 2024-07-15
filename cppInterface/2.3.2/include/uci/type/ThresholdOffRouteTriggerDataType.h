@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_THRESHOLDOFFROUTETRIGGERDATATYPE_H
 #define UCI_TYPE_THRESHOLDOFFROUTETRIGGERDATATYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DistanceType.h"
-#include "uci/type/TimeErrorType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DistanceType.h"
+#include "TimeErrorType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

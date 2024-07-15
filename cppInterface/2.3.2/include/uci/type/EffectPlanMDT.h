@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_EFFECTPLANMDT_H
 #define UCI_TYPE_EFFECTPLANMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EffectPlanCommandID_ChoiceType.h"
-#include "uci/type/EffectPlanID_Type.h"
-#include "uci/type/EffectPlanInputsType.h"
-#include "uci/type/EffectPlanType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "EffectPlanCommandID_ChoiceType.h"
+#include "EffectPlanID_Type.h"
+#include "EffectPlanInputsType.h"
+#include "EffectPlanType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

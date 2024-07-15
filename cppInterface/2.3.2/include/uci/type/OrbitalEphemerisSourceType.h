@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_ORBITALEPHEMERISSOURCETYPE_H
 #define UCI_TYPE_ORBITALEPHEMERISSOURCETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EntityOrbitalEphemerisID_Type.h"
-#include "uci/type/OrbitalEphemerisChoiceType.h"
-#include "uci/type/SystemOrbitalEphemerisID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "EntityOrbitalEphemerisID_Type.h"
+#include "OrbitalEphemerisChoiceType.h"
+#include "SystemOrbitalEphemerisID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

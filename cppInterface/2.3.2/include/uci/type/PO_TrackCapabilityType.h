@@ -36,17 +36,17 @@
 #ifndef UCI_TYPE_PO_TRACKCAPABILITYTYPE_H
 #define UCI_TYPE_PO_TRACKCAPABILITYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DoubleMinMaxType.h"
-#include "uci/type/DurationRangeType.h"
-#include "uci/type/IdentityBasicType.h"
-#include "uci/type/PO_CoastSettingOptionsType.h"
-#include "uci/type/PO_OffsetTrackSettingsType.h"
-#include "uci/type/PO_TrackCapabilityTypeEnum.h"
-#include "uci/type/TrackOptionsID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DoubleMinMaxType.h"
+#include "DurationRangeType.h"
+#include "IdentityBasicType.h"
+#include "PO_CoastSettingOptionsType.h"
+#include "PO_OffsetTrackSettingsType.h"
+#include "PO_TrackCapabilityTypeEnum.h"
+#include "TrackOptionsID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

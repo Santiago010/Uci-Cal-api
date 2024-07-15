@@ -36,19 +36,19 @@
 #ifndef UCI_TYPE_LOGMDT_H
 #define UCI_TYPE_LOGMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/DurationAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/ComponentID_Type.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/LogSeverityEnum.h"
-#include "uci/type/ServiceID_Type.h"
-#include "uci/type/SubsystemID_Type.h"
-#include "uci/type/VisibleString1024Type.h"
-#include "uci/type/VisibleString256Type.h"
-#include "xs/type/binaryXmlSchemaPrimitives.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/DurationAccessor.h"
+#include "../base/export.h"
+#include "CapabilityID_Type.h"
+#include "ComponentID_Type.h"
+#include "DateTimeType.h"
+#include "LogSeverityEnum.h"
+#include "ServiceID_Type.h"
+#include "SubsystemID_Type.h"
+#include "VisibleString1024Type.h"
+#include "VisibleString256Type.h"
+#include "../../xs/type/binaryXmlSchemaPrimitives.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {
@@ -317,13 +317,13 @@ public:
     *
     * @return A const reference to the accessor that provides access to the string identified by Label.
     */
-  virtual const uci::type::VisibleString256Type& getLabel() const = 0;
+  virtual const std::string& getLabel() const = 0;
 
   /** Returns a reference to the accessor that provides access to the string identified by Label.
     *
     * @return A reference to the accessor that provides access to the string identified by Label.
     */
-  virtual uci::type::VisibleString256Type& getLabel() = 0;
+  virtual std::string& getLabel() = 0;
 
   /** Sets the string identified by Label to the contents of the string accessed by the specified accessor.
     *

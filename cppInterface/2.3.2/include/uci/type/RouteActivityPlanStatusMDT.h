@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_ROUTEACTIVITYPLANSTATUSMDT_H
 #define UCI_TYPE_ROUTEACTIVITYPLANSTATUSMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/RouteActivityPlanID_Type.h"
-#include "uci/type/RouteActivityPlanStatusType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "RouteActivityPlanID_Type.h"
+#include "RouteActivityPlanStatusType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

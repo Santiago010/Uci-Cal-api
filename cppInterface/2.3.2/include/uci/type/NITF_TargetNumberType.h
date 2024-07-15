@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_NITF_TARGETNUMBERTYPE_H
 #define UCI_TYPE_NITF_TARGETNUMBERTYPE_H
 
-#include "uci/type/IntPositiveType.h"
+#include "IntPositiveType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

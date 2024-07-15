@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SOLARWEATHERRECORDTYPE_H
 #define UCI_TYPE_SOLARWEATHERRECORDTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/SolarFluxF10_7IndexType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DateTimeType.h"
+#include "SolarFluxF10_7IndexType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -38,8 +38,8 @@
 
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/CapabilityCommandStatusBaseType.h"
-#include "uci/type/CommRelayCommandStatusMDT.h"
+#include "../../../include/asb_uci/type/CapabilityCommandStatusBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommRelayCommandStatusMDT.h"
 
 /**  */
 namespace asb_uci {

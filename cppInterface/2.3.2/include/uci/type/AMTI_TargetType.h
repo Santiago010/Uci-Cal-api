@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_AMTI_TARGETTYPE_H
 #define UCI_TYPE_AMTI_TARGETTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AirVolumeSensorReferencedType.h"
-#include "uci/type/EntityID_Type.h"
-#include "uci/type/ZoneType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AirVolumeSensorReferencedType.h"
+#include "EntityID_Type.h"
+#include "ZoneType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

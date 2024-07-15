@@ -36,17 +36,17 @@
 #ifndef UCI_TYPE_COMPONENTCONFIGURATIONPET_H
 #define UCI_TYPE_COMPONENTCONFIGURATIONPET_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/type/AboutType.h"
-#include "uci/type/CapabilityCrossReferenceType.h"
-#include "uci/type/ComponentConfigurationID_Type.h"
-#include "uci/type/ComponentID_Type.h"
-#include "uci/type/ComponentTypeEnum.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/InstallationDetailsType.h"
-#include "uci/type/MassType.h"
-#include "uci/type/ServiceID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "AboutType.h"
+#include "CapabilityCrossReferenceType.h"
+#include "ComponentConfigurationID_Type.h"
+#include "ComponentID_Type.h"
+#include "ComponentTypeEnum.h"
+#include "ForeignKeyType.h"
+#include "InstallationDetailsType.h"
+#include "MassType.h"
+#include "ServiceID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

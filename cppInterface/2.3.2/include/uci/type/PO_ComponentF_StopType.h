@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_PO_COMPONENTF_STOPTYPE_H
 #define UCI_TYPE_PO_COMPONENTF_STOPTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/FloatAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/PO_ComponentF_StopVariableType.h"
+#include "../base/Accessor.h"
+#include "../base/FloatAccessor.h"
+#include "../base/export.h"
+#include "PO_ComponentF_StopVariableType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

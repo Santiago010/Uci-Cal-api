@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_ORBITCHANGETASKTYPE_H
 #define UCI_TYPE_ORBITCHANGETASKTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/DisposalOrbitType.h"
-#include "uci/type/OrbitChangeChoiceType.h"
-#include "uci/type/OrbitChangeTaskBaseType.h"
+#include "../base/export.h"
+#include "DisposalOrbitType.h"
+#include "OrbitChangeChoiceType.h"
+#include "OrbitChangeTaskBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

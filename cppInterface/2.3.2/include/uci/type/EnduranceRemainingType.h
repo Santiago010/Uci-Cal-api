@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_ENDURANCEREMAININGTYPE_H
 #define UCI_TYPE_ENDURANCEREMAININGTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EnduranceType.h"
-#include "uci/type/EqualityExpressionEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "EnduranceType.h"
+#include "EqualityExpressionEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

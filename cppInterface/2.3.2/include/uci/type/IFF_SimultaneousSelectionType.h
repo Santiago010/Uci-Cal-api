@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_IFF_SIMULTANEOUSSELECTIONTYPE_H
 #define UCI_TYPE_IFF_SIMULTANEOUSSELECTIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/IFF_ModeSelectionType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "IFF_ModeSelectionType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

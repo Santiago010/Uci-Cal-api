@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/PercentType.h"
-#include "asb_uci/type/PowerType.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/AntennaPerformanceProfileType.h"
+#include "../../../include/asb_uci/type/PercentType.h"
+#include "../../../include/asb_uci/type/PowerType.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AntennaPerformanceProfileType.h"
 
 /**  */
 namespace asb_uci {

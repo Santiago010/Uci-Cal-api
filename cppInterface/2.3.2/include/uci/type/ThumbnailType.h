@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_THUMBNAILTYPE_H
 #define UCI_TYPE_THUMBNAILTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/FileNameType.h"
-#include "uci/type/ProductOutputType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "FileNameType.h"
+#include "ProductOutputType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

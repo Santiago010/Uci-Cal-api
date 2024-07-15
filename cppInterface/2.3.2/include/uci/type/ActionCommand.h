@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ACTIONCOMMAND_H
 #define UCI_TYPE_ACTIONCOMMAND_H
 
-#include "uci/type/ActionCommandMT.h"
+#include "ActionCommandMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

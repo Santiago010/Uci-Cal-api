@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/MilliwattPowerRatioType.h"
-#include "asb_xs/type/binaryXmlSchemaPrimitives.h"
-#include "uci/type/SpectralBandType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/MilliwattPowerRatioType.h"
+#include "../../../include/asb_xs/type/binaryXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SpectralBandType.h"
 
 /**  */
 namespace asb_uci {

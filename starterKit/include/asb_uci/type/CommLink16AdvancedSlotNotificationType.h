@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/CommLink16_AdvanceSlotNotificationModeEnum.h"
-#include "asb_uci/type/Link16_SlotSelectionType.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/CommLink16AdvancedSlotNotificationType.h"
+#include "../../../include/asb_uci/type/CommLink16_AdvanceSlotNotificationModeEnum.h"
+#include "../../../include/asb_uci/type/Link16_SlotSelectionType.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommLink16AdvancedSlotNotificationType.h"
 
 /**  */
 namespace asb_uci {

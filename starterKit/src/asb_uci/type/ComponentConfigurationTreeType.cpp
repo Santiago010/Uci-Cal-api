@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ComponentConfigurationTreeType.h"
+#include "../../../include/asb_uci/type/ComponentConfigurationTreeType.h"
 
 #include <memory>
 #include <string>
@@ -41,13 +41,13 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ComponentConfigurationChoiceType.h"
-#include "asb_uci/type/ComponentConfigurationPET.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ComponentConfigurationChoiceType.h"
-#include "uci/type/ComponentConfigurationTreeType.h"
+#include "../../../include/asb_uci/type/ComponentConfigurationChoiceType.h"
+#include "../../../include/asb_uci/type/ComponentConfigurationPET.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ComponentConfigurationChoiceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ComponentConfigurationTreeType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_SAR_COMMANDSTATUSMT_H
 #define UCI_TYPE_SAR_COMMANDSTATUSMT_H
 
-#include "uci/base/Listener.h"
-#include "uci/base/Reader.h"
-#include "uci/base/Writer.h"
-#include "uci/base/export.h"
-#include "uci/type/MessageType.h"
-#include "uci/type/SAR_CommandStatusMDT.h"
+#include "../base/Listener.h"
+#include "../base/Reader.h"
+#include "../base/Writer.h"
+#include "../base/export.h"
+#include "MessageType.h"
+#include "SAR_CommandStatusMDT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

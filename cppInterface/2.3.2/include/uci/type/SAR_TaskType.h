@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_SAR_TASKTYPE_H
 #define UCI_TYPE_SAR_TASKTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/SAR_TaskBaseType.h"
-#include "uci/type/SAR_TaskTargetType.h"
+#include "../base/export.h"
+#include "SAR_TaskBaseType.h"
+#include "SAR_TaskTargetType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_THREATASSESSMENTMETRICSTYPE_H
 #define UCI_TYPE_THREATASSESSMENTMETRICSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DetectionEnvelopeType.h"
-#include "uci/type/ThreatAssessmentProbabilityType.h"
-#include "uci/type/ThreatZoneType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DetectionEnvelopeType.h"
+#include "ThreatAssessmentProbabilityType.h"
+#include "ThreatZoneType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

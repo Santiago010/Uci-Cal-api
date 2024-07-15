@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_RESPONSEPLANVALIDATION_H
 #define UCI_TYPE_RESPONSEPLANVALIDATION_H
 
-#include "uci/type/ResponsePlanValidationMT.h"
+#include "ResponsePlanValidationMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

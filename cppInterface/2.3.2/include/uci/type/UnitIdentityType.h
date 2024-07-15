@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_UNITIDENTITYTYPE_H
 #define UCI_TYPE_UNITIDENTITYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/NameSpecialCharacterRestrictionType.h"
-#include "uci/type/OrderOfBattleEnum.h"
-#include "uci/type/String20Type.h"
-#include "uci/type/UnitID_Type.h"
-#include "uci/type/UnitIdentifierType.h"
-#include "uci/type/UnitNameType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "NameSpecialCharacterRestrictionType.h"
+#include "OrderOfBattleEnum.h"
+#include "String20Type.h"
+#include "UnitID_Type.h"
+#include "UnitIdentifierType.h"
+#include "UnitNameType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

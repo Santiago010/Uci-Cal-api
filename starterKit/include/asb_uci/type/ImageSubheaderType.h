@@ -41,12 +41,12 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AlphanumericDashSpaceUnderscoreString11OnlyType.h"
-#include "asb_uci/type/AlphanumericDashSpaceUnderscoreString17OnlyType.h"
-#include "asb_uci/type/AlphanumericDashSpaceUnderscoreString21OnlyType.h"
-#include "asb_uci/type/AlphanumericDashSpaceUnderscoreString3OnlyType.h"
-#include "asb_uci/type/AlphanumericDashSpaceUnderscoreString9OnlyType.h"
-#include "uci/type/ImageSubheaderType.h"
+#include "../../../include/asb_uci/type/AlphanumericDashSpaceUnderscoreString11OnlyType.h"
+#include "../../../include/asb_uci/type/AlphanumericDashSpaceUnderscoreString17OnlyType.h"
+#include "../../../include/asb_uci/type/AlphanumericDashSpaceUnderscoreString21OnlyType.h"
+#include "../../../include/asb_uci/type/AlphanumericDashSpaceUnderscoreString3OnlyType.h"
+#include "../../../include/asb_uci/type/AlphanumericDashSpaceUnderscoreString9OnlyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ImageSubheaderType.h"
 
 /**  */
 namespace asb_uci {

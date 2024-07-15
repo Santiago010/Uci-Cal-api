@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_WEATHERRADARCELLTYPE_H
 #define UCI_TYPE_WEATHERRADARCELLTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/DoubleAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/WeatherAreaDataType.h"
-#include "uci/type/WeatherRadarCellLocationType.h"
-#include "uci/type/WeatherWarningEnum.h"
+#include "../base/Accessor.h"
+#include "../base/DoubleAccessor.h"
+#include "../base/export.h"
+#include "WeatherAreaDataType.h"
+#include "WeatherRadarCellLocationType.h"
+#include "WeatherWarningEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

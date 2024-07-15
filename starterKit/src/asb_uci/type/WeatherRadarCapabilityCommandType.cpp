@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/WeatherRadarCapabilityCommandType.h"
+#include "../../../include/asb_uci/type/WeatherRadarCapabilityCommandType.h"
 
 #include <memory>
 #include <string>
@@ -41,26 +41,26 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AirVolumeSensorReferencedType.h"
-#include "asb_uci/type/CapabilityCommandBaseType.h"
-#include "asb_uci/type/CapabilityCommandFrequencyType.h"
-#include "asb_uci/type/CollectionPolicyEnum.h"
-#include "asb_uci/type/ElectronicProtectionOptionsEnableType.h"
-#include "asb_uci/type/EmconConstraintType.h"
-#include "asb_uci/type/ProductOutputCommandBasicType.h"
-#include "asb_uci/type/RepetitionType.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AirVolumeSensorReferencedType.h"
-#include "uci/type/CapabilityCommandFrequencyType.h"
-#include "uci/type/CollectionPolicyEnum.h"
-#include "uci/type/ElectronicProtectionOptionsEnableType.h"
-#include "uci/type/EmconConstraintType.h"
-#include "uci/type/ProductOutputCommandBasicType.h"
-#include "uci/type/RepetitionType.h"
-#include "uci/type/WeatherRadarCapabilityCommandType.h"
+#include "../../../include/asb_uci/type/AirVolumeSensorReferencedType.h"
+#include "../../../include/asb_uci/type/CapabilityCommandBaseType.h"
+#include "../../../include/asb_uci/type/CapabilityCommandFrequencyType.h"
+#include "../../../include/asb_uci/type/CollectionPolicyEnum.h"
+#include "../../../include/asb_uci/type/ElectronicProtectionOptionsEnableType.h"
+#include "../../../include/asb_uci/type/EmconConstraintType.h"
+#include "../../../include/asb_uci/type/ProductOutputCommandBasicType.h"
+#include "../../../include/asb_uci/type/RepetitionType.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AirVolumeSensorReferencedType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityCommandFrequencyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CollectionPolicyEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ElectronicProtectionOptionsEnableType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EmconConstraintType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProductOutputCommandBasicType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RepetitionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/WeatherRadarCapabilityCommandType.h"
 
 /**  */
 namespace asb_uci {

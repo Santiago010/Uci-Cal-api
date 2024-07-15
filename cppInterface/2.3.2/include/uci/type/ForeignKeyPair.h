@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_FOREIGNKEYPAIR_H
 #define UCI_TYPE_FOREIGNKEYPAIR_H
 
-#include "uci/type/ForeignKeyPairMT.h"
+#include "ForeignKeyPairMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

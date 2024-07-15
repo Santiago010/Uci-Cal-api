@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_DATARECORDMANAGEMENTREQUEST_H
 #define UCI_TYPE_DATARECORDMANAGEMENTREQUEST_H
 
-#include "uci/type/DataRecordManagementRequestMT.h"
+#include "DataRecordManagementRequestMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

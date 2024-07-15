@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_WEATHERRADARCAPABILITYCOMMANDTYPE_H
 #define UCI_TYPE_WEATHERRADARCAPABILITYCOMMANDTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AirVolumeSensorReferencedType.h"
-#include "uci/type/CapabilityCommandBaseType.h"
-#include "uci/type/CapabilityCommandFrequencyType.h"
-#include "uci/type/CollectionPolicyEnum.h"
-#include "uci/type/ElectronicProtectionOptionsEnableType.h"
-#include "uci/type/EmconConstraintType.h"
-#include "uci/type/ProductOutputCommandBasicType.h"
-#include "uci/type/RepetitionType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AirVolumeSensorReferencedType.h"
+#include "CapabilityCommandBaseType.h"
+#include "CapabilityCommandFrequencyType.h"
+#include "CollectionPolicyEnum.h"
+#include "ElectronicProtectionOptionsEnableType.h"
+#include "EmconConstraintType.h"
+#include "ProductOutputCommandBasicType.h"
+#include "RepetitionType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ProductClassificationStatusType.h"
+#include "../../../include/asb_uci/type/ProductClassificationStatusType.h"
 
 #include <memory>
 #include <string>
@@ -41,18 +41,18 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/InputProductType.h"
-#include "asb_uci/type/ProcessingStatusEnum.h"
-#include "asb_uci/type/VisibleString256Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/InputProductType.h"
-#include "uci/type/PercentType.h"
-#include "uci/type/ProcessingStatusEnum.h"
-#include "uci/type/ProductClassificationStatusType.h"
-#include "uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/type/InputProductType.h"
+#include "../../../include/asb_uci/type/ProcessingStatusEnum.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DateTimeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/InputProductType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PercentType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProcessingStatusEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProductClassificationStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString256Type.h"
 
 /**  */
 namespace asb_uci {
@@ -172,7 +172,7 @@ bool ProductClassificationStatusType::hasStatusDetails() const noexcept {
 
 uci::type::VisibleString256Type& ProductClassificationStatusType::enableStatusDetails(uci::base::accessorType::AccessorType type) {
   if (!statusDetails_Accessor) {
-    statusDetails_Accessor = VisibleString256Type::create(type);
+    statusDetails_Accessor = boost::make_unique<std::string>("");
   }
   return *statusDetails_Accessor;
 }

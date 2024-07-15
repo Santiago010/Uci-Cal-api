@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_PO_COMPONENTSETTINGSFOCALPLANEARRAYPIXELSCALINGTYPE_H
 #define UCI_TYPE_PO_COMPONENTSETTINGSFOCALPLANEARRAYPIXELSCALINGTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ComponentControlsB_Type.h"
-#include "uci/type/PO_ComponentSettingsFocalPlaneArrayPixelScalingSettingsType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ComponentControlsB_Type.h"
+#include "PO_ComponentSettingsFocalPlaneArrayPixelScalingSettingsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

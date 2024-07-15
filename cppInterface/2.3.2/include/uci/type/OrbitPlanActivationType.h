@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_ORBITPLANACTIVATIONTYPE_H
 #define UCI_TYPE_ORBITPLANACTIVATIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ActivationOrbitSequenceType.h"
-#include "uci/type/OrbitPlanID_Type.h"
-#include "uci/type/PlanActivationCommandEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ActivationOrbitSequenceType.h"
+#include "OrbitPlanID_Type.h"
+#include "PlanActivationCommandEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

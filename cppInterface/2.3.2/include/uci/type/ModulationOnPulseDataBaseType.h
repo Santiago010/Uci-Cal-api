@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_MODULATIONONPULSEDATABASETYPE_H
 #define UCI_TYPE_MODULATIONONPULSEDATABASETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/FMOP_Enum.h"
-#include "uci/type/ModulationEnum.h"
-#include "uci/type/PMOP_Enum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "FMOP_Enum.h"
+#include "ModulationEnum.h"
+#include "PMOP_Enum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_COMMALLOCATIONACTIONTYPE_H
 #define UCI_TYPE_COMMALLOCATIONACTIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CommAllocationTransitionEnum.h"
-#include "uci/type/CommScheduleAllocationID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CommAllocationTransitionEnum.h"
+#include "CommScheduleAllocationID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

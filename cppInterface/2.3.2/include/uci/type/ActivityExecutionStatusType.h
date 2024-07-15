@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_ACTIVITYEXECUTIONSTATUSTYPE_H
 #define UCI_TYPE_ACTIVITYEXECUTIONSTATUSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ActivityExecutionStatusEnum.h"
-#include "uci/type/ActivityID_Type.h"
-#include "uci/type/PlannedActivityID_Type.h"
-#include "uci/type/TransitionStatusType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ActivityExecutionStatusEnum.h"
+#include "ActivityID_Type.h"
+#include "PlannedActivityID_Type.h"
+#include "TransitionStatusType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

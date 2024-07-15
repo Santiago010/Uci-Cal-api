@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_DATAPLANOVERRIDEREQUESTSTATUSMDT_H
 #define UCI_TYPE_DATAPLANOVERRIDEREQUESTSTATUSMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DataPlanEffectivityActivationStatusType.h"
-#include "uci/type/OperatorGatewayDesignationStatusType.h"
-#include "uci/type/RequestStatusBaseType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DataPlanEffectivityActivationStatusType.h"
+#include "OperatorGatewayDesignationStatusType.h"
+#include "RequestStatusBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

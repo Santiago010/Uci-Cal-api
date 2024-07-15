@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_PO_SLANTRANGECONSTRAINTCONTROLSTYPE_H
 #define UCI_TYPE_PO_SLANTRANGECONSTRAINTCONTROLSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DistanceConstraintsType.h"
-#include "uci/type/PO_ConstraintControlsType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DistanceConstraintsType.h"
+#include "PO_ConstraintControlsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

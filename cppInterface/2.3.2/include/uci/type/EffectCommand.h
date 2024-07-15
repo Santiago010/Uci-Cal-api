@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_EFFECTCOMMAND_H
 #define UCI_TYPE_EFFECTCOMMAND_H
 
-#include "uci/type/EffectCommandMT.h"
+#include "EffectCommandMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

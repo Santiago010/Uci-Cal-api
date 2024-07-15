@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_GATEWAYCAPABILITYCOMMANDTYPE_H
 #define UCI_TYPE_GATEWAYCAPABILITYCOMMANDTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityCommandBaseType.h"
-#include "uci/type/CommConnectionCommandEnum.h"
-#include "uci/type/CommProfileID_Type.h"
-#include "uci/type/GatewayConfigurationType.h"
-#include "uci/type/GatewayControlType.h"
-#include "uci/type/VerboseStatusType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilityCommandBaseType.h"
+#include "CommConnectionCommandEnum.h"
+#include "CommProfileID_Type.h"
+#include "GatewayConfigurationType.h"
+#include "GatewayControlType.h"
+#include "VerboseStatusType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

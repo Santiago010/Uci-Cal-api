@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/DateTimeType.h"
-#include "asb_uci/type/DistanceType.h"
-#include "uci/type/LAR_AnalysisType.h"
+#include "../../../include/asb_uci/type/DateTimeType.h"
+#include "../../../include/asb_uci/type/DistanceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/LAR_AnalysisType.h"
 
 /**  */
 namespace asb_uci {

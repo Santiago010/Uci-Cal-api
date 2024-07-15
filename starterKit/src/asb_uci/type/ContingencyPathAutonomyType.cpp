@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ContingencyPathAutonomyType.h"
+#include "../../../include/asb_uci/type/ContingencyPathAutonomyType.h"
 
 #include <memory>
 #include <string>
@@ -41,15 +41,15 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ContingencyPathSpacingType.h"
-#include "asb_uci/type/PathTypeEnum.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ContingencyPathAutonomyType.h"
-#include "uci/type/ContingencyPathSpacingType.h"
-#include "uci/type/PathTypeEnum.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/ContingencyPathSpacingType.h"
+#include "../../../include/asb_uci/type/PathTypeEnum.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ContingencyPathAutonomyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ContingencyPathSpacingType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PathTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

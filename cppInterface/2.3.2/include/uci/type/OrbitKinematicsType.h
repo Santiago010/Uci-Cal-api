@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_ORBITKINEMATICSTYPE_H
 #define UCI_TYPE_ORBITKINEMATICSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/OrbitalEphemerisChoiceType.h"
-#include "uci/type/OrbitalKinematicsChoiceType.h"
-#include "uci/type/OrbitalVCM_Type.h"
-#include "uci/type/TLE_BaseType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "OrbitalEphemerisChoiceType.h"
+#include "OrbitalKinematicsChoiceType.h"
+#include "OrbitalVCM_Type.h"
+#include "TLE_BaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

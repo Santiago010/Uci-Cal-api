@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_SOB_C2_RECORDMDT_H
 #define UCI_TYPE_SOB_C2_RECORDMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/DataRecordBaseType.h"
-#include "uci/type/SOB_C2_RecordType.h"
+#include "../base/export.h"
+#include "DataRecordBaseType.h"
+#include "SOB_C2_RecordType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

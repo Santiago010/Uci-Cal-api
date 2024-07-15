@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_AO_SETTINGSCOMMANDSTATUS_H
 #define UCI_TYPE_AO_SETTINGSCOMMANDSTATUS_H
 
-#include "uci/type/AO_SettingsCommandStatusMT.h"
+#include "AO_SettingsCommandStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

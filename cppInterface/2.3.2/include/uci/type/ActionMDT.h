@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_ACTIONMDT_H
 #define UCI_TYPE_ACTIONMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ActionID_Type.h"
-#include "uci/type/ActionTypeEnum.h"
-#include "uci/type/IdentityKindInstanceType.h"
-#include "uci/type/RequirementConstraintsType.h"
-#include "uci/type/RequirementGuidanceType.h"
-#include "uci/type/RequirementMetadataType.h"
-#include "uci/type/RequirementTargetConstraintsType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ActionID_Type.h"
+#include "ActionTypeEnum.h"
+#include "IdentityKindInstanceType.h"
+#include "RequirementConstraintsType.h"
+#include "RequirementGuidanceType.h"
+#include "RequirementMetadataType.h"
+#include "RequirementTargetConstraintsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

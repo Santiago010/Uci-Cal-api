@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_ACTIVITYMETRICSMDT_H
 #define UCI_TYPE_ACTIVITYMETRICSMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ActivityMetricsID_Type.h"
-#include "uci/type/ActivityMetricsType.h"
-#include "uci/type/ActivityPlanID_Type.h"
-#include "uci/type/ActivityPlanPartsEnum.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ActivityMetricsID_Type.h"
+#include "ActivityMetricsType.h"
+#include "ActivityPlanID_Type.h"
+#include "ActivityPlanPartsEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

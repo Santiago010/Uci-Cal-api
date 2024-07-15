@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_PLANNEDCONTROLINTERFACESTATETYPE_H
 #define UCI_TYPE_PLANNEDCONTROLINTERFACESTATETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ControlInterfaceEnum.h"
-#include "uci/type/InterfaceStateEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ControlInterfaceEnum.h"
+#include "InterfaceStateEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

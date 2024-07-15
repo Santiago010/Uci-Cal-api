@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_REQUIREMENTPRODUCTMETADATATYPE_H
 #define UCI_TYPE_REQUIREMENTPRODUCTMETADATATYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/RequirementInstanceID_ChoiceType.h"
-#include "uci/type/VisibleString256Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CapabilityID_Type.h"
+#include "RequirementInstanceID_ChoiceType.h"
+#include "VisibleString256Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

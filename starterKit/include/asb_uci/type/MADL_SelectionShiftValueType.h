@@ -36,8 +36,8 @@
 #ifndef ASB_UCI_TYPE_MADL_SELECTIONSHIFTVALUETYPE_H
 #define ASB_UCI_TYPE_MADL_SELECTIONSHIFTVALUETYPE_H
 
-#include "asb_uci/base/ByteAccessor.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/base/ByteAccessor.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

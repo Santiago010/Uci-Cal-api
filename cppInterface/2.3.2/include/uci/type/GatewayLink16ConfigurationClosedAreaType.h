@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_GATEWAYLINK16CONFIGURATIONCLOSEDAREATYPE_H
 #define UCI_TYPE_GATEWAYLINK16CONFIGURATIONCLOSEDAREATYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/GatewayLink16ConfigurationMotionType.h"
-#include "uci/type/GatewayLink16ConfigurationSideEnum.h"
-#include "uci/type/Point2D_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "GatewayLink16ConfigurationMotionType.h"
+#include "GatewayLink16ConfigurationSideEnum.h"
+#include "Point2D_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

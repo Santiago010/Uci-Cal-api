@@ -41,11 +41,11 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/ControlRequestEnum.h"
-#include "asb_uci/type/ControlTypeEnum.h"
-#include "asb_uci/type/RequestBaseType.h"
-#include "uci/type/ControlRequestMDT.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/ControlRequestEnum.h"
+#include "../../../include/asb_uci/type/ControlTypeEnum.h"
+#include "../../../include/asb_uci/type/RequestBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ControlRequestMDT.h"
 
 /**  */
 namespace asb_uci {

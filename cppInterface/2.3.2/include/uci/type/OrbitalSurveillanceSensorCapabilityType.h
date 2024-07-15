@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_ORBITALSURVEILLANCESENSORCAPABILITYTYPE_H
 #define UCI_TYPE_ORBITALSURVEILLANCESENSORCAPABILITYTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CharacterizationTypeEnum.h"
-#include "uci/type/CommandableCapabilityDeclarationType.h"
-#include "uci/type/OrbitalSurveillanceSensorCapabilityEnum.h"
-#include "uci/type/OrbitalSurveillanceSensorMessageOutputsEnum.h"
-#include "uci/type/OrbitalSurveillanceSensorSubCapabilityType.h"
-#include "uci/type/SensorConstraintsBaseType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CharacterizationTypeEnum.h"
+#include "CommandableCapabilityDeclarationType.h"
+#include "OrbitalSurveillanceSensorCapabilityEnum.h"
+#include "OrbitalSurveillanceSensorMessageOutputsEnum.h"
+#include "OrbitalSurveillanceSensorSubCapabilityType.h"
+#include "SensorConstraintsBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

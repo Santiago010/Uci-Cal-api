@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_DESIGNATIONDATATYPE_H
 #define UCI_TYPE_DESIGNATIONDATATYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DesignationEnum.h"
-#include "uci/type/DesignationID_Type.h"
-#include "uci/type/RequirementTaxonomyType.h"
-#include "uci/type/SystemID_Type.h"
-#include "uci/type/TargetType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DesignationEnum.h"
+#include "DesignationID_Type.h"
+#include "RequirementTaxonomyType.h"
+#include "SystemID_Type.h"
+#include "TargetType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

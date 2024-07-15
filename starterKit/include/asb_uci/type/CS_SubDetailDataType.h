@@ -41,7 +41,7 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "uci/type/CS_SubDetailDataType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CS_SubDetailDataType.h"
 
 /**  */
 namespace asb_uci {

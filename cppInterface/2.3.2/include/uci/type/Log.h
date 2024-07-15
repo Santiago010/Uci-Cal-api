@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_LOG_H
 #define UCI_TYPE_LOG_H
 
-#include "uci/type/LogMT.h"
+#include "LogMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

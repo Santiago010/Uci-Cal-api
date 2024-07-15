@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_STRIKECAPABILITYSTATUS_H
 #define UCI_TYPE_STRIKECAPABILITYSTATUS_H
 
-#include "uci/type/StrikeCapabilityStatusMT.h"
+#include "StrikeCapabilityStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

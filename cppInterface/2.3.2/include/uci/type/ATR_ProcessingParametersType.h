@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_ATR_PROCESSINGPARAMETERSTYPE_H
 #define UCI_TYPE_ATR_PROCESSINGPARAMETERSTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/EntityIdentityType.h"
-#include "uci/type/MDF_CommandType.h"
-#include "uci/type/ProcessingParametersPET.h"
-#include "uci/type/ProductOutputType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "EntityIdentityType.h"
+#include "MDF_CommandType.h"
+#include "ProcessingParametersPET.h"
+#include "ProductOutputType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

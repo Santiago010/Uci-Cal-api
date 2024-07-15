@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_COMINT_ACQUISITIONTARGETTYPE_H
 #define UCI_TYPE_COMINT_ACQUISITIONTARGETTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/COMINT_TargetType.h"
-#include "uci/type/ComparableRankingType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "COMINT_TargetType.h"
+#include "ComparableRankingType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

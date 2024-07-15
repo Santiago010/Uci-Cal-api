@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CommDataType.h"
+#include "../../../include/asb_uci/type/CommDataType.h"
 
 #include <memory>
 #include <string>
@@ -41,22 +41,22 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CommCapabilityEnum.h"
-#include "asb_uci/type/CommResourceType.h"
-#include "asb_uci/type/CommSpecificRequestDataEXT.h"
-#include "asb_uci/util/DerivedTypesCopier.h"
-#include "asb_uci/util/DerivedTypesCreator.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/DerivedTypesSerializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CommCapabilityEnum.h"
-#include "uci/type/CommDataType.h"
-#include "uci/type/CommResourceType.h"
-#include "uci/type/CommSpecificRequestDataEXT.h"
-#include "uci/type/DataRateType.h"
-#include "uci/type/FrequencyType.h"
+#include "../../../include/asb_uci/type/CommCapabilityEnum.h"
+#include "../../../include/asb_uci/type/CommResourceType.h"
+#include "../../../include/asb_uci/type/CommSpecificRequestDataEXT.h"
+#include "../../../include/asb_uci/util/DerivedTypesCopier.h"
+#include "../../../include/asb_uci/util/DerivedTypesCreator.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/DerivedTypesSerializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommCapabilityEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommDataType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommResourceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommSpecificRequestDataEXT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DataRateType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FrequencyType.h"
 
 /**  */
 namespace asb_uci {

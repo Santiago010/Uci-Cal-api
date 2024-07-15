@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_EA_CAPABILITYMDT_H
 #define UCI_TYPE_EA_CAPABILITYMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityBaseType.h"
-#include "uci/type/EA_CapabilityType.h"
-#include "uci/type/EA_ComponentType.h"
+#include "../base/BoundedList.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "CapabilityBaseType.h"
+#include "EA_CapabilityType.h"
+#include "EA_ComponentType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

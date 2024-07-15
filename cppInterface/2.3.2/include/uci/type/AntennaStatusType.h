@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_ANTENNASTATUSTYPE_H
 #define UCI_TYPE_ANTENNASTATUSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AntennaPerformanceProfileType.h"
-#include "uci/type/AntennaResourceInstanceStatusType.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/ResourceAllocatorSupportedActivitiesType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AntennaPerformanceProfileType.h"
+#include "AntennaResourceInstanceStatusType.h"
+#include "CapabilityID_Type.h"
+#include "ResourceAllocatorSupportedActivitiesType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

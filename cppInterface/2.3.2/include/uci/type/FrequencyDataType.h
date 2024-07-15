@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_FREQUENCYDATATYPE_H
 #define UCI_TYPE_FREQUENCYDATATYPE_H
 
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/EmptyType.h"
-#include "uci/type/FrequencyAgilityPatternEnum.h"
-#include "uci/type/FrequencyDataBaseType.h"
-#include "uci/type/FrequencyPatternPeriodicityEnum.h"
-#include "uci/type/FrequencySwitchingEnum.h"
-#include "uci/type/FrequencySwitchingPatternEnum.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "DurationType.h"
+#include "EmptyType.h"
+#include "FrequencyAgilityPatternEnum.h"
+#include "FrequencyDataBaseType.h"
+#include "FrequencyPatternPeriodicityEnum.h"
+#include "FrequencySwitchingEnum.h"
+#include "FrequencySwitchingPatternEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

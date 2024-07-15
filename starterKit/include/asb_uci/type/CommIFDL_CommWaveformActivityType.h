@@ -41,13 +41,13 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/CommIFDL_FlightSizeEnum.h"
-#include "asb_uci/type/CommWaveformActivityPET.h"
-#include "asb_uci/type/IFDL_ChannelNumberType.h"
-#include "asb_uci/type/IFDL_WideNetIdentifierType.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/CommIFDL_CommWaveformActivityType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/CommIFDL_FlightSizeEnum.h"
+#include "../../../include/asb_uci/type/CommWaveformActivityPET.h"
+#include "../../../include/asb_uci/type/IFDL_ChannelNumberType.h"
+#include "../../../include/asb_uci/type/IFDL_WideNetIdentifierType.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommIFDL_CommWaveformActivityType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_WEAPONEERINGTARGETTYPE_H
 #define UCI_TYPE_WEAPONEERINGTARGETTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/GeoLocatedObjectType.h"
-#include "uci/type/WeaponeeringType.h"
+#include "../base/export.h"
+#include "GeoLocatedObjectType.h"
+#include "WeaponeeringType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

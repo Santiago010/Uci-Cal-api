@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_COMMLINK16COMMWAVEFORMACTIVITYTYPE_H
 #define UCI_TYPE_COMMLINK16COMMWAVEFORMACTIVITYTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/CommLink16ControlType.h"
-#include "uci/type/CommWaveformActivityPET.h"
-#include "uci/type/Link16_MessageGenerationRateType.h"
-#include "uci/type/Link16_ParticipationGroupIndexType.h"
+#include "../base/export.h"
+#include "CommLink16ControlType.h"
+#include "CommWaveformActivityPET.h"
+#include "Link16_MessageGenerationRateType.h"
+#include "Link16_ParticipationGroupIndexType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

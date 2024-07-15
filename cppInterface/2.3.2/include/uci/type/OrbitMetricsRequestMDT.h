@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_ORBITMETRICSREQUESTMDT_H
 #define UCI_TYPE_ORBITMETRICSREQUESTMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ActivityPlanPartsEnum.h"
-#include "uci/type/OrbitActivityPlanID_Type.h"
-#include "uci/type/OrbitPlanID_Type.h"
-#include "uci/type/OrbitPlanPartsEnum.h"
-#include "uci/type/RequestBaseType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ActivityPlanPartsEnum.h"
+#include "OrbitActivityPlanID_Type.h"
+#include "OrbitPlanID_Type.h"
+#include "OrbitPlanPartsEnum.h"
+#include "RequestBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

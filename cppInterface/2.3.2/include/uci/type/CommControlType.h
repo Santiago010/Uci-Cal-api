@@ -36,18 +36,18 @@
 #ifndef UCI_TYPE_COMMCONTROLTYPE_H
 #define UCI_TYPE_COMMCONTROLTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/UnsignedByteAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CommConnectionType.h"
-#include "uci/type/CommReceiverStateEnum.h"
-#include "uci/type/CommTransmitterStateEnum.h"
-#include "uci/type/ComponentID_Type.h"
-#include "uci/type/DataRateType.h"
-#include "uci/type/MilliwattPowerRatioType.h"
-#include "uci/type/RemoteDestinationType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/UnsignedByteAccessor.h"
+#include "../base/export.h"
+#include "CommConnectionType.h"
+#include "CommReceiverStateEnum.h"
+#include "CommTransmitterStateEnum.h"
+#include "ComponentID_Type.h"
+#include "DataRateType.h"
+#include "MilliwattPowerRatioType.h"
+#include "RemoteDestinationType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

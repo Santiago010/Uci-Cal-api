@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_SPACEOBJECTVISUALDATATYPE_H
 #define UCI_TYPE_SPACEOBJECTVISUALDATATYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/DoubleAccessor.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AngleType.h"
-#include "uci/type/DistanceType.h"
-#include "uci/type/VisualMagnitudeType.h"
+#include "../base/Accessor.h"
+#include "../base/DoubleAccessor.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "AngleType.h"
+#include "DistanceType.h"
+#include "VisualMagnitudeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

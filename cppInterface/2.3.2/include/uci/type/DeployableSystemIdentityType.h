@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_DEPLOYABLESYSTEMIDENTITYTYPE_H
 #define UCI_TYPE_DEPLOYABLESYSTEMIDENTITYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/PlatformIdentityType.h"
-#include "uci/type/SpecificIdentityType.h"
-#include "uci/type/StoreType.h"
-#include "uci/type/VehicleIdentificationType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "PlatformIdentityType.h"
+#include "SpecificIdentityType.h"
+#include "StoreType.h"
+#include "VehicleIdentificationType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/EmitterFunctionType.h"
+#include "../../../include/asb_uci/type/EmitterFunctionType.h"
 
 #include <memory>
 #include <string>
@@ -41,16 +41,16 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ForeignKeyType.h"
-#include "asb_uci/type/VisibleString256Type.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/EmitterFunctionType.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/VisibleString256Type.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/ForeignKeyType.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EmitterFunctionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ForeignKeyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString256Type.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {
@@ -176,7 +176,7 @@ bool EmitterFunctionType::hasCustomEmitterFunctionDescription() const noexcept {
 
 uci::type::VisibleString256Type& EmitterFunctionType::enableCustomEmitterFunctionDescription(uci::base::accessorType::AccessorType type) {
   if (!customEmitterFunctionDescription_Accessor) {
-    customEmitterFunctionDescription_Accessor = VisibleString256Type::create(type);
+    customEmitterFunctionDescription_Accessor = boost::make_unique<std::string>("");
   }
   return *customEmitterFunctionDescription_Accessor;
 }

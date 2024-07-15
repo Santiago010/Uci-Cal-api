@@ -41,15 +41,15 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/DurationType.h"
-#include "asb_uci/type/EmptyType.h"
-#include "asb_uci/type/FrequencyAgilityPatternEnum.h"
-#include "asb_uci/type/FrequencyDataBaseType.h"
-#include "asb_uci/type/FrequencyPatternPeriodicityEnum.h"
-#include "asb_uci/type/FrequencySwitchingEnum.h"
-#include "asb_uci/type/FrequencySwitchingPatternEnum.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/FrequencyDataType.h"
+#include "../../../include/asb_uci/type/DurationType.h"
+#include "../../../include/asb_uci/type/EmptyType.h"
+#include "../../../include/asb_uci/type/FrequencyAgilityPatternEnum.h"
+#include "../../../include/asb_uci/type/FrequencyDataBaseType.h"
+#include "../../../include/asb_uci/type/FrequencyPatternPeriodicityEnum.h"
+#include "../../../include/asb_uci/type/FrequencySwitchingEnum.h"
+#include "../../../include/asb_uci/type/FrequencySwitchingPatternEnum.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FrequencyDataType.h"
 
 /**  */
 namespace asb_uci {

@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/EmptyType.h"
-#include "asb_uci/type/NITF_PackingPlanPET.h"
-#include "uci/type/NITF_PackingPlanType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/EmptyType.h"
+#include "../../../include/asb_uci/type/NITF_PackingPlanPET.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/NITF_PackingPlanType.h"
 
 /**  */
 namespace asb_uci {

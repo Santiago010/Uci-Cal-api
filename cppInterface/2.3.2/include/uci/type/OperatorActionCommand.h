@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_OPERATORACTIONCOMMAND_H
 #define UCI_TYPE_OPERATORACTIONCOMMAND_H
 
-#include "uci/type/OperatorActionCommandMT.h"
+#include "OperatorActionCommandMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

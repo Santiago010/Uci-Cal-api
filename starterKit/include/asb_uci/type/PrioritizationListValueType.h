@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/PrioritizationListEnum.h"
-#include "uci/type/PrioritizationListValueType.h"
+#include "../../../include/asb_uci/type/PrioritizationListEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PrioritizationListValueType.h"
 
 /**  */
 namespace asb_uci {

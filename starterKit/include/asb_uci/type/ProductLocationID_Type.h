@@ -38,8 +38,8 @@
 
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/ID_Type.h"
-#include "uci/type/ProductLocationID_Type.h"
+#include "../../../include/asb_uci/type/ID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProductLocationID_Type.h"
 
 /**  */
 namespace asb_uci {

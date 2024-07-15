@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/RequestBaseType.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/EntityOrbitalVCM_RequestMDT.h"
+#include "../../../include/asb_uci/type/RequestBaseType.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EntityOrbitalVCM_RequestMDT.h"
 
 /**  */
 namespace asb_uci {

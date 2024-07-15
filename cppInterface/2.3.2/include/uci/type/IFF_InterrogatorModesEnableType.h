@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_IFF_INTERROGATORMODESENABLETYPE_H
 #define UCI_TYPE_IFF_INTERROGATORMODESENABLETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/IFF_ActivePassiveEnum.h"
-#include "uci/type/IFF_CivilMilitaryEnum.h"
-#include "uci/type/IFF_LethalNonLethalEnum.h"
-#include "uci/type/IFF_ModeControlType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "IFF_ActivePassiveEnum.h"
+#include "IFF_CivilMilitaryEnum.h"
+#include "IFF_LethalNonLethalEnum.h"
+#include "IFF_ModeControlType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

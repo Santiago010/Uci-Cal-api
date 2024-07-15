@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_STRIKECONSENTREQUEST_H
 #define UCI_TYPE_STRIKECONSENTREQUEST_H
 
-#include "uci/type/StrikeConsentRequestMT.h"
+#include "StrikeConsentRequestMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -41,11 +41,11 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/DataRateType.h"
-#include "asb_uci/type/IO_PortOpenCloseStateEnum.h"
-#include "asb_uci/type/ParityTypeEnum.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/CommPortSettingsType.h"
+#include "../../../include/asb_uci/type/DataRateType.h"
+#include "../../../include/asb_uci/type/IO_PortOpenCloseStateEnum.h"
+#include "../../../include/asb_uci/type/ParityTypeEnum.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommPortSettingsType.h"
 
 /**  */
 namespace asb_uci {

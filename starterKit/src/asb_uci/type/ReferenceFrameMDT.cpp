@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ReferenceFrameMDT.h"
+#include "../../../include/asb_uci/type/ReferenceFrameMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,14 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ReferenceFrameID_Type.h"
-#include "asb_uci/type/ReferenceFrameOriginChoiceType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ReferenceFrameID_Type.h"
-#include "uci/type/ReferenceFrameMDT.h"
-#include "uci/type/ReferenceFrameOriginChoiceType.h"
+#include "../../../include/asb_uci/type/ReferenceFrameID_Type.h"
+#include "../../../include/asb_uci/type/ReferenceFrameOriginChoiceType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ReferenceFrameID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ReferenceFrameMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ReferenceFrameOriginChoiceType.h"
 
 /**  */
 namespace asb_uci {

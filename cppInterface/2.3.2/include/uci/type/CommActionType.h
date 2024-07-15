@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_COMMACTIONTYPE_H
 #define UCI_TYPE_COMMACTIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CommCapabilityType.h"
-#include "uci/type/CommConfigurationID_Type.h"
-#include "uci/type/CommConfigurationStateEnum.h"
-#include "uci/type/SubsystemCommandType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CommCapabilityType.h"
+#include "CommConfigurationID_Type.h"
+#include "CommConfigurationStateEnum.h"
+#include "SubsystemCommandType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

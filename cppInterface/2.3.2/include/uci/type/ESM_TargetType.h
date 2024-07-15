@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_ESM_TARGETTYPE_H
 #define UCI_TYPE_ESM_TARGETTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EmitterIdentityType.h"
-#include "uci/type/EntityID_Type.h"
-#include "uci/type/SignalID_Type.h"
-#include "uci/type/SignalSummaryType.h"
-#include "uci/type/SpecificEmitterIdentityType.h"
+#include "../base/Accessor.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "EmitterIdentityType.h"
+#include "EntityID_Type.h"
+#include "SignalID_Type.h"
+#include "SignalSummaryType.h"
+#include "SpecificEmitterIdentityType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

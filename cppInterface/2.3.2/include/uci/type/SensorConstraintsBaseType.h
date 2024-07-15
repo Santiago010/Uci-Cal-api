@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_SENSORCONSTRAINTSBASETYPE_H
 #define UCI_TYPE_SENSORCONSTRAINTSBASETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/UnsignedShortAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CountryCodeType.h"
-#include "uci/type/EntityBasingEnum.h"
-#include "uci/type/IEEE_FrequencyBandEnum.h"
-#include "uci/type/SensorCategoryEnum.h"
-#include "uci/type/SensorSpectrumEnum.h"
-#include "uci/type/SensorTypeEnum.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/UnsignedShortAccessor.h"
+#include "../base/export.h"
+#include "CountryCodeType.h"
+#include "EntityBasingEnum.h"
+#include "IEEE_FrequencyBandEnum.h"
+#include "SensorCategoryEnum.h"
+#include "SensorSpectrumEnum.h"
+#include "SensorTypeEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

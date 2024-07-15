@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ProductProcessingStatusType.h"
+#include "../../../include/asb_uci/type/ProductProcessingStatusType.h"
 
 #include <memory>
 #include <string>
@@ -41,26 +41,26 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CannotComplyType.h"
-#include "asb_uci/type/InputProductType.h"
-#include "asb_uci/type/ProcessingResultsPET.h"
-#include "asb_uci/type/ProcessingTypeEnum.h"
-#include "asb_uci/type/ProductMetadataID_Type.h"
-#include "asb_uci/type/RequestProcessingStateEnum.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CannotComplyType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/InputProductType.h"
-#include "uci/type/PercentType.h"
-#include "uci/type/ProcessingResultsPET.h"
-#include "uci/type/ProcessingTypeEnum.h"
-#include "uci/type/ProductMetadataID_Type.h"
-#include "uci/type/ProductProcessingStatusType.h"
-#include "uci/type/RequestProcessingStateEnum.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/CannotComplyType.h"
+#include "../../../include/asb_uci/type/InputProductType.h"
+#include "../../../include/asb_uci/type/ProcessingResultsPET.h"
+#include "../../../include/asb_uci/type/ProcessingTypeEnum.h"
+#include "../../../include/asb_uci/type/ProductMetadataID_Type.h"
+#include "../../../include/asb_uci/type/RequestProcessingStateEnum.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CannotComplyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DateTimeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/InputProductType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PercentType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProcessingResultsPET.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProcessingTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProductMetadataID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProductProcessingStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RequestProcessingStateEnum.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

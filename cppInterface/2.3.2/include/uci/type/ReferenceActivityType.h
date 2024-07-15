@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_REFERENCEACTIVITYTYPE_H
 #define UCI_TYPE_REFERENCEACTIVITYTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ActivityBaseType.h"
-#include "uci/type/AssetType.h"
-#include "uci/type/TargetType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ActivityBaseType.h"
+#include "AssetType.h"
+#include "TargetType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

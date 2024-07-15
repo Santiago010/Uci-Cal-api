@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_EW_CONFIGURATIONMT_H
 #define UCI_TYPE_EW_CONFIGURATIONMT_H
 
-#include "uci/base/Listener.h"
-#include "uci/base/Reader.h"
-#include "uci/base/Writer.h"
-#include "uci/base/export.h"
-#include "uci/type/EW_ConfigurationMDT.h"
-#include "uci/type/MessageType.h"
-#include "uci/type/ObjectStateEnum.h"
+#include "../base/Listener.h"
+#include "../base/Reader.h"
+#include "../base/Writer.h"
+#include "../base/export.h"
+#include "EW_ConfigurationMDT.h"
+#include "MessageType.h"
+#include "ObjectStateEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

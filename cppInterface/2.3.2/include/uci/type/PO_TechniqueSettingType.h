@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_PO_TECHNIQUESETTINGTYPE_H
 #define UCI_TYPE_PO_TECHNIQUESETTINGTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/FloatAccessor.h"
-#include "uci/base/UnsignedByteAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/PO_TechniqueEnum.h"
+#include "../base/Accessor.h"
+#include "../base/FloatAccessor.h"
+#include "../base/UnsignedByteAccessor.h"
+#include "../base/export.h"
+#include "PO_TechniqueEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

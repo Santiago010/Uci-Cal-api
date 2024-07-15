@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ORBITACTIVITYPLANCOMMAND_H
 #define UCI_TYPE_ORBITACTIVITYPLANCOMMAND_H
 
-#include "uci/type/OrbitActivityPlanCommandMT.h"
+#include "OrbitActivityPlanCommandMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

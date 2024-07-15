@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/QueryMatchType.h"
+#include "../../../include/asb_uci/type/QueryMatchType.h"
 
 #include <memory>
 #include <string>
@@ -41,15 +41,15 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/QueryPET.h"
-#include "asb_uci/type/QueryStepType.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/QueryMatchType.h"
-#include "uci/type/QueryPET.h"
-#include "uci/type/QueryStepType.h"
+#include "../../../include/asb_uci/type/QueryPET.h"
+#include "../../../include/asb_uci/type/QueryStepType.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/QueryMatchType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/QueryPET.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/QueryStepType.h"
 
 /**  */
 namespace asb_uci {

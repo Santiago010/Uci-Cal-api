@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/EOB_SiteIdentityType.h"
+#include "../../../include/asb_uci/type/EOB_SiteIdentityType.h"
 
 #include <memory>
 #include <string>
@@ -41,17 +41,17 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AlphanumericString6Type.h"
-#include "asb_uci/type/BasicEncyclopediaNumberType.h"
-#include "asb_uci/type/EOB_IdentityBaseType.h"
-#include "asb_uci/type/EOB_O_SuffixType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AlphanumericString6Type.h"
-#include "uci/type/BasicEncyclopediaNumberType.h"
-#include "uci/type/EOB_O_SuffixType.h"
-#include "uci/type/EOB_SiteIdentityType.h"
+#include "../../../include/asb_uci/type/AlphanumericString6Type.h"
+#include "../../../include/asb_uci/type/BasicEncyclopediaNumberType.h"
+#include "../../../include/asb_uci/type/EOB_IdentityBaseType.h"
+#include "../../../include/asb_uci/type/EOB_O_SuffixType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AlphanumericString6Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/BasicEncyclopediaNumberType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EOB_O_SuffixType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EOB_SiteIdentityType.h"
 
 /**  */
 namespace asb_uci {

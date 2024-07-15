@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_EPHEMERISPROPAGATORCHOICETYPE_H
 #define UCI_TYPE_EPHEMERISPROPAGATORCHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EphemerisOrbitalModelType.h"
-#include "uci/type/PropagatorSettingsChoiceType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "EphemerisOrbitalModelType.h"
+#include "PropagatorSettingsChoiceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

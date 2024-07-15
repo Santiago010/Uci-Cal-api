@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_LAR_REPORTMDT_H
 #define UCI_TYPE_LAR_REPORTMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/LAR_AnalysisType.h"
-#include "uci/type/LAR_ID_Type.h"
-#include "uci/type/LAR_ReleaseConditionsType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "LAR_AnalysisType.h"
+#include "LAR_ID_Type.h"
+#include "LAR_ReleaseConditionsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

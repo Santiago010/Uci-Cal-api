@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_AA_CODETYPE_H
 #define UCI_TYPE_AA_CODETYPE_H
 
-#include "xs/type/binaryXmlSchemaPrimitives.h"
+#include "../../xs/type/binaryXmlSchemaPrimitives.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/AirfieldStoresEnum.h"
-#include "asb_uci/type/AirfieldStoresPET.h"
-#include "uci/type/AirfieldGeneralStoreType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/AirfieldStoresEnum.h"
+#include "../../../include/asb_uci/type/AirfieldStoresPET.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AirfieldGeneralStoreType.h"
 
 /**  */
 namespace asb_uci {

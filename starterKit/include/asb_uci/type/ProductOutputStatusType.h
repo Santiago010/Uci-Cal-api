@@ -38,8 +38,8 @@
 
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/ProductOutputCapabilityStatusImageryType.h"
-#include "uci/type/ProductOutputStatusType.h"
+#include "../../../include/asb_uci/type/ProductOutputCapabilityStatusImageryType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProductOutputStatusType.h"
 
 /**  */
 namespace asb_uci {

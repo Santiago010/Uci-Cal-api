@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_COMMRELAYCAPABILITYCOMMANDTYPE_H
 #define UCI_TYPE_COMMRELAYCAPABILITYCOMMANDTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AssetType.h"
-#include "uci/type/CapabilityCommandBaseType.h"
-#include "uci/type/FrequencySetType.h"
-#include "uci/type/RepetitionType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AssetType.h"
+#include "CapabilityCommandBaseType.h"
+#include "FrequencySetType.h"
+#include "RepetitionType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

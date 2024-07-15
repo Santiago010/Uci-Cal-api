@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/SatelliteCharacteristicsMDT.h"
+#include "../../../include/asb_uci/type/SatelliteCharacteristicsMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,19 +41,19 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/DataRecordBaseType.h"
-#include "asb_uci/type/SatelliteCharacteristicsID_Type.h"
-#include "asb_uci/type/SatelliteCharacteristicsType.h"
-#include "asb_uci/type/SatelliteEnduranceType.h"
-#include "asb_uci/type/SatelliteIdentityType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/SatelliteCharacteristicsID_Type.h"
-#include "uci/type/SatelliteCharacteristicsMDT.h"
-#include "uci/type/SatelliteCharacteristicsType.h"
-#include "uci/type/SatelliteEnduranceType.h"
-#include "uci/type/SatelliteIdentityType.h"
+#include "../../../include/asb_uci/type/DataRecordBaseType.h"
+#include "../../../include/asb_uci/type/SatelliteCharacteristicsID_Type.h"
+#include "../../../include/asb_uci/type/SatelliteCharacteristicsType.h"
+#include "../../../include/asb_uci/type/SatelliteEnduranceType.h"
+#include "../../../include/asb_uci/type/SatelliteIdentityType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SatelliteCharacteristicsID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SatelliteCharacteristicsMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SatelliteCharacteristicsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SatelliteEnduranceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SatelliteIdentityType.h"
 
 /**  */
 namespace asb_uci {

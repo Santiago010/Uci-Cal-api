@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_PIXELOUTPUTDATATYPE_H
 #define UCI_TYPE_PIXELOUTPUTDATATYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DMPI_ID_Type.h"
-#include "uci/type/OpPointID_Type.h"
-#include "uci/type/PixelDataType.h"
-#include "uci/type/Point2D_Type.h"
-#include "uci/type/PositionPositionCovarianceType.h"
-#include "uci/type/UncertaintyType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "DMPI_ID_Type.h"
+#include "OpPointID_Type.h"
+#include "PixelDataType.h"
+#include "Point2D_Type.h"
+#include "PositionPositionCovarianceType.h"
+#include "UncertaintyType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

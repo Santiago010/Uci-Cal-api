@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_ACFTB_TYPE_H
 #define UCI_TYPE_ACFTB_TYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AlphanumericSpaceString11OnlyType.h"
-#include "uci/type/AlphanumericSpaceString7OnlyType.h"
-#include "uci/type/NumericSpaceString13OnlyType.h"
-#include "uci/type/NumericSpaceString2OnlyType.h"
-#include "uci/type/NumericSpaceString6OnlyType.h"
-#include "uci/type/NumericSpaceString7OnlyType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AlphanumericSpaceString11OnlyType.h"
+#include "AlphanumericSpaceString7OnlyType.h"
+#include "NumericSpaceString13OnlyType.h"
+#include "NumericSpaceString2OnlyType.h"
+#include "NumericSpaceString6OnlyType.h"
+#include "NumericSpaceString7OnlyType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

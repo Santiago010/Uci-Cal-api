@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_REQUIREMENTOPTIONSCOMMANDSTATUS_H
 #define UCI_TYPE_REQUIREMENTOPTIONSCOMMANDSTATUS_H
 
-#include "uci/type/RequirementOptionsCommandStatusMT.h"
+#include "RequirementOptionsCommandStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_PLANNINGFUNCTIONSETTINGSCOMMAND_H
 #define UCI_TYPE_PLANNINGFUNCTIONSETTINGSCOMMAND_H
 
-#include "uci/type/PlanningFunctionSettingsCommandMT.h"
+#include "PlanningFunctionSettingsCommandMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

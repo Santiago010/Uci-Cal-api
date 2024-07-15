@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/SignalParametricsType.h"
+#include "../../../include/asb_uci/type/SignalParametricsType.h"
 
 #include <memory>
 #include <string>
@@ -41,32 +41,32 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/FrequencyDataType.h"
-#include "asb_uci/type/FrequencyModulationVariationEnum.h"
-#include "asb_uci/type/LongBaselineInterferometerInfoType.h"
-#include "asb_uci/type/ModulationOnPulseDataType.h"
-#include "asb_uci/type/PRI_PW_Type.h"
-#include "asb_uci/type/PolarizationType.h"
-#include "asb_uci/type/ScanDataType.h"
-#include "asb_uci/type/SignalAmplitudeType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AnglePositiveType.h"
-#include "uci/type/DecibelType.h"
-#include "uci/type/DoubleNonNegativeType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/FrequencyDataType.h"
-#include "uci/type/FrequencyModulationVariationEnum.h"
-#include "uci/type/FrequencyType.h"
-#include "uci/type/LongBaselineInterferometerInfoType.h"
-#include "uci/type/ModulationOnPulseDataType.h"
-#include "uci/type/PRI_PW_Type.h"
-#include "uci/type/PolarizationType.h"
-#include "uci/type/ScanDataType.h"
-#include "uci/type/SignalAmplitudeType.h"
-#include "uci/type/SignalParametricsType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/FrequencyDataType.h"
+#include "../../../include/asb_uci/type/FrequencyModulationVariationEnum.h"
+#include "../../../include/asb_uci/type/LongBaselineInterferometerInfoType.h"
+#include "../../../include/asb_uci/type/ModulationOnPulseDataType.h"
+#include "../../../include/asb_uci/type/PRI_PW_Type.h"
+#include "../../../include/asb_uci/type/PolarizationType.h"
+#include "../../../include/asb_uci/type/ScanDataType.h"
+#include "../../../include/asb_uci/type/SignalAmplitudeType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AnglePositiveType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DecibelType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DoubleNonNegativeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DurationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FrequencyDataType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FrequencyModulationVariationEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FrequencyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/LongBaselineInterferometerInfoType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ModulationOnPulseDataType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PRI_PW_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PolarizationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ScanDataType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SignalAmplitudeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SignalParametricsType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

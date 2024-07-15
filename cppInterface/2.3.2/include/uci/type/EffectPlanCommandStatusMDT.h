@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_EFFECTPLANCOMMANDSTATUSMDT_H
 #define UCI_TYPE_EFFECTPLANCOMMANDSTATUSMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/EffectPlanCommandID_Type.h"
-#include "uci/type/EffectPlanID_Type.h"
-#include "uci/type/EffectPlanningResultType.h"
-#include "uci/type/PlanCommandStatusType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "EffectPlanCommandID_Type.h"
+#include "EffectPlanID_Type.h"
+#include "EffectPlanningResultType.h"
+#include "PlanCommandStatusType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

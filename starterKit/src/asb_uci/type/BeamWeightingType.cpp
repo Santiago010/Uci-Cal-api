@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/BeamWeightingType.h"
+#include "../../../include/asb_uci/type/BeamWeightingType.h"
 
 #include <memory>
 #include <string>
@@ -41,13 +41,13 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/BeamWeightingEnum.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/BeamWeightingEnum.h"
-#include "uci/type/BeamWeightingType.h"
-#include "uci/type/DecibelType.h"
+#include "../../../include/asb_uci/type/BeamWeightingEnum.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/BeamWeightingEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/BeamWeightingType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DecibelType.h"
 
 /**  */
 namespace asb_uci {

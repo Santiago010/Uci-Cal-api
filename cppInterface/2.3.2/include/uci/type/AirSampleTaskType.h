@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_AIRSAMPLETASKTYPE_H
 #define UCI_TYPE_AIRSAMPLETASKTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/AirSampleTaskBaseType.h"
-#include "uci/type/TargetType.h"
+#include "../base/export.h"
+#include "AirSampleTaskBaseType.h"
+#include "TargetType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

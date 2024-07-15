@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_REPETITIONTIMEBASEDTYPE_H
 #define UCI_TYPE_REPETITIONTIMEBASEDTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/RepetitionContinuousType.h"
-#include "uci/type/RepetitionFiniteType.h"
-#include "uci/type/RepetitionPeriodicType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "RepetitionContinuousType.h"
+#include "RepetitionFiniteType.h"
+#include "RepetitionPeriodicType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

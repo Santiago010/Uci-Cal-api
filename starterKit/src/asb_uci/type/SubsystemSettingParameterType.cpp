@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/SubsystemSettingParameterType.h"
+#include "../../../include/asb_uci/type/SubsystemSettingParameterType.h"
 
 #include <memory>
 #include <string>
@@ -41,13 +41,13 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/VisibleString256Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/SubsystemSettingParameterType.h"
-#include "uci/type/VisibleString256Type.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemSettingParameterType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString256Type.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {
@@ -124,7 +124,7 @@ bool SubsystemSettingParameterType::hasDescriptiveLabel() const noexcept {
 
 uci::type::VisibleString256Type& SubsystemSettingParameterType::enableDescriptiveLabel(uci::base::accessorType::AccessorType type) {
   if (!descriptiveLabel_Accessor) {
-    descriptiveLabel_Accessor = VisibleString256Type::create(type);
+    descriptiveLabel_Accessor = boost::make_unique<std::string>("");
   }
   return *descriptiveLabel_Accessor;
 }

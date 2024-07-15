@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_STOREMANAGEMENTCOMMANDTYPE_H
 #define UCI_TYPE_STOREMANAGEMENTCOMMANDTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/StoreCommandType.h"
-#include "uci/type/SupportCapabilityCommandBaseType.h"
+#include "../base/export.h"
+#include "StoreCommandType.h"
+#include "SupportCapabilityCommandBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

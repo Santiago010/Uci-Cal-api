@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CommCoverageUserDataType.h"
+#include "../../../include/asb_uci/type/CommCoverageUserDataType.h"
 
 #include <memory>
 #include <string>
@@ -41,13 +41,13 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CommCoverageDataType.h"
-#include "asb_uci/type/VisibleString256Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CommCoverageUserDataType.h"
-#include "uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/type/CommCoverageDataType.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommCoverageUserDataType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString256Type.h"
 
 /**  */
 namespace asb_uci {
@@ -114,7 +114,7 @@ bool CommCoverageUserDataType::hasCommUserIdentifier() const noexcept {
 
 uci::type::VisibleString256Type& CommCoverageUserDataType::enableCommUserIdentifier(uci::base::accessorType::AccessorType type) {
   if (!commUserIdentifier_Accessor) {
-    commUserIdentifier_Accessor = VisibleString256Type::create(type);
+    commUserIdentifier_Accessor = boost::make_unique<std::string>("");
   }
   return *commUserIdentifier_Accessor;
 }

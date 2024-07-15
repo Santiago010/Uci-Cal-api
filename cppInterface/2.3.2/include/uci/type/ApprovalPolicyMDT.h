@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_APPROVALPOLICYMDT_H
 #define UCI_TYPE_APPROVALPOLICYMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ApprovalPolicyID_Type.h"
-#include "uci/type/DataRecordBaseType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/MissionTraceabilityType.h"
-#include "uci/type/PlanActivationPolicyType.h"
-#include "uci/type/PlanPolicyType.h"
-#include "uci/type/RequirementExecutionPolicyType.h"
-#include "uci/type/TimedZoneType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ApprovalPolicyID_Type.h"
+#include "DataRecordBaseType.h"
+#include "DateTimeType.h"
+#include "MissionTraceabilityType.h"
+#include "PlanActivationPolicyType.h"
+#include "PlanPolicyType.h"
+#include "RequirementExecutionPolicyType.h"
+#include "TimedZoneType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

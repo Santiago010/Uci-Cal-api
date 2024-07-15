@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SUBSYSTEMMAINTENANCESTATUS_H
 #define UCI_TYPE_SUBSYSTEMMAINTENANCESTATUS_H
 
-#include "uci/type/SubsystemMaintenanceStatusMT.h"
+#include "SubsystemMaintenanceStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

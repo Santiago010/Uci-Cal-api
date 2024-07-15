@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/AO_ActivityType.h"
+#include "../../../include/asb_uci/type/AO_ActivityType.h"
 
 #include <memory>
 #include <string>
@@ -41,24 +41,24 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AO_ComponentSettingsType.h"
-#include "asb_uci/type/ActivityBaseType.h"
-#include "asb_uci/type/ConsentEnum.h"
-#include "asb_uci/type/NED_ConeType.h"
-#include "asb_uci/type/PolygonType.h"
-#include "asb_uci/type/RepetitionType.h"
-#include "asb_uci/type/TargetType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AO_ActivityType.h"
-#include "uci/type/AO_ComponentSettingsType.h"
-#include "uci/type/ConsentEnum.h"
-#include "uci/type/NED_ConeType.h"
-#include "uci/type/PolygonType.h"
-#include "uci/type/RepetitionType.h"
-#include "uci/type/TargetType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/AO_ComponentSettingsType.h"
+#include "../../../include/asb_uci/type/ActivityBaseType.h"
+#include "../../../include/asb_uci/type/ConsentEnum.h"
+#include "../../../include/asb_uci/type/NED_ConeType.h"
+#include "../../../include/asb_uci/type/PolygonType.h"
+#include "../../../include/asb_uci/type/RepetitionType.h"
+#include "../../../include/asb_uci/type/TargetType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AO_ActivityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AO_ComponentSettingsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ConsentEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/NED_ConeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PolygonType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RepetitionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TargetType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

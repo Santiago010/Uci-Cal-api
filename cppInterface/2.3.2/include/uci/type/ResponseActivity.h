@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_RESPONSEACTIVITY_H
 #define UCI_TYPE_RESPONSEACTIVITY_H
 
-#include "uci/type/ResponseActivityMT.h"
+#include "ResponseActivityMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

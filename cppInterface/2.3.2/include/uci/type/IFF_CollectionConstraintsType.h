@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_IFF_COLLECTIONCONSTRAINTSTYPE_H
 #define UCI_TYPE_IFF_COLLECTIONCONSTRAINTSTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CollectionConstraintsType.h"
-#include "uci/type/EmconConstraintType.h"
-#include "uci/type/SpeedRangeType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CollectionConstraintsType.h"
+#include "EmconConstraintType.h"
+#include "SpeedRangeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

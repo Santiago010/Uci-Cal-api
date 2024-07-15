@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/IFF_InterrogatorModesEnableType.h"
+#include "../../../include/asb_uci/type/IFF_InterrogatorModesEnableType.h"
 
 #include <memory>
 #include <string>
@@ -41,18 +41,18 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/IFF_ActivePassiveEnum.h"
-#include "asb_uci/type/IFF_CivilMilitaryEnum.h"
-#include "asb_uci/type/IFF_LethalNonLethalEnum.h"
-#include "asb_uci/type/IFF_ModeControlType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/IFF_ActivePassiveEnum.h"
-#include "uci/type/IFF_CivilMilitaryEnum.h"
-#include "uci/type/IFF_InterrogatorModesEnableType.h"
-#include "uci/type/IFF_LethalNonLethalEnum.h"
-#include "uci/type/IFF_ModeControlType.h"
+#include "../../../include/asb_uci/type/IFF_ActivePassiveEnum.h"
+#include "../../../include/asb_uci/type/IFF_CivilMilitaryEnum.h"
+#include "../../../include/asb_uci/type/IFF_LethalNonLethalEnum.h"
+#include "../../../include/asb_uci/type/IFF_ModeControlType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IFF_ActivePassiveEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IFF_CivilMilitaryEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IFF_InterrogatorModesEnableType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IFF_LethalNonLethalEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IFF_ModeControlType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_PRODUCTREFERENCEBYPARENTTYPE_H
 #define UCI_TYPE_PRODUCTREFERENCEBYPARENTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ProductParentType.h"
-#include "uci/type/ProductTypeEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ProductParentType.h"
+#include "ProductTypeEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

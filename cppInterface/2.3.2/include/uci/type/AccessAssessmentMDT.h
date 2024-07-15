@@ -36,17 +36,17 @@
 #ifndef UCI_TYPE_ACCESSASSESSMENTMDT_H
 #define UCI_TYPE_ACCESSASSESSMENTMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AccessAssessmentID_Type.h"
-#include "uci/type/AccessAssessmentType.h"
-#include "uci/type/AssociatedAccessAssessmentInfoType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/NotificationSourceType.h"
-#include "uci/type/RequestID_Type.h"
-#include "uci/type/VisibleString1024Type.h"
-#include "uci/type/VisibleString32Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AccessAssessmentID_Type.h"
+#include "AccessAssessmentType.h"
+#include "AssociatedAccessAssessmentInfoType.h"
+#include "DateTimeType.h"
+#include "NotificationSourceType.h"
+#include "RequestID_Type.h"
+#include "VisibleString1024Type.h"
+#include "VisibleString32Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

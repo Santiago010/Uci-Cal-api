@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_DOORSTATUS_H
 #define UCI_TYPE_DOORSTATUS_H
 
-#include "uci/type/DoorStatusMT.h"
+#include "DoorStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

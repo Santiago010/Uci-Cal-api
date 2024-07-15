@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_PLANNINGTRIGGERTYPE_H
 #define UCI_TYPE_PLANNINGTRIGGERTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/PlanningByCaseTriggerType.h"
-#include "uci/type/PlanningByResultTriggerType.h"
-#include "uci/type/PlanningTriggerSourceEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "PlanningByCaseTriggerType.h"
+#include "PlanningByResultTriggerType.h"
+#include "PlanningTriggerSourceEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

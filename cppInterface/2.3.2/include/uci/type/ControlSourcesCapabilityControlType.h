@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_CONTROLSOURCESCAPABILITYCONTROLTYPE_H
 #define UCI_TYPE_CONTROLSOURCESCAPABILITYCONTROLTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/PrimaryControllerType.h"
-#include "uci/type/SecondaryControllerType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilityID_Type.h"
+#include "PrimaryControllerType.h"
+#include "SecondaryControllerType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

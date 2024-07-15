@@ -41,18 +41,18 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/ElevationType.h"
-#include "asb_uci/type/MSTGTA_TGT_LOC_Type.h"
-#include "asb_uci/type/MSTGTA_TGT_LTIOV_Type.h"
-#include "asb_uci/type/MeterUnitLetterStringType.h"
-#include "asb_uci/type/NITF_TargetCategoryCodeType.h"
-#include "asb_uci/type/NITF_TargetNumberType.h"
-#include "asb_uci/type/NITF_TargetPriorityType.h"
-#include "asb_uci/type/SingleDigitStringType.h"
-#include "asb_uci/type/TGT_UTCStringType.h"
-#include "asb_uci/type/VisibleString12Type.h"
-#include "asb_uci/type/VisibleString15Type.h"
-#include "uci/type/MSTGTA_RevA_Type.h"
+#include "../../../include/asb_uci/type/ElevationType.h"
+#include "../../../include/asb_uci/type/MSTGTA_TGT_LOC_Type.h"
+#include "../../../include/asb_uci/type/MSTGTA_TGT_LTIOV_Type.h"
+#include "../../../include/asb_uci/type/MeterUnitLetterStringType.h"
+#include "../../../include/asb_uci/type/NITF_TargetCategoryCodeType.h"
+#include "../../../include/asb_uci/type/NITF_TargetNumberType.h"
+#include "../../../include/asb_uci/type/NITF_TargetPriorityType.h"
+#include "../../../include/asb_uci/type/SingleDigitStringType.h"
+#include "../../../include/asb_uci/type/TGT_UTCStringType.h"
+#include "../../../include/asb_uci/type/VisibleString12Type.h"
+#include "../../../include/asb_uci/type/VisibleString15Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MSTGTA_RevA_Type.h"
 
 /**  */
 namespace asb_uci {

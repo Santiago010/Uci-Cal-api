@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_ORBITALKINEMATICSRELATIVEEPHEMERISTYPE_H
 #define UCI_TYPE_ORBITALKINEMATICSRELATIVEEPHEMERISTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AssetType.h"
-#include "uci/type/OrbitalKinematicsRelativeStateVectorType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AssetType.h"
+#include "OrbitalKinematicsRelativeStateVectorType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

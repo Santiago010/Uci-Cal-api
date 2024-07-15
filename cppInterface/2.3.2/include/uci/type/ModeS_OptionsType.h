@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_MODES_OPTIONSTYPE_H
 #define UCI_TYPE_MODES_OPTIONSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/IFF_ModeS_SupportEnum.h"
-#include "uci/type/MaxPOR_Enum.h"
-#include "uci/type/ModeS_InterrogatorAddressType.h"
-#include "uci/type/SpecificBDS_RegistersType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "IFF_ModeS_SupportEnum.h"
+#include "MaxPOR_Enum.h"
+#include "ModeS_InterrogatorAddressType.h"
+#include "SpecificBDS_RegistersType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

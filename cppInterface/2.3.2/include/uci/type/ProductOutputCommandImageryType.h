@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_PRODUCTOUTPUTCOMMANDIMAGERYTYPE_H
 #define UCI_TYPE_PRODUCTOUTPUTCOMMANDIMAGERYTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/JPEG_SettingsType.h"
-#include "uci/type/NITF_PackingPlanPET.h"
-#include "uci/type/ProductOutputCommandBasicType.h"
+#include "../base/export.h"
+#include "JPEG_SettingsType.h"
+#include "NITF_PackingPlanPET.h"
+#include "ProductOutputCommandBasicType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

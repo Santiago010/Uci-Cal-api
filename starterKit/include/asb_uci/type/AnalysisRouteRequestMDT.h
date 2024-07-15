@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/DurationType.h"
-#include "asb_uci/type/RepeatEnum.h"
-#include "asb_uci/type/RequestBaseType.h"
-#include "uci/type/AnalysisRouteRequestMDT.h"
+#include "../../../include/asb_uci/type/DurationType.h"
+#include "../../../include/asb_uci/type/RepeatEnum.h"
+#include "../../../include/asb_uci/type/RequestBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AnalysisRouteRequestMDT.h"
 
 /**  */
 namespace asb_uci {

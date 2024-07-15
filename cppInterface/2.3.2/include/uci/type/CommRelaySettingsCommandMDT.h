@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_COMMRELAYSETTINGSCOMMANDMDT_H
 #define UCI_TYPE_COMMRELAYSETTINGSCOMMANDMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/CapabilitySettingsCommandBaseType.h"
-#include "uci/type/CommRelayStateEnum.h"
+#include "../base/export.h"
+#include "CapabilitySettingsCommandBaseType.h"
+#include "CommRelayStateEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

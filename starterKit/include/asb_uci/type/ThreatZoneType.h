@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/PercentType.h"
-#include "asb_uci/type/RiskPrioritizationEnum.h"
-#include "uci/type/ThreatZoneType.h"
+#include "../../../include/asb_uci/type/PercentType.h"
+#include "../../../include/asb_uci/type/RiskPrioritizationEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ThreatZoneType.h"
 
 /**  */
 namespace asb_uci {

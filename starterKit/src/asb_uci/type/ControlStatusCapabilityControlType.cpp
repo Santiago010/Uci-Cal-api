@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ControlStatusCapabilityControlType.h"
+#include "../../../include/asb_uci/type/ControlStatusCapabilityControlType.h"
 
 #include <memory>
 #include <string>
@@ -41,20 +41,20 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CapabilityControlInterfacesEnum.h"
-#include "asb_uci/type/CapabilityID_Type.h"
-#include "asb_uci/type/CapabilityManagerType.h"
-#include "asb_uci/type/PrimaryControllerType.h"
-#include "asb_uci/type/SecondaryControllerType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CapabilityControlInterfacesEnum.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/CapabilityManagerType.h"
-#include "uci/type/ControlStatusCapabilityControlType.h"
-#include "uci/type/PrimaryControllerType.h"
-#include "uci/type/SecondaryControllerType.h"
+#include "../../../include/asb_uci/type/CapabilityControlInterfacesEnum.h"
+#include "../../../include/asb_uci/type/CapabilityID_Type.h"
+#include "../../../include/asb_uci/type/CapabilityManagerType.h"
+#include "../../../include/asb_uci/type/PrimaryControllerType.h"
+#include "../../../include/asb_uci/type/SecondaryControllerType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityControlInterfacesEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityManagerType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ControlStatusCapabilityControlType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PrimaryControllerType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SecondaryControllerType.h"
 
 /**  */
 namespace asb_uci {

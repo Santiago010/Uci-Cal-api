@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_DOORSTATUSTYPE_H
 #define UCI_TYPE_DOORSTATUSTYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/DoorStateEnum.h"
-#include "uci/type/PercentType.h"
-#include "uci/type/SupportCapabilityStatusBaseType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilityID_Type.h"
+#include "DoorStateEnum.h"
+#include "PercentType.h"
+#include "SupportCapabilityStatusBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

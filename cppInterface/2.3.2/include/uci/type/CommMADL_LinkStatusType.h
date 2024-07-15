@@ -36,19 +36,19 @@
 #ifndef UCI_TYPE_COMMMADL_LINKSTATUSTYPE_H
 #define UCI_TYPE_COMMMADL_LINKSTATUSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/UnsignedShortAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CommMADL_DataRateTypeEnum.h"
-#include "uci/type/CommMADL_LinkStateEnum.h"
-#include "uci/type/CommMADL_PeerNodeDataType.h"
-#include "uci/type/CommMADL_SearchTypeEnum.h"
-#include "uci/type/CommMADL_TimeSlotOE_PhaseTypeEnum.h"
-#include "uci/type/CommMADL_TimeSlotTxPhaseTypeEnum.h"
-#include "uci/type/CommMADL_TopologyEntryType.h"
-#include "uci/type/CommMADL_VoiceRxIndicatorTypeEnum.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/UnsignedShortAccessor.h"
+#include "../base/export.h"
+#include "CommMADL_DataRateTypeEnum.h"
+#include "CommMADL_LinkStateEnum.h"
+#include "CommMADL_PeerNodeDataType.h"
+#include "CommMADL_SearchTypeEnum.h"
+#include "CommMADL_TimeSlotOE_PhaseTypeEnum.h"
+#include "CommMADL_TimeSlotTxPhaseTypeEnum.h"
+#include "CommMADL_TopologyEntryType.h"
+#include "CommMADL_VoiceRxIndicatorTypeEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

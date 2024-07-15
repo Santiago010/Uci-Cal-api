@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/ApproachConditionStatusEnum.h"
-#include "asb_uci/type/FlightDeckStatusEnum.h"
-#include "uci/type/SurfaceRecoveryType.h"
+#include "../../../include/asb_uci/type/ApproachConditionStatusEnum.h"
+#include "../../../include/asb_uci/type/FlightDeckStatusEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SurfaceRecoveryType.h"
 
 /**  */
 namespace asb_uci {

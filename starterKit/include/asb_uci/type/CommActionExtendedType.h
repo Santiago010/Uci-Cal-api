@@ -38,8 +38,8 @@
 
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/CommActionType.h"
-#include "uci/type/CommActionExtendedType.h"
+#include "../../../include/asb_uci/type/CommActionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommActionExtendedType.h"
 
 /**  */
 namespace asb_uci {

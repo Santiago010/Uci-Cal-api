@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_PROXIMITYOPERATIONSTYPE_H
 #define UCI_TYPE_PROXIMITYOPERATIONSTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/ProximityOrbitChoiceType.h"
-#include "uci/type/RSO_ApproachType.h"
+#include "../base/export.h"
+#include "ProximityOrbitChoiceType.h"
+#include "RSO_ApproachType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

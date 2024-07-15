@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_RF_TASKPERFORMANCETYPE_H
 #define UCI_TYPE_RF_TASKPERFORMANCETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/RF_TaskNormalizedMetricsType.h"
-#include "uci/type/RF_TaskPerformanceConstraintType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "RF_TaskNormalizedMetricsType.h"
+#include "RF_TaskPerformanceConstraintType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

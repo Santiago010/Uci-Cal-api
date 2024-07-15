@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/IdentityConfidenceType.h"
+#include "../../../include/asb_uci/type/IdentityConfidenceType.h"
 
 #include <memory>
 #include <string>
@@ -41,34 +41,34 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/EOB_IdentityConfidenceType.h"
-#include "asb_uci/type/EmitterMultipleType.h"
-#include "asb_uci/type/EnvironmentIdentityConfidenceType.h"
-#include "asb_uci/type/PlatformIdentityConfidenceType.h"
-#include "asb_uci/type/SpecificEmitterMultipleType.h"
-#include "asb_uci/type/SpecificFacilityIdentityConfidenceType.h"
-#include "asb_uci/type/SpecificIdentityConfidenceType.h"
-#include "asb_uci/type/SpecificVehicleIdentityConfidenceType.h"
-#include "asb_uci/type/StandardIdentityConfidenceType.h"
-#include "asb_uci/type/StoreMultipleType.h"
-#include "asb_uci/util/DerivedTypesCopier.h"
-#include "asb_uci/util/DerivedTypesCreator.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/DerivedTypesSerializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/EOB_IdentityConfidenceType.h"
-#include "uci/type/EmitterMultipleType.h"
-#include "uci/type/EnvironmentIdentityConfidenceType.h"
-#include "uci/type/IdentityConfidenceType.h"
-#include "uci/type/PlatformIdentityConfidenceType.h"
-#include "uci/type/SpecificEmitterMultipleType.h"
-#include "uci/type/SpecificFacilityIdentityConfidenceType.h"
-#include "uci/type/SpecificIdentityConfidenceType.h"
-#include "uci/type/SpecificVehicleIdentityConfidenceType.h"
-#include "uci/type/StandardIdentityConfidenceType.h"
-#include "uci/type/StoreMultipleType.h"
+#include "../../../include/asb_uci/type/EOB_IdentityConfidenceType.h"
+#include "../../../include/asb_uci/type/EmitterMultipleType.h"
+#include "../../../include/asb_uci/type/EnvironmentIdentityConfidenceType.h"
+#include "../../../include/asb_uci/type/PlatformIdentityConfidenceType.h"
+#include "../../../include/asb_uci/type/SpecificEmitterMultipleType.h"
+#include "../../../include/asb_uci/type/SpecificFacilityIdentityConfidenceType.h"
+#include "../../../include/asb_uci/type/SpecificIdentityConfidenceType.h"
+#include "../../../include/asb_uci/type/SpecificVehicleIdentityConfidenceType.h"
+#include "../../../include/asb_uci/type/StandardIdentityConfidenceType.h"
+#include "../../../include/asb_uci/type/StoreMultipleType.h"
+#include "../../../include/asb_uci/util/DerivedTypesCopier.h"
+#include "../../../include/asb_uci/util/DerivedTypesCreator.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/DerivedTypesSerializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EOB_IdentityConfidenceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EmitterMultipleType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EnvironmentIdentityConfidenceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IdentityConfidenceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlatformIdentityConfidenceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SpecificEmitterMultipleType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SpecificFacilityIdentityConfidenceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SpecificIdentityConfidenceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SpecificVehicleIdentityConfidenceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StandardIdentityConfidenceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StoreMultipleType.h"
 
 /**  */
 namespace asb_uci {

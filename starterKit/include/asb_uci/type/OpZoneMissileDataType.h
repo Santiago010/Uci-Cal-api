@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/LaunchPointCalculationEnum.h"
-#include "asb_uci/type/SpaceObjectEnum.h"
-#include "uci/type/OpZoneMissileDataType.h"
+#include "../../../include/asb_uci/type/LaunchPointCalculationEnum.h"
+#include "../../../include/asb_uci/type/SpaceObjectEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpZoneMissileDataType.h"
 
 /**  */
 namespace asb_uci {

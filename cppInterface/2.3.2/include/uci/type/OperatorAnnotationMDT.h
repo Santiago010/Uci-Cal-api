@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_OPERATORANNOTATIONMDT_H
 #define UCI_TYPE_OPERATORANNOTATIONMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DataRecordBaseType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/ID_Type.h"
-#include "uci/type/OperatorAnnotationID_Type.h"
-#include "uci/type/ServiceID_Type.h"
-#include "uci/type/VisibleString1024Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DataRecordBaseType.h"
+#include "DateTimeType.h"
+#include "ID_Type.h"
+#include "OperatorAnnotationID_Type.h"
+#include "ServiceID_Type.h"
+#include "VisibleString1024Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

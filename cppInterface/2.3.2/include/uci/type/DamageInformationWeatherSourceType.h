@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_DAMAGEINFORMATIONWEATHERSOURCETYPE_H
 #define UCI_TYPE_DAMAGEINFORMATIONWEATHERSOURCETYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DamageInformationSourceType.h"
-#include "uci/type/WeatherDatasetID_Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DamageInformationSourceType.h"
+#include "WeatherDatasetID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

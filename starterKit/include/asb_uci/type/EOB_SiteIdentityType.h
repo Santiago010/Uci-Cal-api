@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AlphanumericString6Type.h"
-#include "asb_uci/type/EOB_IdentityBaseType.h"
-#include "asb_uci/type/EOB_O_SuffixType.h"
-#include "uci/type/EOB_SiteIdentityType.h"
+#include "../../../include/asb_uci/type/AlphanumericString6Type.h"
+#include "../../../include/asb_uci/type/EOB_IdentityBaseType.h"
+#include "../../../include/asb_uci/type/EOB_O_SuffixType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EOB_SiteIdentityType.h"
 
 /**  */
 namespace asb_uci {

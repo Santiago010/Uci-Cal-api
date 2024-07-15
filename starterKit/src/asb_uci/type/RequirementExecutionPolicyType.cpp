@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/RequirementExecutionPolicyType.h"
+#include "../../../include/asb_uci/type/RequirementExecutionPolicyType.h"
 
 #include <memory>
 #include <string>
@@ -41,14 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ByRequirementPolicyType.h"
-#include "asb_uci/type/DefaultResponseType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ByRequirementPolicyType.h"
-#include "uci/type/DefaultResponseType.h"
-#include "uci/type/RequirementExecutionPolicyType.h"
+#include "../../../include/asb_uci/type/ByRequirementPolicyType.h"
+#include "../../../include/asb_uci/type/DefaultResponseType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ByRequirementPolicyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DefaultResponseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RequirementExecutionPolicyType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,20 +36,20 @@
 #ifndef UCI_TYPE_AMTI_ACTIVITYCOMMANDTYPE_H
 #define UCI_TYPE_AMTI_ACTIVITYCOMMANDTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AMTI_CollectionConstraintsType.h"
-#include "uci/type/AirTargetVolumeCommandType.h"
-#include "uci/type/AirTargetVolumeType.h"
-#include "uci/type/CapabilityCommandFrequencyType.h"
-#include "uci/type/DependentActivityType.h"
-#include "uci/type/DistanceType.h"
-#include "uci/type/ProductOutputCommandBasicType.h"
-#include "uci/type/RadarCollectionOptionsType.h"
-#include "uci/type/RepetitionType.h"
-#include "uci/type/ResourceSelectionType.h"
-#include "uci/type/SharedRF_ApertureActivityCommandBaseType.h"
+#include "../base/BoundedList.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "AMTI_CollectionConstraintsType.h"
+#include "AirTargetVolumeCommandType.h"
+#include "AirTargetVolumeType.h"
+#include "CapabilityCommandFrequencyType.h"
+#include "DependentActivityType.h"
+#include "DistanceType.h"
+#include "ProductOutputCommandBasicType.h"
+#include "RadarCollectionOptionsType.h"
+#include "RepetitionType.h"
+#include "ResourceSelectionType.h"
+#include "SharedRF_ApertureActivityCommandBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

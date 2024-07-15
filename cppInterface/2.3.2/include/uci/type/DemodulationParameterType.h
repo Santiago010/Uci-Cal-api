@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_DEMODULATIONPARAMETERTYPE_H
 #define UCI_TYPE_DEMODULATIONPARAMETERTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DecibelType.h"
-#include "uci/type/FrequencyType.h"
-#include "uci/type/ModulationEnum.h"
-#include "uci/type/TimeWindowType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DecibelType.h"
+#include "FrequencyType.h"
+#include "ModulationEnum.h"
+#include "TimeWindowType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

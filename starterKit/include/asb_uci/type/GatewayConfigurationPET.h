@@ -38,7 +38,7 @@
 
 #include <boost/property_tree/ptree.hpp>
 
-#include "uci/type/GatewayConfigurationPET.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/GatewayConfigurationPET.h"
 
 /**  */
 namespace asb_uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/PO_SubCapabilityType.h"
+#include "../../../include/asb_uci/type/PO_SubCapabilityType.h"
 
 #include <memory>
 #include <string>
@@ -41,18 +41,18 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/PO_EnvironmentEnum.h"
-#include "asb_uci/type/PO_TechniqueCapabilityType.h"
-#include "asb_uci/type/SensorSpectrumEnum.h"
-#include "asb_uci/type/SubCapabilityID_Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/PO_EnvironmentEnum.h"
-#include "uci/type/PO_SubCapabilityType.h"
-#include "uci/type/PO_TechniqueCapabilityType.h"
-#include "uci/type/SensorSpectrumEnum.h"
-#include "uci/type/SubCapabilityID_Type.h"
+#include "../../../include/asb_uci/type/PO_EnvironmentEnum.h"
+#include "../../../include/asb_uci/type/PO_TechniqueCapabilityType.h"
+#include "../../../include/asb_uci/type/SensorSpectrumEnum.h"
+#include "../../../include/asb_uci/type/SubCapabilityID_Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_EnvironmentEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_SubCapabilityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_TechniqueCapabilityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SensorSpectrumEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubCapabilityID_Type.h"
 
 /**  */
 namespace asb_uci {

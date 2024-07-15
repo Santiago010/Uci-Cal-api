@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/COMINT_SubcapabilityChoiceType.h"
+#include "../../../include/asb_uci/type/COMINT_SubcapabilityChoiceType.h"
 
 #include <memory>
 #include <string>
@@ -41,20 +41,20 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/COMINT_SubcapabilityAcquisitionType.h"
-#include "asb_uci/type/COMINT_SubcapabilityDataCollectType.h"
-#include "asb_uci/type/COMINT_SubcapabilityGeolocationType.h"
-#include "asb_uci/type/COMINT_SubcapabilityIdentificationType.h"
-#include "asb_uci/type/COMINT_SubcapabilityMeasurementType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/COMINT_SubcapabilityAcquisitionType.h"
-#include "uci/type/COMINT_SubcapabilityChoiceType.h"
-#include "uci/type/COMINT_SubcapabilityDataCollectType.h"
-#include "uci/type/COMINT_SubcapabilityGeolocationType.h"
-#include "uci/type/COMINT_SubcapabilityIdentificationType.h"
-#include "uci/type/COMINT_SubcapabilityMeasurementType.h"
+#include "../../../include/asb_uci/type/COMINT_SubcapabilityAcquisitionType.h"
+#include "../../../include/asb_uci/type/COMINT_SubcapabilityDataCollectType.h"
+#include "../../../include/asb_uci/type/COMINT_SubcapabilityGeolocationType.h"
+#include "../../../include/asb_uci/type/COMINT_SubcapabilityIdentificationType.h"
+#include "../../../include/asb_uci/type/COMINT_SubcapabilityMeasurementType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/COMINT_SubcapabilityAcquisitionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/COMINT_SubcapabilityChoiceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/COMINT_SubcapabilityDataCollectType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/COMINT_SubcapabilityGeolocationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/COMINT_SubcapabilityIdentificationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/COMINT_SubcapabilityMeasurementType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,21 +36,21 @@
 #ifndef UCI_TYPE_SAR_CAPABILITYCOMMANDTYPE_H
 #define UCI_TYPE_SAR_CAPABILITYCOMMANDTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/DoubleAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AtmosphericPropagationLossType.h"
-#include "uci/type/CapabilityCommandFrequencyType.h"
-#include "uci/type/ECEF_UnitVectorType.h"
-#include "uci/type/MultistaticModeType.h"
-#include "uci/type/PairIdentifierEnum.h"
-#include "uci/type/ProductOutputCommandImageryType.h"
-#include "uci/type/RepetitionType.h"
-#include "uci/type/SAR_CapabilityCommandSubCapabilityType.h"
-#include "uci/type/SAR_CollectionConstraintsType.h"
-#include "uci/type/SAR_CollectionOptionsType.h"
-#include "uci/type/SAR_DesiredWaveformType.h"
-#include "uci/type/SharedRF_ApertureCapabilityCommandBaseType.h"
+#include "../base/BoundedList.h"
+#include "../base/DoubleAccessor.h"
+#include "../base/export.h"
+#include "AtmosphericPropagationLossType.h"
+#include "CapabilityCommandFrequencyType.h"
+#include "ECEF_UnitVectorType.h"
+#include "MultistaticModeType.h"
+#include "PairIdentifierEnum.h"
+#include "ProductOutputCommandImageryType.h"
+#include "RepetitionType.h"
+#include "SAR_CapabilityCommandSubCapabilityType.h"
+#include "SAR_CollectionConstraintsType.h"
+#include "SAR_CollectionOptionsType.h"
+#include "SAR_DesiredWaveformType.h"
+#include "SharedRF_ApertureCapabilityCommandBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

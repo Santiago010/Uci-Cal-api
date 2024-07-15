@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_COMMIFDL_COMMWAVEFORMACTIVITYTYPE_H
 #define UCI_TYPE_COMMIFDL_COMMWAVEFORMACTIVITYTYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CommIFDL_ControlType.h"
-#include "uci/type/CommIFDL_FlightSizeEnum.h"
-#include "uci/type/CommIFDL_NetLinkStatusType.h"
-#include "uci/type/CommWaveformActivityPET.h"
-#include "uci/type/IFDL_ChannelNumberType.h"
-#include "uci/type/IFDL_WideNetIdentifierType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CommIFDL_ControlType.h"
+#include "CommIFDL_FlightSizeEnum.h"
+#include "CommIFDL_NetLinkStatusType.h"
+#include "CommWaveformActivityPET.h"
+#include "IFDL_ChannelNumberType.h"
+#include "IFDL_WideNetIdentifierType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

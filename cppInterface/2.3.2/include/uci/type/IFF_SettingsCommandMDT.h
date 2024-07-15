@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_IFF_SETTINGSCOMMANDMDT_H
 #define UCI_TYPE_IFF_SETTINGSCOMMANDMDT_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilitySettingsCommandBaseType.h"
-#include "uci/type/ElectronicProtectionOptionsDefaultType.h"
-#include "uci/type/EmconSettingType.h"
-#include "uci/type/EmissionBalanceEnum.h"
-#include "uci/type/IFF_MessageOutputsEnum.h"
-#include "uci/type/IFF_ModesAvailableType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilitySettingsCommandBaseType.h"
+#include "ElectronicProtectionOptionsDefaultType.h"
+#include "EmconSettingType.h"
+#include "EmissionBalanceEnum.h"
+#include "IFF_MessageOutputsEnum.h"
+#include "IFF_ModesAvailableType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

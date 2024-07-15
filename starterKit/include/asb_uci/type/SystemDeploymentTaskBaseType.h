@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/SystemDeploymentEnum.h"
-#include "uci/type/SystemDeploymentTaskBaseType.h"
+#include "../../../include/asb_uci/type/SystemDeploymentEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SystemDeploymentTaskBaseType.h"
 
 /**  */
 namespace asb_uci {

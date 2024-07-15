@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_REFERENCECAPABILITYTYPE_H
 #define UCI_TYPE_REFERENCECAPABILITYTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityDeclarationBaseType.h"
-#include "uci/type/ReferenceCapabilityOutputsEnum.h"
-#include "uci/type/ReferenceCapabilityTaxonomyType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilityDeclarationBaseType.h"
+#include "ReferenceCapabilityOutputsEnum.h"
+#include "ReferenceCapabilityTaxonomyType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

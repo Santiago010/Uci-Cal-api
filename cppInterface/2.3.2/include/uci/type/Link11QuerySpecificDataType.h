@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_LINK11QUERYSPECIFICDATATYPE_H
 #define UCI_TYPE_LINK11QUERYSPECIFICDATATYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/GeoLocatedObjectType.h"
-#include "uci/type/QuerySpecificDataPET.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "GeoLocatedObjectType.h"
+#include "QuerySpecificDataPET.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

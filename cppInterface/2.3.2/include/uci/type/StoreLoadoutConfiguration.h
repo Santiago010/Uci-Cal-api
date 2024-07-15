@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_STORELOADOUTCONFIGURATION_H
 #define UCI_TYPE_STORELOADOUTCONFIGURATION_H
 
-#include "uci/type/StoreLoadoutConfigurationMT.h"
+#include "StoreLoadoutConfigurationMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

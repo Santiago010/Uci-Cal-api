@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/PrioritizationListItemType.h"
+#include "../../../include/asb_uci/type/PrioritizationListItemType.h"
 
 #include <memory>
 #include <string>
@@ -41,16 +41,16 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/IdentityKindInstanceType.h"
-#include "asb_uci/type/ObjectCorrelationType.h"
-#include "asb_uci/type/PrioritizationType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/IdentityKindInstanceType.h"
-#include "uci/type/ObjectCorrelationType.h"
-#include "uci/type/PrioritizationListItemType.h"
-#include "uci/type/PrioritizationType.h"
+#include "../../../include/asb_uci/type/IdentityKindInstanceType.h"
+#include "../../../include/asb_uci/type/ObjectCorrelationType.h"
+#include "../../../include/asb_uci/type/PrioritizationType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IdentityKindInstanceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ObjectCorrelationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PrioritizationListItemType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PrioritizationType.h"
 
 /**  */
 namespace asb_uci {

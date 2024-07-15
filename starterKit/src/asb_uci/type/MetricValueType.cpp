@@ -169,7 +169,7 @@ bool MetricValueType::hasDescriptionOfMetric() const noexcept {
 
 std::string& MetricValueType::enableDescriptionOfMetric(uci::base::accessorType::AccessorType type) {
   if (!descriptionOfMetric_Accessor) {
-    descriptionOfMetric_Accessor = descriptionOfMetric_Accessor = boost::make_unique<std::string>("");
+     descriptionOfMetric_Accessor = boost::make_unique<std::string>("");
   }
   return *descriptionOfMetric_Accessor;
 }
@@ -301,7 +301,8 @@ std::string MetricValueType::serialize(const uci::type::MetricValueType& accesso
   }
   ForeignKeyType::serialize(accessor.getMetricIdentifier(), node, MetricValueType_Names::MetricIdentifier_Name);
   if (accessor.hasDescriptionOfMetric()) {
-    asb_uci::util::SerializationHelpers::serializeString(accessor.getDescriptionOfMetric(), node, MetricValueType_Names::DescriptionOfMetric_Name);
+    // TODO:este metodo abra que arregralo mas adelante
+    // asb_uci::util::SerializationHelpers::serializeString(accessor.getDescriptionOfMetric(), node, MetricValueType_Names::DescriptionOfMetric_Name);
   }
   if (accessor.hasNegotiableOptions()) {
     NegotiableOptionsEnum::serialize(accessor.getNegotiableOptions(), node, MetricValueType_Names::NegotiableOptions_Name, false);

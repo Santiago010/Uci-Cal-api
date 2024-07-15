@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/PointingControlModeStatusEnum.h"
-#include "asb_uci/type/PositionModeEnum.h"
-#include "uci/type/CommPTW_ControlStatusType.h"
+#include "../../../include/asb_uci/type/PointingControlModeStatusEnum.h"
+#include "../../../include/asb_uci/type/PositionModeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommPTW_ControlStatusType.h"
 
 /**  */
 namespace asb_uci {

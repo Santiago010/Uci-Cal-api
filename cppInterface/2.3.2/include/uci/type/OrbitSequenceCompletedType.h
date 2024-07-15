@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_ORBITSEQUENCECOMPLETEDTYPE_H
 #define UCI_TYPE_ORBITSEQUENCECOMPLETEDTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/OrbitSequenceEstimateType.h"
+#include "../base/export.h"
+#include "DateTimeType.h"
+#include "OrbitSequenceEstimateType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

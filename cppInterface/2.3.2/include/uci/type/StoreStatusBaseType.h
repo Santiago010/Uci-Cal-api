@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_STORESTATUSBASETYPE_H
 #define UCI_TYPE_STORESTATUSBASETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CannotComplyType.h"
-#include "uci/type/StoreStateEnum.h"
-#include "uci/type/StoreStatusDetailsType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CannotComplyType.h"
+#include "StoreStateEnum.h"
+#include "StoreStatusDetailsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/CommAssetCategoryEnum.h"
-#include "uci/type/CommAssetMDT.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/CommAssetCategoryEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommAssetMDT.h"
 
 /**  */
 namespace asb_uci {

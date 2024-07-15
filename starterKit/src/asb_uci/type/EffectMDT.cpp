@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/EffectMDT.h"
+#include "../../../include/asb_uci/type/EffectMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,24 +41,24 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/EffectID_Type.h"
-#include "asb_uci/type/EffectTypeEnum.h"
-#include "asb_uci/type/IdentityKindInstanceType.h"
-#include "asb_uci/type/RequirementConstraintsType.h"
-#include "asb_uci/type/RequirementGuidanceType.h"
-#include "asb_uci/type/RequirementMetadataType.h"
-#include "asb_uci/type/RequirementTargetConstraintsType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/EffectID_Type.h"
-#include "uci/type/EffectMDT.h"
-#include "uci/type/EffectTypeEnum.h"
-#include "uci/type/IdentityKindInstanceType.h"
-#include "uci/type/RequirementConstraintsType.h"
-#include "uci/type/RequirementGuidanceType.h"
-#include "uci/type/RequirementMetadataType.h"
-#include "uci/type/RequirementTargetConstraintsType.h"
+#include "../../../include/asb_uci/type/EffectID_Type.h"
+#include "../../../include/asb_uci/type/EffectTypeEnum.h"
+#include "../../../include/asb_uci/type/IdentityKindInstanceType.h"
+#include "../../../include/asb_uci/type/RequirementConstraintsType.h"
+#include "../../../include/asb_uci/type/RequirementGuidanceType.h"
+#include "../../../include/asb_uci/type/RequirementMetadataType.h"
+#include "../../../include/asb_uci/type/RequirementTargetConstraintsType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EffectID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EffectMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EffectTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IdentityKindInstanceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RequirementConstraintsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RequirementGuidanceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RequirementMetadataType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RequirementTargetConstraintsType.h"
 
 /**  */
 namespace asb_uci {

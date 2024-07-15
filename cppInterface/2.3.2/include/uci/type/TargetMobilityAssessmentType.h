@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_TARGETMOBILITYASSESSMENTTYPE_H
 #define UCI_TYPE_TARGETMOBILITYASSESSMENTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/TargetMobilityAssessmentDataType.h"
-#include "uci/type/TargetMobilityRequestType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "TargetMobilityAssessmentDataType.h"
+#include "TargetMobilityRequestType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_MULTISTATICEMITTERTYPE_H
 #define UCI_TYPE_MULTISTATICEMITTERTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EmitterTargetLocationDataType.h"
-#include "uci/type/EmitterWaveformDataType.h"
-#include "uci/type/MultistaticEmitterID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "EmitterTargetLocationDataType.h"
+#include "EmitterWaveformDataType.h"
+#include "MultistaticEmitterID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

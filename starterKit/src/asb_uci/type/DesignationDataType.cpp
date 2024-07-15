@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/DesignationDataType.h"
+#include "../../../include/asb_uci/type/DesignationDataType.h"
 
 #include <memory>
 #include <string>
@@ -41,21 +41,21 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/DesignationEnum.h"
-#include "asb_uci/type/DesignationID_Type.h"
-#include "asb_uci/type/RequirementTaxonomyType.h"
-#include "asb_uci/type/SystemID_Type.h"
-#include "asb_uci/type/TargetType.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/DesignationDataType.h"
-#include "uci/type/DesignationEnum.h"
-#include "uci/type/DesignationID_Type.h"
-#include "uci/type/RequirementTaxonomyType.h"
-#include "uci/type/SystemID_Type.h"
-#include "uci/type/TargetType.h"
+#include "../../../include/asb_uci/type/DesignationEnum.h"
+#include "../../../include/asb_uci/type/DesignationID_Type.h"
+#include "../../../include/asb_uci/type/RequirementTaxonomyType.h"
+#include "../../../include/asb_uci/type/SystemID_Type.h"
+#include "../../../include/asb_uci/type/TargetType.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DesignationDataType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DesignationEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DesignationID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RequirementTaxonomyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SystemID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TargetType.h"
 
 /**  */
 namespace asb_uci {

@@ -41,12 +41,12 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/DataLinkNativeFilterPET.h"
-#include "asb_uci/type/GatewayLink16ConfigurationClassEnum.h"
-#include "asb_uci/type/Link16_NPG_Type.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/Link16EntityDataLinkNativeFilterType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/DataLinkNativeFilterPET.h"
+#include "../../../include/asb_uci/type/GatewayLink16ConfigurationClassEnum.h"
+#include "../../../include/asb_uci/type/Link16_NPG_Type.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/Link16EntityDataLinkNativeFilterType.h"
 
 /**  */
 namespace asb_uci {

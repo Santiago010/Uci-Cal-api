@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/PlanningAllowedEscalationType.h"
+#include "../../../include/asb_uci/type/PlanningAllowedEscalationType.h"
 
 #include <memory>
 #include <string>
@@ -41,16 +41,16 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AutonomousPlanningActionID_Type.h"
-#include "asb_uci/type/MissionPlanningAutonomySettingByResultType.h"
-#include "asb_uci/type/PlanningAllowedType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AutonomousPlanningActionID_Type.h"
-#include "uci/type/MissionPlanningAutonomySettingByResultType.h"
-#include "uci/type/PlanningAllowedEscalationType.h"
-#include "uci/type/PlanningAllowedType.h"
+#include "../../../include/asb_uci/type/AutonomousPlanningActionID_Type.h"
+#include "../../../include/asb_uci/type/MissionPlanningAutonomySettingByResultType.h"
+#include "../../../include/asb_uci/type/PlanningAllowedType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AutonomousPlanningActionID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MissionPlanningAutonomySettingByResultType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlanningAllowedEscalationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlanningAllowedType.h"
 
 /**  */
 namespace asb_uci {

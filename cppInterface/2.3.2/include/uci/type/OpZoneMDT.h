@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_OPZONEMDT_H
 #define UCI_TYPE_OPZONEMDT_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/OpBaseType.h"
-#include "uci/type/OpZoneCategoryEnum.h"
-#include "uci/type/OpZoneCategoryType.h"
-#include "uci/type/OpZoneID_Type.h"
-#include "uci/type/OpZoneType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "OpBaseType.h"
+#include "OpZoneCategoryEnum.h"
+#include "OpZoneCategoryType.h"
+#include "OpZoneID_Type.h"
+#include "OpZoneType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

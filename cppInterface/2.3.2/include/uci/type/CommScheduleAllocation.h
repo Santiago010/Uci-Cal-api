@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_COMMSCHEDULEALLOCATION_H
 #define UCI_TYPE_COMMSCHEDULEALLOCATION_H
 
-#include "uci/type/CommScheduleAllocationMT.h"
+#include "CommScheduleAllocationMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

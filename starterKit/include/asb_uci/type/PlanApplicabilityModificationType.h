@@ -41,7 +41,7 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "uci/type/PlanApplicabilityModificationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlanApplicabilityModificationType.h"
 
 /**  */
 namespace asb_uci {

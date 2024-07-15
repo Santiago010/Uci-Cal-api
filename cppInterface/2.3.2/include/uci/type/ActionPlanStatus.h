@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ACTIONPLANSTATUS_H
 #define UCI_TYPE_ACTIONPLANSTATUS_H
 
-#include "uci/type/ActionPlanStatusMT.h"
+#include "ActionPlanStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

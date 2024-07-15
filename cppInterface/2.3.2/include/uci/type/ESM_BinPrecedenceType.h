@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_ESM_BINPRECEDENCETYPE_H
 #define UCI_TYPE_ESM_BINPRECEDENCETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ComparableRankingType.h"
-#include "uci/type/ESM_SubCapabilityEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ComparableRankingType.h"
+#include "ESM_SubCapabilityEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

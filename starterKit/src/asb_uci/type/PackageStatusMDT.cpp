@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/PackageStatusMDT.h"
+#include "../../../include/asb_uci/type/PackageStatusMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,18 +41,18 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/PackageID_Type.h"
-#include "asb_uci/type/PackagePartnerStatusType.h"
-#include "asb_uci/type/SystemSourceEnum.h"
-#include "asb_uci/type/SystemStateEnum.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/PackageID_Type.h"
-#include "uci/type/PackagePartnerStatusType.h"
-#include "uci/type/PackageStatusMDT.h"
-#include "uci/type/SystemSourceEnum.h"
-#include "uci/type/SystemStateEnum.h"
+#include "../../../include/asb_uci/type/PackageID_Type.h"
+#include "../../../include/asb_uci/type/PackagePartnerStatusType.h"
+#include "../../../include/asb_uci/type/SystemSourceEnum.h"
+#include "../../../include/asb_uci/type/SystemStateEnum.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PackageID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PackagePartnerStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PackageStatusMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SystemSourceEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SystemStateEnum.h"
 
 /**  */
 namespace asb_uci {

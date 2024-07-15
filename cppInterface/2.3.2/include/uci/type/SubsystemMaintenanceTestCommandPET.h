@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SUBSYSTEMMAINTENANCETESTCOMMANDPET_H
 #define UCI_TYPE_SUBSYSTEMMAINTENANCETESTCOMMANDPET_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/type/SubsystemMaintenanceEventSettingsConfigurationType.h"
-#include "uci/type/SubsystemMaintenanceID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "SubsystemMaintenanceEventSettingsConfigurationType.h"
+#include "SubsystemMaintenanceID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

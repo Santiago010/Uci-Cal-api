@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CharacterizationObjectiveType.h"
+#include "../../../include/asb_uci/type/CharacterizationObjectiveType.h"
 
 #include <memory>
 #include <string>
@@ -41,20 +41,20 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CharacterizationOptionsType.h"
-#include "asb_uci/type/IdentificationVerificationType.h"
-#include "asb_uci/type/SatelliteOperationsChangesCharacterizationType.h"
-#include "asb_uci/type/StabilityCharacterizationType.h"
-#include "asb_uci/type/StructureAssessmentType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CharacterizationObjectiveType.h"
-#include "uci/type/CharacterizationOptionsType.h"
-#include "uci/type/IdentificationVerificationType.h"
-#include "uci/type/SatelliteOperationsChangesCharacterizationType.h"
-#include "uci/type/StabilityCharacterizationType.h"
-#include "uci/type/StructureAssessmentType.h"
+#include "../../../include/asb_uci/type/CharacterizationOptionsType.h"
+#include "../../../include/asb_uci/type/IdentificationVerificationType.h"
+#include "../../../include/asb_uci/type/SatelliteOperationsChangesCharacterizationType.h"
+#include "../../../include/asb_uci/type/StabilityCharacterizationType.h"
+#include "../../../include/asb_uci/type/StructureAssessmentType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CharacterizationObjectiveType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CharacterizationOptionsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IdentificationVerificationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SatelliteOperationsChangesCharacterizationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StabilityCharacterizationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StructureAssessmentType.h"
 
 /**  */
 namespace asb_uci {

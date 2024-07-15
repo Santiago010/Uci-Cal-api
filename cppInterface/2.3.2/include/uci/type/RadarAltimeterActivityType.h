@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_RADARALTIMETERACTIVITYTYPE_H
 #define UCI_TYPE_RADARALTIMETERACTIVITYTYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/RadarAltimeterActivityMetricsType.h"
-#include "uci/type/RadarAltimeterActivityPredictedCollectionsType.h"
-#include "uci/type/RadarAltimeterSubCapabilityEnum.h"
-#include "uci/type/RepetitionType.h"
-#include "uci/type/SharedRF_ApertureActivityBaseType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ForeignKeyType.h"
+#include "RadarAltimeterActivityMetricsType.h"
+#include "RadarAltimeterActivityPredictedCollectionsType.h"
+#include "RadarAltimeterSubCapabilityEnum.h"
+#include "RepetitionType.h"
+#include "SharedRF_ApertureActivityBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

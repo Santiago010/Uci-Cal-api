@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_REQUIREMENTALLOCATIONWINDOWTYPE_H
 #define UCI_TYPE_REQUIREMENTALLOCATIONWINDOWTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/DurationRangeType.h"
-#include "uci/type/RequirementAllocationWindowID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DateTimeType.h"
+#include "DurationRangeType.h"
+#include "RequirementAllocationWindowID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

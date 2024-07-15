@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_SOLARFLUXTYPE_H
 #define UCI_TYPE_SOLARFLUXTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/SolarFluxRecordEnum.h"
-#include "uci/type/SolarWeatherRecordType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "SolarFluxRecordEnum.h"
+#include "SolarWeatherRecordType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

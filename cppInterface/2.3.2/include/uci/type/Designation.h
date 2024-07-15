@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_DESIGNATION_H
 #define UCI_TYPE_DESIGNATION_H
 
-#include "uci/type/DesignationMT.h"
+#include "DesignationMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

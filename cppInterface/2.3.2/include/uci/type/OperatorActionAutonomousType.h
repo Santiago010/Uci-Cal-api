@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_OPERATORACTIONAUTONOMOUSTYPE_H
 #define UCI_TYPE_OPERATORACTIONAUTONOMOUSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/VisibleString32Type.h"
-#include "uci/type/VisibleString64Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DateTimeType.h"
+#include "VisibleString32Type.h"
+#include "VisibleString64Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

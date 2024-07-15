@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_APPROACHCONDITIONSTYPE_H
 #define UCI_TYPE_APPROACHCONDITIONSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ApproachAngleType.h"
-#include "uci/type/DistanceType.h"
-#include "uci/type/StoreFlightModeEnum.h"
-#include "uci/type/TargetFinalApproachType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ApproachAngleType.h"
+#include "DistanceType.h"
+#include "StoreFlightModeEnum.h"
+#include "TargetFinalApproachType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

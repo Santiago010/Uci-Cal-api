@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_GENERICDATALINKNATIVEINFOTYPE_H
 #define UCI_TYPE_GENERICDATALINKNATIVEINFOTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DataLinkNativeInfoPET.h"
-#include "uci/type/ForeignKeyType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DataLinkNativeInfoPET.h"
+#include "ForeignKeyType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

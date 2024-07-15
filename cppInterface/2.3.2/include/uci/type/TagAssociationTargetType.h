@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_TAGASSOCIATIONTARGETTYPE_H
 #define UCI_TYPE_TAGASSOCIATIONTARGETTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AssociatedMessageType.h"
-#include "uci/type/SecureStringType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AssociatedMessageType.h"
+#include "SecureStringType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

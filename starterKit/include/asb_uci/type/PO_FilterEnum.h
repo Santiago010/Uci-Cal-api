@@ -36,9 +36,9 @@
 #ifndef ASB_UCI_TYPE_PO_FILTERENUM_H
 #define ASB_UCI_TYPE_PO_FILTERENUM_H
 
-#include "asb_uci/base/EnumAccessor.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/PO_FilterEnum.h"
+#include "../../../include/asb_uci/base/EnumAccessor.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_FilterEnum.h"
 
 /**  */
 namespace asb_uci {

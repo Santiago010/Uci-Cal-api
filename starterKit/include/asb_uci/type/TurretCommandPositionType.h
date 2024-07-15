@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AnglePositiveType.h"
-#include "asb_uci/type/AngleType.h"
-#include "asb_uci/type/LOS_ReferenceEnum.h"
-#include "uci/type/TurretCommandPositionType.h"
+#include "../../../include/asb_uci/type/AnglePositiveType.h"
+#include "../../../include/asb_uci/type/AngleType.h"
+#include "../../../include/asb_uci/type/LOS_ReferenceEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TurretCommandPositionType.h"
 
 /**  */
 namespace asb_uci {

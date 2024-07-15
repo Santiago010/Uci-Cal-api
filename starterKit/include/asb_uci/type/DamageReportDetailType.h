@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/BehavioralChangeEnum.h"
-#include "asb_uci/type/DamageAssessmentDetailType.h"
-#include "asb_uci/type/DamageCategoryEnum.h"
-#include "uci/type/DamageReportDetailType.h"
+#include "../../../include/asb_uci/type/BehavioralChangeEnum.h"
+#include "../../../include/asb_uci/type/DamageAssessmentDetailType.h"
+#include "../../../include/asb_uci/type/DamageCategoryEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DamageReportDetailType.h"
 
 /**  */
 namespace asb_uci {

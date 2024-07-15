@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_OPLINEMDT_H
 #define UCI_TYPE_OPLINEMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/OpBaseType.h"
-#include "uci/type/OpLineCategoryEnum.h"
-#include "uci/type/OpLineID_Type.h"
-#include "uci/type/OpLineType.h"
+#include "../base/export.h"
+#include "OpBaseType.h"
+#include "OpLineCategoryEnum.h"
+#include "OpLineID_Type.h"
+#include "OpLineType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_CONTROLINTERFACESCOMMANDSTATUS_H
 #define UCI_TYPE_CONTROLINTERFACESCOMMANDSTATUS_H
 
-#include "uci/type/ControlInterfacesCommandStatusMT.h"
+#include "ControlInterfacesCommandStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

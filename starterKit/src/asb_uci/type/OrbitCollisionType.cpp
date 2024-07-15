@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/OrbitCollisionType.h"
+#include "../../../include/asb_uci/type/OrbitCollisionType.h"
 
 #include <memory>
 #include <string>
@@ -41,15 +41,15 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/OrbitConflictObjectType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/DoubleNonNegativeType.h"
-#include "uci/type/OrbitCollisionType.h"
-#include "uci/type/OrbitConflictObjectType.h"
-#include "uci/type/PercentType.h"
-#include "uci/type/UnitIntervalDoubleType.h"
+#include "../../../include/asb_uci/type/OrbitConflictObjectType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DoubleNonNegativeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitCollisionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitConflictObjectType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PercentType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/UnitIntervalDoubleType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_ASSESSMENTMDT_H
 #define UCI_TYPE_ASSESSMENTMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AnalysisRouteID_Type.h"
-#include "uci/type/AssessmentID_Type.h"
-#include "uci/type/AssessmentType.h"
-#include "uci/type/RequestID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AnalysisRouteID_Type.h"
+#include "AssessmentID_Type.h"
+#include "AssessmentType.h"
+#include "RequestID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

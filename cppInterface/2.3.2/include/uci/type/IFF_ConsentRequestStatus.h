@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_IFF_CONSENTREQUESTSTATUS_H
 #define UCI_TYPE_IFF_CONSENTREQUESTSTATUS_H
 
-#include "uci/type/IFF_ConsentRequestStatusMT.h"
+#include "IFF_ConsentRequestStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

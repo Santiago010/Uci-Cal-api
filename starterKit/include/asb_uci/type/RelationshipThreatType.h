@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/ThreatEnum.h"
-#include "asb_uci/type/ThreatPostureEnum.h"
-#include "asb_uci/type/ThreatWeaponEnum.h"
-#include "uci/type/RelationshipThreatType.h"
+#include "../../../include/asb_uci/type/ThreatEnum.h"
+#include "../../../include/asb_uci/type/ThreatPostureEnum.h"
+#include "../../../include/asb_uci/type/ThreatWeaponEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RelationshipThreatType.h"
 
 /**  */
 namespace asb_uci {

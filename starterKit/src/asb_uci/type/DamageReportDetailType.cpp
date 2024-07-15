@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/DamageReportDetailType.h"
+#include "../../../include/asb_uci/type/DamageReportDetailType.h"
 
 #include <memory>
 #include <string>
@@ -41,19 +41,19 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/BehavioralChangeEnum.h"
-#include "asb_uci/type/DamageAssessmentDetailType.h"
-#include "asb_uci/type/DamageCategoryEnum.h"
-#include "asb_uci/type/DamageWeaponEmploymentType.h"
-#include "asb_uci/type/ImpactDetailsType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/BehavioralChangeEnum.h"
-#include "uci/type/DamageCategoryEnum.h"
-#include "uci/type/DamageReportDetailType.h"
-#include "uci/type/DamageWeaponEmploymentType.h"
-#include "uci/type/ImpactDetailsType.h"
+#include "../../../include/asb_uci/type/BehavioralChangeEnum.h"
+#include "../../../include/asb_uci/type/DamageAssessmentDetailType.h"
+#include "../../../include/asb_uci/type/DamageCategoryEnum.h"
+#include "../../../include/asb_uci/type/DamageWeaponEmploymentType.h"
+#include "../../../include/asb_uci/type/ImpactDetailsType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/BehavioralChangeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DamageCategoryEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DamageReportDetailType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DamageWeaponEmploymentType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ImpactDetailsType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_AIRDATATYPE_H
 #define UCI_TYPE_AIRDATATYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/DoubleAccessor.h"
-#include "uci/base/FloatAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AltitudeBarometricType.h"
-#include "uci/type/AngleHalfType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/SpeedType.h"
+#include "../base/Accessor.h"
+#include "../base/DoubleAccessor.h"
+#include "../base/FloatAccessor.h"
+#include "../base/export.h"
+#include "AltitudeBarometricType.h"
+#include "AngleHalfType.h"
+#include "DateTimeType.h"
+#include "SpeedType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/StandardIdentityEnum.h"
-#include "uci/type/StandardIdentityType.h"
+#include "../../../include/asb_uci/type/StandardIdentityEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StandardIdentityType.h"
 
 /**  */
 namespace asb_uci {

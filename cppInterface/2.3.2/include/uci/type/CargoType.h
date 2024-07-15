@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_CARGOTYPE_H
 #define UCI_TYPE_CARGOTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CargoPackagingEnum.h"
-#include "uci/type/CargoSizeType.h"
-#include "uci/type/MassType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CargoPackagingEnum.h"
+#include "CargoSizeType.h"
+#include "MassType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

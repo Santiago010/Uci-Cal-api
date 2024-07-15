@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_EFFECTPLANVALIDATIONCOMMANDSTATUS_H
 #define UCI_TYPE_EFFECTPLANVALIDATIONCOMMANDSTATUS_H
 
-#include "uci/type/EffectPlanValidationCommandStatusMT.h"
+#include "EffectPlanValidationCommandStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

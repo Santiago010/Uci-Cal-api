@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_RF_RESOURCEALLOCATIONMDT_H
 #define UCI_TYPE_RF_RESOURCEALLOCATIONMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/RF_ResourceAllocationID_Type.h"
-#include "uci/type/RF_ResourceAllocationType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "RF_ResourceAllocationID_Type.h"
+#include "RF_ResourceAllocationType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

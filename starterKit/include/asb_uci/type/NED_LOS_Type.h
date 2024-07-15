@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AnglePositiveType.h"
-#include "asb_uci/type/AngleType.h"
-#include "asb_uci/type/DistanceType.h"
-#include "uci/type/NED_LOS_Type.h"
+#include "../../../include/asb_uci/type/AnglePositiveType.h"
+#include "../../../include/asb_uci/type/AngleType.h"
+#include "../../../include/asb_uci/type/DistanceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/NED_LOS_Type.h"
 
 /**  */
 namespace asb_uci {

@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_THREATNOMINATIONASSESSMENTTYPE_H
 #define UCI_TYPE_THREATNOMINATIONASSESSMENTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ThreatNominationAssessmentDataType.h"
-#include "uci/type/ThreatNominationAssessmentRequestType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ThreatNominationAssessmentDataType.h"
+#include "ThreatNominationAssessmentRequestType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

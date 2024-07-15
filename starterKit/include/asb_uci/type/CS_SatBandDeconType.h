@@ -41,11 +41,11 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/FrequencyType.h"
-#include "asb_uci/type/IEEE_FrequencyBandEnum.h"
-#include "asb_uci/type/MilliwattPowerRatioType.h"
-#include "uci/type/CS_SatBandDeconType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/FrequencyType.h"
+#include "../../../include/asb_uci/type/IEEE_FrequencyBandEnum.h"
+#include "../../../include/asb_uci/type/MilliwattPowerRatioType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CS_SatBandDeconType.h"
 
 /**  */
 namespace asb_uci {

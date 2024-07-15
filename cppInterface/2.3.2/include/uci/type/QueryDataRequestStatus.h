@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_QUERYDATAREQUESTSTATUS_H
 #define UCI_TYPE_QUERYDATAREQUESTSTATUS_H
 
-#include "uci/type/QueryDataRequestStatusMT.h"
+#include "QueryDataRequestStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

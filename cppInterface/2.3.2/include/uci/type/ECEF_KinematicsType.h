@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_ECEF_KINEMATICSTYPE_H
 #define UCI_TYPE_ECEF_KINEMATICSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/ECEF_AccelerationType.h"
-#include "uci/type/ECEF_PositionType.h"
-#include "uci/type/ECEF_StateCovarianceType.h"
-#include "uci/type/ECEF_VelocityType.h"
-#include "uci/type/OrientationType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DateTimeType.h"
+#include "ECEF_AccelerationType.h"
+#include "ECEF_PositionType.h"
+#include "ECEF_StateCovarianceType.h"
+#include "ECEF_VelocityType.h"
+#include "OrientationType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

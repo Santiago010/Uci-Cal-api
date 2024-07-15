@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_LINK16DATALINKNATIVEINFOTYPE_H
 #define UCI_TYPE_LINK16DATALINKNATIVEINFOTYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DataLinkNativeInfoPET.h"
-#include "uci/type/Link16TrackBlockType.h"
-#include "uci/type/Link16TrackNumberType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DataLinkNativeInfoPET.h"
+#include "Link16TrackBlockType.h"
+#include "Link16TrackNumberType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

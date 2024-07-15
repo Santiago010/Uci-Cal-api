@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_COMPONENTCONFIGURATIONDATAREQUEST_H
 #define UCI_TYPE_COMPONENTCONFIGURATIONDATAREQUEST_H
 
-#include "uci/type/ComponentConfigurationDataRequestMT.h"
+#include "ComponentConfigurationDataRequestMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

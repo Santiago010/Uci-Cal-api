@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/AccessEventType.h"
+#include "../../../include/asb_uci/type/AccessEventType.h"
 
 #include <memory>
 #include <string>
@@ -41,22 +41,22 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AccessEffortEnum.h"
-#include "asb_uci/type/EnduranceMultiStandardType.h"
-#include "asb_uci/type/KinematicsMultiStandardType.h"
-#include "asb_uci/type/ManeuverMultiStandardType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AccessEffortEnum.h"
-#include "uci/type/AccessEventType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/DistanceType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/EnduranceMultiStandardType.h"
-#include "uci/type/KinematicsMultiStandardType.h"
-#include "uci/type/ManeuverMultiStandardType.h"
-#include "uci/type/PercentType.h"
+#include "../../../include/asb_uci/type/AccessEffortEnum.h"
+#include "../../../include/asb_uci/type/EnduranceMultiStandardType.h"
+#include "../../../include/asb_uci/type/KinematicsMultiStandardType.h"
+#include "../../../include/asb_uci/type/ManeuverMultiStandardType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AccessEffortEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AccessEventType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DateTimeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DistanceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DurationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EnduranceMultiStandardType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/KinematicsMultiStandardType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ManeuverMultiStandardType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PercentType.h"
 
 /**  */
 namespace asb_uci {

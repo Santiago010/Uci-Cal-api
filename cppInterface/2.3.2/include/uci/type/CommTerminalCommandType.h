@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_COMMTERMINALCOMMANDTYPE_H
 #define UCI_TYPE_COMMTERMINALCOMMANDTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CommTerminalActivityCommandType.h"
-#include "uci/type/CommTerminalCapabilityCommandType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CommTerminalActivityCommandType.h"
+#include "CommTerminalCapabilityCommandType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

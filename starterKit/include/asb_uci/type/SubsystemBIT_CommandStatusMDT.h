@@ -38,8 +38,8 @@
 
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/SubsystemCommandStatusBaseType.h"
-#include "uci/type/SubsystemBIT_CommandStatusMDT.h"
+#include "../../../include/asb_uci/type/SubsystemCommandStatusBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemBIT_CommandStatusMDT.h"
 
 /**  */
 namespace asb_uci {

@@ -38,8 +38,8 @@
 
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/ForeignKeyType.h"
-#include "uci/type/EOB_EquipmentType.h"
+#include "../../../include/asb_uci/type/ForeignKeyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EOB_EquipmentType.h"
 
 /**  */
 namespace asb_uci {

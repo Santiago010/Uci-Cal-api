@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ActivityPlanMDT.h"
+#include "../../../include/asb_uci/type/ActivityPlanMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,19 +41,19 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ActivityPlanCommandID_ChoiceType.h"
-#include "asb_uci/type/ActivityPlanID_Type.h"
-#include "asb_uci/type/ActivityPlanInputsType.h"
-#include "asb_uci/type/ActivityPlanType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ActivityPlanCommandID_ChoiceType.h"
-#include "uci/type/ActivityPlanID_Type.h"
-#include "uci/type/ActivityPlanInputsType.h"
-#include "uci/type/ActivityPlanMDT.h"
-#include "uci/type/ActivityPlanType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/ActivityPlanCommandID_ChoiceType.h"
+#include "../../../include/asb_uci/type/ActivityPlanID_Type.h"
+#include "../../../include/asb_uci/type/ActivityPlanInputsType.h"
+#include "../../../include/asb_uci/type/ActivityPlanType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ActivityPlanCommandID_ChoiceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ActivityPlanID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ActivityPlanInputsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ActivityPlanMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ActivityPlanType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

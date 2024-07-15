@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_FUSIONSOURCETYPE_H
 #define UCI_TYPE_FUSIONSOURCETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EntitySourceEnum.h"
-#include "uci/type/FusionUpdatesEnum.h"
-#include "uci/type/SystemID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "EntitySourceEnum.h"
+#include "FusionUpdatesEnum.h"
+#include "SystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

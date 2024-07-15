@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_DAMAGEWEAPONEMPLOYMENTTYPE_H
 #define UCI_TYPE_DAMAGEWEAPONEMPLOYMENTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeRangeType.h"
-#include "uci/type/Point2D_Type.h"
-#include "uci/type/SystemID_Type.h"
-#include "uci/type/TaskID_Type.h"
-#include "uci/type/WeaponeeringType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DateTimeRangeType.h"
+#include "Point2D_Type.h"
+#include "SystemID_Type.h"
+#include "TaskID_Type.h"
+#include "WeaponeeringType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

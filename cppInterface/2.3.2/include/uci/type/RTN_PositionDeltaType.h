@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_RTN_POSITIONDELTATYPE_H
 #define UCI_TYPE_RTN_POSITIONDELTATYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DistanceOffsetType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DistanceOffsetType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ENTITYPROPAGATION_H
 #define UCI_TYPE_ENTITYPROPAGATION_H
 
-#include "uci/type/EntityPropagationMT.h"
+#include "EntityPropagationMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

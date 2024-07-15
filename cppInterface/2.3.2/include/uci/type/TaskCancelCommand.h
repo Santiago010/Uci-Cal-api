@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_TASKCANCELCOMMAND_H
 #define UCI_TYPE_TASKCANCELCOMMAND_H
 
-#include "uci/type/TaskCancelCommandMT.h"
+#include "TaskCancelCommandMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

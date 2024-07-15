@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_PRODUCTOUTPUTCAPABILITYSTATUSIMAGERYTYPE_H
 #define UCI_TYPE_PRODUCTOUTPUTCAPABILITYSTATUSIMAGERYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/FloatAccessor.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/PO_ProductGeneratorOutputID_Type.h"
-#include "uci/type/ProductResolutionType.h"
-#include "uci/type/VideoOutputSettingsType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/FloatAccessor.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "PO_ProductGeneratorOutputID_Type.h"
+#include "ProductResolutionType.h"
+#include "VideoOutputSettingsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

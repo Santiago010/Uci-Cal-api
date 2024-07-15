@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_PO_SETTINGSCOMMANDMDT_H
 #define UCI_TYPE_PO_SETTINGSCOMMANDMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilitySettingsCommandBaseType.h"
-#include "uci/type/FOR_Type.h"
-#include "uci/type/PO_CollectionConstraintsSettingsType.h"
-#include "uci/type/PO_ComponentSettingsType.h"
-#include "uci/type/PO_MessageOutputsEnum.h"
-#include "uci/type/PO_SubCapabilitySettingsType.h"
-#include "uci/type/PO_TrackSettingsType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilitySettingsCommandBaseType.h"
+#include "FOR_Type.h"
+#include "PO_CollectionConstraintsSettingsType.h"
+#include "PO_ComponentSettingsType.h"
+#include "PO_MessageOutputsEnum.h"
+#include "PO_SubCapabilitySettingsType.h"
+#include "PO_TrackSettingsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

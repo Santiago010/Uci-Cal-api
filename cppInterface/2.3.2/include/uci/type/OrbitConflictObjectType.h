@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_ORBITCONFLICTOBJECTTYPE_H
 #define UCI_TYPE_ORBITCONFLICTOBJECTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/MassType.h"
-#include "uci/type/OrbitKinematicsType.h"
-#include "uci/type/PercentType.h"
-#include "uci/type/SatelliteIdentityChoiceType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "MassType.h"
+#include "OrbitKinematicsType.h"
+#include "PercentType.h"
+#include "SatelliteIdentityChoiceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

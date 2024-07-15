@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_TASKPLANCOMMANDSTATUSMDT_H
 #define UCI_TYPE_TASKPLANCOMMANDSTATUSMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/PlanCommandStatusType.h"
-#include "uci/type/TaskPlanCommandID_Type.h"
-#include "uci/type/TaskPlanID_Type.h"
-#include "uci/type/TaskPlanningResultType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "PlanCommandStatusType.h"
+#include "TaskPlanCommandID_Type.h"
+#include "TaskPlanID_Type.h"
+#include "TaskPlanningResultType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

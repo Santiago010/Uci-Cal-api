@@ -36,18 +36,18 @@
 #ifndef UCI_TYPE_COMMTERMINALACTIVITYTYPE_H
 #define UCI_TYPE_COMMTERMINALACTIVITYTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CommConnectionStateEnum.h"
-#include "uci/type/CommControlType.h"
-#include "uci/type/CommLinkPortMapType.h"
-#include "uci/type/CommLinkStatisticsType.h"
-#include "uci/type/CommProfileID_Type.h"
-#include "uci/type/CommWaveformActivityPET.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/SharedRF_ApertureActivityBaseType.h"
-#include "uci/type/UserLinkStatusType.h"
-#include "uci/type/VerboseStatusType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CommConnectionStateEnum.h"
+#include "CommControlType.h"
+#include "CommLinkPortMapType.h"
+#include "CommLinkStatisticsType.h"
+#include "CommProfileID_Type.h"
+#include "CommWaveformActivityPET.h"
+#include "ForeignKeyType.h"
+#include "SharedRF_ApertureActivityBaseType.h"
+#include "UserLinkStatusType.h"
+#include "VerboseStatusType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

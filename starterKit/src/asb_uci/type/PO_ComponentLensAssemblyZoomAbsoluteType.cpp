@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/PO_ComponentLensAssemblyZoomAbsoluteType.h"
+#include "../../../include/asb_uci/type/PO_ComponentLensAssemblyZoomAbsoluteType.h"
 
 #include <memory>
 #include <string>
@@ -41,13 +41,13 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ComponentControlInterfacesEnum.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AngleQuarterType.h"
-#include "uci/type/ComponentControlInterfacesEnum.h"
-#include "uci/type/PO_ComponentLensAssemblyZoomAbsoluteType.h"
+#include "../../../include/asb_uci/type/ComponentControlInterfacesEnum.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AngleQuarterType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ComponentControlInterfacesEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ComponentLensAssemblyZoomAbsoluteType.h"
 
 /**  */
 namespace asb_uci {

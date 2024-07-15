@@ -41,13 +41,13 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/CapabilityCommandStateEnum.h"
-#include "asb_uci/type/CommandBaseType.h"
-#include "asb_uci/type/EventSeverityEnum.h"
-#include "asb_uci/type/ServiceSettingEnum.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/ServiceSettingsCommandMDT.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/CapabilityCommandStateEnum.h"
+#include "../../../include/asb_uci/type/CommandBaseType.h"
+#include "../../../include/asb_uci/type/EventSeverityEnum.h"
+#include "../../../include/asb_uci/type/ServiceSettingEnum.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ServiceSettingsCommandMDT.h"
 
 /**  */
 namespace asb_uci {

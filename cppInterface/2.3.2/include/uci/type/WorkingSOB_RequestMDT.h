@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_WORKINGSOB_REQUESTMDT_H
 #define UCI_TYPE_WORKINGSOB_REQUESTMDT_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/QueryMessageType.h"
-#include "uci/type/RequestBaseType.h"
-#include "uci/type/SOB_RecordEnum.h"
-#include "uci/type/WorkingSOB_SourceID_ChoiceType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "QueryMessageType.h"
+#include "RequestBaseType.h"
+#include "SOB_RecordEnum.h"
+#include "WorkingSOB_SourceID_ChoiceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

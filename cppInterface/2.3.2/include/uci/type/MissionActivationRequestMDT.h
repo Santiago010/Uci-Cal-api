@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_MISSIONACTIVATIONREQUESTMDT_H
 #define UCI_TYPE_MISSIONACTIVATIONREQUESTMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/MissionID_Type.h"
-#include "uci/type/MissionStateEnum.h"
-#include "uci/type/RequestBaseType.h"
+#include "../base/export.h"
+#include "MissionID_Type.h"
+#include "MissionStateEnum.h"
+#include "RequestBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SERVICELIFECYCLECOMMANDSTATUSMDT_H
 #define UCI_TYPE_SERVICELIFECYCLECOMMANDSTATUSMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/CommandStatusBaseType.h"
-#include "uci/type/ServiceID_Type.h"
-#include "uci/type/ServiceLifecycleCommandStatusEnum.h"
+#include "../base/export.h"
+#include "CommandStatusBaseType.h"
+#include "ServiceID_Type.h"
+#include "ServiceLifecycleCommandStatusEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

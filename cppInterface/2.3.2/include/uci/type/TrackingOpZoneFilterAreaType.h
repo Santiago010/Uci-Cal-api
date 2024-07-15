@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_TRACKINGOPZONEFILTERAREATYPE_H
 #define UCI_TYPE_TRACKINGOPZONEFILTERAREATYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/OpZoneFilterAreaPET.h"
-#include "uci/type/OpZoneTrackAreaDomainSourceType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "OpZoneFilterAreaPET.h"
+#include "OpZoneTrackAreaDomainSourceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

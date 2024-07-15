@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SYSTEMTIMEATREFERENCE_H
 #define UCI_TYPE_SYSTEMTIMEATREFERENCE_H
 
-#include "uci/type/SystemTimeAtReferenceMT.h"
+#include "SystemTimeAtReferenceMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

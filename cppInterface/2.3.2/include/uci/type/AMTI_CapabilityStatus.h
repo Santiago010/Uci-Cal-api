@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_AMTI_CAPABILITYSTATUS_H
 #define UCI_TYPE_AMTI_CAPABILITYSTATUS_H
 
-#include "uci/type/AMTI_CapabilityStatusMT.h"
+#include "AMTI_CapabilityStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

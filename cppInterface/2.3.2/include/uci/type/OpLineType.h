@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_OPLINETYPE_H
 #define UCI_TYPE_OPLINETYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/LineType.h"
-#include "uci/type/Velocity2D_Type.h"
+#include "../base/export.h"
+#include "LineType.h"
+#include "Velocity2D_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

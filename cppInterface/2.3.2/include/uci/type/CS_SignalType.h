@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_CS_SIGNALTYPE_H
 #define UCI_TYPE_CS_SIGNALTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/FrequencyRangeType.h"
-#include "uci/type/PolarizationEnum.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ForeignKeyType.h"
+#include "FrequencyRangeType.h"
+#include "PolarizationEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

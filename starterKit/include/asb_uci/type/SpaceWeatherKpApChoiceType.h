@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/GeomagneticApIndexType.h"
-#include "asb_uci/type/GeomagneticKpIndexType.h"
-#include "uci/base/Accessor.h"
-#include "uci/type/SpaceWeatherKpApChoiceType.h"
+#include "../../../include/asb_uci/type/GeomagneticApIndexType.h"
+#include "../../../include/asb_uci/type/GeomagneticKpIndexType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SpaceWeatherKpApChoiceType.h"
 
 /**  */
 namespace asb_uci {

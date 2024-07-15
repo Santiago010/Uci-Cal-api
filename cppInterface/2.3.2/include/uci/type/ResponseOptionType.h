@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_RESPONSEOPTIONTYPE_H
 #define UCI_TYPE_RESPONSEOPTIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ActionID_Type.h"
-#include "uci/type/ActionTypeEnum.h"
-#include "uci/type/CommandID_Type.h"
-#include "uci/type/CommandResponseType.h"
-#include "uci/type/EffectID_Type.h"
-#include "uci/type/EffectTypeEnum.h"
-#include "uci/type/TaskID_Type.h"
-#include "uci/type/TaskResponseType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ActionID_Type.h"
+#include "ActionTypeEnum.h"
+#include "CommandID_Type.h"
+#include "CommandResponseType.h"
+#include "EffectID_Type.h"
+#include "EffectTypeEnum.h"
+#include "TaskID_Type.h"
+#include "TaskResponseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_REQUIREMENTEXECUTIONSTATUSDETAILSTYPE_H
 #define UCI_TYPE_REQUIREMENTEXECUTIONSTATUSDETAILSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CannotComplyType.h"
-#include "uci/type/MetricsType.h"
-#include "uci/type/PercentType.h"
-#include "uci/type/RequirementExecutionStateEnum.h"
-#include "uci/type/RequirementStatusTraceabilityType.h"
-#include "uci/type/RequirementTimingType.h"
-#include "uci/type/SystemID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CannotComplyType.h"
+#include "MetricsType.h"
+#include "PercentType.h"
+#include "RequirementExecutionStateEnum.h"
+#include "RequirementStatusTraceabilityType.h"
+#include "RequirementTimingType.h"
+#include "SystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

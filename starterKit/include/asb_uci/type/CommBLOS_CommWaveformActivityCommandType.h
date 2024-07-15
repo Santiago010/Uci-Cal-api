@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/CommWaveformActivityCommandPET.h"
-#include "uci/type/CommBLOS_CommWaveformActivityCommandType.h"
+#include "../../../include/asb_uci/type/CommWaveformActivityCommandPET.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommBLOS_CommWaveformActivityCommandType.h"
 
 /**  */
 namespace asb_uci {

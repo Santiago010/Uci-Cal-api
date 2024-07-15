@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_MISSIONACTIVATIONREQUEST_H
 #define UCI_TYPE_MISSIONACTIVATIONREQUEST_H
 
-#include "uci/type/MissionActivationRequestMT.h"
+#include "MissionActivationRequestMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

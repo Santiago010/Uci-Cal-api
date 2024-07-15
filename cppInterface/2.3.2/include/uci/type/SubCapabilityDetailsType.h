@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_SUBCAPABILITYDETAILSTYPE_H
 #define UCI_TYPE_SUBCAPABILITYDETAILSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ESM_LocationType.h"
-#include "uci/type/ESM_SubcapabilityGeolocationType.h"
-#include "uci/type/ESM_TargetType.h"
-#include "uci/type/FrequencyRangeType.h"
-#include "uci/type/PulseDataCollectCommandType.h"
-#include "uci/type/SelectAntennaType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ESM_LocationType.h"
+#include "ESM_SubcapabilityGeolocationType.h"
+#include "ESM_TargetType.h"
+#include "FrequencyRangeType.h"
+#include "PulseDataCollectCommandType.h"
+#include "SelectAntennaType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

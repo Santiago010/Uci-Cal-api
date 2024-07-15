@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/ProcessingResultsPET.h"
-#include "asb_uci/type/UnitBallDoubleType.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/ImageGeoRegistrationProcessingResultsType.h"
+#include "../../../include/asb_uci/type/ProcessingResultsPET.h"
+#include "../../../include/asb_uci/type/UnitBallDoubleType.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ImageGeoRegistrationProcessingResultsType.h"
 
 /**  */
 namespace asb_uci {

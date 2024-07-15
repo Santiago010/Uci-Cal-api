@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_STRIKEACTIVITY_H
 #define UCI_TYPE_STRIKEACTIVITY_H
 
-#include "uci/type/StrikeActivityMT.h"
+#include "StrikeActivityMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

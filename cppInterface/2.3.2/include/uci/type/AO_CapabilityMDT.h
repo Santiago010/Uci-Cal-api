@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_AO_CAPABILITYMDT_H
 #define UCI_TYPE_AO_CAPABILITYMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AO_CapabilityType.h"
-#include "uci/type/AO_ComponentType.h"
-#include "uci/type/CapabilityBaseType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AO_CapabilityType.h"
+#include "AO_ComponentType.h"
+#include "CapabilityBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

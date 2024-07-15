@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_ROUTEACTIVITYEXECUTIONSTATUSTYPE_H
 #define UCI_TYPE_ROUTEACTIVITYEXECUTIONSTATUSTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/ActivityExecutionStatusType.h"
-#include "uci/type/RouteActivityPlanID_Type.h"
+#include "../base/export.h"
+#include "ActivityExecutionStatusType.h"
+#include "RouteActivityPlanID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -38,8 +38,8 @@
 
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/CapabilitySettingsCommandBaseType.h"
-#include "uci/type/StrikeSettingsCommandMDT.h"
+#include "../../../include/asb_uci/type/CapabilitySettingsCommandBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StrikeSettingsCommandMDT.h"
 
 /**  */
 namespace asb_uci {

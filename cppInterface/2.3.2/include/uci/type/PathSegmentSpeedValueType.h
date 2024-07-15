@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_PATHSEGMENTSPEEDVALUETYPE_H
 #define UCI_TYPE_PATHSEGMENTSPEEDVALUETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/SpeedReferenceEnum.h"
-#include "uci/type/SpeedType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "SpeedReferenceEnum.h"
+#include "SpeedType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

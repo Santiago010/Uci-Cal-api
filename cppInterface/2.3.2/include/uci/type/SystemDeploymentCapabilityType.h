@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_SYSTEMDEPLOYMENTCAPABILITYTYPE_H
 #define UCI_TYPE_SYSTEMDEPLOYMENTCAPABILITYTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CommandableCapabilityDeclarationType.h"
-#include "uci/type/DeployableSystemIdentityType.h"
-#include "uci/type/EnvironmentEnum.h"
-#include "uci/type/SystemDeploymentEnum.h"
-#include "uci/type/SystemDeploymentOptionsType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CommandableCapabilityDeclarationType.h"
+#include "DeployableSystemIdentityType.h"
+#include "EnvironmentEnum.h"
+#include "SystemDeploymentEnum.h"
+#include "SystemDeploymentOptionsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

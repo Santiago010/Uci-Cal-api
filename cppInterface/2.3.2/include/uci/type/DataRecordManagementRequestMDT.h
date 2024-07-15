@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_DATARECORDMANAGEMENTREQUESTMDT_H
 #define UCI_TYPE_DATARECORDMANAGEMENTREQUESTMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DataRecordDeleteDetailsType.h"
-#include "uci/type/DataRecordManagementDetailsType.h"
-#include "uci/type/RequestBaseType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DataRecordDeleteDetailsType.h"
+#include "DataRecordManagementDetailsType.h"
+#include "RequestBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

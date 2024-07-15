@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_CONTROLSOURCESCOMMAND_H
 #define UCI_TYPE_CONTROLSOURCESCOMMAND_H
 
-#include "uci/type/ControlSourcesCommandMT.h"
+#include "ControlSourcesCommandMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

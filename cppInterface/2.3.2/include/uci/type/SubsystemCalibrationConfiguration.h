@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SUBSYSTEMCALIBRATIONCONFIGURATION_H
 #define UCI_TYPE_SUBSYSTEMCALIBRATIONCONFIGURATION_H
 
-#include "uci/type/SubsystemCalibrationConfigurationMT.h"
+#include "SubsystemCalibrationConfigurationMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

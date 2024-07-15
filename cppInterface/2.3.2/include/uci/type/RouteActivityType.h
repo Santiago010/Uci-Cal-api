@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_ROUTEACTIVITYTYPE_H
 #define UCI_TYPE_ROUTEACTIVITYTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/PlannedActivityTriggerType.h"
-#include "uci/type/RouteActivityKinematicReferenceType.h"
+#include "../base/export.h"
+#include "PlannedActivityTriggerType.h"
+#include "RouteActivityKinematicReferenceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

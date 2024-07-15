@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/AirSampleCapabilityType.h"
+#include "../../../include/asb_uci/type/AirSampleCapabilityType.h"
 
 #include <memory>
 #include <string>
@@ -41,17 +41,17 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AirSampleCapabilityEnum.h"
-#include "asb_uci/type/AirSampleMessageOutputsEnum.h"
-#include "asb_uci/type/AirSampleOptionsType.h"
-#include "asb_uci/type/CommandableCapabilityDeclarationType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AirSampleCapabilityEnum.h"
-#include "uci/type/AirSampleCapabilityType.h"
-#include "uci/type/AirSampleMessageOutputsEnum.h"
-#include "uci/type/AirSampleOptionsType.h"
+#include "../../../include/asb_uci/type/AirSampleCapabilityEnum.h"
+#include "../../../include/asb_uci/type/AirSampleMessageOutputsEnum.h"
+#include "../../../include/asb_uci/type/AirSampleOptionsType.h"
+#include "../../../include/asb_uci/type/CommandableCapabilityDeclarationType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AirSampleCapabilityEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AirSampleCapabilityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AirSampleMessageOutputsEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AirSampleOptionsType.h"
 
 /**  */
 namespace asb_uci {

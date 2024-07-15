@@ -41,12 +41,12 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/CommMADL_AircraftTypeEnum.h"
-#include "asb_uci/type/CommMADL_NetChangeStatusEnum.h"
-#include "asb_uci/type/CommWaveformActivityPET.h"
-#include "asb_uci/type/DayOfYearType.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/CommMADL_CommWaveformActivityType.h"
+#include "../../../include/asb_uci/type/CommMADL_AircraftTypeEnum.h"
+#include "../../../include/asb_uci/type/CommMADL_NetChangeStatusEnum.h"
+#include "../../../include/asb_uci/type/CommWaveformActivityPET.h"
+#include "../../../include/asb_uci/type/DayOfYearType.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommMADL_CommWaveformActivityType.h"
 
 /**  */
 namespace asb_uci {

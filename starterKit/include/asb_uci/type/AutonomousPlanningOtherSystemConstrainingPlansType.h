@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AutonomousPlanningConstrainingPlansType.h"
-#include "asb_uci/type/PlanConstraintUsageEnum.h"
-#include "uci/type/AutonomousPlanningOtherSystemConstrainingPlansType.h"
+#include "../../../include/asb_uci/type/AutonomousPlanningConstrainingPlansType.h"
+#include "../../../include/asb_uci/type/PlanConstraintUsageEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AutonomousPlanningOtherSystemConstrainingPlansType.h"
 
 /**  */
 namespace asb_uci {

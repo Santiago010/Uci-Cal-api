@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_COMMSYSTEMMDT_H
 #define UCI_TYPE_COMMSYSTEMMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CommAssetID_Type.h"
-#include "uci/type/CommSchedulingScopeEnum.h"
-#include "uci/type/CommSystemID_Type.h"
-#include "uci/type/CommType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CommAssetID_Type.h"
+#include "CommSchedulingScopeEnum.h"
+#include "CommSystemID_Type.h"
+#include "CommType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

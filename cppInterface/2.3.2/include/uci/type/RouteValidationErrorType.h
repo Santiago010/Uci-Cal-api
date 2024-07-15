@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_ROUTEVALIDATIONERRORTYPE_H
 #define UCI_TYPE_ROUTEVALIDATIONERRORTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/RouteValidationErrorEnum.h"
-#include "uci/type/VisibleString256Type.h"
+#include "../base/Accessor.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "RouteValidationErrorEnum.h"
+#include "VisibleString256Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

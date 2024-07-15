@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_MISSIONDEFINITION_H
 #define UCI_TYPE_MISSIONDEFINITION_H
 
-#include "uci/type/MissionDefinitionMT.h"
+#include "MissionDefinitionMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/VideoEncoderSettingsType.h"
+#include "../../../include/asb_uci/type/VideoEncoderSettingsType.h"
 
 #include <memory>
 #include <string>
@@ -41,28 +41,28 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CropType.h"
-#include "asb_uci/type/ForeignKeyType.h"
-#include "asb_uci/type/UnsignedIntegerMinMaxType.h"
-#include "asb_uci/type/VideoBlockSizeEnum.h"
-#include "asb_uci/type/VideoChromaSubsampleEnum.h"
-#include "asb_uci/type/VideoEncoderCompressionModeEnum.h"
-#include "asb_uci/type/VisibleString32Type.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CropType.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/FrequencyType.h"
-#include "uci/type/PercentType.h"
-#include "uci/type/UnsignedIntegerMinMaxType.h"
-#include "uci/type/VideoBlockSizeEnum.h"
-#include "uci/type/VideoChromaSubsampleEnum.h"
-#include "uci/type/VideoEncoderCompressionModeEnum.h"
-#include "uci/type/VideoEncoderSettingsType.h"
-#include "uci/type/VisibleString32Type.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/CropType.h"
+#include "../../../include/asb_uci/type/ForeignKeyType.h"
+#include "../../../include/asb_uci/type/UnsignedIntegerMinMaxType.h"
+#include "../../../include/asb_uci/type/VideoBlockSizeEnum.h"
+#include "../../../include/asb_uci/type/VideoChromaSubsampleEnum.h"
+#include "../../../include/asb_uci/type/VideoEncoderCompressionModeEnum.h"
+#include "../../../include/asb_uci/type/VisibleString32Type.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CropType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ForeignKeyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FrequencyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PercentType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/UnsignedIntegerMinMaxType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VideoBlockSizeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VideoChromaSubsampleEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VideoEncoderCompressionModeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VideoEncoderSettingsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString32Type.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

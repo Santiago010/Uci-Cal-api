@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_EA_CAPABILITY_H
 #define UCI_TYPE_EA_CAPABILITY_H
 
-#include "uci/type/EA_CapabilityMT.h"
+#include "EA_CapabilityMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

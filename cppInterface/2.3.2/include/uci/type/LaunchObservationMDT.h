@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_LAUNCHOBSERVATIONMDT_H
 #define UCI_TYPE_LAUNCHOBSERVATIONMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DataRecordBaseType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/LaunchObjectType.h"
-#include "uci/type/LaunchObservationID_Type.h"
-#include "uci/type/LaunchStaticDetailsType.h"
-#include "uci/type/SourceFiltersType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DataRecordBaseType.h"
+#include "DateTimeType.h"
+#include "LaunchObjectType.h"
+#include "LaunchObservationID_Type.h"
+#include "LaunchStaticDetailsType.h"
+#include "SourceFiltersType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

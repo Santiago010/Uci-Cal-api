@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/PulseDataCollectCommandType.h"
+#include "../../../include/asb_uci/type/PulseDataCollectCommandType.h"
 
 #include <memory>
 #include <string>
@@ -41,21 +41,21 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CollectionFrequencyType.h"
-#include "asb_uci/type/FrequencyRangeType.h"
-#include "asb_uci/type/ModulationEnum.h"
-#include "asb_uci/type/SignalTypeEnum.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CollectionFrequencyType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/FrequencyRangeType.h"
-#include "uci/type/ModulationEnum.h"
-#include "uci/type/PulseDataCollectCommandType.h"
-#include "uci/type/SignalTypeEnum.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/CollectionFrequencyType.h"
+#include "../../../include/asb_uci/type/FrequencyRangeType.h"
+#include "../../../include/asb_uci/type/ModulationEnum.h"
+#include "../../../include/asb_uci/type/SignalTypeEnum.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CollectionFrequencyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DateTimeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DurationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FrequencyRangeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ModulationEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PulseDataCollectCommandType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SignalTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

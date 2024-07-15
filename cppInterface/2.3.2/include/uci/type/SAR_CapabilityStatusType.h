@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SAR_CAPABILITYSTATUSTYPE_H
 #define UCI_TYPE_SAR_CAPABILITYSTATUSTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityStatusType.h"
-#include "uci/type/SupportedResolutionAvailabilityType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilityStatusType.h"
+#include "SupportedResolutionAvailabilityType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

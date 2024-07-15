@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_APPROVALREQUESTSTATUSMDT_H
 #define UCI_TYPE_APPROVALREQUESTSTATUSMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ApprovalStatusEnum.h"
-#include "uci/type/CannotComplyType.h"
-#include "uci/type/DMPI_ID_Type.h"
-#include "uci/type/OperatorID_Type.h"
-#include "uci/type/RequestStatusBaseType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ApprovalStatusEnum.h"
+#include "CannotComplyType.h"
+#include "DMPI_ID_Type.h"
+#include "OperatorID_Type.h"
+#include "RequestStatusBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_OPAQUECAPABILITYMT_H
 #define UCI_TYPE_OPAQUECAPABILITYMT_H
 
-#include "uci/base/Listener.h"
-#include "uci/base/Reader.h"
-#include "uci/base/Writer.h"
-#include "uci/base/export.h"
-#include "uci/type/MessageType.h"
-#include "uci/type/ObjectStateEnum.h"
-#include "uci/type/OpaqueCapabilityMDT.h"
+#include "../base/Listener.h"
+#include "../base/Reader.h"
+#include "../base/Writer.h"
+#include "../base/export.h"
+#include "MessageType.h"
+#include "ObjectStateEnum.h"
+#include "OpaqueCapabilityMDT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

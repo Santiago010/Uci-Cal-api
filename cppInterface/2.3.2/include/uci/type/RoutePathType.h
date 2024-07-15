@@ -36,17 +36,17 @@
 #ifndef UCI_TYPE_ROUTEPATHTYPE_H
 #define UCI_TYPE_ROUTEPATHTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AirfieldID_Type.h"
-#include "uci/type/PathID_Type.h"
-#include "uci/type/PathSegmentType.h"
-#include "uci/type/PathTypeEnum.h"
-#include "uci/type/PlanningLocationType.h"
-#include "uci/type/RemarksType.h"
-#include "uci/type/RunwayID_Type.h"
-#include "uci/type/SegmentID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AirfieldID_Type.h"
+#include "PathID_Type.h"
+#include "PathSegmentType.h"
+#include "PathTypeEnum.h"
+#include "PlanningLocationType.h"
+#include "RemarksType.h"
+#include "RunwayID_Type.h"
+#include "SegmentID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

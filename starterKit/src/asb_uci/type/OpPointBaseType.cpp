@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/OpPointBaseType.h"
+#include "../../../include/asb_uci/type/OpPointBaseType.h"
 
 #include <memory>
 #include <string>
@@ -41,27 +41,27 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AnglePairType.h"
-#include "asb_uci/type/OpBaseType.h"
-#include "asb_uci/type/OpPointChoiceType.h"
-#include "asb_uci/type/OpPointID_Type.h"
-#include "asb_uci/type/RelativeDirectionEnum.h"
-#include "asb_uci/type/SafeAltitudeType.h"
-#include "asb_uci/type/SystemConfigurationType.h"
-#include "asb_uci/util/DerivedTypesCopier.h"
-#include "asb_uci/util/DerivedTypesCreator.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/DerivedTypesSerializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AnglePairType.h"
-#include "uci/type/OpPointBaseType.h"
-#include "uci/type/OpPointChoiceType.h"
-#include "uci/type/OpPointID_Type.h"
-#include "uci/type/RelativeDirectionEnum.h"
-#include "uci/type/SafeAltitudeType.h"
-#include "uci/type/SystemConfigurationType.h"
+#include "../../../include/asb_uci/type/AnglePairType.h"
+#include "../../../include/asb_uci/type/OpBaseType.h"
+#include "../../../include/asb_uci/type/OpPointChoiceType.h"
+#include "../../../include/asb_uci/type/OpPointID_Type.h"
+#include "../../../include/asb_uci/type/RelativeDirectionEnum.h"
+#include "../../../include/asb_uci/type/SafeAltitudeType.h"
+#include "../../../include/asb_uci/type/SystemConfigurationType.h"
+#include "../../../include/asb_uci/util/DerivedTypesCopier.h"
+#include "../../../include/asb_uci/util/DerivedTypesCreator.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/DerivedTypesSerializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AnglePairType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpPointBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpPointChoiceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpPointID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RelativeDirectionEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SafeAltitudeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SystemConfigurationType.h"
 
 /**  */
 namespace asb_uci {

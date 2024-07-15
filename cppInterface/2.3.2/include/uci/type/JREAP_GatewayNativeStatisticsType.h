@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_JREAP_GATEWAYNATIVESTATISTICSTYPE_H
 #define UCI_TYPE_JREAP_GATEWAYNATIVESTATISTICSTYPE_H
 
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/GatewayNativeStatisticsPET.h"
-#include "uci/type/JREAP_CommonTimeReferenceType.h"
-#include "uci/type/TCP_SessionStatusEnum.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "DateTimeType.h"
+#include "DurationType.h"
+#include "GatewayNativeStatisticsPET.h"
+#include "JREAP_CommonTimeReferenceType.h"
+#include "TCP_SessionStatusEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

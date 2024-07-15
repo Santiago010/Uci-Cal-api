@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_RF_THREADINSTANCECOMMANDTYPE_H
 #define UCI_TYPE_RF_THREADINSTANCECOMMANDTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ModifyRF_ThreadInstanceType.h"
-#include "uci/type/RemoveRF_ThreadInstanceType.h"
-#include "uci/type/SetupRF_ThreadInstanceType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ModifyRF_ThreadInstanceType.h"
+#include "RemoveRF_ThreadInstanceType.h"
+#include "SetupRF_ThreadInstanceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

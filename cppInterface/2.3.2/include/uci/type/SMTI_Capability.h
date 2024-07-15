@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SMTI_CAPABILITY_H
 #define UCI_TYPE_SMTI_CAPABILITY_H
 
-#include "uci/type/SMTI_CapabilityMT.h"
+#include "SMTI_CapabilityMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

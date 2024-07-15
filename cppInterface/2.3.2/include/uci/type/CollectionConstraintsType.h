@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_COLLECTIONCONSTRAINTSTYPE_H
 #define UCI_TYPE_COLLECTIONCONSTRAINTSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AngleHalfPairType.h"
-#include "uci/type/AnglePairType.h"
-#include "uci/type/AngleQuarterPairType.h"
-#include "uci/type/CollectionPatternEnum.h"
-#include "uci/type/SlantRangeConstraintsType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AngleHalfPairType.h"
+#include "AnglePairType.h"
+#include "AngleQuarterPairType.h"
+#include "CollectionPatternEnum.h"
+#include "SlantRangeConstraintsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

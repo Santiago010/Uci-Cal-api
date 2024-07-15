@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/SchemaComponentNameType.h"
-#include "asb_uci/type/WhitespaceVisibleString4096Type.h"
-#include "uci/type/NamedElementType.h"
+#include "../../../include/asb_uci/type/SchemaComponentNameType.h"
+#include "../../../include/asb_uci/type/WhitespaceVisibleString4096Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/NamedElementType.h"
 
 /**  */
 namespace asb_uci {

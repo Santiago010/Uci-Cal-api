@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/ActivityPlanPartsEnum.h"
-#include "asb_uci/type/PlanChangeableConstraintsEnum.h"
-#include "uci/type/ActivityPlanConstraintType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/ActivityPlanPartsEnum.h"
+#include "../../../include/asb_uci/type/PlanChangeableConstraintsEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ActivityPlanConstraintType.h"
 
 /**  */
 namespace asb_uci {

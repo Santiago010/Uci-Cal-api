@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/PlatformFunctionStatusCategoryType.h"
+#include "../../../include/asb_uci/type/PlatformFunctionStatusCategoryType.h"
 
 #include <memory>
 #include <string>
@@ -41,18 +41,18 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/PlatformFunctionAirEnum.h"
-#include "asb_uci/type/PlatformFunctionEW_Enum.h"
-#include "asb_uci/type/PlatformFunctionGroundEnum.h"
-#include "asb_uci/type/PlatformFunctionSeaSurfaceEnum.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/PlatformFunctionAirEnum.h"
-#include "uci/type/PlatformFunctionEW_Enum.h"
-#include "uci/type/PlatformFunctionGroundEnum.h"
-#include "uci/type/PlatformFunctionSeaSurfaceEnum.h"
-#include "uci/type/PlatformFunctionStatusCategoryType.h"
+#include "../../../include/asb_uci/type/PlatformFunctionAirEnum.h"
+#include "../../../include/asb_uci/type/PlatformFunctionEW_Enum.h"
+#include "../../../include/asb_uci/type/PlatformFunctionGroundEnum.h"
+#include "../../../include/asb_uci/type/PlatformFunctionSeaSurfaceEnum.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlatformFunctionAirEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlatformFunctionEW_Enum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlatformFunctionGroundEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlatformFunctionSeaSurfaceEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlatformFunctionStatusCategoryType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_COMMLINK16NETSELECTIONTYPE_H
 #define UCI_TYPE_COMMLINK16NETSELECTIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/Link16_NetNumberType.h"
-#include "uci/type/Link16_ParticipationGroupIndexType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "Link16_NetNumberType.h"
+#include "Link16_ParticipationGroupIndexType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -38,8 +38,8 @@
 
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/CapabilitySettingsCommandStatusBaseType.h"
-#include "uci/type/EA_SettingsCommandStatusMDT.h"
+#include "../../../include/asb_uci/type/CapabilitySettingsCommandStatusBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EA_SettingsCommandStatusMDT.h"
 
 /**  */
 namespace asb_uci {

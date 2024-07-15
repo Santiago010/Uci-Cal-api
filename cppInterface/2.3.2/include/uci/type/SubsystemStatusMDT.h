@@ -36,19 +36,19 @@
 #ifndef UCI_TYPE_SUBSYSTEMSTATUSMDT_H
 #define UCI_TYPE_SUBSYSTEMSTATUSMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AboutType.h"
-#include "uci/type/ComponentType.h"
-#include "uci/type/ProcessingStatusEnum.h"
-#include "uci/type/StateTransitionStatusEnum.h"
-#include "uci/type/SubsystemEnabledSettingType.h"
-#include "uci/type/SubsystemExtendedStatusPET.h"
-#include "uci/type/SubsystemID_Type.h"
-#include "uci/type/SubsystemStateEnum.h"
-#include "uci/type/SubsystemSupportedSettingType.h"
-#include "uci/type/VisibleString256Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AboutType.h"
+#include "ComponentType.h"
+#include "ProcessingStatusEnum.h"
+#include "StateTransitionStatusEnum.h"
+#include "SubsystemEnabledSettingType.h"
+#include "SubsystemExtendedStatusPET.h"
+#include "SubsystemID_Type.h"
+#include "SubsystemStateEnum.h"
+#include "SubsystemSupportedSettingType.h"
+#include "VisibleString256Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {
@@ -195,13 +195,13 @@ public:
     *
     * @return A const reference to the accessor that provides access to the string identified by SubsystemStateDescription.
     */
-  virtual const uci::type::VisibleString256Type& getSubsystemStateDescription() const = 0;
+  virtual const std::string& getSubsystemStateDescription() const = 0;
 
   /** Returns a reference to the accessor that provides access to the string identified by SubsystemStateDescription.
     *
     * @return A reference to the accessor that provides access to the string identified by SubsystemStateDescription.
     */
-  virtual uci::type::VisibleString256Type& getSubsystemStateDescription() = 0;
+  virtual std::string& getSubsystemStateDescription() = 0;
 
   /** Sets the string identified by SubsystemStateDescription to the contents of the string accessed by the specified
     * accessor.
@@ -239,7 +239,7 @@ public:
     * @param type = uci::base::accessorType::null This Accessor's accessor type.
     * @return A reference to the accessor that provides access to the string identified by SubsystemStateDescription.
     */
-  virtual uci::type::VisibleString256Type& enableSubsystemStateDescription(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
+  virtual std::string& enableSubsystemStateDescription(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
 
   /** Clears (disabled) the Element identified by SubsystemStateDescription.
     *

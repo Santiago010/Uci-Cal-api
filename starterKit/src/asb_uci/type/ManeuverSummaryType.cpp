@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ManeuverSummaryType.h"
+#include "../../../include/asb_uci/type/ManeuverSummaryType.h"
 
 #include <memory>
 #include <string>
@@ -41,15 +41,15 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/OrbitKinematicsParametersType.h"
-#include "asb_uci/type/OrbitalManeuverDetailsType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ManeuverSummaryType.h"
-#include "uci/type/OrbitKinematicsParametersType.h"
-#include "uci/type/OrbitalManeuverDetailsType.h"
-#include "uci/type/UnitIntervalDoubleType.h"
+#include "../../../include/asb_uci/type/OrbitKinematicsParametersType.h"
+#include "../../../include/asb_uci/type/OrbitalManeuverDetailsType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ManeuverSummaryType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitKinematicsParametersType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalManeuverDetailsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/UnitIntervalDoubleType.h"
 
 /**  */
 namespace asb_uci {

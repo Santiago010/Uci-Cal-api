@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_EXECUTIONSEQUENCEINSERTIONTYPECHOICETYPE_H
 #define UCI_TYPE_EXECUTIONSEQUENCEINSERTIONTYPECHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EmptyType.h"
-#include "uci/type/ExecutionPlanSetID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "EmptyType.h"
+#include "ExecutionPlanSetID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

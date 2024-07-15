@@ -41,11 +41,11 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/CS_KindEnum.h"
-#include "asb_uci/type/CapabilityInitiationEnum.h"
-#include "asb_uci/type/CommandableCapabilityDeclarationType.h"
-#include "uci/type/CS_CapabilityType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/CS_KindEnum.h"
+#include "../../../include/asb_uci/type/CapabilityInitiationEnum.h"
+#include "../../../include/asb_uci/type/CommandableCapabilityDeclarationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CS_CapabilityType.h"
 
 /**  */
 namespace asb_uci {

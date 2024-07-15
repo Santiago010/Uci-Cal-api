@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_EFFECTMDT_H
 #define UCI_TYPE_EFFECTMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/EffectID_Type.h"
-#include "uci/type/EffectTypeEnum.h"
-#include "uci/type/IdentityKindInstanceType.h"
-#include "uci/type/RequirementConstraintsType.h"
-#include "uci/type/RequirementGuidanceType.h"
-#include "uci/type/RequirementMetadataType.h"
-#include "uci/type/RequirementTargetConstraintsType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "EffectID_Type.h"
+#include "EffectTypeEnum.h"
+#include "IdentityKindInstanceType.h"
+#include "RequirementConstraintsType.h"
+#include "RequirementGuidanceType.h"
+#include "RequirementMetadataType.h"
+#include "RequirementTargetConstraintsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

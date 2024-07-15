@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_IO_PORTCOMMAND_H
 #define UCI_TYPE_IO_PORTCOMMAND_H
 
-#include "uci/type/IO_PortCommandMT.h"
+#include "IO_PortCommandMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

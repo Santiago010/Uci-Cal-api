@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_REQUIREMENTTARGETCONSTRAINTSTYPE_H
 #define UCI_TYPE_REQUIREMENTTARGETCONSTRAINTSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AnalyticConstraintsType.h"
-#include "uci/type/BehaviorType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AnalyticConstraintsType.h"
+#include "BehaviorType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

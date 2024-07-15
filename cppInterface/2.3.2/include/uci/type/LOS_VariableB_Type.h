@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_LOS_VARIABLEB_TYPE_H
 #define UCI_TYPE_LOS_VARIABLEB_TYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/AngleType.h"
-#include "uci/type/LOS_RatesType.h"
-#include "uci/type/LOS_VariableA_Type.h"
+#include "../base/export.h"
+#include "AngleType.h"
+#include "LOS_RatesType.h"
+#include "LOS_VariableA_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

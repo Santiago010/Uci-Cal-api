@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_TAGASSOCIATIONMDT_H
 #define UCI_TYPE_TAGASSOCIATIONMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DataRecordBaseType.h"
-#include "uci/type/SecureStringType.h"
-#include "uci/type/TagAssociationID_Type.h"
-#include "uci/type/TagAssociationTargetType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DataRecordBaseType.h"
+#include "SecureStringType.h"
+#include "TagAssociationID_Type.h"
+#include "TagAssociationTargetType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

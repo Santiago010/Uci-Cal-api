@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_SERVICELIFECYCLECOMMANDMDT_H
 #define UCI_TYPE_SERVICELIFECYCLECOMMANDMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CommandBaseType.h"
-#include "uci/type/MissionID_Type.h"
-#include "uci/type/ServiceID_Type.h"
-#include "uci/type/ServiceLifecycleStateEnum.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CommandBaseType.h"
+#include "MissionID_Type.h"
+#include "ServiceID_Type.h"
+#include "ServiceLifecycleStateEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

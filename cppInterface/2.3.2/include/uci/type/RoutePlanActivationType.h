@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_ROUTEPLANACTIVATIONTYPE_H
 #define UCI_TYPE_ROUTEPLANACTIVATIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ActivationPathSegmentType.h"
-#include "uci/type/PlanActivationCommandEnum.h"
-#include "uci/type/RoutePlanID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ActivationPathSegmentType.h"
+#include "PlanActivationCommandEnum.h"
+#include "RoutePlanID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

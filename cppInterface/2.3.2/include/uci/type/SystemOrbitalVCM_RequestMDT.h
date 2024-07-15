@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_SYSTEMORBITALVCM_REQUESTMDT_H
 #define UCI_TYPE_SYSTEMORBITALVCM_REQUESTMDT_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/OrbitalVCM_RequestParametersType.h"
-#include "uci/type/RequestBaseType.h"
-#include "uci/type/SystemID_Type.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "OrbitalVCM_RequestParametersType.h"
+#include "RequestBaseType.h"
+#include "SystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

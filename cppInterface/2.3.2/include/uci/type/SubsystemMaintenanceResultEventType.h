@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_SUBSYSTEMMAINTENANCERESULTEVENTTYPE_H
 #define UCI_TYPE_SUBSYSTEMMAINTENANCERESULTEVENTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/NameValuePairType.h"
-#include "uci/type/ProcessingStatusEnum.h"
-#include "uci/type/SubsystemMaintenanceResultStatusType.h"
-#include "uci/type/VisibleString256Type.h"
-#include "uci/type/VisibleString64Type.h"
+#include "../base/Accessor.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "NameValuePairType.h"
+#include "ProcessingStatusEnum.h"
+#include "SubsystemMaintenanceResultStatusType.h"
+#include "VisibleString256Type.h"
+#include "VisibleString64Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

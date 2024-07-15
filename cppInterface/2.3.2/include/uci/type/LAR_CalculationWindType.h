@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_LAR_CALCULATIONWINDTYPE_H
 #define UCI_TYPE_LAR_CALCULATIONWINDTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/LAR_WindSourceEnum.h"
-#include "uci/type/Velocity2D_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "LAR_WindSourceEnum.h"
+#include "Velocity2D_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

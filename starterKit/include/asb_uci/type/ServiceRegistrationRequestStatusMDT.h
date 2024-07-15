@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/RequestStatusBaseType.h"
-#include "asb_uci/type/ServiceRegistrationStatusEnum.h"
-#include "uci/type/ServiceRegistrationRequestStatusMDT.h"
+#include "../../../include/asb_uci/type/RequestStatusBaseType.h"
+#include "../../../include/asb_uci/type/ServiceRegistrationStatusEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ServiceRegistrationRequestStatusMDT.h"
 
 /**  */
 namespace asb_uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_RESPONSECANCELCOMMAND_H
 #define UCI_TYPE_RESPONSECANCELCOMMAND_H
 
-#include "uci/type/ResponseCancelCommandMT.h"
+#include "ResponseCancelCommandMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_RESOURCEDEFINITIONRF_TYPE_H
 #define UCI_TYPE_RESOURCEDEFINITIONRF_TYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AntennaAllocationAndBeamConfigurationsType.h"
-#include "uci/type/BlankingLimitType.h"
-#include "uci/type/RF_TypeEnum.h"
-#include "uci/type/ResourceAllocationPeriodRF_Type.h"
-#include "uci/type/UnsignedIntegerMinMaxType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "AntennaAllocationAndBeamConfigurationsType.h"
+#include "BlankingLimitType.h"
+#include "RF_TypeEnum.h"
+#include "ResourceAllocationPeriodRF_Type.h"
+#include "UnsignedIntegerMinMaxType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

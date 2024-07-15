@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_AO_ACTIVITYTYPE_H
 #define UCI_TYPE_AO_ACTIVITYTYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AO_ComponentSettingsType.h"
-#include "uci/type/ActivityBaseType.h"
-#include "uci/type/ConsentEnum.h"
-#include "uci/type/NED_ConeType.h"
-#include "uci/type/PolygonType.h"
-#include "uci/type/RepetitionType.h"
-#include "uci/type/TargetType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AO_ComponentSettingsType.h"
+#include "ActivityBaseType.h"
+#include "ConsentEnum.h"
+#include "NED_ConeType.h"
+#include "PolygonType.h"
+#include "RepetitionType.h"
+#include "TargetType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

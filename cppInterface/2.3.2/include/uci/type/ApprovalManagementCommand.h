@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_APPROVALMANAGEMENTCOMMAND_H
 #define UCI_TYPE_APPROVALMANAGEMENTCOMMAND_H
 
-#include "uci/type/ApprovalManagementCommandMT.h"
+#include "ApprovalManagementCommandMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

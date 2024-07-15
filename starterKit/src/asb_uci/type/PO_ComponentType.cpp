@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/PO_ComponentType.h"
+#include "../../../include/asb_uci/type/PO_ComponentType.h"
 
 #include <memory>
 #include <string>
@@ -41,24 +41,24 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ComponentID_Type.h"
-#include "asb_uci/type/PO_ComponentApertureType.h"
-#include "asb_uci/type/PO_ComponentFilterType.h"
-#include "asb_uci/type/PO_ComponentFocalPlaneArrayType.h"
-#include "asb_uci/type/PO_ComponentLensAssemblyType.h"
-#include "asb_uci/type/PO_ComponentProcessingStageType.h"
-#include "asb_uci/type/PO_ComponentProductGeneratorType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ComponentID_Type.h"
-#include "uci/type/PO_ComponentApertureType.h"
-#include "uci/type/PO_ComponentFilterType.h"
-#include "uci/type/PO_ComponentFocalPlaneArrayType.h"
-#include "uci/type/PO_ComponentLensAssemblyType.h"
-#include "uci/type/PO_ComponentProcessingStageType.h"
-#include "uci/type/PO_ComponentProductGeneratorType.h"
-#include "uci/type/PO_ComponentType.h"
+#include "../../../include/asb_uci/type/ComponentID_Type.h"
+#include "../../../include/asb_uci/type/PO_ComponentApertureType.h"
+#include "../../../include/asb_uci/type/PO_ComponentFilterType.h"
+#include "../../../include/asb_uci/type/PO_ComponentFocalPlaneArrayType.h"
+#include "../../../include/asb_uci/type/PO_ComponentLensAssemblyType.h"
+#include "../../../include/asb_uci/type/PO_ComponentProcessingStageType.h"
+#include "../../../include/asb_uci/type/PO_ComponentProductGeneratorType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ComponentID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ComponentApertureType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ComponentFilterType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ComponentFocalPlaneArrayType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ComponentLensAssemblyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ComponentProcessingStageType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ComponentProductGeneratorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ComponentType.h"
 
 /**  */
 namespace asb_uci {

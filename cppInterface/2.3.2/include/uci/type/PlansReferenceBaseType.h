@@ -36,18 +36,18 @@
 #ifndef UCI_TYPE_PLANSREFERENCEBASETYPE_H
 #define UCI_TYPE_PLANSREFERENCEBASETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ActionPlanID_Type.h"
-#include "uci/type/ActivityPlanID_Type.h"
-#include "uci/type/EffectPlanID_Type.h"
-#include "uci/type/OrbitActivityPlanID_Type.h"
-#include "uci/type/OrbitPlanID_Type.h"
-#include "uci/type/ResponsePlanID_Type.h"
-#include "uci/type/RouteActivityPlanID_Type.h"
-#include "uci/type/RoutePlanID_Type.h"
-#include "uci/type/TaskPlanID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ActionPlanID_Type.h"
+#include "ActivityPlanID_Type.h"
+#include "EffectPlanID_Type.h"
+#include "OrbitActivityPlanID_Type.h"
+#include "OrbitPlanID_Type.h"
+#include "ResponsePlanID_Type.h"
+#include "RouteActivityPlanID_Type.h"
+#include "RoutePlanID_Type.h"
+#include "TaskPlanID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

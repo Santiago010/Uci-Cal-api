@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_PRODUCTDOWNLOADPLAN_H
 #define UCI_TYPE_PRODUCTDOWNLOADPLAN_H
 
-#include "uci/type/ProductDownloadPlanMT.h"
+#include "ProductDownloadPlanMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

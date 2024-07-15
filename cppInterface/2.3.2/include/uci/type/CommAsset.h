@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_COMMASSET_H
 #define UCI_TYPE_COMMASSET_H
 
-#include "uci/type/CommAssetMT.h"
+#include "CommAssetMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,8 +36,8 @@
 #ifndef ASB_UCI_TYPE_NITF_TARGETNUMBERTYPE_H
 #define ASB_UCI_TYPE_NITF_TARGETNUMBERTYPE_H
 
-#include "asb_uci/base/UnsignedIntAccessor.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/base/UnsignedIntAccessor.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/LogMDT.h"
+#include "../../../include/asb_uci/type/LogMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,26 +41,26 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CapabilityID_Type.h"
-#include "asb_uci/type/ComponentID_Type.h"
-#include "asb_uci/type/LogSeverityEnum.h"
-#include "asb_uci/type/ServiceID_Type.h"
-#include "asb_uci/type/SubsystemID_Type.h"
-#include "asb_uci/type/VisibleString1024Type.h"
-#include "asb_uci/type/VisibleString256Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/ComponentID_Type.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/LogMDT.h"
-#include "uci/type/LogSeverityEnum.h"
-#include "uci/type/ServiceID_Type.h"
-#include "uci/type/SubsystemID_Type.h"
-#include "uci/type/VisibleString1024Type.h"
-#include "uci/type/VisibleString256Type.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/CapabilityID_Type.h"
+#include "../../../include/asb_uci/type/ComponentID_Type.h"
+#include "../../../include/asb_uci/type/LogSeverityEnum.h"
+#include "../../../include/asb_uci/type/ServiceID_Type.h"
+#include "../../../include/asb_uci/type/SubsystemID_Type.h"
+#include "../../../include/asb_uci/type/VisibleString1024Type.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ComponentID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DateTimeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/LogMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/LogSeverityEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ServiceID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString1024Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString256Type.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {
@@ -118,7 +118,8 @@ void LogMDT::reset() noexcept {
   componentID_Accessor->reset();
   capabilityID_Accessor->reset();
   severity_Accessor->reset();
-  label_Accessor->reset();
+  // TODO:reset no existe
+  // label_Accessor->reset();
   details_Accessor->reset();
   data_Accessor.reset();
 }
@@ -184,7 +185,7 @@ bool LogMDT::hasServiceID() const noexcept {
 uci::type::ServiceID_Type& LogMDT::enableServiceID(uci::base::accessorType::AccessorType type) {
   const uci::base::accessorType::AccessorType requestedType{(type == uci::base::accessorType::null) ? uci::type::accessorType::serviceID_Type : type};
   if ((!serviceID_Accessor) || (serviceID_Accessor->getAccessorType() != requestedType)) {
-    serviceID_Accessor = ServiceID_Type::create(requestedType);
+    serviceID_Accessor = ServiceID_Type::createServiceIDType(requestedType);
     if (!serviceID_Accessor) {
       throw uci::base::UCIException("Error in enableServiceID(): Specified type is not equal to nor derived from the native type of object");
     }
@@ -291,11 +292,11 @@ uci::type::LogMDT& LogMDT::setSeverity(uci::type::LogSeverityEnum::EnumerationIt
 }
 
 
-const uci::type::VisibleString256Type& LogMDT::getLabel() const noexcept {
+const std::string& LogMDT::getLabel() const noexcept {
   return *label_Accessor;
 }
 
-uci::type::VisibleString256Type& LogMDT::getLabel() noexcept {
+std::string& LogMDT::getLabel() noexcept {
   return *label_Accessor;
 }
 
@@ -308,7 +309,7 @@ uci::type::LogMDT& LogMDT::setLabel(const std::string& value) {
 }
 
 uci::type::LogMDT& LogMDT::setLabel(const char* value) {
-  label_Accessor->setStringValue(value);
+  label_Accessor = boost::make_unique<std::string>(value);
   return *this;
 }
 
@@ -473,7 +474,8 @@ std::string LogMDT::serialize(const uci::type::LogMDT& accessor, boost::property
     }
   }
   LogSeverityEnum::serialize(accessor.getSeverity(), node, LogMDT_Names::Severity_Name, false);
-  asb_uci::util::SerializationHelpers::serializeString(accessor.getLabel(), node, LogMDT_Names::Label_Name);
+  // TODO:comento este pedazo porque getLabel() devuelve un std::string y no un accessor hay que cambiar lo que recibe serializeString
+  // asb_uci::util::SerializationHelpers::serializeString(accessor.getLabel(), node, LogMDT_Names::Label_Name);
   asb_uci::util::SerializationHelpers::serializeString(accessor.getDetails(), node, LogMDT_Names::Details_Name);
   if (accessor.hasData()) {
     asb_uci::util::SerializationHelpers::serializeHexBinary(accessor.getData(), node, LogMDT_Names::Data_Name);

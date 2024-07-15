@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_FOV_VOLUMETYPE_H
 #define UCI_TYPE_FOV_VOLUMETYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/AngleHalfPositiveType.h"
-#include "uci/type/AnglePositiveType.h"
-#include "uci/type/AzElRequiredReferenceType.h"
+#include "../base/export.h"
+#include "AngleHalfPositiveType.h"
+#include "AnglePositiveType.h"
+#include "AzElRequiredReferenceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_ORBITALPROXIMITYOPERATIONSEVENTTYPE_H
 #define UCI_TYPE_ORBITALPROXIMITYOPERATIONSEVENTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/DurationAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/DistanceType.h"
-#include "uci/type/RTN_PositionType.h"
-#include "uci/type/RTN_VelocityType.h"
-#include "uci/type/SpeedType.h"
+#include "../base/Accessor.h"
+#include "../base/DurationAccessor.h"
+#include "../base/export.h"
+#include "DateTimeType.h"
+#include "DistanceType.h"
+#include "RTN_PositionType.h"
+#include "RTN_VelocityType.h"
+#include "SpeedType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_MADL_DAYOFYEARTYPE_H
 #define UCI_TYPE_MADL_DAYOFYEARTYPE_H
 
-#include "uci/type/ShortPositiveType.h"
+#include "ShortPositiveType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

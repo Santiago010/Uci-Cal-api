@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_STANAG_4607_PACKINGPLANTYPE_H
 #define UCI_TYPE_STANAG_4607_PACKINGPLANTYPE_H
 
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AlphanumericDashSpaceUnderscoreString11Type.h"
-#include "uci/type/AlphanumericDashSpaceUnderscoreString13Type.h"
-#include "uci/type/FIPS_ClassificationSystemType.h"
-#include "uci/type/STANAG_4607_PackingPlanPET.h"
-#include "uci/type/VisibleString81Type.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "AlphanumericDashSpaceUnderscoreString11Type.h"
+#include "AlphanumericDashSpaceUnderscoreString13Type.h"
+#include "FIPS_ClassificationSystemType.h"
+#include "STANAG_4607_PackingPlanPET.h"
+#include "VisibleString81Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

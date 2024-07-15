@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_PLANCOMMANDSTATUSTYPE_H
 #define UCI_TYPE_PLANCOMMANDSTATUSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CannotComplyType.h"
-#include "uci/type/CommandProcessingStateEnum.h"
-#include "uci/type/CompletionStatusType.h"
-#include "uci/type/IncompleteProcessingType.h"
-#include "uci/type/ProcessingStatusEnum.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CannotComplyType.h"
+#include "CommandProcessingStateEnum.h"
+#include "CompletionStatusType.h"
+#include "IncompleteProcessingType.h"
+#include "ProcessingStatusEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,18 +36,18 @@
 #ifndef UCI_TYPE_BASEEOB_RECORDTYPE_H
 #define UCI_TYPE_BASEEOB_RECORDTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AlphanumericDashSpaceUnderscoreString3Type.h"
-#include "uci/type/EOB_CodesType.h"
-#include "uci/type/EOB_FixedPositionType.h"
-#include "uci/type/EOB_RecordID_Type.h"
-#include "uci/type/IdentityType.h"
-#include "uci/type/MobilityEnum.h"
-#include "uci/type/OB_OperationalStatusEnum.h"
-#include "uci/type/OrderOfBattleTimestampsType.h"
-#include "uci/type/SecurityInformationType.h"
-#include "uci/type/VisibleString512Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AlphanumericDashSpaceUnderscoreString3Type.h"
+#include "EOB_CodesType.h"
+#include "EOB_FixedPositionType.h"
+#include "EOB_RecordID_Type.h"
+#include "IdentityType.h"
+#include "MobilityEnum.h"
+#include "OB_OperationalStatusEnum.h"
+#include "OrderOfBattleTimestampsType.h"
+#include "SecurityInformationType.h"
+#include "VisibleString512Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

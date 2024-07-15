@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_IPV6_ENDPOINTTYPE_H
 #define UCI_TYPE_IPV6_ENDPOINTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/IPv6_AddressType.h"
-#include "uci/type/VisibleString1024Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "IPv6_AddressType.h"
+#include "VisibleString1024Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SAR_TASKTARGETTYPE_H
 #define UCI_TYPE_SAR_TASKTARGETTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ISAR_TargetType.h"
-#include "uci/type/SAR_TargetType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ISAR_TargetType.h"
+#include "SAR_TargetType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

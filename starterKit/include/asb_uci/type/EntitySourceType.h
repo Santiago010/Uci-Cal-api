@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/EntitySourceEnum.h"
-#include "asb_uci/type/Link16SensorTypeEnum.h"
-#include "uci/type/EntitySourceType.h"
+#include "../../../include/asb_uci/type/EntitySourceEnum.h"
+#include "../../../include/asb_uci/type/Link16SensorTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EntitySourceType.h"
 
 /**  */
 namespace asb_uci {

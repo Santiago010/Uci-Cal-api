@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_STOREINFORMATIONTYPE_H
 #define UCI_TYPE_STOREINFORMATIONTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/IntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/FuzeType.h"
-#include "uci/type/StoreInformationBaseType.h"
+#include "../base/BoundedList.h"
+#include "../base/IntAccessor.h"
+#include "../base/export.h"
+#include "FuzeType.h"
+#include "StoreInformationBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

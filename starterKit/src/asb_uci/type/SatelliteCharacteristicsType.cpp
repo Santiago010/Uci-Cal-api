@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/SatelliteCharacteristicsType.h"
+#include "../../../include/asb_uci/type/SatelliteCharacteristicsType.h"
 
 #include <memory>
 #include <string>
@@ -41,23 +41,23 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CommFrequencyType.h"
-#include "asb_uci/type/FileMetadataID_Type.h"
-#include "asb_uci/type/ProductMetadataID_Type.h"
-#include "asb_uci/type/SOB_MissionTypeEnum.h"
-#include "asb_uci/type/SatellitePhysicalConfigurationType.h"
-#include "asb_uci/type/VisibleString256Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CommFrequencyType.h"
-#include "uci/type/FileMetadataID_Type.h"
-#include "uci/type/MassType.h"
-#include "uci/type/ProductMetadataID_Type.h"
-#include "uci/type/SOB_MissionTypeEnum.h"
-#include "uci/type/SatelliteCharacteristicsType.h"
-#include "uci/type/SatellitePhysicalConfigurationType.h"
-#include "uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/type/CommFrequencyType.h"
+#include "../../../include/asb_uci/type/FileMetadataID_Type.h"
+#include "../../../include/asb_uci/type/ProductMetadataID_Type.h"
+#include "../../../include/asb_uci/type/SOB_MissionTypeEnum.h"
+#include "../../../include/asb_uci/type/SatellitePhysicalConfigurationType.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommFrequencyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FileMetadataID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MassType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProductMetadataID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SOB_MissionTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SatelliteCharacteristicsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SatellitePhysicalConfigurationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString256Type.h"
 
 /**  */
 namespace asb_uci {
@@ -144,7 +144,7 @@ bool SatelliteCharacteristicsType::hasBusType() const noexcept {
 
 uci::type::VisibleString256Type& SatelliteCharacteristicsType::enableBusType(uci::base::accessorType::AccessorType type) {
   if (!busType_Accessor) {
-    busType_Accessor = VisibleString256Type::create(type);
+    busType_Accessor = boost::make_unique<std::string>("");
   }
   return *busType_Accessor;
 }

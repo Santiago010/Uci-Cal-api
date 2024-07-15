@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_SIGNALIDENTITYTYPE_H
 #define UCI_TYPE_SIGNALIDENTITYTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/IdentityConfidenceType.h"
-#include "uci/type/QualifyingTagsType.h"
+#include "../base/export.h"
+#include "IdentityConfidenceType.h"
+#include "QualifyingTagsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

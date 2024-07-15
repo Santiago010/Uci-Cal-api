@@ -41,11 +41,11 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/MTI_OpZoneFilterAreaType.h"
-#include "asb_uci/type/STANAG_4607_PlatformTypeEnum.h"
-#include "asb_uci/type/STANAG_4607_TargetClassificationEnum.h"
-#include "uci/type/MTI_STANAG_4607_OpZoneFilterAreaType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/MTI_OpZoneFilterAreaType.h"
+#include "../../../include/asb_uci/type/STANAG_4607_PlatformTypeEnum.h"
+#include "../../../include/asb_uci/type/STANAG_4607_TargetClassificationEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MTI_STANAG_4607_OpZoneFilterAreaType.h"
 
 /**  */
 namespace asb_uci {

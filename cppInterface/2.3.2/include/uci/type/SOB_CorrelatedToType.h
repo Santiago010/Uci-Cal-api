@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_SOB_CORRELATEDTOTYPE_H
 #define UCI_TYPE_SOB_CORRELATEDTOTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/IdentityType.h"
-#include "uci/type/SOB_C2_RecordID_Type.h"
-#include "uci/type/SOB_SatelliteRecordID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "IdentityType.h"
+#include "SOB_C2_RecordID_Type.h"
+#include "SOB_SatelliteRecordID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

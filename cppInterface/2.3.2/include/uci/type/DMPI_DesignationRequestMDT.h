@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_DMPI_DESIGNATIONREQUESTMDT_H
 #define UCI_TYPE_DMPI_DESIGNATIONREQUESTMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AvailableWeaponsType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/PixelReferenceCoordinateType.h"
-#include "uci/type/Point2D_Type.h"
-#include "uci/type/ProductMetadataID_Type.h"
-#include "uci/type/RecommendedWeaponsType.h"
-#include "uci/type/RequestBaseType.h"
-#include "uci/type/TaskID_Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AvailableWeaponsType.h"
+#include "DateTimeType.h"
+#include "PixelReferenceCoordinateType.h"
+#include "Point2D_Type.h"
+#include "ProductMetadataID_Type.h"
+#include "RecommendedWeaponsType.h"
+#include "RequestBaseType.h"
+#include "TaskID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

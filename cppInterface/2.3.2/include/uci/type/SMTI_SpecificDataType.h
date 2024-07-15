@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_SMTI_SPECIFICDATATYPE_H
 #define UCI_TYPE_SMTI_SPECIFICDATATYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/SMTI_CapabilityEnum.h"
-#include "uci/type/SMTI_SubCapabilityEnum.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "SMTI_CapabilityEnum.h"
+#include "SMTI_SubCapabilityEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

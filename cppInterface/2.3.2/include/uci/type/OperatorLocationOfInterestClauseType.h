@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_OPERATORLOCATIONOFINTERESTCLAUSETYPE_H
 #define UCI_TYPE_OPERATORLOCATIONOFINTERESTCLAUSETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DesignationFilterType.h"
-#include "uci/type/OperatorLocationOfInterestComparativeType.h"
-#include "uci/type/OperatorLocationOfInterestID_Type.h"
-#include "uci/type/OrbitalFiltersQueryType.h"
-#include "uci/type/ZoneType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DesignationFilterType.h"
+#include "OperatorLocationOfInterestComparativeType.h"
+#include "OperatorLocationOfInterestID_Type.h"
+#include "OrbitalFiltersQueryType.h"
+#include "ZoneType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

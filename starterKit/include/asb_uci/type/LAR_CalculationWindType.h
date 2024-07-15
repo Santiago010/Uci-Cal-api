@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/LAR_WindSourceEnum.h"
-#include "uci/type/LAR_CalculationWindType.h"
+#include "../../../include/asb_uci/type/LAR_WindSourceEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/LAR_CalculationWindType.h"
 
 /**  */
 namespace asb_uci {

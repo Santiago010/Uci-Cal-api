@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_IO_PORTCONFIGURATIONSTATUSTYPE_H
 #define UCI_TYPE_IO_PORTCONFIGURATIONSTATUSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CommPortSettingsType.h"
-#include "uci/type/EthernetSettingsType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CommPortSettingsType.h"
+#include "EthernetSettingsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_REFERENCEFRAME_H
 #define UCI_TYPE_REFERENCEFRAME_H
 
-#include "uci/type/ReferenceFrameMT.h"
+#include "ReferenceFrameMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

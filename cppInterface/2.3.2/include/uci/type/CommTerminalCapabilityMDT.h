@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_COMMTERMINALCAPABILITYMDT_H
 #define UCI_TYPE_COMMTERMINALCAPABILITYMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityBaseType.h"
-#include "uci/type/CommTerminalCapabilityType.h"
-#include "uci/type/SubsystemID_Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilityBaseType.h"
+#include "CommTerminalCapabilityType.h"
+#include "SubsystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

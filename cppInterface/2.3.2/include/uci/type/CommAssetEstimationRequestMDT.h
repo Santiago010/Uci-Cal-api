@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_COMMASSETESTIMATIONREQUESTMDT_H
 #define UCI_TYPE_COMMASSETESTIMATIONREQUESTMDT_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CommAssetEstimationMessageEnum.h"
-#include "uci/type/CommAssetID_Type.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/RepeatEnum.h"
-#include "uci/type/RequestBaseType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CommAssetEstimationMessageEnum.h"
+#include "CommAssetID_Type.h"
+#include "DateTimeType.h"
+#include "DurationType.h"
+#include "RepeatEnum.h"
+#include "RequestBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -41,13 +41,13 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/IFF_ADS_B_SubtypeType.h"
-#include "asb_uci/type/IFF_ADS_B_Type.h"
-#include "asb_uci/type/IFF_Mode5_FormatType.h"
-#include "asb_uci/type/IFF_ModeS_SupportEnum.h"
-#include "asb_uci/type/IFF_ModesEnum.h"
-#include "uci/type/IFF_ModesAvailableType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/IFF_ADS_B_SubtypeType.h"
+#include "../../../include/asb_uci/type/IFF_ADS_B_Type.h"
+#include "../../../include/asb_uci/type/IFF_Mode5_FormatType.h"
+#include "../../../include/asb_uci/type/IFF_ModeS_SupportEnum.h"
+#include "../../../include/asb_uci/type/IFF_ModesEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IFF_ModesAvailableType.h"
 
 /**  */
 namespace asb_uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CommMADL_ControlType.h"
+#include "../../../include/asb_uci/type/CommMADL_ControlType.h"
 
 #include <memory>
 #include <string>
@@ -41,22 +41,22 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CommMADL_LinkCommandListType.h"
-#include "asb_uci/type/CommMADL_NetChangeRequestType.h"
-#include "asb_uci/type/CommMADL_NetworkLayoutType.h"
-#include "asb_uci/type/CommMADL_NetworkType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CommMADL_ControlType.h"
-#include "uci/type/CommMADL_FlightGroupType.h"
-#include "uci/type/CommMADL_LinkCommandListType.h"
-#include "uci/type/CommMADL_NetChangeRequestType.h"
-#include "uci/type/CommMADL_NetworkLayoutType.h"
-#include "uci/type/CommMADL_NetworkType.h"
-#include "uci/type/MADL_DayOfYearType.h"
-#include "uci/type/MADL_NodeRangeType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/CommMADL_LinkCommandListType.h"
+#include "../../../include/asb_uci/type/CommMADL_NetChangeRequestType.h"
+#include "../../../include/asb_uci/type/CommMADL_NetworkLayoutType.h"
+#include "../../../include/asb_uci/type/CommMADL_NetworkType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommMADL_ControlType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommMADL_FlightGroupType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommMADL_LinkCommandListType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommMADL_NetChangeRequestType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommMADL_NetworkLayoutType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommMADL_NetworkType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MADL_DayOfYearType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MADL_NodeRangeType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

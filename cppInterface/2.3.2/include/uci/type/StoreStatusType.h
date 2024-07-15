@@ -36,8 +36,8 @@
 #ifndef UCI_TYPE_STORESTATUSTYPE_H
 #define UCI_TYPE_STORESTATUSTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/StoreStatusBaseType.h"
+#include "../base/export.h"
+#include "StoreStatusBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

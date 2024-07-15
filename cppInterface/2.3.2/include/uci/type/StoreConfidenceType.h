@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_STORECONFIDENCETYPE_H
 #define UCI_TYPE_STORECONFIDENCETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/PercentType.h"
-#include "uci/type/StoreType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "PercentType.h"
+#include "StoreType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

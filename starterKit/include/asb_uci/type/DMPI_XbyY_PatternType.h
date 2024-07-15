@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/DMPI_PatternType.h"
-#include "asb_uci/type/DistanceType.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/DMPI_XbyY_PatternType.h"
+#include "../../../include/asb_uci/type/DMPI_PatternType.h"
+#include "../../../include/asb_uci/type/DistanceType.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DMPI_XbyY_PatternType.h"
 
 /**  */
 namespace asb_uci {

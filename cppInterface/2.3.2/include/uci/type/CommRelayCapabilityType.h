@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_COMMRELAYCAPABILITYTYPE_H
 #define UCI_TYPE_COMMRELAYCAPABILITYTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CommCapabilityEnum.h"
-#include "uci/type/CommRelayMessageOutputsEnum.h"
-#include "uci/type/CommRelayOptionsType.h"
-#include "uci/type/CommandableCapabilityDeclarationType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CommCapabilityEnum.h"
+#include "CommRelayMessageOutputsEnum.h"
+#include "CommRelayOptionsType.h"
+#include "CommandableCapabilityDeclarationType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

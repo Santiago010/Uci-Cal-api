@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/SecurityEventType.h"
+#include "../../../include/asb_uci/type/SecurityEventType.h"
 
 #include <memory>
 #include <string>
@@ -41,30 +41,30 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/SecurityAccessType.h"
-#include "asb_uci/type/SecurityAuditManagementType.h"
-#include "asb_uci/type/SecurityAuthenticationType.h"
-#include "asb_uci/type/SecurityFileManagementType.h"
-#include "asb_uci/type/SecurityIntegrityType.h"
-#include "asb_uci/type/SecurityIntrusionDetectionType.h"
-#include "asb_uci/type/SecurityKeyManagementType.h"
-#include "asb_uci/type/SecurityPolicyManagementType.h"
-#include "asb_uci/type/SecuritySanitizationType.h"
-#include "asb_uci/type/SecuritySystemType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/SecurityAccessType.h"
-#include "uci/type/SecurityAuditManagementType.h"
-#include "uci/type/SecurityAuthenticationType.h"
-#include "uci/type/SecurityEventType.h"
-#include "uci/type/SecurityFileManagementType.h"
-#include "uci/type/SecurityIntegrityType.h"
-#include "uci/type/SecurityIntrusionDetectionType.h"
-#include "uci/type/SecurityKeyManagementType.h"
-#include "uci/type/SecurityPolicyManagementType.h"
-#include "uci/type/SecuritySanitizationType.h"
-#include "uci/type/SecuritySystemType.h"
+#include "../../../include/asb_uci/type/SecurityAccessType.h"
+#include "../../../include/asb_uci/type/SecurityAuditManagementType.h"
+#include "../../../include/asb_uci/type/SecurityAuthenticationType.h"
+#include "../../../include/asb_uci/type/SecurityFileManagementType.h"
+#include "../../../include/asb_uci/type/SecurityIntegrityType.h"
+#include "../../../include/asb_uci/type/SecurityIntrusionDetectionType.h"
+#include "../../../include/asb_uci/type/SecurityKeyManagementType.h"
+#include "../../../include/asb_uci/type/SecurityPolicyManagementType.h"
+#include "../../../include/asb_uci/type/SecuritySanitizationType.h"
+#include "../../../include/asb_uci/type/SecuritySystemType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SecurityAccessType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SecurityAuditManagementType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SecurityAuthenticationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SecurityEventType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SecurityFileManagementType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SecurityIntegrityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SecurityIntrusionDetectionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SecurityKeyManagementType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SecurityPolicyManagementType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SecuritySanitizationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SecuritySystemType.h"
 
 /**  */
 namespace asb_uci {

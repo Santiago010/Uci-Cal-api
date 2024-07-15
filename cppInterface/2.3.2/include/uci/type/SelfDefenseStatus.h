@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SELFDEFENSESTATUS_H
 #define UCI_TYPE_SELFDEFENSESTATUS_H
 
-#include "uci/type/SelfDefenseStatusMT.h"
+#include "SelfDefenseStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

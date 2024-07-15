@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/ActivityBaseType.h"
-#include "asb_uci/type/DateTimeType.h"
-#include "uci/type/TacticalOrderActivityType.h"
+#include "../../../include/asb_uci/type/ActivityBaseType.h"
+#include "../../../include/asb_uci/type/DateTimeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TacticalOrderActivityType.h"
 
 /**  */
 namespace asb_uci {

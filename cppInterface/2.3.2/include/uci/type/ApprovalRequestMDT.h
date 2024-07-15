@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_APPROVALREQUESTMDT_H
 #define UCI_TYPE_APPROVALREQUESTMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/ApprovalRequestPolicyReferenceType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/OperatorRoleType.h"
-#include "uci/type/RequestBaseType.h"
+#include "../base/export.h"
+#include "ApprovalRequestPolicyReferenceType.h"
+#include "DateTimeType.h"
+#include "OperatorRoleType.h"
+#include "RequestBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_RESOURCEREQUESTPERIODTYPE_H
 #define UCI_TYPE_RESOURCEREQUESTPERIODTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ComparableRankingType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/PercentRangeType.h"
-#include "uci/type/RF_TypeEnum.h"
+#include "../base/Accessor.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "ComparableRankingType.h"
+#include "DurationType.h"
+#include "PercentRangeType.h"
+#include "RF_TypeEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

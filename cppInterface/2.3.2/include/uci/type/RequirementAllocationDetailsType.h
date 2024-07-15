@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_REQUIREMENTALLOCATIONDETAILSTYPE_H
 #define UCI_TYPE_REQUIREMENTALLOCATIONDETAILSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AO_CodeType.h"
-#include "uci/type/DMPI_AllocationType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AO_CodeType.h"
+#include "DMPI_AllocationType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

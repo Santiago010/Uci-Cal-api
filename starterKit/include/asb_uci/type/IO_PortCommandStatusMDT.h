@@ -38,8 +38,8 @@
 
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/SupportCapabilityCommandStatusBaseType.h"
-#include "uci/type/IO_PortCommandStatusMDT.h"
+#include "../../../include/asb_uci/type/SupportCapabilityCommandStatusBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IO_PortCommandStatusMDT.h"
 
 /**  */
 namespace asb_uci {

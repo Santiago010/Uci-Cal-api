@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/GatewayCapabilitySettingsCommandBaseType.h"
+#include "../../../include/asb_uci/type/GatewayCapabilitySettingsCommandBaseType.h"
 
 #include <memory>
 #include <string>
@@ -41,23 +41,23 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CapabilityPrecedenceType.h"
-#include "asb_uci/type/CapabilityStateType.h"
-#include "asb_uci/type/CommandBaseType.h"
-#include "asb_uci/type/MDF_CommandType.h"
-#include "asb_uci/type/ServiceID_Type.h"
-#include "asb_uci/util/DerivedTypesCopier.h"
-#include "asb_uci/util/DerivedTypesCreator.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/DerivedTypesSerializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CapabilityPrecedenceType.h"
-#include "uci/type/CapabilityStateType.h"
-#include "uci/type/GatewayCapabilitySettingsCommandBaseType.h"
-#include "uci/type/MDF_CommandType.h"
-#include "uci/type/ServiceID_Type.h"
+#include "../../../include/asb_uci/type/CapabilityPrecedenceType.h"
+#include "../../../include/asb_uci/type/CapabilityStateType.h"
+#include "../../../include/asb_uci/type/CommandBaseType.h"
+#include "../../../include/asb_uci/type/MDF_CommandType.h"
+#include "../../../include/asb_uci/type/ServiceID_Type.h"
+#include "../../../include/asb_uci/util/DerivedTypesCopier.h"
+#include "../../../include/asb_uci/util/DerivedTypesCreator.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/DerivedTypesSerializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityPrecedenceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityStateType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/GatewayCapabilitySettingsCommandBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MDF_CommandType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ServiceID_Type.h"
 
 /**  */
 namespace asb_uci {

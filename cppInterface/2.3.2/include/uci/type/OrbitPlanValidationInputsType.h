@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_ORBITPLANVALIDATIONINPUTSTYPE_H
 #define UCI_TYPE_ORBITPLANVALIDATIONINPUTSTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/OrbitPlanID_Type.h"
-#include "uci/type/OrbitPlanPartsEnum.h"
-#include "uci/type/OrbitPlanningStateType.h"
-#include "uci/type/PlanValidationInputsBaseType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "OrbitPlanID_Type.h"
+#include "OrbitPlanPartsEnum.h"
+#include "OrbitPlanningStateType.h"
+#include "PlanValidationInputsBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ESM_CAPABILITYSTATUS_H
 #define UCI_TYPE_ESM_CAPABILITYSTATUS_H
 
-#include "uci/type/ESM_CapabilityStatusMT.h"
+#include "ESM_CapabilityStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_DISCRETESTATUS_H
 #define UCI_TYPE_DISCRETESTATUS_H
 
-#include "uci/type/DiscreteStatusMT.h"
+#include "DiscreteStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

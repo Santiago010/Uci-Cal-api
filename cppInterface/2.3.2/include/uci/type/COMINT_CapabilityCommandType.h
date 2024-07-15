@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_COMINT_CAPABILITYCOMMANDTYPE_H
 #define UCI_TYPE_COMINT_CAPABILITYCOMMANDTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/COMINT_SubCapabilityEnum.h"
-#include "uci/type/COMINT_SubcapabilityChoiceType.h"
-#include "uci/type/ProductOutputCommandBasicType.h"
-#include "uci/type/SharedRF_ApertureCapabilityCommandBaseType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "COMINT_SubCapabilityEnum.h"
+#include "COMINT_SubcapabilityChoiceType.h"
+#include "ProductOutputCommandBasicType.h"
+#include "SharedRF_ApertureCapabilityCommandBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

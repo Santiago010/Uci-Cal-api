@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_RELATIONSHIPTHREATTYPE_H
 #define UCI_TYPE_RELATIONSHIPTHREATTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EnduranceType.h"
-#include "uci/type/ThreatEnum.h"
-#include "uci/type/ThreatPostureEnum.h"
-#include "uci/type/ThreatWeaponEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "EnduranceType.h"
+#include "ThreatEnum.h"
+#include "ThreatPostureEnum.h"
+#include "ThreatWeaponEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

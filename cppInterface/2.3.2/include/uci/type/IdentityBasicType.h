@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_IDENTITYBASICTYPE_H
 #define UCI_TYPE_IDENTITYBASICTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/PlatformIdentityType.h"
-#include "uci/type/SpecificIdentityType.h"
-#include "uci/type/StandardIdentityType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "PlatformIdentityType.h"
+#include "SpecificIdentityType.h"
+#include "StandardIdentityType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

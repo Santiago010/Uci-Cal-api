@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_GATEWAYCAPABILITYSTATUSTYPE_H
 #define UCI_TYPE_GATEWAYCAPABILITYSTATUSTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/AvailableConnectionType.h"
-#include "uci/type/CapabilityStatusType.h"
-#include "uci/type/MDF_StatusType.h"
+#include "../base/export.h"
+#include "AvailableConnectionType.h"
+#include "CapabilityStatusType.h"
+#include "MDF_StatusType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

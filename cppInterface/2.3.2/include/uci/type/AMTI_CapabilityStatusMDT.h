@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_AMTI_CAPABILITYSTATUSMDT_H
 #define UCI_TYPE_AMTI_CAPABILITYSTATUSMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AMTI_MessageOutputsEnum.h"
-#include "uci/type/CapabilityStatusBaseType.h"
-#include "uci/type/CapabilityStatusType.h"
-#include "uci/type/ElectronicProtectionOptionsEnabledType.h"
-#include "uci/type/EmconSettingType.h"
-#include "uci/type/EmissionBalanceEnum.h"
-#include "uci/type/RF_ProfileType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AMTI_MessageOutputsEnum.h"
+#include "CapabilityStatusBaseType.h"
+#include "CapabilityStatusType.h"
+#include "ElectronicProtectionOptionsEnabledType.h"
+#include "EmconSettingType.h"
+#include "EmissionBalanceEnum.h"
+#include "RF_ProfileType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

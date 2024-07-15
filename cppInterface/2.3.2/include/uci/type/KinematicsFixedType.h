@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_KINEMATICSFIXEDTYPE_H
 #define UCI_TYPE_KINEMATICSFIXEDTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/KinematicsFixedPositionType.h"
-#include "uci/type/OrientationCovarianceType.h"
-#include "uci/type/OrientationType.h"
-#include "uci/type/PositionAndVelocityCovarianceType.h"
-#include "uci/type/Velocity2D_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "KinematicsFixedPositionType.h"
+#include "OrientationCovarianceType.h"
+#include "OrientationType.h"
+#include "PositionAndVelocityCovarianceType.h"
+#include "Velocity2D_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

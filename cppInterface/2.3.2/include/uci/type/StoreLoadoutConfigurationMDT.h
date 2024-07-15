@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_STORELOADOUTCONFIGURATIONMDT_H
 #define UCI_TYPE_STORELOADOUTCONFIGURATIONMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/StoreLoadoutConfigurationID_Type.h"
-#include "uci/type/StoreLoadoutConfigurationType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "StoreLoadoutConfigurationID_Type.h"
+#include "StoreLoadoutConfigurationType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

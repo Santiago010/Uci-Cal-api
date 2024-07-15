@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_MTI_OPZONEFILTERAREATYPE_H
 #define UCI_TYPE_MTI_OPZONEFILTERAREATYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/DoubleAccessor.h"
-#include "uci/base/IntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/OpZoneFilterAreaPET.h"
+#include "../base/BoundedList.h"
+#include "../base/DoubleAccessor.h"
+#include "../base/IntAccessor.h"
+#include "../base/export.h"
+#include "OpZoneFilterAreaPET.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

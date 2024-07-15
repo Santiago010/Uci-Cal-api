@@ -36,21 +36,21 @@
 #ifndef UCI_TYPE_COMPARABLEATOMICVALUETYPE_H
 #define UCI_TYPE_COMPARABLEATOMICVALUETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/ByteAccessor.h"
-#include "uci/base/DoubleAccessor.h"
-#include "uci/base/FloatAccessor.h"
-#include "uci/base/IntAccessor.h"
-#include "uci/base/LongAccessor.h"
-#include "uci/base/ShortAccessor.h"
-#include "uci/base/UnsignedByteAccessor.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/UnsignedShortAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/QueryString4096Type.h"
-#include "uci/type/TimeType.h"
+#include "../base/Accessor.h"
+#include "../base/ByteAccessor.h"
+#include "../base/DoubleAccessor.h"
+#include "../base/FloatAccessor.h"
+#include "../base/IntAccessor.h"
+#include "../base/LongAccessor.h"
+#include "../base/ShortAccessor.h"
+#include "../base/UnsignedByteAccessor.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/UnsignedShortAccessor.h"
+#include "../base/export.h"
+#include "DateTimeType.h"
+#include "DurationType.h"
+#include "QueryString4096Type.h"
+#include "TimeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

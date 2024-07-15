@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_DAMAGEASSESSMENTREQUEST_H
 #define UCI_TYPE_DAMAGEASSESSMENTREQUEST_H
 
-#include "uci/type/DamageAssessmentRequestMT.h"
+#include "DamageAssessmentRequestMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_COMMMADL_NETCHANGEREQUESTTYPE_H
 #define UCI_TYPE_COMMMADL_NETCHANGEREQUESTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CommMADL_NetChangeOpEnum.h"
-#include "uci/type/CommMADL_NetChangeSelectionListType.h"
-#include "uci/type/MADL_NetChangeSelectorType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CommMADL_NetChangeOpEnum.h"
+#include "CommMADL_NetChangeSelectionListType.h"
+#include "MADL_NetChangeSelectorType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

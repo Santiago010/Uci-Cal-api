@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_QUERYDATAREQUESTMDT_H
 #define UCI_TYPE_QUERYDATAREQUESTMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/EmptyType.h"
-#include "uci/type/IntPositiveType.h"
-#include "uci/type/QueryMessageType.h"
-#include "uci/type/QueryTopicPairType.h"
-#include "uci/type/RequestBaseType.h"
-#include "uci/type/ShortPositiveType.h"
-#include "uci/type/SystemID_Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "EmptyType.h"
+#include "IntPositiveType.h"
+#include "QueryMessageType.h"
+#include "QueryTopicPairType.h"
+#include "RequestBaseType.h"
+#include "ShortPositiveType.h"
+#include "SystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

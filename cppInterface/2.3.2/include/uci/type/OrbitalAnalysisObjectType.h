@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_ORBITALANALYSISOBJECTTYPE_H
 #define UCI_TYPE_ORBITALANALYSISOBJECTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/OrbitalDebrisCloudID_Type.h"
-#include "uci/type/OrbitalObjectKinematicsSourceType.h"
-#include "uci/type/WorkingSOB_ID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "OrbitalDebrisCloudID_Type.h"
+#include "OrbitalObjectKinematicsSourceType.h"
+#include "WorkingSOB_ID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

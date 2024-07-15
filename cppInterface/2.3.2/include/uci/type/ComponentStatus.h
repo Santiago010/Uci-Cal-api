@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_COMPONENTSTATUS_H
 #define UCI_TYPE_COMPONENTSTATUS_H
 
-#include "uci/type/ComponentStatusMT.h"
+#include "ComponentStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

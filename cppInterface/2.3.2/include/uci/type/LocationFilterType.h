@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_LOCATIONFILTERTYPE_H
 #define UCI_TYPE_LOCATIONFILTERTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/Point2D_Type.h"
-#include "uci/type/ZoneInclusionType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "Point2D_Type.h"
+#include "ZoneInclusionType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

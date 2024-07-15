@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_TARGETFINALAPPROACHTYPE_H
 #define UCI_TYPE_TARGETFINALAPPROACHTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AltitudeType.h"
-#include "uci/type/DistanceType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AltitudeType.h"
+#include "DistanceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

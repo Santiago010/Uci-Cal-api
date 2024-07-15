@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/PO_CollectionConstraintsStatusType.h"
+#include "../../../include/asb_uci/type/PO_CollectionConstraintsStatusType.h"
 
 #include <memory>
 #include <string>
@@ -41,20 +41,20 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/PO_AngleConstraintControlsStatusType.h"
-#include "asb_uci/type/PO_ColorPatternConstraintControlsStatusType.h"
-#include "asb_uci/type/PO_GimbalOrientationConstraintControlsStatusType.h"
-#include "asb_uci/type/PO_SlantRangeConstraintControlsStatusType.h"
-#include "asb_uci/type/PO_SweepSpeedConstraintControlsStatusType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/PO_AngleConstraintControlsStatusType.h"
-#include "uci/type/PO_CollectionConstraintsStatusType.h"
-#include "uci/type/PO_ColorPatternConstraintControlsStatusType.h"
-#include "uci/type/PO_GimbalOrientationConstraintControlsStatusType.h"
-#include "uci/type/PO_SlantRangeConstraintControlsStatusType.h"
-#include "uci/type/PO_SweepSpeedConstraintControlsStatusType.h"
+#include "../../../include/asb_uci/type/PO_AngleConstraintControlsStatusType.h"
+#include "../../../include/asb_uci/type/PO_ColorPatternConstraintControlsStatusType.h"
+#include "../../../include/asb_uci/type/PO_GimbalOrientationConstraintControlsStatusType.h"
+#include "../../../include/asb_uci/type/PO_SlantRangeConstraintControlsStatusType.h"
+#include "../../../include/asb_uci/type/PO_SweepSpeedConstraintControlsStatusType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_AngleConstraintControlsStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_CollectionConstraintsStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ColorPatternConstraintControlsStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_GimbalOrientationConstraintControlsStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_SlantRangeConstraintControlsStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_SweepSpeedConstraintControlsStatusType.h"
 
 /**  */
 namespace asb_uci {

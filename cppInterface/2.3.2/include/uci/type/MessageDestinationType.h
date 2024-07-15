@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_MESSAGEDESTINATIONTYPE_H
 #define UCI_TYPE_MESSAGEDESTINATIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DataDestinationID_Type.h"
-#include "uci/type/DataLinkNativeInfoPET.h"
-#include "uci/type/SystemID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DataDestinationID_Type.h"
+#include "DataLinkNativeInfoPET.h"
+#include "SystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

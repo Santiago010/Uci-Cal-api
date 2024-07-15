@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_COMMMADL_NETWORKTYPE_H
 #define UCI_TYPE_COMMMADL_NETWORKTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/MADL_MIDE_Type.h"
-#include "uci/type/MADL_MissionIdentifierType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "MADL_MIDE_Type.h"
+#include "MADL_MissionIdentifierType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

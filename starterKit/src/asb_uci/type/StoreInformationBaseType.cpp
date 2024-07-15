@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/StoreInformationBaseType.h"
+#include "../../../include/asb_uci/type/StoreInformationBaseType.h"
 
 #include <memory>
 #include <string>
@@ -41,19 +41,19 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/StoreJettisonOptionsEnum.h"
-#include "asb_uci/type/VisibleString256Type.h"
-#include "asb_uci/util/DerivedTypesCopier.h"
-#include "asb_uci/util/DerivedTypesCreator.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/DerivedTypesSerializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/StoreInformationBaseType.h"
-#include "uci/type/StoreJettisonOptionsEnum.h"
-#include "uci/type/VisibleString256Type.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/StoreJettisonOptionsEnum.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/util/DerivedTypesCopier.h"
+#include "../../../include/asb_uci/util/DerivedTypesCreator.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/DerivedTypesSerializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StoreInformationBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StoreJettisonOptionsEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString256Type.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {
@@ -137,7 +137,7 @@ bool StoreInformationBaseType::hasMnemonic() const noexcept {
 
 uci::type::VisibleString256Type& StoreInformationBaseType::enableMnemonic(uci::base::accessorType::AccessorType type) {
   if (!mnemonic_Accessor) {
-    mnemonic_Accessor = VisibleString256Type::create(type);
+    mnemonic_Accessor = boost::make_unique<std::string>("");
   }
   return *mnemonic_Accessor;
 }

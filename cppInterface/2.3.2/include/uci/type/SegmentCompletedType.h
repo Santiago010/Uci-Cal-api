@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_SEGMENTCOMPLETEDTYPE_H
 #define UCI_TYPE_SEGMENTCOMPLETEDTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/SegmentEstimateType.h"
+#include "../base/export.h"
+#include "DateTimeType.h"
+#include "SegmentEstimateType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

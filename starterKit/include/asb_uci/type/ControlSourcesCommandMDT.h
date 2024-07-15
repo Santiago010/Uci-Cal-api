@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/CommandBaseType.h"
-#include "uci/type/ControlSourcesCommandMDT.h"
+#include "../../../include/asb_uci/type/CommandBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ControlSourcesCommandMDT.h"
 
 /**  */
 namespace asb_uci {

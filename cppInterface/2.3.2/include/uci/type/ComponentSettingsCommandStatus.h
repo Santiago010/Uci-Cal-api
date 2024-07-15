@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_COMPONENTSETTINGSCOMMANDSTATUS_H
 #define UCI_TYPE_COMPONENTSETTINGSCOMMANDSTATUS_H
 
-#include "uci/type/ComponentSettingsCommandStatusMT.h"
+#include "ComponentSettingsCommandStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_IFF_ACTIVITYTRANSPONDERTYPE_H
 #define UCI_TYPE_IFF_ACTIVITYTRANSPONDERTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/IFF_TransponderActivityStatusEnum.h"
-#include "uci/type/IFF_TransponderModeControlType.h"
+#include "../base/export.h"
+#include "IFF_TransponderActivityStatusEnum.h"
+#include "IFF_TransponderModeControlType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

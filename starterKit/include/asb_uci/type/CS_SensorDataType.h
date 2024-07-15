@@ -41,15 +41,15 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AltitudeType.h"
-#include "asb_uci/type/AnglePositiveType.h"
-#include "asb_uci/type/AngleQuarterType.h"
-#include "asb_uci/type/CS_SensorPointingEnum.h"
-#include "asb_uci/type/CS_SensorTargetingEnum.h"
-#include "asb_uci/type/CS_SensorTypeEnum.h"
-#include "asb_uci/type/FrequencyType.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/CS_SensorDataType.h"
+#include "../../../include/asb_uci/type/AltitudeType.h"
+#include "../../../include/asb_uci/type/AnglePositiveType.h"
+#include "../../../include/asb_uci/type/AngleQuarterType.h"
+#include "../../../include/asb_uci/type/CS_SensorPointingEnum.h"
+#include "../../../include/asb_uci/type/CS_SensorTargetingEnum.h"
+#include "../../../include/asb_uci/type/CS_SensorTypeEnum.h"
+#include "../../../include/asb_uci/type/FrequencyType.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CS_SensorDataType.h"
 
 /**  */
 namespace asb_uci {

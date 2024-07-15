@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_ACTIONPLANPROCESSDESCRIPTIONTYPE_H
 #define UCI_TYPE_ACTIONPLANPROCESSDESCRIPTIONTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/ActionPlanPartsType.h"
-#include "uci/type/PlanningDiscoveryBaseType.h"
+#include "../base/export.h"
+#include "ActionPlanPartsType.h"
+#include "PlanningDiscoveryBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

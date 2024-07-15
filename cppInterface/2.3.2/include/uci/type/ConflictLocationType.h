@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_CONFLICTLOCATIONTYPE_H
 #define UCI_TYPE_CONFLICTLOCATIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/Point2D_Type.h"
-#include "uci/type/RoutePlanSegmentReferenceType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "Point2D_Type.h"
+#include "RoutePlanSegmentReferenceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_FUSIONSETTINGSMDT_H
 #define UCI_TYPE_FUSIONSETTINGSMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/EntityStalenessThresholdsType.h"
-#include "uci/type/FusionSettingsType.h"
-#include "uci/type/FusionSourceType.h"
-#include "uci/type/ServiceID_Type.h"
-#include "uci/type/SystemID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "EntityStalenessThresholdsType.h"
+#include "FusionSettingsType.h"
+#include "FusionSourceType.h"
+#include "ServiceID_Type.h"
+#include "SystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

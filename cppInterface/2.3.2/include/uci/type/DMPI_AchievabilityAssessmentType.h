@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_DMPI_ACHIEVABILITYASSESSMENTTYPE_H
 #define UCI_TYPE_DMPI_ACHIEVABILITYASSESSMENTTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/AchievabilityAssessmentPET.h"
-#include "uci/type/DMPI_ID_Type.h"
+#include "../base/export.h"
+#include "AchievabilityAssessmentPET.h"
+#include "DMPI_ID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

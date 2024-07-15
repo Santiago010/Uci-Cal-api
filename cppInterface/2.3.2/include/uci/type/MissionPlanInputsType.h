@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_MISSIONPLANINPUTSTYPE_H
 #define UCI_TYPE_MISSIONPLANINPUTSTYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/PlanInputsCoreType.h"
-#include "uci/type/PlanPartsType.h"
-#include "uci/type/RequirementAllocationCommandType.h"
-#include "uci/type/RequirementAssociationConstraintType.h"
-#include "uci/type/RequirementPlanConstraintType.h"
-#include "uci/type/RequirementPlanningCandidateType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "PlanInputsCoreType.h"
+#include "PlanPartsType.h"
+#include "RequirementAllocationCommandType.h"
+#include "RequirementAssociationConstraintType.h"
+#include "RequirementPlanConstraintType.h"
+#include "RequirementPlanningCandidateType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

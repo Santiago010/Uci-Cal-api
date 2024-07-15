@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_GATEWAYLINK16CONFIGURATIONCIRCULARSECTORTYPE_H
 #define UCI_TYPE_GATEWAYLINK16CONFIGURATIONCIRCULARSECTORTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/AngleType.h"
-#include "uci/type/DistanceType.h"
-#include "uci/type/GatewayLink16ConfigurationClosedAreaType.h"
+#include "../base/export.h"
+#include "AngleType.h"
+#include "DistanceType.h"
+#include "GatewayLink16ConfigurationClosedAreaType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

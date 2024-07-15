@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ConflictType.h"
+#include "../../../include/asb_uci/type/ConflictType.h"
 
 #include <memory>
 #include <string>
@@ -41,19 +41,19 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ConflictLocationType.h"
-#include "asb_uci/type/DateTimeRangeType.h"
-#include "asb_uci/type/ID_Type.h"
-#include "asb_uci/type/RequirementsReferenceType.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ConflictLocationType.h"
-#include "uci/type/ConflictType.h"
-#include "uci/type/DateTimeRangeType.h"
-#include "uci/type/ID_Type.h"
-#include "uci/type/RequirementsReferenceType.h"
+#include "../../../include/asb_uci/type/ConflictLocationType.h"
+#include "../../../include/asb_uci/type/DateTimeRangeType.h"
+#include "../../../include/asb_uci/type/ID_Type.h"
+#include "../../../include/asb_uci/type/RequirementsReferenceType.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ConflictLocationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ConflictType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DateTimeRangeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RequirementsReferenceType.h"
 
 /**  */
 namespace asb_uci {

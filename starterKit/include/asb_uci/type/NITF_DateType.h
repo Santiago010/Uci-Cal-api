@@ -36,7 +36,7 @@
 #ifndef ASB_UCI_TYPE_NITF_DATETYPE_H
 #define ASB_UCI_TYPE_NITF_DATETYPE_H
 
-#include "asb_xs/type/stringXmlSchemaPrimitives.h"
+#include "../../../include/asb_xs/type/stringXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

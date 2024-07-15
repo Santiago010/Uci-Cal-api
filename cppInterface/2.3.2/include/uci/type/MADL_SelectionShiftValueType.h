@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_MADL_SELECTIONSHIFTVALUETYPE_H
 #define UCI_TYPE_MADL_SELECTIONSHIFTVALUETYPE_H
 
-#include "uci/base/ByteAccessor.h"
+#include "../base/ByteAccessor.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

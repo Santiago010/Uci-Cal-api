@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_ACCESSASSESSMENTREQUESTSTATUSMDT_H
 #define UCI_TYPE_ACCESSASSESSMENTREQUESTSTATUSMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AccessAssessmentResultType.h"
-#include "uci/type/CompletionStatusType.h"
-#include "uci/type/IncompleteProcessingType.h"
-#include "uci/type/RequestStatusBaseType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AccessAssessmentResultType.h"
+#include "CompletionStatusType.h"
+#include "IncompleteProcessingType.h"
+#include "RequestStatusBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

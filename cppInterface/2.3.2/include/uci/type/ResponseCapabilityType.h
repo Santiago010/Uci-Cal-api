@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_RESPONSECAPABILITYTYPE_H
 #define UCI_TYPE_RESPONSECAPABILITYTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/CommandableCapabilityDeclarationType.h"
-#include "uci/type/RequirementTaxonomyType.h"
-#include "uci/type/ResponseTypeEnum.h"
+#include "../base/export.h"
+#include "CommandableCapabilityDeclarationType.h"
+#include "RequirementTaxonomyType.h"
+#include "ResponseTypeEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

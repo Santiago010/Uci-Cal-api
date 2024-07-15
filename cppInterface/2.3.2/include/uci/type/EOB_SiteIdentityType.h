@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_EOB_SITEIDENTITYTYPE_H
 #define UCI_TYPE_EOB_SITEIDENTITYTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/AlphanumericString6Type.h"
-#include "uci/type/BasicEncyclopediaNumberType.h"
-#include "uci/type/EOB_IdentityBaseType.h"
-#include "uci/type/EOB_O_SuffixType.h"
+#include "../base/export.h"
+#include "AlphanumericString6Type.h"
+#include "BasicEncyclopediaNumberType.h"
+#include "EOB_IdentityBaseType.h"
+#include "EOB_O_SuffixType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

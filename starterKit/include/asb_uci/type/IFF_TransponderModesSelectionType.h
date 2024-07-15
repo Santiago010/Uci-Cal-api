@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/OctalValueType.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/IFF_TransponderModesSelectionType.h"
+#include "../../../include/asb_uci/type/OctalValueType.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IFF_TransponderModesSelectionType.h"
 
 /**  */
 namespace asb_uci {

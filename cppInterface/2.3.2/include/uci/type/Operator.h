@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_OPERATOR_H
 #define UCI_TYPE_OPERATOR_H
 
-#include "uci/type/OperatorMT.h"
+#include "OperatorMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

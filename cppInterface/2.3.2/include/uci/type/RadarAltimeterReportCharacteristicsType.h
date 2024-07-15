@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_RADARALTIMETERREPORTCHARACTERISTICSTYPE_H
 #define UCI_TYPE_RADARALTIMETERREPORTCHARACTERISTICSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/RadarAltimeterReportAngularOffsetType.h"
-#include "uci/type/RadarAltimeterReportResolutionType.h"
-#include "uci/type/RadarAltimeterReportUncertaintyType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "RadarAltimeterReportAngularOffsetType.h"
+#include "RadarAltimeterReportResolutionType.h"
+#include "RadarAltimeterReportUncertaintyType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

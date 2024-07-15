@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CommTerminalCapabilityType.h"
+#include "../../../include/asb_uci/type/CommTerminalCapabilityType.h"
 
 #include <memory>
 #include <string>
@@ -41,34 +41,34 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CommCapabilityEnum.h"
-#include "asb_uci/type/CommCapabilityOptionsType.h"
-#include "asb_uci/type/CommDataFormatEnum.h"
-#include "asb_uci/type/CommProfileID_Type.h"
-#include "asb_uci/type/CommUserIO_ID_Type.h"
-#include "asb_uci/type/CommUserLinkType.h"
-#include "asb_uci/type/CommandableCapabilityDeclarationType.h"
-#include "asb_uci/type/ComponentID_Type.h"
-#include "asb_uci/type/CryptoTypeEnum.h"
-#include "asb_uci/type/ForeignKeyType.h"
-#include "asb_uci/type/FrequencyRangeType.h"
-#include "asb_uci/type/MilliwattPowerRatioRangeType.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CommCapabilityEnum.h"
-#include "uci/type/CommCapabilityOptionsType.h"
-#include "uci/type/CommDataFormatEnum.h"
-#include "uci/type/CommProfileID_Type.h"
-#include "uci/type/CommTerminalCapabilityType.h"
-#include "uci/type/CommUserIO_ID_Type.h"
-#include "uci/type/CommUserLinkType.h"
-#include "uci/type/ComponentID_Type.h"
-#include "uci/type/CryptoTypeEnum.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/FrequencyRangeType.h"
-#include "uci/type/MilliwattPowerRatioRangeType.h"
+#include "../../../include/asb_uci/type/CommCapabilityEnum.h"
+#include "../../../include/asb_uci/type/CommCapabilityOptionsType.h"
+#include "../../../include/asb_uci/type/CommDataFormatEnum.h"
+#include "../../../include/asb_uci/type/CommProfileID_Type.h"
+#include "../../../include/asb_uci/type/CommUserIO_ID_Type.h"
+#include "../../../include/asb_uci/type/CommUserLinkType.h"
+#include "../../../include/asb_uci/type/CommandableCapabilityDeclarationType.h"
+#include "../../../include/asb_uci/type/ComponentID_Type.h"
+#include "../../../include/asb_uci/type/CryptoTypeEnum.h"
+#include "../../../include/asb_uci/type/ForeignKeyType.h"
+#include "../../../include/asb_uci/type/FrequencyRangeType.h"
+#include "../../../include/asb_uci/type/MilliwattPowerRatioRangeType.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommCapabilityEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommCapabilityOptionsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommDataFormatEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommProfileID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommTerminalCapabilityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommUserIO_ID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommUserLinkType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ComponentID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CryptoTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ForeignKeyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FrequencyRangeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MilliwattPowerRatioRangeType.h"
 
 /**  */
 namespace asb_uci {

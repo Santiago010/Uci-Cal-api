@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ATR_ProcessingParametersType.h"
+#include "../../../include/asb_uci/type/ATR_ProcessingParametersType.h"
 
 #include <memory>
 #include <string>
@@ -41,18 +41,18 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/EntityIdentityType.h"
-#include "asb_uci/type/MDF_CommandType.h"
-#include "asb_uci/type/ProcessingParametersPET.h"
-#include "asb_uci/type/ProductOutputType.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ATR_ProcessingParametersType.h"
-#include "uci/type/EntityIdentityType.h"
-#include "uci/type/MDF_CommandType.h"
-#include "uci/type/ProductOutputType.h"
+#include "../../../include/asb_uci/type/EntityIdentityType.h"
+#include "../../../include/asb_uci/type/MDF_CommandType.h"
+#include "../../../include/asb_uci/type/ProcessingParametersPET.h"
+#include "../../../include/asb_uci/type/ProductOutputType.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ATR_ProcessingParametersType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EntityIdentityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MDF_CommandType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProductOutputType.h"
 
 /**  */
 namespace asb_uci {

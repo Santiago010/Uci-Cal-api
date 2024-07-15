@@ -41,11 +41,11 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/base/DoubleAccessor.h"
-#include "asb_uci/type/CovarianceMatrixCategoryEnum.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/CovarianceMatrixType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/base/DoubleAccessor.h"
+#include "../../../include/asb_uci/type/CovarianceMatrixCategoryEnum.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CovarianceMatrixType.h"
 
 /**  */
 namespace asb_uci {

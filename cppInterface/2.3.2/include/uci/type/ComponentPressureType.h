@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_COMPONENTPRESSURETYPE_H
 #define UCI_TYPE_COMPONENTPRESSURETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/PressureStateEnum.h"
-#include "uci/type/PressureType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "PressureStateEnum.h"
+#include "PressureType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_ACTIONCAPABILITYTYPE_H
 #define UCI_TYPE_ACTIONCAPABILITYTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ActionCapabilityOptionsType.h"
-#include "uci/type/ActionMessageOutputsEnum.h"
-#include "uci/type/ActionTypeEnum.h"
-#include "uci/type/CapabilityTypeEnum.h"
-#include "uci/type/CommandableCapabilityDeclarationType.h"
-#include "uci/type/TaskTypeEnum.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ActionCapabilityOptionsType.h"
+#include "ActionMessageOutputsEnum.h"
+#include "ActionTypeEnum.h"
+#include "CapabilityTypeEnum.h"
+#include "CommandableCapabilityDeclarationType.h"
+#include "TaskTypeEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

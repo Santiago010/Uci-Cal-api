@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_IFDL_CHANNELNUMBERTYPE_H
 #define UCI_TYPE_IFDL_CHANNELNUMBERTYPE_H
 
-#include "uci/type/BytePositiveType.h"
+#include "BytePositiveType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

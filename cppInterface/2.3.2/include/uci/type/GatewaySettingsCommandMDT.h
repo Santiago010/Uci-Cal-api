@@ -36,8 +36,8 @@
 #ifndef UCI_TYPE_GATEWAYSETTINGSCOMMANDMDT_H
 #define UCI_TYPE_GATEWAYSETTINGSCOMMANDMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/GatewayCapabilitySettingsCommandBaseType.h"
+#include "../base/export.h"
+#include "GatewayCapabilitySettingsCommandBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

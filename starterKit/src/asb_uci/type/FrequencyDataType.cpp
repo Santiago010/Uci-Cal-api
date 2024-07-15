@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/FrequencyDataType.h"
+#include "../../../include/asb_uci/type/FrequencyDataType.h"
 
 #include <memory>
 #include <string>
@@ -41,23 +41,23 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/EmptyType.h"
-#include "asb_uci/type/FrequencyAgilityPatternEnum.h"
-#include "asb_uci/type/FrequencyDataBaseType.h"
-#include "asb_uci/type/FrequencyPatternPeriodicityEnum.h"
-#include "asb_uci/type/FrequencySwitchingEnum.h"
-#include "asb_uci/type/FrequencySwitchingPatternEnum.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/EmptyType.h"
-#include "uci/type/FrequencyAgilityPatternEnum.h"
-#include "uci/type/FrequencyDataType.h"
-#include "uci/type/FrequencyPatternPeriodicityEnum.h"
-#include "uci/type/FrequencySwitchingEnum.h"
-#include "uci/type/FrequencySwitchingPatternEnum.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/EmptyType.h"
+#include "../../../include/asb_uci/type/FrequencyAgilityPatternEnum.h"
+#include "../../../include/asb_uci/type/FrequencyDataBaseType.h"
+#include "../../../include/asb_uci/type/FrequencyPatternPeriodicityEnum.h"
+#include "../../../include/asb_uci/type/FrequencySwitchingEnum.h"
+#include "../../../include/asb_uci/type/FrequencySwitchingPatternEnum.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DurationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EmptyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FrequencyAgilityPatternEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FrequencyDataType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FrequencyPatternPeriodicityEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FrequencySwitchingEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FrequencySwitchingPatternEnum.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

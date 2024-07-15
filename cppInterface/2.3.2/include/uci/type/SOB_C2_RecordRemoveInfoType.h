@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SOB_C2_RECORDREMOVEINFOTYPE_H
 #define UCI_TYPE_SOB_C2_RECORDREMOVEINFOTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EntityRemoveReasonEnum.h"
-#include "uci/type/SOB_C2_RecordID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "EntityRemoveReasonEnum.h"
+#include "SOB_C2_RecordID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_LOCATIONTYPE_H
 #define UCI_TYPE_LOCATIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/LoiterType.h"
-#include "uci/type/PathType.h"
-#include "uci/type/ZoneType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "LoiterType.h"
+#include "PathType.h"
+#include "ZoneType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/PO_ComponentSettingsProcessingStageProcessingSettingsType.h"
+#include "../../../include/asb_uci/type/PO_ComponentSettingsProcessingStageProcessingSettingsType.h"
 
 #include <memory>
 #include <string>
@@ -41,18 +41,18 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/HSB_ColorControlType.h"
-#include "asb_uci/type/PO_ComponentSettingsProcessingStagePixelScalingType.h"
-#include "asb_uci/type/RGB_ColorControlType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/HSB_ColorControlType.h"
-#include "uci/type/PO_ComponentSettingsProcessingStagePixelScalingType.h"
-#include "uci/type/PO_ComponentSettingsProcessingStageProcessingSettingsType.h"
-#include "uci/type/PercentType.h"
-#include "uci/type/RGB_ColorControlType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/HSB_ColorControlType.h"
+#include "../../../include/asb_uci/type/PO_ComponentSettingsProcessingStagePixelScalingType.h"
+#include "../../../include/asb_uci/type/RGB_ColorControlType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/HSB_ColorControlType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ComponentSettingsProcessingStagePixelScalingType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ComponentSettingsProcessingStageProcessingSettingsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PercentType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RGB_ColorControlType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

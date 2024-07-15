@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_DMPI_DESIGNATIONREQUESTSTATUS_H
 #define UCI_TYPE_DMPI_DESIGNATIONREQUESTSTATUS_H
 
-#include "uci/type/DMPI_DesignationRequestStatusMT.h"
+#include "DMPI_DesignationRequestStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

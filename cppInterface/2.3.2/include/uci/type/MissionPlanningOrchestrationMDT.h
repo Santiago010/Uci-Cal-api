@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_MISSIONPLANNINGORCHESTRATIONMDT_H
 #define UCI_TYPE_MISSIONPLANNINGORCHESTRATIONMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DataRecordBaseType.h"
-#include "uci/type/MissionPlanningOrchestrationID_Type.h"
-#include "uci/type/PlanningProcessTreeType.h"
-#include "uci/type/SystemID_Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DataRecordBaseType.h"
+#include "MissionPlanningOrchestrationID_Type.h"
+#include "PlanningProcessTreeType.h"
+#include "SystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

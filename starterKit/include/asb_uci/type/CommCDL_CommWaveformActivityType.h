@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/CommCDL_LinkFallbackStateEnum.h"
-#include "asb_uci/type/CommWaveformActivityPET.h"
-#include "uci/type/CommCDL_CommWaveformActivityType.h"
+#include "../../../include/asb_uci/type/CommCDL_LinkFallbackStateEnum.h"
+#include "../../../include/asb_uci/type/CommWaveformActivityPET.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommCDL_CommWaveformActivityType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_LAR_REQUEST_H
 #define UCI_TYPE_LAR_REQUEST_H
 
-#include "uci/type/LAR_RequestMT.h"
+#include "LAR_RequestMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

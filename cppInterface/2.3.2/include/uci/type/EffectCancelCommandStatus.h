@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_EFFECTCANCELCOMMANDSTATUS_H
 #define UCI_TYPE_EFFECTCANCELCOMMANDSTATUS_H
 
-#include "uci/type/EffectCancelCommandStatusMT.h"
+#include "EffectCancelCommandStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

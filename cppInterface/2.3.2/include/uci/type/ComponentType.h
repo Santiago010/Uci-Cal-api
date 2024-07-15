@@ -36,18 +36,18 @@
 #ifndef UCI_TYPE_COMPONENTTYPE_H
 #define UCI_TYPE_COMPONENTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/BIT_ID_Type.h"
-#include "uci/type/ComponentDetailedStatusType.h"
-#include "uci/type/ComponentExtendedStatusPET.h"
-#include "uci/type/ComponentID_Type.h"
-#include "uci/type/ComponentStateEnum.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/SubsystemMaintenanceID_Type.h"
-#include "uci/type/TemperatureStatusType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "BIT_ID_Type.h"
+#include "ComponentDetailedStatusType.h"
+#include "ComponentExtendedStatusPET.h"
+#include "ComponentID_Type.h"
+#include "ComponentStateEnum.h"
+#include "DateTimeType.h"
+#include "SubsystemMaintenanceID_Type.h"
+#include "TemperatureStatusType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

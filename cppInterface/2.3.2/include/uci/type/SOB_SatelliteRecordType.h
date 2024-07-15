@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SOB_SATELLITERECORDTYPE_H
 #define UCI_TYPE_SOB_SATELLITERECORDTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/SOB_RecordSourceType.h"
-#include "uci/type/SOB_SatelliteRecordBaseType.h"
-#include "uci/type/SecurityInformationType.h"
+#include "../base/export.h"
+#include "SOB_RecordSourceType.h"
+#include "SOB_SatelliteRecordBaseType.h"
+#include "SecurityInformationType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

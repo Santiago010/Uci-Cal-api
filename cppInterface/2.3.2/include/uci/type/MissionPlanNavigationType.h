@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_MISSIONPLANNAVIGATIONTYPE_H
 #define UCI_TYPE_MISSIONPLANNAVIGATIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AltitudeType.h"
-#include "uci/type/SpeedType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AltitudeType.h"
+#include "SpeedType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

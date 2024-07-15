@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_COMMASSETORBITMDT_H
 #define UCI_TYPE_COMMASSETORBITMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CommAssetID_Type.h"
-#include "uci/type/CommAssetOrbitID_Type.h"
-#include "uci/type/TLE_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CommAssetID_Type.h"
+#include "CommAssetOrbitID_Type.h"
+#include "TLE_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

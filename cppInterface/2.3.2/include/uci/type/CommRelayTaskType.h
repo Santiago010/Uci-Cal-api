@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_COMMRELAYTASKTYPE_H
 #define UCI_TYPE_COMMRELAYTASKTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AssetType.h"
-#include "uci/type/CommRelayTaskBaseType.h"
-#include "uci/type/LocationType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AssetType.h"
+#include "CommRelayTaskBaseType.h"
+#include "LocationType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

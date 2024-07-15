@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_DMPI_DESIGNATIONMDT_H
 #define UCI_TYPE_DMPI_DESIGNATIONMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DMPI_DesignationID_Type.h"
-#include "uci/type/DMPI_DesignationParametersType.h"
-#include "uci/type/DMPI_PatternID_Type.h"
-#include "uci/type/DataRecordBaseType.h"
-#include "uci/type/TaskID_Type.h"
-#include "uci/type/VisibleString1024Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DMPI_DesignationID_Type.h"
+#include "DMPI_DesignationParametersType.h"
+#include "DMPI_PatternID_Type.h"
+#include "DataRecordBaseType.h"
+#include "TaskID_Type.h"
+#include "VisibleString1024Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

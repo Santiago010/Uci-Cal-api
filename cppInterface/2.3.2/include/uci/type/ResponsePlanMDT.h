@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_RESPONSEPLANMDT_H
 #define UCI_TYPE_RESPONSEPLANMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ResponsePlanCommandID_ChoiceType.h"
-#include "uci/type/ResponsePlanID_Type.h"
-#include "uci/type/ResponsePlanInputsType.h"
-#include "uci/type/ResponsePlanType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "ResponsePlanCommandID_ChoiceType.h"
+#include "ResponsePlanID_Type.h"
+#include "ResponsePlanInputsType.h"
+#include "ResponsePlanType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

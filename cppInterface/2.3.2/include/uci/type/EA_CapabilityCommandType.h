@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_EA_CAPABILITYCOMMANDTYPE_H
 #define UCI_TYPE_EA_CAPABILITYCOMMANDTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityCommandFrequencyType.h"
-#include "uci/type/EA_ActivationEnum.h"
-#include "uci/type/EA_EmissionType.h"
-#include "uci/type/ProtectedAssetReturnPowerType.h"
-#include "uci/type/ResourceAllocatorCommandExtensionType.h"
-#include "uci/type/ResourceSelectionType.h"
-#include "uci/type/SharedRF_ApertureCapabilityCommandBaseType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilityCommandFrequencyType.h"
+#include "EA_ActivationEnum.h"
+#include "EA_EmissionType.h"
+#include "ProtectedAssetReturnPowerType.h"
+#include "ResourceAllocatorCommandExtensionType.h"
+#include "ResourceSelectionType.h"
+#include "SharedRF_ApertureCapabilityCommandBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

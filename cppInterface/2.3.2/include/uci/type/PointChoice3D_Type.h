@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_POINTCHOICE3D_TYPE_H
 #define UCI_TYPE_POINTCHOICE3D_TYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/Point3D_RelativeType.h"
-#include "uci/type/Point3D_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "Point3D_RelativeType.h"
+#include "Point3D_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

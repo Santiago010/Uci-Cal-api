@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_COMMSYSTEM_H
 #define UCI_TYPE_COMMSYSTEM_H
 
-#include "uci/type/CommSystemMT.h"
+#include "CommSystemMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

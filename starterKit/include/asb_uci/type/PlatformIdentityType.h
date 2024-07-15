@@ -41,13 +41,13 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/EnvironmentEnum.h"
-#include "asb_uci/type/LaunchCapabilityEnum.h"
-#include "asb_uci/type/SubmarineConfidenceLevelEnum.h"
-#include "asb_uci/type/ThreatEnum.h"
-#include "asb_uci/type/UnitTypeEnum.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/PlatformIdentityType.h"
+#include "../../../include/asb_uci/type/EnvironmentEnum.h"
+#include "../../../include/asb_uci/type/LaunchCapabilityEnum.h"
+#include "../../../include/asb_uci/type/SubmarineConfidenceLevelEnum.h"
+#include "../../../include/asb_uci/type/ThreatEnum.h"
+#include "../../../include/asb_uci/type/UnitTypeEnum.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlatformIdentityType.h"
 
 /**  */
 namespace asb_uci {

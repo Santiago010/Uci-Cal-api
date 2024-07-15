@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/TurretCommandChoiceType.h"
+#include "../../../include/asb_uci/type/TurretCommandChoiceType.h"
 
 #include <memory>
 #include <string>
@@ -41,20 +41,20 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/FixedPointingEnum.h"
-#include "asb_uci/type/LOS_D_Type.h"
-#include "asb_uci/type/PO_AirTargetVolumeCommandType.h"
-#include "asb_uci/type/TargetType.h"
-#include "asb_uci/type/TurretCommandPositionType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/FixedPointingEnum.h"
-#include "uci/type/LOS_D_Type.h"
-#include "uci/type/PO_AirTargetVolumeCommandType.h"
-#include "uci/type/TargetType.h"
-#include "uci/type/TurretCommandChoiceType.h"
-#include "uci/type/TurretCommandPositionType.h"
+#include "../../../include/asb_uci/type/FixedPointingEnum.h"
+#include "../../../include/asb_uci/type/LOS_D_Type.h"
+#include "../../../include/asb_uci/type/PO_AirTargetVolumeCommandType.h"
+#include "../../../include/asb_uci/type/TargetType.h"
+#include "../../../include/asb_uci/type/TurretCommandPositionType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FixedPointingEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/LOS_D_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_AirTargetVolumeCommandType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TargetType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TurretCommandChoiceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TurretCommandPositionType.h"
 
 /**  */
 namespace asb_uci {

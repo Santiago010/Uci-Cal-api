@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_ASSETFILTERTYPE_H
 #define UCI_TYPE_ASSETFILTERTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EntityFilterType.h"
-#include "uci/type/SystemFilterType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "EntityFilterType.h"
+#include "SystemFilterType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

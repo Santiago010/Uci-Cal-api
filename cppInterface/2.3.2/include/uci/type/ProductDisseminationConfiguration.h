@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_PRODUCTDISSEMINATIONCONFIGURATION_H
 #define UCI_TYPE_PRODUCTDISSEMINATIONCONFIGURATION_H
 
-#include "uci/type/ProductDisseminationConfigurationMT.h"
+#include "ProductDisseminationConfigurationMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

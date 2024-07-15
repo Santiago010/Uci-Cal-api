@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ReadinessItemStatusType.h"
+#include "../../../include/asb_uci/type/ReadinessItemStatusType.h"
 
 #include <memory>
 #include <string>
@@ -41,35 +41,35 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CapabilityBaseType.h"
-#include "asb_uci/type/CapabilityStatusBaseType.h"
-#include "asb_uci/type/ControlStatusMDT.h"
-#include "asb_uci/type/OperationalStatusEnum.h"
-#include "asb_uci/type/PackageStatusMDT.h"
-#include "asb_uci/type/PlanningFunctionMDT.h"
-#include "asb_uci/type/PlanningFunctionStatusMDT.h"
-#include "asb_uci/type/StoreManagementStatusMDT.h"
-#include "asb_uci/type/SubsystemConfigurationMDT.h"
-#include "asb_uci/type/SubsystemStatusMDT.h"
-#include "asb_uci/type/SystemStatusMDT.h"
-#include "asb_uci/type/VisibleString256Type.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CapabilityBaseType.h"
-#include "uci/type/CapabilityStatusBaseType.h"
-#include "uci/type/ControlStatusMDT.h"
-#include "uci/type/OperationalStatusEnum.h"
-#include "uci/type/PackageStatusMDT.h"
-#include "uci/type/PlanningFunctionMDT.h"
-#include "uci/type/PlanningFunctionStatusMDT.h"
-#include "uci/type/ReadinessItemStatusType.h"
-#include "uci/type/StoreManagementStatusMDT.h"
-#include "uci/type/SubsystemConfigurationMDT.h"
-#include "uci/type/SubsystemStatusMDT.h"
-#include "uci/type/SystemStatusMDT.h"
-#include "uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/type/CapabilityBaseType.h"
+#include "../../../include/asb_uci/type/CapabilityStatusBaseType.h"
+#include "../../../include/asb_uci/type/ControlStatusMDT.h"
+#include "../../../include/asb_uci/type/OperationalStatusEnum.h"
+#include "../../../include/asb_uci/type/PackageStatusMDT.h"
+#include "../../../include/asb_uci/type/PlanningFunctionMDT.h"
+#include "../../../include/asb_uci/type/PlanningFunctionStatusMDT.h"
+#include "../../../include/asb_uci/type/StoreManagementStatusMDT.h"
+#include "../../../include/asb_uci/type/SubsystemConfigurationMDT.h"
+#include "../../../include/asb_uci/type/SubsystemStatusMDT.h"
+#include "../../../include/asb_uci/type/SystemStatusMDT.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityStatusBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ControlStatusMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OperationalStatusEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PackageStatusMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlanningFunctionMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlanningFunctionStatusMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ReadinessItemStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StoreManagementStatusMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemConfigurationMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemStatusMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SystemStatusMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString256Type.h"
 
 /**  */
 namespace asb_uci {
@@ -198,7 +198,7 @@ bool ReadinessItemStatusType::hasReason() const noexcept {
 
 uci::type::VisibleString256Type& ReadinessItemStatusType::enableReason(uci::base::accessorType::AccessorType type) {
   if (!reason_Accessor) {
-    reason_Accessor = VisibleString256Type::create(type);
+    reason_Accessor = boost::make_unique<std::string>("");
   }
   return *reason_Accessor;
 }

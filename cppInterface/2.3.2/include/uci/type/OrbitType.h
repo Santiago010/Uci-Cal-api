@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_ORBITTYPE_H
 #define UCI_TYPE_ORBITTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CircleType.h"
-#include "uci/type/OrbitDurationType.h"
-#include "uci/type/OrbitEnum.h"
-#include "uci/type/RelativeDirectionEnum.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CircleType.h"
+#include "OrbitDurationType.h"
+#include "OrbitEnum.h"
+#include "RelativeDirectionEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

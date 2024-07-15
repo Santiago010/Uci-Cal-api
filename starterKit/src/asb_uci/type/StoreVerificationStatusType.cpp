@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/StoreVerificationStatusType.h"
+#include "../../../include/asb_uci/type/StoreVerificationStatusType.h"
 
 #include <memory>
 #include <string>
@@ -41,17 +41,17 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CannotComplyType.h"
-#include "asb_uci/type/MessageDataVerificationEnum.h"
-#include "asb_uci/type/VisibleString256Type.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CannotComplyType.h"
-#include "uci/type/MessageDataVerificationEnum.h"
-#include "uci/type/StoreVerificationStatusType.h"
-#include "uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/type/CannotComplyType.h"
+#include "../../../include/asb_uci/type/MessageDataVerificationEnum.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CannotComplyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MessageDataVerificationEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StoreVerificationStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString256Type.h"
 
 /**  */
 namespace asb_uci {
@@ -190,7 +190,7 @@ bool StoreVerificationStatusType::hasMnemonic() const noexcept {
 
 uci::type::VisibleString256Type& StoreVerificationStatusType::enableMnemonic(uci::base::accessorType::AccessorType type) {
   if (!mnemonic_Accessor) {
-    mnemonic_Accessor = VisibleString256Type::create(type);
+    mnemonic_Accessor = boost::make_unique<std::string>("");
   }
   return *mnemonic_Accessor;
 }

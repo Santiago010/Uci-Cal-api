@@ -41,11 +41,11 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/AngleType.h"
-#include "asb_uci/type/BodyReferenceEnum.h"
-#include "uci/base/Accessor.h"
-#include "uci/type/ResolvedCharacterizationAspectCoverageType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/AngleType.h"
+#include "../../../include/asb_uci/type/BodyReferenceEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ResolvedCharacterizationAspectCoverageType.h"
 
 /**  */
 namespace asb_uci {

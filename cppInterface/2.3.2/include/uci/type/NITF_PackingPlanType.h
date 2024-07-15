@@ -36,18 +36,18 @@
 #ifndef UCI_TYPE_NITF_PACKINGPLANTYPE_H
 #define UCI_TYPE_NITF_PACKINGPLANTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ACFTB_Type.h"
-#include "uci/type/AIMIDB_Type.h"
-#include "uci/type/EXPLTB_Type.h"
-#include "uci/type/EmptyType.h"
-#include "uci/type/FileHeaderType.h"
-#include "uci/type/ImageSubheaderType.h"
-#include "uci/type/MSTGTA_Type.h"
-#include "uci/type/NITF_PackingPlanPET.h"
-#include "uci/type/PATCHB_Type.h"
-#include "uci/type/SECTGA_Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ACFTB_Type.h"
+#include "AIMIDB_Type.h"
+#include "EXPLTB_Type.h"
+#include "EmptyType.h"
+#include "FileHeaderType.h"
+#include "ImageSubheaderType.h"
+#include "MSTGTA_Type.h"
+#include "NITF_PackingPlanPET.h"
+#include "PATCHB_Type.h"
+#include "SECTGA_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

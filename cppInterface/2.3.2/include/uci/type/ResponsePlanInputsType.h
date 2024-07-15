@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_RESPONSEPLANINPUTSTYPE_H
 #define UCI_TYPE_RESPONSEPLANINPUTSTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/PlanInputsCoreType.h"
-#include "uci/type/RequirementAssociationConstraintType.h"
-#include "uci/type/RequirementPlanningCandidateType.h"
-#include "uci/type/ResponseAllocationType.h"
-#include "uci/type/ResponsePlanConstraintType.h"
-#include "uci/type/ResponsePlanPartsType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "PlanInputsCoreType.h"
+#include "RequirementAssociationConstraintType.h"
+#include "RequirementPlanningCandidateType.h"
+#include "ResponseAllocationType.h"
+#include "ResponsePlanConstraintType.h"
+#include "ResponsePlanPartsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ESM_CapabilityCommandType.h"
+#include "../../../include/asb_uci/type/ESM_CapabilityCommandType.h"
 
 #include <memory>
 #include <string>
@@ -41,22 +41,22 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CapabilityCommandFrequencyType.h"
-#include "asb_uci/type/ESM_BinGroupActivationType.h"
-#include "asb_uci/type/ProductOutputCommandBasicType.h"
-#include "asb_uci/type/ResourceAllocatorCommandExtensionType.h"
-#include "asb_uci/type/SharedRF_ApertureCapabilityCommandBaseType.h"
-#include "asb_uci/type/SubCapabilitySelectionType.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CapabilityCommandFrequencyType.h"
-#include "uci/type/ESM_BinGroupActivationType.h"
-#include "uci/type/ESM_CapabilityCommandType.h"
-#include "uci/type/ProductOutputCommandBasicType.h"
-#include "uci/type/ResourceAllocatorCommandExtensionType.h"
-#include "uci/type/SubCapabilitySelectionType.h"
+#include "../../../include/asb_uci/type/CapabilityCommandFrequencyType.h"
+#include "../../../include/asb_uci/type/ESM_BinGroupActivationType.h"
+#include "../../../include/asb_uci/type/ProductOutputCommandBasicType.h"
+#include "../../../include/asb_uci/type/ResourceAllocatorCommandExtensionType.h"
+#include "../../../include/asb_uci/type/SharedRF_ApertureCapabilityCommandBaseType.h"
+#include "../../../include/asb_uci/type/SubCapabilitySelectionType.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityCommandFrequencyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ESM_BinGroupActivationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ESM_CapabilityCommandType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProductOutputCommandBasicType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ResourceAllocatorCommandExtensionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubCapabilitySelectionType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ENTITYCONFIRMATIONREQUEST_H
 #define UCI_TYPE_ENTITYCONFIRMATIONREQUEST_H
 
-#include "uci/type/EntityConfirmationRequestMT.h"
+#include "EntityConfirmationRequestMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

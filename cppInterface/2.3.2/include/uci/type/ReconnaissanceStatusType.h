@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_RECONNAISSANCESTATUSTYPE_H
 #define UCI_TYPE_RECONNAISSANCESTATUSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityAvailabilityEnum.h"
-#include "uci/type/RECCE_SystemEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CapabilityAvailabilityEnum.h"
+#include "RECCE_SystemEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/RF_ResourceAllocationRequestMDT.h"
+#include "../../../include/asb_uci/type/RF_ResourceAllocationRequestMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,23 +41,23 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AperturePointingOptionsType.h"
-#include "asb_uci/type/ComparableRankingType.h"
-#include "asb_uci/type/RF_ResourceAllocationRequestRemovalType.h"
-#include "asb_uci/type/RequestBaseType.h"
-#include "asb_uci/type/RequestingFunctionID_ChoiceType.h"
-#include "asb_uci/type/ResourceRequestOptionType.h"
-#include "asb_uci/type/SupportCapabilityID_Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AperturePointingOptionsType.h"
-#include "uci/type/ComparableRankingType.h"
-#include "uci/type/RF_ResourceAllocationRequestMDT.h"
-#include "uci/type/RF_ResourceAllocationRequestRemovalType.h"
-#include "uci/type/RequestingFunctionID_ChoiceType.h"
-#include "uci/type/ResourceRequestOptionType.h"
-#include "uci/type/SupportCapabilityID_Type.h"
+#include "../../../include/asb_uci/type/AperturePointingOptionsType.h"
+#include "../../../include/asb_uci/type/ComparableRankingType.h"
+#include "../../../include/asb_uci/type/RF_ResourceAllocationRequestRemovalType.h"
+#include "../../../include/asb_uci/type/RequestBaseType.h"
+#include "../../../include/asb_uci/type/RequestingFunctionID_ChoiceType.h"
+#include "../../../include/asb_uci/type/ResourceRequestOptionType.h"
+#include "../../../include/asb_uci/type/SupportCapabilityID_Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AperturePointingOptionsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ComparableRankingType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RF_ResourceAllocationRequestMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RF_ResourceAllocationRequestRemovalType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RequestingFunctionID_ChoiceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ResourceRequestOptionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SupportCapabilityID_Type.h"
 
 /**  */
 namespace asb_uci {

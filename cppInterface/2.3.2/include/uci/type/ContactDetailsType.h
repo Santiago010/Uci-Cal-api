@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_CONTACTDETAILSTYPE_H
 #define UCI_TYPE_CONTACTDETAILSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/OperatorNameType.h"
-#include "uci/type/OperatorPhoneNumberType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "OperatorNameType.h"
+#include "OperatorPhoneNumberType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

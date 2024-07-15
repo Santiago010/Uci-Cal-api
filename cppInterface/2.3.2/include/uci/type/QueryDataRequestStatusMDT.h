@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_QUERYDATAREQUESTSTATUSMDT_H
 #define UCI_TYPE_QUERYDATAREQUESTSTATUSMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/CompletionStatusType.h"
-#include "uci/type/QueryPaginationType.h"
-#include "uci/type/QueryResultType.h"
-#include "uci/type/RequestStatusBaseType.h"
+#include "../base/export.h"
+#include "CompletionStatusType.h"
+#include "QueryPaginationType.h"
+#include "QueryResultType.h"
+#include "RequestStatusBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

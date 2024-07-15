@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_QUERYCOUNTTYPE_H
 #define UCI_TYPE_QUERYCOUNTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/QueryCountValueType.h"
-#include "uci/type/QueryStepType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "QueryCountValueType.h"
+#include "QueryStepType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

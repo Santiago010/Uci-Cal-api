@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_GATEWAYLINK16CONFIGURATIONSLAVETYPE_H
 #define UCI_TYPE_GATEWAYLINK16CONFIGURATIONSLAVETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EntityID_Type.h"
-#include "uci/type/OpPointID_Type.h"
-#include "uci/type/OperatorLocationOfInterestID_Type.h"
-#include "uci/type/SystemID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "EntityID_Type.h"
+#include "OpPointID_Type.h"
+#include "OperatorLocationOfInterestID_Type.h"
+#include "SystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/AssessmentMDT.h"
+#include "../../../include/asb_uci/type/AssessmentMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,18 +41,18 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AnalysisRouteID_Type.h"
-#include "asb_uci/type/AssessmentID_Type.h"
-#include "asb_uci/type/AssessmentType.h"
-#include "asb_uci/type/RequestID_Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AnalysisRouteID_Type.h"
-#include "uci/type/AssessmentID_Type.h"
-#include "uci/type/AssessmentMDT.h"
-#include "uci/type/AssessmentType.h"
-#include "uci/type/RequestID_Type.h"
+#include "../../../include/asb_uci/type/AnalysisRouteID_Type.h"
+#include "../../../include/asb_uci/type/AssessmentID_Type.h"
+#include "../../../include/asb_uci/type/AssessmentType.h"
+#include "../../../include/asb_uci/type/RequestID_Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AnalysisRouteID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AssessmentID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AssessmentMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AssessmentType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RequestID_Type.h"
 
 /**  */
 namespace asb_uci {

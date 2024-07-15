@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_CAPABILITYCONSENTREQUESTSTATUSBASETYPE_H
 #define UCI_TYPE_CAPABILITYCONSENTREQUESTSTATUSBASETYPE_H
 
-#include "uci/type/ApprovalStatusEnum.h"
-#include "uci/type/CannotComplyType.h"
-#include "uci/type/RequestStatusBaseType.h"
+#include "ApprovalStatusEnum.h"
+#include "CannotComplyType.h"
+#include "RequestStatusBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

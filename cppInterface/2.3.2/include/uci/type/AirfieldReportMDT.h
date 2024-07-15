@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_AIRFIELDREPORTMDT_H
 #define UCI_TYPE_AIRFIELDREPORTMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AirfieldID_Type.h"
-#include "uci/type/AirfieldInformationType.h"
-#include "uci/type/AirfieldReferenceID_ChoiceType.h"
-#include "uci/type/AirfieldReportID_Type.h"
-#include "uci/type/AirfieldStoresPET.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/WeatherAreaDataType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AirfieldID_Type.h"
+#include "AirfieldInformationType.h"
+#include "AirfieldReferenceID_ChoiceType.h"
+#include "AirfieldReportID_Type.h"
+#include "AirfieldStoresPET.h"
+#include "DateTimeType.h"
+#include "WeatherAreaDataType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

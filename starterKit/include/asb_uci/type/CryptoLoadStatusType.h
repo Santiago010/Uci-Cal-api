@@ -41,12 +41,12 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/CryptoLoadStateEnum.h"
-#include "asb_uci/type/CryptoLoadTypeEnum.h"
-#include "asb_uci/type/CryptoSlotIdentifierType.h"
-#include "asb_uci/type/DateTimeType.h"
-#include "uci/type/CryptoLoadStatusType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/CryptoLoadStateEnum.h"
+#include "../../../include/asb_uci/type/CryptoLoadTypeEnum.h"
+#include "../../../include/asb_uci/type/CryptoSlotIdentifierType.h"
+#include "../../../include/asb_uci/type/DateTimeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CryptoLoadStatusType.h"
 
 /**  */
 namespace asb_uci {

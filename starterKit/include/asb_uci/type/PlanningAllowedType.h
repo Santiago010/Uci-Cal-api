@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AutonomousPlanCommandType.h"
-#include "asb_uci/type/DurationType.h"
-#include "uci/type/PlanningAllowedType.h"
+#include "../../../include/asb_uci/type/AutonomousPlanCommandType.h"
+#include "../../../include/asb_uci/type/DurationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlanningAllowedType.h"
 
 /**  */
 namespace asb_uci {

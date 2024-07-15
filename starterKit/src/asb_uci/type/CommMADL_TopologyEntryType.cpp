@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CommMADL_TopologyEntryType.h"
+#include "../../../include/asb_uci/type/CommMADL_TopologyEntryType.h"
 
 #include <memory>
 #include <string>
@@ -41,24 +41,24 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CommMADL_DataRateTypeEnum.h"
-#include "asb_uci/type/CommMADL_NodeDataValidityEnum.h"
-#include "asb_uci/type/CommMADL_SecurityKeyType.h"
-#include "asb_uci/type/CommMADL_TimeSourceEnum.h"
-#include "asb_uci/type/Point4D_Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CommMADL_DataRateTypeEnum.h"
-#include "uci/type/CommMADL_FlightGroupType.h"
-#include "uci/type/CommMADL_NodeDataValidityEnum.h"
-#include "uci/type/CommMADL_SecurityKeyType.h"
-#include "uci/type/CommMADL_TimeSourceEnum.h"
-#include "uci/type/CommMADL_TopologyEntryType.h"
-#include "uci/type/MADL_NodeRangeType.h"
-#include "uci/type/Point4D_Type.h"
-#include "uci/type/ShortPositiveType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/CommMADL_DataRateTypeEnum.h"
+#include "../../../include/asb_uci/type/CommMADL_NodeDataValidityEnum.h"
+#include "../../../include/asb_uci/type/CommMADL_SecurityKeyType.h"
+#include "../../../include/asb_uci/type/CommMADL_TimeSourceEnum.h"
+#include "../../../include/asb_uci/type/Point4D_Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommMADL_DataRateTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommMADL_FlightGroupType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommMADL_NodeDataValidityEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommMADL_SecurityKeyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommMADL_TimeSourceEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommMADL_TopologyEntryType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MADL_NodeRangeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/Point4D_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ShortPositiveType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

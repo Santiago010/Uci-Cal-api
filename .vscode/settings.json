@@ -93,7 +93,8 @@
     "*.ipp": "cpp",
     "execution": "cpp",
     "any": "cpp",
-    "__availability": "cpp"
+    "__availability": "cpp",
+    "__memory": "cpp"
   },
   "workbench.colorCustomizations": {
     "activityBar.activeBackground": "#ab307e",

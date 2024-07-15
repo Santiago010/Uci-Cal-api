@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_ORBITALOBJECTCOMPARISONDELTATYPE_H
 #define UCI_TYPE_ORBITALOBJECTCOMPARISONDELTATYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/OrbitalObjectMetricsType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "OrbitalObjectMetricsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

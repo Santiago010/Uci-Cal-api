@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_IMPACTPOINTTYPE_H
 #define UCI_TYPE_IMPACTPOINTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/BodyFaceType.h"
-#include "uci/type/OffsetLocationErrorType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "BodyFaceType.h"
+#include "OffsetLocationErrorType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

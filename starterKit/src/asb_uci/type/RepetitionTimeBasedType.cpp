@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/RepetitionTimeBasedType.h"
+#include "../../../include/asb_uci/type/RepetitionTimeBasedType.h"
 
 #include <memory>
 #include <string>
@@ -41,16 +41,16 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/RepetitionContinuousType.h"
-#include "asb_uci/type/RepetitionFiniteType.h"
-#include "asb_uci/type/RepetitionPeriodicType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/RepetitionContinuousType.h"
-#include "uci/type/RepetitionFiniteType.h"
-#include "uci/type/RepetitionPeriodicType.h"
-#include "uci/type/RepetitionTimeBasedType.h"
+#include "../../../include/asb_uci/type/RepetitionContinuousType.h"
+#include "../../../include/asb_uci/type/RepetitionFiniteType.h"
+#include "../../../include/asb_uci/type/RepetitionPeriodicType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RepetitionContinuousType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RepetitionFiniteType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RepetitionPeriodicType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RepetitionTimeBasedType.h"
 
 /**  */
 namespace asb_uci {

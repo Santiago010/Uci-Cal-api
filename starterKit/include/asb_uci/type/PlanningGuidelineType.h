@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/ClimbOptimizationEnum.h"
-#include "asb_uci/type/SpeedOptimizationEnum.h"
-#include "uci/type/PlanningGuidelineType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/ClimbOptimizationEnum.h"
+#include "../../../include/asb_uci/type/SpeedOptimizationEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlanningGuidelineType.h"
 
 /**  */
 namespace asb_uci {

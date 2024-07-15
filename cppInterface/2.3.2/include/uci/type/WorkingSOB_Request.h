@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_WORKINGSOB_REQUEST_H
 #define UCI_TYPE_WORKINGSOB_REQUEST_H
 
-#include "uci/type/WorkingSOB_RequestMT.h"
+#include "WorkingSOB_RequestMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

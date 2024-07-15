@@ -41,11 +41,11 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/EntityStatusEnum.h"
-#include "asb_uci/type/MobilityEnum.h"
-#include "asb_uci/type/OB_OperationalStatusEnum.h"
-#include "uci/type/EntityMDT.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/EntityStatusEnum.h"
+#include "../../../include/asb_uci/type/MobilityEnum.h"
+#include "../../../include/asb_uci/type/OB_OperationalStatusEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EntityMDT.h"
 
 /**  */
 namespace asb_uci {

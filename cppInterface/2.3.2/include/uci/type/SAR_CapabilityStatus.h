@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SAR_CAPABILITYSTATUS_H
 #define UCI_TYPE_SAR_CAPABILITYSTATUS_H
 
-#include "uci/type/SAR_CapabilityStatusMT.h"
+#include "SAR_CapabilityStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

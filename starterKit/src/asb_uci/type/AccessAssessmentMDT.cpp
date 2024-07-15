@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/AccessAssessmentMDT.h"
+#include "../../../include/asb_uci/type/AccessAssessmentMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,25 +41,25 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AccessAssessmentID_Type.h"
-#include "asb_uci/type/AccessAssessmentType.h"
-#include "asb_uci/type/AssociatedAccessAssessmentInfoType.h"
-#include "asb_uci/type/NotificationSourceType.h"
-#include "asb_uci/type/RequestID_Type.h"
-#include "asb_uci/type/VisibleString1024Type.h"
-#include "asb_uci/type/VisibleString32Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AccessAssessmentID_Type.h"
-#include "uci/type/AccessAssessmentMDT.h"
-#include "uci/type/AccessAssessmentType.h"
-#include "uci/type/AssociatedAccessAssessmentInfoType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/NotificationSourceType.h"
-#include "uci/type/RequestID_Type.h"
-#include "uci/type/VisibleString1024Type.h"
-#include "uci/type/VisibleString32Type.h"
+#include "../../../include/asb_uci/type/AccessAssessmentID_Type.h"
+#include "../../../include/asb_uci/type/AccessAssessmentType.h"
+#include "../../../include/asb_uci/type/AssociatedAccessAssessmentInfoType.h"
+#include "../../../include/asb_uci/type/NotificationSourceType.h"
+#include "../../../include/asb_uci/type/RequestID_Type.h"
+#include "../../../include/asb_uci/type/VisibleString1024Type.h"
+#include "../../../include/asb_uci/type/VisibleString32Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AccessAssessmentID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AccessAssessmentMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AccessAssessmentType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AssociatedAccessAssessmentInfoType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DateTimeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/NotificationSourceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RequestID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString1024Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString32Type.h"
 
 /**  */
 namespace asb_uci {

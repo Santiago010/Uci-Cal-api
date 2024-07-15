@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_EA_SETTINGSCOMMANDSTATUS_H
 #define UCI_TYPE_EA_SETTINGSCOMMANDSTATUS_H
 
-#include "uci/type/EA_SettingsCommandStatusMT.h"
+#include "EA_SettingsCommandStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_OPERATIONSAREADATALINKNATIVEFILTERTYPE_H
 #define UCI_TYPE_OPERATIONSAREADATALINKNATIVEFILTERTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/DataLinkNativeFilterPET.h"
-#include "uci/type/GatewayLink16ConfigurationAreaType.h"
+#include "../base/export.h"
+#include "DataLinkNativeFilterPET.h"
+#include "GatewayLink16ConfigurationAreaType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

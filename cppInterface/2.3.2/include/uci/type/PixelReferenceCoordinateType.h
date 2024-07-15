@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_PIXELREFERENCECOORDINATETYPE_H
 #define UCI_TYPE_PIXELREFERENCECOORDINATETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/FileNameType.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/PixelDataType.h"
-#include "uci/type/ProductMetadataID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "FileNameType.h"
+#include "ForeignKeyType.h"
+#include "PixelDataType.h"
+#include "ProductMetadataID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

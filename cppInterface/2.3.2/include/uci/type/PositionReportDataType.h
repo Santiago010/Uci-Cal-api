@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_POSITIONREPORTDATATYPE_H
 #define UCI_TYPE_POSITIONREPORTDATATYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/BytePositiveType.h"
-#include "uci/type/ComponentID_Type.h"
-#include "uci/type/DetailedKinematicsErrorType.h"
-#include "uci/type/DetailedKinematicsType.h"
-#include "uci/type/NavigationSolutionCorrectionsType.h"
-#include "uci/type/NavigationSolutionStateEnum.h"
-#include "uci/type/PositionSourceID_ChoiceType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "BytePositiveType.h"
+#include "ComponentID_Type.h"
+#include "DetailedKinematicsErrorType.h"
+#include "DetailedKinematicsType.h"
+#include "NavigationSolutionCorrectionsType.h"
+#include "NavigationSolutionStateEnum.h"
+#include "PositionSourceID_ChoiceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

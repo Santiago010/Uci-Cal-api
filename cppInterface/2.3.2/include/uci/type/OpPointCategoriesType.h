@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_OPPOINTCATEGORIESTYPE_H
 #define UCI_TYPE_OPPOINTCATEGORIESTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/OpPointEmergencyEnum.h"
-#include "uci/type/OpPointGeneralEnum.h"
-#include "uci/type/OpPointHazardEnum.h"
-#include "uci/type/OpPointReferenceEnum.h"
-#include "uci/type/OpPointStationEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "OpPointEmergencyEnum.h"
+#include "OpPointGeneralEnum.h"
+#include "OpPointHazardEnum.h"
+#include "OpPointReferenceEnum.h"
+#include "OpPointStationEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

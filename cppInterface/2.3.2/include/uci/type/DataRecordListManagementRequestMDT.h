@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_DATARECORDLISTMANAGEMENTREQUESTMDT_H
 #define UCI_TYPE_DATARECORDLISTMANAGEMENTREQUESTMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/DataRecordInstanceID_Type.h"
-#include "uci/type/DataRecordListID_Type.h"
-#include "uci/type/ManagedListBaseType.h"
-#include "uci/type/RequestBaseType.h"
+#include "../base/export.h"
+#include "DataRecordInstanceID_Type.h"
+#include "DataRecordListID_Type.h"
+#include "ManagedListBaseType.h"
+#include "RequestBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

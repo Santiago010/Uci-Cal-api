@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ControlSourcesCommandMDT.h"
+#include "../../../include/asb_uci/type/ControlSourcesCommandMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,15 +41,15 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CommandBaseType.h"
-#include "asb_uci/type/ControlSourcesControlType.h"
-#include "asb_uci/type/SystemID_Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ControlSourcesCommandMDT.h"
-#include "uci/type/ControlSourcesControlType.h"
-#include "uci/type/SystemID_Type.h"
+#include "../../../include/asb_uci/type/CommandBaseType.h"
+#include "../../../include/asb_uci/type/ControlSourcesControlType.h"
+#include "../../../include/asb_uci/type/SystemID_Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ControlSourcesCommandMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ControlSourcesControlType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SystemID_Type.h"
 
 /**  */
 namespace asb_uci {

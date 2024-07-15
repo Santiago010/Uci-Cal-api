@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_COMMLINK16ADVANCEDSLOTNOTIFICATIONTYPE_H
 #define UCI_TYPE_COMMLINK16ADVANCEDSLOTNOTIFICATIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CommLink16_AdvanceSlotNotificationModeEnum.h"
-#include "uci/type/Link16_SlotSelectionType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "CommLink16_AdvanceSlotNotificationModeEnum.h"
+#include "Link16_SlotSelectionType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

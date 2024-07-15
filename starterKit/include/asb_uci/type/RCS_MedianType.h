@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/DoubleNonNegativeType.h"
-#include "asb_uci/type/FrequencyType.h"
-#include "asb_uci/type/PolarizationEnum.h"
-#include "uci/type/RCS_MedianType.h"
+#include "../../../include/asb_uci/type/DoubleNonNegativeType.h"
+#include "../../../include/asb_uci/type/FrequencyType.h"
+#include "../../../include/asb_uci/type/PolarizationEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RCS_MedianType.h"
 
 /**  */
 namespace asb_uci {

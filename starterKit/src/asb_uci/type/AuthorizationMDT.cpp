@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/AuthorizationMDT.h"
+#include "../../../include/asb_uci/type/AuthorizationMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,25 +41,25 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AuthorizationID_Type.h"
-#include "asb_uci/type/DataRecordBaseType.h"
-#include "asb_uci/type/DateTimeRangeType.h"
-#include "asb_uci/type/PlanPartsBaseType.h"
-#include "asb_uci/type/SystemID_Type.h"
-#include "asb_uci/type/UserIdentifierType.h"
-#include "asb_uci/type/ZoneType.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AuthorizationID_Type.h"
-#include "uci/type/AuthorizationMDT.h"
-#include "uci/type/DateTimeRangeType.h"
-#include "uci/type/PlanPartsBaseType.h"
-#include "uci/type/SystemID_Type.h"
-#include "uci/type/UserIdentifierType.h"
-#include "uci/type/ZoneType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/AuthorizationID_Type.h"
+#include "../../../include/asb_uci/type/DataRecordBaseType.h"
+#include "../../../include/asb_uci/type/DateTimeRangeType.h"
+#include "../../../include/asb_uci/type/PlanPartsBaseType.h"
+#include "../../../include/asb_uci/type/SystemID_Type.h"
+#include "../../../include/asb_uci/type/UserIdentifierType.h"
+#include "../../../include/asb_uci/type/ZoneType.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AuthorizationID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AuthorizationMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DateTimeRangeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlanPartsBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SystemID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/UserIdentifierType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ZoneType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

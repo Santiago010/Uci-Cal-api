@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_POLARIZATIONTYPE_H
 #define UCI_TYPE_POLARIZATIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AngleType.h"
-#include "uci/type/DecibelType.h"
-#include "uci/type/PolarizationEnum.h"
-#include "uci/type/PolarizationSenseEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AngleType.h"
+#include "DecibelType.h"
+#include "PolarizationEnum.h"
+#include "PolarizationSenseEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

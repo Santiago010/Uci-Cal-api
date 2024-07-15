@@ -36,22 +36,22 @@
 #ifndef UCI_TYPE_PO_ACTIVITYTYPE_H
 #define UCI_TYPE_PO_ACTIVITYTYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ActivityBaseType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/FOR_Enum.h"
-#include "uci/type/FOV_ActivityType.h"
-#include "uci/type/PO_CollectionConstraintsStatusType.h"
-#include "uci/type/PO_ComponentStatusType.h"
-#include "uci/type/PO_SubCapabilitySettingsType.h"
-#include "uci/type/PO_TargetType.h"
-#include "uci/type/PO_TrackActivityType.h"
-#include "uci/type/PO_TrackDetailsType.h"
-#include "uci/type/ProductOutputCapabilityStatusImageryType.h"
-#include "uci/type/RepetitionType.h"
-#include "uci/type/SearchTrackActivityDetailsType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ActivityBaseType.h"
+#include "DateTimeType.h"
+#include "FOR_Enum.h"
+#include "FOV_ActivityType.h"
+#include "PO_CollectionConstraintsStatusType.h"
+#include "PO_ComponentStatusType.h"
+#include "PO_SubCapabilitySettingsType.h"
+#include "PO_TargetType.h"
+#include "PO_TrackActivityType.h"
+#include "PO_TrackDetailsType.h"
+#include "ProductOutputCapabilityStatusImageryType.h"
+#include "RepetitionType.h"
+#include "SearchTrackActivityDetailsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

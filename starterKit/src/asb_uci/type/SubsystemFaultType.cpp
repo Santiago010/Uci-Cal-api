@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/SubsystemFaultType.h"
+#include "../../../include/asb_uci/type/SubsystemFaultType.h"
 
 #include <memory>
 #include <string>
@@ -41,34 +41,34 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CapabilityID_Type.h"
-#include "asb_uci/type/ComponentID_Type.h"
-#include "asb_uci/type/FaultDataType.h"
-#include "asb_uci/type/FaultID_Type.h"
-#include "asb_uci/type/FaultSeverityEnum.h"
-#include "asb_uci/type/FaultStateEnum.h"
-#include "asb_uci/type/ServiceID_Type.h"
-#include "asb_uci/type/SubsystemFaultAmbiguityGroupType.h"
-#include "asb_uci/type/SubsystemID_Type.h"
-#include "asb_uci/type/SupportCapabilityID_Type.h"
-#include "asb_uci/type/VisibleString256Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/ComponentID_Type.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/FaultDataType.h"
-#include "uci/type/FaultID_Type.h"
-#include "uci/type/FaultSeverityEnum.h"
-#include "uci/type/FaultStateEnum.h"
-#include "uci/type/ServiceID_Type.h"
-#include "uci/type/SubsystemFaultAmbiguityGroupType.h"
-#include "uci/type/SubsystemFaultType.h"
-#include "uci/type/SubsystemID_Type.h"
-#include "uci/type/SupportCapabilityID_Type.h"
-#include "uci/type/VisibleString256Type.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/CapabilityID_Type.h"
+#include "../../../include/asb_uci/type/ComponentID_Type.h"
+#include "../../../include/asb_uci/type/FaultDataType.h"
+#include "../../../include/asb_uci/type/FaultID_Type.h"
+#include "../../../include/asb_uci/type/FaultSeverityEnum.h"
+#include "../../../include/asb_uci/type/FaultStateEnum.h"
+#include "../../../include/asb_uci/type/ServiceID_Type.h"
+#include "../../../include/asb_uci/type/SubsystemFaultAmbiguityGroupType.h"
+#include "../../../include/asb_uci/type/SubsystemID_Type.h"
+#include "../../../include/asb_uci/type/SupportCapabilityID_Type.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ComponentID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DateTimeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FaultDataType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FaultID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FaultSeverityEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FaultStateEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ServiceID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemFaultAmbiguityGroupType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemFaultType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SupportCapabilityID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString256Type.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {
@@ -380,7 +380,7 @@ bool SubsystemFaultType::hasFaultDescription() const noexcept {
 
 uci::type::VisibleString256Type& SubsystemFaultType::enableFaultDescription(uci::base::accessorType::AccessorType type) {
   if (!faultDescription_Accessor) {
-    faultDescription_Accessor = VisibleString256Type::create(type);
+    faultDescription_Accessor = boost::make_unique<std::string>("");
   }
   return *faultDescription_Accessor;
 }

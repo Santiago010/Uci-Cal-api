@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/RequestStatusBaseType.h"
-#include "uci/type/ComponentStatusDataRequestStatusMDT.h"
+#include "../../../include/asb_uci/type/RequestStatusBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ComponentStatusDataRequestStatusMDT.h"
 
 /**  */
 namespace asb_uci {

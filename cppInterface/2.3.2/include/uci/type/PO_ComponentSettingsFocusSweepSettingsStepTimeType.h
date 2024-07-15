@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_PO_COMPONENTSETTINGSFOCUSSWEEPSETTINGSSTEPTIMETYPE_H
 #define UCI_TYPE_PO_COMPONENTSETTINGSFOCUSSWEEPSETTINGSSTEPTIMETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/DurationAccessor.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
+#include "../base/Accessor.h"
+#include "../base/DurationAccessor.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

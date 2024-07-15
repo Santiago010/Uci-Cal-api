@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_MIDB_EVALUATIONCODETYPE_H
 #define UCI_TYPE_MIDB_EVALUATIONCODETYPE_H
 
-#include "uci/type/BytePositiveType.h"
+#include "BytePositiveType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

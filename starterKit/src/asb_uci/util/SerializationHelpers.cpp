@@ -57,8 +57,8 @@
 #include "uci/base/UCIException.h"
 #include "uci/base/UUID.h"
 #include "uci/base/accessorType.h"
-#include "xs/type/binaryXmlSchemaPrimitives.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../xs/type/binaryXmlSchemaPrimitives.h"
+#include "../../xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

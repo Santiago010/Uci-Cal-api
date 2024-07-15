@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_RADARALTIMETERCOMMAND_H
 #define UCI_TYPE_RADARALTIMETERCOMMAND_H
 
-#include "uci/type/RadarAltimeterCommandMT.h"
+#include "RadarAltimeterCommandMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

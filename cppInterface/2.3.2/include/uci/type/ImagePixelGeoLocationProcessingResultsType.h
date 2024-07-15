@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_IMAGEPIXELGEOLOCATIONPROCESSINGRESULTSTYPE_H
 #define UCI_TYPE_IMAGEPIXELGEOLOCATIONPROCESSINGRESULTSTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/PixelOutputDataType.h"
-#include "uci/type/ProcessingResultsPET.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "PixelOutputDataType.h"
+#include "ProcessingResultsPET.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

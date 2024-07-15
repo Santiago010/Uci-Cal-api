@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_SYSTEMSNEEDEDREQUESTSTATUSMDT_H
 #define UCI_TYPE_SYSTEMSNEEDEDREQUESTSTATUSMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/IncompleteProcessingType.h"
-#include "uci/type/RequestStatusBaseType.h"
-#include "uci/type/SystemsNeededOptionType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "IncompleteProcessingType.h"
+#include "RequestStatusBaseType.h"
+#include "SystemsNeededOptionType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ProductFilterType.h"
+#include "../../../include/asb_uci/type/ProductFilterType.h"
 
 #include <memory>
 #include <string>
@@ -41,26 +41,26 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/DateTimeRangeType.h"
-#include "asb_uci/type/FileFormatType.h"
-#include "asb_uci/type/LocationFilterType.h"
-#include "asb_uci/type/ProductTypeEnum.h"
-#include "asb_uci/type/SecurityInformationType.h"
-#include "asb_uci/type/SourceFilterType.h"
-#include "asb_uci/type/SourceLocationFilterType.h"
-#include "asb_uci/type/VisibleString1024Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/DateTimeRangeType.h"
-#include "uci/type/FileFormatType.h"
-#include "uci/type/LocationFilterType.h"
-#include "uci/type/ProductFilterType.h"
-#include "uci/type/ProductTypeEnum.h"
-#include "uci/type/SecurityInformationType.h"
-#include "uci/type/SourceFilterType.h"
-#include "uci/type/SourceLocationFilterType.h"
-#include "uci/type/VisibleString1024Type.h"
+#include "../../../include/asb_uci/type/DateTimeRangeType.h"
+#include "../../../include/asb_uci/type/FileFormatType.h"
+#include "../../../include/asb_uci/type/LocationFilterType.h"
+#include "../../../include/asb_uci/type/ProductTypeEnum.h"
+#include "../../../include/asb_uci/type/SecurityInformationType.h"
+#include "../../../include/asb_uci/type/SourceFilterType.h"
+#include "../../../include/asb_uci/type/SourceLocationFilterType.h"
+#include "../../../include/asb_uci/type/VisibleString1024Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DateTimeRangeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FileFormatType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/LocationFilterType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProductFilterType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProductTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SecurityInformationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SourceFilterType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SourceLocationFilterType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString1024Type.h"
 
 /**  */
 namespace asb_uci {

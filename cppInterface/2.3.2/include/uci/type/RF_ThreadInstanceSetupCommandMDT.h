@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_RF_THREADINSTANCESETUPCOMMANDMDT_H
 #define UCI_TYPE_RF_THREADINSTANCESETUPCOMMANDMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CommandBaseType.h"
-#include "uci/type/RF_ThreadInstanceCommandType.h"
-#include "uci/type/SupportCapabilityID_Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CommandBaseType.h"
+#include "RF_ThreadInstanceCommandType.h"
+#include "SupportCapabilityID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

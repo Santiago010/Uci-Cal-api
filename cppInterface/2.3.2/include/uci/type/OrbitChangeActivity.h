@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ORBITCHANGEACTIVITY_H
 #define UCI_TYPE_ORBITCHANGEACTIVITY_H
 
-#include "uci/type/OrbitChangeActivityMT.h"
+#include "OrbitChangeActivityMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

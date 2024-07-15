@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_RADARALTIMETERCOLLECTIONOPTIONSTYPE_H
 #define UCI_TYPE_RADARALTIMETERCOLLECTIONOPTIONSTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/DecibelType.h"
-#include "uci/type/FilteredUnfilteredEnum.h"
-#include "uci/type/RadarCollectionOptionsType.h"
-#include "uci/type/RangeDopplerResolutionType.h"
+#include "../base/export.h"
+#include "DecibelType.h"
+#include "FilteredUnfilteredEnum.h"
+#include "RadarCollectionOptionsType.h"
+#include "RangeDopplerResolutionType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

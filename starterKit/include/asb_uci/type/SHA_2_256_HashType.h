@@ -36,7 +36,7 @@
 #ifndef ASB_UCI_TYPE_SHA_2_256_HASHTYPE_H
 #define ASB_UCI_TYPE_SHA_2_256_HASHTYPE_H
 
-#include "asb_xs/type/binaryXmlSchemaPrimitives.h"
+#include "../../../include/asb_xs/type/binaryXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

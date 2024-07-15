@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SUBSYSTEMBIT_CONFIGURATION_H
 #define UCI_TYPE_SUBSYSTEMBIT_CONFIGURATION_H
 
-#include "uci/type/SubsystemBIT_ConfigurationMT.h"
+#include "SubsystemBIT_ConfigurationMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

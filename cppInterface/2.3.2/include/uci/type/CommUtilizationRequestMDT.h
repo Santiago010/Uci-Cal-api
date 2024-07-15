@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_COMMUTILIZATIONREQUESTMDT_H
 #define UCI_TYPE_COMMUTILIZATIONREQUESTMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/CommDataType.h"
-#include "uci/type/ComparableRankingType.h"
-#include "uci/type/DateTimeRangeType.h"
-#include "uci/type/Point2D_Type.h"
-#include "uci/type/RequestBaseType.h"
-#include "uci/type/SystemID_Type.h"
+#include "../base/export.h"
+#include "CommDataType.h"
+#include "ComparableRankingType.h"
+#include "DateTimeRangeType.h"
+#include "Point2D_Type.h"
+#include "RequestBaseType.h"
+#include "SystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

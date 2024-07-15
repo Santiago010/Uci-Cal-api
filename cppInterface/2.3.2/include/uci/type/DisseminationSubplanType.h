@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_DISSEMINATIONSUBPLANTYPE_H
 #define UCI_TYPE_DISSEMINATIONSUBPLANTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ArchiveRequestType.h"
-#include "uci/type/ProductDisseminationDestinationID_Type.h"
-#include "uci/type/PushContentsEnum.h"
-#include "uci/type/SourceCommandEXT.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ArchiveRequestType.h"
+#include "ProductDisseminationDestinationID_Type.h"
+#include "PushContentsEnum.h"
+#include "SourceCommandEXT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

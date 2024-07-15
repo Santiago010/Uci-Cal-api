@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ContactDetailsType.h"
+#include "../../../include/asb_uci/type/ContactDetailsType.h"
 
 #include <memory>
 #include <string>
@@ -41,14 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/OperatorNameType.h"
-#include "asb_uci/type/OperatorPhoneNumberType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ContactDetailsType.h"
-#include "uci/type/OperatorNameType.h"
-#include "uci/type/OperatorPhoneNumberType.h"
+#include "../../../include/asb_uci/type/OperatorNameType.h"
+#include "../../../include/asb_uci/type/OperatorPhoneNumberType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ContactDetailsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OperatorNameType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OperatorPhoneNumberType.h"
 
 /**  */
 namespace asb_uci {

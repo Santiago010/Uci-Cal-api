@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_DATADELETEREQUESTMDT_H
 #define UCI_TYPE_DATADELETEREQUESTMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/AppliesToType.h"
-#include "uci/type/DataDeleteChoiceType.h"
-#include "uci/type/RequestBaseType.h"
+#include "../base/export.h"
+#include "AppliesToType.h"
+#include "DataDeleteChoiceType.h"
+#include "RequestBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

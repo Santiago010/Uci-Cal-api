@@ -36,19 +36,19 @@
 #ifndef UCI_TYPE_OBSERVATIONMEASUREMENTSOURCETYPE_H
 #define UCI_TYPE_OBSERVATIONMEASUREMENTSOURCETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/IntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ElementDetailsType.h"
-#include "uci/type/FOV_ExtentType.h"
-#include "uci/type/MeasurementReportSourceTypeEnum.h"
-#include "uci/type/MeasurementSourceIdentityType.h"
-#include "uci/type/NameValuePairType.h"
-#include "uci/type/ProductMetadataID_Type.h"
-#include "uci/type/SourceCharacteristicsType.h"
-#include "uci/type/SourceCoverageType.h"
-#include "uci/type/SourceResolutionType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/IntAccessor.h"
+#include "../base/export.h"
+#include "ElementDetailsType.h"
+#include "FOV_ExtentType.h"
+#include "MeasurementReportSourceTypeEnum.h"
+#include "MeasurementSourceIdentityType.h"
+#include "NameValuePairType.h"
+#include "ProductMetadataID_Type.h"
+#include "SourceCharacteristicsType.h"
+#include "SourceCoverageType.h"
+#include "SourceResolutionType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

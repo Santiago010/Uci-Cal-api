@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_ACTIVITYPLANPARTSCOMMANDTYPE_H
 #define UCI_TYPE_ACTIVITYPLANPARTSCOMMANDTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ActivityPlanPartsEnum.h"
-#include "uci/type/ActivityPlanPartsType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ActivityPlanPartsEnum.h"
+#include "ActivityPlanPartsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

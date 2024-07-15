@@ -36,19 +36,19 @@
 #ifndef UCI_TYPE_OPBASETYPE_H
 #define UCI_TYPE_OPBASETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CreationSourceEnum.h"
-#include "uci/type/DataLinkIdentifierPET.h"
-#include "uci/type/MissionTraceabilityType.h"
-#include "uci/type/OpDescriptionType.h"
-#include "uci/type/QualifyingTagsType.h"
-#include "uci/type/ScheduleType.h"
-#include "uci/type/SystemID_Type.h"
-#include "uci/type/SystemScheduleStateType.h"
-#include "uci/type/TimeFunctionType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "CreationSourceEnum.h"
+#include "DataLinkIdentifierPET.h"
+#include "MissionTraceabilityType.h"
+#include "OpDescriptionType.h"
+#include "QualifyingTagsType.h"
+#include "ScheduleType.h"
+#include "SystemID_Type.h"
+#include "SystemScheduleStateType.h"
+#include "TimeFunctionType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_ENTITYORBITALEPHEMERISREQUESTMDT_H
 #define UCI_TYPE_ENTITYORBITALEPHEMERISREQUESTMDT_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EntityEphemerisRequestParametersType.h"
-#include "uci/type/EntityID_Type.h"
-#include "uci/type/RequestBaseType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "EntityEphemerisRequestParametersType.h"
+#include "EntityID_Type.h"
+#include "RequestBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

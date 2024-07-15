@@ -36,7 +36,7 @@
 #ifndef ASB_UCI_TYPE_CRYPTOSLOTIDENTIFIERTYPE_H
 #define ASB_UCI_TYPE_CRYPTOSLOTIDENTIFIERTYPE_H
 
-#include "asb_uci/type/VisibleString32Type.h"
+#include "../../../include/asb_uci/type/VisibleString32Type.h"
 
 /**  */
 namespace asb_uci {

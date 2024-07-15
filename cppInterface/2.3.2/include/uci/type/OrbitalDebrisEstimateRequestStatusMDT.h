@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_ORBITALDEBRISESTIMATEREQUESTSTATUSMDT_H
 #define UCI_TYPE_ORBITALDEBRISESTIMATEREQUESTSTATUSMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/CompletionStatusType.h"
-#include "uci/type/OrbitalDebrisEstimateID_Type.h"
-#include "uci/type/RequestStatusBaseType.h"
+#include "../base/export.h"
+#include "CompletionStatusType.h"
+#include "OrbitalDebrisEstimateID_Type.h"
+#include "RequestStatusBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

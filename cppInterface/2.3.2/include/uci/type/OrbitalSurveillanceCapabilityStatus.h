@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ORBITALSURVEILLANCECAPABILITYSTATUS_H
 #define UCI_TYPE_ORBITALSURVEILLANCECAPABILITYSTATUS_H
 
-#include "uci/type/OrbitalSurveillanceCapabilityStatusMT.h"
+#include "OrbitalSurveillanceCapabilityStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_PRODUCTCLASSIFICATIONTASKSTATUSMDT_H
 #define UCI_TYPE_PRODUCTCLASSIFICATIONTASKSTATUSMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ProductClassificationStatusType.h"
-#include "uci/type/ProductManagementTaskStatusDataType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ProductClassificationStatusType.h"
+#include "ProductManagementTaskStatusDataType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_SPECIFICBLUESEPARATIONTYPE_H
 #define UCI_TYPE_SPECIFICBLUESEPARATIONTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/BlueVehicleType.h"
-#include "uci/type/SeparationParametersType.h"
+#include "../base/export.h"
+#include "BlueVehicleType.h"
+#include "SeparationParametersType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

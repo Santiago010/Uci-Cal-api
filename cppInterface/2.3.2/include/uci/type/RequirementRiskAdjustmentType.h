@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_REQUIREMENTRISKADJUSTMENTTYPE_H
 #define UCI_TYPE_REQUIREMENTRISKADJUSTMENTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/RequirementChoiceType.h"
-#include "uci/type/RiskSettingType.h"
-#include "uci/type/SystemID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "RequirementChoiceType.h"
+#include "RiskSettingType.h"
+#include "SystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

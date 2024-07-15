@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SOB_SATELLITERECORD_H
 #define UCI_TYPE_SOB_SATELLITERECORD_H
 
-#include "uci/type/SOB_SatelliteRecordMT.h"
+#include "SOB_SatelliteRecordMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

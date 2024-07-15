@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_GATEWAYCOMMANDTYPE_H
 #define UCI_TYPE_GATEWAYCOMMANDTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/GatewayActivityCommandType.h"
-#include "uci/type/GatewayCapabilityCommandType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "GatewayActivityCommandType.h"
+#include "GatewayCapabilityCommandType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

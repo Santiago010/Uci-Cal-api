@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_COMMMADL_CONTROLTYPE_H
 #define UCI_TYPE_COMMMADL_CONTROLTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CommMADL_FlightGroupType.h"
-#include "uci/type/CommMADL_LinkCommandListType.h"
-#include "uci/type/CommMADL_NetChangeRequestType.h"
-#include "uci/type/CommMADL_NetworkLayoutType.h"
-#include "uci/type/CommMADL_NetworkType.h"
-#include "uci/type/MADL_DayOfYearType.h"
-#include "uci/type/MADL_NodeRangeType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "CommMADL_FlightGroupType.h"
+#include "CommMADL_LinkCommandListType.h"
+#include "CommMADL_NetChangeRequestType.h"
+#include "CommMADL_NetworkLayoutType.h"
+#include "CommMADL_NetworkType.h"
+#include "MADL_DayOfYearType.h"
+#include "MADL_NodeRangeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

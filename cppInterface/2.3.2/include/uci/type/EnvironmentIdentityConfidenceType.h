@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_ENVIRONMENTIDENTITYCONFIDENCETYPE_H
 #define UCI_TYPE_ENVIRONMENTIDENTITYCONFIDENCETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EnvironmentEnum.h"
-#include "uci/type/OrbitRegimeType.h"
-#include "uci/type/PercentType.h"
-#include "uci/type/PointTrackEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "EnvironmentEnum.h"
+#include "OrbitRegimeType.h"
+#include "PercentType.h"
+#include "PointTrackEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

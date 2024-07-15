@@ -41,22 +41,22 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/CoverageEffortEnum.h"
-#include "asb_uci/type/DurationType.h"
-#include "asb_uci/type/EmitterUrgencyEnum.h"
-#include "asb_uci/type/EmptyType.h"
-#include "asb_uci/type/FrequencyModulationVariationEnum.h"
-#include "asb_uci/type/FrequencyType.h"
-#include "asb_uci/type/MilliwattPowerRatioType.h"
-#include "asb_uci/type/ModulationEnum.h"
-#include "asb_uci/type/PRI_TypeEnum.h"
-#include "asb_uci/type/RadarBeamPersistenceEnum.h"
-#include "asb_uci/type/RadarBeamTypeEnum.h"
-#include "asb_uci/type/SignalLocationEnum.h"
-#include "asb_uci/type/TrackModeEnum.h"
-#include "asb_uci/type/VisibleString64Type.h"
-#include "uci/type/SignalSummaryType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/CoverageEffortEnum.h"
+#include "../../../include/asb_uci/type/DurationType.h"
+#include "../../../include/asb_uci/type/EmitterUrgencyEnum.h"
+#include "../../../include/asb_uci/type/EmptyType.h"
+#include "../../../include/asb_uci/type/FrequencyModulationVariationEnum.h"
+#include "../../../include/asb_uci/type/FrequencyType.h"
+#include "../../../include/asb_uci/type/MilliwattPowerRatioType.h"
+#include "../../../include/asb_uci/type/ModulationEnum.h"
+#include "../../../include/asb_uci/type/PRI_TypeEnum.h"
+#include "../../../include/asb_uci/type/RadarBeamPersistenceEnum.h"
+#include "../../../include/asb_uci/type/RadarBeamTypeEnum.h"
+#include "../../../include/asb_uci/type/SignalLocationEnum.h"
+#include "../../../include/asb_uci/type/TrackModeEnum.h"
+#include "../../../include/asb_uci/type/VisibleString64Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SignalSummaryType.h"
 
 /**  */
 namespace asb_uci {

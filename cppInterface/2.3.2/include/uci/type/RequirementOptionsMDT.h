@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_REQUIREMENTOPTIONSMDT_H
 #define UCI_TYPE_REQUIREMENTOPTIONSMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DuplicateRequirementType.h"
-#include "uci/type/RequirementInstanceID_ChoiceType.h"
-#include "uci/type/RequirementOptionsID_Type.h"
-#include "uci/type/RequirementOptionsInputsType.h"
-#include "uci/type/RequirementOptionsType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DuplicateRequirementType.h"
+#include "RequirementInstanceID_ChoiceType.h"
+#include "RequirementOptionsID_Type.h"
+#include "RequirementOptionsInputsType.h"
+#include "RequirementOptionsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/DataLinkIdentifierPET.h"
-#include "asb_uci/type/SpecialCode2Type.h"
-#include "uci/type/SpecialCodeDataLinkIdentifierType.h"
+#include "../../../include/asb_uci/type/DataLinkIdentifierPET.h"
+#include "../../../include/asb_uci/type/SpecialCode2Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SpecialCodeDataLinkIdentifierType.h"
 
 /**  */
 namespace asb_uci {

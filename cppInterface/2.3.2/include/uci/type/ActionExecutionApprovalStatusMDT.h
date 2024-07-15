@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_ACTIONEXECUTIONAPPROVALSTATUSMDT_H
 #define UCI_TYPE_ACTIONEXECUTIONAPPROVALSTATUSMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/ActionID_Type.h"
-#include "uci/type/RequirementExecutionApprovalStatusBaseType.h"
+#include "../base/export.h"
+#include "ActionID_Type.h"
+#include "RequirementExecutionApprovalStatusBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

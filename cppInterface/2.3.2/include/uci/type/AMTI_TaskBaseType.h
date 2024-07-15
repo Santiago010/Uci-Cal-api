@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_AMTI_TASKBASETYPE_H
 #define UCI_TYPE_AMTI_TASKBASETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AMTI_CapabilityEnum.h"
-#include "uci/type/AMTI_CollectionConstraintsType.h"
-#include "uci/type/AMTI_SubCapabilityEnum.h"
-#include "uci/type/CollectionPolicyEnum.h"
-#include "uci/type/ProductOutputCommandBasicType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AMTI_CapabilityEnum.h"
+#include "AMTI_CollectionConstraintsType.h"
+#include "AMTI_SubCapabilityEnum.h"
+#include "CollectionPolicyEnum.h"
+#include "ProductOutputCommandBasicType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

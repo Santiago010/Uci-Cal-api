@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_ASSOCIATEDMESSAGETYPE_H
 #define UCI_TYPE_ASSOCIATEDMESSAGETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ID_Type.h"
-#include "uci/type/MessageTypeEnum.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ID_Type.h"
+#include "MessageTypeEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

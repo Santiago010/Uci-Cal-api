@@ -41,11 +41,11 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/DateTimeType.h"
-#include "asb_uci/type/OrbitalBreakupEnum.h"
-#include "asb_uci/type/OrbitalDebrisEstimateEnum.h"
-#include "asb_uci/type/RequestBaseType.h"
-#include "uci/type/OrbitalDebrisEstimateRequestMDT.h"
+#include "../../../include/asb_uci/type/DateTimeType.h"
+#include "../../../include/asb_uci/type/OrbitalBreakupEnum.h"
+#include "../../../include/asb_uci/type/OrbitalDebrisEstimateEnum.h"
+#include "../../../include/asb_uci/type/RequestBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalDebrisEstimateRequestMDT.h"
 
 /**  */
 namespace asb_uci {

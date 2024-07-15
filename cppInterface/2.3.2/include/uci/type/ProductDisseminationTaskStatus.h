@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_PRODUCTDISSEMINATIONTASKSTATUS_H
 #define UCI_TYPE_PRODUCTDISSEMINATIONTASKSTATUS_H
 
-#include "uci/type/ProductDisseminationTaskStatusMT.h"
+#include "ProductDisseminationTaskStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

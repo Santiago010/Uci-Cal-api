@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ESM_ActivityCommandType.h"
+#include "../../../include/asb_uci/type/ESM_ActivityCommandType.h"
 
 #include <memory>
 #include <string>
@@ -41,22 +41,22 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CapabilityCommandFrequencyType.h"
-#include "asb_uci/type/DependentActivityType.h"
-#include "asb_uci/type/ESM_ChangeDwellType.h"
-#include "asb_uci/type/ESM_ChangeGeolocationType.h"
-#include "asb_uci/type/SharedRF_ApertureActivityCommandBaseType.h"
-#include "asb_uci/type/SubCapabilityDetailsType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CapabilityCommandFrequencyType.h"
-#include "uci/type/DependentActivityType.h"
-#include "uci/type/ESM_ActivityCommandType.h"
-#include "uci/type/ESM_ChangeDwellType.h"
-#include "uci/type/ESM_ChangeGeolocationType.h"
-#include "uci/type/SubCapabilityDetailsType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/CapabilityCommandFrequencyType.h"
+#include "../../../include/asb_uci/type/DependentActivityType.h"
+#include "../../../include/asb_uci/type/ESM_ChangeDwellType.h"
+#include "../../../include/asb_uci/type/ESM_ChangeGeolocationType.h"
+#include "../../../include/asb_uci/type/SharedRF_ApertureActivityCommandBaseType.h"
+#include "../../../include/asb_uci/type/SubCapabilityDetailsType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityCommandFrequencyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DependentActivityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ESM_ActivityCommandType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ESM_ChangeDwellType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ESM_ChangeGeolocationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubCapabilityDetailsType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

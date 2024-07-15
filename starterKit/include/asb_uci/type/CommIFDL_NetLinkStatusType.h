@@ -41,12 +41,12 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/CommIFDL_CommModeEnum.h"
-#include "asb_uci/type/CommIFDL_TxRateEnum.h"
-#include "asb_uci/type/IFDL_FlightIdentifierType.h"
-#include "asb_uci/type/IFDL_FlightPositionType.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/CommIFDL_NetLinkStatusType.h"
+#include "../../../include/asb_uci/type/CommIFDL_CommModeEnum.h"
+#include "../../../include/asb_uci/type/CommIFDL_TxRateEnum.h"
+#include "../../../include/asb_uci/type/IFDL_FlightIdentifierType.h"
+#include "../../../include/asb_uci/type/IFDL_FlightPositionType.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommIFDL_NetLinkStatusType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,18 +36,18 @@
 #ifndef UCI_TYPE_PULSETYPE_H
 #define UCI_TYPE_PULSETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ComponentID_Type.h"
-#include "uci/type/DateTimeSigmaType.h"
-#include "uci/type/DecibelType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/FrequencyType.h"
-#include "uci/type/MilliwattPowerRatioType.h"
-#include "uci/type/ModulationOnPulseDataType.h"
-#include "uci/type/SignalRelativeType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ComponentID_Type.h"
+#include "DateTimeSigmaType.h"
+#include "DecibelType.h"
+#include "DurationType.h"
+#include "FrequencyType.h"
+#include "MilliwattPowerRatioType.h"
+#include "ModulationOnPulseDataType.h"
+#include "SignalRelativeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

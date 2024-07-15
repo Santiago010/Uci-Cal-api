@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/CryptoKeyStatusEnum.h"
-#include "asb_uci/type/CryptoSlotIdentifierType.h"
-#include "uci/type/CryptoSlotType.h"
+#include "../../../include/asb_uci/type/CryptoKeyStatusEnum.h"
+#include "../../../include/asb_uci/type/CryptoSlotIdentifierType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CryptoSlotType.h"
 
 /**  */
 namespace asb_uci {

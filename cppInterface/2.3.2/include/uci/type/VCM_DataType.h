@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_VCM_DATATYPE_H
 #define UCI_TYPE_VCM_DATATYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/DoubleAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CovarianceMatrixType.h"
-#include "uci/type/RTN_PositionSigmaType.h"
-#include "uci/type/RTN_VelocitySigmaType.h"
+#include "../base/Accessor.h"
+#include "../base/DoubleAccessor.h"
+#include "../base/export.h"
+#include "CovarianceMatrixType.h"
+#include "RTN_PositionSigmaType.h"
+#include "RTN_VelocitySigmaType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

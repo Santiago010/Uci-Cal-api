@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/DecibelNonNegativeType.h"
-#include "uci/type/RadarTaperType.h"
+#include "../../../include/asb_uci/type/DecibelNonNegativeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RadarTaperType.h"
 
 /**  */
 namespace asb_uci {

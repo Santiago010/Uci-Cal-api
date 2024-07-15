@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/IFF_TransponderActivityStatusEnum.h"
-#include "asb_uci/type/IFF_TransponderModeControlType.h"
-#include "uci/type/IFF_ActivityTransponderType.h"
+#include "../../../include/asb_uci/type/IFF_TransponderActivityStatusEnum.h"
+#include "../../../include/asb_uci/type/IFF_TransponderModeControlType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IFF_ActivityTransponderType.h"
 
 /**  */
 namespace asb_uci {

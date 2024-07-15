@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_APPLICABILITYTYPE_H
 #define UCI_TYPE_APPLICABILITYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ConstrainingPlanPartsType.h"
-#include "uci/type/IdentityType.h"
-#include "uci/type/RequirementTaxonomyType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ConstrainingPlanPartsType.h"
+#include "IdentityType.h"
+#include "RequirementTaxonomyType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/PO_ComponentProcessingStageType.h"
+#include "../../../include/asb_uci/type/PO_ComponentProcessingStageType.h"
 
 #include <memory>
 #include <string>
@@ -41,22 +41,22 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ComponentControllabilityA_Type.h"
-#include "asb_uci/type/DoubleMinMaxType.h"
-#include "asb_uci/type/PO_FPA_ID_Type.h"
-#include "asb_uci/type/PO_ProcessingStageID_Type.h"
-#include "asb_uci/type/PO_ProcessingStageTypeEnum.h"
-#include "asb_uci/type/PixelScalingSettingsType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ComponentControllabilityA_Type.h"
-#include "uci/type/DoubleMinMaxType.h"
-#include "uci/type/PO_ComponentProcessingStageType.h"
-#include "uci/type/PO_FPA_ID_Type.h"
-#include "uci/type/PO_ProcessingStageID_Type.h"
-#include "uci/type/PO_ProcessingStageTypeEnum.h"
-#include "uci/type/PixelScalingSettingsType.h"
+#include "../../../include/asb_uci/type/ComponentControllabilityA_Type.h"
+#include "../../../include/asb_uci/type/DoubleMinMaxType.h"
+#include "../../../include/asb_uci/type/PO_FPA_ID_Type.h"
+#include "../../../include/asb_uci/type/PO_ProcessingStageID_Type.h"
+#include "../../../include/asb_uci/type/PO_ProcessingStageTypeEnum.h"
+#include "../../../include/asb_uci/type/PixelScalingSettingsType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ComponentControllabilityA_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DoubleMinMaxType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ComponentProcessingStageType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_FPA_ID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ProcessingStageID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ProcessingStageTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PixelScalingSettingsType.h"
 
 /**  */
 namespace asb_uci {

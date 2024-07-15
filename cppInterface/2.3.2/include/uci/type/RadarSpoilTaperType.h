@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_RADARSPOILTAPERTYPE_H
 #define UCI_TYPE_RADARSPOILTAPERTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/RadarSpoilType.h"
-#include "uci/type/RadarTaperType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "RadarSpoilType.h"
+#include "RadarTaperType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

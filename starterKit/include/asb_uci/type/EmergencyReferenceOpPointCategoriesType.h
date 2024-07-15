@@ -41,12 +41,12 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/OpPointGeneralEnum.h"
-#include "asb_uci/type/OpPointHazardEnum.h"
-#include "asb_uci/type/OpPointReferenceEnum.h"
-#include "asb_uci/type/OpPointStationEnum.h"
-#include "uci/base/Accessor.h"
-#include "uci/type/EmergencyReferenceOpPointCategoriesType.h"
+#include "../../../include/asb_uci/type/OpPointGeneralEnum.h"
+#include "../../../include/asb_uci/type/OpPointHazardEnum.h"
+#include "../../../include/asb_uci/type/OpPointReferenceEnum.h"
+#include "../../../include/asb_uci/type/OpPointStationEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EmergencyReferenceOpPointCategoriesType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_IPON_IID2_TYPE_H
 #define UCI_TYPE_IPON_IID2_TYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/IPON_IID2_ProgramCodeType.h"
-#include "uci/type/IPON_IID2_ProjectCodeType.h"
-#include "uci/type/IPON_IID2_SortieNumberType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "IPON_IID2_ProgramCodeType.h"
+#include "IPON_IID2_ProjectCodeType.h"
+#include "IPON_IID2_SortieNumberType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

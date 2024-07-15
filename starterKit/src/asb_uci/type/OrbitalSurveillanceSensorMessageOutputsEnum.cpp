@@ -33,7 +33,7 @@
  *
  */
 
-#include "uci/type/OrbitalSurveillanceSensorMessageOutputsEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalSurveillanceSensorMessageOutputsEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

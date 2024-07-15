@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_SUBCAPABILITYSELECTIONTYPE_H
 #define UCI_TYPE_SUBCAPABILITYSELECTIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ESM_SubCapabilityEnum.h"
-#include "uci/type/SubCapabilityDetailsType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ESM_SubCapabilityEnum.h"
+#include "SubCapabilityDetailsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_AO_CAPABILITYTYPE_H
 #define UCI_TYPE_AO_CAPABILITYTYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AO_CapabilityEnum.h"
-#include "uci/type/AO_CapabilityOptionsType.h"
-#include "uci/type/AO_MessageOutputsEnum.h"
-#include "uci/type/CommandableCapabilityDeclarationType.h"
-#include "uci/type/ComponentID_Type.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AO_CapabilityEnum.h"
+#include "AO_CapabilityOptionsType.h"
+#include "AO_MessageOutputsEnum.h"
+#include "CommandableCapabilityDeclarationType.h"
+#include "ComponentID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

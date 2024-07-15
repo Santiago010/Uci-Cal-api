@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_REPETITIONPOSITIONCHANGETYPE_H
 #define UCI_TYPE_REPETITIONPOSITIONCHANGETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/LOS_InertialA_Type.h"
-#include "uci/type/LOS_Type.h"
-#include "uci/type/ThresholdOffOrbitTriggerDataType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "LOS_InertialA_Type.h"
+#include "LOS_Type.h"
+#include "ThresholdOffOrbitTriggerDataType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

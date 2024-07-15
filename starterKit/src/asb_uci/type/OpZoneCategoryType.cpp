@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/OpZoneCategoryType.h"
+#include "../../../include/asb_uci/type/OpZoneCategoryType.h"
 
 #include <memory>
 #include <string>
@@ -41,31 +41,31 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ConstrainedEntryExitType.h"
-#include "asb_uci/type/IngressEgressType.h"
-#include "asb_uci/type/OpZoneFilterAreaPET.h"
-#include "asb_uci/type/OpZoneJammingType.h"
-#include "asb_uci/type/OpZoneMissileDataType.h"
-#include "asb_uci/type/OpZoneNoFireType.h"
-#include "asb_uci/type/OpZoneNoFlyType.h"
-#include "asb_uci/type/OpZoneWeaponRestrictionType.h"
-#include "asb_uci/type/OpZoneWeatherType.h"
-#include "asb_uci/type/VehicleCommandDataType.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ConstrainedEntryExitType.h"
-#include "uci/type/IngressEgressType.h"
-#include "uci/type/OpZoneCategoryType.h"
-#include "uci/type/OpZoneFilterAreaPET.h"
-#include "uci/type/OpZoneJammingType.h"
-#include "uci/type/OpZoneMissileDataType.h"
-#include "uci/type/OpZoneNoFireType.h"
-#include "uci/type/OpZoneNoFlyType.h"
-#include "uci/type/OpZoneWeaponRestrictionType.h"
-#include "uci/type/OpZoneWeatherType.h"
-#include "uci/type/VehicleCommandDataType.h"
+#include "../../../include/asb_uci/type/ConstrainedEntryExitType.h"
+#include "../../../include/asb_uci/type/IngressEgressType.h"
+#include "../../../include/asb_uci/type/OpZoneFilterAreaPET.h"
+#include "../../../include/asb_uci/type/OpZoneJammingType.h"
+#include "../../../include/asb_uci/type/OpZoneMissileDataType.h"
+#include "../../../include/asb_uci/type/OpZoneNoFireType.h"
+#include "../../../include/asb_uci/type/OpZoneNoFlyType.h"
+#include "../../../include/asb_uci/type/OpZoneWeaponRestrictionType.h"
+#include "../../../include/asb_uci/type/OpZoneWeatherType.h"
+#include "../../../include/asb_uci/type/VehicleCommandDataType.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ConstrainedEntryExitType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IngressEgressType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpZoneCategoryType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpZoneFilterAreaPET.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpZoneJammingType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpZoneMissileDataType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpZoneNoFireType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpZoneNoFlyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpZoneWeaponRestrictionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpZoneWeatherType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VehicleCommandDataType.h"
 
 /**  */
 namespace asb_uci {

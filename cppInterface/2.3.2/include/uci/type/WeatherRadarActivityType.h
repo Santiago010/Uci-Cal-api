@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_WEATHERRADARACTIVITYTYPE_H
 #define UCI_TYPE_WEATHERRADARACTIVITYTYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ActivityBaseType.h"
-#include "uci/type/AirVolumeSensorReferencedType.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/WeatherRadarActivityStatusDetailType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ActivityBaseType.h"
+#include "AirVolumeSensorReferencedType.h"
+#include "ForeignKeyType.h"
+#include "WeatherRadarActivityStatusDetailType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

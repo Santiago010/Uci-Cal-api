@@ -41,11 +41,11 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/RadarAltimeterSubCapabilityEnum.h"
-#include "asb_uci/type/SharedRF_ApertureActivityBaseType.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/RadarAltimeterActivityType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/RadarAltimeterSubCapabilityEnum.h"
+#include "../../../include/asb_uci/type/SharedRF_ApertureActivityBaseType.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RadarAltimeterActivityType.h"
 
 /**  */
 namespace asb_uci {

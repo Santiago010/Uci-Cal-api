@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_COMMPOINTINGPLANASSESSMENTTYPE_H
 #define UCI_TYPE_COMMPOINTINGPLANASSESSMENTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CommPointingPlanDataType.h"
-#include "uci/type/CommPointingPlanRequestType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CommPointingPlanDataType.h"
+#include "CommPointingPlanRequestType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

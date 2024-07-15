@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_ROUTEVALIDATIONINVALIDPATHTYPE_H
 #define UCI_TYPE_ROUTEVALIDATIONINVALIDPATHTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CannotComplyType.h"
-#include "uci/type/LAR_MDT.h"
-#include "uci/type/PathID_Type.h"
-#include "uci/type/RouteValidationErrorType.h"
-#include "uci/type/RouteValidationInvalidSegmentType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CannotComplyType.h"
+#include "LAR_MDT.h"
+#include "PathID_Type.h"
+#include "RouteValidationErrorType.h"
+#include "RouteValidationInvalidSegmentType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

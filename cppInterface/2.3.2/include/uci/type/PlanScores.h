@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_PLANSCORES_H
 #define UCI_TYPE_PLANSCORES_H
 
-#include "uci/type/PlanScoresMT.h"
+#include "PlanScoresMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

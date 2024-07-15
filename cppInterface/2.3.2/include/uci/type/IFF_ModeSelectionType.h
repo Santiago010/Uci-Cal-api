@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_IFF_MODESELECTIONTYPE_H
 #define UCI_TYPE_IFF_MODESELECTIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/IFF_Mode5_FormatType.h"
-#include "uci/type/IFF_ModesEnum.h"
-#include "uci/type/ModeS_OptionsType.h"
-#include "uci/type/OctalValueType.h"
-#include "xs/type/binaryXmlSchemaPrimitives.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "IFF_Mode5_FormatType.h"
+#include "IFF_ModesEnum.h"
+#include "ModeS_OptionsType.h"
+#include "OctalValueType.h"
+#include "../../xs/type/binaryXmlSchemaPrimitives.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

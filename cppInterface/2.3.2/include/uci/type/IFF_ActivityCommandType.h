@@ -36,19 +36,19 @@
 #ifndef UCI_TYPE_IFF_ACTIVITYCOMMANDTYPE_H
 #define UCI_TYPE_IFF_ACTIVITYCOMMANDTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ActivityCommandBaseType.h"
-#include "uci/type/AirTargetVolumeCommandType.h"
-#include "uci/type/AirTargetVolumeType.h"
-#include "uci/type/DependentActivityType.h"
-#include "uci/type/IFF_CollectionConstraintsType.h"
-#include "uci/type/IFF_InterrogatorTransponderModesType.h"
-#include "uci/type/ProductOutputCommandBasicType.h"
-#include "uci/type/RadarCollectionOptionsType.h"
-#include "uci/type/RepetitionType.h"
-#include "uci/type/ResourceSelectionType.h"
+#include "../base/BoundedList.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "ActivityCommandBaseType.h"
+#include "AirTargetVolumeCommandType.h"
+#include "AirTargetVolumeType.h"
+#include "DependentActivityType.h"
+#include "IFF_CollectionConstraintsType.h"
+#include "IFF_InterrogatorTransponderModesType.h"
+#include "ProductOutputCommandBasicType.h"
+#include "RadarCollectionOptionsType.h"
+#include "RepetitionType.h"
+#include "ResourceSelectionType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

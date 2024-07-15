@@ -41,14 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/AirDefenseAreaType.h"
-#include "asb_uci/type/OB_OperationalStatusEnum.h"
-#include "asb_uci/type/String20Type.h"
-#include "asb_uci/type/String4Type.h"
-#include "asb_uci/type/VisibleString256Type.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/UnitType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/AirDefenseAreaType.h"
+#include "../../../include/asb_uci/type/OB_OperationalStatusEnum.h"
+#include "../../../include/asb_uci/type/String20Type.h"
+#include "../../../include/asb_uci/type/String4Type.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/UnitType.h"
 
 /**  */
 namespace asb_uci {

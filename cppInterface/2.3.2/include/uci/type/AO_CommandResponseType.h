@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_AO_COMMANDRESPONSETYPE_H
 #define UCI_TYPE_AO_COMMANDRESPONSETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AO_CapabilityEnum.h"
-#include "uci/type/OpticalCollectionConstraintsType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AO_CapabilityEnum.h"
+#include "OpticalCollectionConstraintsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

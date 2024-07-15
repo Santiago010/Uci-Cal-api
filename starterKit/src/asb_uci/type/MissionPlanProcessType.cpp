@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/MissionPlanProcessType.h"
+#include "../../../include/asb_uci/type/MissionPlanProcessType.h"
 
 #include <memory>
 #include <string>
@@ -41,14 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/MissionPlanProcessDescriptionType.h"
-#include "asb_uci/type/PlanningProcessID_Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/MissionPlanProcessDescriptionType.h"
-#include "uci/type/MissionPlanProcessType.h"
-#include "uci/type/PlanningProcessID_Type.h"
+#include "../../../include/asb_uci/type/MissionPlanProcessDescriptionType.h"
+#include "../../../include/asb_uci/type/PlanningProcessID_Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MissionPlanProcessDescriptionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MissionPlanProcessType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlanningProcessID_Type.h"
 
 /**  */
 namespace asb_uci {

@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_ESM_BINGROUPACTIVATIONTYPE_H
 #define UCI_TYPE_ESM_BINGROUPACTIVATIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ESM_ActivationEnum.h"
+#include "../base/Accessor.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "ESM_ActivationEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

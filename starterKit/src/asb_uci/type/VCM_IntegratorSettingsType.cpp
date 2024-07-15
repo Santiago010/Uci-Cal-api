@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/VCM_IntegratorSettingsType.h"
+#include "../../../include/asb_uci/type/VCM_IntegratorSettingsType.h"
 
 #include <memory>
 #include <string>
@@ -41,20 +41,20 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AS_IntegratorModeEnum.h"
-#include "asb_uci/type/AS_IntegratorStepModeEnum.h"
-#include "asb_uci/type/AS_PartialDerivativesEnum.h"
-#include "asb_uci/type/InitialStepSizeEnum.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AS_IntegratorModeEnum.h"
-#include "uci/type/AS_IntegratorStepModeEnum.h"
-#include "uci/type/AS_PartialDerivativesEnum.h"
-#include "uci/type/DoublePositiveType.h"
-#include "uci/type/InitialStepSizeEnum.h"
-#include "uci/type/VCM_IntegratorSettingsType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/AS_IntegratorModeEnum.h"
+#include "../../../include/asb_uci/type/AS_IntegratorStepModeEnum.h"
+#include "../../../include/asb_uci/type/AS_PartialDerivativesEnum.h"
+#include "../../../include/asb_uci/type/InitialStepSizeEnum.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AS_IntegratorModeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AS_IntegratorStepModeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AS_PartialDerivativesEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DoublePositiveType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/InitialStepSizeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VCM_IntegratorSettingsType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

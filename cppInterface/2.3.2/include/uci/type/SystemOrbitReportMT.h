@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_SYSTEMORBITREPORTMT_H
 #define UCI_TYPE_SYSTEMORBITREPORTMT_H
 
-#include "uci/base/Listener.h"
-#include "uci/base/Reader.h"
-#include "uci/base/Writer.h"
-#include "uci/base/export.h"
-#include "uci/type/MessageType.h"
-#include "uci/type/SystemOrbitReportMDT.h"
+#include "../base/Listener.h"
+#include "../base/Reader.h"
+#include "../base/Writer.h"
+#include "../base/export.h"
+#include "MessageType.h"
+#include "SystemOrbitReportMDT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

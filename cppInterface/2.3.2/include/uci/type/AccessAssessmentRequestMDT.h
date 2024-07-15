@@ -36,17 +36,17 @@
 #ifndef UCI_TYPE_ACCESSASSESSMENTREQUESTMDT_H
 #define UCI_TYPE_ACCESSASSESSMENTREQUESTMDT_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AccessEffortEnum.h"
-#include "uci/type/CapabilityTaxonomyUniversalType.h"
-#include "uci/type/DateTimeRangeType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/IdentityKindAssetType.h"
-#include "uci/type/RepeatEnum.h"
-#include "uci/type/RequestBaseType.h"
-#include "uci/type/VisibleString32Type.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AccessEffortEnum.h"
+#include "CapabilityTaxonomyUniversalType.h"
+#include "DateTimeRangeType.h"
+#include "DurationType.h"
+#include "IdentityKindAssetType.h"
+#include "RepeatEnum.h"
+#include "RequestBaseType.h"
+#include "VisibleString32Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

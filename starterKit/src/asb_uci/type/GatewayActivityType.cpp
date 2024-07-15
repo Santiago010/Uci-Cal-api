@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/GatewayActivityType.h"
+#include "../../../include/asb_uci/type/GatewayActivityType.h"
 
 #include <memory>
 #include <string>
@@ -41,25 +41,25 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ActivityBaseType.h"
-#include "asb_uci/type/CommConnectionStateEnum.h"
-#include "asb_uci/type/CommProfileID_Type.h"
-#include "asb_uci/type/DataDeliveryType.h"
-#include "asb_uci/type/GatewayConfigurationType.h"
-#include "asb_uci/type/GatewayControlType.h"
-#include "asb_uci/type/GatewayLinkStatisticsType.h"
-#include "asb_uci/type/VerboseStatusType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CommConnectionStateEnum.h"
-#include "uci/type/CommProfileID_Type.h"
-#include "uci/type/DataDeliveryType.h"
-#include "uci/type/GatewayActivityType.h"
-#include "uci/type/GatewayConfigurationType.h"
-#include "uci/type/GatewayControlType.h"
-#include "uci/type/GatewayLinkStatisticsType.h"
-#include "uci/type/VerboseStatusType.h"
+#include "../../../include/asb_uci/type/ActivityBaseType.h"
+#include "../../../include/asb_uci/type/CommConnectionStateEnum.h"
+#include "../../../include/asb_uci/type/CommProfileID_Type.h"
+#include "../../../include/asb_uci/type/DataDeliveryType.h"
+#include "../../../include/asb_uci/type/GatewayConfigurationType.h"
+#include "../../../include/asb_uci/type/GatewayControlType.h"
+#include "../../../include/asb_uci/type/GatewayLinkStatisticsType.h"
+#include "../../../include/asb_uci/type/VerboseStatusType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommConnectionStateEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommProfileID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DataDeliveryType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/GatewayActivityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/GatewayConfigurationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/GatewayControlType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/GatewayLinkStatisticsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VerboseStatusType.h"
 
 /**  */
 namespace asb_uci {

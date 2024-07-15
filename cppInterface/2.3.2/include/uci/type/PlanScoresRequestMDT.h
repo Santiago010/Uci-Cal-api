@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_PLANSCORESREQUESTMDT_H
 #define UCI_TYPE_PLANSCORESREQUESTMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/OpConstraintEnum.h"
-#include "uci/type/PlansReferenceType.h"
-#include "uci/type/RequestBaseType.h"
-#include "uci/type/ScoringProcessID_Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "OpConstraintEnum.h"
+#include "PlansReferenceType.h"
+#include "RequestBaseType.h"
+#include "ScoringProcessID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

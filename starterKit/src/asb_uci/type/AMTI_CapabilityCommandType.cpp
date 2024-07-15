@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/AMTI_CapabilityCommandType.h"
+#include "../../../include/asb_uci/type/AMTI_CapabilityCommandType.h"
 
 #include <memory>
 #include <string>
@@ -41,35 +41,35 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AMTI_CollectionConstraintsType.h"
-#include "asb_uci/type/AMTI_SubCapabilityEnum.h"
-#include "asb_uci/type/AirTargetVolumeCommandType.h"
-#include "asb_uci/type/AirTargetVolumeType.h"
-#include "asb_uci/type/CapabilityCommandFrequencyType.h"
-#include "asb_uci/type/DependentActivityType.h"
-#include "asb_uci/type/MultistaticModeType.h"
-#include "asb_uci/type/ProductOutputCommandBasicType.h"
-#include "asb_uci/type/RadarCollectionOptionsType.h"
-#include "asb_uci/type/RepetitionType.h"
-#include "asb_uci/type/ResourceSelectionType.h"
-#include "asb_uci/type/SharedRF_ApertureCapabilityCommandBaseType.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AMTI_CapabilityCommandType.h"
-#include "uci/type/AMTI_CollectionConstraintsType.h"
-#include "uci/type/AMTI_SubCapabilityEnum.h"
-#include "uci/type/AirTargetVolumeCommandType.h"
-#include "uci/type/AirTargetVolumeType.h"
-#include "uci/type/CapabilityCommandFrequencyType.h"
-#include "uci/type/DependentActivityType.h"
-#include "uci/type/DistanceType.h"
-#include "uci/type/MultistaticModeType.h"
-#include "uci/type/ProductOutputCommandBasicType.h"
-#include "uci/type/RadarCollectionOptionsType.h"
-#include "uci/type/RepetitionType.h"
-#include "uci/type/ResourceSelectionType.h"
+#include "../../../include/asb_uci/type/AMTI_CollectionConstraintsType.h"
+#include "../../../include/asb_uci/type/AMTI_SubCapabilityEnum.h"
+#include "../../../include/asb_uci/type/AirTargetVolumeCommandType.h"
+#include "../../../include/asb_uci/type/AirTargetVolumeType.h"
+#include "../../../include/asb_uci/type/CapabilityCommandFrequencyType.h"
+#include "../../../include/asb_uci/type/DependentActivityType.h"
+#include "../../../include/asb_uci/type/MultistaticModeType.h"
+#include "../../../include/asb_uci/type/ProductOutputCommandBasicType.h"
+#include "../../../include/asb_uci/type/RadarCollectionOptionsType.h"
+#include "../../../include/asb_uci/type/RepetitionType.h"
+#include "../../../include/asb_uci/type/ResourceSelectionType.h"
+#include "../../../include/asb_uci/type/SharedRF_ApertureCapabilityCommandBaseType.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AMTI_CapabilityCommandType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AMTI_CollectionConstraintsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AMTI_SubCapabilityEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AirTargetVolumeCommandType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AirTargetVolumeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityCommandFrequencyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DependentActivityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DistanceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MultistaticModeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProductOutputCommandBasicType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RadarCollectionOptionsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RepetitionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ResourceSelectionType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,17 +36,17 @@
 #ifndef UCI_TYPE_LAR_MDT_H
 #define UCI_TYPE_LAR_MDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/LAR_BasisEnum.h"
-#include "uci/type/LAR_DetailsType.h"
-#include "uci/type/LAR_ID_Type.h"
-#include "uci/type/LAR_RelationEnum.h"
-#include "uci/type/RequestID_Type.h"
-#include "uci/type/ZoneType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilityID_Type.h"
+#include "LAR_BasisEnum.h"
+#include "LAR_DetailsType.h"
+#include "LAR_ID_Type.h"
+#include "LAR_RelationEnum.h"
+#include "RequestID_Type.h"
+#include "ZoneType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

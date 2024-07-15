@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_REFUELCOMMANDTYPE_H
 #define UCI_TYPE_REFUELCOMMANDTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/RefuelActivityCommandType.h"
-#include "uci/type/RefuelCapabilityExtendCommandType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "RefuelActivityCommandType.h"
+#include "RefuelCapabilityExtendCommandType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

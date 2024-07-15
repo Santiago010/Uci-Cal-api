@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_REQUESTSTATUSBASETYPE_H
 #define UCI_TYPE_REQUESTSTATUSBASETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/type/CannotComplyType.h"
-#include "uci/type/RequestID_Type.h"
-#include "uci/type/RequestProcessingStateEnum.h"
+#include "../base/Accessor.h"
+#include "CannotComplyType.h"
+#include "RequestID_Type.h"
+#include "RequestProcessingStateEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

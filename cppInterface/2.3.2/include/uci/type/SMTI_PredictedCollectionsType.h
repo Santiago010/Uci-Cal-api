@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SMTI_PREDICTEDCOLLECTIONSTYPE_H
 #define UCI_TYPE_SMTI_PREDICTEDCOLLECTIONSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/MTI_PredictedActivityDetailType.h"
-#include "uci/type/Point3D_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "MTI_PredictedActivityDetailType.h"
+#include "Point3D_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

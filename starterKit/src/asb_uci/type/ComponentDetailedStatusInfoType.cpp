@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ComponentDetailedStatusInfoType.h"
+#include "../../../include/asb_uci/type/ComponentDetailedStatusInfoType.h"
 
 #include <memory>
 #include <string>
@@ -41,15 +41,15 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ComponentElementStateType.h"
-#include "asb_uci/type/NameValuePairType.h"
-#include "asb_uci/type/VisibleString256Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ComponentDetailedStatusInfoType.h"
-#include "uci/type/ComponentElementStateType.h"
-#include "uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/type/ComponentElementStateType.h"
+#include "../../../include/asb_uci/type/NameValuePairType.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ComponentDetailedStatusInfoType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ComponentElementStateType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString256Type.h"
 
 /**  */
 namespace asb_uci {
@@ -122,7 +122,7 @@ bool ComponentDetailedStatusInfoType::hasDescription() const noexcept {
 
 uci::type::VisibleString256Type& ComponentDetailedStatusInfoType::enableDescription(uci::base::accessorType::AccessorType type) {
   if (!description_Accessor) {
-    description_Accessor = VisibleString256Type::create(type);
+    description_Accessor = boost::make_unique<std::string>("");
   }
   return *description_Accessor;
 }

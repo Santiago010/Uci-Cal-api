@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_ENTITYDATATYPE_H
 #define UCI_TYPE_ENTITYDATATYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EntityMDT.h"
-#include "uci/type/EntityMetadataMDT.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "EntityMDT.h"
+#include "EntityMetadataMDT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,8 +36,8 @@
 #ifndef UCI_TYPE_ECEF_UNITVECTORTYPE_H
 #define UCI_TYPE_ECEF_UNITVECTORTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/UnitVectorType.h"
+#include "../base/export.h"
+#include "UnitVectorType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

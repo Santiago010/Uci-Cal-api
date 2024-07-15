@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/EntityID_Type.h"
-#include "asb_uci/type/EntitySourceEnum.h"
-#include "uci/type/CorrelatedEntityID_Type.h"
+#include "../../../include/asb_uci/type/EntityID_Type.h"
+#include "../../../include/asb_uci/type/EntitySourceEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CorrelatedEntityID_Type.h"
 
 /**  */
 namespace asb_uci {

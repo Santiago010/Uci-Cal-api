@@ -41,13 +41,13 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/NameSpecialCharacterRestrictionType.h"
-#include "asb_uci/type/OrderOfBattleEnum.h"
-#include "asb_uci/type/String20Type.h"
-#include "asb_uci/type/UnitIdentifierType.h"
-#include "asb_uci/type/UnitNameType.h"
-#include "uci/type/UnitIdentityType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/NameSpecialCharacterRestrictionType.h"
+#include "../../../include/asb_uci/type/OrderOfBattleEnum.h"
+#include "../../../include/asb_uci/type/String20Type.h"
+#include "../../../include/asb_uci/type/UnitIdentifierType.h"
+#include "../../../include/asb_uci/type/UnitNameType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/UnitIdentityType.h"
 
 /**  */
 namespace asb_uci {

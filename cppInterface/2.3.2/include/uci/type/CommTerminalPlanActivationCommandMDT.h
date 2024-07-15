@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_COMMTERMINALPLANACTIVATIONCOMMANDMDT_H
 #define UCI_TYPE_COMMTERMINALPLANACTIVATIONCOMMANDMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CommTerminalPlanEffectivityActivationType.h"
-#include "uci/type/CommTerminalPlanID_Type.h"
-#include "uci/type/CommandBaseType.h"
-#include "uci/type/PlanActivationCommandEnum.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CommTerminalPlanEffectivityActivationType.h"
+#include "CommTerminalPlanID_Type.h"
+#include "CommandBaseType.h"
+#include "PlanActivationCommandEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

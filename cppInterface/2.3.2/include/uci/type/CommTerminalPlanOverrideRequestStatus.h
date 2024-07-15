@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_COMMTERMINALPLANOVERRIDEREQUESTSTATUS_H
 #define UCI_TYPE_COMMTERMINALPLANOVERRIDEREQUESTSTATUS_H
 
-#include "uci/type/CommTerminalPlanOverrideRequestStatusMT.h"
+#include "CommTerminalPlanOverrideRequestStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

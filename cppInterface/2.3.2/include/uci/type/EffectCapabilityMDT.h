@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_EFFECTCAPABILITYMDT_H
 #define UCI_TYPE_EFFECTCAPABILITYMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityBaseType.h"
-#include "uci/type/EffectCapabilityType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilityBaseType.h"
+#include "EffectCapabilityType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

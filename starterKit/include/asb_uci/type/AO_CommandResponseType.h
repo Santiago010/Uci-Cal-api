@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AO_CapabilityEnum.h"
-#include "uci/type/AO_CommandResponseType.h"
+#include "../../../include/asb_uci/type/AO_CapabilityEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AO_CommandResponseType.h"
 
 /**  */
 namespace asb_uci {

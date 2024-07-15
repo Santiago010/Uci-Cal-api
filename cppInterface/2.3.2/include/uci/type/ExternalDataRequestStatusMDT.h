@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_EXTERNALDATAREQUESTSTATUSMDT_H
 #define UCI_TYPE_EXTERNALDATAREQUESTSTATUSMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/ExternalRequestedDataID_Type.h"
-#include "uci/type/RequestStatusBaseType.h"
+#include "../base/export.h"
+#include "ExternalRequestedDataID_Type.h"
+#include "RequestStatusBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

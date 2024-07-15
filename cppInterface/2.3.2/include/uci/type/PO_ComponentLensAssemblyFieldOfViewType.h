@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_PO_COMPONENTLENSASSEMBLYFIELDOFVIEWTYPE_H
 #define UCI_TYPE_PO_COMPONENTLENSASSEMBLYFIELDOFVIEWTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AngleQuarterType.h"
-#include "uci/type/PO_ComponentLensAssemblyZoomType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AngleQuarterType.h"
+#include "PO_ComponentLensAssemblyZoomType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

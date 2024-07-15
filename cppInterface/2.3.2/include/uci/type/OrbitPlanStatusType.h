@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_ORBITPLANSTATUSTYPE_H
 #define UCI_TYPE_ORBITPLANSTATUSTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/OrbitPlanPartsEnum.h"
-#include "uci/type/PlanStatusType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "OrbitPlanPartsEnum.h"
+#include "PlanStatusType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

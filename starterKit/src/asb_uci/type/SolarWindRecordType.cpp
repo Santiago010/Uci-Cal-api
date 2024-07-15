@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/SolarWindRecordType.h"
+#include "../../../include/asb_uci/type/SolarWindRecordType.h"
 
 #include <memory>
 #include <string>
@@ -41,15 +41,15 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/ParticleDensityType.h"
-#include "uci/type/SolarWindRecordType.h"
-#include "uci/type/SpeedType.h"
-#include "uci/type/TemperatureType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DateTimeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ParticleDensityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SolarWindRecordType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SpeedType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TemperatureType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

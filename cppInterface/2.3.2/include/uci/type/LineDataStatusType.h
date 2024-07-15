@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_LINEDATASTATUSTYPE_H
 #define UCI_TYPE_LINEDATASTATUSTYPE_H
 
-#include "uci/base/DoubleAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ComponentDetailedStatusType.h"
-#include "uci/type/ComponentPressureType.h"
-#include "uci/type/ComponentTemperatureType.h"
-#include "uci/type/EmptyType.h"
-#include "uci/type/VisibleString64Type.h"
+#include "../base/DoubleAccessor.h"
+#include "../base/export.h"
+#include "ComponentDetailedStatusType.h"
+#include "ComponentPressureType.h"
+#include "ComponentTemperatureType.h"
+#include "EmptyType.h"
+#include "VisibleString64Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

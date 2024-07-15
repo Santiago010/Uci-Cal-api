@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_ANALYSISROUTEREQUESTMDT_H
 #define UCI_TYPE_ANALYSISROUTEREQUESTMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/RepeatEnum.h"
-#include "uci/type/RequestBaseType.h"
-#include "uci/type/RoutePlanAnalysisInputsType.h"
+#include "../base/export.h"
+#include "DurationType.h"
+#include "RepeatEnum.h"
+#include "RequestBaseType.h"
+#include "RoutePlanAnalysisInputsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

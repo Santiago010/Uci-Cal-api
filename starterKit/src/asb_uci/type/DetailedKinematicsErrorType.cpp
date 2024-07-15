@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/DetailedKinematicsErrorType.h"
+#include "../../../include/asb_uci/type/DetailedKinematicsErrorType.h"
 
 #include <memory>
 #include <string>
@@ -41,22 +41,22 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/OrientationCovarianceType.h"
-#include "asb_uci/type/PositionOrientationCovarianceType.h"
-#include "asb_uci/type/PositionPositionCovarianceType.h"
-#include "asb_uci/type/PositionVelocityCovarianceType.h"
-#include "asb_uci/type/VelocityOrientationCovarianceType.h"
-#include "asb_uci/type/VelocityVelocityCovarianceType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/DetailedKinematicsErrorType.h"
-#include "uci/type/OrientationCovarianceType.h"
-#include "uci/type/PositionOrientationCovarianceType.h"
-#include "uci/type/PositionPositionCovarianceType.h"
-#include "uci/type/PositionVelocityCovarianceType.h"
-#include "uci/type/VelocityOrientationCovarianceType.h"
-#include "uci/type/VelocityVelocityCovarianceType.h"
+#include "../../../include/asb_uci/type/OrientationCovarianceType.h"
+#include "../../../include/asb_uci/type/PositionOrientationCovarianceType.h"
+#include "../../../include/asb_uci/type/PositionPositionCovarianceType.h"
+#include "../../../include/asb_uci/type/PositionVelocityCovarianceType.h"
+#include "../../../include/asb_uci/type/VelocityOrientationCovarianceType.h"
+#include "../../../include/asb_uci/type/VelocityVelocityCovarianceType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DetailedKinematicsErrorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrientationCovarianceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PositionOrientationCovarianceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PositionPositionCovarianceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PositionVelocityCovarianceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VelocityOrientationCovarianceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VelocityVelocityCovarianceType.h"
 
 /**  */
 namespace asb_uci {

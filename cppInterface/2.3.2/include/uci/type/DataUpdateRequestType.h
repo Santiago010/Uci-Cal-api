@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_DATAUPDATEREQUESTTYPE_H
 #define UCI_TYPE_DATAUPDATEREQUESTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/QueryMessageType.h"
-#include "uci/type/QuerySpecificDataPET.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "QueryMessageType.h"
+#include "QuerySpecificDataPET.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

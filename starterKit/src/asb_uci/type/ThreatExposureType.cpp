@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ThreatExposureType.h"
+#include "../../../include/asb_uci/type/ThreatExposureType.h"
 
 #include <memory>
 #include <string>
@@ -41,20 +41,20 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/DateTimeRangeType.h"
-#include "asb_uci/type/EntityID_Type.h"
-#include "asb_uci/type/Point2D_RangeType.h"
-#include "asb_uci/type/ThreatExposureProbabilityType.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/DateTimeRangeType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/EntityID_Type.h"
-#include "uci/type/Point2D_RangeType.h"
-#include "uci/type/ThreatExposureProbabilityType.h"
-#include "uci/type/ThreatExposureType.h"
+#include "../../../include/asb_uci/type/DateTimeRangeType.h"
+#include "../../../include/asb_uci/type/EntityID_Type.h"
+#include "../../../include/asb_uci/type/Point2D_RangeType.h"
+#include "../../../include/asb_uci/type/ThreatExposureProbabilityType.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DateTimeRangeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DurationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EntityID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/Point2D_RangeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ThreatExposureProbabilityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ThreatExposureType.h"
 
 /**  */
 namespace asb_uci {

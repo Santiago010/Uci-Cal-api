@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_MISSIONCATEGORYTYPE_H
 #define UCI_TYPE_MISSIONCATEGORYTYPE_H
 
-#include "uci/type/VisibleString32Type.h"
+#include "VisibleString32Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

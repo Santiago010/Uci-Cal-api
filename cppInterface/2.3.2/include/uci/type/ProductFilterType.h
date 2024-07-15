@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_PRODUCTFILTERTYPE_H
 #define UCI_TYPE_PRODUCTFILTERTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeRangeType.h"
-#include "uci/type/FileFormatType.h"
-#include "uci/type/LocationFilterType.h"
-#include "uci/type/ProductTypeEnum.h"
-#include "uci/type/SecurityInformationType.h"
-#include "uci/type/SourceFilterType.h"
-#include "uci/type/SourceLocationFilterType.h"
-#include "uci/type/VisibleString1024Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DateTimeRangeType.h"
+#include "FileFormatType.h"
+#include "LocationFilterType.h"
+#include "ProductTypeEnum.h"
+#include "SecurityInformationType.h"
+#include "SourceFilterType.h"
+#include "SourceLocationFilterType.h"
+#include "VisibleString1024Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

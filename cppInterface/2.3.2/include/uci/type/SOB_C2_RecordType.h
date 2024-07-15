@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SOB_C2_RECORDTYPE_H
 #define UCI_TYPE_SOB_C2_RECORDTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/SOB_C2_RecordBaseType.h"
-#include "uci/type/SOB_RecordSourceType.h"
-#include "uci/type/SecurityInformationType.h"
+#include "../base/export.h"
+#include "SOB_C2_RecordBaseType.h"
+#include "SOB_RecordSourceType.h"
+#include "SecurityInformationType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_TASKPLANINPUTSTYPE_H
 #define UCI_TYPE_TASKPLANINPUTSTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/PlanInputsCoreType.h"
-#include "uci/type/RequirementAssociationConstraintType.h"
-#include "uci/type/RequirementPlanningCandidateType.h"
-#include "uci/type/TaskAllocationType.h"
-#include "uci/type/TaskPlanConstraintType.h"
-#include "uci/type/TaskPlanPartsType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "PlanInputsCoreType.h"
+#include "RequirementAssociationConstraintType.h"
+#include "RequirementPlanningCandidateType.h"
+#include "TaskAllocationType.h"
+#include "TaskPlanConstraintType.h"
+#include "TaskPlanPartsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

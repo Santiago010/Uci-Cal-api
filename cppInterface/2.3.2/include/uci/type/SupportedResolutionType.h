@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_SUPPORTEDRESOLUTIONTYPE_H
 #define UCI_TYPE_SUPPORTEDRESOLUTIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/DoubleAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/IEEE_FrequencyBandEnum.h"
-#include "uci/type/SupportedResolutionID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/DoubleAccessor.h"
+#include "../base/export.h"
+#include "IEEE_FrequencyBandEnum.h"
+#include "SupportedResolutionID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

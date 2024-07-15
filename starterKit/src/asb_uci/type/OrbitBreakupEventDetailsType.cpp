@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/OrbitBreakupEventDetailsType.h"
+#include "../../../include/asb_uci/type/OrbitBreakupEventDetailsType.h"
 
 #include <memory>
 #include <string>
@@ -41,16 +41,16 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/OrbitCollisionType.h"
-#include "asb_uci/type/OrbitObjectBreakupType.h"
-#include "asb_uci/type/OrbitalConjunctionID_Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/OrbitBreakupEventDetailsType.h"
-#include "uci/type/OrbitCollisionType.h"
-#include "uci/type/OrbitObjectBreakupType.h"
-#include "uci/type/OrbitalConjunctionID_Type.h"
+#include "../../../include/asb_uci/type/OrbitCollisionType.h"
+#include "../../../include/asb_uci/type/OrbitObjectBreakupType.h"
+#include "../../../include/asb_uci/type/OrbitalConjunctionID_Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitBreakupEventDetailsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitCollisionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitObjectBreakupType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalConjunctionID_Type.h"
 
 /**  */
 namespace asb_uci {

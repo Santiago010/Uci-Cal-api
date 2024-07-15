@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_GATEWAYSETTINGSCOMMAND_H
 #define UCI_TYPE_GATEWAYSETTINGSCOMMAND_H
 
-#include "uci/type/GatewaySettingsCommandMT.h"
+#include "GatewaySettingsCommandMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

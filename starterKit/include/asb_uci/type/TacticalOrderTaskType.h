@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/TacticalOrderTaskBaseType.h"
-#include "uci/type/TacticalOrderTaskType.h"
+#include "../../../include/asb_uci/type/TacticalOrderTaskBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TacticalOrderTaskType.h"
 
 /**  */
 namespace asb_uci {

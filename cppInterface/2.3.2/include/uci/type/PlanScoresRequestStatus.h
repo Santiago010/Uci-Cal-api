@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_PLANSCORESREQUESTSTATUS_H
 #define UCI_TYPE_PLANSCORESREQUESTSTATUS_H
 
-#include "uci/type/PlanScoresRequestStatusMT.h"
+#include "PlanScoresRequestStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/MissileEmitterModeEnum.h"
-#include "asb_uci/type/NotationType.h"
-#include "uci/type/MissileEmitterIdentityType.h"
+#include "../../../include/asb_uci/type/MissileEmitterModeEnum.h"
+#include "../../../include/asb_uci/type/NotationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MissileEmitterIdentityType.h"
 
 /**  */
 namespace asb_uci {

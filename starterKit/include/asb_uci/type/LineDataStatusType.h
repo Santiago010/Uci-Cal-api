@@ -41,11 +41,11 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/ComponentDetailedStatusType.h"
-#include "asb_uci/type/EmptyType.h"
-#include "asb_uci/type/VisibleString64Type.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/LineDataStatusType.h"
+#include "../../../include/asb_uci/type/ComponentDetailedStatusType.h"
+#include "../../../include/asb_uci/type/EmptyType.h"
+#include "../../../include/asb_uci/type/VisibleString64Type.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/LineDataStatusType.h"
 
 /**  */
 namespace asb_uci {

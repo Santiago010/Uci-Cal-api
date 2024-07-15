@@ -36,20 +36,20 @@
 #ifndef UCI_TYPE_COMMANDRESPONSETYPE_H
 #define UCI_TYPE_COMMANDRESPONSETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AMTI_CommandResponseType.h"
-#include "uci/type/AO_CommandResponseType.h"
-#include "uci/type/AirSampleCommandResponseType.h"
-#include "uci/type/COMINT_CommandResponseType.h"
-#include "uci/type/CommRelayCommandResponseType.h"
-#include "uci/type/EA_CommandResponseType.h"
-#include "uci/type/ESM_CommandResponseType.h"
-#include "uci/type/EmptyType.h"
-#include "uci/type/PO_CommandResponseType.h"
-#include "uci/type/SAR_CommandResponseType.h"
-#include "uci/type/SMTI_CommandResponseType.h"
-#include "uci/type/StrikeWeaponCommandType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AMTI_CommandResponseType.h"
+#include "AO_CommandResponseType.h"
+#include "AirSampleCommandResponseType.h"
+#include "COMINT_CommandResponseType.h"
+#include "CommRelayCommandResponseType.h"
+#include "EA_CommandResponseType.h"
+#include "ESM_CommandResponseType.h"
+#include "EmptyType.h"
+#include "PO_CommandResponseType.h"
+#include "SAR_CommandResponseType.h"
+#include "SMTI_CommandResponseType.h"
+#include "StrikeWeaponCommandType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

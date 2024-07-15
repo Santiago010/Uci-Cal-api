@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_ACTIVITYPLANINPUTSTYPE_H
 #define UCI_TYPE_ACTIVITYPLANINPUTSTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ActivityPlanPartsCommandType.h"
-#include "uci/type/PlanInputsCoreType.h"
-#include "uci/type/PlanningCandidateBaseType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ActivityPlanPartsCommandType.h"
+#include "PlanInputsCoreType.h"
+#include "PlanningCandidateBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

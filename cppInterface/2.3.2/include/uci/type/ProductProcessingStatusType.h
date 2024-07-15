@@ -36,18 +36,18 @@
 #ifndef UCI_TYPE_PRODUCTPROCESSINGSTATUSTYPE_H
 #define UCI_TYPE_PRODUCTPROCESSINGSTATUSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CannotComplyType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/InputProductType.h"
-#include "uci/type/PercentType.h"
-#include "uci/type/ProcessingResultsPET.h"
-#include "uci/type/ProcessingTypeEnum.h"
-#include "uci/type/ProductMetadataID_Type.h"
-#include "uci/type/RequestProcessingStateEnum.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "CannotComplyType.h"
+#include "DateTimeType.h"
+#include "InputProductType.h"
+#include "PercentType.h"
+#include "ProcessingResultsPET.h"
+#include "ProcessingTypeEnum.h"
+#include "ProductMetadataID_Type.h"
+#include "RequestProcessingStateEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

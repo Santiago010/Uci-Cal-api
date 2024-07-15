@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/NotificationBaseType.h"
+#include "../../../include/asb_uci/type/NotificationBaseType.h"
 
 #include <memory>
 #include <string>
@@ -41,27 +41,27 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/NotificationID_Type.h"
-#include "asb_uci/type/NotificationSeverityEnum.h"
-#include "asb_uci/type/NotificationSourceType.h"
-#include "asb_uci/type/NotificationStateEnum.h"
-#include "asb_uci/type/SubjectType.h"
-#include "asb_uci/type/VisibleString1024Type.h"
-#include "asb_uci/util/DerivedTypesCopier.h"
-#include "asb_uci/util/DerivedTypesCreator.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/DerivedTypesSerializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/NotificationBaseType.h"
-#include "uci/type/NotificationID_Type.h"
-#include "uci/type/NotificationSeverityEnum.h"
-#include "uci/type/NotificationSourceType.h"
-#include "uci/type/NotificationStateEnum.h"
-#include "uci/type/SubjectType.h"
-#include "uci/type/VisibleString1024Type.h"
+#include "../../../include/asb_uci/type/NotificationID_Type.h"
+#include "../../../include/asb_uci/type/NotificationSeverityEnum.h"
+#include "../../../include/asb_uci/type/NotificationSourceType.h"
+#include "../../../include/asb_uci/type/NotificationStateEnum.h"
+#include "../../../include/asb_uci/type/SubjectType.h"
+#include "../../../include/asb_uci/type/VisibleString1024Type.h"
+#include "../../../include/asb_uci/util/DerivedTypesCopier.h"
+#include "../../../include/asb_uci/util/DerivedTypesCreator.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/DerivedTypesSerializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DateTimeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/NotificationBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/NotificationID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/NotificationSeverityEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/NotificationSourceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/NotificationStateEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubjectType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString1024Type.h"
 
 /**  */
 namespace asb_uci {

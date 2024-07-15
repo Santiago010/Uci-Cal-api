@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_ORBITALSURVEILLANCESENSORSUBCAPABILITYTYPE_H
 #define UCI_TYPE_ORBITALSURVEILLANCESENSORSUBCAPABILITYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/SensorFunctionalityType.h"
-#include "uci/type/SensorTrackingAltitudesEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "SensorFunctionalityType.h"
+#include "SensorTrackingAltitudesEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

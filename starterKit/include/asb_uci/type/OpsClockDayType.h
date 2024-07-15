@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/WeekdayEnum.h"
-#include "uci/type/OpsClockDayType.h"
+#include "../../../include/asb_uci/type/WeekdayEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpsClockDayType.h"
 
 /**  */
 namespace asb_uci {

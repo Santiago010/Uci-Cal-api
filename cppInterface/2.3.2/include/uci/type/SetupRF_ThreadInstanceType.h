@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_SETUPRF_THREADINSTANCETYPE_H
 #define UCI_TYPE_SETUPRF_THREADINSTANCETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/RF_GainType.h"
-#include "uci/type/SetupBeamConfigurationInstanceType.h"
-#include "uci/type/ThreadConfigurationRF_Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "RF_GainType.h"
+#include "SetupBeamConfigurationInstanceType.h"
+#include "ThreadConfigurationRF_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

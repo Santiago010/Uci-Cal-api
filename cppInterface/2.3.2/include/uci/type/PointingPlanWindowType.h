@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_POINTINGPLANWINDOWTYPE_H
 #define UCI_TYPE_POINTINGPLANWINDOWTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CommPointingType.h"
-#include "uci/type/CommScheduleAllocationID_Type.h"
-#include "uci/type/CommSystemID_Type.h"
-#include "uci/type/RoutePlanReferencesType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CommPointingType.h"
+#include "CommScheduleAllocationID_Type.h"
+#include "CommSystemID_Type.h"
+#include "RoutePlanReferencesType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

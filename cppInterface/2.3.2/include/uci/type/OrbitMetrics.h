@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ORBITMETRICS_H
 #define UCI_TYPE_ORBITMETRICS_H
 
-#include "uci/type/OrbitMetricsMT.h"
+#include "OrbitMetricsMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

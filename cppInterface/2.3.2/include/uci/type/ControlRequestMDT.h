@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_CONTROLREQUESTMDT_H
 #define UCI_TYPE_CONTROLREQUESTMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ControlRequestEnum.h"
-#include "uci/type/ControlTypeEnum.h"
-#include "uci/type/ControlleeType.h"
-#include "uci/type/RequestBaseType.h"
-#include "uci/type/SystemServiceType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ControlRequestEnum.h"
+#include "ControlTypeEnum.h"
+#include "ControlleeType.h"
+#include "RequestBaseType.h"
+#include "SystemServiceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

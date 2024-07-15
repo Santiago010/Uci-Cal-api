@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_EA_CONSENTREQUESTTYPE_H
 #define UCI_TYPE_EA_CONSENTREQUESTTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/EA_ProposedType.h"
-#include "uci/type/RequestBaseType.h"
+#include "../base/export.h"
+#include "EA_ProposedType.h"
+#include "RequestBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_CAPABILITYCOMMANDSTATUSBASETYPE_H
 #define UCI_TYPE_CAPABILITYCOMMANDSTATUSBASETYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/type/CommandStatusBaseType.h"
-#include "uci/type/ResultingActivityType.h"
+#include "../base/BoundedList.h"
+#include "CommandStatusBaseType.h"
+#include "ResultingActivityType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/WeatherEffectsType.h"
+#include "../../../include/asb_uci/type/WeatherEffectsType.h"
 
 #include <memory>
 #include <string>
@@ -41,19 +41,19 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/WeatherRoadStateEnum.h"
-#include "asb_uci/type/WeatherSeaStateAmplificationEnum.h"
-#include "asb_uci/type/WeatherSeaStateEnum.h"
-#include "asb_uci/type/WeatherTerrainStateEnum.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/WeatherEffectsType.h"
-#include "uci/type/WeatherRoadStateEnum.h"
-#include "uci/type/WeatherSeaStateAmplificationEnum.h"
-#include "uci/type/WeatherSeaStateEnum.h"
-#include "uci/type/WeatherTerrainStateEnum.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/WeatherRoadStateEnum.h"
+#include "../../../include/asb_uci/type/WeatherSeaStateAmplificationEnum.h"
+#include "../../../include/asb_uci/type/WeatherSeaStateEnum.h"
+#include "../../../include/asb_uci/type/WeatherTerrainStateEnum.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/WeatherEffectsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/WeatherRoadStateEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/WeatherSeaStateAmplificationEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/WeatherSeaStateEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/WeatherTerrainStateEnum.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/DMPI_StoreStateEnum.h"
-#include "asb_uci/type/DateTimeType.h"
-#include "asb_uci/type/VisibleString1024Type.h"
-#include "uci/type/DMPI_StoreStatusType.h"
+#include "../../../include/asb_uci/type/DMPI_StoreStateEnum.h"
+#include "../../../include/asb_uci/type/DateTimeType.h"
+#include "../../../include/asb_uci/type/VisibleString1024Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DMPI_StoreStatusType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_SPECIFICBDS_REGISTERSTYPE_H
 #define UCI_TYPE_SPECIFICBDS_REGISTERSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AA_CodeType.h"
-#include "uci/type/BDS_AddressType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AA_CodeType.h"
+#include "BDS_AddressType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

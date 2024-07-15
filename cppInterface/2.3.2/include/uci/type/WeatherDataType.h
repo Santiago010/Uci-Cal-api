@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_WEATHERDATATYPE_H
 #define UCI_TYPE_WEATHERDATATYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ProductMetadataID_Type.h"
-#include "uci/type/WeatherReportDataType.h"
-#include "uci/type/WeatherWarningDataType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ProductMetadataID_Type.h"
+#include "WeatherReportDataType.h"
+#include "WeatherWarningDataType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

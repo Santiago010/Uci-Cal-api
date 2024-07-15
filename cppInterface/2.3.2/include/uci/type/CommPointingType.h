@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_COMMPOINTINGTYPE_H
 #define UCI_TYPE_COMMPOINTINGTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CommResourceType.h"
-#include "uci/type/Point3D_Type.h"
-#include "uci/type/Point4D_Type.h"
-#include "uci/type/PointingVectorParameterType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CommResourceType.h"
+#include "Point3D_Type.h"
+#include "Point4D_Type.h"
+#include "PointingVectorParameterType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

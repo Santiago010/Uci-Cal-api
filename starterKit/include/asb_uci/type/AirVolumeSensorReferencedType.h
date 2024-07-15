@@ -41,14 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AngleHalfType.h"
-#include "asb_uci/type/AnglePositiveType.h"
-#include "asb_uci/type/AngleType.h"
-#include "asb_uci/type/DistanceType.h"
-#include "asb_uci/type/ElevationScanStabilizationEnum.h"
-#include "asb_uci/type/LOS_ReferenceEnum.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/AirVolumeSensorReferencedType.h"
+#include "../../../include/asb_uci/type/AngleHalfType.h"
+#include "../../../include/asb_uci/type/AnglePositiveType.h"
+#include "../../../include/asb_uci/type/AngleType.h"
+#include "../../../include/asb_uci/type/DistanceType.h"
+#include "../../../include/asb_uci/type/ElevationScanStabilizationEnum.h"
+#include "../../../include/asb_uci/type/LOS_ReferenceEnum.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AirVolumeSensorReferencedType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_WEATHERRADARACTIVITYMDT_H
 #define UCI_TYPE_WEATHERRADARACTIVITYMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/SubsystemID_Type.h"
-#include "uci/type/WeatherRadarActivityType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "SubsystemID_Type.h"
+#include "WeatherRadarActivityType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

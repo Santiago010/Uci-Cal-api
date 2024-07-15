@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SMTI_ACTIVITY_H
 #define UCI_TYPE_SMTI_ACTIVITY_H
 
-#include "uci/type/SMTI_ActivityMT.h"
+#include "SMTI_ActivityMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

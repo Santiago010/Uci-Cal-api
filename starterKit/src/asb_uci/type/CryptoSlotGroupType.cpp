@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CryptoSlotGroupType.h"
+#include "../../../include/asb_uci/type/CryptoSlotGroupType.h"
 
 #include <memory>
 #include <string>
@@ -41,23 +41,23 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CapabilityID_Type.h"
-#include "asb_uci/type/CryptoLoadStatusType.h"
-#include "asb_uci/type/CryptoRolloverMethodEnum.h"
-#include "asb_uci/type/CryptoSlotGroupID_Type.h"
-#include "asb_uci/type/CryptoSlotGroupStateEnum.h"
-#include "asb_uci/type/CryptoSlotType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/CryptoLoadStatusType.h"
-#include "uci/type/CryptoRolloverMethodEnum.h"
-#include "uci/type/CryptoSlotGroupID_Type.h"
-#include "uci/type/CryptoSlotGroupStateEnum.h"
-#include "uci/type/CryptoSlotGroupType.h"
-#include "uci/type/CryptoSlotIdentifierType.h"
-#include "uci/type/CryptoSlotType.h"
+#include "../../../include/asb_uci/type/CapabilityID_Type.h"
+#include "../../../include/asb_uci/type/CryptoLoadStatusType.h"
+#include "../../../include/asb_uci/type/CryptoRolloverMethodEnum.h"
+#include "../../../include/asb_uci/type/CryptoSlotGroupID_Type.h"
+#include "../../../include/asb_uci/type/CryptoSlotGroupStateEnum.h"
+#include "../../../include/asb_uci/type/CryptoSlotType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CryptoLoadStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CryptoRolloverMethodEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CryptoSlotGroupID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CryptoSlotGroupStateEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CryptoSlotGroupType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CryptoSlotIdentifierType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CryptoSlotType.h"
 
 /**  */
 namespace asb_uci {

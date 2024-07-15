@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_REQUIREMENTTEMPLATEOPTIONSTYPE_H
 #define UCI_TYPE_REQUIREMENTTEMPLATEOPTIONSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CollectionObjectiveEnum.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/RequirementGenerationDependencyType.h"
-#include "uci/type/RequirementTemplateOptionType.h"
-#include "uci/type/VisibleString256Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "CollectionObjectiveEnum.h"
+#include "DurationType.h"
+#include "RequirementGenerationDependencyType.h"
+#include "RequirementTemplateOptionType.h"
+#include "VisibleString256Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ARCSECONDSTYPE_H
 #define UCI_TYPE_ARCSECONDSTYPE_H
 
-#include "uci/base/DoubleAccessor.h"
+#include "../base/DoubleAccessor.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

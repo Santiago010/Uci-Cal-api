@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/RoutePlanType.h"
+#include "../../../include/asb_uci/type/RoutePlanType.h"
 
 #include <memory>
 #include <string>
@@ -41,18 +41,18 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/DateTimeRangeType.h"
-#include "asb_uci/type/PlanApplicabilityType.h"
-#include "asb_uci/type/RoutePlanPartsType.h"
-#include "asb_uci/type/RouteType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/DateTimeRangeType.h"
-#include "uci/type/PlanApplicabilityType.h"
-#include "uci/type/RoutePlanPartsType.h"
-#include "uci/type/RoutePlanType.h"
-#include "uci/type/RouteType.h"
+#include "../../../include/asb_uci/type/DateTimeRangeType.h"
+#include "../../../include/asb_uci/type/PlanApplicabilityType.h"
+#include "../../../include/asb_uci/type/RoutePlanPartsType.h"
+#include "../../../include/asb_uci/type/RouteType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DateTimeRangeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlanApplicabilityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RoutePlanPartsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RoutePlanType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RouteType.h"
 
 /**  */
 namespace asb_uci {

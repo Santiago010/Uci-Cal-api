@@ -41,11 +41,11 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/CapabilityCoverageAreaBasisEnum.h"
-#include "asb_uci/type/CapabilityCoverageAreaFactorEnum.h"
-#include "asb_uci/type/TimeType.h"
-#include "uci/type/CapabilityCoverageAreaDataType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/CapabilityCoverageAreaBasisEnum.h"
+#include "../../../include/asb_uci/type/CapabilityCoverageAreaFactorEnum.h"
+#include "../../../include/asb_uci/type/TimeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityCoverageAreaDataType.h"
 
 /**  */
 namespace asb_uci {

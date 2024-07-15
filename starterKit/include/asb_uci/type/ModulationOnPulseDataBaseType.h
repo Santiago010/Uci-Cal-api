@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/FMOP_Enum.h"
-#include "asb_uci/type/ModulationEnum.h"
-#include "asb_uci/type/PMOP_Enum.h"
-#include "uci/type/ModulationOnPulseDataBaseType.h"
+#include "../../../include/asb_uci/type/FMOP_Enum.h"
+#include "../../../include/asb_uci/type/ModulationEnum.h"
+#include "../../../include/asb_uci/type/PMOP_Enum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ModulationOnPulseDataBaseType.h"
 
 /**  */
 namespace asb_uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/RF_TaskPerformanceType.h"
+#include "../../../include/asb_uci/type/RF_TaskPerformanceType.h"
 
 #include <memory>
 #include <string>
@@ -41,14 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/RF_TaskNormalizedMetricsType.h"
-#include "asb_uci/type/RF_TaskPerformanceConstraintType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/RF_TaskNormalizedMetricsType.h"
-#include "uci/type/RF_TaskPerformanceConstraintType.h"
-#include "uci/type/RF_TaskPerformanceType.h"
+#include "../../../include/asb_uci/type/RF_TaskNormalizedMetricsType.h"
+#include "../../../include/asb_uci/type/RF_TaskPerformanceConstraintType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RF_TaskNormalizedMetricsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RF_TaskPerformanceConstraintType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RF_TaskPerformanceType.h"
 
 /**  */
 namespace asb_uci {

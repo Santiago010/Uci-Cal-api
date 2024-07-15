@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_REQUIREMENTDEPENDENCYTYPE_H
 #define UCI_TYPE_REQUIREMENTDEPENDENCYTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/RequirementDependencyBaseType.h"
-#include "uci/type/RequirementInstanceID_ChoiceType.h"
+#include "../base/export.h"
+#include "RequirementDependencyBaseType.h"
+#include "RequirementInstanceID_ChoiceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

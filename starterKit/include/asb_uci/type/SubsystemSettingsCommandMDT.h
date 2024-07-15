@@ -41,11 +41,11 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/CapabilityCommandStateEnum.h"
-#include "asb_uci/type/CommandBaseType.h"
-#include "asb_uci/type/SubsystemSettingEnum.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/SubsystemSettingsCommandMDT.h"
+#include "../../../include/asb_uci/type/CapabilityCommandStateEnum.h"
+#include "../../../include/asb_uci/type/CommandBaseType.h"
+#include "../../../include/asb_uci/type/SubsystemSettingEnum.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemSettingsCommandMDT.h"
 
 /**  */
 namespace asb_uci {

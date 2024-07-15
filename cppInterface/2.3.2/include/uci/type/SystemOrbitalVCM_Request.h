@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SYSTEMORBITALVCM_REQUEST_H
 #define UCI_TYPE_SYSTEMORBITALVCM_REQUEST_H
 
-#include "uci/type/SystemOrbitalVCM_RequestMT.h"
+#include "SystemOrbitalVCM_RequestMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

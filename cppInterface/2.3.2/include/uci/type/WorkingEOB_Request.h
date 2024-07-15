@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_WORKINGEOB_REQUEST_H
 #define UCI_TYPE_WORKINGEOB_REQUEST_H
 
-#include "uci/type/WorkingEOB_RequestMT.h"
+#include "WorkingEOB_RequestMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

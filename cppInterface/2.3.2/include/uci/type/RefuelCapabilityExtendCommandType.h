@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_REFUELCAPABILITYEXTENDCOMMANDTYPE_H
 #define UCI_TYPE_REFUELCAPABILITYEXTENDCOMMANDTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityCommandBaseType.h"
-#include "uci/type/RefuelCapabilityCommandType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilityCommandBaseType.h"
+#include "RefuelCapabilityCommandType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

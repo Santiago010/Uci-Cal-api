@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SIGNALPULSEWIDTHTYPE_H
 #define UCI_TYPE_SIGNALPULSEWIDTHTYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/MeasurementQualityEnum.h"
-#include "uci/type/SignalPulseWidthBaseType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "MeasurementQualityEnum.h"
+#include "SignalPulseWidthBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

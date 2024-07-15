@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_SERVICECONFIGURATIONPARAMSDATAREQUESTMDT_H
 #define UCI_TYPE_SERVICECONFIGURATIONPARAMSDATAREQUESTMDT_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/RequestBaseType.h"
-#include "uci/type/ServiceID_Type.h"
-#include "uci/type/SystemID_Type.h"
-#include "uci/type/VisibleString32Type.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "RequestBaseType.h"
+#include "ServiceID_Type.h"
+#include "SystemID_Type.h"
+#include "VisibleString32Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

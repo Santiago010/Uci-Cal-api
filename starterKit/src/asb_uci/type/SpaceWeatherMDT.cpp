@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/SpaceWeatherMDT.h"
+#include "../../../include/asb_uci/type/SpaceWeatherMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,17 +41,17 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/DateTimeRangeType.h"
-#include "asb_uci/type/SpaceWeatherID_Type.h"
-#include "asb_uci/type/SpaceWeatherRecordType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/DateTimeRangeType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/SpaceWeatherID_Type.h"
-#include "uci/type/SpaceWeatherMDT.h"
-#include "uci/type/SpaceWeatherRecordType.h"
+#include "../../../include/asb_uci/type/DateTimeRangeType.h"
+#include "../../../include/asb_uci/type/SpaceWeatherID_Type.h"
+#include "../../../include/asb_uci/type/SpaceWeatherRecordType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DateTimeRangeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DateTimeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SpaceWeatherID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SpaceWeatherMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SpaceWeatherRecordType.h"
 
 /**  */
 namespace asb_uci {

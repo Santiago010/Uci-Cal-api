@@ -36,8 +36,8 @@
 #ifndef ASB_UCI_TYPE_IFF_MODE5_FORMATTYPE_H
 #define ASB_UCI_TYPE_IFF_MODE5_FORMATTYPE_H
 
-#include "asb_uci/base/UnsignedByteAccessor.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/base/UnsignedByteAccessor.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

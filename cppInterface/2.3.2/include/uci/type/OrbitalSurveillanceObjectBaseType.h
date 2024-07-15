@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_ORBITALSURVEILLANCEOBJECTBASETYPE_H
 #define UCI_TYPE_ORBITALSURVEILLANCEOBJECTBASETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/OrbitKinematicsType.h"
-#include "uci/type/OrbitalKinematicsSourceEnum.h"
-#include "uci/type/SatelliteIdentityChoiceType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "OrbitKinematicsType.h"
+#include "OrbitalKinematicsSourceEnum.h"
+#include "SatelliteIdentityChoiceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

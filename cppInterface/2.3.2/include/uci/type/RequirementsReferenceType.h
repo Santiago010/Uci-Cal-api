@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_REQUIREMENTSREFERENCETYPE_H
 #define UCI_TYPE_REQUIREMENTSREFERENCETYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CommandID_Type.h"
-#include "uci/type/RequirementsReferenceLockableType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CommandID_Type.h"
+#include "RequirementsReferenceLockableType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

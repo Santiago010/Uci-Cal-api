@@ -36,17 +36,17 @@
 #ifndef UCI_TYPE_ORDEROFBATTLEEMITTERTYPE_H
 #define UCI_TYPE_ORDEROFBATTLEEMITTERTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/EOB_EmitterID_Type.h"
-#include "uci/type/EOB_EmitterIdentityType.h"
-#include "uci/type/EOB_EmitterModeType.h"
-#include "uci/type/OperationalScheduleType.h"
-#include "uci/type/OrderOfBattleLastCollectorType.h"
-#include "uci/type/OrderOfBattleRecordOwnerType.h"
-#include "uci/type/OrderOfBattleTimestampsType.h"
-#include "uci/type/VisibleString512Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "EOB_EmitterID_Type.h"
+#include "EOB_EmitterIdentityType.h"
+#include "EOB_EmitterModeType.h"
+#include "OperationalScheduleType.h"
+#include "OrderOfBattleLastCollectorType.h"
+#include "OrderOfBattleRecordOwnerType.h"
+#include "OrderOfBattleTimestampsType.h"
+#include "VisibleString512Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

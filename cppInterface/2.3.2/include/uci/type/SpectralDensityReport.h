@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SPECTRALDENSITYREPORT_H
 #define UCI_TYPE_SPECTRALDENSITYREPORT_H
 
-#include "uci/type/SpectralDensityReportMT.h"
+#include "SpectralDensityReportMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

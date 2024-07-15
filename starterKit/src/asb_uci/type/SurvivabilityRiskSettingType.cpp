@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/SurvivabilityRiskSettingType.h"
+#include "../../../include/asb_uci/type/SurvivabilityRiskSettingType.h"
 
 #include <memory>
 #include <string>
@@ -41,14 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/RiskPrioritizationEnum.h"
-#include "asb_uci/type/RiskSettingType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/RiskPrioritizationEnum.h"
-#include "uci/type/RiskSettingType.h"
-#include "uci/type/SurvivabilityRiskSettingType.h"
+#include "../../../include/asb_uci/type/RiskPrioritizationEnum.h"
+#include "../../../include/asb_uci/type/RiskSettingType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RiskPrioritizationEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RiskSettingType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SurvivabilityRiskSettingType.h"
 
 /**  */
 namespace asb_uci {

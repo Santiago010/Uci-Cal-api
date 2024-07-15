@@ -41,13 +41,13 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/DateTimeType.h"
-#include "asb_uci/type/PercentType.h"
-#include "asb_uci/type/ProcessingTypeEnum.h"
-#include "asb_uci/type/RequestProcessingStateEnum.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/ProductProcessingStatusType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/DateTimeType.h"
+#include "../../../include/asb_uci/type/PercentType.h"
+#include "../../../include/asb_uci/type/ProcessingTypeEnum.h"
+#include "../../../include/asb_uci/type/RequestProcessingStateEnum.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProductProcessingStatusType.h"
 
 /**  */
 namespace asb_uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/COMINT_ActivityCommandType.h"
+#include "../../../include/asb_uci/type/COMINT_ActivityCommandType.h"
 
 #include <memory>
 #include <string>
@@ -41,16 +41,16 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/COMINT_ChangeDwellType.h"
-#include "asb_uci/type/COMINT_ChangeGeolocationType.h"
-#include "asb_uci/type/SharedRF_ApertureActivityCommandBaseType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/COMINT_ActivityCommandType.h"
-#include "uci/type/COMINT_ChangeDwellType.h"
-#include "uci/type/COMINT_ChangeGeolocationType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/COMINT_ChangeDwellType.h"
+#include "../../../include/asb_uci/type/COMINT_ChangeGeolocationType.h"
+#include "../../../include/asb_uci/type/SharedRF_ApertureActivityCommandBaseType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/COMINT_ActivityCommandType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/COMINT_ChangeDwellType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/COMINT_ChangeGeolocationType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

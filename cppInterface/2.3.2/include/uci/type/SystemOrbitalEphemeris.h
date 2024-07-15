@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SYSTEMORBITALEPHEMERIS_H
 #define UCI_TYPE_SYSTEMORBITALEPHEMERIS_H
 
-#include "uci/type/SystemOrbitalEphemerisMT.h"
+#include "SystemOrbitalEphemerisMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

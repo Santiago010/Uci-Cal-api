@@ -36,18 +36,18 @@
 #ifndef UCI_TYPE_TXBEAMTYPE_H
 #define UCI_TYPE_TXBEAMTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AnglePositiveType.h"
-#include "uci/type/BeamID_Type.h"
-#include "uci/type/BeamPointingReferenceType.h"
-#include "uci/type/DateTimeRangeBeginType.h"
-#include "uci/type/EA_EmissionType.h"
-#include "uci/type/EA_PointingEnum.h"
-#include "uci/type/MilliwattPowerRatioType.h"
-#include "uci/type/PercentType.h"
-#include "uci/type/Point3D_Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AnglePositiveType.h"
+#include "BeamID_Type.h"
+#include "BeamPointingReferenceType.h"
+#include "DateTimeRangeBeginType.h"
+#include "EA_EmissionType.h"
+#include "EA_PointingEnum.h"
+#include "MilliwattPowerRatioType.h"
+#include "PercentType.h"
+#include "Point3D_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

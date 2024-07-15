@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_ORBITALTOLERANCEVALUESTYPE_H
 #define UCI_TYPE_ORBITALTOLERANCEVALUESTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AngleQuarterType.h"
-#include "uci/type/AngleType.h"
-#include "uci/type/DistanceType.h"
-#include "uci/type/SpeedType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AngleQuarterType.h"
+#include "AngleType.h"
+#include "DistanceType.h"
+#include "SpeedType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

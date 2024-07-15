@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_RULERESPONSETYPE_H
 #define UCI_TYPE_RULERESPONSETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EmptyType.h"
-#include "uci/type/MissionPlanActivationCommandType.h"
-#include "uci/type/ResponseAlertType.h"
-#include "uci/type/ResponseTemplateType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "EmptyType.h"
+#include "MissionPlanActivationCommandType.h"
+#include "ResponseAlertType.h"
+#include "ResponseTemplateType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

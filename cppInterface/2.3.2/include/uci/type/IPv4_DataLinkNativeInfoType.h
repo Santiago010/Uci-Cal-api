@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_IPV4_DATALINKNATIVEINFOTYPE_H
 #define UCI_TYPE_IPV4_DATALINKNATIVEINFOTYPE_H
 
-#include "uci/base/IntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DataLinkNativeInfoPET.h"
+#include "../base/IntAccessor.h"
+#include "../base/export.h"
+#include "DataLinkNativeInfoPET.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

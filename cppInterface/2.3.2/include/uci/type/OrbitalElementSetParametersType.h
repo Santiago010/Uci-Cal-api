@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_ORBITALELEMENTSETPARAMETERSTYPE_H
 #define UCI_TYPE_ORBITALELEMENTSETPARAMETERSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/OrbitalModelType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DateTimeType.h"
+#include "OrbitalModelType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

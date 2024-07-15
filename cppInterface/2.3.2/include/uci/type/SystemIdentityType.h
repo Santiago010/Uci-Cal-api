@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_SYSTEMIDENTITYTYPE_H
 #define UCI_TYPE_SYSTEMIDENTITYTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/IdentityType.h"
-#include "uci/type/QualifyingTagsType.h"
-#include "uci/type/TimeFunctionType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "IdentityType.h"
+#include "QualifyingTagsType.h"
+#include "TimeFunctionType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

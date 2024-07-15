@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_ORBITALEPHEMERISTYPE_H
 #define UCI_TYPE_ORBITALEPHEMERISTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeRangeType.h"
-#include "uci/type/EphemerisTypeEnum.h"
-#include "uci/type/OrbitalEphemerisChoiceType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DateTimeRangeType.h"
+#include "EphemerisTypeEnum.h"
+#include "OrbitalEphemerisChoiceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

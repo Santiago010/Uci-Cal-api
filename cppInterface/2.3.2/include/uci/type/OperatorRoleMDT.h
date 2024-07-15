@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_OPERATORROLEMDT_H
 #define UCI_TYPE_OPERATORROLEMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/DataRecordBaseType.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/OperatorRoleID_Type.h"
-#include "uci/type/SystemID_Type.h"
-#include "uci/type/VisibleString256Type.h"
+#include "../base/export.h"
+#include "DataRecordBaseType.h"
+#include "ForeignKeyType.h"
+#include "OperatorRoleID_Type.h"
+#include "SystemID_Type.h"
+#include "VisibleString256Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

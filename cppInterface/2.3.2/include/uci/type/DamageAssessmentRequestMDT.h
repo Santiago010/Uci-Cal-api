@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_DAMAGEASSESSMENTREQUESTMDT_H
 #define UCI_TYPE_DAMAGEASSESSMENTREQUESTMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DamageCategoryEnum.h"
-#include "uci/type/DamageSubjectType.h"
-#include "uci/type/DamageSummaryID_Type.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/ProductMetadataID_Type.h"
-#include "uci/type/RequestBaseType.h"
-#include "uci/type/ZoneType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DamageCategoryEnum.h"
+#include "DamageSubjectType.h"
+#include "DamageSummaryID_Type.h"
+#include "DateTimeType.h"
+#include "ProductMetadataID_Type.h"
+#include "RequestBaseType.h"
+#include "ZoneType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

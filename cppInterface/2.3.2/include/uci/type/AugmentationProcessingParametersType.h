@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_AUGMENTATIONPROCESSINGPARAMETERSTYPE_H
 #define UCI_TYPE_AUGMENTATIONPROCESSINGPARAMETERSTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/DateTimeRangeType.h"
-#include "uci/type/ProcessingParametersPET.h"
+#include "../base/export.h"
+#include "DateTimeRangeType.h"
+#include "ProcessingParametersPET.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

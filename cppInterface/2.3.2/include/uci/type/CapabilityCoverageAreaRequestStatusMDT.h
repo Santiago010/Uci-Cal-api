@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_CAPABILITYCOVERAGEAREAREQUESTSTATUSMDT_H
 #define UCI_TYPE_CAPABILITYCOVERAGEAREAREQUESTSTATUSMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/CapabilityCoverageAreaDataType.h"
-#include "uci/type/RequestStatusBaseType.h"
+#include "../base/export.h"
+#include "CapabilityCoverageAreaDataType.h"
+#include "RequestStatusBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/LOS_MeasurementEnum.h"
-#include "uci/type/SourceCoverageType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/LOS_MeasurementEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SourceCoverageType.h"
 
 /**  */
 namespace asb_uci {

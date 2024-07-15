@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_ROUTEACTIVITYPLANAPPROVALSTATUSMDT_H
 #define UCI_TYPE_ROUTEACTIVITYPLANAPPROVALSTATUSMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ApprovalStateEnum.h"
-#include "uci/type/RouteActivityPlanID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ApprovalStateEnum.h"
+#include "RouteActivityPlanID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

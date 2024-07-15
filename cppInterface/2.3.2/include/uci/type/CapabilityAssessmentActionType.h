@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_CAPABILITYASSESSMENTACTIONTYPE_H
 #define UCI_TYPE_CAPABILITYASSESSMENTACTIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityCommandBaseType.h"
-#include "uci/type/SupportCapabilityCommandBaseType.h"
-#include "uci/type/TaskID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CapabilityCommandBaseType.h"
+#include "SupportCapabilityCommandBaseType.h"
+#include "TaskID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

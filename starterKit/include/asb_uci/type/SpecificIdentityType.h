@@ -41,11 +41,11 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/EnvironmentEnum.h"
-#include "asb_uci/type/SiteTypeEnum.h"
-#include "asb_uci/type/SpecificTypeModelType.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/SpecificIdentityType.h"
+#include "../../../include/asb_uci/type/EnvironmentEnum.h"
+#include "../../../include/asb_uci/type/SiteTypeEnum.h"
+#include "../../../include/asb_uci/type/SpecificTypeModelType.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SpecificIdentityType.h"
 
 /**  */
 namespace asb_uci {

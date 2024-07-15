@@ -36,19 +36,19 @@
 #ifndef UCI_TYPE_MTI_PREDICTEDACTIVITYDETAILTYPE_H
 #define UCI_TYPE_MTI_PREDICTEDACTIVITYDETAILTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ActivityStateEnum.h"
-#include "uci/type/AreaChoiceType.h"
-#include "uci/type/CannotComplyType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/DecibelType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/EstimatedPerformanceType.h"
-#include "uci/type/PercentType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "ActivityStateEnum.h"
+#include "AreaChoiceType.h"
+#include "CannotComplyType.h"
+#include "DateTimeType.h"
+#include "DecibelType.h"
+#include "DurationType.h"
+#include "EstimatedPerformanceType.h"
+#include "PercentType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_DMPI_PATTERNMDT_H
 #define UCI_TYPE_DMPI_PATTERNMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/DMPI_PatternChoiceType.h"
-#include "uci/type/DMPI_PatternID_Type.h"
-#include "uci/type/DataRecordBaseType.h"
+#include "../base/export.h"
+#include "DMPI_PatternChoiceType.h"
+#include "DMPI_PatternID_Type.h"
+#include "DataRecordBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

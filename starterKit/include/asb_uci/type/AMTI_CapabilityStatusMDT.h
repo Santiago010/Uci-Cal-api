@@ -41,11 +41,11 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/AMTI_MessageOutputsEnum.h"
-#include "asb_uci/type/CapabilityStatusBaseType.h"
-#include "asb_uci/type/EmissionBalanceEnum.h"
-#include "uci/type/AMTI_CapabilityStatusMDT.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/AMTI_MessageOutputsEnum.h"
+#include "../../../include/asb_uci/type/CapabilityStatusBaseType.h"
+#include "../../../include/asb_uci/type/EmissionBalanceEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AMTI_CapabilityStatusMDT.h"
 
 /**  */
 namespace asb_uci {

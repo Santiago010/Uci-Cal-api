@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/CapabilityStatusType.h"
-#include "uci/type/PO_CapabilityStatusType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/CapabilityStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_CapabilityStatusType.h"
 
 /**  */
 namespace asb_uci {

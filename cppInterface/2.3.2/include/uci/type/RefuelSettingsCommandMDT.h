@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_REFUELSETTINGSCOMMANDMDT_H
 #define UCI_TYPE_REFUELSETTINGSCOMMANDMDT_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilitySettingsCommandBaseType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "CapabilitySettingsCommandBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

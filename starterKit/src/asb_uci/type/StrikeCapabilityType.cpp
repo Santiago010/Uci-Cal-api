@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/StrikeCapabilityType.h"
+#include "../../../include/asb_uci/type/StrikeCapabilityType.h"
 
 #include <memory>
 #include <string>
@@ -41,24 +41,24 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AO_CodeType.h"
-#include "asb_uci/type/CommandableCapabilityDeclarationType.h"
-#include "asb_uci/type/StoreInformationType.h"
-#include "asb_uci/type/StoreType.h"
-#include "asb_uci/type/StoreVerificationStatusType.h"
-#include "asb_uci/type/StrikeCapabilityOptionsType.h"
-#include "asb_uci/type/StrikeMessageOutputsEnum.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AO_CodeType.h"
-#include "uci/type/StoreInformationType.h"
-#include "uci/type/StoreType.h"
-#include "uci/type/StoreVerificationStatusType.h"
-#include "uci/type/StrikeCapabilityOptionsType.h"
-#include "uci/type/StrikeCapabilityType.h"
-#include "uci/type/StrikeMessageOutputsEnum.h"
+#include "../../../include/asb_uci/type/AO_CodeType.h"
+#include "../../../include/asb_uci/type/CommandableCapabilityDeclarationType.h"
+#include "../../../include/asb_uci/type/StoreInformationType.h"
+#include "../../../include/asb_uci/type/StoreType.h"
+#include "../../../include/asb_uci/type/StoreVerificationStatusType.h"
+#include "../../../include/asb_uci/type/StrikeCapabilityOptionsType.h"
+#include "../../../include/asb_uci/type/StrikeMessageOutputsEnum.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AO_CodeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StoreInformationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StoreType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StoreVerificationStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StrikeCapabilityOptionsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StrikeCapabilityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StrikeMessageOutputsEnum.h"
 
 /**  */
 namespace asb_uci {

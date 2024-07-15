@@ -41,12 +41,12 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/DataLinkNativeInfoPET.h"
-#include "asb_uci/type/Link16_ControlChannelType.h"
-#include "asb_uci/type/VoiceCallSignType.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/Link16InterfaceDataLinkNativeInfoType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/DataLinkNativeInfoPET.h"
+#include "../../../include/asb_uci/type/Link16_ControlChannelType.h"
+#include "../../../include/asb_uci/type/VoiceCallSignType.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/Link16InterfaceDataLinkNativeInfoType.h"
 
 /**  */
 namespace asb_uci {

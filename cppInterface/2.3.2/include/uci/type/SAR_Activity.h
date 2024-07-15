@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SAR_ACTIVITY_H
 #define UCI_TYPE_SAR_ACTIVITY_H
 
-#include "uci/type/SAR_ActivityMT.h"
+#include "SAR_ActivityMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

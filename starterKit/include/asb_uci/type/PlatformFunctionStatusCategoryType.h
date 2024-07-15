@@ -41,12 +41,12 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/PlatformFunctionAirEnum.h"
-#include "asb_uci/type/PlatformFunctionEW_Enum.h"
-#include "asb_uci/type/PlatformFunctionGroundEnum.h"
-#include "asb_uci/type/PlatformFunctionSeaSurfaceEnum.h"
-#include "uci/base/Accessor.h"
-#include "uci/type/PlatformFunctionStatusCategoryType.h"
+#include "../../../include/asb_uci/type/PlatformFunctionAirEnum.h"
+#include "../../../include/asb_uci/type/PlatformFunctionEW_Enum.h"
+#include "../../../include/asb_uci/type/PlatformFunctionGroundEnum.h"
+#include "../../../include/asb_uci/type/PlatformFunctionSeaSurfaceEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlatformFunctionStatusCategoryType.h"
 
 /**  */
 namespace asb_uci {

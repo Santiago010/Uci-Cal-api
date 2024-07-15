@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_COMMPOINTINGREQUEST_H
 #define UCI_TYPE_COMMPOINTINGREQUEST_H
 
-#include "uci/type/CommPointingRequestMT.h"
+#include "CommPointingRequestMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

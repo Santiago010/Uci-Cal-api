@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_GEOLOCATEDSTOREDOBJECTTYPE_H
 #define UCI_TYPE_GEOLOCATEDSTOREDOBJECTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EmergencyReferenceOpPointType.h"
-#include "uci/type/EntityDataType.h"
-#include "uci/type/OpLineMDT.h"
-#include "uci/type/OpVolumeMDT.h"
-#include "uci/type/OpZoneMDT.h"
-#include "uci/type/SystemDataType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "EmergencyReferenceOpPointType.h"
+#include "EntityDataType.h"
+#include "OpLineMDT.h"
+#include "OpVolumeMDT.h"
+#include "OpZoneMDT.h"
+#include "SystemDataType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

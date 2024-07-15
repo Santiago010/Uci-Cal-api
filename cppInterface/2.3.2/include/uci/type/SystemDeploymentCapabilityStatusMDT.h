@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SYSTEMDEPLOYMENTCAPABILITYSTATUSMDT_H
 #define UCI_TYPE_SYSTEMDEPLOYMENTCAPABILITYSTATUSMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityStatusBaseType.h"
-#include "uci/type/SystemDeploymentCapabilityStatusType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilityStatusBaseType.h"
+#include "SystemDeploymentCapabilityStatusType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

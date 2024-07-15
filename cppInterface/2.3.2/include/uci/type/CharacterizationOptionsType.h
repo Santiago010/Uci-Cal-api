@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_CHARACTERIZATIONOPTIONSTYPE_H
 #define UCI_TYPE_CHARACTERIZATIONOPTIONSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CharacterizationChoiceType.h"
-#include "uci/type/CharacterizationProductTypeEnum.h"
-#include "uci/type/LogicalOperatorEnum.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CharacterizationChoiceType.h"
+#include "CharacterizationProductTypeEnum.h"
+#include "LogicalOperatorEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

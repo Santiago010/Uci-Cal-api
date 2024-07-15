@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_ORBITALDEBRISCLOUDTYPE_H
 #define UCI_TYPE_ORBITALDEBRISCLOUDTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/DebrisCloudBoundaryType.h"
-#include "uci/type/OrbitalDebrisCloudID_Type.h"
-#include "uci/type/OrbitalDebrisType.h"
-#include "uci/type/SatelliteIdentityChoiceType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DateTimeType.h"
+#include "DebrisCloudBoundaryType.h"
+#include "OrbitalDebrisCloudID_Type.h"
+#include "OrbitalDebrisType.h"
+#include "SatelliteIdentityChoiceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

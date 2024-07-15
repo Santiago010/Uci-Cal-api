@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_EXERCISEIDENTITYTYPE_H
 #define UCI_TYPE_EXERCISEIDENTITYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CountryCodeType.h"
-#include "uci/type/ExerciseIdentityEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CountryCodeType.h"
+#include "ExerciseIdentityEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,19 +36,19 @@
 #ifndef UCI_TYPE_RF_OPERATIONTYPE_H
 #define UCI_TYPE_RF_OPERATIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ActivityID_Type.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/ConfigureInteroperabilityReportType.h"
-#include "uci/type/DateTimeRangeBeginType.h"
-#include "uci/type/DurationRangeType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/FOV_VolumeType.h"
-#include "uci/type/ModulationEnum.h"
-#include "uci/type/PercentRangeType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ActivityID_Type.h"
+#include "CapabilityID_Type.h"
+#include "ConfigureInteroperabilityReportType.h"
+#include "DateTimeRangeBeginType.h"
+#include "DurationRangeType.h"
+#include "DurationType.h"
+#include "FOV_VolumeType.h"
+#include "ModulationEnum.h"
+#include "PercentRangeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_OPINTERACTINGASSETTYPE_H
 #define UCI_TYPE_OPINTERACTINGASSETTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AssetType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/OpInteractionEnum.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "AssetType.h"
+#include "DateTimeType.h"
+#include "OpInteractionEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

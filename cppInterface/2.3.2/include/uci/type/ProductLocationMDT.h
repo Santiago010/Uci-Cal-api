@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_PRODUCTLOCATIONMDT_H
 #define UCI_TYPE_PRODUCTLOCATIONMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ArchiveRequestType.h"
-#include "uci/type/DataRecordBaseType.h"
-#include "uci/type/EndpointReferenceType.h"
-#include "uci/type/LocationAndStatusExpireType.h"
-#include "uci/type/ProductLocationID_Type.h"
-#include "uci/type/ProductMetadataID_Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ArchiveRequestType.h"
+#include "DataRecordBaseType.h"
+#include "EndpointReferenceType.h"
+#include "LocationAndStatusExpireType.h"
+#include "ProductLocationID_Type.h"
+#include "ProductMetadataID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_BEAMSHAPINGTYPE_H
 #define UCI_TYPE_BEAMSHAPINGTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/BeamWeightingType.h"
-#include "uci/type/BeamWidthType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "BeamWeightingType.h"
+#include "BeamWidthType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_CONTROLSOURCESCOMMANDMDT_H
 #define UCI_TYPE_CONTROLSOURCESCOMMANDMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/CommandBaseType.h"
-#include "uci/type/ControlSourcesControlType.h"
-#include "uci/type/SystemID_Type.h"
+#include "../base/export.h"
+#include "CommandBaseType.h"
+#include "ControlSourcesControlType.h"
+#include "SystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

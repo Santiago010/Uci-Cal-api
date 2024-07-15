@@ -41,15 +41,15 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/base/UnsignedShortAccessor.h"
-#include "asb_uci/type/EntityBasingEnum.h"
-#include "asb_uci/type/IEEE_FrequencyBandEnum.h"
-#include "asb_uci/type/SensorCategoryEnum.h"
-#include "asb_uci/type/SensorSpectrumEnum.h"
-#include "asb_uci/type/SensorTypeEnum.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/SensorConstraintsBaseType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/base/UnsignedShortAccessor.h"
+#include "../../../include/asb_uci/type/EntityBasingEnum.h"
+#include "../../../include/asb_uci/type/IEEE_FrequencyBandEnum.h"
+#include "../../../include/asb_uci/type/SensorCategoryEnum.h"
+#include "../../../include/asb_uci/type/SensorSpectrumEnum.h"
+#include "../../../include/asb_uci/type/SensorTypeEnum.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SensorConstraintsBaseType.h"
 
 /**  */
 namespace asb_uci {

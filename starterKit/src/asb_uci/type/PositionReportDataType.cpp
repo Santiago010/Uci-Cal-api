@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/PositionReportDataType.h"
+#include "../../../include/asb_uci/type/PositionReportDataType.h"
 
 #include <memory>
 #include <string>
@@ -41,23 +41,23 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ComponentID_Type.h"
-#include "asb_uci/type/DetailedKinematicsErrorType.h"
-#include "asb_uci/type/DetailedKinematicsType.h"
-#include "asb_uci/type/NavigationSolutionCorrectionsType.h"
-#include "asb_uci/type/NavigationSolutionStateEnum.h"
-#include "asb_uci/type/PositionSourceID_ChoiceType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/BytePositiveType.h"
-#include "uci/type/ComponentID_Type.h"
-#include "uci/type/DetailedKinematicsErrorType.h"
-#include "uci/type/DetailedKinematicsType.h"
-#include "uci/type/NavigationSolutionCorrectionsType.h"
-#include "uci/type/NavigationSolutionStateEnum.h"
-#include "uci/type/PositionReportDataType.h"
-#include "uci/type/PositionSourceID_ChoiceType.h"
+#include "../../../include/asb_uci/type/ComponentID_Type.h"
+#include "../../../include/asb_uci/type/DetailedKinematicsErrorType.h"
+#include "../../../include/asb_uci/type/DetailedKinematicsType.h"
+#include "../../../include/asb_uci/type/NavigationSolutionCorrectionsType.h"
+#include "../../../include/asb_uci/type/NavigationSolutionStateEnum.h"
+#include "../../../include/asb_uci/type/PositionSourceID_ChoiceType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/BytePositiveType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ComponentID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DetailedKinematicsErrorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DetailedKinematicsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/NavigationSolutionCorrectionsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/NavigationSolutionStateEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PositionReportDataType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PositionSourceID_ChoiceType.h"
 
 /**  */
 namespace asb_uci {

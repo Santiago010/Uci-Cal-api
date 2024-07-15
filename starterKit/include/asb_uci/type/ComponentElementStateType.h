@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/ComponentElementStateEnum.h"
-#include "asb_uci/type/VisibleString64Type.h"
-#include "uci/type/ComponentElementStateType.h"
+#include "../../../include/asb_uci/type/ComponentElementStateEnum.h"
+#include "../../../include/asb_uci/type/VisibleString64Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ComponentElementStateType.h"
 
 /**  */
 namespace asb_uci {

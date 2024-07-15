@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/MTI_TargetClassEnum.h"
-#include "uci/base/Accessor.h"
-#include "uci/type/MTI_TargetClassType.h"
+#include "../../../include/asb_uci/type/MTI_TargetClassEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/Accessor.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MTI_TargetClassType.h"
 
 /**  */
 namespace asb_uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/SystemManagementRequestType.h"
+#include "../../../include/asb_uci/type/SystemManagementRequestType.h"
 
 #include <memory>
 #include <string>
@@ -41,21 +41,21 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/Link16MetadataType.h"
-#include "asb_uci/type/MessageModeEnum.h"
-#include "asb_uci/type/SystemIdentityType.h"
-#include "asb_uci/type/VehicleCommandDataType.h"
-#include "asb_uci/type/VoiceControlType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/Link16MetadataType.h"
-#include "uci/type/MessageModeEnum.h"
-#include "uci/type/SystemIdentityType.h"
-#include "uci/type/SystemManagementRequestType.h"
-#include "uci/type/VehicleCommandDataType.h"
-#include "uci/type/VoiceControlType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/Link16MetadataType.h"
+#include "../../../include/asb_uci/type/MessageModeEnum.h"
+#include "../../../include/asb_uci/type/SystemIdentityType.h"
+#include "../../../include/asb_uci/type/VehicleCommandDataType.h"
+#include "../../../include/asb_uci/type/VoiceControlType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/Link16MetadataType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MessageModeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SystemIdentityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SystemManagementRequestType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VehicleCommandDataType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VoiceControlType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

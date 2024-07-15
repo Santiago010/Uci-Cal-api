@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CommTerminalActivityCommandType.h"
+#include "../../../include/asb_uci/type/CommTerminalActivityCommandType.h"
 
 #include <memory>
 #include <string>
@@ -41,34 +41,34 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CapabilityCommandFrequencyType.h"
-#include "asb_uci/type/CommConnectionCommandEnum.h"
-#include "asb_uci/type/CommControlType.h"
-#include "asb_uci/type/CommLinkPortMapType.h"
-#include "asb_uci/type/CommProfileID_Type.h"
-#include "asb_uci/type/CommWaveformActivityCommandPET.h"
-#include "asb_uci/type/DependentActivityType.h"
-#include "asb_uci/type/LinkConnectionRequestType.h"
-#include "asb_uci/type/NetworkLinkID_Type.h"
-#include "asb_uci/type/ResourceSelectionType.h"
-#include "asb_uci/type/SharedRF_ApertureActivityCommandBaseType.h"
-#include "asb_uci/type/VerboseStatusType.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CapabilityCommandFrequencyType.h"
-#include "uci/type/CommConnectionCommandEnum.h"
-#include "uci/type/CommControlType.h"
-#include "uci/type/CommLinkPortMapType.h"
-#include "uci/type/CommProfileID_Type.h"
-#include "uci/type/CommTerminalActivityCommandType.h"
-#include "uci/type/CommWaveformActivityCommandPET.h"
-#include "uci/type/DependentActivityType.h"
-#include "uci/type/LinkConnectionRequestType.h"
-#include "uci/type/NetworkLinkID_Type.h"
-#include "uci/type/ResourceSelectionType.h"
-#include "uci/type/VerboseStatusType.h"
+#include "../../../include/asb_uci/type/CapabilityCommandFrequencyType.h"
+#include "../../../include/asb_uci/type/CommConnectionCommandEnum.h"
+#include "../../../include/asb_uci/type/CommControlType.h"
+#include "../../../include/asb_uci/type/CommLinkPortMapType.h"
+#include "../../../include/asb_uci/type/CommProfileID_Type.h"
+#include "../../../include/asb_uci/type/CommWaveformActivityCommandPET.h"
+#include "../../../include/asb_uci/type/DependentActivityType.h"
+#include "../../../include/asb_uci/type/LinkConnectionRequestType.h"
+#include "../../../include/asb_uci/type/NetworkLinkID_Type.h"
+#include "../../../include/asb_uci/type/ResourceSelectionType.h"
+#include "../../../include/asb_uci/type/SharedRF_ApertureActivityCommandBaseType.h"
+#include "../../../include/asb_uci/type/VerboseStatusType.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityCommandFrequencyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommConnectionCommandEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommControlType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommLinkPortMapType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommProfileID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommTerminalActivityCommandType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommWaveformActivityCommandPET.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DependentActivityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/LinkConnectionRequestType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/NetworkLinkID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ResourceSelectionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VerboseStatusType.h"
 
 /**  */
 namespace asb_uci {

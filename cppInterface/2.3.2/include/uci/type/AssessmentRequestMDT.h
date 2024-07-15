@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_ASSESSMENTREQUESTMDT_H
 #define UCI_TYPE_ASSESSMENTREQUESTMDT_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AnalysisRouteID_Type.h"
-#include "uci/type/AssessmentRequestType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/RepeatEnum.h"
-#include "uci/type/RequestBaseType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "AnalysisRouteID_Type.h"
+#include "AssessmentRequestType.h"
+#include "DurationType.h"
+#include "RepeatEnum.h"
+#include "RequestBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

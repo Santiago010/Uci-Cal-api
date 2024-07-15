@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/StrikeTaskType.h"
+#include "../../../include/asb_uci/type/StrikeTaskType.h"
 
 #include <memory>
 #include <string>
@@ -41,25 +41,25 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AnglePairType.h"
-#include "asb_uci/type/EmptyType.h"
-#include "asb_uci/type/Point3D_Type.h"
-#include "asb_uci/type/StrikeTaskReleaseConstraintsType.h"
-#include "asb_uci/type/StrikeTaskWeaponListType.h"
-#include "asb_uci/type/TargetInformationType.h"
-#include "asb_uci/type/TargetType.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AnglePairType.h"
-#include "uci/type/EmptyType.h"
-#include "uci/type/Point3D_Type.h"
-#include "uci/type/StrikeTaskReleaseConstraintsType.h"
-#include "uci/type/StrikeTaskType.h"
-#include "uci/type/StrikeTaskWeaponListType.h"
-#include "uci/type/TargetInformationType.h"
-#include "uci/type/TargetType.h"
+#include "../../../include/asb_uci/type/AnglePairType.h"
+#include "../../../include/asb_uci/type/EmptyType.h"
+#include "../../../include/asb_uci/type/Point3D_Type.h"
+#include "../../../include/asb_uci/type/StrikeTaskReleaseConstraintsType.h"
+#include "../../../include/asb_uci/type/StrikeTaskWeaponListType.h"
+#include "../../../include/asb_uci/type/TargetInformationType.h"
+#include "../../../include/asb_uci/type/TargetType.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AnglePairType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EmptyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/Point3D_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StrikeTaskReleaseConstraintsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StrikeTaskType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StrikeTaskWeaponListType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TargetInformationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TargetType.h"
 
 /**  */
 namespace asb_uci {

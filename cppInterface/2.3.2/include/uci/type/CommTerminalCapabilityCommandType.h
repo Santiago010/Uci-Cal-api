@@ -36,20 +36,20 @@
 #ifndef UCI_TYPE_COMMTERMINALCAPABILITYCOMMANDTYPE_H
 #define UCI_TYPE_COMMTERMINALCAPABILITYCOMMANDTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityCommandFrequencyType.h"
-#include "uci/type/CommConnectionCommandEnum.h"
-#include "uci/type/CommControlType.h"
-#include "uci/type/CommLinkPortMapType.h"
-#include "uci/type/CommProfileID_Type.h"
-#include "uci/type/CommWaveformCapabilityCommandPET.h"
-#include "uci/type/DependentActivityType.h"
-#include "uci/type/NetworkLinkID_Type.h"
-#include "uci/type/ResourceSelectionType.h"
-#include "uci/type/SharedRF_ApertureCapabilityCommandBaseType.h"
-#include "uci/type/SubsystemID_Type.h"
-#include "uci/type/VerboseStatusType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilityCommandFrequencyType.h"
+#include "CommConnectionCommandEnum.h"
+#include "CommControlType.h"
+#include "CommLinkPortMapType.h"
+#include "CommProfileID_Type.h"
+#include "CommWaveformCapabilityCommandPET.h"
+#include "DependentActivityType.h"
+#include "NetworkLinkID_Type.h"
+#include "ResourceSelectionType.h"
+#include "SharedRF_ApertureCapabilityCommandBaseType.h"
+#include "SubsystemID_Type.h"
+#include "VerboseStatusType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

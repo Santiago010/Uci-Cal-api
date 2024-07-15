@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/SizeEstimationCharacterizationType.h"
+#include "../../../include/asb_uci/type/SizeEstimationCharacterizationType.h"
 
 #include <memory>
 #include <string>
@@ -41,14 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/OrbitalSurveillanceSensorMinimumCollectionRequirementsType.h"
-#include "asb_uci/type/OrbitalSurveillanceSizeDataEnum.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/OrbitalSurveillanceSensorMinimumCollectionRequirementsType.h"
-#include "uci/type/OrbitalSurveillanceSizeDataEnum.h"
-#include "uci/type/SizeEstimationCharacterizationType.h"
+#include "../../../include/asb_uci/type/OrbitalSurveillanceSensorMinimumCollectionRequirementsType.h"
+#include "../../../include/asb_uci/type/OrbitalSurveillanceSizeDataEnum.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalSurveillanceSensorMinimumCollectionRequirementsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrbitalSurveillanceSizeDataEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SizeEstimationCharacterizationType.h"
 
 /**  */
 namespace asb_uci {

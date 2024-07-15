@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_CRYPTOPORTSTATUSTYPE_H
 #define UCI_TYPE_CRYPTOPORTSTATUSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CryptoPortID_Type.h"
-#include "uci/type/CryptoTypeEnum.h"
-#include "uci/type/DataPortType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CryptoPortID_Type.h"
+#include "CryptoTypeEnum.h"
+#include "DataPortType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_PACKAGE_H
 #define UCI_TYPE_PACKAGE_H
 
-#include "uci/type/PackageMT.h"
+#include "PackageMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

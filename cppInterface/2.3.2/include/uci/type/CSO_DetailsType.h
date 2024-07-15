@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_CSO_DETAILSTYPE_H
 #define UCI_TYPE_CSO_DETAILSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/OrbitalDockingEventType.h"
-#include "uci/type/OrbitalProximityOperationsEventType.h"
-#include "uci/type/OrbitalRendezvousEventType.h"
-#include "uci/type/OrbitalSeparationEventType.h"
-#include "uci/type/OrbitalUndockingEventType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "OrbitalDockingEventType.h"
+#include "OrbitalProximityOperationsEventType.h"
+#include "OrbitalRendezvousEventType.h"
+#include "OrbitalSeparationEventType.h"
+#include "OrbitalUndockingEventType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

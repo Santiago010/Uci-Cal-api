@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/RefuelCapabilityType.h"
+#include "../../../include/asb_uci/type/RefuelCapabilityType.h"
 
 #include <memory>
 #include <string>
@@ -41,15 +41,15 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CommandableCapabilityDeclarationType.h"
-#include "asb_uci/type/RefuelCapabilityEnum.h"
-#include "asb_uci/type/RefuelLocationEnum.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/RefuelCapabilityEnum.h"
-#include "uci/type/RefuelCapabilityType.h"
-#include "uci/type/RefuelLocationEnum.h"
+#include "../../../include/asb_uci/type/CommandableCapabilityDeclarationType.h"
+#include "../../../include/asb_uci/type/RefuelCapabilityEnum.h"
+#include "../../../include/asb_uci/type/RefuelLocationEnum.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RefuelCapabilityEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RefuelCapabilityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RefuelLocationEnum.h"
 
 /**  */
 namespace asb_uci {

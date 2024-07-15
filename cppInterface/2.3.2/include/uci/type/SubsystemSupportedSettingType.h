@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_SUBSYSTEMSUPPORTEDSETTINGTYPE_H
 #define UCI_TYPE_SUBSYSTEMSUPPORTEDSETTINGTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/SubsystemSettingEnum.h"
-#include "uci/type/SubsystemSettingParameterType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "SubsystemSettingEnum.h"
+#include "SubsystemSettingParameterType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

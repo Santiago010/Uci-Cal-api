@@ -36,7 +36,7 @@
 #ifndef ASB_UCI_TYPE_STANAG_4607_PLATFORMIDENTIFIERTYPE_H
 #define ASB_UCI_TYPE_STANAG_4607_PLATFORMIDENTIFIERTYPE_H
 
-#include "asb_xs/type/stringXmlSchemaPrimitives.h"
+#include "../../../include/asb_xs/type/stringXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

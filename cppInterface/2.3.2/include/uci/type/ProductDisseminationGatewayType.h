@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_PRODUCTDISSEMINATIONGATEWAYTYPE_H
 #define UCI_TYPE_PRODUCTDISSEMINATIONGATEWAYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AttributedURI_Type.h"
-#include "uci/type/CommConfigurationID_Type.h"
-#include "uci/type/DataLinkNativeInfoPET.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AttributedURI_Type.h"
+#include "CommConfigurationID_Type.h"
+#include "DataLinkNativeInfoPET.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

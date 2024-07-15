@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_EW_CONFIGURATION_H
 #define UCI_TYPE_EW_CONFIGURATION_H
 
-#include "uci/type/EW_ConfigurationMT.h"
+#include "EW_ConfigurationMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

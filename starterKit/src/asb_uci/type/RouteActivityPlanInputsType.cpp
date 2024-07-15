@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/RouteActivityPlanInputsType.h"
+#include "../../../include/asb_uci/type/RouteActivityPlanInputsType.h"
 
 #include <memory>
 #include <string>
@@ -41,16 +41,16 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ActivityPlanPartsCommandType.h"
-#include "asb_uci/type/PlanInputsCoreType.h"
-#include "asb_uci/type/PlanningCandidateBaseType.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ActivityPlanPartsCommandType.h"
-#include "uci/type/PlanningCandidateBaseType.h"
-#include "uci/type/RouteActivityPlanInputsType.h"
+#include "../../../include/asb_uci/type/ActivityPlanPartsCommandType.h"
+#include "../../../include/asb_uci/type/PlanInputsCoreType.h"
+#include "../../../include/asb_uci/type/PlanningCandidateBaseType.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ActivityPlanPartsCommandType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlanningCandidateBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RouteActivityPlanInputsType.h"
 
 /**  */
 namespace asb_uci {

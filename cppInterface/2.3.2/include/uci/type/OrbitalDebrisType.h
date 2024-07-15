@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_ORBITALDEBRISTYPE_H
 #define UCI_TYPE_ORBITALDEBRISTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DistanceType.h"
-#include "uci/type/MassType.h"
-#include "uci/type/OrbitalDebrisID_Type.h"
-#include "uci/type/OrbitalKinematicsTLE_SV_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DistanceType.h"
+#include "MassType.h"
+#include "OrbitalDebrisID_Type.h"
+#include "OrbitalKinematicsTLE_SV_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

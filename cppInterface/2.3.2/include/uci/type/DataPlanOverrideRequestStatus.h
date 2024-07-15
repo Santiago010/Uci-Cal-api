@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_DATAPLANOVERRIDEREQUESTSTATUS_H
 #define UCI_TYPE_DATAPLANOVERRIDEREQUESTSTATUS_H
 
-#include "uci/type/DataPlanOverrideRequestStatusMT.h"
+#include "DataPlanOverrideRequestStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_ACTIONPLANTYPE_H
 #define UCI_TYPE_ACTIONPLANTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ActionAllocationType.h"
-#include "uci/type/ActionPlanPartsType.h"
-#include "uci/type/DateTimeRangeType.h"
-#include "uci/type/PlanApplicabilityType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ActionAllocationType.h"
+#include "ActionPlanPartsType.h"
+#include "DateTimeRangeType.h"
+#include "PlanApplicabilityType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

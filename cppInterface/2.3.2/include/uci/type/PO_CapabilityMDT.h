@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_PO_CAPABILITYMDT_H
 #define UCI_TYPE_PO_CAPABILITYMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityBaseType.h"
-#include "uci/type/FOR_Type.h"
-#include "uci/type/PO_CapabilityType.h"
-#include "uci/type/PO_CollectionConstraintsType.h"
-#include "uci/type/PO_ComponentType.h"
-#include "uci/type/PO_SubCapabilityType.h"
-#include "uci/type/PO_TrackCapabilityType.h"
-#include "uci/type/PointingTypeEnum.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilityBaseType.h"
+#include "FOR_Type.h"
+#include "PO_CapabilityType.h"
+#include "PO_CollectionConstraintsType.h"
+#include "PO_ComponentType.h"
+#include "PO_SubCapabilityType.h"
+#include "PO_TrackCapabilityType.h"
+#include "PointingTypeEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

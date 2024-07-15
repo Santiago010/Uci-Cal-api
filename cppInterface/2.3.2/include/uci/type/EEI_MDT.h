@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_EEI_MDT_H
 #define UCI_TYPE_EEI_MDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/DataRecordBaseType.h"
-#include "uci/type/EEI_ID_Type.h"
-#include "uci/type/VisibleString1024Type.h"
+#include "../base/export.h"
+#include "DataRecordBaseType.h"
+#include "EEI_ID_Type.h"
+#include "VisibleString1024Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

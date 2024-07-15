@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/WeatherReportDataType.h"
+#include "../../../include/asb_uci/type/WeatherReportDataType.h"
 
 #include <memory>
 #include <string>
@@ -41,21 +41,21 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/DateTimeRangeType.h"
-#include "asb_uci/type/WeatherReportType.h"
-#include "asb_uci/type/WeatherReportTypeEnum.h"
-#include "asb_uci/type/ZoneType.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/DateTimeRangeType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/WeatherReportDataType.h"
-#include "uci/type/WeatherReportType.h"
-#include "uci/type/WeatherReportTypeEnum.h"
-#include "uci/type/ZoneType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/DateTimeRangeType.h"
+#include "../../../include/asb_uci/type/WeatherReportType.h"
+#include "../../../include/asb_uci/type/WeatherReportTypeEnum.h"
+#include "../../../include/asb_uci/type/ZoneType.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DateTimeRangeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DateTimeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/WeatherReportDataType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/WeatherReportType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/WeatherReportTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ZoneType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

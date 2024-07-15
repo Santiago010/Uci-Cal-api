@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_ENTITYSIGNALSUMMARYTYPE_H
 #define UCI_TYPE_ENTITYSIGNALSUMMARYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/SignalID_Type.h"
-#include "uci/type/SignalSummaryType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DateTimeType.h"
+#include "SignalID_Type.h"
+#include "SignalSummaryType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_PLANPARTSBASETYPE_H
 #define UCI_TYPE_PLANPARTSBASETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ActionPlanPartsType.h"
-#include "uci/type/EffectPlanPartsType.h"
-#include "uci/type/ResponsePlanPartsType.h"
-#include "uci/type/TaskPlanPartsType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ActionPlanPartsType.h"
+#include "EffectPlanPartsType.h"
+#include "ResponsePlanPartsType.h"
+#include "TaskPlanPartsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

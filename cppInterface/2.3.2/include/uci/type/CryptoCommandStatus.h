@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_CRYPTOCOMMANDSTATUS_H
 #define UCI_TYPE_CRYPTOCOMMANDSTATUS_H
 
-#include "uci/type/CryptoCommandStatusMT.h"
+#include "CryptoCommandStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

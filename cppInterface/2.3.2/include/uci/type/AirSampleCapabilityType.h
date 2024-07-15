@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_AIRSAMPLECAPABILITYTYPE_H
 #define UCI_TYPE_AIRSAMPLECAPABILITYTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AirSampleCapabilityEnum.h"
-#include "uci/type/AirSampleMessageOutputsEnum.h"
-#include "uci/type/AirSampleOptionsType.h"
-#include "uci/type/CommandableCapabilityDeclarationType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AirSampleCapabilityEnum.h"
+#include "AirSampleMessageOutputsEnum.h"
+#include "AirSampleOptionsType.h"
+#include "CommandableCapabilityDeclarationType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_PRODUCTCLASSIFICATIONREPORT_H
 #define UCI_TYPE_PRODUCTCLASSIFICATIONREPORT_H
 
-#include "uci/type/ProductClassificationReportMT.h"
+#include "ProductClassificationReportMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

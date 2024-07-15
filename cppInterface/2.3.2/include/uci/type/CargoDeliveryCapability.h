@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_CARGODELIVERYCAPABILITY_H
 #define UCI_TYPE_CARGODELIVERYCAPABILITY_H
 
-#include "uci/type/CargoDeliveryCapabilityMT.h"
+#include "CargoDeliveryCapabilityMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

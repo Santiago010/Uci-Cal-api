@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_COMMTERMINALPLAN_H
 #define UCI_TYPE_COMMTERMINALPLAN_H
 
-#include "uci/type/CommTerminalPlanMT.h"
+#include "CommTerminalPlanMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

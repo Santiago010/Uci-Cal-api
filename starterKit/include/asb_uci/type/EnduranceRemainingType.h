@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/EqualityExpressionEnum.h"
-#include "uci/type/EnduranceRemainingType.h"
+#include "../../../include/asb_uci/type/EqualityExpressionEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EnduranceRemainingType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,8 +36,8 @@
 #ifndef UCI_TYPE_ORBITALSURVEILLANCEACTIVITYDETAILTYPE_H
 #define UCI_TYPE_ORBITALSURVEILLANCEACTIVITYDETAILTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/MTI_ActivityStatusBaseType.h"
+#include "../base/export.h"
+#include "MTI_ActivityStatusBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

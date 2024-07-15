@@ -41,11 +41,11 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/MassType.h"
-#include "asb_uci/type/SOB_MissionTypeEnum.h"
-#include "asb_uci/type/VisibleString256Type.h"
-#include "uci/type/SatelliteCharacteristicsType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/MassType.h"
+#include "../../../include/asb_uci/type/SOB_MissionTypeEnum.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SatelliteCharacteristicsType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_STRIKETASKMETRICSTARGETINGTYPE_H
 #define UCI_TYPE_STRIKETASKMETRICSTARGETINGTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/FloatAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EllipseType.h"
+#include "../base/Accessor.h"
+#include "../base/FloatAccessor.h"
+#include "../base/export.h"
+#include "EllipseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

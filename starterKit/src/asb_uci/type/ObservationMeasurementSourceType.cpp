@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ObservationMeasurementSourceType.h"
+#include "../../../include/asb_uci/type/ObservationMeasurementSourceType.h"
 
 #include <memory>
 #include <string>
@@ -41,30 +41,30 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ElementDetailsType.h"
-#include "asb_uci/type/FOV_ExtentType.h"
-#include "asb_uci/type/MeasurementReportSourceTypeEnum.h"
-#include "asb_uci/type/MeasurementSourceIdentityType.h"
-#include "asb_uci/type/NameValuePairType.h"
-#include "asb_uci/type/ProductMetadataID_Type.h"
-#include "asb_uci/type/SourceCharacteristicsType.h"
-#include "asb_uci/type/SourceCoverageType.h"
-#include "asb_uci/type/SourceResolutionType.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ElementDetailsType.h"
-#include "uci/type/FOV_ExtentType.h"
-#include "uci/type/MeasurementReportSourceTypeEnum.h"
-#include "uci/type/MeasurementSourceIdentityType.h"
-#include "uci/type/NameValuePairType.h"
-#include "uci/type/ObservationMeasurementSourceType.h"
-#include "uci/type/ProductMetadataID_Type.h"
-#include "uci/type/SourceCharacteristicsType.h"
-#include "uci/type/SourceCoverageType.h"
-#include "uci/type/SourceResolutionType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/ElementDetailsType.h"
+#include "../../../include/asb_uci/type/FOV_ExtentType.h"
+#include "../../../include/asb_uci/type/MeasurementReportSourceTypeEnum.h"
+#include "../../../include/asb_uci/type/MeasurementSourceIdentityType.h"
+#include "../../../include/asb_uci/type/NameValuePairType.h"
+#include "../../../include/asb_uci/type/ProductMetadataID_Type.h"
+#include "../../../include/asb_uci/type/SourceCharacteristicsType.h"
+#include "../../../include/asb_uci/type/SourceCoverageType.h"
+#include "../../../include/asb_uci/type/SourceResolutionType.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ElementDetailsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/FOV_ExtentType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MeasurementReportSourceTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MeasurementSourceIdentityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/NameValuePairType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ObservationMeasurementSourceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProductMetadataID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SourceCharacteristicsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SourceCoverageType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SourceResolutionType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

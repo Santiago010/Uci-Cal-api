@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_ORBITKINEMATICSSETPARAMETERSTYPE_H
 #define UCI_TYPE_ORBITKINEMATICSSETPARAMETERSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/OrbitalElementSetParametersType.h"
-#include "uci/type/OrbitalEphemerisParametersType.h"
-#include "uci/type/OrbitalVCM_ParametersType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "OrbitalElementSetParametersType.h"
+#include "OrbitalEphemerisParametersType.h"
+#include "OrbitalVCM_ParametersType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

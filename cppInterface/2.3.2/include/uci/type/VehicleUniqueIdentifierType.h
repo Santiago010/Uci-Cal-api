@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_VEHICLEUNIQUEIDENTIFIERTYPE_H
 #define UCI_TYPE_VEHICLEUNIQUEIDENTIFIERTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AIS_Type.h"
-#include "uci/type/AlphanumericDashSpaceUnderscoreString20Type.h"
-#include "uci/type/SatelliteIdentifierType.h"
-#include "uci/type/TailNumberType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AIS_Type.h"
+#include "AlphanumericDashSpaceUnderscoreString20Type.h"
+#include "SatelliteIdentifierType.h"
+#include "TailNumberType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -41,11 +41,11 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/DurationType.h"
-#include "asb_uci/type/SignalGeolocationControlEnum.h"
-#include "asb_uci/type/SignalGeolocationMethodEnum.h"
-#include "uci/type/COMINT_GeolocationType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/DurationType.h"
+#include "../../../include/asb_uci/type/SignalGeolocationControlEnum.h"
+#include "../../../include/asb_uci/type/SignalGeolocationMethodEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/COMINT_GeolocationType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_PRODUCTDOWNLOADTASKSTATUS_H
 #define UCI_TYPE_PRODUCTDOWNLOADTASKSTATUS_H
 
-#include "uci/type/ProductDownloadTaskStatusMT.h"
+#include "ProductDownloadTaskStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

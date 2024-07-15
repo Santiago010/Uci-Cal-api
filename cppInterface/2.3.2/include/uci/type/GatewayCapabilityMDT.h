@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_GATEWAYCAPABILITYMDT_H
 #define UCI_TYPE_GATEWAYCAPABILITYMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityBaseType.h"
-#include "uci/type/GatewayCapabilityType.h"
-#include "uci/type/ServiceID_Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilityBaseType.h"
+#include "GatewayCapabilityType.h"
+#include "ServiceID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

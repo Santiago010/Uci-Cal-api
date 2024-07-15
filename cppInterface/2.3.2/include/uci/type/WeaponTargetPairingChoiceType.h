@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_WEAPONTARGETPAIRINGCHOICETYPE_H
 #define UCI_TYPE_WEAPONTARGETPAIRINGCHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DMPI_DesignationID_Type.h"
-#include "uci/type/DMPI_ID_Type.h"
-#include "uci/type/DMPI_PatternID_Type.h"
-#include "uci/type/WeaponeeringLocationType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DMPI_DesignationID_Type.h"
+#include "DMPI_ID_Type.h"
+#include "DMPI_PatternID_Type.h"
+#include "WeaponeeringLocationType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

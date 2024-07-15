@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/NotificationSourceType.h"
+#include "../../../include/asb_uci/type/NotificationSourceType.h"
 
 #include <memory>
 #include <string>
@@ -41,20 +41,20 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CapabilityID_Type.h"
-#include "asb_uci/type/OperatorID_Type.h"
-#include "asb_uci/type/ServiceID_Type.h"
-#include "asb_uci/type/SubsystemID_Type.h"
-#include "asb_uci/type/SystemID_Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/NotificationSourceType.h"
-#include "uci/type/OperatorID_Type.h"
-#include "uci/type/ServiceID_Type.h"
-#include "uci/type/SubsystemID_Type.h"
-#include "uci/type/SystemID_Type.h"
+#include "../../../include/asb_uci/type/CapabilityID_Type.h"
+#include "../../../include/asb_uci/type/OperatorID_Type.h"
+#include "../../../include/asb_uci/type/ServiceID_Type.h"
+#include "../../../include/asb_uci/type/SubsystemID_Type.h"
+#include "../../../include/asb_uci/type/SystemID_Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/NotificationSourceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OperatorID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ServiceID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SystemID_Type.h"
 
 /**  */
 namespace asb_uci {
@@ -152,7 +152,7 @@ bool NotificationSourceType::hasServiceID() const noexcept {
 uci::type::ServiceID_Type& NotificationSourceType::enableServiceID(uci::base::accessorType::AccessorType type) {
   const uci::base::accessorType::AccessorType requestedType{(type == uci::base::accessorType::null) ? uci::type::accessorType::serviceID_Type : type};
   if ((!serviceID_Accessor) || (serviceID_Accessor->getAccessorType() != requestedType)) {
-    serviceID_Accessor = ServiceID_Type::create(requestedType);
+    serviceID_Accessor = ServiceID_Type::createServiceIDType(requestedType);
     if (!serviceID_Accessor) {
       throw uci::base::UCIException("Error in enableServiceID(): Specified type is not equal to nor derived from the native type of object");
     }

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ResponseOptionType.h"
+#include "../../../include/asb_uci/type/ResponseOptionType.h"
 
 #include <memory>
 #include <string>
@@ -41,26 +41,26 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ActionID_Type.h"
-#include "asb_uci/type/ActionTypeEnum.h"
-#include "asb_uci/type/CommandID_Type.h"
-#include "asb_uci/type/CommandResponseType.h"
-#include "asb_uci/type/EffectID_Type.h"
-#include "asb_uci/type/EffectTypeEnum.h"
-#include "asb_uci/type/TaskID_Type.h"
-#include "asb_uci/type/TaskResponseType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ActionID_Type.h"
-#include "uci/type/ActionTypeEnum.h"
-#include "uci/type/CommandID_Type.h"
-#include "uci/type/CommandResponseType.h"
-#include "uci/type/EffectID_Type.h"
-#include "uci/type/EffectTypeEnum.h"
-#include "uci/type/ResponseOptionType.h"
-#include "uci/type/TaskID_Type.h"
-#include "uci/type/TaskResponseType.h"
+#include "../../../include/asb_uci/type/ActionID_Type.h"
+#include "../../../include/asb_uci/type/ActionTypeEnum.h"
+#include "../../../include/asb_uci/type/CommandID_Type.h"
+#include "../../../include/asb_uci/type/CommandResponseType.h"
+#include "../../../include/asb_uci/type/EffectID_Type.h"
+#include "../../../include/asb_uci/type/EffectTypeEnum.h"
+#include "../../../include/asb_uci/type/TaskID_Type.h"
+#include "../../../include/asb_uci/type/TaskResponseType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ActionID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ActionTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommandID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommandResponseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EffectID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EffectTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ResponseOptionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TaskID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TaskResponseType.h"
 
 /**  */
 namespace asb_uci {

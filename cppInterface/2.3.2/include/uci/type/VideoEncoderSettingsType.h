@@ -36,21 +36,21 @@
 #ifndef UCI_TYPE_VIDEOENCODERSETTINGSTYPE_H
 #define UCI_TYPE_VIDEOENCODERSETTINGSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/UnsignedByteAccessor.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/UnsignedShortAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CropType.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/FrequencyType.h"
-#include "uci/type/PercentType.h"
-#include "uci/type/UnsignedIntegerMinMaxType.h"
-#include "uci/type/VideoBlockSizeEnum.h"
-#include "uci/type/VideoChromaSubsampleEnum.h"
-#include "uci/type/VideoEncoderCompressionModeEnum.h"
-#include "uci/type/VisibleString32Type.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/UnsignedByteAccessor.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/UnsignedShortAccessor.h"
+#include "../base/export.h"
+#include "CropType.h"
+#include "ForeignKeyType.h"
+#include "FrequencyType.h"
+#include "PercentType.h"
+#include "UnsignedIntegerMinMaxType.h"
+#include "VideoBlockSizeEnum.h"
+#include "VideoChromaSubsampleEnum.h"
+#include "VideoEncoderCompressionModeEnum.h"
+#include "VisibleString32Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_PLANNINGLOCATIONTYPE_H
 #define UCI_TYPE_PLANNINGLOCATIONTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/RoutePlanReferenceType.h"
-#include "uci/type/VehicleConfigurationType.h"
+#include "../base/export.h"
+#include "RoutePlanReferenceType.h"
+#include "VehicleConfigurationType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

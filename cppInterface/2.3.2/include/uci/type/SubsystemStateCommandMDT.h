@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_SUBSYSTEMSTATECOMMANDMDT_H
 #define UCI_TYPE_SUBSYSTEMSTATECOMMANDMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/BIT_ID_Type.h"
-#include "uci/type/CalibrationID_Type.h"
-#include "uci/type/CommandBaseType.h"
-#include "uci/type/SubsystemEraseCommandEnum.h"
-#include "uci/type/SubsystemID_Type.h"
-#include "uci/type/SubsystemStateEnum.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "BIT_ID_Type.h"
+#include "CalibrationID_Type.h"
+#include "CommandBaseType.h"
+#include "SubsystemEraseCommandEnum.h"
+#include "SubsystemID_Type.h"
+#include "SubsystemStateEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SMTI_CAPABILITYSTATUS_H
 #define UCI_TYPE_SMTI_CAPABILITYSTATUS_H
 
-#include "uci/type/SMTI_CapabilityStatusMT.h"
+#include "SMTI_CapabilityStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

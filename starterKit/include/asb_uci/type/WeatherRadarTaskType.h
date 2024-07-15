@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/CollectionPolicyEnum.h"
-#include "asb_uci/type/WeatherRadarCapabilityEnum.h"
-#include "uci/type/WeatherRadarTaskType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/CollectionPolicyEnum.h"
+#include "../../../include/asb_uci/type/WeatherRadarCapabilityEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/WeatherRadarTaskType.h"
 
 /**  */
 namespace asb_uci {

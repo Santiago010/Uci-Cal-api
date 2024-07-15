@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_PO_COMPONENTSTATUSLENSASSEMBLYTYPE_H
 #define UCI_TYPE_PO_COMPONENTSTATUSLENSASSEMBLYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ComponentControlsStatusType.h"
-#include "uci/type/PO_ComponentStatusFocusSweepSettingsType.h"
-#include "uci/type/PO_ComponentStatusLensAssemblyFieldOfViewType.h"
-#include "uci/type/PO_ComponentStatusLensAssemblyFocusType.h"
-#include "uci/type/PO_LensID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ComponentControlsStatusType.h"
+#include "PO_ComponentStatusFocusSweepSettingsType.h"
+#include "PO_ComponentStatusLensAssemblyFieldOfViewType.h"
+#include "PO_ComponentStatusLensAssemblyFocusType.h"
+#include "PO_LensID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

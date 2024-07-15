@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_IFF_INTERROGATORTRANSPONDERMODESTYPE_H
 #define UCI_TYPE_IFF_INTERROGATORTRANSPONDERMODESTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/IFF_InterrogatorModesEnableType.h"
-#include "uci/type/IFF_TransponderModeControlType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "IFF_InterrogatorModesEnableType.h"
+#include "IFF_TransponderModeControlType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

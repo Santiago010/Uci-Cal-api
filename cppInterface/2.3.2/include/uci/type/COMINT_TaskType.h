@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_COMINT_TASKTYPE_H
 #define UCI_TYPE_COMINT_TASKTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/COMINT_SubcapabilityChoiceType.h"
-#include "uci/type/COMINT_TaskBaseType.h"
+#include "../base/export.h"
+#include "COMINT_SubcapabilityChoiceType.h"
+#include "COMINT_TaskBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/AboutType.h"
+#include "../../../include/asb_uci/type/AboutType.h"
 
 #include <memory>
 #include <string>
@@ -41,14 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/VisibleString256Type.h"
-#include "asb_uci/type/VisibleString32Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AboutType.h"
-#include "uci/type/VisibleString256Type.h"
-#include "uci/type/VisibleString32Type.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/type/VisibleString32Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AboutType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString256Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString32Type.h"
 
 /**  */
 namespace asb_uci {
@@ -156,7 +156,7 @@ bool AboutType::hasSerialNumber() const noexcept {
 
 uci::type::VisibleString256Type& AboutType::enableSerialNumber(uci::base::accessorType::AccessorType type) {
   if (!serialNumber_Accessor) {
-    serialNumber_Accessor = VisibleString256Type::create(type);
+    serialNumber_Accessor = boost::make_unique<std::string>("");
   }
   return *serialNumber_Accessor;
 }
@@ -200,7 +200,7 @@ bool AboutType::hasSoftwareVersion() const noexcept {
 
 uci::type::VisibleString256Type& AboutType::enableSoftwareVersion(uci::base::accessorType::AccessorType type) {
   if (!softwareVersion_Accessor) {
-    softwareVersion_Accessor = VisibleString256Type::create(type);
+    softwareVersion_Accessor = boost::make_unique<std::string>("");
   }
   return *softwareVersion_Accessor;
 }
@@ -244,7 +244,7 @@ bool AboutType::hasBootloaderSoftwareVersion() const noexcept {
 
 uci::type::VisibleString256Type& AboutType::enableBootloaderSoftwareVersion(uci::base::accessorType::AccessorType type) {
   if (!bootloaderSoftwareVersion_Accessor) {
-    bootloaderSoftwareVersion_Accessor = VisibleString256Type::create(type);
+    bootloaderSoftwareVersion_Accessor = boost::make_unique<std::string>("");
   }
   return *bootloaderSoftwareVersion_Accessor;
 }

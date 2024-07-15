@@ -41,15 +41,15 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/DurationType.h"
-#include "asb_uci/type/EmptyType.h"
-#include "asb_uci/type/PRI_AgilePatternEnum.h"
-#include "asb_uci/type/PRI_DataBaseType.h"
-#include "asb_uci/type/PRI_MeasurementEnum.h"
-#include "asb_uci/type/PRI_SwitchingPatternEnum.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/PRI_DataType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/DurationType.h"
+#include "../../../include/asb_uci/type/EmptyType.h"
+#include "../../../include/asb_uci/type/PRI_AgilePatternEnum.h"
+#include "../../../include/asb_uci/type/PRI_DataBaseType.h"
+#include "../../../include/asb_uci/type/PRI_MeasurementEnum.h"
+#include "../../../include/asb_uci/type/PRI_SwitchingPatternEnum.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PRI_DataType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_ENTITYORBITALVCM_REQUESTSTATUSMDT_H
 #define UCI_TYPE_ENTITYORBITALVCM_REQUESTSTATUSMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/EntityOrbitalVCM_Type.h"
-#include "uci/type/RequestStatusBaseType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "EntityOrbitalVCM_Type.h"
+#include "RequestStatusBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

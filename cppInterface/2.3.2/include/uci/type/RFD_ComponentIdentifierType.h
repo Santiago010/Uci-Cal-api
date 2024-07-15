@@ -36,8 +36,8 @@
 #ifndef UCI_TYPE_RFD_COMPONENTIDENTIFIERTYPE_H
 #define UCI_TYPE_RFD_COMPONENTIDENTIFIERTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/ForeignKeyType.h"
+#include "../base/export.h"
+#include "ForeignKeyType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

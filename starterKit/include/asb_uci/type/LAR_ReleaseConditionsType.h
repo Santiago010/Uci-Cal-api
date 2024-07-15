@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AltitudeType.h"
-#include "asb_uci/type/AngleType.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/LAR_ReleaseConditionsType.h"
+#include "../../../include/asb_uci/type/AltitudeType.h"
+#include "../../../include/asb_uci/type/AngleType.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/LAR_ReleaseConditionsType.h"
 
 /**  */
 namespace asb_uci {

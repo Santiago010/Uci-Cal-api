@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_COMMUHF_SATCOM_COMMWAVEFORMACTIVITYTYPE_H
 #define UCI_TYPE_COMMUHF_SATCOM_COMMWAVEFORMACTIVITYTYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CommRangeModeTypeEnum.h"
-#include "uci/type/CommSATCOM_ServiceTypeEnum.h"
-#include "uci/type/CommWaveformActivityPET.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/ForeignKeyType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CommRangeModeTypeEnum.h"
+#include "CommSATCOM_ServiceTypeEnum.h"
+#include "CommWaveformActivityPET.h"
+#include "DurationType.h"
+#include "ForeignKeyType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

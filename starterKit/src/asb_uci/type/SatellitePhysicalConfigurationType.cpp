@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/SatellitePhysicalConfigurationType.h"
+#include "../../../include/asb_uci/type/SatellitePhysicalConfigurationType.h"
 
 #include <memory>
 #include <string>
@@ -41,21 +41,21 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/OffsetLocationType.h"
-#include "asb_uci/type/SatellitePhysicalConfigurationID_Type.h"
-#include "asb_uci/type/SizeType.h"
-#include "asb_uci/type/VisualMagnitudeWithDeviationType.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/DecibelType.h"
-#include "uci/type/OffsetLocationType.h"
-#include "uci/type/SatellitePhysicalConfigurationID_Type.h"
-#include "uci/type/SatellitePhysicalConfigurationType.h"
-#include "uci/type/SizeType.h"
-#include "uci/type/UnitIntervalFloatType.h"
-#include "uci/type/VisualMagnitudeWithDeviationType.h"
+#include "../../../include/asb_uci/type/OffsetLocationType.h"
+#include "../../../include/asb_uci/type/SatellitePhysicalConfigurationID_Type.h"
+#include "../../../include/asb_uci/type/SizeType.h"
+#include "../../../include/asb_uci/type/VisualMagnitudeWithDeviationType.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DecibelType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OffsetLocationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SatellitePhysicalConfigurationID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SatellitePhysicalConfigurationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SizeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/UnitIntervalFloatType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisualMagnitudeWithDeviationType.h"
 
 /**  */
 namespace asb_uci {

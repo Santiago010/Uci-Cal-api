@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_SERVICEREGISTRATIONREQUESTMDT_H
 #define UCI_TYPE_SERVICEREGISTRATIONREQUESTMDT_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/RequestBaseType.h"
-#include "uci/type/ServiceID_Type.h"
-#include "uci/type/ServiceRegistrationPurposeType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "RequestBaseType.h"
+#include "ServiceID_Type.h"
+#include "ServiceRegistrationPurposeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

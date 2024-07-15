@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_WEAPONEERINGLOCATIONTYPE_H
 #define UCI_TYPE_WEAPONEERINGLOCATIONTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/DMPI_LocationType.h"
-#include "uci/type/WeaponeeringType.h"
+#include "../base/export.h"
+#include "DMPI_LocationType.h"
+#include "WeaponeeringType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

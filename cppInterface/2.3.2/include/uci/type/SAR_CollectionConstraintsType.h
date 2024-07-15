@@ -36,20 +36,20 @@
 #ifndef UCI_TYPE_SAR_COLLECTIONCONSTRAINTSTYPE_H
 #define UCI_TYPE_SAR_COLLECTIONCONSTRAINTSTYPE_H
 
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AltitudeRangeType.h"
-#include "uci/type/AnglePositiveType.h"
-#include "uci/type/AngleQuarterType.h"
-#include "uci/type/AngleType.h"
-#include "uci/type/CollectionConstraintsType.h"
-#include "uci/type/DecibelType.h"
-#include "uci/type/DistanceType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/EmconConstraintType.h"
-#include "uci/type/PercentType.h"
-#include "uci/type/PositionLocationUncertaintyType.h"
-#include "uci/type/SAR_CollectionConstraintsQualityType.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "AltitudeRangeType.h"
+#include "AnglePositiveType.h"
+#include "AngleQuarterType.h"
+#include "AngleType.h"
+#include "CollectionConstraintsType.h"
+#include "DecibelType.h"
+#include "DistanceType.h"
+#include "DurationType.h"
+#include "EmconConstraintType.h"
+#include "PercentType.h"
+#include "PositionLocationUncertaintyType.h"
+#include "SAR_CollectionConstraintsQualityType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

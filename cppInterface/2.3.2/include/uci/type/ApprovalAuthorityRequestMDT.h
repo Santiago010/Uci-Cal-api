@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_APPROVALAUTHORITYREQUESTMDT_H
 #define UCI_TYPE_APPROVALAUTHORITYREQUESTMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ApprovalPolicyID_Type.h"
-#include "uci/type/RequestBaseType.h"
-#include "uci/type/ServiceID_Type.h"
-#include "uci/type/SystemID_Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ApprovalPolicyID_Type.h"
+#include "RequestBaseType.h"
+#include "ServiceID_Type.h"
+#include "SystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/CommConfigurationStateEnum.h"
-#include "uci/type/CommActionType.h"
+#include "../../../include/asb_uci/type/CommConfigurationStateEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommActionType.h"
 
 /**  */
 namespace asb_uci {

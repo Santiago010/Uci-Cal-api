@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_PLATFORMFUNCTIONSTATUSTYPE_H
 #define UCI_TYPE_PLATFORMFUNCTIONSTATUSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityAvailabilityEnum.h"
-#include "uci/type/PlatformFunctionStatusCategoryType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CapabilityAvailabilityEnum.h"
+#include "PlatformFunctionStatusCategoryType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

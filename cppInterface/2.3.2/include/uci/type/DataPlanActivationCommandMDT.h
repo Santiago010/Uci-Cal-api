@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_DATAPLANACTIVATIONCOMMANDMDT_H
 #define UCI_TYPE_DATAPLANACTIVATIONCOMMANDMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CommandBaseType.h"
-#include "uci/type/DataPlanEffectivityActivationType.h"
-#include "uci/type/DataPlanID_Type.h"
-#include "uci/type/PlanActivationCommandEnum.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CommandBaseType.h"
+#include "DataPlanEffectivityActivationType.h"
+#include "DataPlanID_Type.h"
+#include "PlanActivationCommandEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_EFFECTCAPABILITYCOMMANDTYPE_H
 #define UCI_TYPE_EFFECTCAPABILITYCOMMANDTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/CapabilityCommandBaseType.h"
-#include "uci/type/EffectID_Type.h"
-#include "uci/type/RequirementConstraintsType.h"
+#include "../base/export.h"
+#include "CapabilityCommandBaseType.h"
+#include "EffectID_Type.h"
+#include "RequirementConstraintsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

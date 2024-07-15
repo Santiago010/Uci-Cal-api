@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/SecurityAuditManagementEnum.h"
-#include "asb_uci/type/VisibleString1024Type.h"
-#include "uci/type/SecurityAuditManagementType.h"
+#include "../../../include/asb_uci/type/SecurityAuditManagementEnum.h"
+#include "../../../include/asb_uci/type/VisibleString1024Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SecurityAuditManagementType.h"
 
 /**  */
 namespace asb_uci {

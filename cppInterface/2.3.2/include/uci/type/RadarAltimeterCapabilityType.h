@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_RADARALTIMETERCAPABILITYTYPE_H
 #define UCI_TYPE_RADARALTIMETERCAPABILITYTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CommandableCapabilityDeclarationType.h"
-#include "uci/type/FrequencyRangeType.h"
-#include "uci/type/RadarAltimeterCapabilityEnum.h"
-#include "uci/type/RadarAltimeterCapabilityOptionsType.h"
-#include "uci/type/RadarAltimeterMessageOutputsEnum.h"
-#include "uci/type/RadarAltimeterSubCapabilityEnum.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CommandableCapabilityDeclarationType.h"
+#include "FrequencyRangeType.h"
+#include "RadarAltimeterCapabilityEnum.h"
+#include "RadarAltimeterCapabilityOptionsType.h"
+#include "RadarAltimeterMessageOutputsEnum.h"
+#include "RadarAltimeterSubCapabilityEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

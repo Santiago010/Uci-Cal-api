@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_ACTIONPLANINPUTSTYPE_H
 #define UCI_TYPE_ACTIONPLANINPUTSTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ActionAllocationType.h"
-#include "uci/type/ActionPlanConstraintType.h"
-#include "uci/type/ActionPlanPartsType.h"
-#include "uci/type/PlanInputsCoreType.h"
-#include "uci/type/RequirementAssociationConstraintType.h"
-#include "uci/type/RequirementPlanningCandidateType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ActionAllocationType.h"
+#include "ActionPlanConstraintType.h"
+#include "ActionPlanPartsType.h"
+#include "PlanInputsCoreType.h"
+#include "RequirementAssociationConstraintType.h"
+#include "RequirementPlanningCandidateType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

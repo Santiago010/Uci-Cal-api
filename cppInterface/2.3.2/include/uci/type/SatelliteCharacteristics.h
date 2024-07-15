@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SATELLITECHARACTERISTICS_H
 #define UCI_TYPE_SATELLITECHARACTERISTICS_H
 
-#include "uci/type/SatelliteCharacteristicsMT.h"
+#include "SatelliteCharacteristicsMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

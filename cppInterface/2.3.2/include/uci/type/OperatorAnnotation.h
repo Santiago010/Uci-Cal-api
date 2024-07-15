@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_OPERATORANNOTATION_H
 #define UCI_TYPE_OPERATORANNOTATION_H
 
-#include "uci/type/OperatorAnnotationMT.h"
+#include "OperatorAnnotationMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

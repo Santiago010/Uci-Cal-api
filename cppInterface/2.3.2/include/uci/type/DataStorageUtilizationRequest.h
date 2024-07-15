@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_DATASTORAGEUTILIZATIONREQUEST_H
 #define UCI_TYPE_DATASTORAGEUTILIZATIONREQUEST_H
 
-#include "uci/type/DataStorageUtilizationRequestMT.h"
+#include "DataStorageUtilizationRequestMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

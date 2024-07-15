@@ -36,8 +36,8 @@
 #ifndef UCI_TYPE_SUBSYSTEMBIT_COMMANDSTATUSMDT_H
 #define UCI_TYPE_SUBSYSTEMBIT_COMMANDSTATUSMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/SubsystemCommandStatusBaseType.h"
+#include "../base/export.h"
+#include "SubsystemCommandStatusBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

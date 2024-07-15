@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_FUELSUBSYSTEMEXTENDEDSTATUSTYPE_H
 #define UCI_TYPE_FUELSUBSYSTEMEXTENDEDSTATUSTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/FuelCenterOfGravityType.h"
-#include "uci/type/RefuelingStatusType.h"
-#include "uci/type/SubsystemExtendedStatusPET.h"
+#include "../base/export.h"
+#include "FuelCenterOfGravityType.h"
+#include "RefuelingStatusType.h"
+#include "SubsystemExtendedStatusPET.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

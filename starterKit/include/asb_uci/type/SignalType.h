@@ -41,16 +41,16 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/DateTimeType.h"
-#include "asb_uci/type/EmitterUrgencyEnum.h"
-#include "asb_uci/type/EmptyType.h"
-#include "asb_uci/type/LockIndicatorEnum.h"
-#include "asb_uci/type/MeasurementQualityEnum.h"
-#include "asb_uci/type/MobilityEnum.h"
-#include "asb_uci/type/ModulationEnum.h"
-#include "asb_uci/type/SignalReportStateEnum.h"
-#include "uci/type/SignalType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/DateTimeType.h"
+#include "../../../include/asb_uci/type/EmitterUrgencyEnum.h"
+#include "../../../include/asb_uci/type/EmptyType.h"
+#include "../../../include/asb_uci/type/LockIndicatorEnum.h"
+#include "../../../include/asb_uci/type/MeasurementQualityEnum.h"
+#include "../../../include/asb_uci/type/MobilityEnum.h"
+#include "../../../include/asb_uci/type/ModulationEnum.h"
+#include "../../../include/asb_uci/type/SignalReportStateEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SignalType.h"
 
 /**  */
 namespace asb_uci {

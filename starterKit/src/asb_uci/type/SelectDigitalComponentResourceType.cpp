@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/SelectDigitalComponentResourceType.h"
+#include "../../../include/asb_uci/type/SelectDigitalComponentResourceType.h"
 
 #include <memory>
 #include <string>
@@ -41,18 +41,18 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/BeamBandWidthAndSampleRateType.h"
-#include "asb_uci/type/MFA_AddressType.h"
-#include "asb_uci/type/MFP_AddressType.h"
-#include "asb_uci/type/NetworkDataRateRangeType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/BeamBandWidthAndSampleRateType.h"
-#include "uci/type/MFA_AddressType.h"
-#include "uci/type/MFP_AddressType.h"
-#include "uci/type/NetworkDataRateRangeType.h"
-#include "uci/type/SelectDigitalComponentResourceType.h"
+#include "../../../include/asb_uci/type/BeamBandWidthAndSampleRateType.h"
+#include "../../../include/asb_uci/type/MFA_AddressType.h"
+#include "../../../include/asb_uci/type/MFP_AddressType.h"
+#include "../../../include/asb_uci/type/NetworkDataRateRangeType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/BeamBandWidthAndSampleRateType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MFA_AddressType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MFP_AddressType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/NetworkDataRateRangeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SelectDigitalComponentResourceType.h"
 
 /**  */
 namespace asb_uci {

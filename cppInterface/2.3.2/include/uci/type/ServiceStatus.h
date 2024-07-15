@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SERVICESTATUS_H
 #define UCI_TYPE_SERVICESTATUS_H
 
-#include "uci/type/ServiceStatusMT.h"
+#include "ServiceStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

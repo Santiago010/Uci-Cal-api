@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AlphanumericDashSpaceUnderscoreString20OnlyType.h"
-#include "uci/type/ACO_TraceabilityType.h"
+#include "../../../include/asb_uci/type/AlphanumericDashSpaceUnderscoreString20OnlyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ACO_TraceabilityType.h"
 
 /**  */
 namespace asb_uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CS_ForceType.h"
+#include "../../../include/asb_uci/type/CS_ForceType.h"
 
 #include <memory>
 #include <string>
@@ -41,25 +41,25 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CS_CapabilitiesType.h"
-#include "asb_uci/type/CS_FreeFormatType.h"
-#include "asb_uci/type/CS_ObscuraDataType.h"
-#include "asb_uci/type/CS_PostureType.h"
-#include "asb_uci/type/ForeignKeyType.h"
-#include "asb_uci/type/VisibleString32Type.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CS_CapabilitiesType.h"
-#include "uci/type/CS_ForceType.h"
-#include "uci/type/CS_FreeFormatType.h"
-#include "uci/type/CS_ObscuraDataType.h"
-#include "uci/type/CS_PostureType.h"
-#include "uci/type/DistanceType.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/VisibleString32Type.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/CS_CapabilitiesType.h"
+#include "../../../include/asb_uci/type/CS_FreeFormatType.h"
+#include "../../../include/asb_uci/type/CS_ObscuraDataType.h"
+#include "../../../include/asb_uci/type/CS_PostureType.h"
+#include "../../../include/asb_uci/type/ForeignKeyType.h"
+#include "../../../include/asb_uci/type/VisibleString32Type.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CS_CapabilitiesType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CS_ForceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CS_FreeFormatType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CS_ObscuraDataType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CS_PostureType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DistanceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ForeignKeyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString32Type.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

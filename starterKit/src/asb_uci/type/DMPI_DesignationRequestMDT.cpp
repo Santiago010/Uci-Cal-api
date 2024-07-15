@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/DMPI_DesignationRequestMDT.h"
+#include "../../../include/asb_uci/type/DMPI_DesignationRequestMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,25 +41,25 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AvailableWeaponsType.h"
-#include "asb_uci/type/PixelReferenceCoordinateType.h"
-#include "asb_uci/type/Point2D_Type.h"
-#include "asb_uci/type/ProductMetadataID_Type.h"
-#include "asb_uci/type/RecommendedWeaponsType.h"
-#include "asb_uci/type/RequestBaseType.h"
-#include "asb_uci/type/TaskID_Type.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AvailableWeaponsType.h"
-#include "uci/type/DMPI_DesignationRequestMDT.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/PixelReferenceCoordinateType.h"
-#include "uci/type/Point2D_Type.h"
-#include "uci/type/ProductMetadataID_Type.h"
-#include "uci/type/RecommendedWeaponsType.h"
-#include "uci/type/TaskID_Type.h"
+#include "../../../include/asb_uci/type/AvailableWeaponsType.h"
+#include "../../../include/asb_uci/type/PixelReferenceCoordinateType.h"
+#include "../../../include/asb_uci/type/Point2D_Type.h"
+#include "../../../include/asb_uci/type/ProductMetadataID_Type.h"
+#include "../../../include/asb_uci/type/RecommendedWeaponsType.h"
+#include "../../../include/asb_uci/type/RequestBaseType.h"
+#include "../../../include/asb_uci/type/TaskID_Type.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AvailableWeaponsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DMPI_DesignationRequestMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DateTimeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PixelReferenceCoordinateType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/Point2D_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProductMetadataID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RecommendedWeaponsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TaskID_Type.h"
 
 /**  */
 namespace asb_uci {

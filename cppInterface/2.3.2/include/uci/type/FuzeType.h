@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_FUZETYPE_H
 #define UCI_TYPE_FUZETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/FuzeTriggerType.h"
-#include "uci/type/VisibleString1024Type.h"
-#include "uci/type/WeaponFuzeModeEnum.h"
-#include "uci/type/WeaponFuzePositionEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DurationType.h"
+#include "FuzeTriggerType.h"
+#include "VisibleString1024Type.h"
+#include "WeaponFuzeModeEnum.h"
+#include "WeaponFuzePositionEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

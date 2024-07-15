@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_ESM_BINPROFILETYPE_H
 #define UCI_TYPE_ESM_BINPROFILETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/ESM_BinType.h"
-#include "uci/type/SubsystemID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "CapabilityID_Type.h"
+#include "ESM_BinType.h"
+#include "SubsystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

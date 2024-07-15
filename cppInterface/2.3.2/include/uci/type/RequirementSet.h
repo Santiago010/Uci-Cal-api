@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_REQUIREMENTSET_H
 #define UCI_TYPE_REQUIREMENTSET_H
 
-#include "uci/type/RequirementSetMT.h"
+#include "RequirementSetMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_ACCESSEVENTTYPE_H
 #define UCI_TYPE_ACCESSEVENTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AccessEffortEnum.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/DistanceType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/EnduranceMultiStandardType.h"
-#include "uci/type/KinematicsMultiStandardType.h"
-#include "uci/type/ManeuverMultiStandardType.h"
-#include "uci/type/PercentType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AccessEffortEnum.h"
+#include "DateTimeType.h"
+#include "DistanceType.h"
+#include "DurationType.h"
+#include "EnduranceMultiStandardType.h"
+#include "KinematicsMultiStandardType.h"
+#include "ManeuverMultiStandardType.h"
+#include "PercentType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

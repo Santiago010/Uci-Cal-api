@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ORBITMETRICSREQUESTSTATUS_H
 #define UCI_TYPE_ORBITMETRICSREQUESTSTATUS_H
 
-#include "uci/type/OrbitMetricsRequestStatusMT.h"
+#include "OrbitMetricsRequestStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

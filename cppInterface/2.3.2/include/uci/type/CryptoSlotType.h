@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_CRYPTOSLOTTYPE_H
 #define UCI_TYPE_CRYPTOSLOTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CryptoKeyStatusEnum.h"
-#include "uci/type/CryptoRolloverStatusType.h"
-#include "uci/type/CryptoSlotIdentifierType.h"
-#include "uci/type/ForeignKeyType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CryptoKeyStatusEnum.h"
+#include "CryptoRolloverStatusType.h"
+#include "CryptoSlotIdentifierType.h"
+#include "ForeignKeyType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

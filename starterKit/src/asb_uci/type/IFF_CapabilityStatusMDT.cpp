@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/IFF_CapabilityStatusMDT.h"
+#include "../../../include/asb_uci/type/IFF_CapabilityStatusMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,20 +41,20 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CapabilityStatusBaseType.h"
-#include "asb_uci/type/CapabilityStatusType.h"
-#include "asb_uci/type/EmconSettingType.h"
-#include "asb_uci/type/IFF_MessageOutputsEnum.h"
-#include "asb_uci/type/RF_ProfileType.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CapabilityStatusType.h"
-#include "uci/type/EmconSettingType.h"
-#include "uci/type/IFF_CapabilityStatusMDT.h"
-#include "uci/type/IFF_MessageOutputsEnum.h"
-#include "uci/type/RF_ProfileType.h"
+#include "../../../include/asb_uci/type/CapabilityStatusBaseType.h"
+#include "../../../include/asb_uci/type/CapabilityStatusType.h"
+#include "../../../include/asb_uci/type/EmconSettingType.h"
+#include "../../../include/asb_uci/type/IFF_MessageOutputsEnum.h"
+#include "../../../include/asb_uci/type/RF_ProfileType.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EmconSettingType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IFF_CapabilityStatusMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IFF_MessageOutputsEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RF_ProfileType.h"
 
 /**  */
 namespace asb_uci {

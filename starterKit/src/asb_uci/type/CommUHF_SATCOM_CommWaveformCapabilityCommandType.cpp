@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/CommUHF_SATCOM_CommWaveformCapabilityCommandType.h"
+#include "../../../include/asb_uci/type/CommUHF_SATCOM_CommWaveformCapabilityCommandType.h"
 
 #include <memory>
 #include <string>
@@ -41,21 +41,21 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CommRangeDelayChoiceType.h"
-#include "asb_uci/type/CommRangeModeTypeEnum.h"
-#include "asb_uci/type/CommSATCOM_ServiceTypeEnum.h"
-#include "asb_uci/type/CommWaveformCapabilityCommandPET.h"
-#include "asb_uci/type/ForeignKeyType.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CommRangeDelayChoiceType.h"
-#include "uci/type/CommRangeModeTypeEnum.h"
-#include "uci/type/CommSATCOM_ServiceTypeEnum.h"
-#include "uci/type/CommUHF_SATCOM_CommWaveformCapabilityCommandType.h"
-#include "uci/type/ForeignKeyType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/CommRangeDelayChoiceType.h"
+#include "../../../include/asb_uci/type/CommRangeModeTypeEnum.h"
+#include "../../../include/asb_uci/type/CommSATCOM_ServiceTypeEnum.h"
+#include "../../../include/asb_uci/type/CommWaveformCapabilityCommandPET.h"
+#include "../../../include/asb_uci/type/ForeignKeyType.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommRangeDelayChoiceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommRangeModeTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommSATCOM_ServiceTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommUHF_SATCOM_CommWaveformCapabilityCommandType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ForeignKeyType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

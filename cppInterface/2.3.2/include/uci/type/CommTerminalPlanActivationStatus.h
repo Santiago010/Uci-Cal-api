@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_COMMTERMINALPLANACTIVATIONSTATUS_H
 #define UCI_TYPE_COMMTERMINALPLANACTIVATIONSTATUS_H
 
-#include "uci/type/CommTerminalPlanActivationStatusMT.h"
+#include "CommTerminalPlanActivationStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

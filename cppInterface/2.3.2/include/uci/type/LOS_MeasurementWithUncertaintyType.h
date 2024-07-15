@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_LOS_MEASUREMENTWITHUNCERTAINTYTYPE_H
 #define UCI_TYPE_LOS_MEASUREMENTWITHUNCERTAINTYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/ComponentID_Type.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/LOS_MeasurementEnum.h"
-#include "uci/type/LOS_MeasurementType.h"
-#include "uci/type/LOS_MeasurementUncertaintyErrorSourcesType.h"
-#include "uci/type/MeasurementTypeEnum.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilityID_Type.h"
+#include "ComponentID_Type.h"
+#include "DateTimeType.h"
+#include "LOS_MeasurementEnum.h"
+#include "LOS_MeasurementType.h"
+#include "LOS_MeasurementUncertaintyErrorSourcesType.h"
+#include "MeasurementTypeEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_CONFLICTTYPE_H
 #define UCI_TYPE_CONFLICTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ConflictLocationType.h"
-#include "uci/type/DateTimeRangeType.h"
-#include "uci/type/ID_Type.h"
-#include "uci/type/RequirementsReferenceType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ConflictLocationType.h"
+#include "DateTimeRangeType.h"
+#include "ID_Type.h"
+#include "RequirementsReferenceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

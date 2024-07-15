@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/PlanModificationDetailsType.h"
+#include "../../../include/asb_uci/type/PlanModificationDetailsType.h"
 
 #include <memory>
 #include <string>
@@ -41,23 +41,23 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ExecutionSequenceReplaceOrModifyChoiceType.h"
-#include "asb_uci/type/HierarchyModificationType.h"
-#include "asb_uci/type/PlanApplicabilityModificationType.h"
-#include "asb_uci/type/PlanWindowModificationTypeChoiceType.h"
-#include "asb_uci/type/RequirementAllocationLockDetailsType.h"
-#include "asb_uci/type/SubPlansModificationType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ExecutionSequenceReplaceOrModifyChoiceType.h"
-#include "uci/type/HierarchyModificationType.h"
-#include "uci/type/PlanApplicabilityModificationType.h"
-#include "uci/type/PlanModificationDetailsType.h"
-#include "uci/type/PlanWindowModificationTypeChoiceType.h"
-#include "uci/type/RequirementAllocationLockDetailsType.h"
-#include "uci/type/SubPlansModificationType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/ExecutionSequenceReplaceOrModifyChoiceType.h"
+#include "../../../include/asb_uci/type/HierarchyModificationType.h"
+#include "../../../include/asb_uci/type/PlanApplicabilityModificationType.h"
+#include "../../../include/asb_uci/type/PlanWindowModificationTypeChoiceType.h"
+#include "../../../include/asb_uci/type/RequirementAllocationLockDetailsType.h"
+#include "../../../include/asb_uci/type/SubPlansModificationType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ExecutionSequenceReplaceOrModifyChoiceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/HierarchyModificationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlanApplicabilityModificationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlanModificationDetailsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlanWindowModificationTypeChoiceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RequirementAllocationLockDetailsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubPlansModificationType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

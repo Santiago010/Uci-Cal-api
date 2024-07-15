@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_DAMAGESUMMARY_H
 #define UCI_TYPE_DAMAGESUMMARY_H
 
-#include "uci/type/DamageSummaryMT.h"
+#include "DamageSummaryMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

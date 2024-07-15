@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_REPLANREASONTYPE_H
 #define UCI_TYPE_REPLANREASONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AutonomousPlanningActionID_Type.h"
-#include "uci/type/MissionContingencyAlertID_Type.h"
-#include "uci/type/PlanningTriggerType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AutonomousPlanningActionID_Type.h"
+#include "MissionContingencyAlertID_Type.h"
+#include "PlanningTriggerType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

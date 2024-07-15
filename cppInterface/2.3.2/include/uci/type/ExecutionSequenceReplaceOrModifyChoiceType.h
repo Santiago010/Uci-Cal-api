@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_EXECUTIONSEQUENCEREPLACEORMODIFYCHOICETYPE_H
 #define UCI_TYPE_EXECUTIONSEQUENCEREPLACEORMODIFYCHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ExecutionSequenceModificationDetailsType.h"
-#include "uci/type/ExecutionSequenceType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ExecutionSequenceModificationDetailsType.h"
+#include "ExecutionSequenceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

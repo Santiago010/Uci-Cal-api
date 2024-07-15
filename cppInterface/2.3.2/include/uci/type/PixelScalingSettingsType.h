@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_PIXELSCALINGSETTINGSTYPE_H
 #define UCI_TYPE_PIXELSCALINGSETTINGSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DoubleMinMaxType.h"
-#include "uci/type/IntegerMinMaxType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DoubleMinMaxType.h"
+#include "IntegerMinMaxType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_RESENDDATAREQUEST_H
 #define UCI_TYPE_RESENDDATAREQUEST_H
 
-#include "uci/type/ResendDataRequestMT.h"
+#include "ResendDataRequestMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

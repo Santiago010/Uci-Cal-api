@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_ORBITACTIVITYMETRICSTYPE_H
 #define UCI_TYPE_ORBITACTIVITYMETRICSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/PlannedActivityID_Type.h"
-#include "uci/type/SatelliteEnduranceType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "PlannedActivityID_Type.h"
+#include "SatelliteEnduranceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

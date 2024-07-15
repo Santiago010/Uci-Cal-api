@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_RELATIONSHIPDESIGNATIONMDT_H
 #define UCI_TYPE_RELATIONSHIPDESIGNATIONMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DataLinkIdentifierPET.h"
-#include "uci/type/DataRecordBaseType.h"
-#include "uci/type/GeoLocatedObjectType.h"
-#include "uci/type/RelationshipDesignationID_Type.h"
-#include "uci/type/RelationshipType.h"
-#include "uci/type/SystemMessageIdentifierType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DataLinkIdentifierPET.h"
+#include "DataRecordBaseType.h"
+#include "GeoLocatedObjectType.h"
+#include "RelationshipDesignationID_Type.h"
+#include "RelationshipType.h"
+#include "SystemMessageIdentifierType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

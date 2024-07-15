@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_OPZONE_H
 #define UCI_TYPE_OPZONE_H
 
-#include "uci/type/OpZoneMT.h"
+#include "OpZoneMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

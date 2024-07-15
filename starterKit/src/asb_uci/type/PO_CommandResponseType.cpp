@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/PO_CommandResponseType.h"
+#include "../../../include/asb_uci/type/PO_CommandResponseType.h"
 
 #include <memory>
 #include <string>
@@ -41,18 +41,18 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/PO_CapabilityEnum.h"
-#include "asb_uci/type/PO_CollectionConstraintsSettingsType.h"
-#include "asb_uci/type/PO_ProductOutputCommandImageryType.h"
-#include "asb_uci/type/SensorSpectrumEnum.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/PO_CapabilityEnum.h"
-#include "uci/type/PO_CollectionConstraintsSettingsType.h"
-#include "uci/type/PO_CommandResponseType.h"
-#include "uci/type/PO_ProductOutputCommandImageryType.h"
-#include "uci/type/SensorSpectrumEnum.h"
+#include "../../../include/asb_uci/type/PO_CapabilityEnum.h"
+#include "../../../include/asb_uci/type/PO_CollectionConstraintsSettingsType.h"
+#include "../../../include/asb_uci/type/PO_ProductOutputCommandImageryType.h"
+#include "../../../include/asb_uci/type/SensorSpectrumEnum.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_CapabilityEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_CollectionConstraintsSettingsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_CommandResponseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_ProductOutputCommandImageryType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SensorSpectrumEnum.h"
 
 /**  */
 namespace asb_uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_DAMAGEESTIMATE_H
 #define UCI_TYPE_DAMAGEESTIMATE_H
 
-#include "uci/type/DamageEstimateMT.h"
+#include "DamageEstimateMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

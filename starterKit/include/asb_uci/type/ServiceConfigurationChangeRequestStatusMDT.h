@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/AttributedURI_Type.h"
-#include "asb_uci/type/RequestStatusBaseType.h"
-#include "uci/type/ServiceConfigurationChangeRequestStatusMDT.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/AttributedURI_Type.h"
+#include "../../../include/asb_uci/type/RequestStatusBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ServiceConfigurationChangeRequestStatusMDT.h"
 
 /**  */
 namespace asb_uci {

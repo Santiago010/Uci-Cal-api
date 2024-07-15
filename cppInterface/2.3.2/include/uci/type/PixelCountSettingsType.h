@@ -36,8 +36,8 @@
 #ifndef UCI_TYPE_PIXELCOUNTSETTINGSTYPE_H
 #define UCI_TYPE_PIXELCOUNTSETTINGSTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/UnsignedIntegerMinMaxType.h"
+#include "../base/export.h"
+#include "UnsignedIntegerMinMaxType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

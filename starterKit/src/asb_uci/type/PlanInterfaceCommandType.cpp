@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/PlanInterfaceCommandType.h"
+#include "../../../include/asb_uci/type/PlanInterfaceCommandType.h"
 
 #include <memory>
 #include <string>
@@ -41,14 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/InterfacePlanTypeEnum.h"
-#include "asb_uci/type/PlanInterfaceStateType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/InterfacePlanTypeEnum.h"
-#include "uci/type/PlanInterfaceCommandType.h"
-#include "uci/type/PlanInterfaceStateType.h"
+#include "../../../include/asb_uci/type/InterfacePlanTypeEnum.h"
+#include "../../../include/asb_uci/type/PlanInterfaceStateType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/InterfacePlanTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlanInterfaceCommandType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlanInterfaceStateType.h"
 
 /**  */
 namespace asb_uci {

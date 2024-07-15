@@ -36,22 +36,22 @@
 #ifndef UCI_TYPE_CS_CAPABILITIESTYPE_H
 #define UCI_TYPE_CS_CAPABILITIESTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/IntAccessor.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AngleHalfType.h"
-#include "uci/type/AngleRateType.h"
-#include "uci/type/CS_ObscuraDataType.h"
-#include "uci/type/CS_SensorDataType.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/FrequencyRangeType.h"
-#include "uci/type/FrequencyType.h"
-#include "uci/type/ModulationEnum.h"
-#include "uci/type/Point3D_Type.h"
-#include "uci/type/PolarizationEnum.h"
-#include "uci/type/PowerType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/IntAccessor.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "AngleHalfType.h"
+#include "AngleRateType.h"
+#include "CS_ObscuraDataType.h"
+#include "CS_SensorDataType.h"
+#include "ForeignKeyType.h"
+#include "FrequencyRangeType.h"
+#include "FrequencyType.h"
+#include "ModulationEnum.h"
+#include "Point3D_Type.h"
+#include "PolarizationEnum.h"
+#include "PowerType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

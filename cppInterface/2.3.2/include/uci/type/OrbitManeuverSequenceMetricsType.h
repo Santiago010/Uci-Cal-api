@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_ORBITMANEUVERSEQUENCEMETRICSTYPE_H
 #define UCI_TYPE_ORBITMANEUVERSEQUENCEMETRICSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/OrbitKinematicsSequenceID_Type.h"
-#include "uci/type/SatelliteEnduranceType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "OrbitKinematicsSequenceID_Type.h"
+#include "SatelliteEnduranceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

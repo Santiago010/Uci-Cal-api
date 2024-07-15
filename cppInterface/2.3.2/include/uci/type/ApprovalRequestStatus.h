@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_APPROVALREQUESTSTATUS_H
 #define UCI_TYPE_APPROVALREQUESTSTATUS_H
 
-#include "uci/type/ApprovalRequestStatusMT.h"
+#include "ApprovalRequestStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

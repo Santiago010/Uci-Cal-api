@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ENTITYORBITALMANEUVER_H
 #define UCI_TYPE_ENTITYORBITALMANEUVER_H
 
-#include "uci/type/EntityOrbitalManeuverMT.h"
+#include "EntityOrbitalManeuverMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

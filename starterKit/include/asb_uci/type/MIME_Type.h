@@ -36,7 +36,7 @@
 #ifndef ASB_UCI_TYPE_MIME_TYPE_H
 #define ASB_UCI_TYPE_MIME_TYPE_H
 
-#include "asb_uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
 
 /**  */
 namespace asb_uci {

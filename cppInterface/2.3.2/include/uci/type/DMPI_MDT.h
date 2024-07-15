@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_DMPI_MDT_H
 #define UCI_TYPE_DMPI_MDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/ComparableRankingType.h"
-#include "uci/type/CreationSourceEnum.h"
-#include "uci/type/DMPI_ID_Type.h"
-#include "uci/type/DMPI_TargetType.h"
-#include "uci/type/DMPI_TraceabilityType.h"
-#include "uci/type/DataRecordBaseType.h"
-#include "uci/type/RemarksType.h"
-#include "uci/type/WeaponeeringType.h"
+#include "../base/export.h"
+#include "ComparableRankingType.h"
+#include "CreationSourceEnum.h"
+#include "DMPI_ID_Type.h"
+#include "DMPI_TargetType.h"
+#include "DMPI_TraceabilityType.h"
+#include "DataRecordBaseType.h"
+#include "RemarksType.h"
+#include "WeaponeeringType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

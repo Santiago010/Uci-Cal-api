@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_EOB_CORRELATEDTOTYPE_H
 #define UCI_TYPE_EOB_CORRELATEDTOTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EOB_EmitterID_Type.h"
-#include "uci/type/EOB_RecordID_Type.h"
-#include "uci/type/IdentityType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "EOB_EmitterID_Type.h"
+#include "EOB_RecordID_Type.h"
+#include "IdentityType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

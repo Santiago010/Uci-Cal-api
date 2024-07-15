@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_REQUIREMENTTAXONOMYDETAILEDTYPE_H
 #define UCI_TYPE_REQUIREMENTTAXONOMYDETAILEDTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/CapabilityTaxonomyType.h"
-#include "uci/type/RequirementTaxonomyType.h"
+#include "../base/export.h"
+#include "CapabilityTaxonomyType.h"
+#include "RequirementTaxonomyType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

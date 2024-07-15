@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_DESIGNATIONREQUESTSTATUS_H
 #define UCI_TYPE_DESIGNATIONREQUESTSTATUS_H
 
-#include "uci/type/DesignationRequestStatusMT.h"
+#include "DesignationRequestStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

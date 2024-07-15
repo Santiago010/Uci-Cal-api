@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/MultistaticEmitterType.h"
+#include "../../../include/asb_uci/type/MultistaticEmitterType.h"
 
 #include <memory>
 #include <string>
@@ -41,16 +41,16 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/EmitterTargetLocationDataType.h"
-#include "asb_uci/type/EmitterWaveformDataType.h"
-#include "asb_uci/type/MultistaticEmitterID_Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/EmitterTargetLocationDataType.h"
-#include "uci/type/EmitterWaveformDataType.h"
-#include "uci/type/MultistaticEmitterID_Type.h"
-#include "uci/type/MultistaticEmitterType.h"
+#include "../../../include/asb_uci/type/EmitterTargetLocationDataType.h"
+#include "../../../include/asb_uci/type/EmitterWaveformDataType.h"
+#include "../../../include/asb_uci/type/MultistaticEmitterID_Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EmitterTargetLocationDataType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EmitterWaveformDataType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MultistaticEmitterID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MultistaticEmitterType.h"
 
 /**  */
 namespace asb_uci {

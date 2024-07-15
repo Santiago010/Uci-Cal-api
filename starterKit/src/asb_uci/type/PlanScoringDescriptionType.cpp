@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/PlanScoringDescriptionType.h"
+#include "../../../include/asb_uci/type/PlanScoringDescriptionType.h"
 
 #include <memory>
 #include <string>
@@ -41,17 +41,17 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ApplicabilityType.h"
-#include "asb_uci/type/OpConstraintEnum.h"
-#include "asb_uci/type/ScoringProcessID_Type.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ApplicabilityType.h"
-#include "uci/type/OpConstraintEnum.h"
-#include "uci/type/PlanScoringDescriptionType.h"
-#include "uci/type/ScoringProcessID_Type.h"
+#include "../../../include/asb_uci/type/ApplicabilityType.h"
+#include "../../../include/asb_uci/type/OpConstraintEnum.h"
+#include "../../../include/asb_uci/type/ScoringProcessID_Type.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ApplicabilityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpConstraintEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlanScoringDescriptionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ScoringProcessID_Type.h"
 
 /**  */
 namespace asb_uci {

@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_PRODUCTREFERENCETYPE_H
 #define UCI_TYPE_PRODUCTREFERENCETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/FileNameType.h"
-#include "uci/type/ProductMetadataID_Type.h"
-#include "uci/type/ProductReferenceByParentType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "FileNameType.h"
+#include "ProductMetadataID_Type.h"
+#include "ProductReferenceByParentType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

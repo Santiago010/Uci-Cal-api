@@ -36,22 +36,22 @@
 #ifndef UCI_TYPE_SUBSYSTEMFAULTTYPE_H
 #define UCI_TYPE_SUBSYSTEMFAULTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/IntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/ComponentID_Type.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/FaultDataType.h"
-#include "uci/type/FaultID_Type.h"
-#include "uci/type/FaultSeverityEnum.h"
-#include "uci/type/FaultStateEnum.h"
-#include "uci/type/ServiceID_Type.h"
-#include "uci/type/SubsystemFaultAmbiguityGroupType.h"
-#include "uci/type/SubsystemID_Type.h"
-#include "uci/type/SupportCapabilityID_Type.h"
-#include "uci/type/VisibleString256Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/IntAccessor.h"
+#include "../base/export.h"
+#include "CapabilityID_Type.h"
+#include "ComponentID_Type.h"
+#include "DateTimeType.h"
+#include "FaultDataType.h"
+#include "FaultID_Type.h"
+#include "FaultSeverityEnum.h"
+#include "FaultStateEnum.h"
+#include "ServiceID_Type.h"
+#include "SubsystemFaultAmbiguityGroupType.h"
+#include "SubsystemID_Type.h"
+#include "SupportCapabilityID_Type.h"
+#include "VisibleString256Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

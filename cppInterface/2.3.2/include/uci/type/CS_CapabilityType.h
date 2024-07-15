@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_CS_CAPABILITYTYPE_H
 #define UCI_TYPE_CS_CAPABILITYTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CS_ForceType.h"
-#include "uci/type/CS_KindEnum.h"
-#include "uci/type/CapabilityInitiationEnum.h"
-#include "uci/type/CommandableCapabilityDeclarationType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CS_ForceType.h"
+#include "CS_KindEnum.h"
+#include "CapabilityInitiationEnum.h"
+#include "CommandableCapabilityDeclarationType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,21 +36,21 @@
 #ifndef UCI_TYPE_MESSAGECONFIGURATIONTYPE_H
 #define UCI_TYPE_MESSAGECONFIGURATIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CommConfigurationStateEnum.h"
-#include "uci/type/CommDataDirectionFiltrationEnum.h"
-#include "uci/type/ComparableRankingType.h"
-#include "uci/type/DataLinkNativeFilterPET.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/FilterID_Type.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/InclusionEnum.h"
-#include "uci/type/MessageConfigurationID_Type.h"
-#include "uci/type/QueryMessageType.h"
-#include "uci/type/SystemID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CommConfigurationStateEnum.h"
+#include "CommDataDirectionFiltrationEnum.h"
+#include "ComparableRankingType.h"
+#include "DataLinkNativeFilterPET.h"
+#include "DurationType.h"
+#include "FilterID_Type.h"
+#include "ForeignKeyType.h"
+#include "InclusionEnum.h"
+#include "MessageConfigurationID_Type.h"
+#include "QueryMessageType.h"
+#include "SystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/AcceptedProductInformationType.h"
+#include "../../../include/asb_uci/type/AcceptedProductInformationType.h"
 
 #include <memory>
 #include <string>
@@ -41,14 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ProductFilterType.h"
-#include "asb_uci/type/SensorTypeEnum.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AcceptedProductInformationType.h"
-#include "uci/type/ProductFilterType.h"
-#include "uci/type/SensorTypeEnum.h"
+#include "../../../include/asb_uci/type/ProductFilterType.h"
+#include "../../../include/asb_uci/type/SensorTypeEnum.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AcceptedProductInformationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProductFilterType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SensorTypeEnum.h"
 
 /**  */
 namespace asb_uci {

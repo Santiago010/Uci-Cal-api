@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/PumpComponentExtendedStatusType.h"
+#include "../../../include/asb_uci/type/PumpComponentExtendedStatusType.h"
 
 #include <memory>
 #include <string>
@@ -41,24 +41,24 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ComponentExtendedStatusPET.h"
-#include "asb_uci/type/ComponentPressureType.h"
-#include "asb_uci/type/ComponentTemperatureType.h"
-#include "asb_uci/type/EmptyType.h"
-#include "asb_uci/type/LineDataStatusType.h"
-#include "asb_uci/type/ValveDataStatusType.h"
-#include "asb_uci/type/VisibleString64Type.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ComponentPressureType.h"
-#include "uci/type/ComponentTemperatureType.h"
-#include "uci/type/EmptyType.h"
-#include "uci/type/LineDataStatusType.h"
-#include "uci/type/PumpComponentExtendedStatusType.h"
-#include "uci/type/ValveDataStatusType.h"
-#include "uci/type/VisibleString64Type.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/ComponentExtendedStatusPET.h"
+#include "../../../include/asb_uci/type/ComponentPressureType.h"
+#include "../../../include/asb_uci/type/ComponentTemperatureType.h"
+#include "../../../include/asb_uci/type/EmptyType.h"
+#include "../../../include/asb_uci/type/LineDataStatusType.h"
+#include "../../../include/asb_uci/type/ValveDataStatusType.h"
+#include "../../../include/asb_uci/type/VisibleString64Type.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ComponentPressureType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ComponentTemperatureType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EmptyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/LineDataStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PumpComponentExtendedStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ValveDataStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString64Type.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

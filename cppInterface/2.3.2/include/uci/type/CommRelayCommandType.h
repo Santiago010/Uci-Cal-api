@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_COMMRELAYCOMMANDTYPE_H
 #define UCI_TYPE_COMMRELAYCOMMANDTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ActivityCommandBaseType.h"
-#include "uci/type/CommRelayCapabilityCommandType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ActivityCommandBaseType.h"
+#include "CommRelayCapabilityCommandType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

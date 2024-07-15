@@ -41,22 +41,22 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/CharOrSpacePairsType.h"
-#include "asb_uci/type/NITF_ClassificationAuthorityType.h"
-#include "asb_uci/type/NITF_ClassificationReasonType.h"
-#include "asb_uci/type/NITF_CodewordsType.h"
-#include "asb_uci/type/NITF_ControlAndHandlingType.h"
-#include "asb_uci/type/NITF_DateType.h"
-#include "asb_uci/type/NITF_DeclassificationExemptionType.h"
-#include "asb_uci/type/NITF_DeclassificationType.h"
-#include "asb_uci/type/NITF_DowngradeType.h"
-#include "asb_uci/type/NITF_FileSecurityClassificationType.h"
-#include "asb_uci/type/NITF_ReleasingInstructionsType.h"
-#include "asb_uci/type/VisibleLatin1String15Type.h"
-#include "asb_uci/type/VisibleLatin1String40Type.h"
-#include "asb_uci/type/VisibleLatin1String43Type.h"
-#include "asb_uci/type/VisibleString17Type.h"
-#include "uci/type/ImageSubheaderRevA_Type.h"
+#include "../../../include/asb_uci/type/CharOrSpacePairsType.h"
+#include "../../../include/asb_uci/type/NITF_ClassificationAuthorityType.h"
+#include "../../../include/asb_uci/type/NITF_ClassificationReasonType.h"
+#include "../../../include/asb_uci/type/NITF_CodewordsType.h"
+#include "../../../include/asb_uci/type/NITF_ControlAndHandlingType.h"
+#include "../../../include/asb_uci/type/NITF_DateType.h"
+#include "../../../include/asb_uci/type/NITF_DeclassificationExemptionType.h"
+#include "../../../include/asb_uci/type/NITF_DeclassificationType.h"
+#include "../../../include/asb_uci/type/NITF_DowngradeType.h"
+#include "../../../include/asb_uci/type/NITF_FileSecurityClassificationType.h"
+#include "../../../include/asb_uci/type/NITF_ReleasingInstructionsType.h"
+#include "../../../include/asb_uci/type/VisibleLatin1String15Type.h"
+#include "../../../include/asb_uci/type/VisibleLatin1String40Type.h"
+#include "../../../include/asb_uci/type/VisibleLatin1String43Type.h"
+#include "../../../include/asb_uci/type/VisibleString17Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ImageSubheaderRevA_Type.h"
 
 /**  */
 namespace asb_uci {

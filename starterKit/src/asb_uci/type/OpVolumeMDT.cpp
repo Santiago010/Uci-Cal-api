@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/OpVolumeMDT.h"
+#include "../../../include/asb_uci/type/OpVolumeMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,20 +41,20 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/OpBaseType.h"
-#include "asb_uci/type/OpVolumeID_Type.h"
-#include "asb_uci/type/OpVolumeType.h"
-#include "asb_uci/type/OpZoneCategoryEnum.h"
-#include "asb_uci/type/OpZoneCategoryType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/OpVolumeID_Type.h"
-#include "uci/type/OpVolumeMDT.h"
-#include "uci/type/OpVolumeType.h"
-#include "uci/type/OpZoneCategoryEnum.h"
-#include "uci/type/OpZoneCategoryType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/OpBaseType.h"
+#include "../../../include/asb_uci/type/OpVolumeID_Type.h"
+#include "../../../include/asb_uci/type/OpVolumeType.h"
+#include "../../../include/asb_uci/type/OpZoneCategoryEnum.h"
+#include "../../../include/asb_uci/type/OpZoneCategoryType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpVolumeID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpVolumeMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpVolumeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpZoneCategoryEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OpZoneCategoryType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

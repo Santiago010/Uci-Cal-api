@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_PROXIMITYORBITCHOICETYPE_H
 #define UCI_TYPE_PROXIMITYORBITCHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AngleHalfPairType.h"
-#include "uci/type/EmptyType.h"
-#include "uci/type/R_BarApproachEnum.h"
-#include "uci/type/V_BarApproachEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AngleHalfPairType.h"
+#include "EmptyType.h"
+#include "R_BarApproachEnum.h"
+#include "V_BarApproachEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

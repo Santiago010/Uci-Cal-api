@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_ALLOWABLESENSORSTYPE_H
 #define UCI_TYPE_ALLOWABLESENSORSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/SecurityInformationType.h"
-#include "uci/type/SensorConstraintsType.h"
-#include "uci/type/SensorCountConstraintType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "SecurityInformationType.h"
+#include "SensorConstraintsType.h"
+#include "SensorCountConstraintType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,19 +36,19 @@
 #ifndef UCI_TYPE_MISSIONDEFINITIONMDT_H
 #define UCI_TYPE_MISSIONDEFINITIONMDT_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ArchiveRequestType.h"
-#include "uci/type/DataRecordBaseType.h"
-#include "uci/type/DateTimeRangeType.h"
-#include "uci/type/MissionCategoryType.h"
-#include "uci/type/MissionDefinitionID_Type.h"
-#include "uci/type/MissionID_Type.h"
-#include "uci/type/MissionStateEnum.h"
-#include "uci/type/OrderTraceabilityType.h"
-#include "uci/type/SystemID_Type.h"
-#include "uci/type/UserIdentifierType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ArchiveRequestType.h"
+#include "DataRecordBaseType.h"
+#include "DateTimeRangeType.h"
+#include "MissionCategoryType.h"
+#include "MissionDefinitionID_Type.h"
+#include "MissionID_Type.h"
+#include "MissionStateEnum.h"
+#include "OrderTraceabilityType.h"
+#include "SystemID_Type.h"
+#include "UserIdentifierType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

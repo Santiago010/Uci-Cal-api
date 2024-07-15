@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_REQUIREMENTDEPENDENCYBASETYPE_H
 #define UCI_TYPE_REQUIREMENTDEPENDENCYBASETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/OpConstraintTypeEnum.h"
-#include "uci/type/RequirementDependencyEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DurationType.h"
+#include "OpConstraintTypeEnum.h"
+#include "RequirementDependencyEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

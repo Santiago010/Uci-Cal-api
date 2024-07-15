@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_COMMPOINTINGCOMMANDMDT_H
 #define UCI_TYPE_COMMPOINTINGCOMMANDMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/CommPointingID_Type.h"
-#include "uci/type/CommandBaseType.h"
-#include "uci/type/PointingVectorCommandTypeEnum.h"
+#include "../base/export.h"
+#include "CommPointingID_Type.h"
+#include "CommandBaseType.h"
+#include "PointingVectorCommandTypeEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

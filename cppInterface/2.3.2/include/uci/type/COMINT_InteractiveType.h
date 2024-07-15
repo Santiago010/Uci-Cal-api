@@ -36,17 +36,17 @@
 #ifndef UCI_TYPE_COMINT_INTERACTIVETYPE_H
 #define UCI_TYPE_COMINT_INTERACTIVETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/COMINT_AcquisitionTargetType.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/FrequencyRangeType.h"
-#include "uci/type/FrequencyType.h"
-#include "uci/type/GainControlMethodEnum.h"
-#include "uci/type/MilliwattPowerRatioType.h"
-#include "uci/type/NoiseAdaptiveThresholdStatusEnum.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "COMINT_AcquisitionTargetType.h"
+#include "ForeignKeyType.h"
+#include "FrequencyRangeType.h"
+#include "FrequencyType.h"
+#include "GainControlMethodEnum.h"
+#include "MilliwattPowerRatioType.h"
+#include "NoiseAdaptiveThresholdStatusEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

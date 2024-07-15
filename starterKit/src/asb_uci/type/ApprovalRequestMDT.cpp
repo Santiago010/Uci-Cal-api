@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ApprovalRequestMDT.h"
+#include "../../../include/asb_uci/type/ApprovalRequestMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,16 +41,16 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ApprovalRequestPolicyReferenceType.h"
-#include "asb_uci/type/OperatorRoleType.h"
-#include "asb_uci/type/RequestBaseType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ApprovalRequestMDT.h"
-#include "uci/type/ApprovalRequestPolicyReferenceType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/OperatorRoleType.h"
+#include "../../../include/asb_uci/type/ApprovalRequestPolicyReferenceType.h"
+#include "../../../include/asb_uci/type/OperatorRoleType.h"
+#include "../../../include/asb_uci/type/RequestBaseType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ApprovalRequestMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ApprovalRequestPolicyReferenceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DateTimeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OperatorRoleType.h"
 
 /**  */
 namespace asb_uci {

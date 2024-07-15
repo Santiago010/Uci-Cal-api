@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_COMMMADL_COMMWAVEFORMACTIVITYTYPE_H
 #define UCI_TYPE_COMMMADL_COMMWAVEFORMACTIVITYTYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/UnsignedShortAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CommMADL_AircraftTypeEnum.h"
-#include "uci/type/CommMADL_ControlType.h"
-#include "uci/type/CommMADL_LinkStatusListType.h"
-#include "uci/type/CommMADL_NetChangeStatusEnum.h"
-#include "uci/type/CommWaveformActivityPET.h"
-#include "uci/type/DayOfYearType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/UnsignedShortAccessor.h"
+#include "../base/export.h"
+#include "CommMADL_AircraftTypeEnum.h"
+#include "CommMADL_ControlType.h"
+#include "CommMADL_LinkStatusListType.h"
+#include "CommMADL_NetChangeStatusEnum.h"
+#include "CommWaveformActivityPET.h"
+#include "DayOfYearType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

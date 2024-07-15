@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_RELATIONSHIPDESIGNATION_H
 #define UCI_TYPE_RELATIONSHIPDESIGNATION_H
 
-#include "uci/type/RelationshipDesignationMT.h"
+#include "RelationshipDesignationMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

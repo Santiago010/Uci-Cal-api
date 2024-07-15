@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ReportToType.h"
+#include "../../../include/asb_uci/type/ReportToType.h"
 
 #include <memory>
 #include <string>
@@ -41,16 +41,16 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AppliesToType.h"
-#include "asb_uci/type/ContactDetailsType.h"
-#include "asb_uci/type/UnitIdentityType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AppliesToType.h"
-#include "uci/type/ContactDetailsType.h"
-#include "uci/type/ReportToType.h"
-#include "uci/type/UnitIdentityType.h"
+#include "../../../include/asb_uci/type/AppliesToType.h"
+#include "../../../include/asb_uci/type/ContactDetailsType.h"
+#include "../../../include/asb_uci/type/UnitIdentityType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AppliesToType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ContactDetailsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ReportToType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/UnitIdentityType.h"
 
 /**  */
 namespace asb_uci {

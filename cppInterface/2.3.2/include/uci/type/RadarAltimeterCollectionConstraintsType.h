@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_RADARALTIMETERCOLLECTIONCONSTRAINTSTYPE_H
 #define UCI_TYPE_RADARALTIMETERCOLLECTIONCONSTRAINTSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AltitudeConstraintsType.h"
-#include "uci/type/AltitudeReferenceEnum.h"
-#include "uci/type/EmconConstraintType.h"
-#include "uci/type/FalseAlarmType.h"
-#include "uci/type/PercentType.h"
-#include "uci/type/RadarAltimeterAngleConstraintsType.h"
-#include "uci/type/SlantRangeConstraintsType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AltitudeConstraintsType.h"
+#include "AltitudeReferenceEnum.h"
+#include "EmconConstraintType.h"
+#include "FalseAlarmType.h"
+#include "PercentType.h"
+#include "RadarAltimeterAngleConstraintsType.h"
+#include "SlantRangeConstraintsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SAR_COMMANDTYPE_H
 #define UCI_TYPE_SAR_COMMANDTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/SAR_ActivityCommandType.h"
-#include "uci/type/SAR_CapabilityCommandType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "SAR_ActivityCommandType.h"
+#include "SAR_CapabilityCommandType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

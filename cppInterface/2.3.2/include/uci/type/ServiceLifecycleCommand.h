@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SERVICELIFECYCLECOMMAND_H
 #define UCI_TYPE_SERVICELIFECYCLECOMMAND_H
 
-#include "uci/type/ServiceLifecycleCommandMT.h"
+#include "ServiceLifecycleCommandMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/MTI_ActivityStatusDetailType.h"
+#include "../../../include/asb_uci/type/MTI_ActivityStatusDetailType.h"
 
 #include <memory>
 #include <string>
@@ -41,18 +41,18 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AreaChoiceType.h"
-#include "asb_uci/type/EstimatedPerformanceType.h"
-#include "asb_uci/type/MTI_ActivityStatusBaseType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AreaChoiceType.h"
-#include "uci/type/DecibelType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/EstimatedPerformanceType.h"
-#include "uci/type/MTI_ActivityStatusDetailType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/AreaChoiceType.h"
+#include "../../../include/asb_uci/type/EstimatedPerformanceType.h"
+#include "../../../include/asb_uci/type/MTI_ActivityStatusBaseType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AreaChoiceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DecibelType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DurationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EstimatedPerformanceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MTI_ActivityStatusDetailType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/EA_ActivityCommandType.h"
+#include "../../../include/asb_uci/type/EA_ActivityCommandType.h"
 
 #include <memory>
 #include <string>
@@ -41,23 +41,23 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/CapabilityCommandFrequencyType.h"
-#include "asb_uci/type/DependentActivityType.h"
-#include "asb_uci/type/EA_ActivityChangeBeamCommandType.h"
-#include "asb_uci/type/EA_ChangeLocationAndPowerType.h"
-#include "asb_uci/type/ProtectedAssetReturnPowerType.h"
-#include "asb_uci/type/SelectAntennaType.h"
-#include "asb_uci/type/SharedRF_ApertureActivityCommandBaseType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CapabilityCommandFrequencyType.h"
-#include "uci/type/DependentActivityType.h"
-#include "uci/type/EA_ActivityChangeBeamCommandType.h"
-#include "uci/type/EA_ActivityCommandType.h"
-#include "uci/type/EA_ChangeLocationAndPowerType.h"
-#include "uci/type/ProtectedAssetReturnPowerType.h"
-#include "uci/type/SelectAntennaType.h"
+#include "../../../include/asb_uci/type/CapabilityCommandFrequencyType.h"
+#include "../../../include/asb_uci/type/DependentActivityType.h"
+#include "../../../include/asb_uci/type/EA_ActivityChangeBeamCommandType.h"
+#include "../../../include/asb_uci/type/EA_ChangeLocationAndPowerType.h"
+#include "../../../include/asb_uci/type/ProtectedAssetReturnPowerType.h"
+#include "../../../include/asb_uci/type/SelectAntennaType.h"
+#include "../../../include/asb_uci/type/SharedRF_ApertureActivityCommandBaseType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityCommandFrequencyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DependentActivityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EA_ActivityChangeBeamCommandType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EA_ActivityCommandType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EA_ChangeLocationAndPowerType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProtectedAssetReturnPowerType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SelectAntennaType.h"
 
 /**  */
 namespace asb_uci {

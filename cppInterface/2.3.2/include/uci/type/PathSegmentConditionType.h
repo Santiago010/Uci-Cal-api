@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_PATHSEGMENTCONDITIONTYPE_H
 #define UCI_TYPE_PATHSEGMENTCONDITIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AltitudeRangeType.h"
-#include "uci/type/DateTimeRangeType.h"
-#include "uci/type/EnduranceRemainingType.h"
-#include "uci/type/SegmentCaptureType.h"
-#include "uci/type/SystemContingencyLevelEnum.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "AltitudeRangeType.h"
+#include "DateTimeRangeType.h"
+#include "EnduranceRemainingType.h"
+#include "SegmentCaptureType.h"
+#include "SystemContingencyLevelEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

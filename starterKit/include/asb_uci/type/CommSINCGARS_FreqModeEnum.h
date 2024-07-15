@@ -36,9 +36,9 @@
 #ifndef ASB_UCI_TYPE_COMMSINCGARS_FREQMODEENUM_H
 #define ASB_UCI_TYPE_COMMSINCGARS_FREQMODEENUM_H
 
-#include "asb_uci/base/EnumAccessor.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/CommSINCGARS_FreqModeEnum.h"
+#include "../../../include/asb_uci/base/EnumAccessor.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommSINCGARS_FreqModeEnum.h"
 
 /**  */
 namespace asb_uci {

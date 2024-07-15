@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_PLANNINGPOINTPRIORITYTYPE_H
 #define UCI_TYPE_PLANNINGPOINTPRIORITYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/PlanningPointType.h"
+#include "../base/Accessor.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "PlanningPointType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

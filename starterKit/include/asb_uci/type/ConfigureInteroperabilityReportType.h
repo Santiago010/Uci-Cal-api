@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/ConfigureInteroperabilityReportType.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ConfigureInteroperabilityReportType.h"
 
 /**  */
 namespace asb_uci {

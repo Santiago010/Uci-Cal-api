@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ORBITMODIFICATIONREQUEST_H
 #define UCI_TYPE_ORBITMODIFICATIONREQUEST_H
 
-#include "uci/type/OrbitModificationRequestMT.h"
+#include "OrbitModificationRequestMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

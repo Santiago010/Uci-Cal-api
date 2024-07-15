@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_ORBITALKINEMATICSFRAMECHOICETYPE_H
 #define UCI_TYPE_ORBITALKINEMATICSFRAMECHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/BCRS_KinematicsType.h"
-#include "uci/type/GCRS_KinematicsType.h"
-#include "uci/type/J2K_KinematicsType.h"
-#include "uci/type/TLE_WithParametersType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "BCRS_KinematicsType.h"
+#include "GCRS_KinematicsType.h"
+#include "J2K_KinematicsType.h"
+#include "TLE_WithParametersType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

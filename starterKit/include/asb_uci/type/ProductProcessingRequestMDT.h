@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/DownloadPriorityEnum.h"
-#include "asb_uci/type/RequestBaseType.h"
-#include "uci/type/ProductProcessingRequestMDT.h"
+#include "../../../include/asb_uci/type/DownloadPriorityEnum.h"
+#include "../../../include/asb_uci/type/RequestBaseType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProductProcessingRequestMDT.h"
 
 /**  */
 namespace asb_uci {

@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_COMPLETEDREQUIREMENTMETRICSTYPE_H
 #define UCI_TYPE_COMPLETEDREQUIREMENTMETRICSTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/RequirementMetricsCategoryType.h"
-#include "uci/type/RequirementMetricsReportType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DateTimeType.h"
+#include "RequirementMetricsCategoryType.h"
+#include "RequirementMetricsReportType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

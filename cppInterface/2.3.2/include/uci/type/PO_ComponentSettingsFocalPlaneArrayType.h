@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_PO_COMPONENTSETTINGSFOCALPLANEARRAYTYPE_H
 #define UCI_TYPE_PO_COMPONENTSETTINGSFOCALPLANEARRAYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ComponentControlsA_Type.h"
-#include "uci/type/PO_ComponentSettingsFocalPlaneArrayChannelType.h"
-#include "uci/type/PO_FPA_ID_Type.h"
-#include "uci/type/PO_WindowID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ComponentControlsA_Type.h"
+#include "PO_ComponentSettingsFocalPlaneArrayChannelType.h"
+#include "PO_FPA_ID_Type.h"
+#include "PO_WindowID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_COMMCOVERAGEDATATYPE_H
 #define UCI_TYPE_COMMCOVERAGEDATATYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/CommDataType.h"
-#include "uci/type/TimeCoverageType.h"
+#include "../base/export.h"
+#include "CommDataType.h"
+#include "TimeCoverageType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

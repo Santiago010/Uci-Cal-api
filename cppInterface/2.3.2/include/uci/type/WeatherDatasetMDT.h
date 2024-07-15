@@ -36,17 +36,17 @@
 #ifndef UCI_TYPE_WEATHERDATASETMDT_H
 #define UCI_TYPE_WEATHERDATASETMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AltitudeType.h"
-#include "uci/type/AnglePositiveType.h"
-#include "uci/type/DataRecordBaseType.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/ScheduleType.h"
-#include "uci/type/SystemID_Type.h"
-#include "uci/type/WeatherDataType.h"
-#include "uci/type/WeatherDatasetID_Type.h"
-#include "uci/type/ZoneType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AltitudeType.h"
+#include "AnglePositiveType.h"
+#include "DataRecordBaseType.h"
+#include "DateTimeType.h"
+#include "ScheduleType.h"
+#include "SystemID_Type.h"
+#include "WeatherDataType.h"
+#include "WeatherDatasetID_Type.h"
+#include "ZoneType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

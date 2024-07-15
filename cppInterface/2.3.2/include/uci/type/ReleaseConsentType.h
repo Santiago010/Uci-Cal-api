@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_RELEASECONSENTTYPE_H
 #define UCI_TYPE_RELEASECONSENTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ForeignKeyType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "ForeignKeyType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

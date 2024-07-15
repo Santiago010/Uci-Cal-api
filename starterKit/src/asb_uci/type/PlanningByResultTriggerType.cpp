@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/PlanningByResultTriggerType.h"
+#include "../../../include/asb_uci/type/PlanningByResultTriggerType.h"
 
 #include <memory>
 #include <string>
@@ -41,17 +41,17 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/PlanTypeEnum.h"
-#include "asb_uci/type/PlanVulnerabilityType.h"
-#include "asb_uci/type/RequirementTriggerType.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/PlanTypeEnum.h"
-#include "uci/type/PlanVulnerabilityType.h"
-#include "uci/type/PlanningByResultTriggerType.h"
-#include "uci/type/RequirementTriggerType.h"
+#include "../../../include/asb_uci/type/PlanTypeEnum.h"
+#include "../../../include/asb_uci/type/PlanVulnerabilityType.h"
+#include "../../../include/asb_uci/type/RequirementTriggerType.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlanTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlanVulnerabilityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlanningByResultTriggerType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RequirementTriggerType.h"
 
 /**  */
 namespace asb_uci {

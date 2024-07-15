@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_REQUIREMENTTRIGGERTYPE_H
 #define UCI_TYPE_REQUIREMENTTRIGGERTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/RankCompareType.h"
-#include "uci/type/RequirementTaxonomyDetailedType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "RankCompareType.h"
+#include "RequirementTaxonomyDetailedType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

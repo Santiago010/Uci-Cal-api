@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_COMMLINK16TXPG_TYPE_H
 #define UCI_TYPE_COMMLINK16TXPG_TYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CommLink16TxPackingLimitEnum.h"
-#include "uci/type/Link16_MessagePriorityType.h"
-#include "uci/type/Link16_MessageStorageLimitType.h"
-#include "uci/type/Link16_ParticipationGroupIndexType.h"
-#include "uci/type/Link16_SlotNumberType.h"
-#include "uci/type/Link16_StalenessLimitType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "CommLink16TxPackingLimitEnum.h"
+#include "Link16_MessagePriorityType.h"
+#include "Link16_MessageStorageLimitType.h"
+#include "Link16_ParticipationGroupIndexType.h"
+#include "Link16_SlotNumberType.h"
+#include "Link16_StalenessLimitType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

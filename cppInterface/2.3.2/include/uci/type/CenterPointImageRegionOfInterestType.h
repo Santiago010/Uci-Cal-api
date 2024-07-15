@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_CENTERPOINTIMAGEREGIONOFINTERESTTYPE_H
 #define UCI_TYPE_CENTERPOINTIMAGEREGIONOFINTERESTTYPE_H
 
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ImageRegionOfInterestPET.h"
-#include "uci/type/Point2D_Type.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "ImageRegionOfInterestPET.h"
+#include "Point2D_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

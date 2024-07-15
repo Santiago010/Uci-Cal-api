@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_FAULTMDT_H
 #define UCI_TYPE_FAULTMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DataRecordBaseType.h"
-#include "uci/type/SubsystemFaultType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DataRecordBaseType.h"
+#include "SubsystemFaultType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

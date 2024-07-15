@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ACTIVITYPLANVALIDATIONCOMMAND_H
 #define UCI_TYPE_ACTIVITYPLANVALIDATIONCOMMAND_H
 
-#include "uci/type/ActivityPlanValidationCommandMT.h"
+#include "ActivityPlanValidationCommandMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

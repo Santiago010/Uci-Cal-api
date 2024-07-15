@@ -193,7 +193,7 @@ bool ServiceStatusMDT::hasStatusDetail() const noexcept {
 
 uci::type::VisibleString256Type& ServiceStatusMDT::enableStatusDetail(uci::base::accessorType::AccessorType type) {
   if (!statusDetail_Accessor) {
-    // statusDetail_Accessor = VisibleString256Type::create(type);
+    // statusDetail_Accessor = boost::make_unique<std::string>("");
   }
   // return *statusDetail_Accessor;
 }

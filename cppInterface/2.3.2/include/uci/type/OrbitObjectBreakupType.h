@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_ORBITOBJECTBREAKUPTYPE_H
 #define UCI_TYPE_ORBITOBJECTBREAKUPTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/FloatAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/OrbitConflictObjectType.h"
-#include "uci/type/PercentType.h"
+#include "../base/Accessor.h"
+#include "../base/FloatAccessor.h"
+#include "../base/export.h"
+#include "OrbitConflictObjectType.h"
+#include "PercentType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

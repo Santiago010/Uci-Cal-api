@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_TASKPLANMDT_H
 #define UCI_TYPE_TASKPLANMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/TaskPlanCommandID_ChoiceType.h"
-#include "uci/type/TaskPlanID_Type.h"
-#include "uci/type/TaskPlanInputsType.h"
-#include "uci/type/TaskPlanType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "TaskPlanCommandID_ChoiceType.h"
+#include "TaskPlanID_Type.h"
+#include "TaskPlanInputsType.h"
+#include "TaskPlanType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

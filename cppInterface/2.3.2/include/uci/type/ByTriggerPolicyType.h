@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_BYTRIGGERPOLICYTYPE_H
 #define UCI_TYPE_BYTRIGGERPOLICYTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ApprovalPolicyBaseType.h"
-#include "uci/type/ByResultPolicyType.h"
-#include "uci/type/PlanningByCaseTriggerType.h"
-#include "uci/type/PlanningTriggerSourceEnum.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ApprovalPolicyBaseType.h"
+#include "ByResultPolicyType.h"
+#include "PlanningByCaseTriggerType.h"
+#include "PlanningTriggerSourceEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

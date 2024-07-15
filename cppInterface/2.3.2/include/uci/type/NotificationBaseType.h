@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_NOTIFICATIONBASETYPE_H
 #define UCI_TYPE_NOTIFICATIONBASETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/NotificationID_Type.h"
-#include "uci/type/NotificationSeverityEnum.h"
-#include "uci/type/NotificationSourceType.h"
-#include "uci/type/NotificationStateEnum.h"
-#include "uci/type/SubjectType.h"
-#include "uci/type/VisibleString1024Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DateTimeType.h"
+#include "NotificationID_Type.h"
+#include "NotificationSeverityEnum.h"
+#include "NotificationSourceType.h"
+#include "NotificationStateEnum.h"
+#include "SubjectType.h"
+#include "VisibleString1024Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

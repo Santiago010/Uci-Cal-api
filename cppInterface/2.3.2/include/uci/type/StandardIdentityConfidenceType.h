@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_STANDARDIDENTITYCONFIDENCETYPE_H
 #define UCI_TYPE_STANDARDIDENTITYCONFIDENCETYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/ExerciseIdentityType.h"
-#include "uci/type/PercentType.h"
-#include "uci/type/SpecialIdentityEnum.h"
-#include "uci/type/StandardIdentityType.h"
+#include "../base/export.h"
+#include "ExerciseIdentityType.h"
+#include "PercentType.h"
+#include "SpecialIdentityEnum.h"
+#include "StandardIdentityType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

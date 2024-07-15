@@ -36,8 +36,8 @@
 #ifndef UCI_TYPE_COMPRESSIONRATIOSETTINGSTYPE_H
 #define UCI_TYPE_COMPRESSIONRATIOSETTINGSTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/FloatMinMaxType.h"
+#include "../base/export.h"
+#include "FloatMinMaxType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

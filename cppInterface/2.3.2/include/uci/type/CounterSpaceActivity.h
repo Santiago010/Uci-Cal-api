@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_COUNTERSPACEACTIVITY_H
 #define UCI_TYPE_COUNTERSPACEACTIVITY_H
 
-#include "uci/type/CounterSpaceActivityMT.h"
+#include "CounterSpaceActivityMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

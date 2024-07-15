@@ -41,14 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/ActionTypeEnum.h"
-#include "asb_uci/type/CapabilityTypeEnum.h"
-#include "asb_uci/type/CommandableCapabilityDeclarationType.h"
-#include "asb_uci/type/EffectMessageOutputsEnum.h"
-#include "asb_uci/type/EffectTypeEnum.h"
-#include "asb_uci/type/TaskTypeEnum.h"
-#include "uci/type/EffectCapabilityType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/ActionTypeEnum.h"
+#include "../../../include/asb_uci/type/CapabilityTypeEnum.h"
+#include "../../../include/asb_uci/type/CommandableCapabilityDeclarationType.h"
+#include "../../../include/asb_uci/type/EffectMessageOutputsEnum.h"
+#include "../../../include/asb_uci/type/EffectTypeEnum.h"
+#include "../../../include/asb_uci/type/TaskTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EffectCapabilityType.h"
 
 /**  */
 namespace asb_uci {

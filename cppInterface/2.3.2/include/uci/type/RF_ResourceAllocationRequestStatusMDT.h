@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_RF_RESOURCEALLOCATIONREQUESTSTATUSMDT_H
 #define UCI_TYPE_RF_RESOURCEALLOCATIONREQUESTSTATUSMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CannotComplyType.h"
-#include "uci/type/RequestStatusBaseType.h"
-#include "uci/type/ResourceAllocationStatusEnum.h"
+#include "../base/BoundedList.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "CannotComplyType.h"
+#include "RequestStatusBaseType.h"
+#include "ResourceAllocationStatusEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

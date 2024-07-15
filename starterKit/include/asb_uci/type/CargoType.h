@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/CargoPackagingEnum.h"
-#include "asb_uci/type/MassType.h"
-#include "uci/type/CargoType.h"
+#include "../../../include/asb_uci/type/CargoPackagingEnum.h"
+#include "../../../include/asb_uci/type/MassType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CargoType.h"
 
 /**  */
 namespace asb_uci {

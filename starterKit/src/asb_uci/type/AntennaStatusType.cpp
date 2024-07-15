@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/AntennaStatusType.h"
+#include "../../../include/asb_uci/type/AntennaStatusType.h"
 
 #include <memory>
 #include <string>
@@ -41,19 +41,19 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AntennaPerformanceProfileType.h"
-#include "asb_uci/type/AntennaResourceInstanceStatusType.h"
-#include "asb_uci/type/CapabilityID_Type.h"
-#include "asb_uci/type/ResourceAllocatorSupportedActivitiesType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AntennaPerformanceProfileType.h"
-#include "uci/type/AntennaResourceInstanceStatusType.h"
-#include "uci/type/AntennaStatusType.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/ResourceAllocatorSupportedActivitiesType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/AntennaPerformanceProfileType.h"
+#include "../../../include/asb_uci/type/AntennaResourceInstanceStatusType.h"
+#include "../../../include/asb_uci/type/CapabilityID_Type.h"
+#include "../../../include/asb_uci/type/ResourceAllocatorSupportedActivitiesType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AntennaPerformanceProfileType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AntennaResourceInstanceStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AntennaStatusType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ResourceAllocatorSupportedActivitiesType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

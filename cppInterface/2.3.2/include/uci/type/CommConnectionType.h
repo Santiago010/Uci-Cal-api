@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_COMMCONNECTIONTYPE_H
 #define UCI_TYPE_COMMCONNECTIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/FloatAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CommModulationTypeEnum.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/FrequencyType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/FloatAccessor.h"
+#include "../base/export.h"
+#include "CommModulationTypeEnum.h"
+#include "DateTimeType.h"
+#include "DurationType.h"
+#include "ForeignKeyType.h"
+#include "FrequencyType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

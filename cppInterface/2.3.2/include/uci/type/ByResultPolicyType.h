@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_BYRESULTPOLICYTYPE_H
 #define UCI_TYPE_BYRESULTPOLICYTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/ApprovalPolicyBaseType.h"
-#include "uci/type/PlanningByResultTriggerType.h"
+#include "../base/export.h"
+#include "ApprovalPolicyBaseType.h"
+#include "PlanningByResultTriggerType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

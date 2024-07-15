@@ -36,19 +36,19 @@
 #ifndef UCI_TYPE_NAMEVALUEPAIRVALUETYPE_H
 #define UCI_TYPE_NAMEVALUEPAIRVALUETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/ByteAccessor.h"
-#include "uci/base/DoubleAccessor.h"
-#include "uci/base/FloatAccessor.h"
-#include "uci/base/IntAccessor.h"
-#include "uci/base/LongAccessor.h"
-#include "uci/base/ShortAccessor.h"
-#include "uci/base/UnsignedByteAccessor.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/UnsignedShortAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/VisibleString256Type.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/ByteAccessor.h"
+#include "../base/DoubleAccessor.h"
+#include "../base/FloatAccessor.h"
+#include "../base/IntAccessor.h"
+#include "../base/LongAccessor.h"
+#include "../base/ShortAccessor.h"
+#include "../base/UnsignedByteAccessor.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/UnsignedShortAccessor.h"
+#include "../base/export.h"
+#include "VisibleString256Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

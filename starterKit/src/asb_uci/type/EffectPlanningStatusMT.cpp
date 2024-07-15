@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/EffectPlanningStatusMT.h"
+#include "../../../include/asb_uci/type/EffectPlanningStatusMT.h"
 
 #include <memory>
 #include <string>
@@ -41,15 +41,15 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/base/Reader.h"
-#include "asb_uci/base/Writer.h"
-#include "asb_uci/type/EffectPlanningStatusMDT.h"
-#include "asb_uci/type/MessageType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/EffectPlanningStatusMDT.h"
-#include "uci/type/EffectPlanningStatusMT.h"
+#include "../../../include/asb_uci/base/Reader.h"
+#include "../../../include/asb_uci/base/Writer.h"
+#include "../../../include/asb_uci/type/EffectPlanningStatusMDT.h"
+#include "../../../include/asb_uci/type/MessageType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EffectPlanningStatusMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EffectPlanningStatusMT.h"
 
 /**  */
 namespace asb_uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/RequirementOptionsMDT.h"
+#include "../../../include/asb_uci/type/RequirementOptionsMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,20 +41,20 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/DuplicateRequirementType.h"
-#include "asb_uci/type/RequirementInstanceID_ChoiceType.h"
-#include "asb_uci/type/RequirementOptionsID_Type.h"
-#include "asb_uci/type/RequirementOptionsInputsType.h"
-#include "asb_uci/type/RequirementOptionsType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/DuplicateRequirementType.h"
-#include "uci/type/RequirementInstanceID_ChoiceType.h"
-#include "uci/type/RequirementOptionsID_Type.h"
-#include "uci/type/RequirementOptionsInputsType.h"
-#include "uci/type/RequirementOptionsMDT.h"
-#include "uci/type/RequirementOptionsType.h"
+#include "../../../include/asb_uci/type/DuplicateRequirementType.h"
+#include "../../../include/asb_uci/type/RequirementInstanceID_ChoiceType.h"
+#include "../../../include/asb_uci/type/RequirementOptionsID_Type.h"
+#include "../../../include/asb_uci/type/RequirementOptionsInputsType.h"
+#include "../../../include/asb_uci/type/RequirementOptionsType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DuplicateRequirementType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RequirementInstanceID_ChoiceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RequirementOptionsID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RequirementOptionsInputsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RequirementOptionsMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RequirementOptionsType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_PO_CAPABILITYTYPE_H
 #define UCI_TYPE_PO_CAPABILITYTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CommandableCapabilityDeclarationType.h"
-#include "uci/type/ComponentID_Type.h"
-#include "uci/type/PO_CapabilityEnum.h"
-#include "uci/type/PO_CapabilityOptionsType.h"
-#include "uci/type/PO_MessageOutputsEnum.h"
-#include "uci/type/SubCapabilityID_Type.h"
-#include "uci/type/TrackOptionsID_Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CommandableCapabilityDeclarationType.h"
+#include "ComponentID_Type.h"
+#include "PO_CapabilityEnum.h"
+#include "PO_CapabilityOptionsType.h"
+#include "PO_MessageOutputsEnum.h"
+#include "SubCapabilityID_Type.h"
+#include "TrackOptionsID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

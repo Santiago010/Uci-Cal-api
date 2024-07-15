@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_ORBITMODIFICATIONREQUESTMDT_H
 #define UCI_TYPE_ORBITMODIFICATIONREQUESTMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/OrbitModificationDetailsType.h"
-#include "uci/type/OrbitPlanID_Type.h"
-#include "uci/type/PlanInitiationSourceEnum.h"
-#include "uci/type/RequestBaseType.h"
+#include "../base/export.h"
+#include "OrbitModificationDetailsType.h"
+#include "OrbitPlanID_Type.h"
+#include "PlanInitiationSourceEnum.h"
+#include "RequestBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

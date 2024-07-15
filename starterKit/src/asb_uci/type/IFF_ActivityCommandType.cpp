@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/IFF_ActivityCommandType.h"
+#include "../../../include/asb_uci/type/IFF_ActivityCommandType.h"
 
 #include <memory>
 #include <string>
@@ -41,31 +41,31 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ActivityCommandBaseType.h"
-#include "asb_uci/type/AirTargetVolumeCommandType.h"
-#include "asb_uci/type/AirTargetVolumeType.h"
-#include "asb_uci/type/DependentActivityType.h"
-#include "asb_uci/type/IFF_CollectionConstraintsType.h"
-#include "asb_uci/type/IFF_InterrogatorTransponderModesType.h"
-#include "asb_uci/type/ProductOutputCommandBasicType.h"
-#include "asb_uci/type/RadarCollectionOptionsType.h"
-#include "asb_uci/type/RepetitionType.h"
-#include "asb_uci/type/ResourceSelectionType.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AirTargetVolumeCommandType.h"
-#include "uci/type/AirTargetVolumeType.h"
-#include "uci/type/DependentActivityType.h"
-#include "uci/type/IFF_ActivityCommandType.h"
-#include "uci/type/IFF_CollectionConstraintsType.h"
-#include "uci/type/IFF_InterrogatorTransponderModesType.h"
-#include "uci/type/ProductOutputCommandBasicType.h"
-#include "uci/type/RadarCollectionOptionsType.h"
-#include "uci/type/RepetitionType.h"
-#include "uci/type/ResourceSelectionType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/ActivityCommandBaseType.h"
+#include "../../../include/asb_uci/type/AirTargetVolumeCommandType.h"
+#include "../../../include/asb_uci/type/AirTargetVolumeType.h"
+#include "../../../include/asb_uci/type/DependentActivityType.h"
+#include "../../../include/asb_uci/type/IFF_CollectionConstraintsType.h"
+#include "../../../include/asb_uci/type/IFF_InterrogatorTransponderModesType.h"
+#include "../../../include/asb_uci/type/ProductOutputCommandBasicType.h"
+#include "../../../include/asb_uci/type/RadarCollectionOptionsType.h"
+#include "../../../include/asb_uci/type/RepetitionType.h"
+#include "../../../include/asb_uci/type/ResourceSelectionType.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AirTargetVolumeCommandType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AirTargetVolumeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DependentActivityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IFF_ActivityCommandType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IFF_CollectionConstraintsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IFF_InterrogatorTransponderModesType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProductOutputCommandBasicType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RadarCollectionOptionsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RepetitionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ResourceSelectionType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

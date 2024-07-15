@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/SubsystemStatusMDT.h"
+#include "../../../include/asb_uci/type/SubsystemStatusMDT.h"
 
 #include <memory>
 #include <string>
@@ -41,31 +41,31 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/AboutType.h"
-#include "asb_uci/type/ComponentType.h"
-#include "asb_uci/type/ProcessingStatusEnum.h"
-#include "asb_uci/type/StateTransitionStatusEnum.h"
-#include "asb_uci/type/SubsystemEnabledSettingType.h"
-#include "asb_uci/type/SubsystemExtendedStatusPET.h"
-#include "asb_uci/type/SubsystemID_Type.h"
-#include "asb_uci/type/SubsystemStateEnum.h"
-#include "asb_uci/type/SubsystemSupportedSettingType.h"
-#include "asb_uci/type/VisibleString256Type.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/AboutType.h"
-#include "uci/type/ComponentType.h"
-#include "uci/type/ProcessingStatusEnum.h"
-#include "uci/type/StateTransitionStatusEnum.h"
-#include "uci/type/SubsystemEnabledSettingType.h"
-#include "uci/type/SubsystemExtendedStatusPET.h"
-#include "uci/type/SubsystemID_Type.h"
-#include "uci/type/SubsystemStateEnum.h"
-#include "uci/type/SubsystemStatusMDT.h"
-#include "uci/type/SubsystemSupportedSettingType.h"
-#include "uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/type/AboutType.h"
+#include "../../../include/asb_uci/type/ComponentType.h"
+#include "../../../include/asb_uci/type/ProcessingStatusEnum.h"
+#include "../../../include/asb_uci/type/StateTransitionStatusEnum.h"
+#include "../../../include/asb_uci/type/SubsystemEnabledSettingType.h"
+#include "../../../include/asb_uci/type/SubsystemExtendedStatusPET.h"
+#include "../../../include/asb_uci/type/SubsystemID_Type.h"
+#include "../../../include/asb_uci/type/SubsystemStateEnum.h"
+#include "../../../include/asb_uci/type/SubsystemSupportedSettingType.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AboutType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ComponentType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ProcessingStatusEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/StateTransitionStatusEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemEnabledSettingType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemExtendedStatusPET.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemStateEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemStatusMDT.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemSupportedSettingType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VisibleString256Type.h"
 
 /**  */
 namespace asb_uci {
@@ -172,18 +172,18 @@ uci::type::SubsystemStatusMDT& SubsystemStatusMDT::setSubsystemState(uci::type::
 }
 
 
-uci::type::VisibleString256Type& SubsystemStatusMDT::getSubsystemStateDescription_() const {
+std::string& SubsystemStatusMDT::getSubsystemStateDescription_() const {
   if (subsystemStateDescription_Accessor) {
     return *subsystemStateDescription_Accessor;
   }
   throw uci::base::UCIException("Error in getSubsystemStateDescription(): An attempt was made to get an optional field that was not enabled, call hasSubsystemStateDescription() to determine if it is safe to call getSubsystemStateDescription()");
 }
 
-const uci::type::VisibleString256Type& SubsystemStatusMDT::getSubsystemStateDescription() const {
+const std::string& SubsystemStatusMDT::getSubsystemStateDescription() const {
   return getSubsystemStateDescription_();
 }
 
-uci::type::VisibleString256Type& SubsystemStatusMDT::getSubsystemStateDescription() {
+std::string& SubsystemStatusMDT::getSubsystemStateDescription() {
   return getSubsystemStateDescription_();
 }
 
@@ -196,7 +196,7 @@ uci::type::SubsystemStatusMDT& SubsystemStatusMDT::setSubsystemStateDescription(
 }
 
 uci::type::SubsystemStatusMDT& SubsystemStatusMDT::setSubsystemStateDescription(const char* value) {
-  enableSubsystemStateDescription().setStringValue(value);
+  // enableSubsystemStateDescription().setStringValue(value);
   return *this;
 }
 
@@ -204,9 +204,9 @@ bool SubsystemStatusMDT::hasSubsystemStateDescription() const noexcept {
   return static_cast<bool>(subsystemStateDescription_Accessor);
 }
 
-uci::type::VisibleString256Type& SubsystemStatusMDT::enableSubsystemStateDescription(uci::base::accessorType::AccessorType type) {
+std::string& SubsystemStatusMDT::enableSubsystemStateDescription(uci::base::accessorType::AccessorType type) {
   if (!subsystemStateDescription_Accessor) {
-    subsystemStateDescription_Accessor = VisibleString256Type::create(type);
+    subsystemStateDescription_Accessor = boost::make_unique<std::string>("");
   }
   return *subsystemStateDescription_Accessor;
 }
@@ -523,7 +523,8 @@ std::string SubsystemStatusMDT::serialize(const uci::type::SubsystemStatusMDT& a
   SubsystemID_Type::serialize(accessor.getSubsystemID(), node, SubsystemStatusMDT_Names::SubsystemID_Name);
   SubsystemStateEnum::serialize(accessor.getSubsystemState(), node, SubsystemStatusMDT_Names::SubsystemState_Name, false);
   if (accessor.hasSubsystemStateDescription()) {
-    asb_uci::util::SerializationHelpers::serializeString(accessor.getSubsystemStateDescription(), node, SubsystemStatusMDT_Names::SubsystemStateDescription_Name);
+    // TODO:quite esta parte porque getSubsystemStateDescription devuelve un string y es no lo recibe serializeString
+    // asb_uci::util::SerializationHelpers::serializeString(accessor.getSubsystemStateDescription(), node, SubsystemStatusMDT_Names::SubsystemStateDescription_Name);
   }
   {
     const uci::type::SubsystemStatusMDT::EnabledSetting& boundedList = accessor.getEnabledSetting();

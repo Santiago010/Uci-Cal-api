@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_SUBSYSTEMACTIVECALIBRATIONTYPE_H
 #define UCI_TYPE_SUBSYSTEMACTIVECALIBRATIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CalibrationID_Type.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/PercentType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CalibrationID_Type.h"
+#include "DateTimeType.h"
+#include "PercentType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

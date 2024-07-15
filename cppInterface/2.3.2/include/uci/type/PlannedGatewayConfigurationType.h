@@ -36,21 +36,21 @@
 #ifndef UCI_TYPE_PLANNEDGATEWAYCONFIGURATIONTYPE_H
 #define UCI_TYPE_PLANNEDGATEWAYCONFIGURATIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ActivityID_Type.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/CommConfigurationID_Type.h"
-#include "uci/type/CommConfigurationStateEnum.h"
-#include "uci/type/CommProfileID_Type.h"
-#include "uci/type/GatewayConfigurationPET.h"
-#include "uci/type/GatewayLinkDestinationType.h"
-#include "uci/type/MDF_CommandType.h"
-#include "uci/type/MessageConfigurationType.h"
-#include "uci/type/ProductDisseminationDestinationID_Type.h"
-#include "uci/type/ServiceID_Type.h"
-#include "uci/type/SystemID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ActivityID_Type.h"
+#include "CapabilityID_Type.h"
+#include "CommConfigurationID_Type.h"
+#include "CommConfigurationStateEnum.h"
+#include "CommProfileID_Type.h"
+#include "GatewayConfigurationPET.h"
+#include "GatewayLinkDestinationType.h"
+#include "MDF_CommandType.h"
+#include "MessageConfigurationType.h"
+#include "ProductDisseminationDestinationID_Type.h"
+#include "ServiceID_Type.h"
+#include "SystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

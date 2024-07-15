@@ -36,8 +36,8 @@
 #ifndef UCI_TYPE_EA_SETTINGSCOMMANDSTATUSMDT_H
 #define UCI_TYPE_EA_SETTINGSCOMMANDSTATUSMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/CapabilitySettingsCommandStatusBaseType.h"
+#include "../base/export.h"
+#include "CapabilitySettingsCommandStatusBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

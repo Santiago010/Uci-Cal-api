@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_AMTI_CAPABILITYTYPE_H
 #define UCI_TYPE_AMTI_CAPABILITYTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AMTI_CapabilityEnum.h"
-#include "uci/type/AMTI_CapabilityOptionsType.h"
-#include "uci/type/AMTI_MessageOutputsEnum.h"
-#include "uci/type/AMTI_SubCapabilityEnum.h"
-#include "uci/type/CommandableCapabilityDeclarationType.h"
-#include "uci/type/FrequencyRangeType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AMTI_CapabilityEnum.h"
+#include "AMTI_CapabilityOptionsType.h"
+#include "AMTI_MessageOutputsEnum.h"
+#include "AMTI_SubCapabilityEnum.h"
+#include "CommandableCapabilityDeclarationType.h"
+#include "FrequencyRangeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

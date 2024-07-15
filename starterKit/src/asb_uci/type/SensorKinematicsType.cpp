@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/SensorKinematicsType.h"
+#include "../../../include/asb_uci/type/SensorKinematicsType.h"
 
 #include <memory>
 #include <string>
@@ -41,18 +41,18 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/BoresightVelocityType.h"
-#include "asb_uci/type/ComponentID_Type.h"
-#include "asb_uci/type/OrientationType.h"
-#include "asb_uci/type/VelocityVelocityCovarianceCartesianType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/BoresightVelocityType.h"
-#include "uci/type/ComponentID_Type.h"
-#include "uci/type/OrientationType.h"
-#include "uci/type/SensorKinematicsType.h"
-#include "uci/type/VelocityVelocityCovarianceCartesianType.h"
+#include "../../../include/asb_uci/type/BoresightVelocityType.h"
+#include "../../../include/asb_uci/type/ComponentID_Type.h"
+#include "../../../include/asb_uci/type/OrientationType.h"
+#include "../../../include/asb_uci/type/VelocityVelocityCovarianceCartesianType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/BoresightVelocityType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ComponentID_Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrientationType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SensorKinematicsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/VelocityVelocityCovarianceCartesianType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_DECIBELNONNEGATIVETYPE_H
 #define UCI_TYPE_DECIBELNONNEGATIVETYPE_H
 
-#include "uci/type/DecibelType.h"
+#include "DecibelType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_COMMTERMINALPLANOVERRIDEREQUESTSTATUSMDT_H
 #define UCI_TYPE_COMMTERMINALPLANOVERRIDEREQUESTSTATUSMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CommTerminalPlanEffectivityActivationStatusType.h"
-#include "uci/type/OperatorCommTerminalDesignationStatusType.h"
-#include "uci/type/RequestStatusBaseType.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CommTerminalPlanEffectivityActivationStatusType.h"
+#include "OperatorCommTerminalDesignationStatusType.h"
+#include "RequestStatusBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_EARTHORIENTATIONPARAMETERS_H
 #define UCI_TYPE_EARTHORIENTATIONPARAMETERS_H
 
-#include "uci/type/EarthOrientationParametersMT.h"
+#include "EarthOrientationParametersMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

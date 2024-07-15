@@ -36,17 +36,17 @@
 #ifndef UCI_TYPE_REFERENCECAPABILITYTAXONOMYTYPE_H
 #define UCI_TYPE_REFERENCECAPABILITYTAXONOMYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ActionTypeEnum.h"
-#include "uci/type/CommCapabilityEnum.h"
-#include "uci/type/CyberTypeEnum.h"
-#include "uci/type/EffectTypeEnum.h"
-#include "uci/type/EnvironmentPairingEnum.h"
-#include "uci/type/IdentificationTypeEnum.h"
-#include "uci/type/SensingTypeEnum.h"
-#include "uci/type/WeaponTypeEnum.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ActionTypeEnum.h"
+#include "CommCapabilityEnum.h"
+#include "CyberTypeEnum.h"
+#include "EffectTypeEnum.h"
+#include "EnvironmentPairingEnum.h"
+#include "IdentificationTypeEnum.h"
+#include "SensingTypeEnum.h"
+#include "WeaponTypeEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

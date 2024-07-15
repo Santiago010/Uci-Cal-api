@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_AIRSAMPLECOMMANDSTATUS_H
 #define UCI_TYPE_AIRSAMPLECOMMANDSTATUS_H
 
-#include "uci/type/AirSampleCommandStatusMT.h"
+#include "AirSampleCommandStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

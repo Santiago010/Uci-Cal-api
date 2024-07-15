@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_SENSORCHARACTERIZATIONCHOICETYPE_H
 #define UCI_TYPE_SENSORCHARACTERIZATIONCHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CharacterizationChoiceType.h"
-#include "uci/type/IdentificationVerificationCharacterizationType.h"
-#include "uci/type/SatelliteOperationsChangesCharacterizationType.h"
-#include "uci/type/StabilityCharacterizationType.h"
-#include "uci/type/StructureAssessmentCharacterizationType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CharacterizationChoiceType.h"
+#include "IdentificationVerificationCharacterizationType.h"
+#include "SatelliteOperationsChangesCharacterizationType.h"
+#include "StabilityCharacterizationType.h"
+#include "StructureAssessmentCharacterizationType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

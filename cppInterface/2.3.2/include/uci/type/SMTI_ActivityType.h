@@ -36,17 +36,17 @@
 #ifndef UCI_TYPE_SMTI_ACTIVITYTYPE_H
 #define UCI_TYPE_SMTI_ACTIVITYTYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ForeignKeyType.h"
-#include "uci/type/MTI_ActivityStatusDetailType.h"
-#include "uci/type/MultistaticModeOptionsEmployedType.h"
-#include "uci/type/RadarPointingTargetType.h"
-#include "uci/type/RepetitionType.h"
-#include "uci/type/SMTI_PredictedCollectionsType.h"
-#include "uci/type/SMTI_SubCapabilityEnum.h"
-#include "uci/type/SharedRF_ApertureActivityBaseType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ForeignKeyType.h"
+#include "MTI_ActivityStatusDetailType.h"
+#include "MultistaticModeOptionsEmployedType.h"
+#include "RadarPointingTargetType.h"
+#include "RepetitionType.h"
+#include "SMTI_PredictedCollectionsType.h"
+#include "SMTI_SubCapabilityEnum.h"
+#include "SharedRF_ApertureActivityBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

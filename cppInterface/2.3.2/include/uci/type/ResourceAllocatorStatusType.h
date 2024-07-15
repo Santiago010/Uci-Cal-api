@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_RESOURCEALLOCATORSTATUSTYPE_H
 #define UCI_TYPE_RESOURCEALLOCATORSTATUSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ResourceAllocatorConstituentIdentifierType.h"
-#include "uci/type/ResourceAllocatorSupportedActivitiesType.h"
-#include "uci/type/ResourceAllocatorSystemThreadStatusType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ResourceAllocatorConstituentIdentifierType.h"
+#include "ResourceAllocatorSupportedActivitiesType.h"
+#include "ResourceAllocatorSystemThreadStatusType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

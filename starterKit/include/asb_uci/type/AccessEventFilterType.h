@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AccessEffortEnum.h"
-#include "uci/type/AccessEventFilterType.h"
+#include "../../../include/asb_uci/type/AccessEffortEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/AccessEventFilterType.h"
 
 /**  */
 namespace asb_uci {

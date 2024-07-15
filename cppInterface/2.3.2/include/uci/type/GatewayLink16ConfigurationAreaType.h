@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_GATEWAYLINK16CONFIGURATIONAREATYPE_H
 #define UCI_TYPE_GATEWAYLINK16CONFIGURATIONAREATYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/GatewayLink16ConfigurationAnnulusType.h"
-#include "uci/type/GatewayLink16ConfigurationCircleType.h"
-#include "uci/type/GatewayLink16ConfigurationCircularSectorType.h"
-#include "uci/type/GatewayLink16ConfigurationLineType.h"
-#include "uci/type/GatewayLink16ConfigurationRectangleType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "GatewayLink16ConfigurationAnnulusType.h"
+#include "GatewayLink16ConfigurationCircleType.h"
+#include "GatewayLink16ConfigurationCircularSectorType.h"
+#include "GatewayLink16ConfigurationLineType.h"
+#include "GatewayLink16ConfigurationRectangleType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

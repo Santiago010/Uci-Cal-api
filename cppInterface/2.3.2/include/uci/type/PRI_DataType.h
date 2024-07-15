@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_PRI_DATATYPE_H
 #define UCI_TYPE_PRI_DATATYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/UnsignedIntAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/EmptyType.h"
-#include "uci/type/PRI_AgilePatternEnum.h"
-#include "uci/type/PRI_DataBaseType.h"
-#include "uci/type/PRI_MeasurementEnum.h"
-#include "uci/type/PRI_SwitchingPatternEnum.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/UnsignedIntAccessor.h"
+#include "../base/export.h"
+#include "DurationType.h"
+#include "EmptyType.h"
+#include "PRI_AgilePatternEnum.h"
+#include "PRI_DataBaseType.h"
+#include "PRI_MeasurementEnum.h"
+#include "PRI_SwitchingPatternEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

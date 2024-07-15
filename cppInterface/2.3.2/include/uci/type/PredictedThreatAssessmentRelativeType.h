@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_PREDICTEDTHREATASSESSMENTRELATIVETYPE_H
 #define UCI_TYPE_PREDICTEDTHREATASSESSMENTRELATIVETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/InertialStateRelativeType.h"
-#include "uci/type/ThreatAssessmentSystemType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "InertialStateRelativeType.h"
+#include "ThreatAssessmentSystemType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

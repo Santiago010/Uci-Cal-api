@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/DoubleNonNegativeType.h"
-#include "asb_uci/type/MeasurementStatusEnum.h"
-#include "uci/type/SignalEmitterKinematicsType.h"
+#include "../../../include/asb_uci/type/DoubleNonNegativeType.h"
+#include "../../../include/asb_uci/type/MeasurementStatusEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SignalEmitterKinematicsType.h"
 
 /**  */
 namespace asb_uci {

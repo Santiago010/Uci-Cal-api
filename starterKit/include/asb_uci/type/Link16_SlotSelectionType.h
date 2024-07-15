@@ -36,8 +36,8 @@
 #ifndef ASB_UCI_TYPE_LINK16_SLOTSELECTIONTYPE_H
 #define ASB_UCI_TYPE_LINK16_SLOTSELECTIONTYPE_H
 
-#include "asb_uci/base/UnsignedByteAccessor.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/base/UnsignedByteAccessor.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

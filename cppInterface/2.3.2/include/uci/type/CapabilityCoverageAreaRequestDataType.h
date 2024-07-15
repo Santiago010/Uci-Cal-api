@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_CAPABILITYCOVERAGEAREAREQUESTDATATYPE_H
 #define UCI_TYPE_CAPABILITYCOVERAGEAREAREQUESTDATATYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityCoverageAreaFactorEnum.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/OrientationType.h"
-#include "uci/type/Point3D_Type.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilityCoverageAreaFactorEnum.h"
+#include "CapabilityID_Type.h"
+#include "OrientationType.h"
+#include "Point3D_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

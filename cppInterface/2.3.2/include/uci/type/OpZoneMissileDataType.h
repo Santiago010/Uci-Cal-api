@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_OPZONEMISSILEDATATYPE_H
 #define UCI_TYPE_OPZONEMISSILEDATATYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/LaunchPointCalculationEnum.h"
-#include "uci/type/PercentRangeType.h"
-#include "uci/type/SpaceObjectEnum.h"
-#include "uci/type/TrackNumberOrEntityType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "LaunchPointCalculationEnum.h"
+#include "PercentRangeType.h"
+#include "SpaceObjectEnum.h"
+#include "TrackNumberOrEntityType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

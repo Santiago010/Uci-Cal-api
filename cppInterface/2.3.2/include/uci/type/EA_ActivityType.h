@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_EA_ACTIVITYTYPE_H
 #define UCI_TYPE_EA_ACTIVITYTYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ConsentEnum.h"
-#include "uci/type/EA_DetailsType.h"
-#include "uci/type/SharedRF_ApertureActivityBaseType.h"
-#include "uci/type/SystemID_Type.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ConsentEnum.h"
+#include "EA_DetailsType.h"
+#include "SharedRF_ApertureActivityBaseType.h"
+#include "SystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

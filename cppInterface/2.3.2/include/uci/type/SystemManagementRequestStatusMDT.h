@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_SYSTEMMANAGEMENTREQUESTSTATUSMDT_H
 #define UCI_TYPE_SYSTEMMANAGEMENTREQUESTSTATUSMDT_H
 
-#include "uci/base/export.h"
-#include "uci/type/RequestStatusBaseType.h"
-#include "uci/type/ServiceID_Type.h"
-#include "uci/type/SystemID_Type.h"
+#include "../base/export.h"
+#include "RequestStatusBaseType.h"
+#include "ServiceID_Type.h"
+#include "SystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_MDF_COMMANDSUBCATEGORYTYPE_H
 #define UCI_TYPE_MDF_COMMANDSUBCATEGORYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/MDF_SubCategoryFileID_Type.h"
-#include "uci/type/MDF_SubCategoryID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "MDF_SubCategoryFileID_Type.h"
+#include "MDF_SubCategoryID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

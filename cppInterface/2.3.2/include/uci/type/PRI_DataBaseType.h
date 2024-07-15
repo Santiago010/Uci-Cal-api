@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_PRI_DATABASETYPE_H
 #define UCI_TYPE_PRI_DATABASETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DurationType.h"
-#include "uci/type/PRI_TypeEnum.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DurationType.h"
+#include "PRI_TypeEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

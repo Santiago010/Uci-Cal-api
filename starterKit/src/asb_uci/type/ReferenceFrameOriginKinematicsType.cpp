@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/ReferenceFrameOriginKinematicsType.h"
+#include "../../../include/asb_uci/type/ReferenceFrameOriginKinematicsType.h"
 
 #include <memory>
 #include <string>
@@ -41,14 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/DetailedKinematicsErrorType.h"
-#include "asb_uci/type/DetailedReferenceKinematicsType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/DetailedKinematicsErrorType.h"
-#include "uci/type/DetailedReferenceKinematicsType.h"
-#include "uci/type/ReferenceFrameOriginKinematicsType.h"
+#include "../../../include/asb_uci/type/DetailedKinematicsErrorType.h"
+#include "../../../include/asb_uci/type/DetailedReferenceKinematicsType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DetailedKinematicsErrorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/DetailedReferenceKinematicsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ReferenceFrameOriginKinematicsType.h"
 
 /**  */
 namespace asb_uci {

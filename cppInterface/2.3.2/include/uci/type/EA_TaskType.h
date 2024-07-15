@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_EA_TASKTYPE_H
 #define UCI_TYPE_EA_TASKTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/EA_TaskProtectedAssetsType.h"
-#include "uci/type/EA_TaskRouteRequirementsType.h"
-#include "uci/type/EA_TaskThreatsType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "EA_TaskProtectedAssetsType.h"
+#include "EA_TaskRouteRequirementsType.h"
+#include "EA_TaskThreatsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

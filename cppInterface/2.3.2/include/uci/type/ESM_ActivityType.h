@@ -36,15 +36,15 @@
 #ifndef UCI_TYPE_ESM_ACTIVITYTYPE_H
 #define UCI_TYPE_ESM_ACTIVITYTYPE_H
 
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ConsentEnum.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/ESM_ReceiveDwellType.h"
-#include "uci/type/ESM_SubCapabilityEnum.h"
-#include "uci/type/SharedRF_ApertureActivityBaseType.h"
-#include "uci/type/SubCapabilityDetailsType.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ConsentEnum.h"
+#include "DateTimeType.h"
+#include "ESM_ReceiveDwellType.h"
+#include "ESM_SubCapabilityEnum.h"
+#include "SharedRF_ApertureActivityBaseType.h"
+#include "SubCapabilityDetailsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

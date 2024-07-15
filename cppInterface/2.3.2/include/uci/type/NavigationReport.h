@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_NAVIGATIONREPORT_H
 #define UCI_TYPE_NAVIGATIONREPORT_H
 
-#include "uci/type/NavigationReportMT.h"
+#include "NavigationReportMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

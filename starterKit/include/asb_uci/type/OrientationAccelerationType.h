@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AngleRateType.h"
-#include "asb_uci/type/DateTimeType.h"
-#include "uci/type/OrientationAccelerationType.h"
+#include "../../../include/asb_uci/type/AngleRateType.h"
+#include "../../../include/asb_uci/type/DateTimeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OrientationAccelerationType.h"
 
 /**  */
 namespace asb_uci {

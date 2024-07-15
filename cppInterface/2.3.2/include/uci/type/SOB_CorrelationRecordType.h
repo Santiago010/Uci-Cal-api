@@ -36,18 +36,18 @@
 #ifndef UCI_TYPE_SOB_CORRELATIONRECORDTYPE_H
 #define UCI_TYPE_SOB_CORRELATIONRECORDTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/EOB_SignalType.h"
-#include "uci/type/IdentityConfidenceType.h"
-#include "uci/type/OB_CorrelationInputType.h"
-#include "uci/type/OrbitalEphemerisChoiceType.h"
-#include "uci/type/OrbitalKinematicsChoiceType.h"
-#include "uci/type/SOB_CorrelatedToType.h"
-#include "uci/type/SOB_CorrelationRecordID_Type.h"
-#include "uci/type/SOB_CorrelationTypeEnum.h"
-#include "uci/type/SecurityInformationType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DateTimeType.h"
+#include "EOB_SignalType.h"
+#include "IdentityConfidenceType.h"
+#include "OB_CorrelationInputType.h"
+#include "OrbitalEphemerisChoiceType.h"
+#include "OrbitalKinematicsChoiceType.h"
+#include "SOB_CorrelatedToType.h"
+#include "SOB_CorrelationRecordID_Type.h"
+#include "SOB_CorrelationTypeEnum.h"
+#include "SecurityInformationType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

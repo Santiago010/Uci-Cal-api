@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_PLANNINGINTERFACEDETAILSTYPE_H
 #define UCI_TYPE_PLANNINGINTERFACEDETAILSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ActionPlanProcessType.h"
-#include "uci/type/ActivityPlanProcessType.h"
-#include "uci/type/EffectPlanProcessType.h"
-#include "uci/type/MissionPlanProcessType.h"
-#include "uci/type/OrbitPlanProcessType.h"
-#include "uci/type/ResponsePlanProcessType.h"
-#include "uci/type/RoutePlanProcessType.h"
-#include "uci/type/TaskPlanProcessType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ActionPlanProcessType.h"
+#include "ActivityPlanProcessType.h"
+#include "EffectPlanProcessType.h"
+#include "MissionPlanProcessType.h"
+#include "OrbitPlanProcessType.h"
+#include "ResponsePlanProcessType.h"
+#include "RoutePlanProcessType.h"
+#include "TaskPlanProcessType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

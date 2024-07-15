@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_AO_COMPONENTSETTINGSTYPE_H
 #define UCI_TYPE_AO_COMPONENTSETTINGSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/AO_CodeType.h"
-#include "uci/type/ComponentID_Type.h"
-#include "uci/type/PowerType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "AO_CodeType.h"
+#include "ComponentID_Type.h"
+#include "PowerType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

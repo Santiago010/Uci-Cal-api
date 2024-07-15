@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SAR_COMMAND_H
 #define UCI_TYPE_SAR_COMMAND_H
 
-#include "uci/type/SAR_CommandMT.h"
+#include "SAR_CommandMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

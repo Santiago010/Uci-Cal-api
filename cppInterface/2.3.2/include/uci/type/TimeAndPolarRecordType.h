@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_TIMEANDPOLARRECORDTYPE_H
 #define UCI_TYPE_TIMEANDPOLARRECORDTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/DateTimeRangeType.h"
-#include "uci/type/TimeAndPolarDataType.h"
+#include "../base/export.h"
+#include "DateTimeRangeType.h"
+#include "TimeAndPolarDataType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

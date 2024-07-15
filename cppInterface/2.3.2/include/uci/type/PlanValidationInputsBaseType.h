@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_PLANVALIDATIONINPUTSBASETYPE_H
 #define UCI_TYPE_PLANVALIDATIONINPUTSBASETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/PlanningProcessID_Type.h"
-#include "uci/type/TimeWindowType.h"
-#include "uci/type/WeatherAreaDataType.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "PlanningProcessID_Type.h"
+#include "TimeWindowType.h"
+#include "WeatherAreaDataType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

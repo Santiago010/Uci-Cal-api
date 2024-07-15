@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/AngleHalfType.h"
-#include "asb_uci/type/DistanceType.h"
-#include "uci/type/EmitterUncertaintyType.h"
+#include "../../../include/asb_uci/type/AngleHalfType.h"
+#include "../../../include/asb_uci/type/DistanceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EmitterUncertaintyType.h"
 
 /**  */
 namespace asb_uci {

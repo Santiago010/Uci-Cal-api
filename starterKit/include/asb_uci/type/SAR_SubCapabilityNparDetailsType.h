@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/SAR_ImagingPlaneEnum.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/SAR_SubCapabilityNparDetailsType.h"
+#include "../../../include/asb_uci/type/SAR_ImagingPlaneEnum.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SAR_SubCapabilityNparDetailsType.h"
 
 /**  */
 namespace asb_uci {

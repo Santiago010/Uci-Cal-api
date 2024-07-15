@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/RequirementTaxonomyType.h"
+#include "../../../include/asb_uci/type/RequirementTaxonomyType.h"
 
 #include <memory>
 #include <string>
@@ -41,24 +41,24 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/ActionTypeEnum.h"
-#include "asb_uci/type/CapabilityTypeEnum.h"
-#include "asb_uci/type/EffectTypeEnum.h"
-#include "asb_uci/type/ResponseTypeEnum.h"
-#include "asb_uci/type/TaskTypeEnum.h"
-#include "asb_uci/util/DerivedTypesCopier.h"
-#include "asb_uci/util/DerivedTypesCreator.h"
-#include "asb_uci/util/DerivedTypesDeserializer.h"
-#include "asb_uci/util/DerivedTypesSerializer.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/ActionTypeEnum.h"
-#include "uci/type/CapabilityTypeEnum.h"
-#include "uci/type/EffectTypeEnum.h"
-#include "uci/type/RequirementTaxonomyType.h"
-#include "uci/type/ResponseTypeEnum.h"
-#include "uci/type/TaskTypeEnum.h"
+#include "../../../include/asb_uci/type/ActionTypeEnum.h"
+#include "../../../include/asb_uci/type/CapabilityTypeEnum.h"
+#include "../../../include/asb_uci/type/EffectTypeEnum.h"
+#include "../../../include/asb_uci/type/ResponseTypeEnum.h"
+#include "../../../include/asb_uci/type/TaskTypeEnum.h"
+#include "../../../include/asb_uci/util/DerivedTypesCopier.h"
+#include "../../../include/asb_uci/util/DerivedTypesCreator.h"
+#include "../../../include/asb_uci/util/DerivedTypesDeserializer.h"
+#include "../../../include/asb_uci/util/DerivedTypesSerializer.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ActionTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CapabilityTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/EffectTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/RequirementTaxonomyType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ResponseTypeEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TaskTypeEnum.h"
 
 /**  */
 namespace asb_uci {

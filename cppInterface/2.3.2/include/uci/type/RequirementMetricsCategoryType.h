@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_REQUIREMENTMETRICSCATEGORYTYPE_H
 #define UCI_TYPE_REQUIREMENTMETRICSCATEGORYTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CollectionTaskMetricsType.h"
-#include "uci/type/CommRelayTaskMetricsType.h"
-#include "uci/type/StrikeTaskMetricsType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "CollectionTaskMetricsType.h"
+#include "CommRelayTaskMetricsType.h"
+#include "StrikeTaskMetricsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

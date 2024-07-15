@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/DataRateDataType.h"
-#include "asb_uci/type/ModulationEnum.h"
-#include "uci/type/ModRateDataType.h"
+#include "../../../include/asb_uci/type/DataRateDataType.h"
+#include "../../../include/asb_uci/type/ModulationEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ModRateDataType.h"
 
 /**  */
 namespace asb_uci {

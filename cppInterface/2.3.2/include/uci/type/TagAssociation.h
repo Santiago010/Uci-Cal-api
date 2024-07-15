@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_TAGASSOCIATION_H
 #define UCI_TYPE_TAGASSOCIATION_H
 
-#include "uci/type/TagAssociationMT.h"
+#include "TagAssociationMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

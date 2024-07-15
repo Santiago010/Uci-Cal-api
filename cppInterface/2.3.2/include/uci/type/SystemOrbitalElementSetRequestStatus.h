@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SYSTEMORBITALELEMENTSETREQUESTSTATUS_H
 #define UCI_TYPE_SYSTEMORBITALELEMENTSETREQUESTSTATUS_H
 
-#include "uci/type/SystemOrbitalElementSetRequestStatusMT.h"
+#include "SystemOrbitalElementSetRequestStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_IFF_ACTIVEMODESTYPE_H
 #define UCI_TYPE_IFF_ACTIVEMODESTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/IFF_ActivityTransponderType.h"
-#include "uci/type/IFF_ModeSelectionType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "IFF_ActivityTransponderType.h"
+#include "IFF_ModeSelectionType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

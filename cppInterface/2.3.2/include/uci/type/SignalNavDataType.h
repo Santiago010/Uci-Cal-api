@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_SIGNALNAVDATATYPE_H
 #define UCI_TYPE_SIGNALNAVDATATYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/KinematicsFixedType.h"
-#include "uci/type/SensorKinematicsType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DateTimeType.h"
+#include "KinematicsFixedType.h"
+#include "SensorKinematicsType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

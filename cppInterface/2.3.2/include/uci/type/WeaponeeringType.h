@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_WEAPONEERINGTYPE_H
 #define UCI_TYPE_WEAPONEERINGTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/ApproachConditionsType.h"
-#include "uci/type/ImpactConditionsType.h"
-#include "uci/type/WeaponeeringStoreType.h"
-#include "uci/type/WeaponeeringTargetInfoType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "ApproachConditionsType.h"
+#include "ImpactConditionsType.h"
+#include "WeaponeeringStoreType.h"
+#include "WeaponeeringTargetInfoType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

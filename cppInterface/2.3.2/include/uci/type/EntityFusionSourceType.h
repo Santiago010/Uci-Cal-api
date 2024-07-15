@@ -36,16 +36,16 @@
 #ifndef UCI_TYPE_ENTITYFUSIONSOURCETYPE_H
 #define UCI_TYPE_ENTITYFUSIONSOURCETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BooleanAccessor.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityID_Type.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/EntityContributorID_ChoiceType.h"
-#include "uci/type/EntitySourceEnum.h"
-#include "uci/type/IdentityConfidenceType.h"
-#include "uci/type/PercentType.h"
-#include "uci/type/SystemID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/BooleanAccessor.h"
+#include "../base/export.h"
+#include "CapabilityID_Type.h"
+#include "DateTimeType.h"
+#include "EntityContributorID_ChoiceType.h"
+#include "EntitySourceEnum.h"
+#include "IdentityConfidenceType.h"
+#include "PercentType.h"
+#include "SystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

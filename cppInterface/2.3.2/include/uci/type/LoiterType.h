@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_LOITERTYPE_H
 #define UCI_TYPE_LOITERTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/HoverType.h"
-#include "uci/type/OrbitType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "HoverType.h"
+#include "OrbitType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

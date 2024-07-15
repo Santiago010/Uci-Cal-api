@@ -41,14 +41,14 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/DateTimeType.h"
-#include "asb_uci/type/LogSeverityEnum.h"
-#include "asb_uci/type/VisibleString1024Type.h"
-#include "asb_uci/type/VisibleString256Type.h"
-#include "asb_xs/type/binaryXmlSchemaPrimitives.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/LogMDT.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/DateTimeType.h"
+#include "../../../include/asb_uci/type/LogSeverityEnum.h"
+#include "../../../include/asb_uci/type/VisibleString1024Type.h"
+#include "../../../include/asb_uci/type/VisibleString256Type.h"
+#include "../../../include/asb_xs/type/binaryXmlSchemaPrimitives.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/LogMDT.h"
 
 /**  */
 namespace asb_uci {
@@ -328,13 +328,13 @@ public:
     *
     * @return The contents of the Label field
     */
-  const uci::type::VisibleString256Type& getLabel() const noexcept override;
+  const std::string& getLabel() const noexcept override;
 
   /** Returns the contents of the message's Label field
     *
     * @return The contents of the Label field
     */
-  uci::type::VisibleString256Type& getLabel() noexcept override;
+  std::string& getLabel() noexcept override;
 
   /** Sets the contents of the message's Label field
     *
@@ -471,7 +471,7 @@ private:
   std::unique_ptr<ComponentID> componentID_Accessor;
   std::unique_ptr<CapabilityID> capabilityID_Accessor;
   std::unique_ptr<LogSeverityEnum> severity_Accessor;
-  std::unique_ptr<VisibleString256Type> label_Accessor;
+  std::unique_ptr<std::string> label_Accessor;
   std::unique_ptr<VisibleString1024Type> details_Accessor;
   std::unique_ptr<asb_xs::HexBinary> data_Accessor;
 

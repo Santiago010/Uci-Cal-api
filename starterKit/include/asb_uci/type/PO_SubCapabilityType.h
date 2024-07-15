@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/PO_EnvironmentEnum.h"
-#include "asb_uci/type/SensorSpectrumEnum.h"
-#include "uci/type/PO_SubCapabilityType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/PO_EnvironmentEnum.h"
+#include "../../../include/asb_uci/type/SensorSpectrumEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PO_SubCapabilityType.h"
 
 /**  */
 namespace asb_uci {

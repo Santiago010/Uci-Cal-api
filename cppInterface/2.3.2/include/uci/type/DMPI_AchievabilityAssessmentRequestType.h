@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_DMPI_ACHIEVABILITYASSESSMENTREQUESTTYPE_H
 #define UCI_TYPE_DMPI_ACHIEVABILITYASSESSMENTREQUESTTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/AchievabilityAssessmentRequestPET.h"
-#include "uci/type/DMPI_ID_Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "AchievabilityAssessmentRequestPET.h"
+#include "DMPI_ID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

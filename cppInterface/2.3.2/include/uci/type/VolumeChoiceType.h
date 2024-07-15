@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_VOLUMECHOICETYPE_H
 #define UCI_TYPE_VOLUMECHOICETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/OpVolumeID_Type.h"
-#include "uci/type/OpVolumeType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "OpVolumeID_Type.h"
+#include "OpVolumeType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

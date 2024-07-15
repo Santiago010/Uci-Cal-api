@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/STANAG_4607_NationalityType.h"
-#include "asb_uci/type/STANAG_4607_PlatformIdentifierType.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/STANAG_4607_MissionType.h"
+#include "../../../include/asb_uci/type/STANAG_4607_NationalityType.h"
+#include "../../../include/asb_uci/type/STANAG_4607_PlatformIdentifierType.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/STANAG_4607_MissionType.h"
 
 /**  */
 namespace asb_uci {

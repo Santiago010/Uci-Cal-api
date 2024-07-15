@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_ORBITPLANPROCESSDESCRIPTIONTYPE_H
 #define UCI_TYPE_ORBITPLANPROCESSDESCRIPTIONTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/OrbitPlanPartsType.h"
-#include "uci/type/PlanningDiscoveryBaseType.h"
+#include "../base/export.h"
+#include "OrbitPlanPartsType.h"
+#include "PlanningDiscoveryBaseType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

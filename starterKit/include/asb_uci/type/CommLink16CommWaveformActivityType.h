@@ -41,10 +41,10 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/CommWaveformActivityPET.h"
-#include "asb_uci/type/Link16_MessageGenerationRateType.h"
-#include "asb_uci/type/Link16_ParticipationGroupIndexType.h"
-#include "uci/type/CommLink16CommWaveformActivityType.h"
+#include "../../../include/asb_uci/type/CommWaveformActivityPET.h"
+#include "../../../include/asb_uci/type/Link16_MessageGenerationRateType.h"
+#include "../../../include/asb_uci/type/Link16_ParticipationGroupIndexType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/CommLink16CommWaveformActivityType.h"
 
 /**  */
 namespace asb_uci {

@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/IFF_ModeSelectionType.h"
+#include "../../../include/asb_uci/type/IFF_ModeSelectionType.h"
 
 #include <memory>
 #include <string>
@@ -41,18 +41,18 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/IFF_ModesEnum.h"
-#include "asb_uci/type/ModeS_OptionsType.h"
-#include "asb_uci/type/OctalValueType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/IFF_Mode5_FormatType.h"
-#include "uci/type/IFF_ModeSelectionType.h"
-#include "uci/type/IFF_ModesEnum.h"
-#include "uci/type/ModeS_OptionsType.h"
-#include "uci/type/OctalValueType.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../include/asb_uci/type/IFF_ModesEnum.h"
+#include "../../../include/asb_uci/type/ModeS_OptionsType.h"
+#include "../../../include/asb_uci/type/OctalValueType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IFF_Mode5_FormatType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IFF_ModeSelectionType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/IFF_ModesEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/ModeS_OptionsType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/OctalValueType.h"
+#include "../../../../cppInterface/2.3.2/include/xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace asb_uci {

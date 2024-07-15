@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_OPTICALCOLLECTIONCONSTRAINTSTYPE_H
 #define UCI_TYPE_OPTICALCOLLECTIONCONSTRAINTSTYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/AngleHalfPairType.h"
-#include "uci/type/AnglePairType.h"
-#include "uci/type/CollectionConstraintsType.h"
-#include "uci/type/GimbalOrientationPairType.h"
-#include "uci/type/SpeedType.h"
+#include "../base/export.h"
+#include "AngleHalfPairType.h"
+#include "AnglePairType.h"
+#include "CollectionConstraintsType.h"
+#include "GimbalOrientationPairType.h"
+#include "SpeedType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -41,8 +41,8 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/SeparationParametersType.h"
-#include "uci/type/SpecificBlueSeparationType.h"
+#include "../../../include/asb_uci/type/SeparationParametersType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SpecificBlueSeparationType.h"
 
 /**  */
 namespace asb_uci {

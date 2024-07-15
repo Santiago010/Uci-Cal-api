@@ -36,12 +36,12 @@
 #ifndef UCI_TYPE_ORBITACTIVITYPLANCONSTRAINTTYPE_H
 #define UCI_TYPE_ORBITACTIVITYPLANCONSTRAINTTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/ActivityPlanPartsEnum.h"
-#include "uci/type/OrbitActivityPlanID_Type.h"
-#include "uci/type/PlanChangeableConstraintsEnum.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "ActivityPlanPartsEnum.h"
+#include "OrbitActivityPlanID_Type.h"
+#include "PlanChangeableConstraintsEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

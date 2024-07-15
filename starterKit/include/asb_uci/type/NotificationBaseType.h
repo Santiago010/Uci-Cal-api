@@ -41,12 +41,12 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/DateTimeType.h"
-#include "asb_uci/type/NotificationSeverityEnum.h"
-#include "asb_uci/type/NotificationStateEnum.h"
-#include "asb_uci/type/VisibleString1024Type.h"
-#include "uci/type/NotificationBaseType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/DateTimeType.h"
+#include "../../../include/asb_uci/type/NotificationSeverityEnum.h"
+#include "../../../include/asb_uci/type/NotificationStateEnum.h"
+#include "../../../include/asb_uci/type/VisibleString1024Type.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/NotificationBaseType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,22 +36,22 @@
 #ifndef UCI_TYPE_ENTITYCONFIRMATIONREQUESTMDT_H
 #define UCI_TYPE_ENTITYCONFIRMATIONREQUESTMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DateTimeType.h"
-#include "uci/type/EntityDimensionEstimateType.h"
-#include "uci/type/EntityDimensionEstimateUncertaintyType.h"
-#include "uci/type/EntityID_Type.h"
-#include "uci/type/EntityOrbitalEphemerisID_Type.h"
-#include "uci/type/FileMetadataID_Type.h"
-#include "uci/type/MeasurementKinematicsChoiceType.h"
-#include "uci/type/ProductMetadataID_Type.h"
-#include "uci/type/QuaternionAttitudeType.h"
-#include "uci/type/RequestBaseType.h"
-#include "uci/type/RequirementInstanceID_ChoiceType.h"
-#include "uci/type/SensorKinematicsChoiceType.h"
-#include "uci/type/SystemID_Type.h"
-#include "uci/type/SystemOrbitalEphemerisID_Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DateTimeType.h"
+#include "EntityDimensionEstimateType.h"
+#include "EntityDimensionEstimateUncertaintyType.h"
+#include "EntityID_Type.h"
+#include "EntityOrbitalEphemerisID_Type.h"
+#include "FileMetadataID_Type.h"
+#include "MeasurementKinematicsChoiceType.h"
+#include "ProductMetadataID_Type.h"
+#include "QuaternionAttitudeType.h"
+#include "RequestBaseType.h"
+#include "RequirementInstanceID_ChoiceType.h"
+#include "SensorKinematicsChoiceType.h"
+#include "SystemID_Type.h"
+#include "SystemOrbitalEphemerisID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

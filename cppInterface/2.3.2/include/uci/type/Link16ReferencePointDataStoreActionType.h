@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_LINK16REFERENCEPOINTDATASTOREACTIONTYPE_H
 #define UCI_TYPE_LINK16REFERENCEPOINTDATASTOREACTIONTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/DataStoreActionEnum.h"
-#include "uci/type/Link16ReferencePointDataStoreID_ChoiceType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "DataStoreActionEnum.h"
+#include "Link16ReferencePointDataStoreID_ChoiceType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

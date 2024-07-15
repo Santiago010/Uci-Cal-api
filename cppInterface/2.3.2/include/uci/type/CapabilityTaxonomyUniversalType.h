@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_CAPABILITYTAXONOMYUNIVERSALTYPE_H
 #define UCI_TYPE_CAPABILITYTAXONOMYUNIVERSALTYPE_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CapabilityTaxonomyUniversalBaseType.h"
-#include "uci/type/ThreatEnum.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CapabilityTaxonomyUniversalBaseType.h"
+#include "ThreatEnum.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

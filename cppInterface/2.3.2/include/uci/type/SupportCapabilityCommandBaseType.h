@@ -36,8 +36,8 @@
 #ifndef UCI_TYPE_SUPPORTCAPABILITYCOMMANDBASETYPE_H
 #define UCI_TYPE_SUPPORTCAPABILITYCOMMANDBASETYPE_H
 
-#include "uci/type/CommandBaseType.h"
-#include "uci/type/SupportCapabilityID_Type.h"
+#include "CommandBaseType.h"
+#include "SupportCapabilityID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

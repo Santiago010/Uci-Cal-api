@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_PROPAGATORSETTINGSMDT_H
 #define UCI_TYPE_PROPAGATORSETTINGSMDT_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/PropagatorChoiceType.h"
-#include "uci/type/PropagatorSettingsID_Type.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "PropagatorChoiceType.h"
+#include "PropagatorSettingsID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

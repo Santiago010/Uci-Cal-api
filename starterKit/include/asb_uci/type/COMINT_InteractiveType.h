@@ -41,13 +41,13 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/FrequencyType.h"
-#include "asb_uci/type/GainControlMethodEnum.h"
-#include "asb_uci/type/MilliwattPowerRatioType.h"
-#include "asb_uci/type/NoiseAdaptiveThresholdStatusEnum.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/COMINT_InteractiveType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/FrequencyType.h"
+#include "../../../include/asb_uci/type/GainControlMethodEnum.h"
+#include "../../../include/asb_uci/type/MilliwattPowerRatioType.h"
+#include "../../../include/asb_uci/type/NoiseAdaptiveThresholdStatusEnum.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/COMINT_InteractiveType.h"
 
 /**  */
 namespace asb_uci {

@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_REFUELCAPABILITYSTATUS_H
 #define UCI_TYPE_REFUELCAPABILITYSTATUS_H
 
-#include "uci/type/RefuelCapabilityStatusMT.h"
+#include "RefuelCapabilityStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

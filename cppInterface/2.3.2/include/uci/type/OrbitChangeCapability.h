@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_ORBITCHANGECAPABILITY_H
 #define UCI_TYPE_ORBITCHANGECAPABILITY_H
 
-#include "uci/type/OrbitChangeCapabilityMT.h"
+#include "OrbitChangeCapabilityMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

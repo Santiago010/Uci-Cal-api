@@ -36,10 +36,10 @@
 #ifndef UCI_TYPE_ORBITKINEMATICSSEQUENCEMODIFICATIONDETAILSTYPE_H
 #define UCI_TYPE_ORBITKINEMATICSSEQUENCEMODIFICATIONDETAILSTYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/export.h"
-#include "uci/type/OrbitKinematicsSequenceInsertionType.h"
-#include "uci/type/OrbitKinematicsSequenceTrimType.h"
+#include "../base/Accessor.h"
+#include "../base/export.h"
+#include "OrbitKinematicsSequenceInsertionType.h"
+#include "OrbitKinematicsSequenceTrimType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

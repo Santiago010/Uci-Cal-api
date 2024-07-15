@@ -41,12 +41,12 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/base/BoundedList.h"
-#include "asb_uci/type/AngleType.h"
-#include "asb_uci/type/DateTimeType.h"
-#include "asb_uci/type/PercentType.h"
-#include "asb_uci/type/VisualMagnitudeType.h"
-#include "uci/type/MvObservationType.h"
+#include "../../../include/asb_uci/base/BoundedList.h"
+#include "../../../include/asb_uci/type/AngleType.h"
+#include "../../../include/asb_uci/type/DateTimeType.h"
+#include "../../../include/asb_uci/type/PercentType.h"
+#include "../../../include/asb_uci/type/VisualMagnitudeType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/MvObservationType.h"
 
 /**  */
 namespace asb_uci {

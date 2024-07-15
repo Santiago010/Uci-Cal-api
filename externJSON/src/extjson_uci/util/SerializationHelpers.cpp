@@ -54,8 +54,8 @@
 #include "extjson_uci/util/DerivedTypesTranslator.h"
 #include "uci/base/UCIException.h"
 #include "uci/base/accessorType.h"
-#include "xs/type/binaryXmlSchemaPrimitives.h"
-#include "xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../xs/type/binaryXmlSchemaPrimitives.h"
+#include "../../xs/type/simpleXmlSchemaPrimitives.h"
 
 /**  */
 namespace extjson_uci {

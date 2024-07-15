@@ -41,9 +41,9 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/ControlInterfaceEnum.h"
-#include "asb_uci/type/InterfaceStateEnum.h"
-#include "uci/type/PlannedControlInterfaceStateType.h"
+#include "../../../include/asb_uci/type/ControlInterfaceEnum.h"
+#include "../../../include/asb_uci/type/InterfaceStateEnum.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/PlannedControlInterfaceStateType.h"
 
 /**  */
 namespace asb_uci {

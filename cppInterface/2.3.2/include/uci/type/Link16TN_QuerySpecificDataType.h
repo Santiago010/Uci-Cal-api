@@ -36,9 +36,9 @@
 #ifndef UCI_TYPE_LINK16TN_QUERYSPECIFICDATATYPE_H
 #define UCI_TYPE_LINK16TN_QUERYSPECIFICDATATYPE_H
 
-#include "uci/base/export.h"
-#include "uci/type/Link16TrackIdentifierType.h"
-#include "uci/type/QuerySpecificDataPET.h"
+#include "../base/export.h"
+#include "Link16TrackIdentifierType.h"
+#include "QuerySpecificDataPET.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

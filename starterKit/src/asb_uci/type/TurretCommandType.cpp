@@ -33,7 +33,7 @@
  *
  */
 
-#include "asb_uci/type/TurretCommandType.h"
+#include "../../../include/asb_uci/type/TurretCommandType.h"
 
 #include <memory>
 #include <string>
@@ -41,13 +41,13 @@
 #include <boost/optional/optional.hpp>
 #include <boost/smart_ptr/make_unique.hpp>
 
-#include "asb_uci/type/SupportCapabilityCommandBaseType.h"
-#include "asb_uci/type/TurretCommandChoiceType.h"
-#include "asb_uci/util/SerializationHelpers.h"
-#include "uci/base/UCIException.h"
-#include "uci/base/accessorType.h"
-#include "uci/type/TurretCommandChoiceType.h"
-#include "uci/type/TurretCommandType.h"
+#include "../../../include/asb_uci/type/SupportCapabilityCommandBaseType.h"
+#include "../../../include/asb_uci/type/TurretCommandChoiceType.h"
+#include "../../../include/asb_uci/util/SerializationHelpers.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/UCIException.h"
+#include "../../../../cppInterface/2.3.2/include/uci/base/accessorType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TurretCommandChoiceType.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/TurretCommandType.h"
 
 /**  */
 namespace asb_uci {

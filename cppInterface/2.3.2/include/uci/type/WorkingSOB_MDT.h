@@ -36,14 +36,14 @@
 #ifndef UCI_TYPE_WORKINGSOB_MDT_H
 #define UCI_TYPE_WORKINGSOB_MDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/DataRecordBaseType.h"
-#include "uci/type/OrbitRegimeType.h"
-#include "uci/type/OrderOfBattleTimestampsType.h"
-#include "uci/type/SOB_C2_RecordType.h"
-#include "uci/type/SOB_SatelliteRecordType.h"
-#include "uci/type/WorkingSOB_ID_Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "DataRecordBaseType.h"
+#include "OrbitRegimeType.h"
+#include "OrderOfBattleTimestampsType.h"
+#include "SOB_C2_RecordType.h"
+#include "SOB_SatelliteRecordType.h"
+#include "WorkingSOB_ID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

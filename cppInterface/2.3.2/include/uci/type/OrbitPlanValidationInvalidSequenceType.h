@@ -36,13 +36,13 @@
 #ifndef UCI_TYPE_ORBITPLANVALIDATIONINVALIDSEQUENCETYPE_H
 #define UCI_TYPE_ORBITPLANVALIDATIONINVALIDSEQUENCETYPE_H
 
-#include "uci/base/Accessor.h"
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/CannotComplyType.h"
-#include "uci/type/OrbitKinematicsSequenceID_Type.h"
-#include "uci/type/OrbitPlanValidationInvalidManeuverSegmentType.h"
-#include "uci/type/OrbitValidationErrorType.h"
+#include "../base/Accessor.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "CannotComplyType.h"
+#include "OrbitKinematicsSequenceID_Type.h"
+#include "OrbitPlanValidationInvalidManeuverSegmentType.h"
+#include "OrbitValidationErrorType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

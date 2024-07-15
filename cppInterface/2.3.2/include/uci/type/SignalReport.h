@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_SIGNALREPORT_H
 #define UCI_TYPE_SIGNALREPORT_H
 
-#include "uci/type/SignalReportMT.h"
+#include "SignalReportMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

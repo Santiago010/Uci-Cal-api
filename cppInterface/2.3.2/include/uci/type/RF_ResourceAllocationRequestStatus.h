@@ -36,7 +36,7 @@
 #ifndef UCI_TYPE_RF_RESOURCEALLOCATIONREQUESTSTATUS_H
 #define UCI_TYPE_RF_RESOURCEALLOCATIONREQUESTSTATUS_H
 
-#include "uci/type/RF_ResourceAllocationRequestStatusMT.h"
+#include "RF_ResourceAllocationRequestStatusMT.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

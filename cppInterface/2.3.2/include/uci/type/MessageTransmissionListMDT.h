@@ -36,11 +36,11 @@
 #ifndef UCI_TYPE_MESSAGETRANSMISSIONLISTMDT_H
 #define UCI_TYPE_MESSAGETRANSMISSIONLISTMDT_H
 
-#include "uci/base/BoundedList.h"
-#include "uci/base/export.h"
-#include "uci/type/MessageTransmissionListDRL.h"
-#include "uci/type/MessageTransmissionListID_Type.h"
-#include "uci/type/SystemID_Type.h"
+#include "../base/BoundedList.h"
+#include "../base/export.h"
+#include "MessageTransmissionListDRL.h"
+#include "MessageTransmissionListID_Type.h"
+#include "SystemID_Type.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {

@@ -41,13 +41,13 @@
 #include <boost/optional/optional.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include "asb_uci/type/EW_MeasurementEnum.h"
-#include "asb_uci/type/LOS_MeasurementWithUncertaintyType.h"
-#include "asb_uci/type/MeasurementStatusEnum.h"
-#include "asb_uci/type/SignalMeasurementFlagEnum.h"
-#include "asb_uci/type/SignalMeasurementMethodEnum.h"
-#include "asb_xs/type/simpleXmlSchemaPrimitives.h"
-#include "uci/type/SignalRelativeType.h"
+#include "../../../include/asb_uci/type/EW_MeasurementEnum.h"
+#include "../../../include/asb_uci/type/LOS_MeasurementWithUncertaintyType.h"
+#include "../../../include/asb_uci/type/MeasurementStatusEnum.h"
+#include "../../../include/asb_uci/type/SignalMeasurementFlagEnum.h"
+#include "../../../include/asb_uci/type/SignalMeasurementMethodEnum.h"
+#include "../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h"
+#include "../../../../cppInterface/2.3.2/include/uci/type/SignalRelativeType.h"
 
 /**  */
 namespace asb_uci {
