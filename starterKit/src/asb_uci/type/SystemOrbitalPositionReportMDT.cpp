@@ -113,22 +113,22 @@ uci::type::SystemOrbitalPositionReportMDT& SystemOrbitalPositionReportMDT::setSy
   return *this;
 }
 
-uci::type::VisibleString256Type& SystemOrbitalPositionReportMDT::getDisplayName_() const {
+asb_uci::type::VisibleString256Type& SystemOrbitalPositionReportMDT::getDisplayName_() const {
   if (displayName_Accessor) {
     return *displayName_Accessor;
   }
   throw uci::base::UCIException("Error in getDisplayName(): An attempt was made to get an optional field that was not enabled, call hasDisplayName() to determine if it is safe to call getDisplayName()");
 }
 
-const uci::type::VisibleString256Type& SystemOrbitalPositionReportMDT::getDisplayName() const {
+const asb_uci::type::VisibleString256Type& SystemOrbitalPositionReportMDT::getDisplayName() const {
   return getDisplayName_();
 }
 
-uci::type::VisibleString256Type& SystemOrbitalPositionReportMDT::getDisplayName() {
+asb_uci::type::VisibleString256Type& SystemOrbitalPositionReportMDT::getDisplayName() {
   return getDisplayName_();
 }
 
-uci::type::SystemOrbitalPositionReportMDT& SystemOrbitalPositionReportMDT::setDisplayName(const uci::type::VisibleString256Type& value) {
+uci::type::SystemOrbitalPositionReportMDT& SystemOrbitalPositionReportMDT::setDisplayName(const asb_uci::type::VisibleString256Type& value) {
   return setDisplayName(value.c_str());
 }
 
@@ -145,9 +145,9 @@ bool SystemOrbitalPositionReportMDT::hasDisplayName() const noexcept {
   return static_cast<bool>(displayName_Accessor);
 }
 
-uci::type::VisibleString256Type& SystemOrbitalPositionReportMDT::enableDisplayName(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& SystemOrbitalPositionReportMDT::enableDisplayName(uci::base::accessorType::AccessorType type) {
   if (!displayName_Accessor) {
-    displayName_Accessor = boost::make_unique<std::string>("");
+    displayName_Accessor = asb_uci::type::VisibleString256Type(type);
   }
   return *displayName_Accessor;
 }

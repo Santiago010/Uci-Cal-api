@@ -507,22 +507,22 @@ void NameValuePairValueType::chooseDoubleValue() {
   }
 }
 
-uci::type::VisibleString256Type& NameValuePairValueType::getStringValue_() const {
+asb_uci::type::VisibleString256Type& NameValuePairValueType::getStringValue_() const {
   if (stringValue_Accessor) {
     return *stringValue_Accessor;
   }
   throw uci::base::UCIException("Error in getStringValue(): An attempt was made to get an optional field that was not enabled, call hasStringValue() to determine if it is safe to call getStringValue()");
 }
 
-const uci::type::VisibleString256Type& NameValuePairValueType::getStringValue() const {
+const asb_uci::type::VisibleString256Type& NameValuePairValueType::getStringValue() const {
   return getStringValue_();
 }
 
-uci::type::VisibleString256Type& NameValuePairValueType::getStringValue() {
+asb_uci::type::VisibleString256Type& NameValuePairValueType::getStringValue() {
   return getStringValue_();
 }
 
-uci::type::NameValuePairValueType& NameValuePairValueType::setStringValue(const uci::type::VisibleString256Type& value) {
+uci::type::NameValuePairValueType& NameValuePairValueType::setStringValue(const asb_uci::type::VisibleString256Type& value) {
   return setStringValue(value.c_str());
 }
 
@@ -539,7 +539,7 @@ bool NameValuePairValueType::isStringValue() const noexcept {
   return static_cast<bool>(stringValue_Accessor);
 }
 
-uci::type::VisibleString256Type& NameValuePairValueType::chooseStringValue(const std::string& /*method*/, uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& NameValuePairValueType::chooseStringValue(const std::string& /*method*/, uci::base::accessorType::AccessorType type) {
   booleanValue_Accessor.reset();
   byteValue_Accessor.reset();
   unsignedByteValue_Accessor.reset();
@@ -551,12 +551,12 @@ uci::type::VisibleString256Type& NameValuePairValueType::chooseStringValue(const
   floatValue_Accessor.reset();
   doubleValue_Accessor.reset();
   if (!stringValue_Accessor) {
-    stringValue_Accessor = boost::make_unique<std::string>("");
+    stringValue_Accessor =  asb_uci::type::VisibleString256Type::create(type);
   }
   return *stringValue_Accessor;
 }
 
-uci::type::VisibleString256Type& NameValuePairValueType::chooseStringValue(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& NameValuePairValueType::chooseStringValue(uci::base::accessorType::AccessorType type) {
   return chooseStringValue("chooseStringValue", type);
 }
 

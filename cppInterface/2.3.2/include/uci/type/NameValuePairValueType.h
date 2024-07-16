@@ -360,13 +360,13 @@ public:
     *
     * @return A const reference to the accessor that provides access to the string identified by StringValue.
     */
-  virtual const uci::type::VisibleString256Type& getStringValue() const = 0;
+  virtual const asb_uci::type::VisibleString256Type& getStringValue() const = 0;
 
   /** Returns a reference to the accessor that provides access to the string identified by StringValue.
     *
     * @return A reference to the accessor that provides access to the string identified by StringValue.
     */
-  virtual uci::type::VisibleString256Type& getStringValue() = 0;
+  virtual asb_uci::type::VisibleString256Type& getStringValue() = 0;
 
   /** Sets the string identified by StringValue to the contents of the string accessed by the specified accessor.
     *
@@ -374,7 +374,7 @@ public:
     *      string identified by StringValue.
     * @return A reference to the object on which this method was called.
     */
-  virtual uci::type::NameValuePairValueType& setStringValue(const uci::type::VisibleString256Type& value) = 0;
+  virtual uci::type::NameValuePairValueType& setStringValue(const asb_uci::type::VisibleString256Type& value) = 0;
 
   /** Sets the string identified by StringValue to the contents of the string that is accessed by the specified accessor.
     *
@@ -407,7 +407,7 @@ public:
     *      base type.
     * @return A reference to the accessor that provides access to the string identified by StringValue.
     */
-  virtual uci::type::VisibleString256Type& chooseStringValue(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
+  virtual asb_uci::type::VisibleString256Type& chooseStringValue(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
 
 protected:
 

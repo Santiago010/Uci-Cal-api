@@ -172,22 +172,22 @@ uci::type::SubsystemStatusMDT& SubsystemStatusMDT::setSubsystemState(uci::type::
 }
 
 
-std::string& SubsystemStatusMDT::getSubsystemStateDescription_() const {
+asb_uci::type::VisibleString256Type& SubsystemStatusMDT::getSubsystemStateDescription_() const {
   if (subsystemStateDescription_Accessor) {
     return *subsystemStateDescription_Accessor;
   }
   throw uci::base::UCIException("Error in getSubsystemStateDescription(): An attempt was made to get an optional field that was not enabled, call hasSubsystemStateDescription() to determine if it is safe to call getSubsystemStateDescription()");
 }
 
-const std::string& SubsystemStatusMDT::getSubsystemStateDescription() const {
+const asb_uci::type::VisibleString256Type& SubsystemStatusMDT::getSubsystemStateDescription() const {
   return getSubsystemStateDescription_();
 }
 
-std::string& SubsystemStatusMDT::getSubsystemStateDescription() {
+asb_uci::type::VisibleString256Type& SubsystemStatusMDT::getSubsystemStateDescription() {
   return getSubsystemStateDescription_();
 }
 
-uci::type::SubsystemStatusMDT& SubsystemStatusMDT::setSubsystemStateDescription(const uci::type::VisibleString256Type& value) {
+uci::type::SubsystemStatusMDT& SubsystemStatusMDT::setSubsystemStateDescription(const asb_uci::type::VisibleString256Type& value) {
   return setSubsystemStateDescription(value.c_str());
 }
 
@@ -196,7 +196,7 @@ uci::type::SubsystemStatusMDT& SubsystemStatusMDT::setSubsystemStateDescription(
 }
 
 uci::type::SubsystemStatusMDT& SubsystemStatusMDT::setSubsystemStateDescription(const char* value) {
-  // enableSubsystemStateDescription().setStringValue(value);
+  enableSubsystemStateDescription().setStringValue(value);
   return *this;
 }
 
@@ -204,9 +204,9 @@ bool SubsystemStatusMDT::hasSubsystemStateDescription() const noexcept {
   return static_cast<bool>(subsystemStateDescription_Accessor);
 }
 
-std::string& SubsystemStatusMDT::enableSubsystemStateDescription(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& SubsystemStatusMDT::enableSubsystemStateDescription(uci::base::accessorType::AccessorType type) {
   if (!subsystemStateDescription_Accessor) {
-    subsystemStateDescription_Accessor = boost::make_unique<std::string>("");
+    subsystemStateDescription_Accessor = asb_uci::type::VisibleString256Type::create(type);
   }
   return *subsystemStateDescription_Accessor;
 }
@@ -523,8 +523,7 @@ std::string SubsystemStatusMDT::serialize(const uci::type::SubsystemStatusMDT& a
   SubsystemID_Type::serialize(accessor.getSubsystemID(), node, SubsystemStatusMDT_Names::SubsystemID_Name);
   SubsystemStateEnum::serialize(accessor.getSubsystemState(), node, SubsystemStatusMDT_Names::SubsystemState_Name, false);
   if (accessor.hasSubsystemStateDescription()) {
-    // TODO:quite esta parte porque getSubsystemStateDescription devuelve un string y es no lo recibe serializeString
-    // asb_uci::util::SerializationHelpers::serializeString(accessor.getSubsystemStateDescription(), node, SubsystemStatusMDT_Names::SubsystemStateDescription_Name);
+    asb_uci::util::SerializationHelpers::serializeString(accessor.getSubsystemStateDescription(), node, SubsystemStatusMDT_Names::SubsystemStateDescription_Name);
   }
   {
     const uci::type::SubsystemStatusMDT::EnabledSetting& boundedList = accessor.getEnabledSetting();
@@ -593,4 +592,3 @@ void SubsystemStatusMDT::destroy(uci::type::SubsystemStatusMDT& accessor) {
 } // namespace type
 
 } // namespace uci
-

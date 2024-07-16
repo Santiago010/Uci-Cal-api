@@ -131,26 +131,26 @@ public:
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getValue_() const;
+  asb_uci::type::VisibleString256Type& getValue_() const;
 
   /** Returns the contents of the message's Value item
     *
     * @return The contents of the Value field
     */
-  const uci::type::VisibleString256Type& getValue() const override;
+  const asb_uci::type::VisibleString256Type& getValue() const override;
 
   /** Returns the contents of the message's Value item
     *
     * @return The contents of the Value field
     */
-  uci::type::VisibleString256Type& getValue() override;
+  asb_uci::type::VisibleString256Type& getValue() override;
 
   /** Sets this choice's choice to be Value and initializes Value to be the specified value
     *
     * @param value The new value to set Value to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::ParameterValueType& setValue(const uci::type::VisibleString256Type& value) override;
+  uci::type::ParameterValueType& setValue(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets this choice's choice to be Value and initializes Value to be the specified value
     *
@@ -184,7 +184,7 @@ public:
     *      base type.
     * @return A reference to the accessor that provides access to the choice identified by Value.
     */
-  uci::type::VisibleString256Type& chooseValue(const std::string& method, uci::base::accessorType::AccessorType type = uci::base::accessorType::null);
+  asb_uci::type::VisibleString256Type& chooseValue(const std::string& method, uci::base::accessorType::AccessorType type = uci::base::accessorType::null);
 
   /** Sets this choice's "selection ordinal" to the choice identified by Value.
     *
@@ -197,7 +197,7 @@ public:
     *      base type.
     * @return A reference to the accessor that provides access to the choice identified by Value.
     */
-  uci::type::VisibleString256Type& chooseValue(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
+  asb_uci::type::VisibleString256Type& chooseValue(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
 
   /** Returns the value of the optional field accessed by this accesor
     *
@@ -303,7 +303,7 @@ public:
   static std::string serialize(const uci::type::ParameterValueType& accessor, boost::property_tree::ptree& propTree, const std::string& nodeName, bool createNode = true, bool addTypeAttribute = false, bool checkIfDerivation = true, bool topLevel = false);
 
 private:
-  std::unique_ptr<VisibleString256Type> value_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> value_Accessor;
   std::unique_ptr<EmptyType> returnToDefault_Accessor;
 
 };

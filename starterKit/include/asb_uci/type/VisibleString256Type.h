@@ -36,7 +36,7 @@
 #ifndef ASB_UCI_TYPE_VISIBLESTRING256TYPE_H
 #define ASB_UCI_TYPE_VISIBLESTRING256TYPE_H
 
-#include "../../../../cppInterface/2.3.2/include/xs/type/stringXmlSchemaPrimitives.h"
+#include "../../asb_xs/type/stringXmlSchemaPrimitives.h"
 #include "../../asb_xs/type/binaryXmlSchemaPrimitives.h"
 
 /**  */
@@ -48,7 +48,7 @@ namespace type {
 /** String type of 256 characters in length, restricted to visible characters (0x20-0x7E).; [Minimum length: 0] [Maximum
   * length: 256] [Pattern: "[ -~]{0,256}"]
   */
-using VisibleString256Type =std::string;
+using VisibleString256Type = asb_xs::String;
 
 } // namespace type
 

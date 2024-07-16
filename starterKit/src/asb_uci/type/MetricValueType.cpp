@@ -64,7 +64,7 @@ namespace asb_uci {
 namespace type {
 
 MetricValueType::MetricValueType()
-  : metricIdentifier_Accessor{boost::make_unique<ForeignKeyType>()},descriptionOfMetric_Accessor{boost::make_unique<std::string>()} {
+  : metricIdentifier_Accessor{boost::make_unique<ForeignKeyType>()} {
 }
 
 MetricValueType::~MetricValueType() = default;
@@ -131,22 +131,22 @@ uci::type::ForeignKeyType& MetricValueType::enableMetricIdentifier(uci::base::ac
   return *metricIdentifier_Accessor;
 }
 
-std::string& MetricValueType::getDescriptionOfMetric_() const {
+asb_uci::type::VisibleString256Type& MetricValueType::getDescriptionOfMetric_() const {
   if (descriptionOfMetric_Accessor) {
     return *descriptionOfMetric_Accessor;
   }
   throw uci::base::UCIException("Error in getDescriptionOfMetric(): An attempt was made to get an optional field that was not enabled, call hasDescriptionOfMetric() to determine if it is safe to call getDescriptionOfMetric()");
 }
 
-const std::string& MetricValueType::getDescriptionOfMetric() const {
+const asb_uci::type::VisibleString256Type& MetricValueType::getDescriptionOfMetric() const {
   return getDescriptionOfMetric_();
 }
 
-std::string& MetricValueType::getDescriptionOfMetric() {
+asb_uci::type::VisibleString256Type& MetricValueType::getDescriptionOfMetric() {
   return getDescriptionOfMetric_();
 }
 
-uci::type::MetricValueType& MetricValueType::setDescriptionOfMetric(const uci::type::VisibleString256Type& value) {
+uci::type::MetricValueType& MetricValueType::setDescriptionOfMetric(const asb_uci::type::VisibleString256Type& value) {
   return setDescriptionOfMetric(value.c_str());
 }
 
@@ -155,11 +155,7 @@ uci::type::MetricValueType& MetricValueType::setDescriptionOfMetric(const std::s
 }
 
 uci::type::MetricValueType& MetricValueType::setDescriptionOfMetric(const char* value) {
-  // enableDescriptionOfMetric().setStringValue(value);
-
-  // TODO:HAY QUE CAMBIAR ESTO
-  descriptionOfMetric_Accessor = boost::make_unique<std::string>(value);
-
+  enableDescriptionOfMetric().setStringValue(value);
   return *this;
 }
 
@@ -167,15 +163,15 @@ bool MetricValueType::hasDescriptionOfMetric() const noexcept {
   return static_cast<bool>(descriptionOfMetric_Accessor);
 }
 
-std::string& MetricValueType::enableDescriptionOfMetric(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& MetricValueType::enableDescriptionOfMetric(uci::base::accessorType::AccessorType type) {
   if (!descriptionOfMetric_Accessor) {
-     descriptionOfMetric_Accessor = boost::make_unique<std::string>("");
+    descriptionOfMetric_Accessor = asb_uci::type::VisibleString256Type::create(type);
   }
   return *descriptionOfMetric_Accessor;
 }
 
 uci::type::MetricValueType& MetricValueType::clearDescriptionOfMetric() noexcept {
-  // descriptionOfMetric_Accessor.reset();TODO:quite reset porque no se si este en std::String
+  descriptionOfMetric_Accessor.reset();
   return *this;
 }
 
@@ -301,8 +297,7 @@ std::string MetricValueType::serialize(const uci::type::MetricValueType& accesso
   }
   ForeignKeyType::serialize(accessor.getMetricIdentifier(), node, MetricValueType_Names::MetricIdentifier_Name);
   if (accessor.hasDescriptionOfMetric()) {
-    // TODO:este metodo abra que arregralo mas adelante
-    // asb_uci::util::SerializationHelpers::serializeString(accessor.getDescriptionOfMetric(), node, MetricValueType_Names::DescriptionOfMetric_Name);
+    asb_uci::util::SerializationHelpers::serializeString(accessor.getDescriptionOfMetric(), node, MetricValueType_Names::DescriptionOfMetric_Name);
   }
   if (accessor.hasNegotiableOptions()) {
     NegotiableOptionsEnum::serialize(accessor.getNegotiableOptions(), node, MetricValueType_Names::NegotiableOptions_Name, false);

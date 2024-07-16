@@ -87,13 +87,13 @@ void ForeignKeyType::reset() noexcept {
   // systemName_Accessor->reset();
 }
 
-const uci::type::VisibleString256Type& ForeignKeyType::getKey() const noexcept {
+const asb_uci::type::VisibleString256Type& ForeignKeyType::getKey() const noexcept {
 }
 
-uci::type::VisibleString256Type& ForeignKeyType::getKey() noexcept {
+asb_uci::type::VisibleString256Type& ForeignKeyType::getKey() noexcept {
 }
 
-uci::type::ForeignKeyType& ForeignKeyType::setKey(const uci::type::VisibleString256Type& value) {
+uci::type::ForeignKeyType& ForeignKeyType::setKey(const asb_uci::type::VisibleString256Type& value) {
   return setKey(value.c_str());
 }
 
@@ -106,14 +106,14 @@ uci::type::ForeignKeyType& ForeignKeyType::setKey(const char* value) {
   return *this;
 }
 
-const uci::type::VisibleString256Type& ForeignKeyType::getSystemName() const noexcept {
+const asb_uci::type::VisibleString256Type& ForeignKeyType::getSystemName() const noexcept {
 
 }
 
-uci::type::VisibleString256Type& ForeignKeyType::getSystemName() noexcept {
+asb_uci::type::VisibleString256Type& ForeignKeyType::getSystemName() noexcept {
 }
 
-uci::type::ForeignKeyType& ForeignKeyType::setSystemName(const uci::type::VisibleString256Type& value) {
+uci::type::ForeignKeyType& ForeignKeyType::setSystemName(const asb_uci::type::VisibleString256Type& value) {
   return setSystemName(value.c_str());
 }
 

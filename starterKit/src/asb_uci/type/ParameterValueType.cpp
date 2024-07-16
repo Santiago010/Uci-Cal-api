@@ -110,22 +110,22 @@ uci::type::ParameterValueType& ParameterValueType::setParameterValueTypeChoiceOr
   return *this;
 }
 
-uci::type::VisibleString256Type& ParameterValueType::getValue_() const {
+asb_uci::type::VisibleString256Type& ParameterValueType::getValue_() const {
   if (value_Accessor) {
     return *value_Accessor;
   }
   throw uci::base::UCIException("Error in getValue(): An attempt was made to get an optional field that was not enabled, call hasValue() to determine if it is safe to call getValue()");
 }
 
-const uci::type::VisibleString256Type& ParameterValueType::getValue() const {
+const asb_uci::type::VisibleString256Type& ParameterValueType::getValue() const {
   return getValue_();
 }
 
-uci::type::VisibleString256Type& ParameterValueType::getValue() {
+asb_uci::type::VisibleString256Type& ParameterValueType::getValue() {
   return getValue_();
 }
 
-uci::type::ParameterValueType& ParameterValueType::setValue(const uci::type::VisibleString256Type& value) {
+uci::type::ParameterValueType& ParameterValueType::setValue(const asb_uci::type::VisibleString256Type& value) {
   return setValue(value.c_str());
 }
 
@@ -142,15 +142,15 @@ bool ParameterValueType::isValue() const noexcept {
   return static_cast<bool>(value_Accessor);
 }
 
-uci::type::VisibleString256Type& ParameterValueType::chooseValue(const std::string& /*method*/, uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& ParameterValueType::chooseValue(const std::string& /*method*/, uci::base::accessorType::AccessorType type) {
   returnToDefault_Accessor.reset();
   if (!value_Accessor) {
-    value_Accessor = boost::make_unique<std::string>("");
+    value_Accessor =  asb_uci::type::VisibleString256Type::create(type);
   }
   return *value_Accessor;
 }
 
-uci::type::VisibleString256Type& ParameterValueType::chooseValue(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& ParameterValueType::chooseValue(uci::base::accessorType::AccessorType type) {
   return chooseValue("chooseValue", type);
 }
 

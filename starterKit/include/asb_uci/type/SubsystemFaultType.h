@@ -324,20 +324,20 @@ public:
     *
     * @return The contents of the FaultCode field
     */
-  const uci::type::VisibleString256Type& getFaultCode() const noexcept override;
+  const asb_uci::type::VisibleString256Type& getFaultCode() const noexcept override;
 
   /** Returns the contents of the message's FaultCode field
     *
     * @return The contents of the FaultCode field
     */
-  uci::type::VisibleString256Type& getFaultCode() noexcept override;
+  asb_uci::type::VisibleString256Type& getFaultCode() noexcept override;
 
   /** Sets the contents of the message's FaultCode field
     *
     * @param value The new value to set the FaultCode field to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::SubsystemFaultType& setFaultCode(const uci::type::VisibleString256Type& value) override;
+  uci::type::SubsystemFaultType& setFaultCode(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets the contents of the message's FaultCode field
     *
@@ -382,26 +382,26 @@ public:
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getFaultDescription_() const;
+  asb_uci::type::VisibleString256Type& getFaultDescription_() const;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  const uci::type::VisibleString256Type& getFaultDescription() const override;
+  const asb_uci::type::VisibleString256Type& getFaultDescription() const override;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getFaultDescription() override;
+  asb_uci::type::VisibleString256Type& getFaultDescription() override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
     * @param value The value to set the optional field to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::SubsystemFaultType& setFaultDescription(const uci::type::VisibleString256Type& value) override;
+  uci::type::SubsystemFaultType& setFaultDescription(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
@@ -429,7 +429,7 @@ public:
     * @param type The value to set the optional field to
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& enableFaultDescription(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
+  asb_uci::type::VisibleString256Type& enableFaultDescription(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
 
   /** Clears the optional item marking it as not being set.
     *
@@ -651,9 +651,9 @@ private:
   std::unique_ptr<FaultStateEnum> faultState_Accessor;
   std::unique_ptr<FaultData> faultData_Accessor;
   boost::optional<DateTimeTypeValue> detectionTime_Accessor;
-  std::unique_ptr<VisibleString256Type> faultCode_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> faultCode_Accessor;
   boost::optional<asb_xs::Int> faultCodeCount_Accessor;
-  std::unique_ptr<VisibleString256Type> faultDescription_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> faultDescription_Accessor;
   std::unique_ptr<SubsystemID_Type> subsystemID_Accessor;
   std::unique_ptr<ServiceID_Type> serviceID_Accessor;
   std::unique_ptr<CapabilityID> capabilityID_Accessor;

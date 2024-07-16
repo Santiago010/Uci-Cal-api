@@ -146,13 +146,13 @@ public:
     *
     * @return A const reference to the accessor that provides access to the string identified by Description.
     */
-  virtual const uci::type::VisibleString256Type& getDescription() const = 0;
+  virtual const asb_uci::type::VisibleString256Type& getDescription() const = 0;
 
   /** Returns a reference to the accessor that provides access to the string identified by Description.
     *
     * @return A reference to the accessor that provides access to the string identified by Description.
     */
-  virtual uci::type::VisibleString256Type& getDescription() = 0;
+  virtual asb_uci::type::VisibleString256Type& getDescription() = 0;
 
   /** Sets the string identified by Description to the contents of the string accessed by the specified accessor.
     *
@@ -160,7 +160,7 @@ public:
     *      string identified by Description.
     * @return A reference to the object on which this method was called.
     */
-  virtual uci::type::SubsystemMaintenanceTestPET& setDescription(const uci::type::VisibleString256Type& value) = 0;
+  virtual uci::type::SubsystemMaintenanceTestPET& setDescription(const asb_uci::type::VisibleString256Type& value) = 0;
 
   /** Sets the string identified by Description to the contents of the string that is accessed by the specified accessor.
     *
@@ -187,7 +187,7 @@ public:
     * @param type = uci::base::accessorType::null This Accessor's accessor type.
     * @return A reference to the accessor that provides access to the string identified by Description.
     */
-  virtual uci::type::VisibleString256Type& enableDescription(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
+  virtual asb_uci::type::VisibleString256Type& enableDescription(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
 
   /** Clears (disabled) the Element identified by Description.
     *
@@ -286,13 +286,13 @@ public:
     * @return A const reference to the accessor that provides access to the string identified by
     *      SubsystemMaintenanceItemName.
     */
-  virtual const uci::type::VisibleString256Type& getSubsystemMaintenanceItemName() const = 0;
+  virtual const asb_uci::type::VisibleString256Type& getSubsystemMaintenanceItemName() const = 0;
 
   /** Returns a reference to the accessor that provides access to the string identified by SubsystemMaintenanceItemName.
     *
     * @return A reference to the accessor that provides access to the string identified by SubsystemMaintenanceItemName.
     */
-  virtual uci::type::VisibleString256Type& getSubsystemMaintenanceItemName() = 0;
+  virtual asb_uci::type::VisibleString256Type& getSubsystemMaintenanceItemName() = 0;
 
   /** Sets the string identified by SubsystemMaintenanceItemName to the contents of the string accessed by the specified
     * accessor.
@@ -301,7 +301,7 @@ public:
     *      string identified by SubsystemMaintenanceItemName.
     * @return A reference to the object on which this method was called.
     */
-  virtual uci::type::SubsystemMaintenanceTestPET& setSubsystemMaintenanceItemName(const uci::type::VisibleString256Type& value) = 0;
+  virtual uci::type::SubsystemMaintenanceTestPET& setSubsystemMaintenanceItemName(const asb_uci::type::VisibleString256Type& value) = 0;
 
   /** Sets the string identified by SubsystemMaintenanceItemName to the contents of the string that is accessed by the
     * specified accessor.
@@ -330,7 +330,7 @@ public:
     * @param type = uci::base::accessorType::null This Accessor's accessor type.
     * @return A reference to the accessor that provides access to the string identified by SubsystemMaintenanceItemName.
     */
-  virtual uci::type::VisibleString256Type& enableSubsystemMaintenanceItemName(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
+  virtual asb_uci::type::VisibleString256Type& enableSubsystemMaintenanceItemName(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
 
   /** Clears (disabled) the Element identified by SubsystemMaintenanceItemName.
     *

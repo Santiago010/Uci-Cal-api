@@ -66,7 +66,7 @@ ServiceID_Type::ServiceID_Type(const ServiceID_Type& rhs)
 {
     // Copia profunda de serviceVersion_Accessor
     if (rhs.serviceVersion_Accessor) {
-        // serviceVersion_Accessor = boost::make_unique<uci::type::VisibleString256Type>(*rhs.serviceVersion_Accessor);
+        // serviceVersion_Accessor = boost::make_unique<asb_uci::type::VisibleString256Type>(*rhs.serviceVersion_Accessor);
     } else {
         serviceVersion_Accessor.reset();
     }
@@ -93,22 +93,22 @@ void ServiceID_Type::reset() noexcept {
   serviceVersion_Accessor.reset();
 }
 
-uci::type::VisibleString256Type& ServiceID_Type::getServiceVersion_() const {
+asb_uci::type::VisibleString256Type& ServiceID_Type::getServiceVersion_() const {
   if (serviceVersion_Accessor) {
     return *serviceVersion_Accessor;
   }
   throw uci::base::UCIException("Error in getServiceVersion(): An attempt was made to get an optional field that was not enabled, call hasServiceVersion() to determine if it is safe to call getServiceVersion()");
 }
 
-const uci::type::VisibleString256Type& ServiceID_Type::getServiceVersion() const {
+const asb_uci::type::VisibleString256Type& ServiceID_Type::getServiceVersion() const {
   return getServiceVersion_();
 }
 
-uci::type::VisibleString256Type& ServiceID_Type::getServiceVersion() {
+asb_uci::type::VisibleString256Type& ServiceID_Type::getServiceVersion() {
   return getServiceVersion_();
 }
 
-uci::type::ServiceID_Type& ServiceID_Type::setServiceVersion(const uci::type::VisibleString256Type& value) {
+uci::type::ServiceID_Type& ServiceID_Type::setServiceVersion(const asb_uci::type::VisibleString256Type& value) {
   return setServiceVersion(value.c_str());
 }
 
@@ -126,7 +126,7 @@ bool ServiceID_Type::hasServiceVersion() const noexcept {
 }
 
 
-uci::type::VisibleString256Type& ServiceID_Type::enableServiceVersion(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& ServiceID_Type::enableServiceVersion(uci::base::accessorType::AccessorType type) {
   if (!serviceVersion_Accessor) {
     serviceVersion_Accessor = asb_uci::type::ServiceID_Type::createVisibleString256Type(type);
   }
@@ -138,7 +138,7 @@ uci::type::ServiceID_Type& ServiceID_Type::clearServiceVersion() noexcept {
   return *this;
 }
 
-std::unique_ptr<uci::type::VisibleString256Type> ServiceID_Type::createVisibleString256Type(uci::base::accessorType::AccessorType type) {
+std::unique_ptr<asb_uci::type::VisibleString256Type> ServiceID_Type::createVisibleString256Type(uci::base::accessorType::AccessorType type) {
     return nullptr;
 }
 

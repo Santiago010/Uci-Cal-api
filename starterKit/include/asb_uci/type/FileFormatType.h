@@ -291,7 +291,7 @@ public:
   static std::string serialize(const uci::type::FileFormatType& accessor, boost::property_tree::ptree& propTree, const std::string& nodeName, bool createNode = true, bool addTypeAttribute = false, bool checkIfDerivation = true, bool topLevel = false);
 
 private:
-  std::unique_ptr<VisibleString256Type> mIME_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> mIME_Accessor;
   std::unique_ptr<ForeignKeyType> nonMIME_Accessor;
 
 };
@@ -301,3 +301,4 @@ private:
 } // namespace asb_uci
 
 #endif // ASB_UCI_TYPE_FILEFORMATTYPE_H
+

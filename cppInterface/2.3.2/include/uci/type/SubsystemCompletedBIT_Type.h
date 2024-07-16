@@ -181,13 +181,13 @@ public:
     *
     * @return A const reference to the accessor that provides access to the string identified by FailReason.
     */
-  virtual const std::string& getFailReason() const = 0;
+  virtual const asb_uci::type::VisibleString256Type& getFailReason() const = 0;
 
   /** Returns a reference to the accessor that provides access to the string identified by FailReason.
     *
     * @return A reference to the accessor that provides access to the string identified by FailReason.
     */
-  virtual std::string& getFailReason() = 0;
+  virtual asb_uci::type::VisibleString256Type& getFailReason() = 0;
 
   /** Sets the string identified by FailReason to the contents of the string accessed by the specified accessor.
     *
@@ -195,7 +195,7 @@ public:
     *      string identified by FailReason.
     * @return A reference to the object on which this method was called.
     */
-  virtual uci::type::SubsystemCompletedBIT_Type& setFailReason(const uci::type::VisibleString256Type& value) = 0;
+  virtual uci::type::SubsystemCompletedBIT_Type& setFailReason(const asb_uci::type::VisibleString256Type& value) = 0;
 
   /** Sets the string identified by FailReason to the contents of the string that is accessed by the specified accessor.
     *
@@ -222,7 +222,7 @@ public:
     * @param type = uci::base::accessorType::null This Accessor's accessor type.
     * @return A reference to the accessor that provides access to the string identified by FailReason.
     */
-  virtual std::string& enableFailReason(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
+  virtual asb_uci::type::VisibleString256Type& enableFailReason(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
 
   /** Clears (disabled) the Element identified by FailReason.
     *

@@ -150,13 +150,13 @@ public:
     *
     * @return A const reference to the accessor that provides access to the string identified by MDF_Name.
     */
-  virtual const uci::type::VisibleString256Type& getMDF_Name() const = 0;
+  virtual const asb_uci::type::VisibleString256Type& getMDF_Name() const = 0;
 
   /** Returns a reference to the accessor that provides access to the string identified by MDF_Name.
     *
     * @return A reference to the accessor that provides access to the string identified by MDF_Name.
     */
-  virtual uci::type::VisibleString256Type& getMDF_Name() = 0;
+  virtual asb_uci::type::VisibleString256Type& getMDF_Name() = 0;
 
   /** Sets the string identified by MDF_Name to the contents of the string accessed by the specified accessor.
     *
@@ -164,7 +164,7 @@ public:
     *      string identified by MDF_Name.
     * @return A reference to the object on which this method was called.
     */
-  virtual uci::type::EA_TechniqueGroupIdentifierType& setMDF_Name(const uci::type::VisibleString256Type& value) = 0;
+  virtual uci::type::EA_TechniqueGroupIdentifierType& setMDF_Name(const asb_uci::type::VisibleString256Type& value) = 0;
 
   /** Sets the string identified by MDF_Name to the contents of the string that is accessed by the specified accessor.
     *

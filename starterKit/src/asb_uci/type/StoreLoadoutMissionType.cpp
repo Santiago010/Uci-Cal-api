@@ -112,15 +112,15 @@ uci::type::StoreType& StoreLoadoutMissionType::enableStoreType(uci::base::access
   return *storeType_Accessor;
 }
 
-// const uci::type::VisibleString256Type& StoreLoadoutMissionType::getMnemonic() const noexcept {
+// const asb_uci::type::VisibleString256Type& StoreLoadoutMissionType::getMnemonic() const noexcept {
 //   return *mnemonic_Accessor;
 // }
 
-// uci::type::VisibleString256Type& StoreLoadoutMissionType::getMnemonic() noexcept {
+// asb_uci::type::VisibleString256Type& StoreLoadoutMissionType::getMnemonic() noexcept {
 //   return *mnemonic_Accessor;
 // }
 
-uci::type::StoreLoadoutMissionType& StoreLoadoutMissionType::setMnemonic(const uci::type::VisibleString256Type& value) {
+uci::type::StoreLoadoutMissionType& StoreLoadoutMissionType::setMnemonic(const asb_uci::type::VisibleString256Type& value) {
   return setMnemonic(value.c_str());
 }
 

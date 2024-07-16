@@ -183,26 +183,26 @@ public:
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getStatusDetail_() const;
+  asb_uci::type::VisibleString256Type& getStatusDetail_() const;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  const uci::type::VisibleString256Type& getStatusDetail() const override;
+  const asb_uci::type::VisibleString256Type& getStatusDetail() const override;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getStatusDetail() override;
+  asb_uci::type::VisibleString256Type& getStatusDetail() override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
     * @param value The value to set the optional field to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::ServiceStatusMDT& setStatusDetail(const uci::type::VisibleString256Type& value) override;
+  uci::type::ServiceStatusMDT& setStatusDetail(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
@@ -230,7 +230,7 @@ public:
     * @param type The value to set the optional field to
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& enableStatusDetail(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
+  asb_uci::type::VisibleString256Type& enableStatusDetail(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
 
   /** Clears the optional item marking it as not being set.
     *
@@ -314,7 +314,7 @@ private:
   std::unique_ptr<ServiceID_Type> serviceID_Accessor;
   DurationTypeValue timeUp_Accessor{0};
   std::unique_ptr<ServiceStateEnum> serviceState_Accessor;
-  std::unique_ptr<VisibleString256Type> statusDetail_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> statusDetail_Accessor;
   std::unique_ptr<EnabledSettings> enabledSettings_Accessor;
   std::unique_ptr<SupportedSettings> supportedSettings_Accessor;
 

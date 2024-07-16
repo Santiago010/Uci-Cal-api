@@ -113,7 +113,7 @@ public:
   virtual void copy(const TransceiverType& accessor) = 0;
 
   /** Provides the version string for the Transceiver Software. [Occurrences: Minimum: 0; Maximum: MAX_LENGTH] */
-  typedef uci::base::BoundedList<uci::type::VisibleString256Type, uci::type::accessorType::visibleString256Type> SoftwareVersion;
+  typedef uci::base::BoundedList<asb_uci::type::VisibleString256Type, uci::type::accessorType::visibleString256Type> SoftwareVersion;
 
   /** Indicates the unique ID of the component referenced in the SubsystemConfiguration message. [Occurrences: Minimum: 0;
     * Maximum: MAX_LENGTH]

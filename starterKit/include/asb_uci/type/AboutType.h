@@ -141,26 +141,26 @@ public:
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getSerialNumber_() const;
+  asb_uci::type::VisibleString256Type& getSerialNumber_() const;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  const uci::type::VisibleString256Type& getSerialNumber() const override;
+  const asb_uci::type::VisibleString256Type& getSerialNumber() const override;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getSerialNumber() override;
+  asb_uci::type::VisibleString256Type& getSerialNumber() override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
     * @param value The value to set the optional field to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::AboutType& setSerialNumber(const uci::type::VisibleString256Type& value) override;
+  uci::type::AboutType& setSerialNumber(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
@@ -188,7 +188,7 @@ public:
     * @param type The value to set the optional field to
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& enableSerialNumber(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
+  asb_uci::type::VisibleString256Type& enableSerialNumber(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
 
   /** Clears the optional item marking it as not being set.
     *
@@ -200,26 +200,26 @@ public:
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getSoftwareVersion_() const;
+  asb_uci::type::VisibleString256Type& getSoftwareVersion_() const;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  const uci::type::VisibleString256Type& getSoftwareVersion() const override;
+  const asb_uci::type::VisibleString256Type& getSoftwareVersion() const override;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getSoftwareVersion() override;
+  asb_uci::type::VisibleString256Type& getSoftwareVersion() override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
     * @param value The value to set the optional field to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::AboutType& setSoftwareVersion(const uci::type::VisibleString256Type& value) override;
+  uci::type::AboutType& setSoftwareVersion(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
@@ -247,7 +247,7 @@ public:
     * @param type The value to set the optional field to
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& enableSoftwareVersion(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
+  asb_uci::type::VisibleString256Type& enableSoftwareVersion(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
 
   /** Clears the optional item marking it as not being set.
     *
@@ -259,26 +259,26 @@ public:
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getBootloaderSoftwareVersion_() const;
+  asb_uci::type::VisibleString256Type& getBootloaderSoftwareVersion_() const;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  const uci::type::VisibleString256Type& getBootloaderSoftwareVersion() const override;
+  const asb_uci::type::VisibleString256Type& getBootloaderSoftwareVersion() const override;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getBootloaderSoftwareVersion() override;
+  asb_uci::type::VisibleString256Type& getBootloaderSoftwareVersion() override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
     * @param value The value to set the optional field to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::AboutType& setBootloaderSoftwareVersion(const uci::type::VisibleString256Type& value) override;
+  uci::type::AboutType& setBootloaderSoftwareVersion(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
@@ -306,7 +306,7 @@ public:
     * @param type The value to set the optional field to
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& enableBootloaderSoftwareVersion(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
+  asb_uci::type::VisibleString256Type& enableBootloaderSoftwareVersion(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
 
   /** Clears the optional item marking it as not being set.
     *
@@ -405,9 +405,9 @@ public:
 
 private:
   std::unique_ptr<VisibleString32Type> model_Accessor;
-  std::unique_ptr<VisibleString256Type> serialNumber_Accessor;
-  std::unique_ptr<VisibleString256Type> softwareVersion_Accessor;
-  std::unique_ptr<VisibleString256Type> bootloaderSoftwareVersion_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> serialNumber_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> softwareVersion_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> bootloaderSoftwareVersion_Accessor;
   std::unique_ptr<VisibleString32Type> hardwareVersion_Accessor;
 
 };

@@ -281,22 +281,22 @@ uci::type::CoordinatedRequirementSetMDT& CoordinatedRequirementSetMDT::clearTimi
   return *this;
 }
 
-uci::type::VisibleString256Type& CoordinatedRequirementSetMDT::getCoordinationParameter_() const {
+asb_uci::type::VisibleString256Type& CoordinatedRequirementSetMDT::getCoordinationParameter_() const {
   if (coordinationParameter_Accessor) {
     return *coordinationParameter_Accessor;
   }
   throw uci::base::UCIException("Error in getCoordinationParameter(): An attempt was made to get an optional field that was not enabled, call hasCoordinationParameter() to determine if it is safe to call getCoordinationParameter()");
 }
 
-const uci::type::VisibleString256Type& CoordinatedRequirementSetMDT::getCoordinationParameter() const {
+const asb_uci::type::VisibleString256Type& CoordinatedRequirementSetMDT::getCoordinationParameter() const {
   return getCoordinationParameter_();
 }
 
-uci::type::VisibleString256Type& CoordinatedRequirementSetMDT::getCoordinationParameter() {
+asb_uci::type::VisibleString256Type& CoordinatedRequirementSetMDT::getCoordinationParameter() {
   return getCoordinationParameter_();
 }
 
-uci::type::CoordinatedRequirementSetMDT& CoordinatedRequirementSetMDT::setCoordinationParameter(const uci::type::VisibleString256Type& value) {
+uci::type::CoordinatedRequirementSetMDT& CoordinatedRequirementSetMDT::setCoordinationParameter(const asb_uci::type::VisibleString256Type& value) {
   return setCoordinationParameter(value.c_str());
 }
 
@@ -313,9 +313,9 @@ bool CoordinatedRequirementSetMDT::hasCoordinationParameter() const noexcept {
   return static_cast<bool>(coordinationParameter_Accessor);
 }
 
-uci::type::VisibleString256Type& CoordinatedRequirementSetMDT::enableCoordinationParameter(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& CoordinatedRequirementSetMDT::enableCoordinationParameter(uci::base::accessorType::AccessorType type) {
   if (!coordinationParameter_Accessor) {
-    coordinationParameter_Accessor = boost::make_unique<std::string>("");
+    coordinationParameter_Accessor =  asb_uci::type::VisibleString256Type::create(type);
   }
   return *coordinationParameter_Accessor;
 }
@@ -340,22 +340,22 @@ uci::type::CoordinatedRequirementSetMDT& CoordinatedRequirementSetMDT::setLinked
   return *this;
 }
 
-uci::type::VisibleString256Type& CoordinatedRequirementSetMDT::getVOIP_Number_() const {
+asb_uci::type::VisibleString256Type& CoordinatedRequirementSetMDT::getVOIP_Number_() const {
   if (vOIP_Number_Accessor) {
     return *vOIP_Number_Accessor;
   }
   throw uci::base::UCIException("Error in getVOIP_Number(): An attempt was made to get an optional field that was not enabled, call hasVOIP_Number() to determine if it is safe to call getVOIP_Number()");
 }
 
-const uci::type::VisibleString256Type& CoordinatedRequirementSetMDT::getVOIP_Number() const {
+const asb_uci::type::VisibleString256Type& CoordinatedRequirementSetMDT::getVOIP_Number() const {
   return getVOIP_Number_();
 }
 
-uci::type::VisibleString256Type& CoordinatedRequirementSetMDT::getVOIP_Number() {
+asb_uci::type::VisibleString256Type& CoordinatedRequirementSetMDT::getVOIP_Number() {
   return getVOIP_Number_();
 }
 
-uci::type::CoordinatedRequirementSetMDT& CoordinatedRequirementSetMDT::setVOIP_Number(const uci::type::VisibleString256Type& value) {
+uci::type::CoordinatedRequirementSetMDT& CoordinatedRequirementSetMDT::setVOIP_Number(const asb_uci::type::VisibleString256Type& value) {
   return setVOIP_Number(value.c_str());
 }
 
@@ -372,9 +372,9 @@ bool CoordinatedRequirementSetMDT::hasVOIP_Number() const noexcept {
   return static_cast<bool>(vOIP_Number_Accessor);
 }
 
-uci::type::VisibleString256Type& CoordinatedRequirementSetMDT::enableVOIP_Number(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& CoordinatedRequirementSetMDT::enableVOIP_Number(uci::base::accessorType::AccessorType type) {
   if (!vOIP_Number_Accessor) {
-    vOIP_Number_Accessor = boost::make_unique<std::string>("");
+    vOIP_Number_Accessor =  asb_uci::type::VisibleString256Type::create(type);
   }
   return *vOIP_Number_Accessor;
 }
@@ -384,22 +384,22 @@ uci::type::CoordinatedRequirementSetMDT& CoordinatedRequirementSetMDT::clearVOIP
   return *this;
 }
 
-uci::type::VisibleString256Type& CoordinatedRequirementSetMDT::getChatRoom_() const {
+asb_uci::type::VisibleString256Type& CoordinatedRequirementSetMDT::getChatRoom_() const {
   if (chatRoom_Accessor) {
     return *chatRoom_Accessor;
   }
   throw uci::base::UCIException("Error in getChatRoom(): An attempt was made to get an optional field that was not enabled, call hasChatRoom() to determine if it is safe to call getChatRoom()");
 }
 
-const uci::type::VisibleString256Type& CoordinatedRequirementSetMDT::getChatRoom() const {
+const asb_uci::type::VisibleString256Type& CoordinatedRequirementSetMDT::getChatRoom() const {
   return getChatRoom_();
 }
 
-uci::type::VisibleString256Type& CoordinatedRequirementSetMDT::getChatRoom() {
+asb_uci::type::VisibleString256Type& CoordinatedRequirementSetMDT::getChatRoom() {
   return getChatRoom_();
 }
 
-uci::type::CoordinatedRequirementSetMDT& CoordinatedRequirementSetMDT::setChatRoom(const uci::type::VisibleString256Type& value) {
+uci::type::CoordinatedRequirementSetMDT& CoordinatedRequirementSetMDT::setChatRoom(const asb_uci::type::VisibleString256Type& value) {
   return setChatRoom(value.c_str());
 }
 
@@ -416,9 +416,9 @@ bool CoordinatedRequirementSetMDT::hasChatRoom() const noexcept {
   return static_cast<bool>(chatRoom_Accessor);
 }
 
-uci::type::VisibleString256Type& CoordinatedRequirementSetMDT::enableChatRoom(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& CoordinatedRequirementSetMDT::enableChatRoom(uci::base::accessorType::AccessorType type) {
   if (!chatRoom_Accessor) {
-    chatRoom_Accessor = boost::make_unique<std::string>("");
+    chatRoom_Accessor =  asb_uci::type::VisibleString256Type::create(type);
   }
   return *chatRoom_Accessor;
 }

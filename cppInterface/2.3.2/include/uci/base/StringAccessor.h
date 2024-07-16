@@ -39,6 +39,7 @@
 #include <string>
 
 #include "Accessor.h"
+#include "accessorType.h"
 
 /** The namespace in which all UCI data types are declared */
 namespace uci {
@@ -92,6 +93,7 @@ public:
     * @note The returned pointer should not be deleted as the memory used to hold the C-string is owned by the CAL.
     */
   virtual const char* c_str() const = 0;
+
 
   /** Sets the string accessed by this StringAccessor to the contents of the specified value which is a C++ standard
     * library string.

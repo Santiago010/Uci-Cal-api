@@ -145,20 +145,20 @@ public:
     *
     * @return The contents of the MDF_Name field
     */
-  const uci::type::VisibleString256Type& getMDF_Name() const noexcept override;
+  const asb_uci::type::VisibleString256Type& getMDF_Name() const noexcept override;
 
   /** Returns the contents of the message's MDF_Name field
     *
     * @return The contents of the MDF_Name field
     */
-  uci::type::VisibleString256Type& getMDF_Name() noexcept override;
+  asb_uci::type::VisibleString256Type& getMDF_Name() noexcept override;
 
   /** Sets the contents of the message's MDF_Name field
     *
     * @param value The new value to set the MDF_Name field to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::EA_TechniqueGroupIdentifierType& setMDF_Name(const uci::type::VisibleString256Type& value) override;
+  uci::type::EA_TechniqueGroupIdentifierType& setMDF_Name(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets the contents of the message's MDF_Name field
     *
@@ -206,7 +206,7 @@ public:
 
 private:
   std::unique_ptr<VisibleString2_4Type> nickname_Accessor;
-  std::unique_ptr<VisibleString256Type> mDF_Name_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> mDF_Name_Accessor;
 
 };
 

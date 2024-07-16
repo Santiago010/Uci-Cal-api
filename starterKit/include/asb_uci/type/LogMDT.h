@@ -328,20 +328,20 @@ public:
     *
     * @return The contents of the Label field
     */
-  const std::string& getLabel() const noexcept override;
+  const asb_uci::type::VisibleString256Type& getLabel() const noexcept override;
 
   /** Returns the contents of the message's Label field
     *
     * @return The contents of the Label field
     */
-  std::string& getLabel() noexcept override;
+  asb_uci::type::VisibleString256Type& getLabel() noexcept override;
 
   /** Sets the contents of the message's Label field
     *
     * @param value The new value to set the Label field to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::LogMDT& setLabel(const uci::type::VisibleString256Type& value) override;
+  uci::type::LogMDT& setLabel(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets the contents of the message's Label field
     *
@@ -471,7 +471,7 @@ private:
   std::unique_ptr<ComponentID> componentID_Accessor;
   std::unique_ptr<CapabilityID> capabilityID_Accessor;
   std::unique_ptr<LogSeverityEnum> severity_Accessor;
-  std::unique_ptr<std::string> label_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> label_Accessor;
   std::unique_ptr<VisibleString1024Type> details_Accessor;
   std::unique_ptr<asb_xs::HexBinary> data_Accessor;
 

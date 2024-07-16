@@ -203,13 +203,13 @@ public:
     *
     * @return A const reference to the accessor that provides access to the string identified by LoadoutMnemonic.
     */
-  virtual const uci::type::VisibleString256Type& getLoadoutMnemonic() const = 0;
+  virtual const asb_uci::type::VisibleString256Type& getLoadoutMnemonic() const = 0;
 
   /** Returns a reference to the accessor that provides access to the string identified by LoadoutMnemonic.
     *
     * @return A reference to the accessor that provides access to the string identified by LoadoutMnemonic.
     */
-  virtual uci::type::VisibleString256Type& getLoadoutMnemonic() = 0;
+  virtual asb_uci::type::VisibleString256Type& getLoadoutMnemonic() = 0;
 
   /** Sets the string identified by LoadoutMnemonic to the contents of the string accessed by the specified accessor.
     *
@@ -217,7 +217,7 @@ public:
     *      string identified by LoadoutMnemonic.
     * @return A reference to the object on which this method was called.
     */
-  virtual uci::type::StrikeCapabilityMDT& setLoadoutMnemonic(const uci::type::VisibleString256Type& value) = 0;
+  virtual uci::type::StrikeCapabilityMDT& setLoadoutMnemonic(const asb_uci::type::VisibleString256Type& value) = 0;
 
   /** Sets the string identified by LoadoutMnemonic to the contents of the string that is accessed by the specified
     * accessor.
@@ -246,7 +246,7 @@ public:
     * @param type = uci::base::accessorType::null This Accessor's accessor type.
     * @return A reference to the accessor that provides access to the string identified by LoadoutMnemonic.
     */
-  virtual uci::type::VisibleString256Type& enableLoadoutMnemonic(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
+  virtual asb_uci::type::VisibleString256Type& enableLoadoutMnemonic(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
 
   /** Clears (disabled) the Element identified by LoadoutMnemonic.
     *

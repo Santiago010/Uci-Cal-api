@@ -172,7 +172,7 @@ public:
     * @return A const reference to the accessor that provides access to the string identified by
     *      CustomEmitterFunctionDescription.
     */
-  virtual const uci::type::VisibleString256Type& getCustomEmitterFunctionDescription() const = 0;
+  virtual const asb_uci::type::VisibleString256Type& getCustomEmitterFunctionDescription() const = 0;
 
   /** Returns a reference to the accessor that provides access to the string identified by
     * CustomEmitterFunctionDescription.
@@ -180,7 +180,7 @@ public:
     * @return A reference to the accessor that provides access to the string identified by
     *      CustomEmitterFunctionDescription.
     */
-  virtual uci::type::VisibleString256Type& getCustomEmitterFunctionDescription() = 0;
+  virtual asb_uci::type::VisibleString256Type& getCustomEmitterFunctionDescription() = 0;
 
   /** Sets the string identified by CustomEmitterFunctionDescription to the contents of the string accessed by the
     * specified accessor.
@@ -189,7 +189,7 @@ public:
     *      string identified by CustomEmitterFunctionDescription.
     * @return A reference to the object on which this method was called.
     */
-  virtual uci::type::EmitterFunctionType& setCustomEmitterFunctionDescription(const uci::type::VisibleString256Type& value) = 0;
+  virtual uci::type::EmitterFunctionType& setCustomEmitterFunctionDescription(const asb_uci::type::VisibleString256Type& value) = 0;
 
   /** Sets the string identified by CustomEmitterFunctionDescription to the contents of the string that is accessed by the
     * specified accessor.
@@ -219,7 +219,7 @@ public:
     * @return A reference to the accessor that provides access to the string identified by
     *      CustomEmitterFunctionDescription.
     */
-  virtual uci::type::VisibleString256Type& enableCustomEmitterFunctionDescription(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
+  virtual asb_uci::type::VisibleString256Type& enableCustomEmitterFunctionDescription(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
 
   /** Clears (disabled) the Element identified by CustomEmitterFunctionDescription.
     *

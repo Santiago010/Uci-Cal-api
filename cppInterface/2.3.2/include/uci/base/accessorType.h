@@ -15446,7 +15446,7 @@ static const uci::base::accessorType::AccessorType visibleString2_4Type = 5114;
 /** This accessor type is used to identify the uci::type::VisibleString20Type Accessor */
 static const uci::base::accessorType::AccessorType visibleString20Type = 5115;
 
-/** This accessor type is used to identify the uci::type::VisibleString256Type Accessor */
+/** This accessor type is used to identify the asb_uci::type::VisibleString256Type Accessor */
 static const uci::base::accessorType::AccessorType visibleString256Type = 5116;
 
 /** This accessor type is used to identify the uci::type::VisibleString32Type Accessor */

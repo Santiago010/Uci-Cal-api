@@ -51,7 +51,7 @@ namespace type {
   * is used. A unit's primary designation usually includes service specialty and command echelon.; [Pattern: "[a-zA-Z0-9
   * '\(\).,@;+\-]*"]
   */
-typedef uci::type::VisibleString256Type UnitNameType;
+typedef asb_uci::type::VisibleString256Type UnitNameType;
 
 } // namespace type
 } // namespace uci

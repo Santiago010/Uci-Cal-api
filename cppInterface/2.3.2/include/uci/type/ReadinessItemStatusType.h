@@ -190,13 +190,13 @@ public:
     *
     * @return A const reference to the accessor that provides access to the string identified by Reason.
     */
-  virtual const uci::type::VisibleString256Type& getReason() const = 0;
+  virtual const asb_uci::type::VisibleString256Type& getReason() const = 0;
 
   /** Returns a reference to the accessor that provides access to the string identified by Reason.
     *
     * @return A reference to the accessor that provides access to the string identified by Reason.
     */
-  virtual uci::type::VisibleString256Type& getReason() = 0;
+  virtual asb_uci::type::VisibleString256Type& getReason() = 0;
 
   /** Sets the string identified by Reason to the contents of the string accessed by the specified accessor.
     *
@@ -204,7 +204,7 @@ public:
     *      string identified by Reason.
     * @return A reference to the object on which this method was called.
     */
-  virtual uci::type::ReadinessItemStatusType& setReason(const uci::type::VisibleString256Type& value) = 0;
+  virtual uci::type::ReadinessItemStatusType& setReason(const asb_uci::type::VisibleString256Type& value) = 0;
 
   /** Sets the string identified by Reason to the contents of the string that is accessed by the specified accessor.
     *
@@ -231,7 +231,7 @@ public:
     * @param type = uci::base::accessorType::null This Accessor's accessor type.
     * @return A reference to the accessor that provides access to the string identified by Reason.
     */
-  virtual uci::type::VisibleString256Type& enableReason(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
+  virtual asb_uci::type::VisibleString256Type& enableReason(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
 
   /** Clears (disabled) the Element identified by Reason.
     *

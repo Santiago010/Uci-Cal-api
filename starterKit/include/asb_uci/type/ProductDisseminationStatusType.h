@@ -161,26 +161,26 @@ public:
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getStatusDetails_() const;
+  asb_uci::type::VisibleString256Type& getStatusDetails_() const;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  const uci::type::VisibleString256Type& getStatusDetails() const override;
+  const asb_uci::type::VisibleString256Type& getStatusDetails() const override;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getStatusDetails() override;
+  asb_uci::type::VisibleString256Type& getStatusDetails() override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
     * @param value The value to set the optional field to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::ProductDisseminationStatusType& setStatusDetails(const uci::type::VisibleString256Type& value) override;
+  uci::type::ProductDisseminationStatusType& setStatusDetails(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
@@ -208,7 +208,7 @@ public:
     * @param type The value to set the optional field to
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& enableStatusDetails(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
+  asb_uci::type::VisibleString256Type& enableStatusDetails(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
 
   /** Clears the optional item marking it as not being set.
     *
@@ -299,7 +299,7 @@ public:
 private:
   std::unique_ptr<DisseminationProductType> product_Accessor;
   std::unique_ptr<DisseminationStatusEnum> productDisseminationState_Accessor;
-  std::unique_ptr<VisibleString256Type> statusDetails_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> statusDetails_Accessor;
   boost::optional<DateTimeTypeValue> estimatedCompletionTime_Accessor;
   boost::optional<PercentTypeValue> estimatedPercentComplete_Accessor;
 

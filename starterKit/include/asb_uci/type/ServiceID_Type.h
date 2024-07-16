@@ -112,26 +112,26 @@ public:
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getServiceVersion_() const;
+  asb_uci::type::VisibleString256Type& getServiceVersion_() const;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  const uci::type::VisibleString256Type& getServiceVersion() const override;
+  const asb_uci::type::VisibleString256Type& getServiceVersion() const override;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getServiceVersion() override;
+  asb_uci::type::VisibleString256Type& getServiceVersion() override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
     * @param value The value to set the optional field to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::ServiceID_Type& setServiceVersion(const uci::type::VisibleString256Type& value) override;
+  uci::type::ServiceID_Type& setServiceVersion(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
@@ -159,7 +159,7 @@ public:
     * @param type The value to set the optional field to
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& enableServiceVersion(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
+  asb_uci::type::VisibleString256Type& enableServiceVersion(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
 
   /** Clears the optional item marking it as not being set.
     *
@@ -172,7 +172,7 @@ public:
     * @param type .
     * @return .
     */
-  static std::unique_ptr<uci::type::VisibleString256Type> createVisibleString256Type(uci::base::accessorType::AccessorType type);
+  static std::unique_ptr<asb_uci::type::VisibleString256Type> createVisibleString256Type(uci::base::accessorType::AccessorType type);
 
   static std::unique_ptr<ServiceID_Type> createServiceIDType(uci::base::accessorType::AccessorType type);
   /** 
@@ -199,7 +199,7 @@ public:
   static std::string serialize(const uci::type::ServiceID_Type& accessor, boost::property_tree::ptree& propTree, const std::string& nodeName, bool createNode = true, bool addTypeAttribute = false, bool checkIfDerivation = true, bool topLevel = false);
 
 private:
-  std::unique_ptr<uci::type::VisibleString256Type> serviceVersion_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> serviceVersion_Accessor;
 
 };
 

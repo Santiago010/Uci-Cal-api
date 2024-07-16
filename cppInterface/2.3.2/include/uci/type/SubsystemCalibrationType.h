@@ -117,7 +117,7 @@ public:
   /** Indicates the name of a non-Component, non-Capability item included in the Calibration. Calibration items can be
     * logical or physical, singular or aggregated. [Occurrences: Minimum: 0; Maximum: MAX_LENGTH]
     */
-  typedef uci::base::BoundedList<uci::type::VisibleString256Type, uci::type::accessorType::visibleString256Type> CalibrationItemName;
+  typedef uci::base::BoundedList<asb_uci::type::VisibleString256Type, uci::type::accessorType::visibleString256Type> CalibrationItemName;
 
   /** Indicates a Component that is included in the Calibration. [Occurrences: Minimum: 0; Maximum: MAX_LENGTH] */
   typedef uci::base::BoundedList<uci::type::ComponentID_Type, uci::type::accessorType::componentID_Type> SubsystemComponentID;

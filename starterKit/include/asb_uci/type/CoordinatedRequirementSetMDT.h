@@ -302,26 +302,26 @@ public:
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getCoordinationParameter_() const;
+  asb_uci::type::VisibleString256Type& getCoordinationParameter_() const;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  const uci::type::VisibleString256Type& getCoordinationParameter() const override;
+  const asb_uci::type::VisibleString256Type& getCoordinationParameter() const override;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getCoordinationParameter() override;
+  asb_uci::type::VisibleString256Type& getCoordinationParameter() override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
     * @param value The value to set the optional field to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::CoordinatedRequirementSetMDT& setCoordinationParameter(const uci::type::VisibleString256Type& value) override;
+  uci::type::CoordinatedRequirementSetMDT& setCoordinationParameter(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
@@ -349,7 +349,7 @@ public:
     * @param type The value to set the optional field to
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& enableCoordinationParameter(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
+  asb_uci::type::VisibleString256Type& enableCoordinationParameter(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
 
   /** Clears the optional item marking it as not being set.
     *
@@ -382,26 +382,26 @@ public:
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getVOIP_Number_() const;
+  asb_uci::type::VisibleString256Type& getVOIP_Number_() const;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  const uci::type::VisibleString256Type& getVOIP_Number() const override;
+  const asb_uci::type::VisibleString256Type& getVOIP_Number() const override;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getVOIP_Number() override;
+  asb_uci::type::VisibleString256Type& getVOIP_Number() override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
     * @param value The value to set the optional field to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::CoordinatedRequirementSetMDT& setVOIP_Number(const uci::type::VisibleString256Type& value) override;
+  uci::type::CoordinatedRequirementSetMDT& setVOIP_Number(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
@@ -429,7 +429,7 @@ public:
     * @param type The value to set the optional field to
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& enableVOIP_Number(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
+  asb_uci::type::VisibleString256Type& enableVOIP_Number(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
 
   /** Clears the optional item marking it as not being set.
     *
@@ -441,26 +441,26 @@ public:
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getChatRoom_() const;
+  asb_uci::type::VisibleString256Type& getChatRoom_() const;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  const uci::type::VisibleString256Type& getChatRoom() const override;
+  const asb_uci::type::VisibleString256Type& getChatRoom() const override;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getChatRoom() override;
+  asb_uci::type::VisibleString256Type& getChatRoom() override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
     * @param value The value to set the optional field to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::CoordinatedRequirementSetMDT& setChatRoom(const uci::type::VisibleString256Type& value) override;
+  uci::type::CoordinatedRequirementSetMDT& setChatRoom(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
@@ -488,7 +488,7 @@ public:
     * @param type The value to set the optional field to
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& enableChatRoom(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
+  asb_uci::type::VisibleString256Type& enableChatRoom(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
 
   /** Clears the optional item marking it as not being set.
     *
@@ -577,10 +577,10 @@ private:
   std::unique_ptr<SecurityInformationType> acceptableClassificationLevel_Accessor;
   std::unique_ptr<VisibleString1024Type> specialInstructions_Accessor;
   std::unique_ptr<TimingConstraintsType> timingConstraints_Accessor;
-  std::unique_ptr<VisibleString256Type> coordinationParameter_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> coordinationParameter_Accessor;
   std::unique_ptr<LinkedRequirement> linkedRequirement_Accessor;
-  std::unique_ptr<VisibleString256Type> vOIP_Number_Accessor;
-  std::unique_ptr<VisibleString256Type> chatRoom_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> vOIP_Number_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> chatRoom_Accessor;
   boost::optional<FrequencyTypeValue> frequency_Accessor;
   std::unique_ptr<CallSign> callSign_Accessor;
 

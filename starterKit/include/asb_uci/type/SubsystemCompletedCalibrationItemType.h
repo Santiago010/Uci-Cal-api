@@ -110,20 +110,20 @@ public:
     *
     * @return The contents of the CalibrationItemName field
     */
-  const uci::type::VisibleString256Type& getCalibrationItemName() const noexcept override;
+  const asb_uci::type::VisibleString256Type& getCalibrationItemName() const noexcept override;
 
   /** Returns the contents of the message's CalibrationItemName field
     *
     * @return The contents of the CalibrationItemName field
     */
-  uci::type::VisibleString256Type& getCalibrationItemName() noexcept override;
+  asb_uci::type::VisibleString256Type& getCalibrationItemName() noexcept override;
 
   /** Sets the contents of the message's CalibrationItemName field
     *
     * @param value The new value to set the CalibrationItemName field to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::SubsystemCompletedCalibrationItemType& setCalibrationItemName(const uci::type::VisibleString256Type& value) override;
+  uci::type::SubsystemCompletedCalibrationItemType& setCalibrationItemName(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets the contents of the message's CalibrationItemName field
     *
@@ -169,26 +169,26 @@ public:
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getFailReason_() const;
+  asb_uci::type::VisibleString256Type& getFailReason_() const;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  const uci::type::VisibleString256Type& getFailReason() const override;
+  const asb_uci::type::VisibleString256Type& getFailReason() const override;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getFailReason() override;
+  asb_uci::type::VisibleString256Type& getFailReason() override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
     * @param value The value to set the optional field to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::SubsystemCompletedCalibrationItemType& setFailReason(const uci::type::VisibleString256Type& value) override;
+  uci::type::SubsystemCompletedCalibrationItemType& setFailReason(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
@@ -216,7 +216,7 @@ public:
     * @param type The value to set the optional field to
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& enableFailReason(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
+  asb_uci::type::VisibleString256Type& enableFailReason(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
 
   /** Clears the optional item marking it as not being set.
     *
@@ -255,9 +255,9 @@ public:
   static std::string serialize(const uci::type::SubsystemCompletedCalibrationItemType& accessor, boost::property_tree::ptree& propTree, const std::string& nodeName, bool createNode = true, bool addTypeAttribute = false, bool checkIfDerivation = true, bool topLevel = false);
 
 private:
-  std::unique_ptr<VisibleString256Type> calibrationItemName_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> calibrationItemName_Accessor;
   std::unique_ptr<SubsystemCalibrationResultEnum> result_Accessor;
-  std::unique_ptr<VisibleString256Type> failReason_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> failReason_Accessor;
 
 };
 

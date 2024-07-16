@@ -189,22 +189,22 @@ uci::type::ForeignKeyType& OperatorRoleMDT::enableRole(uci::base::accessorType::
   return *role_Accessor;
 }
 
-uci::type::VisibleString256Type& OperatorRoleMDT::getRoleDescription_() const {
+asb_uci::type::VisibleString256Type& OperatorRoleMDT::getRoleDescription_() const {
   if (roleDescription_Accessor) {
     return *roleDescription_Accessor;
   }
   throw uci::base::UCIException("Error in getRoleDescription(): An attempt was made to get an optional field that was not enabled, call hasRoleDescription() to determine if it is safe to call getRoleDescription()");
 }
 
-const uci::type::VisibleString256Type& OperatorRoleMDT::getRoleDescription() const {
+const asb_uci::type::VisibleString256Type& OperatorRoleMDT::getRoleDescription() const {
   return getRoleDescription_();
 }
 
-uci::type::VisibleString256Type& OperatorRoleMDT::getRoleDescription() {
+asb_uci::type::VisibleString256Type& OperatorRoleMDT::getRoleDescription() {
   return getRoleDescription_();
 }
 
-uci::type::OperatorRoleMDT& OperatorRoleMDT::setRoleDescription(const uci::type::VisibleString256Type& value) {
+uci::type::OperatorRoleMDT& OperatorRoleMDT::setRoleDescription(const asb_uci::type::VisibleString256Type& value) {
   return setRoleDescription(value.c_str());
 }
 
@@ -221,9 +221,9 @@ bool OperatorRoleMDT::hasRoleDescription() const noexcept {
   return static_cast<bool>(roleDescription_Accessor);
 }
 
-uci::type::VisibleString256Type& OperatorRoleMDT::enableRoleDescription(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& OperatorRoleMDT::enableRoleDescription(uci::base::accessorType::AccessorType type) {
   if (!roleDescription_Accessor) {
-    roleDescription_Accessor = boost::make_unique<std::string>("");
+    roleDescription_Accessor =  asb_uci::type::VisibleString256Type::create(type);
   }
   return *roleDescription_Accessor;
 }

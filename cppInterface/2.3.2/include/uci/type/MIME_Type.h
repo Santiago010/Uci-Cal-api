@@ -45,7 +45,7 @@ namespace uci {
 namespace type {
 
 /** This MIME type describes the product's physical encoding. */
-typedef uci::type::VisibleString256Type MIME_Type;
+typedef asb_uci::type::VisibleString256Type MIME_Type;
 
 } // namespace type
 } // namespace uci

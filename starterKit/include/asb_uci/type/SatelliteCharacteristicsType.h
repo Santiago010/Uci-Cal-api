@@ -140,26 +140,26 @@ public:
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getBusType_() const;
+  asb_uci::type::VisibleString256Type& getBusType_() const;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  const uci::type::VisibleString256Type& getBusType() const override;
+  const asb_uci::type::VisibleString256Type& getBusType() const override;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getBusType() override;
+  asb_uci::type::VisibleString256Type& getBusType() override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
     * @param value The value to set the optional field to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::SatelliteCharacteristicsType& setBusType(const uci::type::VisibleString256Type& value) override;
+  uci::type::SatelliteCharacteristicsType& setBusType(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
@@ -187,7 +187,7 @@ public:
     * @param type The value to set the optional field to
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& enableBusType(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
+  asb_uci::type::VisibleString256Type& enableBusType(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
 
   /** Clears the optional item marking it as not being set.
     *
@@ -356,7 +356,7 @@ public:
   static std::string serialize(const uci::type::SatelliteCharacteristicsType& accessor, boost::property_tree::ptree& propTree, const std::string& nodeName, bool createNode = true, bool addTypeAttribute = false, bool checkIfDerivation = true, bool topLevel = false);
 
 private:
-  std::unique_ptr<VisibleString256Type> busType_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> busType_Accessor;
   std::unique_ptr<MissionType> missionType_Accessor;
   boost::optional<MassTypeValue> mass_Accessor;
   std::unique_ptr<PhysicalConfiguration> physicalConfiguration_Accessor;

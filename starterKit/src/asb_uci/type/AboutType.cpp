@@ -122,22 +122,22 @@ uci::type::AboutType& AboutType::setModel(const char* value) {
   return *this;
 }
 
-uci::type::VisibleString256Type& AboutType::getSerialNumber_() const {
+asb_uci::type::VisibleString256Type& AboutType::getSerialNumber_() const {
   if (serialNumber_Accessor) {
     return *serialNumber_Accessor;
   }
   throw uci::base::UCIException("Error in getSerialNumber(): An attempt was made to get an optional field that was not enabled, call hasSerialNumber() to determine if it is safe to call getSerialNumber()");
 }
 
-const uci::type::VisibleString256Type& AboutType::getSerialNumber() const {
+const asb_uci::type::VisibleString256Type& AboutType::getSerialNumber() const {
   return getSerialNumber_();
 }
 
-uci::type::VisibleString256Type& AboutType::getSerialNumber() {
+asb_uci::type::VisibleString256Type& AboutType::getSerialNumber() {
   return getSerialNumber_();
 }
 
-uci::type::AboutType& AboutType::setSerialNumber(const uci::type::VisibleString256Type& value) {
+uci::type::AboutType& AboutType::setSerialNumber(const asb_uci::type::VisibleString256Type& value) {
   return setSerialNumber(value.c_str());
 }
 
@@ -154,9 +154,9 @@ bool AboutType::hasSerialNumber() const noexcept {
   return static_cast<bool>(serialNumber_Accessor);
 }
 
-uci::type::VisibleString256Type& AboutType::enableSerialNumber(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& AboutType::enableSerialNumber(uci::base::accessorType::AccessorType type) {
   if (!serialNumber_Accessor) {
-    serialNumber_Accessor = boost::make_unique<std::string>("");
+    serialNumber_Accessor =  asb_uci::type::VisibleString256Type::create(type);
   }
   return *serialNumber_Accessor;
 }
@@ -166,22 +166,22 @@ uci::type::AboutType& AboutType::clearSerialNumber() noexcept {
   return *this;
 }
 
-uci::type::VisibleString256Type& AboutType::getSoftwareVersion_() const {
+asb_uci::type::VisibleString256Type& AboutType::getSoftwareVersion_() const {
   if (softwareVersion_Accessor) {
     return *softwareVersion_Accessor;
   }
   throw uci::base::UCIException("Error in getSoftwareVersion(): An attempt was made to get an optional field that was not enabled, call hasSoftwareVersion() to determine if it is safe to call getSoftwareVersion()");
 }
 
-const uci::type::VisibleString256Type& AboutType::getSoftwareVersion() const {
+const asb_uci::type::VisibleString256Type& AboutType::getSoftwareVersion() const {
   return getSoftwareVersion_();
 }
 
-uci::type::VisibleString256Type& AboutType::getSoftwareVersion() {
+asb_uci::type::VisibleString256Type& AboutType::getSoftwareVersion() {
   return getSoftwareVersion_();
 }
 
-uci::type::AboutType& AboutType::setSoftwareVersion(const uci::type::VisibleString256Type& value) {
+uci::type::AboutType& AboutType::setSoftwareVersion(const asb_uci::type::VisibleString256Type& value) {
   return setSoftwareVersion(value.c_str());
 }
 
@@ -198,9 +198,9 @@ bool AboutType::hasSoftwareVersion() const noexcept {
   return static_cast<bool>(softwareVersion_Accessor);
 }
 
-uci::type::VisibleString256Type& AboutType::enableSoftwareVersion(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& AboutType::enableSoftwareVersion(uci::base::accessorType::AccessorType type) {
   if (!softwareVersion_Accessor) {
-    softwareVersion_Accessor = boost::make_unique<std::string>("");
+    softwareVersion_Accessor =  asb_uci::type::VisibleString256Type::create(type);
   }
   return *softwareVersion_Accessor;
 }
@@ -210,22 +210,22 @@ uci::type::AboutType& AboutType::clearSoftwareVersion() noexcept {
   return *this;
 }
 
-uci::type::VisibleString256Type& AboutType::getBootloaderSoftwareVersion_() const {
+asb_uci::type::VisibleString256Type& AboutType::getBootloaderSoftwareVersion_() const {
   if (bootloaderSoftwareVersion_Accessor) {
     return *bootloaderSoftwareVersion_Accessor;
   }
   throw uci::base::UCIException("Error in getBootloaderSoftwareVersion(): An attempt was made to get an optional field that was not enabled, call hasBootloaderSoftwareVersion() to determine if it is safe to call getBootloaderSoftwareVersion()");
 }
 
-const uci::type::VisibleString256Type& AboutType::getBootloaderSoftwareVersion() const {
+const asb_uci::type::VisibleString256Type& AboutType::getBootloaderSoftwareVersion() const {
   return getBootloaderSoftwareVersion_();
 }
 
-uci::type::VisibleString256Type& AboutType::getBootloaderSoftwareVersion() {
+asb_uci::type::VisibleString256Type& AboutType::getBootloaderSoftwareVersion() {
   return getBootloaderSoftwareVersion_();
 }
 
-uci::type::AboutType& AboutType::setBootloaderSoftwareVersion(const uci::type::VisibleString256Type& value) {
+uci::type::AboutType& AboutType::setBootloaderSoftwareVersion(const asb_uci::type::VisibleString256Type& value) {
   return setBootloaderSoftwareVersion(value.c_str());
 }
 
@@ -242,9 +242,9 @@ bool AboutType::hasBootloaderSoftwareVersion() const noexcept {
   return static_cast<bool>(bootloaderSoftwareVersion_Accessor);
 }
 
-uci::type::VisibleString256Type& AboutType::enableBootloaderSoftwareVersion(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& AboutType::enableBootloaderSoftwareVersion(uci::base::accessorType::AccessorType type) {
   if (!bootloaderSoftwareVersion_Accessor) {
-    bootloaderSoftwareVersion_Accessor = boost::make_unique<std::string>("");
+    bootloaderSoftwareVersion_Accessor =  asb_uci::type::VisibleString256Type::create(type);
   }
   return *bootloaderSoftwareVersion_Accessor;
 }

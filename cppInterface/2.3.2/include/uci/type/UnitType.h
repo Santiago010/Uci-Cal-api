@@ -410,13 +410,13 @@ public:
     *
     * @return A const reference to the accessor that provides access to the string identified by PoliticalSubdivision.
     */
-  virtual const uci::type::VisibleString256Type& getPoliticalSubdivision() const = 0;
+  virtual const asb_uci::type::VisibleString256Type& getPoliticalSubdivision() const = 0;
 
   /** Returns a reference to the accessor that provides access to the string identified by PoliticalSubdivision.
     *
     * @return A reference to the accessor that provides access to the string identified by PoliticalSubdivision.
     */
-  virtual uci::type::VisibleString256Type& getPoliticalSubdivision() = 0;
+  virtual asb_uci::type::VisibleString256Type& getPoliticalSubdivision() = 0;
 
   /** Sets the string identified by PoliticalSubdivision to the contents of the string accessed by the specified accessor.
     *
@@ -424,7 +424,7 @@ public:
     *      string identified by PoliticalSubdivision.
     * @return A reference to the object on which this method was called.
     */
-  virtual uci::type::UnitType& setPoliticalSubdivision(const uci::type::VisibleString256Type& value) = 0;
+  virtual uci::type::UnitType& setPoliticalSubdivision(const asb_uci::type::VisibleString256Type& value) = 0;
 
   /** Sets the string identified by PoliticalSubdivision to the contents of the string that is accessed by the specified
     * accessor.
@@ -453,7 +453,7 @@ public:
     * @param type = uci::base::accessorType::null This Accessor's accessor type.
     * @return A reference to the accessor that provides access to the string identified by PoliticalSubdivision.
     */
-  virtual uci::type::VisibleString256Type& enablePoliticalSubdivision(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
+  virtual asb_uci::type::VisibleString256Type& enablePoliticalSubdivision(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
 
   /** Clears (disabled) the Element identified by PoliticalSubdivision.
     *
@@ -562,13 +562,13 @@ public:
     *
     * @return A const reference to the accessor that provides access to the string identified by DivisionCategory.
     */
-  virtual const uci::type::VisibleString256Type& getDivisionCategory() const = 0;
+  virtual const asb_uci::type::VisibleString256Type& getDivisionCategory() const = 0;
 
   /** Returns a reference to the accessor that provides access to the string identified by DivisionCategory.
     *
     * @return A reference to the accessor that provides access to the string identified by DivisionCategory.
     */
-  virtual uci::type::VisibleString256Type& getDivisionCategory() = 0;
+  virtual asb_uci::type::VisibleString256Type& getDivisionCategory() = 0;
 
   /** Sets the string identified by DivisionCategory to the contents of the string accessed by the specified accessor.
     *
@@ -576,7 +576,7 @@ public:
     *      string identified by DivisionCategory.
     * @return A reference to the object on which this method was called.
     */
-  virtual uci::type::UnitType& setDivisionCategory(const uci::type::VisibleString256Type& value) = 0;
+  virtual uci::type::UnitType& setDivisionCategory(const asb_uci::type::VisibleString256Type& value) = 0;
 
   /** Sets the string identified by DivisionCategory to the contents of the string that is accessed by the specified
     * accessor.
@@ -605,7 +605,7 @@ public:
     * @param type = uci::base::accessorType::null This Accessor's accessor type.
     * @return A reference to the accessor that provides access to the string identified by DivisionCategory.
     */
-  virtual uci::type::VisibleString256Type& enableDivisionCategory(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
+  virtual asb_uci::type::VisibleString256Type& enableDivisionCategory(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
 
   /** Clears (disabled) the Element identified by DivisionCategory.
     *
@@ -845,13 +845,13 @@ public:
     *
     * @return A const reference to the accessor that provides access to the string identified by ForceAssignment.
     */
-  virtual const uci::type::VisibleString256Type& getForceAssignment() const = 0;
+  virtual const asb_uci::type::VisibleString256Type& getForceAssignment() const = 0;
 
   /** Returns a reference to the accessor that provides access to the string identified by ForceAssignment.
     *
     * @return A reference to the accessor that provides access to the string identified by ForceAssignment.
     */
-  virtual uci::type::VisibleString256Type& getForceAssignment() = 0;
+  virtual asb_uci::type::VisibleString256Type& getForceAssignment() = 0;
 
   /** Sets the string identified by ForceAssignment to the contents of the string accessed by the specified accessor.
     *
@@ -859,7 +859,7 @@ public:
     *      string identified by ForceAssignment.
     * @return A reference to the object on which this method was called.
     */
-  virtual uci::type::UnitType& setForceAssignment(const uci::type::VisibleString256Type& value) = 0;
+  virtual uci::type::UnitType& setForceAssignment(const asb_uci::type::VisibleString256Type& value) = 0;
 
   /** Sets the string identified by ForceAssignment to the contents of the string that is accessed by the specified
     * accessor.
@@ -888,7 +888,7 @@ public:
     * @param type = uci::base::accessorType::null This Accessor's accessor type.
     * @return A reference to the accessor that provides access to the string identified by ForceAssignment.
     */
-  virtual uci::type::VisibleString256Type& enableForceAssignment(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
+  virtual asb_uci::type::VisibleString256Type& enableForceAssignment(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
 
   /** Clears (disabled) the Element identified by ForceAssignment.
     *
@@ -900,13 +900,13 @@ public:
     *
     * @return A const reference to the accessor that provides access to the string identified by ForceName.
     */
-  virtual const uci::type::VisibleString256Type& getForceName() const = 0;
+  virtual const asb_uci::type::VisibleString256Type& getForceName() const = 0;
 
   /** Returns a reference to the accessor that provides access to the string identified by ForceName.
     *
     * @return A reference to the accessor that provides access to the string identified by ForceName.
     */
-  virtual uci::type::VisibleString256Type& getForceName() = 0;
+  virtual asb_uci::type::VisibleString256Type& getForceName() = 0;
 
   /** Sets the string identified by ForceName to the contents of the string accessed by the specified accessor.
     *
@@ -914,7 +914,7 @@ public:
     *      string identified by ForceName.
     * @return A reference to the object on which this method was called.
     */
-  virtual uci::type::UnitType& setForceName(const uci::type::VisibleString256Type& value) = 0;
+  virtual uci::type::UnitType& setForceName(const asb_uci::type::VisibleString256Type& value) = 0;
 
   /** Sets the string identified by ForceName to the contents of the string that is accessed by the specified accessor.
     *
@@ -941,7 +941,7 @@ public:
     * @param type = uci::base::accessorType::null This Accessor's accessor type.
     * @return A reference to the accessor that provides access to the string identified by ForceName.
     */
-  virtual uci::type::VisibleString256Type& enableForceName(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
+  virtual asb_uci::type::VisibleString256Type& enableForceName(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
 
   /** Clears (disabled) the Element identified by ForceName.
     *

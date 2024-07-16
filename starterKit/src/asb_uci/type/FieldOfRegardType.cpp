@@ -206,22 +206,22 @@ uci::type::FieldOfRegardType& FieldOfRegardType::clearFarRange() noexcept {
   return *this;
 }
 
-uci::type::VisibleString256Type& FieldOfRegardType::getMnemonic_() const {
+asb_uci::type::VisibleString256Type& FieldOfRegardType::getMnemonic_() const {
   if (mnemonic_Accessor) {
     return *mnemonic_Accessor;
   }
   throw uci::base::UCIException("Error in getMnemonic(): An attempt was made to get an optional field that was not enabled, call hasMnemonic() to determine if it is safe to call getMnemonic()");
 }
 
-const uci::type::VisibleString256Type& FieldOfRegardType::getMnemonic() const {
+const asb_uci::type::VisibleString256Type& FieldOfRegardType::getMnemonic() const {
   return getMnemonic_();
 }
 
-uci::type::VisibleString256Type& FieldOfRegardType::getMnemonic() {
+asb_uci::type::VisibleString256Type& FieldOfRegardType::getMnemonic() {
   return getMnemonic_();
 }
 
-uci::type::FieldOfRegardType& FieldOfRegardType::setMnemonic(const uci::type::VisibleString256Type& value) {
+uci::type::FieldOfRegardType& FieldOfRegardType::setMnemonic(const asb_uci::type::VisibleString256Type& value) {
   return setMnemonic(value.c_str());
 }
 
@@ -238,9 +238,9 @@ bool FieldOfRegardType::hasMnemonic() const noexcept {
   return static_cast<bool>(mnemonic_Accessor);
 }
 
-uci::type::VisibleString256Type& FieldOfRegardType::enableMnemonic(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& FieldOfRegardType::enableMnemonic(uci::base::accessorType::AccessorType type) {
   if (!mnemonic_Accessor) {
-    mnemonic_Accessor = boost::make_unique<std::string>("");
+    mnemonic_Accessor =  asb_uci::type::VisibleString256Type::create(type);
   }
   return *mnemonic_Accessor;
 }

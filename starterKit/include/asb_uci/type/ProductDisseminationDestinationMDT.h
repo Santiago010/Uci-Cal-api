@@ -66,7 +66,8 @@ public:
   /** This field allows for logical names to be used in place of an ID to reference a configured Destination. [Occurrences:
     * Minimum: 0; Maximum: MAX_LENGTH]
     */
-  using Handle = asb_uci::base::BoundedList<uci::type::VisibleString256Type, uci::type::accessorType::visibleString256Type, asb_uci::type::VisibleString256Type>;
+     //  TODO:BoundedListWithString
+  using Handle = asb_uci::base::BoundedList<asb_uci::type::VisibleString256Type, uci::type::accessorType::visibleString256Type, asb_uci::type::VisibleString256Type>;
 
   /** This field is used to list the product types that this destination supports for dissemination. List size for this
     * element is based on "Select All That Apply" condition. [Occurrences: Minimum: 0; Maximum: 81]

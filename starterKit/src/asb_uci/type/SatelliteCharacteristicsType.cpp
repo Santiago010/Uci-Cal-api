@@ -110,22 +110,22 @@ void SatelliteCharacteristicsType::reset() noexcept {
   commLink_Accessor->reset();
 }
 
-uci::type::VisibleString256Type& SatelliteCharacteristicsType::getBusType_() const {
+asb_uci::type::VisibleString256Type& SatelliteCharacteristicsType::getBusType_() const {
   if (busType_Accessor) {
     return *busType_Accessor;
   }
   throw uci::base::UCIException("Error in getBusType(): An attempt was made to get an optional field that was not enabled, call hasBusType() to determine if it is safe to call getBusType()");
 }
 
-const uci::type::VisibleString256Type& SatelliteCharacteristicsType::getBusType() const {
+const asb_uci::type::VisibleString256Type& SatelliteCharacteristicsType::getBusType() const {
   return getBusType_();
 }
 
-uci::type::VisibleString256Type& SatelliteCharacteristicsType::getBusType() {
+asb_uci::type::VisibleString256Type& SatelliteCharacteristicsType::getBusType() {
   return getBusType_();
 }
 
-uci::type::SatelliteCharacteristicsType& SatelliteCharacteristicsType::setBusType(const uci::type::VisibleString256Type& value) {
+uci::type::SatelliteCharacteristicsType& SatelliteCharacteristicsType::setBusType(const asb_uci::type::VisibleString256Type& value) {
   return setBusType(value.c_str());
 }
 
@@ -142,9 +142,9 @@ bool SatelliteCharacteristicsType::hasBusType() const noexcept {
   return static_cast<bool>(busType_Accessor);
 }
 
-uci::type::VisibleString256Type& SatelliteCharacteristicsType::enableBusType(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& SatelliteCharacteristicsType::enableBusType(uci::base::accessorType::AccessorType type) {
   if (!busType_Accessor) {
-    busType_Accessor = boost::make_unique<std::string>("");
+    busType_Accessor =  asb_uci::type::VisibleString256Type::create(type);
   }
   return *busType_Accessor;
 }

@@ -85,22 +85,22 @@ void OpDescriptionType::reset() noexcept {
   remarks_Accessor.reset();
 }
 
-uci::type::VisibleString256Type& OpDescriptionType::getName_() const {
+asb_uci::type::VisibleString256Type& OpDescriptionType::getName_() const {
   if (name_Accessor) {
     return *name_Accessor;
   }
   throw uci::base::UCIException("Error in getName(): An attempt was made to get an optional field that was not enabled, call hasName() to determine if it is safe to call getName()");
 }
 
-const uci::type::VisibleString256Type& OpDescriptionType::getName() const {
+const asb_uci::type::VisibleString256Type& OpDescriptionType::getName() const {
   return getName_();
 }
 
-uci::type::VisibleString256Type& OpDescriptionType::getName() {
+asb_uci::type::VisibleString256Type& OpDescriptionType::getName() {
   return getName_();
 }
 
-uci::type::OpDescriptionType& OpDescriptionType::setName(const uci::type::VisibleString256Type& value) {
+uci::type::OpDescriptionType& OpDescriptionType::setName(const asb_uci::type::VisibleString256Type& value) {
   return setName(value.c_str());
 }
 
@@ -117,9 +117,9 @@ bool OpDescriptionType::hasName() const noexcept {
   return static_cast<bool>(name_Accessor);
 }
 
-uci::type::VisibleString256Type& OpDescriptionType::enableName(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& OpDescriptionType::enableName(uci::base::accessorType::AccessorType type) {
   if (!name_Accessor) {
-    name_Accessor = boost::make_unique<std::string>("");
+    name_Accessor =  asb_uci::type::VisibleString256Type::create(type);
   }
   return *name_Accessor;
 }

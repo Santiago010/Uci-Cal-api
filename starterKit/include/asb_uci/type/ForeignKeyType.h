@@ -110,20 +110,20 @@ public:
     *
     * @return The contents of the Key field
     */
-  const uci::type::VisibleString256Type& getKey() const noexcept override;
+  const asb_uci::type::VisibleString256Type& getKey() const noexcept override;
 
   /** Returns the contents of the message's Key field
     *
     * @return The contents of the Key field
     */
-  uci::type::VisibleString256Type& getKey() noexcept override;
+  asb_uci::type::VisibleString256Type& getKey() noexcept override;
 
   /** Sets the contents of the message's Key field
     *
     * @param value The new value to set the Key field to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::ForeignKeyType& setKey(const uci::type::VisibleString256Type& value) override;
+  uci::type::ForeignKeyType& setKey(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets the contents of the message's Key field
     *
@@ -143,20 +143,20 @@ public:
     *
     * @return The contents of the SystemName field
     */
-  const uci::type::VisibleString256Type& getSystemName() const noexcept override;
+  const asb_uci::type::VisibleString256Type& getSystemName() const noexcept override;
 
   /** Returns the contents of the message's SystemName field
     *
     * @return The contents of the SystemName field
     */
-  uci::type::VisibleString256Type& getSystemName() noexcept override;
+  asb_uci::type::VisibleString256Type& getSystemName() noexcept override;
 
   /** Sets the contents of the message's SystemName field
     *
     * @param value The new value to set the SystemName field to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::ForeignKeyType& setSystemName(const uci::type::VisibleString256Type& value) override;
+  uci::type::ForeignKeyType& setSystemName(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets the contents of the message's SystemName field
     *
@@ -203,8 +203,8 @@ public:
   static std::string serialize(const uci::type::ForeignKeyType& accessor, boost::property_tree::ptree& propTree, const std::string& nodeName, bool createNode = true, bool addTypeAttribute = false, bool checkIfDerivation = true, bool topLevel = false);
 
 private:
-  std::unique_ptr<VisibleString256Type> key_Accessor;
-  std::unique_ptr<VisibleString256Type> systemName_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> key_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> systemName_Accessor;
 
 
 };

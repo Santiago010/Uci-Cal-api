@@ -165,6 +165,7 @@ public:
     const size_type actualNewSize{(newSize < list_maximumSize) ? newSize : list_maximumSize};
     if (actualNewSize > list_accessorData->size()) {
       while (actualNewSize > list_accessorData->size()) {
+        // TODO:en AsbT no hay ningun metodo create 
         const std::shared_ptr<AsbT> newAccessor{AsbT::create(type)};
         if (!newAccessor) {
           throw uci::base::UCIException("Error in BoundedList::resize(): Specified type is not equal to nor derived from the native type of object");

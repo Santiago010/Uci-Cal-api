@@ -104,22 +104,22 @@ uci::type::MissionTraceabilityType& MissionTraceabilityType::setMissionTraceabil
 }
 
 
-uci::type::VisibleString256Type& MissionTraceabilityType::getTraceabilityDescription_() const {
+asb_uci::type::VisibleString256Type& MissionTraceabilityType::getTraceabilityDescription_() const {
   if (traceabilityDescription_Accessor) {
     return *traceabilityDescription_Accessor;
   }
   throw uci::base::UCIException("Error in getTraceabilityDescription(): An attempt was made to get an optional field that was not enabled, call hasTraceabilityDescription() to determine if it is safe to call getTraceabilityDescription()");
 }
 
-const uci::type::VisibleString256Type& MissionTraceabilityType::getTraceabilityDescription() const {
+const asb_uci::type::VisibleString256Type& MissionTraceabilityType::getTraceabilityDescription() const {
   return getTraceabilityDescription_();
 }
 
-uci::type::VisibleString256Type& MissionTraceabilityType::getTraceabilityDescription() {
+asb_uci::type::VisibleString256Type& MissionTraceabilityType::getTraceabilityDescription() {
   return getTraceabilityDescription_();
 }
 
-uci::type::MissionTraceabilityType& MissionTraceabilityType::setTraceabilityDescription(const uci::type::VisibleString256Type& value) {
+uci::type::MissionTraceabilityType& MissionTraceabilityType::setTraceabilityDescription(const asb_uci::type::VisibleString256Type& value) {
   return setTraceabilityDescription(value.c_str());
 }
 
@@ -136,9 +136,9 @@ bool MissionTraceabilityType::hasTraceabilityDescription() const noexcept {
   return static_cast<bool>(traceabilityDescription_Accessor);
 }
 
-uci::type::VisibleString256Type& MissionTraceabilityType::enableTraceabilityDescription(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& MissionTraceabilityType::enableTraceabilityDescription(uci::base::accessorType::AccessorType type) {
   if (!traceabilityDescription_Accessor) {
-    traceabilityDescription_Accessor = boost::make_unique<std::string>("");
+    traceabilityDescription_Accessor =  asb_uci::type::VisibleString256Type::create(type);
   }
   return *traceabilityDescription_Accessor;
 }

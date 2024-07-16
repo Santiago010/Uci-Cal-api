@@ -138,22 +138,22 @@ uci::type::ProductDisseminationStatusType& ProductDisseminationStatusType::setPr
 }
 
 
-uci::type::VisibleString256Type& ProductDisseminationStatusType::getStatusDetails_() const {
+asb_uci::type::VisibleString256Type& ProductDisseminationStatusType::getStatusDetails_() const {
   if (statusDetails_Accessor) {
     return *statusDetails_Accessor;
   }
   throw uci::base::UCIException("Error in getStatusDetails(): An attempt was made to get an optional field that was not enabled, call hasStatusDetails() to determine if it is safe to call getStatusDetails()");
 }
 
-const uci::type::VisibleString256Type& ProductDisseminationStatusType::getStatusDetails() const {
+const asb_uci::type::VisibleString256Type& ProductDisseminationStatusType::getStatusDetails() const {
   return getStatusDetails_();
 }
 
-uci::type::VisibleString256Type& ProductDisseminationStatusType::getStatusDetails() {
+asb_uci::type::VisibleString256Type& ProductDisseminationStatusType::getStatusDetails() {
   return getStatusDetails_();
 }
 
-uci::type::ProductDisseminationStatusType& ProductDisseminationStatusType::setStatusDetails(const uci::type::VisibleString256Type& value) {
+uci::type::ProductDisseminationStatusType& ProductDisseminationStatusType::setStatusDetails(const asb_uci::type::VisibleString256Type& value) {
   return setStatusDetails(value.c_str());
 }
 
@@ -170,9 +170,9 @@ bool ProductDisseminationStatusType::hasStatusDetails() const noexcept {
   return static_cast<bool>(statusDetails_Accessor);
 }
 
-uci::type::VisibleString256Type& ProductDisseminationStatusType::enableStatusDetails(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& ProductDisseminationStatusType::enableStatusDetails(uci::base::accessorType::AccessorType type) {
   if (!statusDetails_Accessor) {
-    statusDetails_Accessor = boost::make_unique<std::string>("");
+    statusDetails_Accessor =  asb_uci::type::VisibleString256Type::create(type);
   }
   return *statusDetails_Accessor;
 }

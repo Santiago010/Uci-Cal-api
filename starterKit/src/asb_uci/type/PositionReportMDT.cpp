@@ -126,22 +126,22 @@ uci::type::PositionReportMDT& PositionReportMDT::setSystemID(const uci::type::Sy
   return *this;
 }
 
-uci::type::VisibleString256Type& PositionReportMDT::getDisplayName_() const {
+asb_uci::type::VisibleString256Type& PositionReportMDT::getDisplayName_() const {
   if (displayName_Accessor) {
     return *displayName_Accessor;
   }
   throw uci::base::UCIException("Error in getDisplayName(): An attempt was made to get an optional field that was not enabled, call hasDisplayName() to determine if it is safe to call getDisplayName()");
 }
 
-const uci::type::VisibleString256Type& PositionReportMDT::getDisplayName() const {
+const asb_uci::type::VisibleString256Type& PositionReportMDT::getDisplayName() const {
   return getDisplayName_();
 }
 
-uci::type::VisibleString256Type& PositionReportMDT::getDisplayName() {
+asb_uci::type::VisibleString256Type& PositionReportMDT::getDisplayName() {
   return getDisplayName_();
 }
 
-uci::type::PositionReportMDT& PositionReportMDT::setDisplayName(const uci::type::VisibleString256Type& value) {
+uci::type::PositionReportMDT& PositionReportMDT::setDisplayName(const asb_uci::type::VisibleString256Type& value) {
   return setDisplayName(value.c_str());
 }
 
@@ -158,9 +158,9 @@ bool PositionReportMDT::hasDisplayName() const noexcept {
   return static_cast<bool>(displayName_Accessor);
 }
 
-uci::type::VisibleString256Type& PositionReportMDT::enableDisplayName(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& PositionReportMDT::enableDisplayName(uci::base::accessorType::AccessorType type) {
   if (!displayName_Accessor) {
-    displayName_Accessor = boost::make_unique<std::string>("");
+    displayName_Accessor =  asb_uci::type::VisibleString256Type::create(type);
   }
   return *displayName_Accessor;
 }

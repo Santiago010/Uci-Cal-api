@@ -86,15 +86,15 @@ void SubsystemCompletedCalibrationItemType::reset() noexcept {
   failReason_Accessor.reset();
 }
 
-const uci::type::VisibleString256Type& SubsystemCompletedCalibrationItemType::getCalibrationItemName() const noexcept {
+const asb_uci::type::VisibleString256Type& SubsystemCompletedCalibrationItemType::getCalibrationItemName() const noexcept {
   return *calibrationItemName_Accessor;
 }
 
-uci::type::VisibleString256Type& SubsystemCompletedCalibrationItemType::getCalibrationItemName() noexcept {
+asb_uci::type::VisibleString256Type& SubsystemCompletedCalibrationItemType::getCalibrationItemName() noexcept {
   return *calibrationItemName_Accessor;
 }
 
-uci::type::SubsystemCompletedCalibrationItemType& SubsystemCompletedCalibrationItemType::setCalibrationItemName(const uci::type::VisibleString256Type& value) {
+uci::type::SubsystemCompletedCalibrationItemType& SubsystemCompletedCalibrationItemType::setCalibrationItemName(const asb_uci::type::VisibleString256Type& value) {
   return setCalibrationItemName(value.c_str());
 }
 
@@ -128,22 +128,22 @@ uci::type::SubsystemCompletedCalibrationItemType& SubsystemCompletedCalibrationI
 }
 
 
-uci::type::VisibleString256Type& SubsystemCompletedCalibrationItemType::getFailReason_() const {
+asb_uci::type::VisibleString256Type& SubsystemCompletedCalibrationItemType::getFailReason_() const {
   if (failReason_Accessor) {
     return *failReason_Accessor;
   }
   throw uci::base::UCIException("Error in getFailReason(): An attempt was made to get an optional field that was not enabled, call hasFailReason() to determine if it is safe to call getFailReason()");
 }
 
-const uci::type::VisibleString256Type& SubsystemCompletedCalibrationItemType::getFailReason() const {
+const asb_uci::type::VisibleString256Type& SubsystemCompletedCalibrationItemType::getFailReason() const {
   return getFailReason_();
 }
 
-uci::type::VisibleString256Type& SubsystemCompletedCalibrationItemType::getFailReason() {
+asb_uci::type::VisibleString256Type& SubsystemCompletedCalibrationItemType::getFailReason() {
   return getFailReason_();
 }
 
-uci::type::SubsystemCompletedCalibrationItemType& SubsystemCompletedCalibrationItemType::setFailReason(const uci::type::VisibleString256Type& value) {
+uci::type::SubsystemCompletedCalibrationItemType& SubsystemCompletedCalibrationItemType::setFailReason(const asb_uci::type::VisibleString256Type& value) {
   return setFailReason(value.c_str());
 }
 
@@ -160,9 +160,9 @@ bool SubsystemCompletedCalibrationItemType::hasFailReason() const noexcept {
   return static_cast<bool>(failReason_Accessor);
 }
 
-uci::type::VisibleString256Type& SubsystemCompletedCalibrationItemType::enableFailReason(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& SubsystemCompletedCalibrationItemType::enableFailReason(uci::base::accessorType::AccessorType type) {
   if (!failReason_Accessor) {
-    failReason_Accessor = boost::make_unique<std::string>("");
+    failReason_Accessor = asb_uci::type::VisibleString256Type::create(type);
   }
   return *failReason_Accessor;
 }

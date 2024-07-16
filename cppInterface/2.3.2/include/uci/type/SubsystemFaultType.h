@@ -306,13 +306,13 @@ public:
     *
     * @return A const reference to the accessor that provides access to the string identified by FaultCode.
     */
-  virtual const uci::type::VisibleString256Type& getFaultCode() const = 0;
+  virtual const asb_uci::type::VisibleString256Type& getFaultCode() const = 0;
 
   /** Returns a reference to the accessor that provides access to the string identified by FaultCode.
     *
     * @return A reference to the accessor that provides access to the string identified by FaultCode.
     */
-  virtual uci::type::VisibleString256Type& getFaultCode() = 0;
+  virtual asb_uci::type::VisibleString256Type& getFaultCode() = 0;
 
   /** Sets the string identified by FaultCode to the contents of the string accessed by the specified accessor.
     *
@@ -320,7 +320,7 @@ public:
     *      string identified by FaultCode.
     * @return A reference to the object on which this method was called.
     */
-  virtual uci::type::SubsystemFaultType& setFaultCode(const uci::type::VisibleString256Type& value) = 0;
+  virtual uci::type::SubsystemFaultType& setFaultCode(const asb_uci::type::VisibleString256Type& value) = 0;
 
   /** Sets the string identified by FaultCode to the contents of the string that is accessed by the specified accessor.
     *
@@ -365,13 +365,13 @@ public:
     *
     * @return A const reference to the accessor that provides access to the string identified by FaultDescription.
     */
-  virtual const uci::type::VisibleString256Type& getFaultDescription() const = 0;
+  virtual const asb_uci::type::VisibleString256Type& getFaultDescription() const = 0;
 
   /** Returns a reference to the accessor that provides access to the string identified by FaultDescription.
     *
     * @return A reference to the accessor that provides access to the string identified by FaultDescription.
     */
-  virtual uci::type::VisibleString256Type& getFaultDescription() = 0;
+  virtual asb_uci::type::VisibleString256Type& getFaultDescription() = 0;
 
   /** Sets the string identified by FaultDescription to the contents of the string accessed by the specified accessor.
     *
@@ -379,7 +379,7 @@ public:
     *      string identified by FaultDescription.
     * @return A reference to the object on which this method was called.
     */
-  virtual uci::type::SubsystemFaultType& setFaultDescription(const uci::type::VisibleString256Type& value) = 0;
+  virtual uci::type::SubsystemFaultType& setFaultDescription(const asb_uci::type::VisibleString256Type& value) = 0;
 
   /** Sets the string identified by FaultDescription to the contents of the string that is accessed by the specified
     * accessor.
@@ -408,7 +408,7 @@ public:
     * @param type = uci::base::accessorType::null This Accessor's accessor type.
     * @return A reference to the accessor that provides access to the string identified by FaultDescription.
     */
-  virtual uci::type::VisibleString256Type& enableFaultDescription(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
+  virtual asb_uci::type::VisibleString256Type& enableFaultDescription(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
 
   /** Clears (disabled) the Element identified by FaultDescription.
     *

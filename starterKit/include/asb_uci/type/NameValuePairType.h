@@ -111,20 +111,20 @@ public:
     *
     * @return The contents of the Name field
     */
-  const uci::type::VisibleString256Type& getName() const noexcept override;
+  const asb_uci::type::VisibleString256Type& getName() const noexcept override;
 
   /** Returns the contents of the message's Name field
     *
     * @return The contents of the Name field
     */
-  uci::type::VisibleString256Type& getName() noexcept override;
+  asb_uci::type::VisibleString256Type& getName() noexcept override;
 
   /** Sets the contents of the message's Name field
     *
     * @param value The new value to set the Name field to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::NameValuePairType& setName(const uci::type::VisibleString256Type& value) override;
+  uci::type::NameValuePairType& setName(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets the contents of the message's Name field
     *
@@ -192,7 +192,7 @@ public:
   static std::string serialize(const uci::type::NameValuePairType& accessor, boost::property_tree::ptree& propTree, const std::string& nodeName, bool createNode = true, bool addTypeAttribute = false, bool checkIfDerivation = true, bool topLevel = false);
 
 private:
-  std::unique_ptr<VisibleString256Type> name_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> name_Accessor;
   std::unique_ptr<NameValuePairValueType> value_Accessor;
 
 };

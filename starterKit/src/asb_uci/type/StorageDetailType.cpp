@@ -82,15 +82,15 @@ void StorageDetailType::reset() noexcept {
   available_Accessor = 0;
 }
 
-const uci::type::VisibleString256Type& StorageDetailType::getStorageDeviceName() const noexcept {
+const asb_uci::type::VisibleString256Type& StorageDetailType::getStorageDeviceName() const noexcept {
   return *storageDeviceName_Accessor;
 }
 
-uci::type::VisibleString256Type& StorageDetailType::getStorageDeviceName() noexcept {
+asb_uci::type::VisibleString256Type& StorageDetailType::getStorageDeviceName() noexcept {
   return *storageDeviceName_Accessor;
 }
 
-uci::type::StorageDetailType& StorageDetailType::setStorageDeviceName(const uci::type::VisibleString256Type& value) {
+uci::type::StorageDetailType& StorageDetailType::setStorageDeviceName(const asb_uci::type::VisibleString256Type& value) {
   return setStorageDeviceName(value.c_str());
 }
 

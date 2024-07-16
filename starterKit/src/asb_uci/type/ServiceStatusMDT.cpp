@@ -159,22 +159,22 @@ uci::type::ServiceStatusMDT& ServiceStatusMDT::setServiceState(uci::type::Servic
 }
 
 
-uci::type::VisibleString256Type& ServiceStatusMDT::getStatusDetail_() const {
+asb_uci::type::VisibleString256Type& ServiceStatusMDT::getStatusDetail_() const {
   if (statusDetail_Accessor) {
     // return *statusDetail_Accessor;
   }
   throw uci::base::UCIException("Error in getStatusDetail(): An attempt was made to get an optional field that was not enabled, call hasStatusDetail() to determine if it is safe to call getStatusDetail()");
 }
 
-const uci::type::VisibleString256Type& ServiceStatusMDT::getStatusDetail() const {
+const asb_uci::type::VisibleString256Type& ServiceStatusMDT::getStatusDetail() const {
   return getStatusDetail_();
 }
 
-uci::type::VisibleString256Type& ServiceStatusMDT::getStatusDetail() {
+asb_uci::type::VisibleString256Type& ServiceStatusMDT::getStatusDetail() {
   return getStatusDetail_();
 }
 
-uci::type::ServiceStatusMDT& ServiceStatusMDT::setStatusDetail(const uci::type::VisibleString256Type& value) {
+uci::type::ServiceStatusMDT& ServiceStatusMDT::setStatusDetail(const asb_uci::type::VisibleString256Type& value) {
   return setStatusDetail(value.c_str());
 }
 
@@ -191,11 +191,11 @@ bool ServiceStatusMDT::hasStatusDetail() const noexcept {
   return static_cast<bool>(statusDetail_Accessor);
 }
 
-uci::type::VisibleString256Type& ServiceStatusMDT::enableStatusDetail(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& ServiceStatusMDT::enableStatusDetail(uci::base::accessorType::AccessorType type) {
   if (!statusDetail_Accessor) {
-    // statusDetail_Accessor = boost::make_unique<std::string>("");
+    statusDetail_Accessor =  asb_uci::type::VisibleString256Type::create(type);
   }
-  // return *statusDetail_Accessor;
+  return *statusDetail_Accessor;
 }
 
 uci::type::ServiceStatusMDT& ServiceStatusMDT::clearStatusDetail() noexcept {

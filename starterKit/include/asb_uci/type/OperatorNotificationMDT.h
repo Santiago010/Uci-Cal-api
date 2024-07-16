@@ -234,20 +234,20 @@ public:
     *
     * @return The contents of the Title field
     */
-  const uci::type::VisibleString256Type& getTitle() const noexcept override;
+  const asb_uci::type::VisibleString256Type& getTitle() const noexcept override;
 
   /** Returns the contents of the message's Title field
     *
     * @return The contents of the Title field
     */
-  uci::type::VisibleString256Type& getTitle() noexcept override;
+  asb_uci::type::VisibleString256Type& getTitle() noexcept override;
 
   /** Sets the contents of the message's Title field
     *
     * @param value The new value to set the Title field to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::OperatorNotificationMDT& setTitle(const uci::type::VisibleString256Type& value) override;
+  uci::type::OperatorNotificationMDT& setTitle(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets the contents of the message's Title field
     *
@@ -713,7 +713,7 @@ private:
   std::unique_ptr<OperatorNotificationID_Type> operatorNotificationID_Accessor;
   std::unique_ptr<ID_Type> operatorNotificationTemplateID_Accessor;
   std::unique_ptr<OperatorNotificationTemplateParameters> operatorNotificationTemplateParameters_Accessor;
-  std::unique_ptr<VisibleString256Type> title_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> title_Accessor;
   std::unique_ptr<VisibleString1024Type> details_Accessor;
   std::unique_ptr<NotificationCategoryEnum> category_Accessor;
   std::unique_ptr<NotificationSeverityEnum> severity_Accessor;

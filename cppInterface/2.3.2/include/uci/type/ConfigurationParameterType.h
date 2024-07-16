@@ -141,13 +141,13 @@ public:
     *
     * @return A const reference to the accessor that provides access to the string identified by Name.
     */
-  virtual const uci::type::VisibleString256Type& getName() const = 0;
+  virtual const asb_uci::type::VisibleString256Type& getName() const = 0;
 
   /** Returns a reference to the accessor that provides access to the string identified by Name.
     *
     * @return A reference to the accessor that provides access to the string identified by Name.
     */
-  virtual uci::type::VisibleString256Type& getName() = 0;
+  virtual asb_uci::type::VisibleString256Type& getName() = 0;
 
   /** Sets the string identified by Name to the contents of the string accessed by the specified accessor.
     *
@@ -155,7 +155,7 @@ public:
     *      string identified by Name.
     * @return A reference to the object on which this method was called.
     */
-  virtual uci::type::ConfigurationParameterType& setName(const uci::type::VisibleString256Type& value) = 0;
+  virtual uci::type::ConfigurationParameterType& setName(const asb_uci::type::VisibleString256Type& value) = 0;
 
   /** Sets the string identified by Name to the contents of the string that is accessed by the specified accessor.
     *
@@ -175,13 +175,13 @@ public:
     *
     * @return A const reference to the accessor that provides access to the string identified by Value.
     */
-  virtual const uci::type::VisibleString256Type& getValue() const = 0;
+  virtual const asb_uci::type::VisibleString256Type& getValue() const = 0;
 
   /** Returns a reference to the accessor that provides access to the string identified by Value.
     *
     * @return A reference to the accessor that provides access to the string identified by Value.
     */
-  virtual uci::type::VisibleString256Type& getValue() = 0;
+  virtual asb_uci::type::VisibleString256Type& getValue() = 0;
 
   /** Sets the string identified by Value to the contents of the string accessed by the specified accessor.
     *
@@ -189,7 +189,7 @@ public:
     *      string identified by Value.
     * @return A reference to the object on which this method was called.
     */
-  virtual uci::type::ConfigurationParameterType& setValue(const uci::type::VisibleString256Type& value) = 0;
+  virtual uci::type::ConfigurationParameterType& setValue(const asb_uci::type::VisibleString256Type& value) = 0;
 
   /** Sets the string identified by Value to the contents of the string that is accessed by the specified accessor.
     *
@@ -209,13 +209,13 @@ public:
     *
     * @return A const reference to the accessor that provides access to the string identified by DefaultValue.
     */
-  virtual const uci::type::VisibleString256Type& getDefaultValue() const = 0;
+  virtual const asb_uci::type::VisibleString256Type& getDefaultValue() const = 0;
 
   /** Returns a reference to the accessor that provides access to the string identified by DefaultValue.
     *
     * @return A reference to the accessor that provides access to the string identified by DefaultValue.
     */
-  virtual uci::type::VisibleString256Type& getDefaultValue() = 0;
+  virtual asb_uci::type::VisibleString256Type& getDefaultValue() = 0;
 
   /** Sets the string identified by DefaultValue to the contents of the string accessed by the specified accessor.
     *
@@ -223,7 +223,7 @@ public:
     *      string identified by DefaultValue.
     * @return A reference to the object on which this method was called.
     */
-  virtual uci::type::ConfigurationParameterType& setDefaultValue(const uci::type::VisibleString256Type& value) = 0;
+  virtual uci::type::ConfigurationParameterType& setDefaultValue(const asb_uci::type::VisibleString256Type& value) = 0;
 
   /** Sets the string identified by DefaultValue to the contents of the string that is accessed by the specified accessor.
     *

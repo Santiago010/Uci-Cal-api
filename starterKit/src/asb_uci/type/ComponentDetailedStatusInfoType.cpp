@@ -88,22 +88,22 @@ void ComponentDetailedStatusInfoType::reset() noexcept {
   componentDetailedInfoState_Accessor.reset();
 }
 
-uci::type::VisibleString256Type& ComponentDetailedStatusInfoType::getDescription_() const {
+asb_uci::type::VisibleString256Type& ComponentDetailedStatusInfoType::getDescription_() const {
   if (description_Accessor) {
     return *description_Accessor;
   }
   throw uci::base::UCIException("Error in getDescription(): An attempt was made to get an optional field that was not enabled, call hasDescription() to determine if it is safe to call getDescription()");
 }
 
-const uci::type::VisibleString256Type& ComponentDetailedStatusInfoType::getDescription() const {
+const asb_uci::type::VisibleString256Type& ComponentDetailedStatusInfoType::getDescription() const {
   return getDescription_();
 }
 
-uci::type::VisibleString256Type& ComponentDetailedStatusInfoType::getDescription() {
+asb_uci::type::VisibleString256Type& ComponentDetailedStatusInfoType::getDescription() {
   return getDescription_();
 }
 
-uci::type::ComponentDetailedStatusInfoType& ComponentDetailedStatusInfoType::setDescription(const uci::type::VisibleString256Type& value) {
+uci::type::ComponentDetailedStatusInfoType& ComponentDetailedStatusInfoType::setDescription(const asb_uci::type::VisibleString256Type& value) {
   return setDescription(value.c_str());
 }
 
@@ -120,9 +120,9 @@ bool ComponentDetailedStatusInfoType::hasDescription() const noexcept {
   return static_cast<bool>(description_Accessor);
 }
 
-uci::type::VisibleString256Type& ComponentDetailedStatusInfoType::enableDescription(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& ComponentDetailedStatusInfoType::enableDescription(uci::base::accessorType::AccessorType type) {
   if (!description_Accessor) {
-    description_Accessor = boost::make_unique<std::string>("");
+    description_Accessor =  asb_uci::type::VisibleString256Type::create(type);
   }
   return *description_Accessor;
 }

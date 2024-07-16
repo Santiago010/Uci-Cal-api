@@ -441,26 +441,26 @@ public:
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getPoliticalSubdivision_() const;
+  asb_uci::type::VisibleString256Type& getPoliticalSubdivision_() const;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  const uci::type::VisibleString256Type& getPoliticalSubdivision() const override;
+  const asb_uci::type::VisibleString256Type& getPoliticalSubdivision() const override;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getPoliticalSubdivision() override;
+  asb_uci::type::VisibleString256Type& getPoliticalSubdivision() override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
     * @param value The value to set the optional field to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::UnitType& setPoliticalSubdivision(const uci::type::VisibleString256Type& value) override;
+  uci::type::UnitType& setPoliticalSubdivision(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
@@ -488,7 +488,7 @@ public:
     * @param type The value to set the optional field to
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& enablePoliticalSubdivision(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
+  asb_uci::type::VisibleString256Type& enablePoliticalSubdivision(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
 
   /** Clears the optional item marking it as not being set.
     *
@@ -606,26 +606,26 @@ public:
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getDivisionCategory_() const;
+  asb_uci::type::VisibleString256Type& getDivisionCategory_() const;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  const uci::type::VisibleString256Type& getDivisionCategory() const override;
+  const asb_uci::type::VisibleString256Type& getDivisionCategory() const override;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getDivisionCategory() override;
+  asb_uci::type::VisibleString256Type& getDivisionCategory() override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
     * @param value The value to set the optional field to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::UnitType& setDivisionCategory(const uci::type::VisibleString256Type& value) override;
+  uci::type::UnitType& setDivisionCategory(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
@@ -653,7 +653,7 @@ public:
     * @param type The value to set the optional field to
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& enableDivisionCategory(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
+  asb_uci::type::VisibleString256Type& enableDivisionCategory(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
 
   /** Clears the optional item marking it as not being set.
     *
@@ -914,26 +914,26 @@ public:
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getForceAssignment_() const;
+  asb_uci::type::VisibleString256Type& getForceAssignment_() const;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  const uci::type::VisibleString256Type& getForceAssignment() const override;
+  const asb_uci::type::VisibleString256Type& getForceAssignment() const override;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getForceAssignment() override;
+  asb_uci::type::VisibleString256Type& getForceAssignment() override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
     * @param value The value to set the optional field to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::UnitType& setForceAssignment(const uci::type::VisibleString256Type& value) override;
+  uci::type::UnitType& setForceAssignment(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
@@ -961,7 +961,7 @@ public:
     * @param type The value to set the optional field to
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& enableForceAssignment(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
+  asb_uci::type::VisibleString256Type& enableForceAssignment(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
 
   /** Clears the optional item marking it as not being set.
     *
@@ -973,26 +973,26 @@ public:
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getForceName_() const;
+  asb_uci::type::VisibleString256Type& getForceName_() const;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  const uci::type::VisibleString256Type& getForceName() const override;
+  const asb_uci::type::VisibleString256Type& getForceName() const override;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getForceName() override;
+  asb_uci::type::VisibleString256Type& getForceName() override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
     * @param value The value to set the optional field to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::UnitType& setForceName(const uci::type::VisibleString256Type& value) override;
+  uci::type::UnitType& setForceName(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
@@ -1020,7 +1020,7 @@ public:
     * @param type The value to set the optional field to
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& enableForceName(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
+  asb_uci::type::VisibleString256Type& enableForceName(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
 
   /** Clears the optional item marking it as not being set.
     *
@@ -1510,17 +1510,17 @@ private:
   std::unique_ptr<OrderOfBattleTimestampsType> timestamps_Accessor;
   boost::optional<asb_xs::UnsignedByte> evaluation_Accessor;
   std::unique_ptr<OB_OperationalStatusEnum> operationalStatus_Accessor;
-  std::unique_ptr<VisibleString256Type> politicalSubdivision_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> politicalSubdivision_Accessor;
   std::unique_ptr<CountryCodeType> allegianceAlternate_Accessor;
   std::unique_ptr<String20Type> deploymentStatus_Accessor;
-  std::unique_ptr<VisibleString256Type> divisionCategory_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> divisionCategory_Accessor;
   std::unique_ptr<String20Type> echelon_Accessor;
   boost::optional<asb_xs::UnsignedByte> echelonTier_Accessor;
   std::unique_ptr<CountryCodeType> flagFlown_Accessor;
   std::unique_ptr<String4Type> fleetAssignment_Accessor;
   std::unique_ptr<AirDefenseAreaType> airDefenseArea_Accessor;
-  std::unique_ptr<VisibleString256Type> forceAssignment_Accessor;
-  std::unique_ptr<VisibleString256Type> forceName_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> forceAssignment_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> forceName_Accessor;
   std::unique_ptr<String20Type> functionRole_Accessor;
   std::unique_ptr<String4Type> missionPrimary_Accessor;
   std::unique_ptr<String4Type> missionPrimarySpecialty_Accessor;

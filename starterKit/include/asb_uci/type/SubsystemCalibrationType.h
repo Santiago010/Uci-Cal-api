@@ -62,7 +62,8 @@ public:
   /** Indicates the name of a non-Component, non-Capability item included in the Calibration. Calibration items can be
     * logical or physical, singular or aggregated. [Occurrences: Minimum: 0; Maximum: MAX_LENGTH]
     */
-  using CalibrationItemName = asb_uci::base::BoundedList<uci::type::VisibleString256Type, uci::type::accessorType::visibleString256Type, asb_uci::type::VisibleString256Type>;
+     //  TODO:BoundedListWithString
+  using CalibrationItemName = asb_uci::base::BoundedList<asb_uci::type::VisibleString256Type, uci::type::accessorType::visibleString256Type, asb_uci::type::VisibleString256Type>;
 
   /** Indicates a Component that is included in the Calibration. [Occurrences: Minimum: 0; Maximum: MAX_LENGTH] */
   using SubsystemComponentID = asb_uci::base::BoundedList<uci::type::ComponentID_Type, uci::type::accessorType::componentID_Type, asb_uci::type::ComponentID_Type>;

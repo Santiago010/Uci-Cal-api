@@ -164,22 +164,22 @@ uci::type::ReadinessItemStatusType& ReadinessItemStatusType::setOperationalStatu
 }
 
 
-uci::type::VisibleString256Type& ReadinessItemStatusType::getReason_() const {
+asb_uci::type::VisibleString256Type& ReadinessItemStatusType::getReason_() const {
   if (reason_Accessor) {
     return *reason_Accessor;
   }
   throw uci::base::UCIException("Error in getReason(): An attempt was made to get an optional field that was not enabled, call hasReason() to determine if it is safe to call getReason()");
 }
 
-const uci::type::VisibleString256Type& ReadinessItemStatusType::getReason() const {
+const asb_uci::type::VisibleString256Type& ReadinessItemStatusType::getReason() const {
   return getReason_();
 }
 
-uci::type::VisibleString256Type& ReadinessItemStatusType::getReason() {
+asb_uci::type::VisibleString256Type& ReadinessItemStatusType::getReason() {
   return getReason_();
 }
 
-uci::type::ReadinessItemStatusType& ReadinessItemStatusType::setReason(const uci::type::VisibleString256Type& value) {
+uci::type::ReadinessItemStatusType& ReadinessItemStatusType::setReason(const asb_uci::type::VisibleString256Type& value) {
   return setReason(value.c_str());
 }
 
@@ -196,9 +196,9 @@ bool ReadinessItemStatusType::hasReason() const noexcept {
   return static_cast<bool>(reason_Accessor);
 }
 
-uci::type::VisibleString256Type& ReadinessItemStatusType::enableReason(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& ReadinessItemStatusType::enableReason(uci::base::accessorType::AccessorType type) {
   if (!reason_Accessor) {
-    reason_Accessor = boost::make_unique<std::string>("");
+    reason_Accessor =  asb_uci::type::VisibleString256Type::create(type);
   }
   return *reason_Accessor;
 }

@@ -136,26 +136,26 @@ public:
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getTraceabilityDescription_() const;
+  asb_uci::type::VisibleString256Type& getTraceabilityDescription_() const;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  const uci::type::VisibleString256Type& getTraceabilityDescription() const override;
+  const asb_uci::type::VisibleString256Type& getTraceabilityDescription() const override;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getTraceabilityDescription() override;
+  asb_uci::type::VisibleString256Type& getTraceabilityDescription() override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
     * @param value The value to set the optional field to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::MissionTraceabilityType& setTraceabilityDescription(const uci::type::VisibleString256Type& value) override;
+  uci::type::MissionTraceabilityType& setTraceabilityDescription(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
@@ -183,7 +183,7 @@ public:
     * @param type The value to set the optional field to
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& enableTraceabilityDescription(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
+  asb_uci::type::VisibleString256Type& enableTraceabilityDescription(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
 
   /** Clears the optional item marking it as not being set.
     *
@@ -223,7 +223,7 @@ public:
 
 private:
   std::unique_ptr<MissionTraceabilityEnum> missionTraceability_Accessor;
-  std::unique_ptr<VisibleString256Type> traceabilityDescription_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> traceabilityDescription_Accessor;
 
 };
 

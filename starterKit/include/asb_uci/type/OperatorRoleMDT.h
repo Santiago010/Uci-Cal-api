@@ -215,26 +215,26 @@ public:
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getRoleDescription_() const;
+  asb_uci::type::VisibleString256Type& getRoleDescription_() const;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  const uci::type::VisibleString256Type& getRoleDescription() const override;
+  const asb_uci::type::VisibleString256Type& getRoleDescription() const override;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getRoleDescription() override;
+  asb_uci::type::VisibleString256Type& getRoleDescription() override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
     * @param value The value to set the optional field to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::OperatorRoleMDT& setRoleDescription(const uci::type::VisibleString256Type& value) override;
+  uci::type::OperatorRoleMDT& setRoleDescription(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
@@ -262,7 +262,7 @@ public:
     * @param type The value to set the optional field to
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& enableRoleDescription(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
+  asb_uci::type::VisibleString256Type& enableRoleDescription(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
 
   /** Clears the optional item marking it as not being set.
     *
@@ -304,7 +304,7 @@ private:
   std::unique_ptr<OperatorRoleID_Type> operatorRoleID_Accessor;
   std::unique_ptr<SystemID_Type> systemID_Accessor;
   std::unique_ptr<ForeignKeyType> role_Accessor;
-  std::unique_ptr<VisibleString256Type> roleDescription_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> roleDescription_Accessor;
 
 };
 

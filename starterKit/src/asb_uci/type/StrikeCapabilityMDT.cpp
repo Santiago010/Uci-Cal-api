@@ -172,22 +172,22 @@ uci::type::StrikeCapabilityMDT& StrikeCapabilityMDT::clearVerification() noexcep
   return *this;
 }
 
-uci::type::VisibleString256Type& StrikeCapabilityMDT::getLoadoutMnemonic_() const {
+asb_uci::type::VisibleString256Type& StrikeCapabilityMDT::getLoadoutMnemonic_() const {
   if (loadoutMnemonic_Accessor) {
     return *loadoutMnemonic_Accessor;
   }
   throw uci::base::UCIException("Error in getLoadoutMnemonic(): An attempt was made to get an optional field that was not enabled, call hasLoadoutMnemonic() to determine if it is safe to call getLoadoutMnemonic()");
 }
 
-const uci::type::VisibleString256Type& StrikeCapabilityMDT::getLoadoutMnemonic() const {
+const asb_uci::type::VisibleString256Type& StrikeCapabilityMDT::getLoadoutMnemonic() const {
   return getLoadoutMnemonic_();
 }
 
-uci::type::VisibleString256Type& StrikeCapabilityMDT::getLoadoutMnemonic() {
+asb_uci::type::VisibleString256Type& StrikeCapabilityMDT::getLoadoutMnemonic() {
   return getLoadoutMnemonic_();
 }
 
-uci::type::StrikeCapabilityMDT& StrikeCapabilityMDT::setLoadoutMnemonic(const uci::type::VisibleString256Type& value) {
+uci::type::StrikeCapabilityMDT& StrikeCapabilityMDT::setLoadoutMnemonic(const asb_uci::type::VisibleString256Type& value) {
   return setLoadoutMnemonic(value.c_str());
 }
 
@@ -204,9 +204,9 @@ bool StrikeCapabilityMDT::hasLoadoutMnemonic() const noexcept {
   return static_cast<bool>(loadoutMnemonic_Accessor);
 }
 
-uci::type::VisibleString256Type& StrikeCapabilityMDT::enableLoadoutMnemonic(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& StrikeCapabilityMDT::enableLoadoutMnemonic(uci::base::accessorType::AccessorType type) {
   if (!loadoutMnemonic_Accessor) {
-    loadoutMnemonic_Accessor = boost::make_unique<std::string>("");
+    loadoutMnemonic_Accessor =  asb_uci::type::VisibleString256Type::create(type);
   }
   return *loadoutMnemonic_Accessor;
 }

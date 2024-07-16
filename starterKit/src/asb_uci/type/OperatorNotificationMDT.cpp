@@ -247,15 +247,15 @@ uci::type::OperatorNotificationMDT& OperatorNotificationMDT::setOperatorNotifica
   return *this;
 }
 
-const uci::type::VisibleString256Type& OperatorNotificationMDT::getTitle() const noexcept {
+const asb_uci::type::VisibleString256Type& OperatorNotificationMDT::getTitle() const noexcept {
   return *title_Accessor;
 }
 
-uci::type::VisibleString256Type& OperatorNotificationMDT::getTitle() noexcept {
+asb_uci::type::VisibleString256Type& OperatorNotificationMDT::getTitle() noexcept {
   return *title_Accessor;
 }
 
-uci::type::OperatorNotificationMDT& OperatorNotificationMDT::setTitle(const uci::type::VisibleString256Type& value) {
+uci::type::OperatorNotificationMDT& OperatorNotificationMDT::setTitle(const asb_uci::type::VisibleString256Type& value) {
   return setTitle(value.c_str());
 }
 

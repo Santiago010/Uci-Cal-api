@@ -138,20 +138,20 @@ public:
     *
     * @return The contents of the Name field
     */
-  const uci::type::VisibleString256Type& getName() const noexcept override;
+  const asb_uci::type::VisibleString256Type& getName() const noexcept override;
 
   /** Returns the contents of the message's Name field
     *
     * @return The contents of the Name field
     */
-  uci::type::VisibleString256Type& getName() noexcept override;
+  asb_uci::type::VisibleString256Type& getName() noexcept override;
 
   /** Sets the contents of the message's Name field
     *
     * @param value The new value to set the Name field to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::ConfigurationParameterType& setName(const uci::type::VisibleString256Type& value) override;
+  uci::type::ConfigurationParameterType& setName(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets the contents of the message's Name field
     *
@@ -171,20 +171,20 @@ public:
     *
     * @return The contents of the Value field
     */
-  const uci::type::VisibleString256Type& getValue() const noexcept override;
+  const asb_uci::type::VisibleString256Type& getValue() const noexcept override;
 
   /** Returns the contents of the message's Value field
     *
     * @return The contents of the Value field
     */
-  uci::type::VisibleString256Type& getValue() noexcept override;
+  asb_uci::type::VisibleString256Type& getValue() noexcept override;
 
   /** Sets the contents of the message's Value field
     *
     * @param value The new value to set the Value field to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::ConfigurationParameterType& setValue(const uci::type::VisibleString256Type& value) override;
+  uci::type::ConfigurationParameterType& setValue(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets the contents of the message's Value field
     *
@@ -204,20 +204,20 @@ public:
     *
     * @return The contents of the DefaultValue field
     */
-  const uci::type::VisibleString256Type& getDefaultValue() const noexcept override;
+  const asb_uci::type::VisibleString256Type& getDefaultValue() const noexcept override;
 
   /** Returns the contents of the message's DefaultValue field
     *
     * @return The contents of the DefaultValue field
     */
-  uci::type::VisibleString256Type& getDefaultValue() noexcept override;
+  asb_uci::type::VisibleString256Type& getDefaultValue() noexcept override;
 
   /** Sets the contents of the message's DefaultValue field
     *
     * @param value The new value to set the DefaultValue field to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::ConfigurationParameterType& setDefaultValue(const uci::type::VisibleString256Type& value) override;
+  uci::type::ConfigurationParameterType& setDefaultValue(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets the contents of the message's DefaultValue field
     *
@@ -515,9 +515,9 @@ public:
 
 private:
   std::unique_ptr<ParameterID_Type> parameterID_Accessor;
-  std::unique_ptr<VisibleString256Type> name_Accessor;
-  std::unique_ptr<VisibleString256Type> value_Accessor;
-  std::unique_ptr<VisibleString256Type> defaultValue_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> name_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> value_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> defaultValue_Accessor;
   asb_xs::Boolean userModifiable_Accessor{false};
   std::unique_ptr<MessageElementDataTypeEnum> type_Accessor;
   std::unique_ptr<VisibleString32Type> units_Accessor;

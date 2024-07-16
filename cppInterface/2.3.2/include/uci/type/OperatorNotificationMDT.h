@@ -237,13 +237,13 @@ public:
     *
     * @return A const reference to the accessor that provides access to the string identified by Title.
     */
-  virtual const uci::type::VisibleString256Type& getTitle() const = 0;
+  virtual const asb_uci::type::VisibleString256Type& getTitle() const = 0;
 
   /** Returns a reference to the accessor that provides access to the string identified by Title.
     *
     * @return A reference to the accessor that provides access to the string identified by Title.
     */
-  virtual uci::type::VisibleString256Type& getTitle() = 0;
+  virtual asb_uci::type::VisibleString256Type& getTitle() = 0;
 
   /** Sets the string identified by Title to the contents of the string accessed by the specified accessor.
     *
@@ -251,7 +251,7 @@ public:
     *      string identified by Title.
     * @return A reference to the object on which this method was called.
     */
-  virtual uci::type::OperatorNotificationMDT& setTitle(const uci::type::VisibleString256Type& value) = 0;
+  virtual uci::type::OperatorNotificationMDT& setTitle(const asb_uci::type::VisibleString256Type& value) = 0;
 
   /** Sets the string identified by Title to the contents of the string that is accessed by the specified accessor.
     *

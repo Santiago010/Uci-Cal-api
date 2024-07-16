@@ -47,6 +47,7 @@
 #include "../../../include/asb_uci/type/SubsystemStateEnum.h"
 #include "../../../include/asb_uci/type/VisibleString256Type.h"
 #include "../../../../cppInterface/2.3.2/include/uci/type/SubsystemStatusMDT.h"
+#include "SubsystemEnabledSettingType.h"
 
 /**  */
 namespace asb_uci {
@@ -192,26 +193,26 @@ public:
     *
     * @return The value of the optional field
     */
-  std::string& getSubsystemStateDescription_() const;
+  asb_uci::type::VisibleString256Type& getSubsystemStateDescription_() const;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  const std::string& getSubsystemStateDescription() const override;
+  const asb_uci::type::VisibleString256Type& getSubsystemStateDescription() const override;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  std::string& getSubsystemStateDescription() override;
+  asb_uci::type::VisibleString256Type& getSubsystemStateDescription() override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
     * @param value The value to set the optional field to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::SubsystemStatusMDT& setSubsystemStateDescription(const uci::type::VisibleString256Type& value) override;
+  uci::type::SubsystemStatusMDT& setSubsystemStateDescription(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
@@ -239,7 +240,7 @@ public:
     * @param type The value to set the optional field to
     * @return The value of the optional field
     */
-  std::string& enableSubsystemStateDescription(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
+  asb_uci::type::VisibleString256Type& enableSubsystemStateDescription(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
 
   /** Clears the optional item marking it as not being set.
     *
@@ -542,7 +543,7 @@ public:
 private:
   std::unique_ptr<SubsystemID_Type> subsystemID_Accessor;
   std::unique_ptr<SubsystemStateEnum> subsystemState_Accessor;
-  std::unique_ptr<std::string> subsystemStateDescription_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> subsystemStateDescription_Accessor;
   std::unique_ptr<EnabledSetting> enabledSetting_Accessor;
   std::unique_ptr<CommandableSubsystemSettingParameters> commandableSubsystemSettingParameters_Accessor;
   std::unique_ptr<ProcessingStatusEnum> eraseStatus_Accessor;

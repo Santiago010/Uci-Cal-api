@@ -61,7 +61,8 @@ public:
     * users for the same types of communications and would be reflected here with multiple elements if applicable.
     * [Occurrences: Minimum: 0; Maximum: MAX_LENGTH]
     */
-  using UserIdentifier = asb_uci::base::BoundedList<uci::type::VisibleString256Type, uci::type::accessorType::visibleString256Type, asb_uci::type::VisibleString256Type>;
+  //  TODO:BoundedListWithString
+  using UserIdentifier = asb_uci::base::BoundedList<asb_uci::type::VisibleString256Type, uci::type::accessorType::visibleString256Type, asb_uci::type::VisibleString256Type>;
 
   /** This element represents the specific usage of a given mode of the communications system that is being utilized.
     * [Occurrences: Minimum: 1; Maximum: MAX_LENGTH]

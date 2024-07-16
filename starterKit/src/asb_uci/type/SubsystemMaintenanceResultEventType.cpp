@@ -249,22 +249,22 @@ uci::type::NameValuePairType& SubsystemMaintenanceResultEventType::enableEventAc
   return *eventActualValue_Accessor;
 }
 
-uci::type::VisibleString256Type& SubsystemMaintenanceResultEventType::getEventFailReason_() const {
+asb_uci::type::VisibleString256Type& SubsystemMaintenanceResultEventType::getEventFailReason_() const {
   if (eventFailReason_Accessor) {
     return *eventFailReason_Accessor;
   }
   throw uci::base::UCIException("Error in getEventFailReason(): An attempt was made to get an optional field that was not enabled, call hasEventFailReason() to determine if it is safe to call getEventFailReason()");
 }
 
-const uci::type::VisibleString256Type& SubsystemMaintenanceResultEventType::getEventFailReason() const {
+const asb_uci::type::VisibleString256Type& SubsystemMaintenanceResultEventType::getEventFailReason() const {
   return getEventFailReason_();
 }
 
-uci::type::VisibleString256Type& SubsystemMaintenanceResultEventType::getEventFailReason() {
+asb_uci::type::VisibleString256Type& SubsystemMaintenanceResultEventType::getEventFailReason() {
   return getEventFailReason_();
 }
 
-uci::type::SubsystemMaintenanceResultEventType& SubsystemMaintenanceResultEventType::setEventFailReason(const uci::type::VisibleString256Type& value) {
+uci::type::SubsystemMaintenanceResultEventType& SubsystemMaintenanceResultEventType::setEventFailReason(const asb_uci::type::VisibleString256Type& value) {
   return setEventFailReason(value.c_str());
 }
 
@@ -281,9 +281,9 @@ bool SubsystemMaintenanceResultEventType::hasEventFailReason() const noexcept {
   return static_cast<bool>(eventFailReason_Accessor);
 }
 
-uci::type::VisibleString256Type& SubsystemMaintenanceResultEventType::enableEventFailReason(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& SubsystemMaintenanceResultEventType::enableEventFailReason(uci::base::accessorType::AccessorType type) {
   if (!eventFailReason_Accessor) {
-    eventFailReason_Accessor = boost::make_unique<std::string>("");
+    eventFailReason_Accessor = asb_uci::type::VisibleString256Type::create(type);
   }
   return *eventFailReason_Accessor;
 }

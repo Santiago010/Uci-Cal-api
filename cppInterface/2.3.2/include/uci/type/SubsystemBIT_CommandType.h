@@ -118,7 +118,7 @@ public:
   typedef uci::base::BoundedList<uci::type::BIT_ID_Type, uci::type::accessorType::bIT_ID_Type> CancelBIT_ID;
 
   /** Indicates the "codes" or names of the faults to clear. [Occurrences: Minimum: 1; Maximum: MAX_LENGTH] */
-  typedef uci::base::BoundedList<uci::type::VisibleString256Type, uci::type::accessorType::visibleString256Type> ClearFaultCode;
+  typedef uci::base::BoundedList<asb_uci::type::VisibleString256Type, uci::type::accessorType::visibleString256Type> ClearFaultCode;
 
   /** The following enumeration is used to identify which element of this Choice has been chosen. */
   enum SubsystemBIT_CommandTypeChoice {

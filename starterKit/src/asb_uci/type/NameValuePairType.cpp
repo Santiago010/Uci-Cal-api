@@ -88,15 +88,15 @@ void NameValuePairType::reset() noexcept {
   value_Accessor->reset();
 }
 
-const uci::type::VisibleString256Type& NameValuePairType::getName() const noexcept {
+const asb_uci::type::VisibleString256Type& NameValuePairType::getName() const noexcept {
   return *name_Accessor;
 }
 
-uci::type::VisibleString256Type& NameValuePairType::getName() noexcept {
+asb_uci::type::VisibleString256Type& NameValuePairType::getName() noexcept {
   return *name_Accessor;
 }
 
-uci::type::NameValuePairType& NameValuePairType::setName(const uci::type::VisibleString256Type& value) {
+uci::type::NameValuePairType& NameValuePairType::setName(const asb_uci::type::VisibleString256Type& value) {
   return setName(value.c_str());
 }
 

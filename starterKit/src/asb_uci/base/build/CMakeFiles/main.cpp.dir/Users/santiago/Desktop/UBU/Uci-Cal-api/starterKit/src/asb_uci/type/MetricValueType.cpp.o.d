@@ -1403,8 +1403,9 @@ CMakeFiles/main.cpp.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/as
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/../../../include/asb_uci/type/../../../include/asb_uci/base/../util/../../../../cppInterface/2.3.2/include/uci/base/../../xs/type/simpleXmlSchemaPrimitives.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/../../../include/asb_uci/type/../../../include/asb_xs/type/simpleXmlSchemaPrimitives.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/../../../include/asb_uci/type/../../../include/asb_uci/type/VisibleString256Type.h \
-  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/../../../include/asb_uci/type/../../../../cppInterface/2.3.2/include/xs/type/stringXmlSchemaPrimitives.h \
-  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/../../../include/asb_uci/type/../../../include/asb_uci/base/../util/../../../../cppInterface/2.3.2/include/uci/base/../../xs/type/../../uci/base/StringAccessor.h \
+  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/../../../include/asb_uci/type/../../asb_xs/type/stringXmlSchemaPrimitives.h \
+  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/../../../include/asb_uci/type/../../../include/asb_uci/base/../../../include/asb_xs/type/../../asb_uci/base/StringAccessor.h \
+  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/../../../include/asb_uci/type/../../../include/asb_uci/base/../../../../cppInterface/2.3.2/include/uci/base/StringAccessor.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/../../../include/asb_uci/type/../../asb_xs/type/binaryXmlSchemaPrimitives.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/../../../include/asb_uci/type/../../../include/asb_uci/base/../../../include/asb_xs/type/../../asb_uci/base/PrimitiveList.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/../../../include/asb_uci/type/../../../include/asb_uci/base/../../../../cppInterface/2.3.2/include/uci/base/Accessor.h \
@@ -1414,6 +1415,7 @@ CMakeFiles/main.cpp.dir/Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/as
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/../../../include/asb_uci/type/../../../../cppInterface/2.3.2/include/uci/type/ForeignKeyType.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/../../../include/asb_uci/type/../../../../cppInterface/2.3.2/include/uci/type/VisibleString256Type.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/../../../include/asb_uci/type/../../../../cppInterface/2.3.2/include/uci/type/../../xs/type/stringXmlSchemaPrimitives.h \
+  /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/../../../include/asb_uci/type/../../../include/asb_uci/base/../util/../../../../cppInterface/2.3.2/include/uci/base/../../xs/type/../../uci/base/StringAccessor.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/../../../include/asb_uci/type/../../../../cppInterface/2.3.2/include/uci/type/UnitIntervalFloatType.h \
   /Users/santiago/Desktop/UBU/Uci-Cal-api/starterKit/src/asb_uci/type/../../../include/asb_uci/type/ForeignKeyType.h \
   /usr/local/include/boost/scoped_ptr.hpp \

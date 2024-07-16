@@ -80,22 +80,22 @@ void CommCoverageUserDataType::reset() noexcept {
   commUserIdentifier_Accessor.reset();
 }
 
-uci::type::VisibleString256Type& CommCoverageUserDataType::getCommUserIdentifier_() const {
+asb_uci::type::VisibleString256Type& CommCoverageUserDataType::getCommUserIdentifier_() const {
   if (commUserIdentifier_Accessor) {
     return *commUserIdentifier_Accessor;
   }
   throw uci::base::UCIException("Error in getCommUserIdentifier(): An attempt was made to get an optional field that was not enabled, call hasCommUserIdentifier() to determine if it is safe to call getCommUserIdentifier()");
 }
 
-const uci::type::VisibleString256Type& CommCoverageUserDataType::getCommUserIdentifier() const {
+const asb_uci::type::VisibleString256Type& CommCoverageUserDataType::getCommUserIdentifier() const {
   return getCommUserIdentifier_();
 }
 
-uci::type::VisibleString256Type& CommCoverageUserDataType::getCommUserIdentifier() {
+asb_uci::type::VisibleString256Type& CommCoverageUserDataType::getCommUserIdentifier() {
   return getCommUserIdentifier_();
 }
 
-uci::type::CommCoverageUserDataType& CommCoverageUserDataType::setCommUserIdentifier(const uci::type::VisibleString256Type& value) {
+uci::type::CommCoverageUserDataType& CommCoverageUserDataType::setCommUserIdentifier(const asb_uci::type::VisibleString256Type& value) {
   return setCommUserIdentifier(value.c_str());
 }
 
@@ -112,9 +112,9 @@ bool CommCoverageUserDataType::hasCommUserIdentifier() const noexcept {
   return static_cast<bool>(commUserIdentifier_Accessor);
 }
 
-uci::type::VisibleString256Type& CommCoverageUserDataType::enableCommUserIdentifier(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& CommCoverageUserDataType::enableCommUserIdentifier(uci::base::accessorType::AccessorType type) {
   if (!commUserIdentifier_Accessor) {
-    commUserIdentifier_Accessor = boost::make_unique<std::string>("");
+    commUserIdentifier_Accessor =  asb_uci::type::VisibleString256Type::create(type);
   }
   return *commUserIdentifier_Accessor;
 }

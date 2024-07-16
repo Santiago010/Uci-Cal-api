@@ -527,22 +527,22 @@ uci::type::UnitType& UnitType::clearOperationalStatus() noexcept {
   return *this;
 }
 
-uci::type::VisibleString256Type& UnitType::getPoliticalSubdivision_() const {
+asb_uci::type::VisibleString256Type& UnitType::getPoliticalSubdivision_() const {
   if (politicalSubdivision_Accessor) {
     return *politicalSubdivision_Accessor;
   }
   throw uci::base::UCIException("Error in getPoliticalSubdivision(): An attempt was made to get an optional field that was not enabled, call hasPoliticalSubdivision() to determine if it is safe to call getPoliticalSubdivision()");
 }
 
-const uci::type::VisibleString256Type& UnitType::getPoliticalSubdivision() const {
+const asb_uci::type::VisibleString256Type& UnitType::getPoliticalSubdivision() const {
   return getPoliticalSubdivision_();
 }
 
-uci::type::VisibleString256Type& UnitType::getPoliticalSubdivision() {
+asb_uci::type::VisibleString256Type& UnitType::getPoliticalSubdivision() {
   return getPoliticalSubdivision_();
 }
 
-uci::type::UnitType& UnitType::setPoliticalSubdivision(const uci::type::VisibleString256Type& value) {
+uci::type::UnitType& UnitType::setPoliticalSubdivision(const asb_uci::type::VisibleString256Type& value) {
   return setPoliticalSubdivision(value.c_str());
 }
 
@@ -559,9 +559,9 @@ bool UnitType::hasPoliticalSubdivision() const noexcept {
   return static_cast<bool>(politicalSubdivision_Accessor);
 }
 
-uci::type::VisibleString256Type& UnitType::enablePoliticalSubdivision(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& UnitType::enablePoliticalSubdivision(uci::base::accessorType::AccessorType type) {
   if (!politicalSubdivision_Accessor) {
-    politicalSubdivision_Accessor = boost::make_unique<std::string>("");
+    politicalSubdivision_Accessor = asb_uci::type::VisibleString256Type::create(type);
   }
   return *politicalSubdivision_Accessor;
 }
@@ -658,22 +658,22 @@ uci::type::UnitType& UnitType::clearDeploymentStatus() noexcept {
   return *this;
 }
 
-uci::type::VisibleString256Type& UnitType::getDivisionCategory_() const {
+asb_uci::type::VisibleString256Type& UnitType::getDivisionCategory_() const {
   if (divisionCategory_Accessor) {
     return *divisionCategory_Accessor;
   }
   throw uci::base::UCIException("Error in getDivisionCategory(): An attempt was made to get an optional field that was not enabled, call hasDivisionCategory() to determine if it is safe to call getDivisionCategory()");
 }
 
-const uci::type::VisibleString256Type& UnitType::getDivisionCategory() const {
+const asb_uci::type::VisibleString256Type& UnitType::getDivisionCategory() const {
   return getDivisionCategory_();
 }
 
-uci::type::VisibleString256Type& UnitType::getDivisionCategory() {
+asb_uci::type::VisibleString256Type& UnitType::getDivisionCategory() {
   return getDivisionCategory_();
 }
 
-uci::type::UnitType& UnitType::setDivisionCategory(const uci::type::VisibleString256Type& value) {
+uci::type::UnitType& UnitType::setDivisionCategory(const asb_uci::type::VisibleString256Type& value) {
   return setDivisionCategory(value.c_str());
 }
 
@@ -690,9 +690,9 @@ bool UnitType::hasDivisionCategory() const noexcept {
   return static_cast<bool>(divisionCategory_Accessor);
 }
 
-uci::type::VisibleString256Type& UnitType::enableDivisionCategory(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& UnitType::enableDivisionCategory(uci::base::accessorType::AccessorType type) {
   if (!divisionCategory_Accessor) {
-    divisionCategory_Accessor = boost::make_unique<std::string>("");
+    divisionCategory_Accessor = asb_uci::type::VisibleString256Type::create(type);
   }
   return *divisionCategory_Accessor;
 }
@@ -898,22 +898,22 @@ uci::type::UnitType& UnitType::clearAirDefenseArea() noexcept {
   return *this;
 }
 
-uci::type::VisibleString256Type& UnitType::getForceAssignment_() const {
+asb_uci::type::VisibleString256Type& UnitType::getForceAssignment_() const {
   if (forceAssignment_Accessor) {
     return *forceAssignment_Accessor;
   }
   throw uci::base::UCIException("Error in getForceAssignment(): An attempt was made to get an optional field that was not enabled, call hasForceAssignment() to determine if it is safe to call getForceAssignment()");
 }
 
-const uci::type::VisibleString256Type& UnitType::getForceAssignment() const {
+const asb_uci::type::VisibleString256Type& UnitType::getForceAssignment() const {
   return getForceAssignment_();
 }
 
-uci::type::VisibleString256Type& UnitType::getForceAssignment() {
+asb_uci::type::VisibleString256Type& UnitType::getForceAssignment() {
   return getForceAssignment_();
 }
 
-uci::type::UnitType& UnitType::setForceAssignment(const uci::type::VisibleString256Type& value) {
+uci::type::UnitType& UnitType::setForceAssignment(const asb_uci::type::VisibleString256Type& value) {
   return setForceAssignment(value.c_str());
 }
 
@@ -930,9 +930,9 @@ bool UnitType::hasForceAssignment() const noexcept {
   return static_cast<bool>(forceAssignment_Accessor);
 }
 
-uci::type::VisibleString256Type& UnitType::enableForceAssignment(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& UnitType::enableForceAssignment(uci::base::accessorType::AccessorType type) {
   if (!forceAssignment_Accessor) {
-    forceAssignment_Accessor = boost::make_unique<std::string>("");
+    forceAssignment_Accessor = asb_uci::type::VisibleString256Type::create(type);
   }
   return *forceAssignment_Accessor;
 }
@@ -942,22 +942,22 @@ uci::type::UnitType& UnitType::clearForceAssignment() noexcept {
   return *this;
 }
 
-uci::type::VisibleString256Type& UnitType::getForceName_() const {
+asb_uci::type::VisibleString256Type& UnitType::getForceName_() const {
   if (forceName_Accessor) {
     return *forceName_Accessor;
   }
   throw uci::base::UCIException("Error in getForceName(): An attempt was made to get an optional field that was not enabled, call hasForceName() to determine if it is safe to call getForceName()");
 }
 
-const uci::type::VisibleString256Type& UnitType::getForceName() const {
+const asb_uci::type::VisibleString256Type& UnitType::getForceName() const {
   return getForceName_();
 }
 
-uci::type::VisibleString256Type& UnitType::getForceName() {
+asb_uci::type::VisibleString256Type& UnitType::getForceName() {
   return getForceName_();
 }
 
-uci::type::UnitType& UnitType::setForceName(const uci::type::VisibleString256Type& value) {
+uci::type::UnitType& UnitType::setForceName(const asb_uci::type::VisibleString256Type& value) {
   return setForceName(value.c_str());
 }
 
@@ -974,9 +974,9 @@ bool UnitType::hasForceName() const noexcept {
   return static_cast<bool>(forceName_Accessor);
 }
 
-uci::type::VisibleString256Type& UnitType::enableForceName(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& UnitType::enableForceName(uci::base::accessorType::AccessorType type) {
   if (!forceName_Accessor) {
-    forceName_Accessor = boost::make_unique<std::string>("");
+    forceName_Accessor = asb_uci::type::VisibleString256Type::create(type);
   }
   return *forceName_Accessor;
 }

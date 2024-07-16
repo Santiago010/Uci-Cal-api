@@ -113,22 +113,22 @@ uci::type::RequirementTemplateOptionsType& RequirementTemplateOptionsType::setRe
 }
 
 
-uci::type::VisibleString256Type& RequirementTemplateOptionsType::getDescriptiveLabel_() const {
+asb_uci::type::VisibleString256Type& RequirementTemplateOptionsType::getDescriptiveLabel_() const {
   if (descriptiveLabel_Accessor) {
     return *descriptiveLabel_Accessor;
   }
   throw uci::base::UCIException("Error in getDescriptiveLabel(): An attempt was made to get an optional field that was not enabled, call hasDescriptiveLabel() to determine if it is safe to call getDescriptiveLabel()");
 }
 
-const uci::type::VisibleString256Type& RequirementTemplateOptionsType::getDescriptiveLabel() const {
+const asb_uci::type::VisibleString256Type& RequirementTemplateOptionsType::getDescriptiveLabel() const {
   return getDescriptiveLabel_();
 }
 
-uci::type::VisibleString256Type& RequirementTemplateOptionsType::getDescriptiveLabel() {
+asb_uci::type::VisibleString256Type& RequirementTemplateOptionsType::getDescriptiveLabel() {
   return getDescriptiveLabel_();
 }
 
-uci::type::RequirementTemplateOptionsType& RequirementTemplateOptionsType::setDescriptiveLabel(const uci::type::VisibleString256Type& value) {
+uci::type::RequirementTemplateOptionsType& RequirementTemplateOptionsType::setDescriptiveLabel(const asb_uci::type::VisibleString256Type& value) {
   return setDescriptiveLabel(value.c_str());
 }
 
@@ -145,9 +145,9 @@ bool RequirementTemplateOptionsType::hasDescriptiveLabel() const noexcept {
   return static_cast<bool>(descriptiveLabel_Accessor);
 }
 
-uci::type::VisibleString256Type& RequirementTemplateOptionsType::enableDescriptiveLabel(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& RequirementTemplateOptionsType::enableDescriptiveLabel(uci::base::accessorType::AccessorType type) {
   if (!descriptiveLabel_Accessor) {
-    descriptiveLabel_Accessor = boost::make_unique<std::string>("");
+    descriptiveLabel_Accessor =  asb_uci::type::VisibleString256Type::create(type);
   }
   return *descriptiveLabel_Accessor;
 }

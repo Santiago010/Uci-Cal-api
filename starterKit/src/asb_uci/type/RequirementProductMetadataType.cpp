@@ -136,22 +136,22 @@ uci::type::RequirementProductMetadataType& RequirementProductMetadataType::clear
   return *this;
 }
 
-uci::type::VisibleString256Type& RequirementProductMetadataType::getRequirementAssociationReason_() const {
+asb_uci::type::VisibleString256Type& RequirementProductMetadataType::getRequirementAssociationReason_() const {
   if (requirementAssociationReason_Accessor) {
     return *requirementAssociationReason_Accessor;
   }
   throw uci::base::UCIException("Error in getRequirementAssociationReason(): An attempt was made to get an optional field that was not enabled, call hasRequirementAssociationReason() to determine if it is safe to call getRequirementAssociationReason()");
 }
 
-const uci::type::VisibleString256Type& RequirementProductMetadataType::getRequirementAssociationReason() const {
+const asb_uci::type::VisibleString256Type& RequirementProductMetadataType::getRequirementAssociationReason() const {
   return getRequirementAssociationReason_();
 }
 
-uci::type::VisibleString256Type& RequirementProductMetadataType::getRequirementAssociationReason() {
+asb_uci::type::VisibleString256Type& RequirementProductMetadataType::getRequirementAssociationReason() {
   return getRequirementAssociationReason_();
 }
 
-uci::type::RequirementProductMetadataType& RequirementProductMetadataType::setRequirementAssociationReason(const uci::type::VisibleString256Type& value) {
+uci::type::RequirementProductMetadataType& RequirementProductMetadataType::setRequirementAssociationReason(const asb_uci::type::VisibleString256Type& value) {
   return setRequirementAssociationReason(value.c_str());
 }
 
@@ -168,9 +168,9 @@ bool RequirementProductMetadataType::hasRequirementAssociationReason() const noe
   return static_cast<bool>(requirementAssociationReason_Accessor);
 }
 
-uci::type::VisibleString256Type& RequirementProductMetadataType::enableRequirementAssociationReason(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& RequirementProductMetadataType::enableRequirementAssociationReason(uci::base::accessorType::AccessorType type) {
   if (!requirementAssociationReason_Accessor) {
-    requirementAssociationReason_Accessor = boost::make_unique<std::string>("");
+    requirementAssociationReason_Accessor =  asb_uci::type::VisibleString256Type::create(type);
   }
   return *requirementAssociationReason_Accessor;
 }

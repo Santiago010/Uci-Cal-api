@@ -116,7 +116,7 @@ public:
     * users for the same types of communications and would be reflected here with multiple elements if applicable.
     * [Occurrences: Minimum: 0; Maximum: MAX_LENGTH]
     */
-  typedef uci::base::BoundedList<uci::type::VisibleString256Type, uci::type::accessorType::visibleString256Type> UserIdentifier;
+  typedef uci::base::BoundedList<asb_uci::type::VisibleString256Type, uci::type::accessorType::visibleString256Type> UserIdentifier;
 
   /** This element represents the specific usage of a given mode of the communications system that is being utilized.
     * [Occurrences: Minimum: 1; Maximum: MAX_LENGTH]

@@ -139,13 +139,13 @@ public:
     *
     * @return A const reference to the accessor that provides access to the string identified by DisplayName.
     */
-  virtual const uci::type::VisibleString256Type& getDisplayName() const = 0;
+  virtual const asb_uci::type::VisibleString256Type& getDisplayName() const = 0;
 
   /** Returns a reference to the accessor that provides access to the string identified by DisplayName.
     *
     * @return A reference to the accessor that provides access to the string identified by DisplayName.
     */
-  virtual uci::type::VisibleString256Type& getDisplayName() = 0;
+  virtual asb_uci::type::VisibleString256Type& getDisplayName() = 0;
 
   /** Sets the string identified by DisplayName to the contents of the string accessed by the specified accessor.
     *
@@ -153,7 +153,7 @@ public:
     *      string identified by DisplayName.
     * @return A reference to the object on which this method was called.
     */
-  virtual uci::type::PositionReportMDT& setDisplayName(const uci::type::VisibleString256Type& value) = 0;
+  virtual uci::type::PositionReportMDT& setDisplayName(const asb_uci::type::VisibleString256Type& value) = 0;
 
   /** Sets the string identified by DisplayName to the contents of the string that is accessed by the specified accessor.
     *
@@ -180,7 +180,7 @@ public:
     * @param type = uci::base::accessorType::null This Accessor's accessor type.
     * @return A reference to the accessor that provides access to the string identified by DisplayName.
     */
-  virtual uci::type::VisibleString256Type& enableDisplayName(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
+  virtual asb_uci::type::VisibleString256Type& enableDisplayName(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
 
   /** Clears (disabled) the Element identified by DisplayName.
     *

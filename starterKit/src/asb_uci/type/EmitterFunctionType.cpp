@@ -142,22 +142,22 @@ uci::type::EmitterFunctionType& EmitterFunctionType::clearCustomEmitterFunction(
   return *this;
 }
 
-uci::type::VisibleString256Type& EmitterFunctionType::getCustomEmitterFunctionDescription_() const {
+asb_uci::type::VisibleString256Type& EmitterFunctionType::getCustomEmitterFunctionDescription_() const {
   if (customEmitterFunctionDescription_Accessor) {
     return *customEmitterFunctionDescription_Accessor;
   }
   throw uci::base::UCIException("Error in getCustomEmitterFunctionDescription(): An attempt was made to get an optional field that was not enabled, call hasCustomEmitterFunctionDescription() to determine if it is safe to call getCustomEmitterFunctionDescription()");
 }
 
-const uci::type::VisibleString256Type& EmitterFunctionType::getCustomEmitterFunctionDescription() const {
+const asb_uci::type::VisibleString256Type& EmitterFunctionType::getCustomEmitterFunctionDescription() const {
   return getCustomEmitterFunctionDescription_();
 }
 
-uci::type::VisibleString256Type& EmitterFunctionType::getCustomEmitterFunctionDescription() {
+asb_uci::type::VisibleString256Type& EmitterFunctionType::getCustomEmitterFunctionDescription() {
   return getCustomEmitterFunctionDescription_();
 }
 
-uci::type::EmitterFunctionType& EmitterFunctionType::setCustomEmitterFunctionDescription(const uci::type::VisibleString256Type& value) {
+uci::type::EmitterFunctionType& EmitterFunctionType::setCustomEmitterFunctionDescription(const asb_uci::type::VisibleString256Type& value) {
   return setCustomEmitterFunctionDescription(value.c_str());
 }
 
@@ -174,9 +174,9 @@ bool EmitterFunctionType::hasCustomEmitterFunctionDescription() const noexcept {
   return static_cast<bool>(customEmitterFunctionDescription_Accessor);
 }
 
-uci::type::VisibleString256Type& EmitterFunctionType::enableCustomEmitterFunctionDescription(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& EmitterFunctionType::enableCustomEmitterFunctionDescription(uci::base::accessorType::AccessorType type) {
   if (!customEmitterFunctionDescription_Accessor) {
-    customEmitterFunctionDescription_Accessor = boost::make_unique<std::string>("");
+    customEmitterFunctionDescription_Accessor =  asb_uci::type::VisibleString256Type::create(type);
   }
   return *customEmitterFunctionDescription_Accessor;
 }

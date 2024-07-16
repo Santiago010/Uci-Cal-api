@@ -317,13 +317,13 @@ public:
     *
     * @return A const reference to the accessor that provides access to the string identified by Label.
     */
-  virtual const std::string& getLabel() const = 0;
+  virtual const asb_uci::type::VisibleString256Type& getLabel() const = 0;
 
   /** Returns a reference to the accessor that provides access to the string identified by Label.
     *
     * @return A reference to the accessor that provides access to the string identified by Label.
     */
-  virtual std::string& getLabel() = 0;
+  virtual asb_uci::type::VisibleString256Type& getLabel() = 0;
 
   /** Sets the string identified by Label to the contents of the string accessed by the specified accessor.
     *
@@ -331,7 +331,7 @@ public:
     *      string identified by Label.
     * @return A reference to the object on which this method was called.
     */
-  virtual uci::type::LogMDT& setLabel(const uci::type::VisibleString256Type& value) = 0;
+  virtual uci::type::LogMDT& setLabel(const asb_uci::type::VisibleString256Type& value) = 0;
 
   /** Sets the string identified by Label to the contents of the string that is accessed by the specified accessor.
     *
@@ -456,4 +456,3 @@ protected:
 } // namespace uci
 
 #endif // UCI_TYPE_LOGMDT_H
-

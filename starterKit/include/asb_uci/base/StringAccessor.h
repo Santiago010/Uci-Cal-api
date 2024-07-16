@@ -156,7 +156,7 @@ public:
     * @param type .
     * @return .
     */
-  static std::unique_ptr<StringAccessor> create(const uci::base::accessorType::AccessorType /*type*/) {
+  static std::unique_ptr<StringAccessor> create(const uci::base::accessorType::AccessorType type) {
     return boost::make_unique<StringAccessor>();
   }
 

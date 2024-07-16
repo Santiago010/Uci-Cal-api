@@ -114,22 +114,22 @@ uci::type::PackageMDT& PackageMDT::setPackageID(const uci::type::PackageID_Type&
   return *this;
 }
 
-uci::type::VisibleString256Type& PackageMDT::getPackageName_() const {
+asb_uci::type::VisibleString256Type& PackageMDT::getPackageName_() const {
   if (packageName_Accessor) {
     return *packageName_Accessor;
   }
   throw uci::base::UCIException("Error in getPackageName(): An attempt was made to get an optional field that was not enabled, call hasPackageName() to determine if it is safe to call getPackageName()");
 }
 
-const uci::type::VisibleString256Type& PackageMDT::getPackageName() const {
+const asb_uci::type::VisibleString256Type& PackageMDT::getPackageName() const {
   return getPackageName_();
 }
 
-uci::type::VisibleString256Type& PackageMDT::getPackageName() {
+asb_uci::type::VisibleString256Type& PackageMDT::getPackageName() {
   return getPackageName_();
 }
 
-uci::type::PackageMDT& PackageMDT::setPackageName(const uci::type::VisibleString256Type& value) {
+uci::type::PackageMDT& PackageMDT::setPackageName(const asb_uci::type::VisibleString256Type& value) {
   return setPackageName(value.c_str());
 }
 
@@ -146,9 +146,9 @@ bool PackageMDT::hasPackageName() const noexcept {
   return static_cast<bool>(packageName_Accessor);
 }
 
-uci::type::VisibleString256Type& PackageMDT::enablePackageName(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& PackageMDT::enablePackageName(uci::base::accessorType::AccessorType type) {
   if (!packageName_Accessor) {
-    packageName_Accessor = boost::make_unique<std::string>("");
+    packageName_Accessor =  asb_uci::type::VisibleString256Type::create(type);
   }
   return *packageName_Accessor;
 }

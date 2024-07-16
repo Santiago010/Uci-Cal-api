@@ -148,13 +148,13 @@ public:
     *
     * @return A const reference to the accessor that provides access to the string identified by SerialNumber.
     */
-  virtual const uci::type::VisibleString256Type& getSerialNumber() const = 0;
+  virtual const asb_uci::type::VisibleString256Type& getSerialNumber() const = 0;
 
   /** Returns a reference to the accessor that provides access to the string identified by SerialNumber.
     *
     * @return A reference to the accessor that provides access to the string identified by SerialNumber.
     */
-  virtual uci::type::VisibleString256Type& getSerialNumber() = 0;
+  virtual asb_uci::type::VisibleString256Type& getSerialNumber() = 0;
 
   /** Sets the string identified by SerialNumber to the contents of the string accessed by the specified accessor.
     *
@@ -162,7 +162,7 @@ public:
     *      string identified by SerialNumber.
     * @return A reference to the object on which this method was called.
     */
-  virtual uci::type::AboutType& setSerialNumber(const uci::type::VisibleString256Type& value) = 0;
+  virtual uci::type::AboutType& setSerialNumber(const asb_uci::type::VisibleString256Type& value) = 0;
 
   /** Sets the string identified by SerialNumber to the contents of the string that is accessed by the specified accessor.
     *
@@ -189,7 +189,7 @@ public:
     * @param type = uci::base::accessorType::null This Accessor's accessor type.
     * @return A reference to the accessor that provides access to the string identified by SerialNumber.
     */
-  virtual uci::type::VisibleString256Type& enableSerialNumber(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
+  virtual asb_uci::type::VisibleString256Type& enableSerialNumber(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
 
   /** Clears (disabled) the Element identified by SerialNumber.
     *
@@ -201,13 +201,13 @@ public:
     *
     * @return A const reference to the accessor that provides access to the string identified by SoftwareVersion.
     */
-  virtual const uci::type::VisibleString256Type& getSoftwareVersion() const = 0;
+  virtual const asb_uci::type::VisibleString256Type& getSoftwareVersion() const = 0;
 
   /** Returns a reference to the accessor that provides access to the string identified by SoftwareVersion.
     *
     * @return A reference to the accessor that provides access to the string identified by SoftwareVersion.
     */
-  virtual uci::type::VisibleString256Type& getSoftwareVersion() = 0;
+  virtual asb_uci::type::VisibleString256Type& getSoftwareVersion() = 0;
 
   /** Sets the string identified by SoftwareVersion to the contents of the string accessed by the specified accessor.
     *
@@ -215,7 +215,7 @@ public:
     *      string identified by SoftwareVersion.
     * @return A reference to the object on which this method was called.
     */
-  virtual uci::type::AboutType& setSoftwareVersion(const uci::type::VisibleString256Type& value) = 0;
+  virtual uci::type::AboutType& setSoftwareVersion(const asb_uci::type::VisibleString256Type& value) = 0;
 
   /** Sets the string identified by SoftwareVersion to the contents of the string that is accessed by the specified
     * accessor.
@@ -244,7 +244,7 @@ public:
     * @param type = uci::base::accessorType::null This Accessor's accessor type.
     * @return A reference to the accessor that provides access to the string identified by SoftwareVersion.
     */
-  virtual uci::type::VisibleString256Type& enableSoftwareVersion(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
+  virtual asb_uci::type::VisibleString256Type& enableSoftwareVersion(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
 
   /** Clears (disabled) the Element identified by SoftwareVersion.
     *
@@ -256,13 +256,13 @@ public:
     *
     * @return A const reference to the accessor that provides access to the string identified by BootloaderSoftwareVersion.
     */
-  virtual const uci::type::VisibleString256Type& getBootloaderSoftwareVersion() const = 0;
+  virtual const asb_uci::type::VisibleString256Type& getBootloaderSoftwareVersion() const = 0;
 
   /** Returns a reference to the accessor that provides access to the string identified by BootloaderSoftwareVersion.
     *
     * @return A reference to the accessor that provides access to the string identified by BootloaderSoftwareVersion.
     */
-  virtual uci::type::VisibleString256Type& getBootloaderSoftwareVersion() = 0;
+  virtual asb_uci::type::VisibleString256Type& getBootloaderSoftwareVersion() = 0;
 
   /** Sets the string identified by BootloaderSoftwareVersion to the contents of the string accessed by the specified
     * accessor.
@@ -271,7 +271,7 @@ public:
     *      string identified by BootloaderSoftwareVersion.
     * @return A reference to the object on which this method was called.
     */
-  virtual uci::type::AboutType& setBootloaderSoftwareVersion(const uci::type::VisibleString256Type& value) = 0;
+  virtual uci::type::AboutType& setBootloaderSoftwareVersion(const asb_uci::type::VisibleString256Type& value) = 0;
 
   /** Sets the string identified by BootloaderSoftwareVersion to the contents of the string that is accessed by the
     * specified accessor.
@@ -300,7 +300,7 @@ public:
     * @param type = uci::base::accessorType::null This Accessor's accessor type.
     * @return A reference to the accessor that provides access to the string identified by BootloaderSoftwareVersion.
     */
-  virtual uci::type::VisibleString256Type& enableBootloaderSoftwareVersion(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
+  virtual asb_uci::type::VisibleString256Type& enableBootloaderSoftwareVersion(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) = 0;
 
   /** Clears (disabled) the Element identified by BootloaderSoftwareVersion.
     *

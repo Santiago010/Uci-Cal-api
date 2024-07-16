@@ -101,15 +101,15 @@ uci::type::EA_TechniqueGroupIdentifierType& EA_TechniqueGroupIdentifierType::set
   return *this;
 }
 
-const uci::type::VisibleString256Type& EA_TechniqueGroupIdentifierType::getMDF_Name() const noexcept {
+const asb_uci::type::VisibleString256Type& EA_TechniqueGroupIdentifierType::getMDF_Name() const noexcept {
   return *mDF_Name_Accessor;
 }
 
-uci::type::VisibleString256Type& EA_TechniqueGroupIdentifierType::getMDF_Name() noexcept {
+asb_uci::type::VisibleString256Type& EA_TechniqueGroupIdentifierType::getMDF_Name() noexcept {
   return *mDF_Name_Accessor;
 }
 
-uci::type::EA_TechniqueGroupIdentifierType& EA_TechniqueGroupIdentifierType::setMDF_Name(const uci::type::VisibleString256Type& value) {
+uci::type::EA_TechniqueGroupIdentifierType& EA_TechniqueGroupIdentifierType::setMDF_Name(const asb_uci::type::VisibleString256Type& value) {
   return setMDF_Name(value.c_str());
 }
 

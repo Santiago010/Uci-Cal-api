@@ -145,7 +145,7 @@ bool FileFormatType::isMIME() const noexcept {
 uci::type::MIME_Type& FileFormatType::chooseMIME(const std::string& /*method*/, uci::base::accessorType::AccessorType type) {
   nonMIME_Accessor.reset();
   if (!mIME_Accessor) {
-    mIME_Accessor = boost::make_unique<std::string>("");
+    mIME_Accessor = asb_uci::type::VisibleString256Type::create(type);
   }
   return *mIME_Accessor;
 }
@@ -272,4 +272,5 @@ void FileFormatType::destroy(uci::type::FileFormatType& accessor) {
 } // namespace type
 
 } // namespace uci
+
 

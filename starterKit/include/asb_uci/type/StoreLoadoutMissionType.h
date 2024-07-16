@@ -145,20 +145,20 @@ public:
   //   *
   //   * @return The contents of the Mnemonic field
   //   */
-  // const uci::type::VisibleString256Type& getMnemonic() const noexcept override;
+  // const asb_uci::type::VisibleString256Type& getMnemonic() const noexcept override;
 
   // /** Returns the contents of the message's Mnemonic field
   //   *
   //   * @return The contents of the Mnemonic field
   //   */
-  // uci::type::VisibleString256Type& getMnemonic() noexcept override;
+  // asb_uci::type::VisibleString256Type& getMnemonic() noexcept override;
 
   /** Sets the contents of the message's Mnemonic field
     *
     * @param value The new value to set the Mnemonic field to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::StoreLoadoutMissionType& setMnemonic(const uci::type::VisibleString256Type& value) override;
+  uci::type::StoreLoadoutMissionType& setMnemonic(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets the contents of the message's Mnemonic field
     *
@@ -206,7 +206,7 @@ public:
 
 private:
   std::unique_ptr<StoreType> storeType_Accessor;
-  std::unique_ptr<VisibleString256Type> mnemonic_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> mnemonic_Accessor;
 
 };
 

@@ -103,22 +103,22 @@ void StoreInformationBaseType::reset() noexcept {
   clearPowerable();
 }
 
-uci::type::VisibleString256Type& StoreInformationBaseType::getMnemonic_() const {
+asb_uci::type::VisibleString256Type& StoreInformationBaseType::getMnemonic_() const {
   if (mnemonic_Accessor) {
     return *mnemonic_Accessor;
   }
   throw uci::base::UCIException("Error in getMnemonic(): An attempt was made to get an optional field that was not enabled, call hasMnemonic() to determine if it is safe to call getMnemonic()");
 }
 
-const uci::type::VisibleString256Type& StoreInformationBaseType::getMnemonic() const {
+const asb_uci::type::VisibleString256Type& StoreInformationBaseType::getMnemonic() const {
   return getMnemonic_();
 }
 
-uci::type::VisibleString256Type& StoreInformationBaseType::getMnemonic() {
+asb_uci::type::VisibleString256Type& StoreInformationBaseType::getMnemonic() {
   return getMnemonic_();
 }
 
-uci::type::StoreInformationBaseType& StoreInformationBaseType::setMnemonic(const uci::type::VisibleString256Type& value) {
+uci::type::StoreInformationBaseType& StoreInformationBaseType::setMnemonic(const asb_uci::type::VisibleString256Type& value) {
   return setMnemonic(value.c_str());
 }
 
@@ -135,9 +135,9 @@ bool StoreInformationBaseType::hasMnemonic() const noexcept {
   return static_cast<bool>(mnemonic_Accessor);
 }
 
-uci::type::VisibleString256Type& StoreInformationBaseType::enableMnemonic(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& StoreInformationBaseType::enableMnemonic(uci::base::accessorType::AccessorType type) {
   if (!mnemonic_Accessor) {
-    mnemonic_Accessor = boost::make_unique<std::string>("");
+    mnemonic_Accessor =  asb_uci::type::VisibleString256Type::create(type);
   }
   return *mnemonic_Accessor;
 }

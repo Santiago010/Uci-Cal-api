@@ -142,22 +142,22 @@ uci::type::SubsystemCompletedBIT_Type& SubsystemCompletedBIT_Type::setResult(uci
 }
 
 
-std::string& SubsystemCompletedBIT_Type::getFailReason_() const {
+asb_uci::type::VisibleString256Type& SubsystemCompletedBIT_Type::getFailReason_() const {
   if (failReason_Accessor) {
     return *failReason_Accessor;
   }
   throw uci::base::UCIException("Error in getFailReason(): An attempt was made to get an optional field that was not enabled, call hasFailReason() to determine if it is safe to call getFailReason()");
 }
 
-const std::string& SubsystemCompletedBIT_Type::getFailReason() const {
+const asb_uci::type::VisibleString256Type& SubsystemCompletedBIT_Type::getFailReason() const {
   return getFailReason_();
 }
 
-std::string& SubsystemCompletedBIT_Type::getFailReason() {
+asb_uci::type::VisibleString256Type& SubsystemCompletedBIT_Type::getFailReason() {
   return getFailReason_();
 }
 
-uci::type::SubsystemCompletedBIT_Type& SubsystemCompletedBIT_Type::setFailReason(const uci::type::VisibleString256Type& value) {
+uci::type::SubsystemCompletedBIT_Type& SubsystemCompletedBIT_Type::setFailReason(const asb_uci::type::VisibleString256Type& value) {
   return setFailReason(value.c_str());
 }
 
@@ -166,7 +166,7 @@ uci::type::SubsystemCompletedBIT_Type& SubsystemCompletedBIT_Type::setFailReason
 }
 
 uci::type::SubsystemCompletedBIT_Type& SubsystemCompletedBIT_Type::setFailReason(const char* value) {
- failReason_Accessor = boost::make_unique<std::string>(value);
+  enableFailReason().setStringValue(value);
   return *this;
 }
 
@@ -174,9 +174,9 @@ bool SubsystemCompletedBIT_Type::hasFailReason() const noexcept {
   return static_cast<bool>(failReason_Accessor);
 }
 
-std::string& SubsystemCompletedBIT_Type::enableFailReason(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& SubsystemCompletedBIT_Type::enableFailReason(uci::base::accessorType::AccessorType type) {
   if (!failReason_Accessor) {
-    failReason_Accessor = boost::make_unique<std::string>("");
+    failReason_Accessor = asb_uci::type::VisibleString256Type::create(type);
   }
   return *failReason_Accessor;
 }
@@ -260,8 +260,7 @@ std::string SubsystemCompletedBIT_Type::serialize(const uci::type::SubsystemComp
   asb_uci::util::SerializationHelpers::serializeDateTime(accessor.getTimetag(), node, SubsystemCompletedBIT_Type_Names::Timetag_Name);
   SubsystemBIT_ResultEnum::serialize(accessor.getResult(), node, SubsystemCompletedBIT_Type_Names::Result_Name, false);
   if (accessor.hasFailReason()) {
-    // TODO:COMENTO ESTA LINEA PORUQE ACESSOR DEVUELVE UN STD::STRING Y ESO NO ES LO QUE NECESITA
-    // asb_uci::util::SerializationHelpers::serializeString(accessor.getFailReason(), node, SubsystemCompletedBIT_Type_Names::FailReason_Name);
+    asb_uci::util::SerializationHelpers::serializeString(accessor.getFailReason(), node, SubsystemCompletedBIT_Type_Names::FailReason_Name);
   }
   {
     const uci::type::SubsystemCompletedBIT_Type::BIT_Item& boundedList = accessor.getBIT_Item();

@@ -57,8 +57,9 @@ class ComponentID_Type;
 /** See annotations in child elements and messages/elements that use this type for details. */
 class TransceiverType : public virtual uci::type::TransceiverType {
 public:
+  //  TODO:BoundedListWithString
   /** Provides the version string for the Transceiver Software. [Occurrences: Minimum: 0; Maximum: MAX_LENGTH] */
-  using SoftwareVersion = asb_uci::base::BoundedList<uci::type::VisibleString256Type, uci::type::accessorType::visibleString256Type, asb_uci::type::VisibleString256Type>;
+  using SoftwareVersion = asb_uci::base::BoundedList<asb_uci::type::VisibleString256Type, uci::type::accessorType::visibleString256Type, asb_uci::type::VisibleString256Type>;
 
   /** Indicates the unique ID of the component referenced in the SubsystemConfiguration message. [Occurrences: Minimum: 0;
     * Maximum: MAX_LENGTH]

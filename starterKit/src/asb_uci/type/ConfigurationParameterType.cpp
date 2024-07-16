@@ -141,15 +141,15 @@ uci::type::ConfigurationParameterType& ConfigurationParameterType::setParameterI
   return *this;
 }
 
-const uci::type::VisibleString256Type& ConfigurationParameterType::getName() const noexcept {
+const asb_uci::type::VisibleString256Type& ConfigurationParameterType::getName() const noexcept {
   return *name_Accessor;
 }
 
-uci::type::VisibleString256Type& ConfigurationParameterType::getName() noexcept {
+asb_uci::type::VisibleString256Type& ConfigurationParameterType::getName() noexcept {
   return *name_Accessor;
 }
 
-uci::type::ConfigurationParameterType& ConfigurationParameterType::setName(const uci::type::VisibleString256Type& value) {
+uci::type::ConfigurationParameterType& ConfigurationParameterType::setName(const asb_uci::type::VisibleString256Type& value) {
   return setName(value.c_str());
 }
 
@@ -162,15 +162,15 @@ uci::type::ConfigurationParameterType& ConfigurationParameterType::setName(const
   return *this;
 }
 
-const uci::type::VisibleString256Type& ConfigurationParameterType::getValue() const noexcept {
+const asb_uci::type::VisibleString256Type& ConfigurationParameterType::getValue() const noexcept {
   return *value_Accessor;
 }
 
-uci::type::VisibleString256Type& ConfigurationParameterType::getValue() noexcept {
+asb_uci::type::VisibleString256Type& ConfigurationParameterType::getValue() noexcept {
   return *value_Accessor;
 }
 
-uci::type::ConfigurationParameterType& ConfigurationParameterType::setValue(const uci::type::VisibleString256Type& value) {
+uci::type::ConfigurationParameterType& ConfigurationParameterType::setValue(const asb_uci::type::VisibleString256Type& value) {
   return setValue(value.c_str());
 }
 
@@ -183,15 +183,15 @@ uci::type::ConfigurationParameterType& ConfigurationParameterType::setValue(cons
   return *this;
 }
 
-const uci::type::VisibleString256Type& ConfigurationParameterType::getDefaultValue() const noexcept {
+const asb_uci::type::VisibleString256Type& ConfigurationParameterType::getDefaultValue() const noexcept {
   return *defaultValue_Accessor;
 }
 
-uci::type::VisibleString256Type& ConfigurationParameterType::getDefaultValue() noexcept {
+asb_uci::type::VisibleString256Type& ConfigurationParameterType::getDefaultValue() noexcept {
   return *defaultValue_Accessor;
 }
 
-uci::type::ConfigurationParameterType& ConfigurationParameterType::setDefaultValue(const uci::type::VisibleString256Type& value) {
+uci::type::ConfigurationParameterType& ConfigurationParameterType::setDefaultValue(const asb_uci::type::VisibleString256Type& value) {
   return setDefaultValue(value.c_str());
 }
 

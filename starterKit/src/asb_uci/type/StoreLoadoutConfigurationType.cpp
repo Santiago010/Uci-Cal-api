@@ -81,15 +81,15 @@ void StoreLoadoutConfigurationType::reset() noexcept {
   hardpoint_Accessor->reset();
 }
 
-const uci::type::VisibleString256Type& StoreLoadoutConfigurationType::getMnemonic() const noexcept {
+const asb_uci::type::VisibleString256Type& StoreLoadoutConfigurationType::getMnemonic() const noexcept {
   return *mnemonic_Accessor;
 }
 
-uci::type::VisibleString256Type& StoreLoadoutConfigurationType::getMnemonic() noexcept {
+asb_uci::type::VisibleString256Type& StoreLoadoutConfigurationType::getMnemonic() noexcept {
   return *mnemonic_Accessor;
 }
 
-uci::type::StoreLoadoutConfigurationType& StoreLoadoutConfigurationType::setMnemonic(const uci::type::VisibleString256Type& value) {
+uci::type::StoreLoadoutConfigurationType& StoreLoadoutConfigurationType::setMnemonic(const asb_uci::type::VisibleString256Type& value) {
   return setMnemonic(value.c_str());
 }
 

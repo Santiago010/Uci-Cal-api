@@ -187,26 +187,26 @@ public:
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getReason_() const;
+  asb_uci::type::VisibleString256Type& getReason_() const;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  const uci::type::VisibleString256Type& getReason() const override;
+  const asb_uci::type::VisibleString256Type& getReason() const override;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getReason() override;
+  asb_uci::type::VisibleString256Type& getReason() override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
     * @param value The value to set the optional field to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::ReadinessItemStatusType& setReason(const uci::type::VisibleString256Type& value) override;
+  uci::type::ReadinessItemStatusType& setReason(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
@@ -234,7 +234,7 @@ public:
     * @param type The value to set the optional field to
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& enableReason(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
+  asb_uci::type::VisibleString256Type& enableReason(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
 
   /** Clears the optional item marking it as not being set.
     *
@@ -562,7 +562,7 @@ public:
 
 private:
   std::unique_ptr<OperationalStatusEnum> operationalStatus_Accessor;
-  std::unique_ptr<VisibleString256Type> reason_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> reason_Accessor;
   std::unique_ptr<SystemStatusMDT> systemStatus_Accessor;
   std::unique_ptr<SubsystemStatus> subsystemStatus_Accessor;
   std::unique_ptr<SubsystemConfiguration> subsystemConfiguration_Accessor;

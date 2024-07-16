@@ -63,8 +63,9 @@ public:
   /** Indicates the unique ID or IDs of the BIT or BITs to cancel. [Occurrences: Minimum: 1; Maximum: MAX_LENGTH] */
   using CancelBIT_ID = asb_uci::base::BoundedList<uci::type::BIT_ID_Type, uci::type::accessorType::bIT_ID_Type, asb_uci::type::BIT_ID_Type>;
 
+  //  TODO:BoundedListWithString
   /** Indicates the "codes" or names of the faults to clear. [Occurrences: Minimum: 1; Maximum: MAX_LENGTH] */
-  using ClearFaultCode = asb_uci::base::BoundedList<uci::type::VisibleString256Type, uci::type::accessorType::visibleString256Type, asb_uci::type::VisibleString256Type>;
+  using ClearFaultCode = asb_uci::base::BoundedList<asb_uci::type::VisibleString256Type, uci::type::accessorType::visibleString256Type, asb_uci::type::VisibleString256Type>;
 
   /** The constructor */
   SubsystemBIT_CommandType();

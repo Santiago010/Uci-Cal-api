@@ -110,20 +110,20 @@ public:
     *
     * @return The contents of the BIT_ItemName field
     */
-  const uci::type::VisibleString256Type& getBIT_ItemName() const noexcept override;
+  const asb_uci::type::VisibleString256Type& getBIT_ItemName() const noexcept override;
 
   /** Returns the contents of the message's BIT_ItemName field
     *
     * @return The contents of the BIT_ItemName field
     */
-  uci::type::VisibleString256Type& getBIT_ItemName() noexcept override;
+  asb_uci::type::VisibleString256Type& getBIT_ItemName() noexcept override;
 
   /** Sets the contents of the message's BIT_ItemName field
     *
     * @param value The new value to set the BIT_ItemName field to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::SubsystemCompletedBIT_ItemType& setBIT_ItemName(const uci::type::VisibleString256Type& value) override;
+  uci::type::SubsystemCompletedBIT_ItemType& setBIT_ItemName(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets the contents of the message's BIT_ItemName field
     *
@@ -169,26 +169,26 @@ public:
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getFailReason_() const;
+  asb_uci::type::VisibleString256Type& getFailReason_() const;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  const uci::type::VisibleString256Type& getFailReason() const override;
+  const asb_uci::type::VisibleString256Type& getFailReason() const override;
 
   /** Returns the value of the optional field accessed by this accesor
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getFailReason() override;
+  asb_uci::type::VisibleString256Type& getFailReason() override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
     * @param value The value to set the optional field to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::SubsystemCompletedBIT_ItemType& setFailReason(const uci::type::VisibleString256Type& value) override;
+  uci::type::SubsystemCompletedBIT_ItemType& setFailReason(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets the value of the optional field accessed by this accesor
     *
@@ -216,7 +216,7 @@ public:
     * @param type The value to set the optional field to
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& enableFailReason(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
+  asb_uci::type::VisibleString256Type& enableFailReason(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
 
   /** Clears the optional item marking it as not being set.
     *
@@ -255,9 +255,9 @@ public:
   static std::string serialize(const uci::type::SubsystemCompletedBIT_ItemType& accessor, boost::property_tree::ptree& propTree, const std::string& nodeName, bool createNode = true, bool addTypeAttribute = false, bool checkIfDerivation = true, bool topLevel = false);
 
 private:
-  std::unique_ptr<VisibleString256Type> bIT_ItemName_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> bIT_ItemName_Accessor;
   std::unique_ptr<SubsystemBIT_ResultEnum> result_Accessor;
-  std::unique_ptr<VisibleString256Type> failReason_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> failReason_Accessor;
 
 };
 

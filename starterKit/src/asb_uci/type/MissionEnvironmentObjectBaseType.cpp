@@ -83,15 +83,15 @@ void MissionEnvironmentObjectBaseType::reset() noexcept {
   value_Accessor->reset();
 }
 
-const uci::type::VisibleString256Type& MissionEnvironmentObjectBaseType::getValue() const noexcept {
+const asb_uci::type::VisibleString256Type& MissionEnvironmentObjectBaseType::getValue() const noexcept {
   return *value_Accessor;
 }
 
-uci::type::VisibleString256Type& MissionEnvironmentObjectBaseType::getValue() noexcept {
+asb_uci::type::VisibleString256Type& MissionEnvironmentObjectBaseType::getValue() noexcept {
   return *value_Accessor;
 }
 
-uci::type::MissionEnvironmentObjectBaseType& MissionEnvironmentObjectBaseType::setValue(const uci::type::VisibleString256Type& value) {
+uci::type::MissionEnvironmentObjectBaseType& MissionEnvironmentObjectBaseType::setValue(const asb_uci::type::VisibleString256Type& value) {
   return setValue(value.c_str());
 }
 

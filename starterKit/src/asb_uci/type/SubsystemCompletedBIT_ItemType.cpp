@@ -86,15 +86,15 @@ void SubsystemCompletedBIT_ItemType::reset() noexcept {
   failReason_Accessor.reset();
 }
 
-const uci::type::VisibleString256Type& SubsystemCompletedBIT_ItemType::getBIT_ItemName() const noexcept {
+const asb_uci::type::VisibleString256Type& SubsystemCompletedBIT_ItemType::getBIT_ItemName() const noexcept {
   return *bIT_ItemName_Accessor;
 }
 
-uci::type::VisibleString256Type& SubsystemCompletedBIT_ItemType::getBIT_ItemName() noexcept {
+asb_uci::type::VisibleString256Type& SubsystemCompletedBIT_ItemType::getBIT_ItemName() noexcept {
   return *bIT_ItemName_Accessor;
 }
 
-uci::type::SubsystemCompletedBIT_ItemType& SubsystemCompletedBIT_ItemType::setBIT_ItemName(const uci::type::VisibleString256Type& value) {
+uci::type::SubsystemCompletedBIT_ItemType& SubsystemCompletedBIT_ItemType::setBIT_ItemName(const asb_uci::type::VisibleString256Type& value) {
   return setBIT_ItemName(value.c_str());
 }
 
@@ -128,22 +128,22 @@ uci::type::SubsystemCompletedBIT_ItemType& SubsystemCompletedBIT_ItemType::setRe
 }
 
 
-uci::type::VisibleString256Type& SubsystemCompletedBIT_ItemType::getFailReason_() const {
+asb_uci::type::VisibleString256Type& SubsystemCompletedBIT_ItemType::getFailReason_() const {
   if (failReason_Accessor) {
     return *failReason_Accessor;
   }
   throw uci::base::UCIException("Error in getFailReason(): An attempt was made to get an optional field that was not enabled, call hasFailReason() to determine if it is safe to call getFailReason()");
 }
 
-const uci::type::VisibleString256Type& SubsystemCompletedBIT_ItemType::getFailReason() const {
+const asb_uci::type::VisibleString256Type& SubsystemCompletedBIT_ItemType::getFailReason() const {
   return getFailReason_();
 }
 
-uci::type::VisibleString256Type& SubsystemCompletedBIT_ItemType::getFailReason() {
+asb_uci::type::VisibleString256Type& SubsystemCompletedBIT_ItemType::getFailReason() {
   return getFailReason_();
 }
 
-uci::type::SubsystemCompletedBIT_ItemType& SubsystemCompletedBIT_ItemType::setFailReason(const uci::type::VisibleString256Type& value) {
+uci::type::SubsystemCompletedBIT_ItemType& SubsystemCompletedBIT_ItemType::setFailReason(const asb_uci::type::VisibleString256Type& value) {
   return setFailReason(value.c_str());
 }
 
@@ -160,9 +160,9 @@ bool SubsystemCompletedBIT_ItemType::hasFailReason() const noexcept {
   return static_cast<bool>(failReason_Accessor);
 }
 
-uci::type::VisibleString256Type& SubsystemCompletedBIT_ItemType::enableFailReason(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& SubsystemCompletedBIT_ItemType::enableFailReason(uci::base::accessorType::AccessorType type) {
   if (!failReason_Accessor) {
-    failReason_Accessor = boost::make_unique<std::string>("");
+    failReason_Accessor = asb_uci::type::VisibleString256Type::create(type);
   }
   return *failReason_Accessor;
 }

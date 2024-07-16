@@ -118,7 +118,7 @@ public:
   /** Indicates the name of a non-Component, non-Capability item tested by the BIT. BIT items can be logical or physical,
     * singular or aggregated. [Occurrences: Minimum: 0; Maximum: MAX_LENGTH]
     */
-  typedef uci::base::BoundedList<uci::type::VisibleString256Type, uci::type::accessorType::visibleString256Type> BIT_ItemName;
+  typedef uci::base::BoundedList<asb_uci::type::VisibleString256Type, uci::type::accessorType::visibleString256Type> BIT_ItemName;
 
   /** Indicates a Component that is at least partially tested by the BIT. [Occurrences: Minimum: 0; Maximum: MAX_LENGTH] */
   typedef uci::base::BoundedList<uci::type::ComponentID_Type, uci::type::accessorType::componentID_Type> SubsystemComponentID;

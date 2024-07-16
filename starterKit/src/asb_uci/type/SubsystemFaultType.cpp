@@ -304,15 +304,15 @@ uci::type::SubsystemFaultType& SubsystemFaultType::clearDetectionTime() noexcept
   return *this;
 }
 
-const uci::type::VisibleString256Type& SubsystemFaultType::getFaultCode() const noexcept {
+const asb_uci::type::VisibleString256Type& SubsystemFaultType::getFaultCode() const noexcept {
   return *faultCode_Accessor;
 }
 
-uci::type::VisibleString256Type& SubsystemFaultType::getFaultCode() noexcept {
+asb_uci::type::VisibleString256Type& SubsystemFaultType::getFaultCode() noexcept {
   return *faultCode_Accessor;
 }
 
-uci::type::SubsystemFaultType& SubsystemFaultType::setFaultCode(const uci::type::VisibleString256Type& value) {
+uci::type::SubsystemFaultType& SubsystemFaultType::setFaultCode(const asb_uci::type::VisibleString256Type& value) {
   return setFaultCode(value.c_str());
 }
 
@@ -346,22 +346,22 @@ uci::type::SubsystemFaultType& SubsystemFaultType::clearFaultCodeCount() noexcep
   return *this;
 }
 
-uci::type::VisibleString256Type& SubsystemFaultType::getFaultDescription_() const {
+asb_uci::type::VisibleString256Type& SubsystemFaultType::getFaultDescription_() const {
   if (faultDescription_Accessor) {
     return *faultDescription_Accessor;
   }
   throw uci::base::UCIException("Error in getFaultDescription(): An attempt was made to get an optional field that was not enabled, call hasFaultDescription() to determine if it is safe to call getFaultDescription()");
 }
 
-const uci::type::VisibleString256Type& SubsystemFaultType::getFaultDescription() const {
+const asb_uci::type::VisibleString256Type& SubsystemFaultType::getFaultDescription() const {
   return getFaultDescription_();
 }
 
-uci::type::VisibleString256Type& SubsystemFaultType::getFaultDescription() {
+asb_uci::type::VisibleString256Type& SubsystemFaultType::getFaultDescription() {
   return getFaultDescription_();
 }
 
-uci::type::SubsystemFaultType& SubsystemFaultType::setFaultDescription(const uci::type::VisibleString256Type& value) {
+uci::type::SubsystemFaultType& SubsystemFaultType::setFaultDescription(const asb_uci::type::VisibleString256Type& value) {
   return setFaultDescription(value.c_str());
 }
 
@@ -378,9 +378,9 @@ bool SubsystemFaultType::hasFaultDescription() const noexcept {
   return static_cast<bool>(faultDescription_Accessor);
 }
 
-uci::type::VisibleString256Type& SubsystemFaultType::enableFaultDescription(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& SubsystemFaultType::enableFaultDescription(uci::base::accessorType::AccessorType type) {
   if (!faultDescription_Accessor) {
-    faultDescription_Accessor = boost::make_unique<std::string>("");
+    faultDescription_Accessor =  asb_uci::type::VisibleString256Type::create(type);
   }
   return *faultDescription_Accessor;
 }

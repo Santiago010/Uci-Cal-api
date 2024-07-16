@@ -109,20 +109,20 @@ public:
     *
     * @return The contents of the Value field
     */
-  const uci::type::VisibleString256Type& getValue() const noexcept override;
+  const asb_uci::type::VisibleString256Type& getValue() const noexcept override;
 
   /** Returns the contents of the message's Value field
     *
     * @return The contents of the Value field
     */
-  uci::type::VisibleString256Type& getValue() noexcept override;
+  asb_uci::type::VisibleString256Type& getValue() noexcept override;
 
   /** Sets the contents of the message's Value field
     *
     * @param value The new value to set the Value field to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::MissionEnvironmentObjectBaseType& setValue(const uci::type::VisibleString256Type& value) override;
+  uci::type::MissionEnvironmentObjectBaseType& setValue(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets the contents of the message's Value field
     *
@@ -169,7 +169,7 @@ public:
   static std::string serialize(const uci::type::MissionEnvironmentObjectBaseType& accessor, boost::property_tree::ptree& propTree, const std::string& nodeName, bool createNode = true, bool addTypeAttribute = false, bool checkIfDerivation = true, bool topLevel = false);
 
 private:
-  std::unique_ptr<VisibleString256Type> value_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> value_Accessor;
 
 };
 

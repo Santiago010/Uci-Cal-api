@@ -113,13 +113,13 @@ public:
     *
     * @return A const reference to the accessor that provides access to the string identified by Key.
     */
-  virtual const uci::type::VisibleString256Type& getKey() const = 0;
+  virtual const asb_uci::type::VisibleString256Type& getKey() const = 0;
 
   /** Returns a reference to the accessor that provides access to the string identified by Key.
     *
     * @return A reference to the accessor that provides access to the string identified by Key.
     */
-  virtual uci::type::VisibleString256Type& getKey() = 0;
+  virtual asb_uci::type::VisibleString256Type& getKey() = 0;
 
   /** Sets the string identified by Key to the contents of the string accessed by the specified accessor.
     *
@@ -127,7 +127,7 @@ public:
     *      string identified by Key.
     * @return A reference to the object on which this method was called.
     */
-  virtual uci::type::ForeignKeyType& setKey(const uci::type::VisibleString256Type& value) = 0;
+  virtual uci::type::ForeignKeyType& setKey(const asb_uci::type::VisibleString256Type& value) = 0;
 
   /** Sets the string identified by Key to the contents of the string that is accessed by the specified accessor.
     *
@@ -147,13 +147,13 @@ public:
     *
     * @return A const reference to the accessor that provides access to the string identified by SystemName.
     */
-  virtual const uci::type::VisibleString256Type& getSystemName() const = 0;
+  virtual const asb_uci::type::VisibleString256Type& getSystemName() const = 0;
 
   /** Returns a reference to the accessor that provides access to the string identified by SystemName.
     *
     * @return A reference to the accessor that provides access to the string identified by SystemName.
     */
-  virtual uci::type::VisibleString256Type& getSystemName() = 0;
+  virtual asb_uci::type::VisibleString256Type& getSystemName() = 0;
 
   /** Sets the string identified by SystemName to the contents of the string accessed by the specified accessor.
     *
@@ -161,7 +161,7 @@ public:
     *      string identified by SystemName.
     * @return A reference to the object on which this method was called.
     */
-  virtual uci::type::ForeignKeyType& setSystemName(const uci::type::VisibleString256Type& value) = 0;
+  virtual uci::type::ForeignKeyType& setSystemName(const asb_uci::type::VisibleString256Type& value) = 0;
 
   /** Sets the string identified by SystemName to the contents of the string that is accessed by the specified accessor.
     *

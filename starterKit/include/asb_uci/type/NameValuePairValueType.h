@@ -356,26 +356,26 @@ public:
     *
     * @return The value of the optional field
     */
-  uci::type::VisibleString256Type& getStringValue_() const;
+  asb_uci::type::VisibleString256Type& getStringValue_() const;
 
   /** Returns the contents of the message's StringValue item
     *
     * @return The contents of the StringValue field
     */
-  const uci::type::VisibleString256Type& getStringValue() const override;
+  const asb_uci::type::VisibleString256Type& getStringValue() const override;
 
   /** Returns the contents of the message's StringValue item
     *
     * @return The contents of the StringValue field
     */
-  uci::type::VisibleString256Type& getStringValue() override;
+  asb_uci::type::VisibleString256Type& getStringValue() override;
 
   /** Sets this choice's choice to be StringValue and initializes StringValue to be the specified value
     *
     * @param value The new value to set StringValue to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::NameValuePairValueType& setStringValue(const uci::type::VisibleString256Type& value) override;
+  uci::type::NameValuePairValueType& setStringValue(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets this choice's choice to be StringValue and initializes StringValue to be the specified value
     *
@@ -409,7 +409,7 @@ public:
     *      base type.
     * @return A reference to the accessor that provides access to the choice identified by StringValue.
     */
-  uci::type::VisibleString256Type& chooseStringValue(const std::string& method, uci::base::accessorType::AccessorType type = uci::base::accessorType::null);
+  asb_uci::type::VisibleString256Type& chooseStringValue(const std::string& method, uci::base::accessorType::AccessorType type = uci::base::accessorType::null);
 
   /** Sets this choice's "selection ordinal" to the choice identified by StringValue.
     *
@@ -422,7 +422,7 @@ public:
     *      base type.
     * @return A reference to the accessor that provides access to the choice identified by StringValue.
     */
-  uci::type::VisibleString256Type& chooseStringValue(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
+  asb_uci::type::VisibleString256Type& chooseStringValue(uci::base::accessorType::AccessorType type = uci::base::accessorType::null) override;
 
   /** 
     *
@@ -465,7 +465,7 @@ private:
   boost::optional<asb_xs::Long> longValue_Accessor;
   boost::optional<asb_xs::Float> floatValue_Accessor;
   boost::optional<asb_xs::Double> doubleValue_Accessor;
-  std::unique_ptr<VisibleString256Type> stringValue_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> stringValue_Accessor;
 
 };
 

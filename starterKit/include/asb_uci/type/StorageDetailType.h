@@ -110,20 +110,20 @@ public:
     *
     * @return The contents of the StorageDeviceName field
     */
-  const uci::type::VisibleString256Type& getStorageDeviceName() const noexcept override;
+  const asb_uci::type::VisibleString256Type& getStorageDeviceName() const noexcept override;
 
   /** Returns the contents of the message's StorageDeviceName field
     *
     * @return The contents of the StorageDeviceName field
     */
-  uci::type::VisibleString256Type& getStorageDeviceName() noexcept override;
+  asb_uci::type::VisibleString256Type& getStorageDeviceName() noexcept override;
 
   /** Sets the contents of the message's StorageDeviceName field
     *
     * @param value The new value to set the StorageDeviceName field to
     * @return A reference to the object on which this method was called.
     */
-  uci::type::StorageDetailType& setStorageDeviceName(const uci::type::VisibleString256Type& value) override;
+  uci::type::StorageDetailType& setStorageDeviceName(const asb_uci::type::VisibleString256Type& value) override;
 
   /** Sets the contents of the message's StorageDeviceName field
     *
@@ -209,7 +209,7 @@ public:
   static std::string serialize(const uci::type::StorageDetailType& accessor, boost::property_tree::ptree& propTree, const std::string& nodeName, bool createNode = true, bool addTypeAttribute = false, bool checkIfDerivation = true, bool topLevel = false);
 
 private:
-  std::unique_ptr<VisibleString256Type> storageDeviceName_Accessor;
+  std::unique_ptr<asb_uci::type::VisibleString256Type> storageDeviceName_Accessor;
   asb_xs::UnsignedInt size_Accessor{0};
   asb_xs::UnsignedInt used_Accessor{0};
   asb_xs::UnsignedInt available_Accessor{0};

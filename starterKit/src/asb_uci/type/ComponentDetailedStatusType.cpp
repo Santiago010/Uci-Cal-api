@@ -170,22 +170,22 @@ uci::type::ComponentDetailedStatusType& ComponentDetailedStatusType::clearCompon
   return *this;
 }
 
-uci::type::VisibleString256Type& ComponentDetailedStatusType::getComponentElementDescription_() const {
+asb_uci::type::VisibleString256Type& ComponentDetailedStatusType::getComponentElementDescription_() const {
   if (componentElementDescription_Accessor) {
     return *componentElementDescription_Accessor;
   }
   throw uci::base::UCIException("Error in getComponentElementDescription(): An attempt was made to get an optional field that was not enabled, call hasComponentElementDescription() to determine if it is safe to call getComponentElementDescription()");
 }
 
-const uci::type::VisibleString256Type& ComponentDetailedStatusType::getComponentElementDescription() const {
+const asb_uci::type::VisibleString256Type& ComponentDetailedStatusType::getComponentElementDescription() const {
   return getComponentElementDescription_();
 }
 
-uci::type::VisibleString256Type& ComponentDetailedStatusType::getComponentElementDescription() {
+asb_uci::type::VisibleString256Type& ComponentDetailedStatusType::getComponentElementDescription() {
   return getComponentElementDescription_();
 }
 
-uci::type::ComponentDetailedStatusType& ComponentDetailedStatusType::setComponentElementDescription(const uci::type::VisibleString256Type& value) {
+uci::type::ComponentDetailedStatusType& ComponentDetailedStatusType::setComponentElementDescription(const asb_uci::type::VisibleString256Type& value) {
   return setComponentElementDescription(value.c_str());
 }
 
@@ -202,9 +202,9 @@ bool ComponentDetailedStatusType::hasComponentElementDescription() const noexcep
   return static_cast<bool>(componentElementDescription_Accessor);
 }
 
-uci::type::VisibleString256Type& ComponentDetailedStatusType::enableComponentElementDescription(uci::base::accessorType::AccessorType type) {
+asb_uci::type::VisibleString256Type& ComponentDetailedStatusType::enableComponentElementDescription(uci::base::accessorType::AccessorType type) {
   if (!componentElementDescription_Accessor) {
-    componentElementDescription_Accessor = boost::make_unique<std::string>("");
+    componentElementDescription_Accessor =  asb_uci::type::VisibleString256Type::create(type);
   }
   return *componentElementDescription_Accessor;
 }

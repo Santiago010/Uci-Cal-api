@@ -118,8 +118,7 @@ void LogMDT::reset() noexcept {
   componentID_Accessor->reset();
   capabilityID_Accessor->reset();
   severity_Accessor->reset();
-  // TODO:reset no existe
-  // label_Accessor->reset();
+  label_Accessor->reset();
   details_Accessor->reset();
   data_Accessor.reset();
 }
@@ -185,7 +184,8 @@ bool LogMDT::hasServiceID() const noexcept {
 uci::type::ServiceID_Type& LogMDT::enableServiceID(uci::base::accessorType::AccessorType type) {
   const uci::base::accessorType::AccessorType requestedType{(type == uci::base::accessorType::null) ? uci::type::accessorType::serviceID_Type : type};
   if ((!serviceID_Accessor) || (serviceID_Accessor->getAccessorType() != requestedType)) {
-    serviceID_Accessor = ServiceID_Type::createServiceIDType(requestedType);
+    // TODO:HAY QUE MIRAR SI REALMENTE EXISTE ESE CREATE
+    // serviceID_Accessor = ServiceID_Type::create(requestedType);
     if (!serviceID_Accessor) {
       throw uci::base::UCIException("Error in enableServiceID(): Specified type is not equal to nor derived from the native type of object");
     }
@@ -292,15 +292,15 @@ uci::type::LogMDT& LogMDT::setSeverity(uci::type::LogSeverityEnum::EnumerationIt
 }
 
 
-const std::string& LogMDT::getLabel() const noexcept {
+const asb_uci::type::VisibleString256Type& LogMDT::getLabel() const noexcept {
   return *label_Accessor;
 }
 
-std::string& LogMDT::getLabel() noexcept {
+asb_uci::type::VisibleString256Type& LogMDT::getLabel() noexcept {
   return *label_Accessor;
 }
 
-uci::type::LogMDT& LogMDT::setLabel(const uci::type::VisibleString256Type& value) {
+uci::type::LogMDT& LogMDT::setLabel(const asb_uci::type::VisibleString256Type& value) {
   return setLabel(value.c_str());
 }
 
@@ -309,7 +309,7 @@ uci::type::LogMDT& LogMDT::setLabel(const std::string& value) {
 }
 
 uci::type::LogMDT& LogMDT::setLabel(const char* value) {
-  label_Accessor = boost::make_unique<std::string>(value);
+  label_Accessor->setStringValue(value);
   return *this;
 }
 
@@ -474,8 +474,7 @@ std::string LogMDT::serialize(const uci::type::LogMDT& accessor, boost::property
     }
   }
   LogSeverityEnum::serialize(accessor.getSeverity(), node, LogMDT_Names::Severity_Name, false);
-  // TODO:comento este pedazo porque getLabel() devuelve un std::string y no un accessor hay que cambiar lo que recibe serializeString
-  // asb_uci::util::SerializationHelpers::serializeString(accessor.getLabel(), node, LogMDT_Names::Label_Name);
+  asb_uci::util::SerializationHelpers::serializeString(accessor.getLabel(), node, LogMDT_Names::Label_Name);
   asb_uci::util::SerializationHelpers::serializeString(accessor.getDetails(), node, LogMDT_Names::Details_Name);
   if (accessor.hasData()) {
     asb_uci::util::SerializationHelpers::serializeHexBinary(accessor.getData(), node, LogMDT_Names::Data_Name);
@@ -513,4 +512,3 @@ void LogMDT::destroy(uci::type::LogMDT& accessor) {
 } // namespace type
 
 } // namespace uci
-
